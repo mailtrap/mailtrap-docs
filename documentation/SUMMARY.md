@@ -78,7 +78,7 @@
 * [Billing setup](account-and-billing/billing-setup.md)
 * [Payment and billing FAQs](account-and-billing/payment-and-billing-faqs.md)
 * [Payment issues](account-and-billing/payment-issues.md)
-* [Supporting Non-Profit and Open-Source Projects](account-and-billing/supporting-non-profit-and-open-source-projects.md)
+* [Non-Profit and Open-Source Projects](account-and-billing/supporting-non-profit-and-open-source-projects.md)
 * [Suspensions and Bans](account-and-billing/suspensions-and-bans.md)
 
 ## User Management

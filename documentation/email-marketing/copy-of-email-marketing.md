@@ -1,10 +1,9 @@
 ---
 title: Email Marketing Campaigns
 description: Set up and send email marketing campaigns to your contact lists
-icon: exclamation
 ---
 
-# Copy of Email Marketing
+# Email Marketing
 
 Make sure you've added and verified a domain, or you won't be able to send a campaign.
 
