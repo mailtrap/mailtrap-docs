@@ -34,7 +34,12 @@
 * [Auto BCC](email-api-smtp/auto-bcc.md)
 * [Excluding Specific Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
 * [FAQs](email-api-smtp/faqs.md)
-* [Troubleshooting](email-api-smtp/troubleshooting.md)
+* [Troubleshooting](email-api-smtp/troubleshooting/README.md)
+  * [Unauthorized Error (401 Code)](email-api-smtp/troubleshooting/unauthorized-401-error.md)
+  * [Sending from Domain Not Allowed](email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md)
+  * [From Header Domain Mismatch](email-api-smtp/troubleshooting/from-header-domain-mismatch.md)
+  * [SSL Cipher Overlap Error](email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md)
+  * [MS Office 365 Quarantine](email-api-smtp/troubleshooting/ms-office-365-quarantine.md)
 
 ## Sandbox
 

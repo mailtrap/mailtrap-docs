@@ -6,6 +6,8 @@ icon: exclamation
 
 # Email API/SMTP - FAQs
 
+This page covers frequently asked questions about Mailtrap Email API/SMTP. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting/).
+
 ## Getting Started
 
 {% expand title="What is Mailtrap?" %}
@@ -114,21 +116,5 @@ For more details, refer to our:
 {% endexpand %}
 
 {% expand title="Do you have a bug bounty program?" %}
-We do not. In case you have found a vulnerability on our website that you are eager to report to us, you are welcome to do so at support@mailtrap.io. All issue reporters will be mentioned on our [changelog page](https://mailtrap.io/changelog/).
-{% endexpand %}
-
-## Troubleshooting
-
-{% expand title="I have a problem integrating Mailtrap with my app; what should I do?" %}
-Visit the [Troubleshooting section](troubleshooting.md) for answers to the most common problems, or contact our support at [support@mailtrap.io](mailto:support@mailtrap.io).
-{% endexpand %}
-
-{% expand title="I'm getting an 'Unauthorised' error (401 code)" %}
-There are several reasons why you might be getting the "Unauthorised" error:
-
-- Make sure you're sending from the domain that you've set up and verified. Using any other domain will result in the given error.
-- If you've configured a custom token for your domain - make sure it has proper permissions to send emails.
-- Make sure you're using the correct SMTP/API credentials provided in the Integration tab of your domain.
-
-For detailed troubleshooting steps and screenshots, see the [Troubleshooting section](troubleshooting.md#im-getting-an-unauthorised-error-401-code-93cbf).
+We do not. In case you have found a vulnerability on our website that you are eager to report to us, you are welcome to do so at [support@mailtrap.io](mailto:support@mailtrap.io). All issue reporters will be mentioned on our [changelog page](https://mailtrap.io/changelog/).
 {% endexpand %}

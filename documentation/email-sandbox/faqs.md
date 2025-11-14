@@ -6,6 +6,8 @@ icon: exclamation
 
 # Email Sandbox - FAQs
 
+This page covers frequently asked questions about Mailtrap Email Sandbox. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting.md).
+
 ## Integration & Setup
 
 {% expand title="How do I integrate Email Sandbox with my application?" %}
@@ -90,14 +92,4 @@ Email Sandbox provides a free subscription plan for new users who want to evalua
 For larger teams, we offer sets of features within several paid subscription plans, starting from $17/month.
 
 To choose one that best fits your needs, check our pricing plans at [mailtrap.io/pricing](https://mailtrap.io/pricing/?tab=sandbox).
-{% endexpand %}
-
-## Troubleshooting
-
-{% expand title="My sandboxes disappeared" %}
-Sandboxes that are shared with you are moved to the top right menu. Switch to the shared account by clicking on its name.
-{% endexpand %}
-
-{% expand title="I have a problem integrating Sandbox with my app, what should I do?" %}
-Visit the [Troubleshooting section](troubleshooting.md) for answers to the most common problems, or contact our support at [support@mailtrap.io](mailto:support@mailtrap.io).
 {% endexpand %}
