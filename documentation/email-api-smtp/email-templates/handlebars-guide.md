@@ -34,7 +34,7 @@ If you want to do a replacement with HTML, use triple brackets `{{{value_with_ht
 
 **Template**
 
-```markup
+```html
 <p>Hello {{firstName}} {{lastName}}!</p>
 <p>Click this <a href="{{url}}">link</a></p>
 <p>{{company.name}}, {{company.adress}}</p>
@@ -58,7 +58,7 @@ If you want to do a replacement with HTML, use triple brackets `{{{value_with_ht
 
 **HTML output**
 
-```markup
+```html
 <p>Hello John Smith!</p>
 <p>Click this <a href="http://example.com">link</a></p>
 <p>Best Company, Its Address</p>
@@ -77,7 +77,7 @@ Should the argument return `""`, `0`, `nil`, `false`, `empty_map`, `empty_slice`
 
 **Template**
 
-```markup
+```html
 {{#if user.isSubscribed}}
   <p>Hello {{user.name}},</p>
   <p>Thank you for subscribing to our newsletter!</p>
@@ -100,14 +100,14 @@ Should the argument return `""`, `0`, `nil`, `false`, `empty_map`, `empty_slice`
 
 **HTML email output**
 
-```markup
+```html
   <p>Hello Jane Doe,</p>
   <p>Thank you for subscribing to our newsletter!</p>
 ```
 
 If you change the `isSubscribed` variable to `false` in JSON data, the HTML output is:
 
-```markup
+```html
   <p>Hello Jane Doe,</p>
   <p>We noticed that you have not yet subscribed to our newsletter. Click <a href='#'>here</a> to subscribe.</p>
 ```
@@ -122,7 +122,7 @@ The `unless` block helper works like an inverse `if`. Simply put, it renders whe
 
 **Template**
 
-```markup
+```html
 {{#unless user.isSubscribed}}
   <p>Hello {{user.name}},</p>
   <p>We noticed that you have not yet subscribed to our newsletter. Click <a href='#'>here</a> to subscribe.</p>
@@ -169,7 +169,7 @@ In the example below, `{{#each user.items}}` iterate over the `user.items` array
 
 **Template**
 
-```markup
+```html
 {{#each user.items}}
   <p>Item: {{this}}</p>
 {{/each}}
@@ -188,7 +188,7 @@ In the example below, `{{#each user.items}}` iterate over the `user.items` array
 
 **HTML email output**
 
-```markup
+```html
   <p>Item: Item 1</p>
   <p>Item: Item 2</p>
   <p>Item: Item 3</p>
@@ -196,7 +196,7 @@ In the example below, `{{#each user.items}}` iterate over the `user.items` array
 
 **Template with else block**
 
-```markup
+```html
 {{#each user.items}}
   <p>Item: {{this}}</p>
 {{else}}
@@ -217,7 +217,7 @@ In the example below, `{{#each user.items}}` iterate over the `user.items` array
 
 **HTML email output**
 
-```markup
+```html
 <p>No items found</p>
 ```
 
@@ -229,7 +229,7 @@ In the example below, the `{{with user}}` block sets the context for the user ob
 
 **Template**
 
-```markup
+```html
 {{#with user}}
   <p>Name: {{name}}</p>
   <p>Email: {{email}}</p>
@@ -287,7 +287,7 @@ The following example contains the majority of Handlebars helpers explained abov
 
 **Email template in HTML:**
 
-```markup
+```html
 <html>
   <body>
     <h1>Order Confirmation</h1>
@@ -370,7 +370,7 @@ The following example contains the majority of Handlebars helpers explained abov
 
 **HTML email output:**
 
-```markup
+```html
 <html>
   <body>
     <h1>Order Confirmation</h1>
