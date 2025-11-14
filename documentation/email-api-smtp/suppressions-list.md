@@ -20,6 +20,8 @@ layout:
     visible: true
 ---
 
+# Suppressions list
+
 When hard bounce, unsubscribe, and spam complaints events occur, Mailtrap adds the email address to a suppression list. The suppression list contains all the addresses you cannot send emails to.
 
 You'll find all the addresses on suppression lists in the **Suppressions** menu to the left.
@@ -32,7 +34,7 @@ You can export the whole Suppressions list.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-export.png" alt="Suppressions list showing suppressed email addresses with Export in CSV button" width="563"></div>
 
-## How to remove an email from a suppression list
+### How to remove an email from a suppression list
 
 If you believe an email landed on a suppression list by accident, you can remove it by clicking the **Reactivate** button to the right.
 
@@ -42,7 +44,7 @@ However, we advise you not to misuse the feature.
 
 If someone decided to report your message as spam or leave your email list, you really don’t want to be emailing them again (unless they explicitly told you they had done it by mistake). Any further attempts will probably result in the same outcome, immediately hurting your email deliverability.
 
-## Suppression list filters
+### Suppression list filters
 
 You can filter the suppression list for:
 
@@ -53,11 +55,11 @@ You can filter the suppression list for:
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-filters.png" alt="Filter interface showing Email, Type, and Domain filter options" height="129" width="624"></div>
 
-## How to add recipients to the suppression list
+### How to add recipients to the suppression list
 
 Mailtrap allows you to add recipients manually or upload CSV.
 
-### Manual method
+#### Manual method
 
 Select Insert manually. Then, under Add to stream, choose Bulk, Transactional, or Any. Under Add to domain, choose all or one of your domains.
 
@@ -73,25 +75,25 @@ Note that there's also the **Add New/Import** button at the top right of the scr
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-add-new-import-button.png" alt="Suppressions list header with Add New/Import button highlighted" height="92" width="624"></div>
 
-### Upload CSV
+#### Upload CSV
 
 Before you upload CSV to Mailtrap, you first need to export the document from your current sending provider. See how to do it with SendGrid, Postmark, and Mailgun.
 
-## Exporting Suppressions
+### Exporting Suppressions
 
-### Sendgrid
+#### Sendgrid
 
 Navigate to Suppression Management - this is where you’ll find the list of all your Unsubscribe Groups. You’ll see the default groups and the ones you created.
 
 To export the CSV file, you’ll need to click the Settings button (the gear icon) next to each group, then choose **Export**.
 
-### Mailgun
+#### Mailgun
 
 Mailgun keeps three suppression lists (complaints, bounces, and unsubscribes) for each of your sending domains. There's no global, account-level suppression list, so you'd need to export separate lists for each domain you transfer to Mailtrap.
 
 To get the list in CSV format, make sure you choose the correct domain and use the Mailgun dashboard to export the lists.
 
-### Postmark
+#### Postmark
 
 There’s an Export button in the Postmark dashboard. This allows you to export up to 500 records in a JSON file. For more records, you’d need to use Postmark’s Messages API.
 

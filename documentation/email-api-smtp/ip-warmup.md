@@ -19,6 +19,8 @@ layout:
     visible: true
 ---
 
+# IP Warmup
+
 Mailtrap offers both shared IP addresses as well as dedicated IPs.
 
 ### Shared IP vs Dedicated IP
