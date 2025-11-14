@@ -1,7 +1,3 @@
----
-title: Get Started - Bulk Stream
----
-
 # Bulk Stream
 
 {% hint style="info" %}

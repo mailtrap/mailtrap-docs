@@ -1,6 +1,0 @@
----
-icon: wallet
----
-
-# Account & Billing
-

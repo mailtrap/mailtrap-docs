@@ -28,7 +28,7 @@
   * [Email Categories](email-api-smtp/statistics/email-categories.md)
   * [Mailbox Providers](email-api-smtp/statistics/mailbox-providers.md)
 * [Custom Variables](email-api-smtp/custom-variables.md)
-* [Bulk Stream](email-api-smtp/bulk-stream.md)
+* [Bulk Stream](email-api-smtp/get-started-bulk-stream.md)
 * [Bounce Categorization](email-api-smtp/bounce-categorization.md)
 * [Feedback Loops](email-api-smtp/feedback-loops.md)
 * [Auto BCC](email-api-smtp/auto-bcc.md)
@@ -65,8 +65,7 @@
 
 ## Marketing
 
-* [Email Marketing](email-marketing/README.md)
-* [Copy of Email Marketing](email-marketing/copy-of-email-marketing.md)
+* [Email Marketing](email-marketing/copy-of-email-marketing.md)
 * [Contacts](email-marketing/contacts.md)
 * [Campaign Scheduling](email-marketing/campaign-scheduling.md)
 * [Email Templates](email-marketing/email-templates.md)
@@ -75,7 +74,6 @@
 
 ## Account and Billing
 
-* [Account & Billing](account-and-billing/README.md)
 * [2FA](account-and-billing/2fa.md)
 * [Billing setup](account-and-billing/billing-setup.md)
 * [Payment and billing FAQs](account-and-billing/payment-and-billing-faqs.md)
