@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-## Hourly Limits
+# Sending Limits
 
 When you first sign up for Mailtrap, we limit your throughput to 150 emails an hour. This is a security measure to prevent abusing our system for spam.
 
@@ -26,15 +26,17 @@ You can raise the hourly limit by upgrading to a one of our [paid plans](https:/
 
 If you try to send more emails than your hourly limit allows, the extra emails will be queued and sent in the next hour.
 
+{% hint style="info" %}
 Note: There are no hourly limits for Email Campaigns.
+{% endhint %}
 
-### Daily Limits
+## Daily Limits
 
 We have a daily limit of 150 emails/day only for our Free plan, which lets you send up to 3,500 emails per month. Emails sent over this limit will be rejected and won't be sent.
 
 Need to send more? Upgrade to a paid plan!
 
-### Connection Limits
+## Connection Limits
 
 The maximum number of concurrent SMTP connections **per account** is 10.
 
@@ -50,6 +52,6 @@ The maximum number of messages per 1 SMTP connection is 100.
 
 If those limits are not enough, please let us know by contacting our Support Team.
 
-### Email Size
+## Email Size
 
-The maximum allowed size of each email message, including attachments, is 10 MB in all plans by default. In Business and higher plans it's possible to increase size up to 30 MB by contacting our Support team.&#x20;
+The maximum allowed size of each email message, including attachments, is 10 MB in all plans by default. In Business and higher plans it's possible to increase size up to 30 MB by contacting our Support team.
