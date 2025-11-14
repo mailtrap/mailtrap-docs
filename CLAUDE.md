@@ -4,20 +4,70 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a GitBook documentation repository for Mailtrap, an email API/SMTP service. The documentation is organized into three main sections:
+This is a GitBook documentation repository for Mailtrap.io, an email API/SMTP service. The repository contains **three GitBook spaces** synced from GitBook.io in a single repository.
 
-- **`documentation/`** - Primary product documentation covering Email API/SMTP, Email Sandbox, and Email Marketing
-- **`developers/`** - Developer-focused API documentation and integration guides
-- **`guides-and-tips/`** - DNS setup guides for various providers (AWS Route 53, Cloudflare, etc.)
+### Content Source and Migration
 
-Each section contains:
-- `SUMMARY.md` - GitBook table of contents defining the navigation structure
-- `README.md` - Landing page for that section
+Content was migrated from help.mailtrap.io (managed by HelpScout), which means:
+- Files may contain artifacts from the HelpScout format
+- Formatting must be adjusted to match GitBook capabilities
+- Content should be reviewed and cleaned up during edits
+
+### GitBook Spaces Structure
+
+The repository is organized into three high-level GitBook spaces (directories):
+
+**1. `api-docs/` - API Docs Space**
+- API rate limits and error documentation
+- Technical API-related information
+- API/SMTP endpoints and integration
+- Sandbox API endpoints
+- Templates API
+- Contacts API endpoints
+- Documentation rendered based on imported OpenAPI specs  
+
+**2. `documentation/` - Documentation Space**
+- Getting Started / Quickstart guides
+- Email API/SMTP features (templates, email logs)
+- Email Sandbox functionality
+- Email Marketing features
+- Account and Permissions (User Management)
+- Billing information
+- FAQ
+- Troubleshooting guides
+
+**3. `guides-and-tips/` - Guides & Tips Space**
+- Switching guides (from competitors to Mailtrap)
+- DNS setup guides for various providers (AWS Route 53, Cloudflare, GoDaddy, etc.)
+- Third-party integrations
+- AI integration guides
+
+Each space contains:
+- `SUMMARY.md` - GitBook table of contents defining the navigation structure (agreed upon by team)
+- `README.md` - Landing page for that space
 - Nested markdown files organized by feature/topic
+- `.gitbook/assets/` - Shared assets directory (in documentation space)
 
 ## GitBook Formatting Requirements
 
-This repository uses GitBook-specific markdown syntax. A `gitbook-assistant` skill is available in `.claude/skills/gitbook-assistant/` with comprehensive formatting rules, templates, and validation capabilities.
+This repository uses GitBook-specific markdown syntax.
+
+### IMPORTANT: Use the gitbook-assistant Skill
+
+**Always use the `gitbook-assistant` skill** located in `.claude/skills/gitbook-assistant/` when working with this repository. The skill provides:
+- Comprehensive GitBook formatting rules and validation
+- Pre-formatted templates for all GitBook blocks
+- Syntax checking and error detection
+- Content quality guidelines specific to this repository
+
+### GitBook MCP Integration
+
+GitBook MCP (Model Context Protocol) is available for advanced GitBook operations. See documentation at: https://gitbook.com/docs/~gitbook/mcp
+
+This can be used for:
+- Searching GitBook documentation
+- Accessing GitBook-specific features
+- Advanced content operations
 
 ### Critical Formatting Rules
 
@@ -68,28 +118,14 @@ For detailed syntax, templates, and validation, refer to:
 ## Documentation Structure Patterns
 
 ### Image Formatting
-Images use specific GitBook attributes:
-```html
-<div align="left" data-with-frame="true">
-  <img src="URL" alt="description" width="563">
-</div>
-```
-or with captions:
-```html
-<div align="left" data-with-frame="true">
-  <figure>
-    <img src="URL" alt="" width="563">
-    <figcaption><p>Caption text</p></figcaption>
-  </figure>
-</div>
-```
-
-### Link Buttons
-GitBook supports custom link styling:
-```html
-<a href="URL" class="button primary">Button Text</a>
-<a href="URL" class="button secondary">Button Text</a>
-```
+- Image assets are stored in the `.gitbook/assets/` directory inside the relevant space.
+- Gitbook-assistant skill has information about image formatting in the `.claude/skills/gitbook-assistant/resources/gitbook-format-reference.md` file.
+- After migration from Helpscout some images were not properly formatted and are not included into asset folders. 
+-- Some images still host on Helpscout and it can be detected if an image URL like `https://lh7-us.googleusercontent.com/`
+-- Images from Helpscout might be removed from Helpscout in the future so we need to fetch them, reformat them and include into asset folders
+-- Reformating should include user-friendly name of image and proper alt text
+-- Name shouldn't have spaces or special characters
+-- Use image vision to understand the image content and provide a meaningful alt text and name.
 
 ### Content Organization
 - Use `SUMMARY.md` to define navigation structure
@@ -105,10 +141,17 @@ Since this is a documentation-only repository:
 - Focus on markdown syntax correctness and GitBook block formatting
 
 ### Modifying Navigation
+
 To add/remove pages from GitBook navigation, edit the relevant `SUMMARY.md` file:
-- `documentation/SUMMARY.md` - Main product docs
-- `developers/SUMMARY.md` - Developer docs
-- `guides-and-tips/SUMMARY.md` - Guides and tips
+- `documentation/SUMMARY.md` - Documentation space (main product docs)
+- `api-docs/SUMMARY.md` - API Docs space
+- `guides-and-tips/SUMMARY.md` - Guides & Tips space
+
+When adding new pages:
+1. Create the markdown file in the appropriate location within the space
+2. Add the entry to the corresponding `SUMMARY.md` file
+3. Ensure the file follows GitBook formatting requirements (frontmatter, proper blocks, etc.)
+4. Verify the navigation hierarchy matches the agreed-upon structure
 
 ### Validation Workflow
 When creating or editing documentation:
@@ -125,3 +168,7 @@ When creating or editing documentation:
 - **Audience**: Developers integrating Mailtrap, users setting up email infrastructure
 - **Key Topics**: Email sending APIs, SMTP integration, sandbox testing, DNS configuration, email marketing
 - **Documentation Scope**: Product features, integration guides, DNS setup instructions, troubleshooting, FAQs
+
+<available_skills>
+- gitbook-assistant
+</available_skills>
