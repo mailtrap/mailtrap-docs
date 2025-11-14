@@ -1,6 +1,6 @@
 ---
 title: From Header Domain Mismatch
-description: How to fix "From: Header does not match the sender's domain" error
+description: How to fix the From Header does not match the sender's domain error
 icon: envelope
 ---
 

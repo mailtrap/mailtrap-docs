@@ -1,6 +1,6 @@
 ---
 title: Sending from Domain Not Allowed
-description: How to fix the "550 5.7.1 Sending from domain is not allowed" error
+description: How to fix the 550 5.7.1 Sending from domain is not allowed error
 icon: ban
 ---
 

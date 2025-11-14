@@ -1,6 +1,6 @@
 ---
 title: Unauthorized Error (401 Code)
-description: How to fix "Unauthorised" authentication errors in Mailtrap
+description: How to fix Unauthorised authentication errors in Mailtrap
 icon: lock
 ---
 
