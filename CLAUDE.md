@@ -169,6 +169,7 @@ When creating or editing documentation:
 - **Key Topics**: Email sending APIs, SMTP integration, sandbox testing, DNS configuration, email marketing
 - **Documentation Scope**: Product features, integration guides, DNS setup instructions, troubleshooting, FAQs
 
-<available_skills>
-- gitbook-assistant
-</available_skills>
+## Product names
+
+- We should follow the product names as it appears on the website and in marketing materials
+- Current names: Email API/SMTP (can be shortened to Email API or API/SMTP), Email Sandbox (can be shortened to Sandbox), Email Marketing (can be shortened to Marketing)
