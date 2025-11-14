@@ -1,6 +1,6 @@
 # Features and limits
 
-**All Mailtrap features and possible limits explained in this article.**&#x20;
+**All Mailtrap features and possible limits explained in this article.**
 
 * [Total test emails per month](https://help.mailtrap.io/article/44-features-and-limits#Total-test-emails-per-month-QrVnc)
 * [Rate limits per 10 sec](https://help.mailtrap.io/article/44-features-and-limits#Rate-limits-per-10-sec-EfCLs)
@@ -33,24 +33,24 @@ The groups that help you arrange your Sandboxes and distinguish different tasks 
 
 #### **Team members** <a href="#team-members-ngczy" id="team-members-ngczy"></a>
 
-Mailtrap users who you can interact with by inviting them to your account and sharing projects or the billing section. This feature is available from the Basic Testing plan and more advanced billing plans. [Click here](https://help.mailtrap.io/article/65-user-management) to learn more about the User Management feature.&#x20;
+Mailtrap users who you can interact with by inviting them to your account and sharing projects or the billing section. This feature is available from the Basic Testing plan and more advanced billing plans. [Click here](https://help.mailtrap.io/article/65-user-management) to learn more about the User Management feature.
 
 #### **Max emails per sandbox** <a href="#max-emails-per-sandbox-5lhzt" id="max-emails-per-sandbox-5lhzt"></a>
 
-The total number of emails you can store in each of your sandboxes at once. The exact number depends on your billing plan.When the limit is reached, Mailtrap uses the FIFO model for automatic sandbox cleanup (oldest messages first).&#x20;
+The total number of emails you can store in each of your sandboxes at once. The exact number depends on your billing plan.When the limit is reached, Mailtrap uses the FIFO model for automatic sandbox cleanup (oldest messages first).
 
 #### **Sandbox API** <a href="#sandbox-api-bmknh" id="sandbox-api-bmknh"></a>
 
-Sandbox API allows developers to run integration or load tests, as well as receive messages or email lists via API . To learn how to use the Email Sandbox API, refer to the [Email Sandbox API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-sandbox-api).&#x20;
+Sandbox API allows developers to run integration or load tests, as well as receive messages or email lists via API . To learn how to use the Email Sandbox API, refer to the [Email Sandbox API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-sandbox-api).
 
 #### **Email address per sandbox** <a href="#email-address-per-sandbox-yipmo" id="email-address-per-sandbox-yipmo"></a>
 
-The dedicated email address for each of your Sandboxes that you can use to send messages from other email accounts or right from your application during the testing process. It is available in the Basic Testing plan and more advanced billing plans.&#x20;
+The dedicated email address for each of your Sandboxes that you can use to send messages from other email accounts or right from your application during the testing process. It is available in the Basic Testing plan and more advanced billing plans.
 
 #### **Email size, MB** <a href="#email-size-mb-0en6r" id="email-size-mb-0en6r"></a>
 
-The maximum allowed size of each email message, including attachments, in megabytes, is between 5MB and 25MB, depending on your plan.&#x20;
+The maximum allowed size of each email message, including attachments, in megabytes, is between 5MB and 25MB, depending on your plan.
 
 #### **Total forwarded emails per month** <a href="#total-forwarded-emails-per-month-unnco" id="total-forwarded-emails-per-month-unnco"></a>
 
-The maximum number of emails you can forward from your account to real inboxes for testing and preview purposes. The maximum number of forwarding rules is 300. Email forwarding is available in the Basic Testing plan and more advanced billing plans.&#x20;
+The maximum number of emails you can forward from your account to real inboxes for testing and preview purposes. The maximum number of forwarding rules is 300. Email forwarding is available in the Basic Testing plan and more advanced billing plans.

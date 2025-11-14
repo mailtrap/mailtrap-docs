@@ -2,7 +2,7 @@
 
 Learn how to check spam score and blacklisting.
 
-### Spam Report&#x20;
+### Spam Report
 
 Go to the **Spam Analysis** tab to view the Spam Report. It contains the general score and a detailed table with spam test points and their descriptions.
 
@@ -14,8 +14,8 @@ A score below 5 points is considered good. If your email gets more than 5 points
 
 **Blacklists Report**
 
-You will find the Blacklists Report in the **Spam** **Analysis** tab as well.&#x20;
+You will find the Blacklists Report in the **Spam** **Analysis** tab as well.
 
-It checks whether your IP or domain has been listed on any of the commonly used blacklists. It shows resources that have been queried and your current status. If your domain or IP is blacklisted, click the resource name; it's hyperlinked to the blacklist website -- check their rules for delisting and follow their instructions.&#x20;
+It checks whether your IP or domain has been listed on any of the commonly used blacklists. It shows resources that have been queried and your current status. If your domain or IP is blacklisted, click the resource name; it's hyperlinked to the blacklist website -- check their rules for delisting and follow their instructions.
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6349302e4d805871ceaa33e4/file-kPUnshfRWM.png)

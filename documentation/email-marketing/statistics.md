@@ -71,15 +71,15 @@ Open tracking needs to be enabled for a domain in question in the Sending Domain
 
 #### Click rate <a href="#click-rate" id="click-rate"></a>
 
-Click rate refers to the percentage of emails that received at least one link click compared to all delivered emails.&#x20;
+Click rate refers to the percentage of emails that received at least one link click compared to all delivered emails.
 
-When any of the links in an email are clicked, a **click** event is recorded. The same happens for any further clicks, even if a recipient keeps clicking on the same or different links.&#x20;
+When any of the links in an email are clicked, a **click** event is recorded. The same happens for any further clicks, even if a recipient keeps clicking on the same or different links.
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
 ![](https://lh7-us.googleusercontent.com/iNboqLTvD7XwYaJevUwkpfh3zr68WfEFh7TbwyTuFJmxgoLLLvKyO2UafZ53fzdXOc0N1c11tFGDrif1y6_P7dHZ6QvMa1ej8bU2n05EOnO2ABppo7JbJidiYKyE-jD-NJ3E0IjBU2lU8EgnagI9mAM)
 
-However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.&#x20;
+However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 
 **Clicked** metric indicates how many emails received at least one click on.
 
@@ -96,7 +96,7 @@ Emails may bounce for different reasons, most commonly:
 * The security policy of a mailbox provider that rejects emails from all or some domains.
 * Permanent connection issue.
 
-The term bounce used in Mailtrap is also known as a hard bounce. This is different from a soft bounce - another event present in Mailtrap that refers to a temporary delivery problem.&#x20;
+The term bounce used in Mailtrap is also known as a hard bounce. This is different from a soft bounce - another event present in Mailtrap that refers to a temporary delivery problem.
 
 If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
 

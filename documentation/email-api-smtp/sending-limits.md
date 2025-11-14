@@ -22,7 +22,7 @@ layout:
 
 ### Hourly Limits
 
-When you first sign up for Mailtrap, we limit your throughput to 150 emails an hour. This is a security measure to prevent abusing our system for spam.&#x20;
+When you first sign up for Mailtrap, we limit your throughput to 150 emails an hour. This is a security measure to prevent abusing our system for spam.
 
 You can raise the hourly limit by upgrading to a one of our [paid plans](https://mailtrap.io/pricing/), which starts at 600 or even 800 emails per hour. Later on, our automation will proactively raise your limit if you're nearing it. For an even higher limit, you can submit a request to our support team.
 

@@ -34,7 +34,7 @@ To delete the email address or a custom header, click the trash bin icon and con
 {% endstep %}
 {% endstepper %}
 
-### Important notes&#x20;
+### Important notes
 
 * You can add multiple BCC email addresses, and all of them will receive email copies;
 * You can’t use Auto BCC with a demo domain;

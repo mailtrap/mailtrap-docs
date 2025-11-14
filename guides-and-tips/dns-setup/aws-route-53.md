@@ -19,12 +19,12 @@ layout:
     visible: true
 ---
 
-To add and verify a sending domain in Mailtrap, you need access to your domain’s DNS records and your domain provider account.&#x20;
+To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
 
-<a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to AWS Route 53.&#x20;
+<a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to AWS Route 53.
 
 {% hint style="info" %}
-_This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you've already created and configured a Hosted Zone for your domain._&#x20;
+_This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you've already created and configured a Hosted Zone for your domain._
 {% endhint %}
 
 {% stepper %}
@@ -120,5 +120,5 @@ If you add all the required DNS records correctly, the Status of DNS records wil
 {% endstepper %}
 
 {% hint style="info" %}
-&#x20;_If you have additional questions,_ [_consult AWS documentation_](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html) _or contact us at_ [_support@mailtrap.io_](mailto:support@mailtrap.io)
+_If you have additional questions,_ [_consult AWS documentation_](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html) _or contact us at_ [_support@mailtrap.io_](mailto:support@mailtrap.io)
 {% endhint %}

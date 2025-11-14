@@ -10,15 +10,15 @@ This is the centralized place to manage users in your account.
 * Account Admin has the same permissions as an Account Owner, with the exception of deleting an account and transferring its ownership. Account Owner and other Account Admins can alter the permission of Account Admins.
 * Account Viewer has access to all the entities in the account (projects, sandboxes, billing) but can’t add, edit, or remove anything. For example, the Account Viewer can view all projects but can’t add new ones or edit existing ones.
 * Domain Admin can rename and delete a domain, manage domain settings (e.g., reset the credentials, enable/disable open or click tracking, or modify unsubscribe footer settings), and add/remove domain team members.
-* Domain Viewer can view domain settings, reports, statistics, and email logs (except for email content) for the domain but can’t add, edit, or remove anything.&#x20;
+* Domain Viewer can view domain settings, reports, statistics, and email logs (except for email content) for the domain but can’t add, edit, or remove anything.
 * Templates Admin can create, edit, delete, and duplicate the templates
 * Templates Viewer can only preview templates, check their type, category, update date.
-* View Email Content permission is available for all sending domains. It enables Account Owners, Account Admins, and Domain Admins to grant Viewers access to view email bodies in Email Logs. They can provide View Email Content permission for one domain and limit it for another. By default, Account Owners, Account Admins, and Domain Admins have the right to view email bodies, while Viewers don’t.&#x20;
-  * If the user doesn’t have the permission to view email content, they will see the following message in Email Logs:&#x20;
+* View Email Content permission is available for all sending domains. It enables Account Owners, Account Admins, and Domain Admins to grant Viewers access to view email bodies in Email Logs. They can provide View Email Content permission for one domain and limit it for another. By default, Account Owners, Account Admins, and Domain Admins have the right to view email bodies, while Viewers don’t.
+  * If the user doesn’t have the permission to view email content, they will see the following message in Email Logs:
 
 ![](https://lh7-us.googleusercontent.com/mq9k-IfGOonaXmyssnCMcS8B5XSXzA5QbsskdmreCuylaSTQscuxPV5wkMPL_1IPCy1bexLdgALKvJ314OlSb4KUV-iMf3NJTmbWhszJ7D9l_ia_1fvWDCIGjsAROvtfQVr15syCxIGsVCs5JTCJ6XA)
 
-* Email Campaign Admin can create, edit, delete, and send email campaigns, as well as view reports.&#x20;
+* Email Campaign Admin can create, edit, delete, and send email campaigns, as well as view reports.
 * Email Campaign Viewer can only view email campaigns and campaign reports.
 * Project Admin can rename and delete a project, fully manage all its sandboxes (add new or delete existing ones), and add or remove project team members. They cannot add new projects in the account.
 * Project Viewer can see all the sandboxes in the project but can’t edit anything (e.g., [sandbox email address](https://help.mailtrap.io/article/18-email-per-inbox) or [forwarding settings](https://help.mailtrap.io/article/41-auto-forward)). They also can’t add or remove teammates, projects, or sandboxes.

@@ -18,25 +18,25 @@
 * Every new domain requires a Compliance Check after DNS verification.
 * You can try out all features with the Demo domain we provided once you sign up.
 
-#### Step 1: Verify the sending domain you own&#x20;
+#### Step 1: Verify the sending domain you own
 
-To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.&#x20;
+To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
 ![](https://lh7-us.googleusercontent.com/Oa0MjXGAJe-rbWyymdNKsvYBvfcRrqGHiCcRK6hvJMlx61OevcS4ctuIEyCOEYmEx_kaD7DsEO1X5Yt8dfjufBiWFDcWs7-2uuFDmmJl-It1PIYvFMSJSjr0kcSPZ4CPB18_0GZ8a2__O2svo3BEZUE)
 
-Then, add the [DNS records](https://help.mailtrap.io/article/79-dns-records) Mailtrap provides to your domain provider.&#x20;
+Then, add the [DNS records](https://help.mailtrap.io/article/79-dns-records) Mailtrap provides to your domain provider.
 
 ![](https://lh7-us.googleusercontent.com/0bCPKb7i1qE-xNTIXyhcA_CTpO0rtH_8uNMLtW7hnszTAlpMp7f1a1HPXdYNLuuzgB_9umIbOeboEJzVNCPoEVknrbMw2EsI9vjysGVv4mUd8maFt9NnpirhW09b4WboUBt_F9yWhYohzDSS5NMv4Yg)
 
-Check our [Sending Domain Setup Guide](https://help.mailtrap.io/article/69-sending-domain-setup#top) for detailed instructions on adding and verifying your domain.&#x20;
+Check our [Sending Domain Setup Guide](https://help.mailtrap.io/article/69-sending-domain-setup#top) for detailed instructions on adding and verifying your domain.
 
-#### Step 2. Integrate your application with via Email API or SMTP&#x20;
+#### Step 2. Integrate your application with via Email API or SMTP
 
-To send emails via Mailtrap SMTP, follow the instructions [in this article](https://help.mailtrap.io/article/122-mailtrap-email-sending-smtp-integration).&#x20;
+To send emails via Mailtrap SMTP, follow the instructions [in this article](https://help.mailtrap.io/article/122-mailtrap-email-sending-smtp-integration).
 
 ![](https://lh7-us.googleusercontent.com/bDG7lOE6sQGeH8umyBthjiVaVN9MAWXT8KUUJygUhk3Ev6kaM4R_W6xzwO7pJh_TcmDLPMQG9upBicfYIVeH71Dh6CahlIRMleK2JH0rhaK3OoRIz3bj9TCId3CUFcZbZ3ACjaHVMvphWz_IVlUONfc)
 
-To send emails via Mailtrap Email API, follow the steps [in this article](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).&#x20;
+To send emails via Mailtrap Email API, follow the steps [in this article](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).
 
 ![](https://lh7-us.googleusercontent.com/Ars9fRJOEfBSWxJ26nyW_mbITChEe-gDrmxDYsW1GmryVnW1Ul1hYqe_rTCfXdPAHpDTzw7T97Z3fzhKRX2LrRg4vIFaWd7YksaOyLPkkrdcj1PtSNWJNLcKB7Rt8_ts6lrIMoEjQJ_D_3enmxAqDaI)
 

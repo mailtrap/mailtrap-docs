@@ -38,7 +38,7 @@ Mailtrap is an email delivery service to send transactional and promo emails. Po
 
 1. [Sign up](https://mailtrap.io/register/signup/) by creating a free account.
 2. Go to Email Sending and select [Sending Domains](https://mailtrap.io/sending/domains).
-3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.&#x20;
+3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.
 4. Proceed to integrate Mailtrap with your application via SMTP or API.
 
 If you have any questions, contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
@@ -73,7 +73,7 @@ No, you need to add and verify each subdomain/domain separately.
 
 #### How Mailtrap billing works? <a href="#how-does-mailtrap-count-emails-rli6k" id="how-does-mailtrap-count-emails-rli6k"></a>
 
-We bill each email. For example, if an email has 3 recipients - we bill 3 of them. If it has + 3 in CC, we bill 6 together. The same goes for recipients in BCC.&#x20;
+We bill each email. For example, if an email has 3 recipients - we bill 3 of them. If it has + 3 in CC, we bill 6 together. The same goes for recipients in BCC.
 
 #### What is the email size limit? <a href="#what-is-the-email-size-limit-for-mailtrap-email-sending-p2z2u" id="what-is-the-email-size-limit-for-mailtrap-email-sending-p2z2u"></a>
 
@@ -103,7 +103,7 @@ We do not. In case you have found a vulnerability on our website that you are ea
 
 #### How much does Mailtrap cost?
 
-Mailtrap plans starts from 15$ for 10,000 emails/month. We offer plans for business from $85/month for 100,000 emails, and, for enterprises, there are plans from $750/month for 1,500,000 emails.&#x20;
+Mailtrap plans starts from 15$ for 10,000 emails/month. We offer plans for business from $85/month for 100,000 emails, and, for enterprises, there are plans from $750/month for 1,500,000 emails.
 
 To choose one that best fits your needs, check out our [pricing plans](https://mailtrap.io/pricing/?tab=api).
 
@@ -121,7 +121,7 @@ We use AWS with auto-balancing, so our IP ranges are the following: [https://ip-
 
 ### I have a technical problem <a href="#troubleshoot" id="troubleshoot"></a>
 
-Visit [the troubleshooting section](https://help.mailtrap.io/article/59-troubleshooting) for the answers to the most common problems, or [contact our support](mailto:support@mailtrap.io).&#x20;
+Visit [the troubleshooting section](https://help.mailtrap.io/article/59-troubleshooting) for the answers to the most common problems, or [contact our support](mailto:support@mailtrap.io).
 
 #### I have a problem integrating Mailtrap Email Sending with my app; what should I do? <a href="#i-have-a-problem-integrating-mailtrap-email-sending-with-my-app-what-w-sgz" id="i-have-a-problem-integrating-mailtrap-email-sending-with-my-app-what-w-sgz"></a>
 

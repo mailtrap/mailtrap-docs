@@ -7,7 +7,7 @@
 * [The algorithm behind HTML Check](https://help.mailtrap.io/article/60-html-check#algo-check)
 * [Analyzing the HTML elements](https://help.mailtrap.io/article/60-html-check#analyzing)
 
-**HTML Check** scans through your email in search of problematic elements. For each it finds, it displays the list of email clients that lack support for it or support it only partially. It also estimates the support for your emails’ code across popular email clients, and provides you with the percentage of the market share accordingly.&#x20;
+**HTML Check** scans through your email in search of problematic elements. For each it finds, it displays the list of email clients that lack support for it or support it only partially. It also estimates the support for your emails’ code across popular email clients, and provides you with the percentage of the market share accordingly.
 
 The report is available in the **HTML Check** tab:
 
@@ -35,15 +35,15 @@ When calculating the score, we take into consideration the market share of each 
 
 By default, the market support is calculated for all email clients listed to the right and all their versions in common use. You can freely check and uncheck particular filters, and the market score will adjust immediately.
 
-The vertical list shows five common families of email clients, ‘Other’ representing less popular clients (e.g., Thunderbird, AOL, etc.). The horizontal list lets you narrow down the results for the particular type of client - mobile, web, or desktop.&#x20;
+The vertical list shows five common families of email clients, ‘Other’ representing less popular clients (e.g., Thunderbird, AOL, etc.). The horizontal list lets you narrow down the results for the particular type of client - mobile, web, or desktop.
 
 For example, if you were to select only Apple Mail and Yahoo! Mail but unchecked ‘Mobile’, both clients’ iOS and Android apps would be ignored. If there’s no client for a particular category (e.g., Apple Mail doesn’t have a web client), unchecking a category won’t alter the results.
 
-As usual, the weight on the Market Support result is proportional to the popularity of each client.&#x20;
+As usual, the weight on the Market Support result is proportional to the popularity of each client.
 
 ![](https://lh3.googleusercontent.com/ajM4_r7zwQBnzaiGQ_QGvmwNCCpTby4QW3QGcTBPztbF1ERohJOmANNQI4ee-MG3RDcaZ8hHSl85Hmxax0uKNjC9wBlY2zkQkn3tYMGmAOhl-6K7lwRsa9JF_9aqQ9CDUnF0S0Dx58XuF2gakqoyZQZ8MHCpuYZIwKm18oCeyp_BHQpRRNJi-exPFg)
 
-Filtering is particularly beneficial if you know that the vast majority of your users are, for example, on mobile or use only Outlook to view your emails. You can get a more focused market support result this way.&#x20;
+Filtering is particularly beneficial if you know that the vast majority of your users are, for example, on mobile or use only Outlook to view your emails. You can get a more focused market support result this way.
 
 Note that at least one category (Web/Mobile/Desktop) and at least one email client need to be checked to generate any result.
 
@@ -88,11 +88,11 @@ Each will display:
 * Hyperlinks to individual lines where the element was found (more on these below)
 * “show more” label shedding more light on the problematic element.
 
-To the right of each element, you can see the numbers (\[1], \[2], etc.). Click on any of them, and the “show more” section will expand, explaining what the issue is and which client/version it applies to.&#x20;
+To the right of each element, you can see the numbers (\[1], \[2], etc.). Click on any of them, and the “show more” section will expand, explaining what the issue is and which client/version it applies to.
 
 ![](https://lh4.googleusercontent.com/6iSaYlzSZarxkIyQIwfTcHHpNGflwjgqXIGnzmi3Lb_V0q6N3sL3ty9ce1XDtAM34pVfIdTdlTbL4KfRQSuVaqCPNuQE5igvgKbgDk1IlczK0RsB-vh-ZOWU7d_T8XP65DFsPRYmJwJ_YcFS0FwOFOrjXu2ji4BVvU72svspFYCso-9eYskEoOWnBg)
 
-Clicking on the line number will take you to the **HTML Source** tab where you can view your email’s entire HTML.&#x20;
+Clicking on the line number will take you to the **HTML Source** tab where you can view your email’s entire HTML.
 
 ![](https://lh3.googleusercontent.com/cDOkBaX-KCa2gwFdzYlsVBV4Q1gc9OxKmQh0fGEsdRW3r2odVSLNrDXbo3npbw969rfMRnauhXuSq7nhceTTo12YVSfJxUNAKOZ_GU5SmzYZB-Dmf6P5ym2iKcYk1Sm9tXTAogF37VdqJs_X8yiX3anx-n_Gjxt2nwQmXcqbu5AWE7bb5iH1MzmoIA)
 

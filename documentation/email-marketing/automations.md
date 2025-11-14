@@ -34,7 +34,7 @@ Segment-based campaigns
 Event-driven follow-ups
 
 * React to product or billing events (purchase made, payment failed, milestone hit) with confirmations, guides, or recovery emails.
-* How to set it up: Trigger API event received → Send email → optionally Update contact field and Conditional split based on event data.&#x20;
+* How to set it up: Trigger API event received → Send email → optionally Update contact field and Conditional split based on event data.
 
 ### Functionality
 

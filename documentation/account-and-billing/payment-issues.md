@@ -1,6 +1,6 @@
 # Payment issues
 
-If your payment fails first of all, please check the validity of your credit card details and available funds. If everything is correct but the issue persists, please contact your bank.&#x20;
+If your payment fails first of all, please check the validity of your credit card details and available funds. If everything is correct but the issue persists, please contact your bank.
 
 ### Zip/postal code error
 
@@ -10,4 +10,4 @@ In most cases, customers try to use their home or office postal code. This error
 
 ### No valid CAPTCHA token
 
-This is a rare error that may be caused by JavaScript blocked by a browser extension. Please try using a different browser or using incognito mode.&#x20;
+This is a rare error that may be caused by JavaScript blocked by a browser extension. Please try using a different browser or using incognito mode.

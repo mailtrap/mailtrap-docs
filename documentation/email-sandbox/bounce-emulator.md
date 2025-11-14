@@ -1,6 +1,6 @@
 # Bounce Emulator
 
-Learn how to test your SMTP client’s behavior when the server responds with an error.&#x20;
+Learn how to test your SMTP client’s behavior when the server responds with an error.
 
 ### How to use Bounce Emulator
 
@@ -14,10 +14,10 @@ Tip: You cannot use capital letters because email addresses are converted to low
 
 #### Using Bounce Emulator with an email client
 
-Just use the inbox.mailtrap.io host with any email client or application and send an email to `bounce+451+server+unavailable@inbox.mailtrap.io` .&#x20;
+Just use the inbox.mailtrap.io host with any email client or application and send an email to `bounce+451+server+unavailable@inbox.mailtrap.io` .
 
 #### Using Bounce Emulator with Sandbox
 
 If your application is connected to Email Sandbox SMTP, send an email from the application to `bounce+454+authentication+required@anydomain.com` , and your application will receive a bounce response from the Sandbox SMTP server.
 
-_Note: This feature does not work with API, as bounce codes are specific to SMTP._&#x20;
+_Note: This feature does not work with API, as bounce codes are specific to SMTP._

@@ -8,7 +8,7 @@ We plan to offer EU-based data storage in 2026.
 
 ### Is Mailtrap GDPR compliant?
 
-Yes, Mailtrap is GDPR compliant. The General Data Protection Regulation (GDPR) came into effect on May 25, 2018. Mailtrap takes GDPR compliance very seriously, and we have implemented appropriate technical and security processes to ensure Mailtrap's full compliance with GDPR.&#x20;
+Yes, Mailtrap is GDPR compliant. The General Data Protection Regulation (GDPR) came into effect on May 25, 2018. Mailtrap takes GDPR compliance very seriously, and we have implemented appropriate technical and security processes to ensure Mailtrap's full compliance with GDPR.
 
 ### What exactly Mailtrap does to achieve GDPR compliance?
 

@@ -31,7 +31,7 @@ The integration is very simple and takes just a couple of minutes:
 
 1. [Sign up](https://mailtrap.io/register/signup/) by creating a free account.
 2. Go to My sandbox in the [My Sandboxes](https://mailtrap.io/inboxes/) project.
-3. Copy a code sample for your framework from the Integrations section or copy credentials provided in the SMTP Settings section.&#x20;
+3. Copy a code sample for your framework from the Integrations section or copy credentials provided in the SMTP Settings section.
 4. Embed them into your app code in development, QA, or staging environment.
 
 Alternatively, you can send messages from your email client or another application to your Mailtrap sandbox using its email address. You will find it in the Email Address tab in your sandbox. It works the same as any other email address - just don't forget to enable it by clicking the **Enable** icon in the three-dots menu.
@@ -42,7 +42,7 @@ You should not necessarily stick to Mailtrap web interface. Instead, you can for
 
 You can even enable automatic forwarding, and Mailtrap will act as a proxy between your application and your email client. In this case, you can be sure you won't miss important messages from the QA environment, such as exception notifications.
 
-Read the [Email Forwarding](https://mailtrap.helpscoutdocs.com/article/17-email-forwarding) article for more details.&#x20;
+Read the [Email Forwarding](https://mailtrap.helpscoutdocs.com/article/17-email-forwarding) article for more details.
 
 #### How does Email Sandbox render emails? <a href="#how-does-email-sandbox-render-emails-mqhuk" id="how-does-email-sandbox-render-emails-mqhuk"></a>
 
@@ -54,7 +54,7 @@ Mailtrap is compatible with web email clients.
 
 Mailtrap does not show exactly how an email will look like in any email client. It renders HTML as-is, without external CSS styles.
 
-Also, Mailtrap provides HTML checks and demonstrates potential errors that different email clients may experience when rendering an HTML email. But note that you can get a preview of test emails for different devices - mobile, tablet, desktop.&#x20;
+Also, Mailtrap provides HTML checks and demonstrates potential errors that different email clients may experience when rendering an HTML email. But note that you can get a preview of test emails for different devices - mobile, tablet, desktop.
 
 You can also [forward emails](https://mailtrap.helpscoutdocs.com/article/17-email-forwarding) to Outlook, Thunderbird, etc., and use these desktop clients to view them.
 
@@ -104,7 +104,7 @@ To choose one that best fits your needs, check our pricing plans at [here](https
 
 ### I have a technical problem <a href="#i-have-a-technical-problem-loxwr" id="i-have-a-technical-problem-loxwr"></a>
 
-Visit [the troubleshooting section](https://help.mailtrap.io/article/59-troubleshooting) for the answers to the most common problems or [contact our support](mailto:support@mailtrap.io).&#x20;
+Visit [the troubleshooting section](https://help.mailtrap.io/article/59-troubleshooting) for the answers to the most common problems or [contact our support](mailto:support@mailtrap.io).
 
 #### My sandboxes disappeared <a href="#my-sandboxes-disappeared-5hn2c" id="my-sandboxes-disappeared-5hn2c"></a>
 

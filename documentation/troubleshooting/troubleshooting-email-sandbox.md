@@ -18,7 +18,7 @@ icon: exclamation
 
 #### Connection errors <a href="#connection-errors" id="connection-errors"></a>
 
-If you can't connect to the Sandbox SMTP server and receive errors _Connection cannot be established_ or _Connection timed out_, follow the steps described below. &#x20;
+If you can't connect to the Sandbox SMTP server and receive errors _Connection cannot be established_ or _Connection timed out_, follow the steps described below. 
 
 First, test your connection using the Telnet utility:  `telnet sandbox.smtp.mailtrap.io 2525` .
 
@@ -47,18 +47,18 @@ Please enable SMTP authentication in your settings and configure your app to ena
 
 1\. Check your [SMTP integration](https://mailtrap.helpscoutdocs.com/article/5-smtp-integration)
 
-* Go to your sandbox Integration tab;&#x20;
+* Go to your sandbox Integration tab;
 * Compare hostname, username, and password with those in your app (if you reset SMTP/POP3, all existing integrations are affected)
 
 2\. Make sure that the number and frequency of the messages sent correspond to the terms of your [billing plan](https://mailtrap.io/pricing/).
 
-If everything is correct, view your SMTP logs and check whether you received any errors. To view SMTP logs, enable debugging in your email code. [Here is an example of how to do this PHPMailer](https://mailtrap.io/blog/phpmailer/).&#x20;
+If everything is correct, view your SMTP logs and check whether you received any errors. To view SMTP logs, enable debugging in your email code. [Here is an example of how to do this PHPMailer](https://mailtrap.io/blog/phpmailer/).
 
-If you still can’t figure out why your emails aren’t getting delivered to your sandbox, please save an undelivered message in **.eml** format and send it to us at support@mailtrap.io. Just don't forget to remove any sensitive information!&#x20;
+If you still can’t figure out why your emails aren’t getting delivered to your sandbox, please save an undelivered message in **.eml** format and send it to us at support@mailtrap.io. Just don't forget to remove any sensitive information!
 
 #### Why is my sandbox email address disabled? <a href="#address-disabled" id="address-disabled"></a>
 
-Email per sandbox is a premium feature available in the [Basic, Team, Enterprise, or Business plans.](https://mailtrap.io/pricing/).&#x20;
+Email per sandbox is a premium feature available in the [Basic, Team, Enterprise, or Business plans.](https://mailtrap.io/pricing/).
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc0acc660d2d1b35da3ea1/file-1X5LFP3uLv.png)
 
@@ -99,7 +99,7 @@ If your test emails aren’t forwarded, there’s very probably an error in the 
 
 When auto-forwarding to the predefined addresses/domains, sandbox verifies the ‘to’ and ‘cc’ headers of a message (bcc is ignored). An email is forwarded if:
 
-* TO or CC of your email matches the value in the Emails list or&#x20;
+* TO or CC of your email matches the value in the Emails list or
 * The domain in the TO or CC of your email matches the value in the Domains list.
 
 Remember that a forwarding rule needs to be verified (its status must be ‘Active’) before it can be considered. To do that, you’ll need to confirm the email address or the domain's ownership.

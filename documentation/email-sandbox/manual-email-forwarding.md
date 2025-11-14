@@ -1,6 +1,6 @@
 # Manual email forwarding
 
-You can forward emails from sandbox to any inbox.&#x20;
+You can forward emails from sandbox to any inbox.
 
 * View emails in different email clients, or even other apps.
 * Notify your colleagues or clients about the testing progress.
@@ -10,7 +10,7 @@ Email forwarding is available starting from the [Basic plan](https://mailtrap.io
 
 #### Manual forwarding setup
 
-To forward emails manually,  go to the **Manual Forward** tab in your sandbox and add the email address for forwarding.&#x20;
+To forward emails manually,  go to the **Manual Forward** tab in your sandbox and add the email address for forwarding.
 
 The email confirmation will be sent to this email address for verification. Once the address is confirmed by its owner, you can forward emails to it.
 
@@ -21,7 +21,7 @@ In the **Manual Forward** tab, you will also find the list of email addresses fo
 * _active_ means that its owner has confirmed that they agree to receive emails.
 * _pending_ means that the owner hasn't confirmed that they agree to receive emails.
 
-Click the three-dot menu icon next to the email address to resend confirmation, or to remove this email address.&#x20;
+Click the three-dot menu icon next to the email address to resend confirmation, or to remove this email address.
 
 ![](https://lh6.googleusercontent.com/-Khb1TTOdnvzr1HmNMrbRClQEOl-fUFilwpXWBESadgqQqA1F8SZS8v6ugfQkTTXhsp6CgyZ46g-n_YabwgkTZGvItEZsYkNgcTqt9Z01wynSLKqGwk0jbW0NUHQZUrh1seeMFx_MkulggF7ElLPLn8ijXPB8wwEGT7Xi5gTzZuMW3KQpx23aRRBHg)
 
@@ -33,4 +33,4 @@ All forwarded email messages use forward.mailtrap.info in the “from” header,
 
 It helps to use forwarding for users with a strict DMARC policy on their domains. Since DMARC doesn’t allow sending emails from your domain without permissions, sandbox rewrites the “from” header.
 
-But because the original sender is valuable information, especially in automated testing, we still preserve it in  _x-mailtrap-original-from_ header of the forwarded emails.&#x20;
+But because the original sender is valuable information, especially in automated testing, we still preserve it in  _x-mailtrap-original-from_ header of the forwarded emails.

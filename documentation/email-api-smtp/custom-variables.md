@@ -2,7 +2,7 @@
 
 Custom variables are pieces of information that you can include with emails to better manage them in the future. They allow you to add unique data to each message, for example, the data can be an internal **user\_id**, **inbox\_id**, etc.
 
-For now, you can only access them via Email Logs.&#x20;
+For now, you can only access them via Email Logs.
 
 ### How to access custom variables
 
@@ -14,7 +14,7 @@ For now, you can only access them via Email Logs.&#x20;
 
 #### How to set up custom variables with SMTP
 
-Mailtrap has an option to pass unique arguments to each sent email via the **‘X-MT-Custom-Variables’**. And we add the arguments to the RAW email body. Of course, the RAW data is visible to the sender but not the end-user.&#x20;
+Mailtrap has an option to pass unique arguments to each sent email via the **‘X-MT-Custom-Variables’**. And we add the arguments to the RAW email body. Of course, the RAW data is visible to the sender but not the end-user.
 
 To set custom variables, you only need to set the unique argument in the following format - **{"variable name": "variable value"}**.
 
@@ -49,10 +49,10 @@ The format for adding more custom variables is - **X-MT-Custom-Variables: {"vari
 
 > Parts of the Sending IPs and email headers have been blurred for security.
 
-Lastly, keep in mind that we don’t support arrays. If you want to add arrays - \[“index0”,”index1”,”index2”], for example, Mailtrap only takes the first value ("index0") and ignores the rest.&#x20;
+Lastly, keep in mind that we don’t support arrays. If you want to add arrays - \[“index0”,”index1”,”index2”], for example, Mailtrap only takes the first value ("index0") and ignores the rest.
 
 {% hint style="warning" %}
-We limit the custom variables payload to 1000 bytes, and it’s a valid JSON string. If the payload is more than 1000 bytes, Mailtrap ignores the **‘X-MT-Custom-Variables**’.&#x20;
+We limit the custom variables payload to 1000 bytes, and it’s a valid JSON string. If the payload is more than 1000 bytes, Mailtrap ignores the **‘X-MT-Custom-Variables**’.
 
 We use only - **‘X-MT-Custom-Variables’**; and it can’t get appended with another one.
 {% endhint %}

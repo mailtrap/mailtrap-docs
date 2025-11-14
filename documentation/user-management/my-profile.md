@@ -1,6 +1,6 @@
 # My Profile
 
-Mailtrap defines your user profile by your email address, and you can’t use Mailtrap without the address.&#x20;
+Mailtrap defines your user profile by your email address, and you can’t use Mailtrap without the address.
 
 To manage **User settings**, select your user name or email in the upper right corner and click My Profile. As a Mailtrap user, you can own or belong to multiple [Mailtrap Accounts](https://help.mailtrap.io/article/61-account-management). When you sign up with Mailtrap, a free account is created for you automatically.
 

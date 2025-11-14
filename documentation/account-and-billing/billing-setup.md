@@ -6,17 +6,17 @@ We accept major bank cards, and we send invoices for each transaction. To set or
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6405f749023a35108b661a26/file-beEcP7Ubdf.png)
 
-To see the list of transactions, go to the [Payment history](https://mailtrap.io/billing/transactions/) section in the Billing menu.&#x20;
+To see the list of transactions, go to the [Payment history](https://mailtrap.io/billing/transactions/) section in the Billing menu.
 
 ### Billing information and invoices
 
-Please enter complete billing information for us to be able to send you proper invoices. Go to the [Settings](https://mailtrap.io/billing/settings/) in the Billing section of the menu.&#x20;
+Please enter complete billing information for us to be able to send you proper invoices. Go to the [Settings](https://mailtrap.io/billing/settings/) in the Billing section of the menu.
 
-By default, we send invoices and billing notifications to your account email address. If you would like to receive them to another email address, please specify the address in the [Billing Settings](https://mailtrap.io/billing/settings/).&#x20;
+By default, we send invoices and billing notifications to your account email address. If you would like to receive them to another email address, please specify the address in the [Billing Settings](https://mailtrap.io/billing/settings/).
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6405f7bb9c8683055bad369a/file-ZKm0OZQ6bJ.png)
 
-_Please note that payment can be managed in the Mailtrap account only with the proper account owner credentials._&#x20;
+_Please note that payment can be managed in the Mailtrap account only with the proper account owner credentials._
 
 ####
 

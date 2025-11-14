@@ -5,7 +5,7 @@ In this article:
 * [Overview](https://help.mailtrap.io/article/187-organization-sub-accounts#Overview-u5ym_)
 * [When to use organization & sub‑accounts](https://help.mailtrap.io/article/187-organization-sub-accounts#When-to-Use-Organization--Sub-accounts-Z3P7R)
 * [Creating a sub‑account](https://help.mailtrap.io/article/187-organization-sub-accounts#Creating-a-sub-account-mcIKC)
-* [Migrating an already existing account](https://help.mailtrap.io/article/187-organization-sub-accounts#Migrating-an-already-existing-account--uSR5o)&#x20;
+* [Migrating an already existing account](https://help.mailtrap.io/article/187-organization-sub-accounts#Migrating-an-already-existing-account--uSR5o)
 * [Permissions & user management](https://help.mailtrap.io/article/187-organization-sub-accounts#Permissions--user-management-Elpl6)
 * [API tokens](https://help.mailtrap.io/article/187-organization-sub-accounts#API-tokens-ZtdRc)
 * [FAQ](https://help.mailtrap.io/article/187-organization-sub-accounts#FAQ-ybgBt)

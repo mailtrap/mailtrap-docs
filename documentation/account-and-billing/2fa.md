@@ -10,7 +10,7 @@
 
 ### Setting up 2FA <a href="#setting-up-2fa-g9n4i" id="setting-up-2fa-g9n4i"></a>
 
-1\. Go to Account (top-right) → My profile → Authentication&#x20;
+1\. Go to Account (top-right) → My profile → Authentication
 
 2\. Click on Enable 2FA under the Two-Factor Authentication (2FA) section
 
@@ -56,7 +56,7 @@ To successfully login, all you have to do is enter the code provided by your aut
 
 If you can’t access your authenticator app, simply use one of the recovery codes at the two-factor authentication step. Then, disable the 2FA and set it up with a different device or app. Please remember to save your new recovery codes, as the old ones will no longer work.
 
-Important: Each recovery code only works once.&#x20;
+Important: Each recovery code only works once.
 
 #### Lost recovery codes
 
@@ -109,7 +109,7 @@ Important:
 
 Cases when a new device might be detected:
 
-* The same physical device but another browser&#x20;
+* The same physical device but another browser
 * The same browser (e.g. Chrome) on a different physical device
 * An updated version of the same browser on the same device
 * The same version of the same browser on the same device, after some time has passed

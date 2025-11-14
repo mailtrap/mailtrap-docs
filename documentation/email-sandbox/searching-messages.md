@@ -1,8 +1,8 @@
 # Searching messages
 
-Email search works as a case-insensitive pattern matching. You can search for emails by:&#x20;
+Email search works as a case-insensitive pattern matching. You can search for emails by:
 
-* All words from email subject&#x20;
+* All words from email subject
 * TO email address
 * TO name
 
