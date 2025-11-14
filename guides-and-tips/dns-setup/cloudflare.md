@@ -2,7 +2,7 @@
 title: Cloudflare DNS Setup
 description: >-
   Verify your Mailtrap sending domain in Cloudflare. Add DNS records for
-  SPF/DKIM/DMARC verification, pass compliance, and start sending emails.
+  DKIM/DMARC verification, pass compliance, and start sending emails.
 layout:
   width: default
   title:
@@ -55,18 +55,18 @@ Click the Add Record button.
 {% step %}
 ## View Mailtrap DNS records
 
-Return to Mailtrap. On the Verification page, you'll see the DNS records you need to add to Cloudflare. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
+Return to Mailtrap. On the Verification page, you'll see the DNS records you need to add to Cloudflare. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/cloudflare-mailtrap-dns-records.png" alt="Mailtrap verification page showing required DNS records" width="563"></div>
 
-Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
+Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-mailtrap-record-types.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption><p>DNS record types in Cloudflare </p></figcaption></figure></div>
 
-{% hint style="warning" %}
-You should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It's okay to have multiple DMARC records.
+{% hint style="info" %}
+_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
 {% endhint %}
 {% endstep %}
 

@@ -2,7 +2,7 @@
 title: DigitalOcean DNS Setup
 description: >-
   Verify your Mailtrap sending domain in Digital Ocean. Add DNS records for
-  SPF/DKIM/DMARC verification, pass compliance, and start sending emails.
+  DKIM/DMARC verification, pass compliance, and start sending emails.
 layout:
   width: default
   title:
@@ -43,7 +43,7 @@ You'll see the Create new record heading.
 {% step %}
 ## View Mailtrap DNS records
 
-Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to DigitalOcean. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
+Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to DigitalOcean. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/digitalocean-mailtrap-dns-records.png" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
 {% endstep %}
@@ -51,14 +51,14 @@ Return to Mailtrap. On the Domain Verification page, you'll see the DNS records 
 {% step %}
 ## Select DNS record type
 
-Check the type next to each record in Mailtrap and choose a relevant one in DigitalOcean (CNAME or TXT). Mailtrap has four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
+Check the type next to each record in Mailtrap and choose a relevant one in DigitalOcean (CNAME or TXT). Mailtrap has four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/digitalocean-mailtrap-record-types.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/digitalocean-record-type-selector.png" alt="DigitalOcean DNS record type selector dropdown" width="563"><figcaption><p>DNS record types in DigitalOcean </p></figcaption></figure></div>
 
-{% hint style="warning" %}
-You should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It's okay to have multiple DMARC records.
+{% hint style="info" %}
+_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
 {% endhint %}
 {% endstep %}
 

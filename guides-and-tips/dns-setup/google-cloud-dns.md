@@ -2,7 +2,7 @@
 title: Google Cloud DNS Setup
 description: >-
   Verify your Mailtrap sending domain in Google Cloud DNS. Add DNS records for
-  SPF/DKIM/DMARC verification, pass compliance, and start sending emails.
+  DKIM/DMARC verification, pass compliance, and start sending emails.
 layout:
   width: default
   title:
@@ -55,15 +55,17 @@ Click Add Standard.
 {% step %}
 ## View Mailtrap DNS records
 
-Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Google Cloud DNS. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
+Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Google Cloud DNS. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-4.png" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Cloud DNS. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC). Ignore Google's SPF type record; it's deprecated.
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Cloud DNS. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC). Ignore Google's SPF type record; it's deprecated.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
 
-Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It's okay to have multiple DMARC records.
+{% hint style="info" %}
+_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -83,9 +85,7 @@ And paste them into Google Cloud DNS. Remember that Google Cloud DNS refers to t
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-8.png" alt="Google Cloud DNS TXT record form with DNS Name and TXT data fields" width="563"><figcaption><p>TXT-type record in Google Cloud DNS</p></figcaption></figure></div>
 
-When adding TXT-type records, add double quotes in the beginning and the end of the record string in the TXT data field. For example, you should enter `"v=spf1 include:_spf.smtp.mailtrap.live ~all"` instead of `v=spf1 include:_spf.smtp.mailtrap.live ~all`.
-
-For SPF records, leave the DNS name field empty (don't enter '@' symbol as it's not required in Google Cloud DNS).
+When adding TXT-type records, add double quotes in the beginning and the end of the record string in the TXT data field.
 {% endstep %}
 
 {% step %}

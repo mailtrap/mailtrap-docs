@@ -2,7 +2,7 @@
 title: Namecheap DNS Setup
 description: >-
   Verify your Mailtrap sending domain in Namecheap. Add DNS records for
-  SPF/DKIM/DMARC verification, pass compliance, and start sending emails.
+  DKIM/DMARC verification, pass compliance, and start sending emails.
 layout:
   width: default
   title:
@@ -55,16 +55,16 @@ Click Add New Record.
 {% step %}
 ## View Mailtrap DNS records
 
-Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Namecheap. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
+Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Namecheap. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-mailtrap-dns-records.png" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in Namecheap. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in Namecheap. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/namecheap-dns-types-categories.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
 
 {% hint style="info" %}
-You should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It's okay to have multiple DMARC records.
+_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
 {% endhint %}
 {% endstep %}
 
