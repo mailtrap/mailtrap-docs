@@ -1,40 +1,45 @@
+---
+title: Auto BCC
+description: Automatically add BCC recipients to all emails sent from your domain with custom headers support
+---
+
 # Auto BCC
 
-### How to set up Auto BCC
+## How to set up Auto BCC
 
 {% stepper %}
 {% step %}
 Go to Sending Domains and choose the domain you want to set up Auto BCC for.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCgHaJLtRIOfFnRciyvFBNw6BGisQe_FLggiKybxrrIuwmiojsOXI1SvhTxPT6Z2alcApTVATT34uK8DCpX8sM2RPwHGaS_WaVQLtWwxQ_z-BZW23NP7TQwN_SVRD48X9TOLGm_WIQqmUSzqXxMNgcuZKU?key=Rdpqv1jCUJF29Zx8lG8Vbw" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/auto-bcc-sending-domains-list.png" alt="Sending Domains page showing list of verified domains with domains highlighted"><figcaption><p>Select domain from Sending Domains list</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Navigate to the Auto BCC tab.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXedY_lERFpjBleyTqsZe3KUxJHqqgk2pA_Gw8j3HR9rIyZvdQBFzDH6wu8awg3X-Sfp8O5A6bVV5N4yCGwKTRci8WcvvHMDjLp87j2jmHCHo_qEXYKxRWavUDwvSO5Q4zxDHfyXJzgAHDJnjjPJHzly6yf7?key=Rdpqv1jCUJF29Zx8lG8Vbw" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/auto-bcc-tab.png" alt="Domain page showing Auto BCC tab highlighted by red arrow"><figcaption><p>Open Auto BCC tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Enter an email address that will be included as BCC in all the emails you send from this domain and click Add Email.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfE6VJ6LreH9e6jtAIFkisAWDPrvLlD-n0HT_HpuhA-PCTQnyj473K4DvvKLsyt1VUzYw8wj1v7Oq_HIPNw3ATup6bZ_VgwI-b-qy5zDxj66OEgzNSs2tFor5VITAJlj5xHxj8t7ZjJou7RPa6agKPA-i7q?key=Rdpqv1jCUJF29Zx8lG8Vbw" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/auto-bcc-add-email.png" alt="Auto BCC page with email input field and Add Email button highlighted by red arrow"><figcaption><p>Add BCC email address</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Optionally, specify a custom X-header that will be included in emails to BCC recipients. Enter the Name and Value, and click Add Header.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdhPgf1Q-BjsEATPKtjhUf-j_HPPf179Xe-Tr-b5gnx5oDv3tfIIHhAiAo8y2Y8Qm3Wv4fmV7TR7sZjWMZV6DZz3JDYlo5jh5G_-9X-vXYTE5nBVCK13iSG9YEGjbcYn1c2o48HS9MtHuUQ_fIq5K8SkYYF?key=Rdpqv1jCUJF29Zx8lG8Vbw" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/auto-bcc-add-header.png" alt="Custom Headers section with Name and Value fields and Add Header button highlighted by red arrow"><figcaption><p>Add custom X-header</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 To delete the email address or a custom header, click the trash bin icon and confirm the action by clicking Delete.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf66GornpwClZWwGP_l74DJXxH1jQojydCjPJm-zaqN1sI1b8iXKJtYll8f16QRzScFOqGJIuBYhopwKvVGx32yaeMGAHMuWelqR4pUvkORFc5vIVUrizhJvksHXF3GNB8_3C5pzq-oFienXLxFchAM-Y1O?key=Rdpqv1jCUJF29Zx8lG8Vbw" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/auto-bcc-delete-confirmation.png" alt="Auto BCC page showing email with trash icon and delete confirmation dialog with Delete button highlighted"><figcaption><p>Delete email or header confirmation</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-### Important notes
+## Important notes
 
 * You can add multiple BCC email addresses, and all of them will receive email copies;
 * You can’t use Auto BCC with a demo domain;

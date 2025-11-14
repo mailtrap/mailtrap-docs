@@ -10,11 +10,15 @@
 
 ## Email API/SMTP
 
-* [Sending Domain Setup](email-api-smtp/sending-domain-setup/README.md)
+* [Sending Domain Setup](email-api-smtp/sending-domain-setup.md)
 * [API integration](email-api-smtp/api-integration.md)
 * [SMTP integration](email-api-smtp/smtp-integration.md)
 * [Sending Limits](email-api-smtp/sending-limits.md)
-* [Email Templates](email-api-smtp/email-templates.md)
+* [Email Templates](email-api-smtp/email-templates/README.md)
+  * [Editing and Customizing](email-api-smtp/email-templates/editing-and-customizing.md)
+  * [Handlebars Guide](email-api-smtp/email-templates/handlebars-guide.md)
+  * [Integration](email-api-smtp/email-templates/integration.md)
+  * [Debugging](email-api-smtp/email-templates/debugging.md)
 * [Suppressions list](email-api-smtp/suppressions-list.md)
 * [IP Warmup](email-api-smtp/ip-warmup.md)
 * [Statuses and Events](email-api-smtp/statuses-and-events.md)
@@ -29,6 +33,8 @@
 * [Feedback Loops](email-api-smtp/feedback-loops.md)
 * [Auto BCC](email-api-smtp/auto-bcc.md)
 * [Excluding Specific Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
+* [FAQs](email-api-smtp/faqs.md)
+* [Troubleshooting](email-api-smtp/troubleshooting.md)
 
 ## Sandbox
 
@@ -49,6 +55,8 @@
 * [Searching messages](email-sandbox/searching-messages.md)
 * [Sandbox Glossary](email-sandbox/sandbox-glossary.md)
 * [Bounce Emulator](email-sandbox/bounce-emulator.md)
+* [FAQs](email-sandbox/faqs.md)
+* [Troubleshooting](email-sandbox/troubleshooting.md)
 
 ## Marketing
 
@@ -78,12 +86,6 @@
 * [My Profile](user-management/my-profile.md)
 * [Organization & Sub‑Accounts](user-management/organization-and-sub-accounts.md)
 
-## Troubleshooting
-
-* [Troubleshooting](troubleshooting/README.md)
-* [Troubleshooting - Email Sandbox](troubleshooting/troubleshooting-email-sandbox.md)
-* [Troubleshooting - Email Sending](troubleshooting/troubleshooting-email-sending.md)
-
 ## Privacy & Security
 
 * [Privacy & Security](privacy-and-security/README.md)
@@ -91,9 +93,3 @@
 * [GDPR Compliance](privacy-and-security/gdpr-compliance.md)
 * [ISO certification](privacy-and-security/iso-certification.md)
 * [Legal policies](privacy-and-security/legal-policies.md)
-
-## FAQs
-
-* [FAQs](faqs/README.md)
-* [Email API and SMTP](faqs/email-api-and-smtp.md)
-* [Sandbox - FAQs](faqs/sandbox-faqs.md)

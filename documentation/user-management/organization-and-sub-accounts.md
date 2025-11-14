@@ -122,7 +122,7 @@ Note: A user with organization-level permissions will always have access to all 
 * Billing Viewer - View-only access to billing.
 * _Account-level access_
 
-If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](https://help.mailtrap.io/article/65-user-management).
+If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](user-management.md).
 
 <div align="left"><img src="../.gitbook/assets/org-edit-user-permissions.png" alt="Edit User dialog showing Organization Permissions and Account Permissions with admin and viewer role options" width="563"></div>
 
@@ -158,51 +158,58 @@ Coming soon: We're working on adding support for managing sub‑accounts via API
 
 ## FAQ
 
-Users and Permissions
+### Users and Permissions
 
-*   **Are the number of users shared for all the sub-accounts under the organization?**
+{% expand title="Are the number of users shared for all the sub-accounts under the organization?" %}
+Yes, user counts are shared across all sub-accounts within the organization.
+{% endexpand %}
 
-    Yes, user counts are shared across all sub-accounts within the organization.
-*   **How am I counted as a user if I have permissions to more than 1 sub-account?**
+{% expand title="How am I counted as a user if I have permissions to more than 1 sub-account?" %}
+You'll still be counted as one user, regardless of how many sub-accounts you have access to within the organization.
+{% endexpand %}
 
-    You'll still be counted as one user, regardless of how many sub-accounts you have access to within the organization.
-*   Can a user be in multiple sub-accounts?
+{% expand title="Can a user be in multiple sub-accounts?" %}
+Yes, just invite them to each sub‑account and assign the right role. You can also add users to the entire Organization, and thus, they will have access to all sub-accounts within your Organization.
+{% endexpand %}
 
-    Yes, just invite them to each sub‑account and assign the right role. You can also add users to the entire Organization, and thus, they will have access to all sub-accounts within your Organization.
+### Organization and Sub-Account Management
 
-Organization and Sub-Account Management
+{% expand title="How can a sub-account be removed from the organization they're currently in?" %}
+You can either fully delete the sub-account (using the same process as deleting standard accounts) or contact our Support Team to transfer the sub-account to another Organization.
+{% endexpand %}
 
-*   How can a sub-account be removed from the organization they're currently in?
+{% expand title="Need to migrate existing accounts into one Organization?" %}
+Sure! Reach out to us, and we'll help you move everything over without losing data or re-verifying domains.
+{% endexpand %}
 
-    You can either fully delete the sub-account (using the same process as deleting standard accounts) or contact our Support Team to transfer the sub-account to another Organization.
-*   Need to migrate existing accounts into one Organization?
+{% expand title="Can sub-accounts have different plan levels?" %}
+No, the subscription plan is defined at the Organization level and shared across all sub‑accounts.
+{% endexpand %}
 
-    Sure! Reach out to us, and we'll help you move everything over without losing data or re-verifying domains.
-*   Can sub-accounts have different plan levels?
+{% expand title="What about billing?" %}
+All usage is tracked and billed under the Organization's plan. If you need billing per account, we recommend keeping them as standalone accounts.
+{% endexpand %}
 
-    No, the subscription plan is defined at the Organization level and shared across all sub‑accounts.
-*   What about billing?
+{% expand title="How to update the organization owner?" %}
+Submit a support request to update the organization owner.
+{% endexpand %}
 
-    All usage is tracked and billed under the Organization's plan. If you need billing per account, we recommend keeping them as standalone accounts.
-*   **How to update the organization owner?**
+### Quotas and Stats
 
-    Submit a support request to update the organization owner.
+{% expand title="Can we set a per sub-account quota limit?" %}
+This feature is currently in development and will be available soon.
+{% endexpand %}
 
-Quotas and Stats
+{% expand title="Are stats and email quotas shared?" %}
+Quotas apply at the Organization level, but stats are tracked separately for each sub‑account.
+{% endexpand %}
 
-*   **Can we set a per sub-account quota limit?**
+### General
 
-    This feature is currently in development and will be available soon.
-*   Are stats and email quotas shared?
-
-    Quotas apply at the Organization level, but stats are tracked separately for each sub‑account.
-
-General
-
-* Can sub-accounts share templates?
-
+{% expand title="Can sub-accounts share templates?" %}
 No, templates are isolated per sub‑account. You can manually export and import them if needed.
+{% endexpand %}
 
-* Not seeing the "Organization" menu item?
-
+{% expand title="Not seeing the \"Organization\" menu item?" %}
 Your current plan may not include this feature. You can check our pricing or contact support for help.
+{% endexpand %}

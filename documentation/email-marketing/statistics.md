@@ -3,9 +3,11 @@ title: Statistics
 description: View and analyze email campaign performance metrics and analytics
 ---
 
+# Statistics
+
 Mailtrap provides analytics for all the emails you send.
 
-![](<../../../.gitbook/assets/unknown (4).png>)
+<figure><img src="../.gitbook/assets/stats-dashboard-overview.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"><figcaption><p>Statistics overview dashboard</p></figcaption></figure>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -15,19 +17,19 @@ On the statistics dashboards, you can see the following metrics:
 * Bounce rate
 * Spam complaints
 
-### Navigating around the statistics dashboards
+## Navigating around the statistics dashboards
 
 In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-![](https://lh7-us.googleusercontent.com/tUFcCa-3_iKL57k4X9LqxJZngVtIrove4PaKxW9GASFnyrKbZr4Yre1bWUCmJuzPh0-LDDyElfO1rcDh7I6jgvXudSQ7K-TtcdFz018v48MHz4nOVe9XnD2VUqGsZOBEh0TGzDCa1NNcTSLfHF34I8I)
+<figure><img src="../.gitbook/assets/statistics-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains"><figcaption><p>Domain selector in Stats Overview</p></figcaption></figure>
 
 By default, the stats are shown for the last week + today.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6401ef95188a9d242a7d65a8/file-QGQA9mEWm0.png)
+<figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6401ef95188a9d242a7d65a8/file-QGGA9mEWm0.png" alt="Statistics date range selector"><figcaption><p>Statistics date range selector</p></figcaption></figure>
 
-### Thresholds
+## Thresholds
 
-The thresholds are based on our extensive cross-industry research and, at this point, can’t be edited. The current values are:
+The thresholds are based on our extensive cross-industry research and, at this point, can't be edited. The current values are:
 
 * For bounce rate:
   * 2-5% is a warning level (yellow)
@@ -36,15 +38,15 @@ The thresholds are based on our extensive cross-industry research and, at this p
   * 0.08%-0.1% is a warning level (yellow)
   * \>0.1% is a critical level (red)
 
-### Terminology
+## Terminology
 
-#### Delivered
+### Delivered
 
-Delivered refers to the percentage of emails that were accepted by the recipient’s mailbox providers compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](https://help.mailtrap.io/article/71-email-logs).
+Delivered refers to the percentage of emails that were accepted by the recipient's mailbox providers compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](../email-api-smtp/statistics/email-logs.md).
 
 **Note:** "**Delivered**" status doesn’t mean that a message went straight into the recipient’s Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
 
-Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about suppressions [here](https://help.mailtrap.io/article/95-suppressions-list).
+Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about suppressions [here](../email-api-smtp/suppressions-list.md).
 
 On top of that, an email can be rejected on the recipient’s end for various reasons:
 
@@ -53,15 +55,15 @@ On top of that, an email can be rejected on the recipient’s end for various re
 * A server timeout occurs (in such case, Mailtrap will retry the delivery 10 times until it eventually gives up).
 * Email authentications (SPF, DKIM, DMARC) fail.
 
-#### Unique open rate
+### Unique open rate
 
 Unique open rate refers to the percentage of emails that were opened at least once compared to all emails sent.
 
 Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
 
-![](https://lh7-us.googleusercontent.com/G4wfcj9NzqHOkJlA0KU9_3_VZVJWeFwOzedTikmrCC68pw54-8u9mZpaUmfflnzAQkmeRpDNEZwkmWjoG3gSwRl0npyX5vUBXHJ4pDB_2ZOs10kddFd1u216wPkvXWV4jqW2KiPaW2kQooceBKDPOck)
+<figure><img src="../.gitbook/assets/statistics-tracking-settings.png" alt="Tracking Settings tab showing Track Opened Emails and Track Clicks toggles"><figcaption><p>Tracking Settings for email opens and clicks</p></figcaption></figure>
 
-#### Click rate
+### Click rate
 
 Click rate refers to the percentage of emails that received at least one link click compared to all delivered emails.
 
@@ -69,7 +71,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-![](https://lh7-us.googleusercontent.com/iNboqLTvD7XwYaJevUwkpfh3zr68WfEFh7TbwyTuFJmxgoLLLvKyO2UafZ53fzdXOc0N1c11tFGDrif1y6_P7dHZ6QvMa1ej8bU2n05EOnO2ABppo7JbJidiYKyE-jD-NJ3E0IjBU2lU8EgnagI9mAM)
+<figure><img src="../.gitbook/assets/statistics-event-history-clicks.png" alt="Event History tab showing Click events with timestamps"><figcaption><p>Click events in Event History</p></figcaption></figure>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 
@@ -77,9 +79,9 @@ However, the metrics such as **clicked** and **click rate** used in the statisti
 
 The **click rate** is basically clicked/delivered \* 100%.
 
-#### Bounce rate
+### Bounce rate
 
-Bounce rate refers to the percentage of emails dispatched from Mailtrap that were rejected on the recipient’s end compared to all emails sent.
+Bounce rate refers to the percentage of emails dispatched from Mailtrap that were rejected on the recipient's end compared to all emails sent.
 
 Emails may bounce for different reasons, most commonly:
 
@@ -92,6 +94,6 @@ The term bounce used in Mailtrap is also known as a hard bounce. This is differe
 
 If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
 
-#### Spam complaints
+### Spam complaints
 
 Spam complaints refer to the percentage of emails that are reported as spam by recipients, as compared to all emails that were delivered.

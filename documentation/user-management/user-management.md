@@ -9,7 +9,7 @@ This is the centralized place to manage users in your account.
 
 <div align="left"><img src="../.gitbook/assets/user-management-roles-table.png" alt="User roles permission table showing different access levels for account entities" width="563"></div>
 
-* Account Owner is a person who has registered an account or to whom [it has been transferred](https://help.mailtrap.io/article/61-account-management). Account Owner can rename an account, delete it, transfer ownership, manage all projects and sandboxes, and add/edit/invite team members. Nobody can alter the permissions of an Account Owner.
+* Account Owner is a person who has registered an account or to whom [it has been transferred](my-profile.md). Account Owner can rename an account, delete it, transfer ownership, manage all projects and sandboxes, and add/edit/invite team members. Nobody can alter the permissions of an Account Owner.
 * Account Admin has the same permissions as an Account Owner, with the exception of deleting an account and transferring its ownership. Account Owner and other Account Admins can alter the permission of Account Admins.
 * Account Viewer has access to all the entities in the account (projects, sandboxes, billing) but can't add, edit, or remove anything. For example, the Account Viewer can view all projects but can't add new ones or edit existing ones.
 * Domain Admin can rename and delete a domain, manage domain settings (e.g., reset the credentials, enable/disable open or click tracking, or modify unsubscribe footer settings), and add/remove domain team members.
@@ -24,9 +24,9 @@ This is the centralized place to manage users in your account.
 * Email Campaign Admin can create, edit, delete, and send email campaigns, as well as view reports.
 * Email Campaign Viewer can only view email campaigns and campaign reports.
 * Project Admin can rename and delete a project, fully manage all its sandboxes (add new or delete existing ones), and add or remove project team members. They cannot add new projects in the account.
-* Project Viewer can see all the sandboxes in the project but can't edit anything (e.g., [sandbox email address](https://help.mailtrap.io/article/18-email-per-inbox) or [forwarding settings](https://help.mailtrap.io/article/41-auto-forward)). They also can't add or remove teammates, projects, or sandboxes.
+* Project Viewer can see all the sandboxes in the project but can't edit anything (e.g., [sandbox email address](../email-sandbox/email-address-per-sandbox.md) or [forwarding settings](../email-sandbox/automatic-email-forwarding.md)). They also can't add or remove teammates, projects, or sandboxes.
 * Sandbox Admin can rename and delete a sandbox, manage sandbox settings (e.g., reset the credentials or add forwarding rules), and add/remove sandbox team members. However, they can't add new sandbox or projects.
-* Sandbox Viewer can see all the sandbox messages but can't edit anything (e.g., [sandbox email addresss](https://help.mailtrap.io/article/18-email-per-inbox) or [forwarding domains](https://help.mailtrap.io/article/41-auto-forward)). They also can't add or remove sandbox teammates, sandboxes, or projects.
+* Sandbox Viewer can see all the sandbox messages but can't edit anything (e.g., [sandbox email addresss](../email-sandbox/email-address-per-sandbox.md) or [forwarding domains](../email-sandbox/automatic-email-forwarding.md)). They also can't add or remove sandbox teammates, sandboxes, or projects.
 * Billing Admin permission allows users to manage the Billing settings, add or remove credit cards, upgrade and downgrade the account, and cancel the subscription.
 * Billing Viewer can only see the credit card on file and details of the current subscription. They can also opt out of receiving invoices to their email address.
 

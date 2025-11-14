@@ -1,26 +1,11 @@
 ---
-description: >-
-  Set up your sending domain in Mailtrap. Add DNS records, verify
-  SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
+title: Sending Domain Setup
+description: Set up your sending domain in Mailtrap. Add DNS records, verify SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
 ---
 
 # Sending Domain Setup
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="cloudflare.md">cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td><a href="digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td><a href="google-domains.md">google-domains.md</a></td></tr><tr><td>Namecheap</td><td><a href="namecheap.md">namecheap.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="../../guides-and-tips/dns-setup/aws-route-53.md">../../guides-and-tips/dns-setup/aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="../../guides-and-tips/dns-setup/cloudflare.md">../../guides-and-tips/dns-setup/cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td><a href="../../guides-and-tips/dns-setup/digitalocean.md">../../guides-and-tips/dns-setup/digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="../../guides-and-tips/dns-setup/godaddy.md">../../guides-and-tips/dns-setup/godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="../../guides-and-tips/dns-setup/google-cloud-dns.md">../../guides-and-tips/dns-setup/google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td><a href="../../guides-and-tips/dns-setup/google-domains.md">../../guides-and-tips/dns-setup/google-domains.md</a></td></tr><tr><td>Namecheap</td><td><a href="../../guides-and-tips/dns-setup/namecheap.md">../../guides-and-tips/dns-setup/namecheap.md</a></td></tr></tbody></table>
 
 ### Setting up your domain  <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
@@ -34,15 +19,15 @@ _In the example below, we’ll be using GoDaddy._
 
 * Navigate to Sending Domains in the left navigation panel.
 
-<div align="left" data-full-width="false" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/pwnfi0PrV_iw_1wMFjqda0X1iwah7Q2Gb-4EBnErhKhQsk-4W2CM3eDaeV2kCjxWnjhEAOHkI9caXtT0Xm5-kdc-CFlD76FhnJ-lUOurpOd6S9u2qVJd7hieoIXCzujQtfT_-QmJoyfcXQouQm4eoaw" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/sending-domains-navigation-menu.png" alt="Sending Domains navigation menu in Mailtrap"><figcaption><p>Sending Domains navigation menu</p></figcaption></figure>
 
 * Click Add Domain.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/WH64hwf9AJ23KGlhisXbwVBjNZ-PTnFXLO0LS0ooVhGNjwHs_kLYT5n9CKMHLlLWIUpcc8Jl6qSlA14BMWyonem5nclTltPb1cK5s-ukI_wu7YDz0C2I26rKiA1nzUM2L1bqmdPKFg4JcYe0G0RIDdc" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/sending-domains-add-domain-button.png" alt="Add Domain button in Sending Domains page"><figcaption><p>Add Domain button</p></figcaption></figure>
 
 * Type in the domain from which you want to send emails and click Add. Remember that you should be the domain owner with access to its DNS records/have someone with access to DNS records.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/73MNY012XVDgAJ_RO9lIqVX4c5S3pW_-Q47uc2gpmUyYe2SoldAB9fNZiMxXO1Ygq-BqwWpuWUtty482f4v5NT6pz730HdBVoBWo7062174lJgB-0MW35ba5f6MD-jzMK2tQCrFsFNIJHtLkRPGUsAg" alt=""></div>
+<figure><img src="../.gitbook/assets/sending-domains-add-domain-form.png" alt="Add Domain Name form with domain input field"><figcaption><p>Add Domain Name form</p></figcaption></figure>
 
 * After this step, you’ll see the Domain Verification page.
 {% endstep %}
@@ -63,23 +48,23 @@ To send instructions to your admin or developer, enter their email address and c
 
 To verify the domain yourself, follow these steps:
 
-* Go to your domain provider and locate the domain you’ve added to Mailtrap.
+* Go to your domain provider and locate the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/HHSh2cp5Q3EVMaN4XEyw1B4CCQJyRNWyks6FeCBPDBs1oW1VE3gs1LzcMApbZZ1lcTyVWfgBX7wSJldGQcp1FrV1_IcJzpQtoOwVQASDKm2gtEdAhhp5lEOPOHRDAbWAqdrf2snAcLhfcU_gP167p9c" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/godaddy-domain-list.png" alt="GoDaddy domain list showing mailtrap.club domain"><figcaption><p>GoDaddy domain list</p></figcaption></figure>
 
 * Open the DNS settings and click Add New Record.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/1LdTCB6Q6BurqNfwgwVJZxFjSvsuaA_73rQQHkjGPIANd8MwzRO_X_zaZKV2hYchfpbEOdUYseUIbmwSlMksd2vRSu10tP7HuchVx1EFkgX52rHUqdwy8ZSbY7-Il4v62eCIqZnI7NcBnbRB1PmwS-U" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/godaddy-dns-add-new-record.png" alt="GoDaddy DNS Management with Add New Record button"><figcaption><p>GoDaddy DNS Management - Add New Record</p></figcaption></figure>
 
 * Return to Mailtrap. On the Domain Verification page, you’ll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You’ll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in most domain providers but may differ slightly depending on the provider.
 
 <div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5da7442d517d60d26c5f/file-kl0nGsYGqW.png" alt="" width="563"></div>
 
-* Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC). Read [this article](https://help.mailtrap.io/article/79-dns-records) for detailed information on each DNS record.
+* Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5dbd772e5b7dd60d854b/file-NxGu99kleR.png" alt="DNS Types and Categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="https://lh7-us.googleusercontent.com/l3vQpGEx7u2Cr35_ekYw8k9NzZskYM_X6Ax4ce1VrR7Zhs1e4EySbQTeUVbIQLGJiSFUDzcnTqscQa9065MWGJyjUngoU3LdX8yrJjiAv9UTZoLEIDxV5_NlcgG_NhMY3GcwVqY40yawR0XOYLIdafs" alt="" width="563"><figcaption><p>DNS record types in GoDaddy </p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
 
 {% hint style="info" %}
 _Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap._
@@ -91,12 +76,12 @@ _Note that you should have only one SPF record. So, if you already have one for 
 
 * Paste them into your domain provider.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/JZRl_aMMfhdj2qddwJU20Cmz_Ge8Ygw1vKckO2sClRJ07oZrolZinutwmA787OlxUZmoGD7GOdPvC_EBuzvS0jrCoDs8SEUrR6PxzsQZ4BN5_DapPC6kto9EmzDdhG3n2IrcsPDbsmxUMSVMaM27MXQ" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/godaddy-dns-new-record-form.png" alt="GoDaddy DNS new record form with CNAME type, name, and value fields"><figcaption><p>GoDaddy DNS new record form</p></figcaption></figure>
 
 * Click Save after adding each record in your domain provider.
-* Repeat the process of copying and pasting for each record until you’ve added all the Mailtrap DNS records to your domain provider.
+* Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to your domain provider.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/5HdxUfrrjClIVHKBMc_NwFwNoeQMEq2Eo2281J5fBjzfgQjBY8LvzqzuzoH8N9ymPFRINoLIov_bzSNGtNTZws1On6S2u5tQkYkXRjpzfZI41yum4okAXERkjQFL6bI2hWVSxV3ioYQoGK9cxVh-Hm8" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/godaddy-dns-all-records-added.png" alt="GoDaddy DNS records table showing all Mailtrap DNS records added"><figcaption><p>All Mailtrap DNS records added in GoDaddy</p></figcaption></figure>
 
 * Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -126,11 +111,11 @@ Please keep in mind that it’s crucial to provide correct information correspon
 _Tip: If you’ve provided this information before, you won’t be asked to fill it in again._
 {% endhint %}
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/image.png" alt="" width="355"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt="" width="355"><figcaption></figcaption></figure></div>
 
 You can switch between personal and business information only once, meaning that you cannot change it after the form is submitted.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -142,13 +127,13 @@ Once all the DNS records are successfully verified, your domain will undergo an 
 
 Some domains may be selected for additional checks. If so, we’ll ask you to fill out a simple Compliance Form and answer a few questions about your business, sending goals, etc. You’ll see a notification under Compliance Check and a link to the form.
 
-<div data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/3xDxFQRfiMe2_5WydJi8GZujVTSRG3vHxgby5nYhvc5wtJfSF9HiQfNuh8pbXOAhKNyh9_-8MAxowibVsmfl4IJzUN6xPjxWlfldYWRWOb4Oitcfz5dYM8x44Jhtoko2j4jG8YOCJALaGoUv1V4zJRw" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/sending-domains-compliance-pending.png" alt="Compliance check pending status with Fill In Compliance Form button"><figcaption><p>Compliance check pending status</p></figcaption></figure>
 
 We’ll email you if we need additional information from you. If all the checks are successful at this stage, your domain will be verified.
 
-In some cases, your domain may be selected for manual verification. This is the final check before your domain is verified. The length of the manual verification depends on how fast you reply to our emails. If successful, you’ll see Verified status. If not, you’ll see a Rejected badge next to your domain and a message under Compliance Check. In case of any questions about the reasons for rejection, please contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).
+In some cases, your domain may be selected for manual verification. This is the final check before your domain is verified. The length of the manual verification depends on how fast you reply to our emails. If successful, you'll see Verified status. If not, you'll see a Rejected badge next to your domain and a message under Compliance Check. In case of any questions about the reasons for rejection, please contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -216,8 +201,6 @@ Click the Add New Webhook button, choose the Sending Stream, paste the webhook U
 
 Mailtrap also allows you to batch up to 500 events within a webhook; that is - group all events under one object, and thus save on computing power.
 
-To read more about webhooks setup, events structure, and batching, [check this article](https://help.mailtrap.io/article/102-webhooks).
-
 ### Useful tips <a href="#sending-domains-j_1ht" id="sending-domains-j_1ht"></a>
 
 After completing the setup process, you can always return to the Sending Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
@@ -226,22 +209,22 @@ After completing the setup process, you can always return to the Sending Domains
 _You can’t create any additional demo domains, but you can delete the existing one if needed._
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/Y_nH9YF60dJmeRh-BlyReoA7spk7_ll7ICEP5DYVHY74ImUobDFI8cnLSmP-QZBpO3_hHSXJG1VVOH5x-vq4s3-tg9Fq-feRp884RF8XUOtVuiAYrLQ3Yig6cZBx44behNkMnnQIjDAsZ_Qx2X5Hp-k" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/sending-domains-verified-list.png" alt="Sending Domains list showing verified domains with status and emails sent"><figcaption><p>Sending Domains list with verified domains</p></figcaption></figure>
 
 Remember that the domain with the Demo badge can be used to send emails only to the email address you registered with.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/www7l5PULBizvKM1SASk9vvcgSUmWLv8QGVZIYDBeoEXiMShWVZ2w9cPpu3a2G0SiGHlWcKjs1BAabtVQpYcgbGOHgljnePMYBNvHGc6Nu-Sh1WJs8BWVr78D8Tot3ZSjFjfgQF0OJzcqCTg6djVBeU" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/sending-domains-demo-restrictions.png" alt="Demo domain showing restriction message that it can only send to yourself"><figcaption><p>Demo domain restrictions</p></figcaption></figure>
 
-You can send emails to your recipients only from domains that have Verified status. If the status is Pending or Rejected, you won’t be able to send emails.
+You can send emails to your recipients only from domains that have Verified status. If the status is Pending or Rejected, you won't be able to send emails.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/yF7CMu9oSErVTH2ufQuvFG83bPZWqF_ToXbyyqFh9KlxaNK3beYp0x86gvHFOdkpy8__K53wEQskTJ7D55aWusWExVJxTf7AUJx3ku2XwLGmSgeoCgQrqWPo4i9lEeEk2lhQvoYJ7xj2QI7TdiLj68M" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/sending-domains-pending-verified-statuses.png" alt="Sending Domains showing pending and verified status badges"><figcaption><p>Domain status badges - Pending and Verified</p></figcaption></figure>
 
-From the Sending Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won’t be able to send any further emails until you add and verify it again.
+From the Sending Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won't be able to send any further emails until you add and verify it again.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/JIy5_JitKlFwtRMbCCm9ieErt5xQknRyOLo163VHKy9Mx1oeYcHm0oSITRuF2OoWawwLy7S0E1-hA0Ac_njDIbQhEsX_sVZ4aZ4o9wzZDupXRyq328vxX8aKZ0z-stqZ3VAJyfIKyYbEUvVVCYFmTOw" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/sending-domains-delete-button.png" alt="Sending Domains with delete button highlighted"><figcaption><p>Delete domain button</p></figcaption></figure>
 
-Note that removing a domain won’t remove it from your Mailtrap account completely. It will still appear, for example, in analytics, and will be displayed with the (deleted) suffix, just like in the example below:
+Note that removing a domain won't remove it from your Mailtrap account completely. It will still appear, for example, in analytics, and will be displayed with the (deleted) suffix, just like in the example below:
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/zYl0PXWMs8JTwi0NMxZLzU5SsEkuS4wD6saHEU7QvciCNevKB8XLnb2iIpT0WzyJL6mlsFITdyul85ePq_1S0tWIw9Qsh1_97U7RzWri99h4fGL5gopQmLEipIftoPeEsgKO6JnqVk-JAI9ONmTqrZE" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/sending-domains-deleted-in-stats.png" alt="Stats overview showing deleted domains with (deleted) suffix"><figcaption><p>Deleted domains shown in stats</p></figcaption></figure>
 
 We do this to preserve your historical stats that would otherwise be lost.

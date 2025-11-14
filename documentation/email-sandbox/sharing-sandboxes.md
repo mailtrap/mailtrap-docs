@@ -11,7 +11,7 @@ The best practice is to create separate sandboxes for different environments: de
 
 ## How to share your sandboxes with others
 
-For effortless collaboration with your colleagues or customers, you can share data of your choice with them: separate sandboxes or whole projects (to learn how to share projects, check this article - [Sharing projects](https://mailtrap.helpscoutdocs.com/article/27-sharing-projects)).
+For effortless collaboration with your colleagues or customers, you can share data of your choice with them: separate sandboxes or whole projects (to learn how to share projects, check this article - [Sharing projects](sharing-projects.md)).
 
 There are two ways to share your sandbox:
 

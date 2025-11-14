@@ -31,7 +31,7 @@ Clicking on the line number will take you to the **HTML Source** tab where you c
 
 <div align="left"><img src="../.gitbook/assets/sandbox-inspect-template-html-source.png" alt="HTML Source tab displaying full email HTML code with line numbers" width="563"></div>
 
-To learn more about the HTML Check feature, refer to the [HTML Check article](https://help.mailtrap.io/article/60-html-check).
+To learn more about the HTML Check feature, refer to the [HTML Check article](html-check.md).
 
 ## 3. Make sure that the HTML and TEXT versions of your message match
 

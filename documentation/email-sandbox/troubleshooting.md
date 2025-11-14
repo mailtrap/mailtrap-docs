@@ -1,4 +1,6 @@
 ---
+title: Troubleshooting - Email Sandbox
+description: Common issues and solutions for Mailtrap Email Sandbox
 icon: exclamation
 ---
 
@@ -6,17 +8,17 @@ icon: exclamation
 
 **In this article**
 
-* [Connection errors](https://help.mailtrap.io/article/59-troubleshooting-email-testing#connection-errors)
-* [Expected response code 250 but got code "530", with the message "530 5.7.1 Authentication required"](https://help.mailtrap.io/article/59-troubleshooting-email-testing#530)
-* [Messages are not delivered to my sandbox](https://help.mailtrap.io/article/59-troubleshooting-email-testing#not-in-sandbox)
-* [Mail not delivered to the recipient](https://help.mailtrap.io/article/59-troubleshooting-email-testing#recipient)
-* [Why is my sandbox email address disabled?](https://help.mailtrap.io/article/59-troubleshooting-email-testing#address-disabled)
-* [Tech info/ headers unavailable](https://help.mailtrap.io/article/59-troubleshooting-email-testing#headers)
-* [I can’t add more team members](https://help.mailtrap.io/article/59-troubleshooting-email-testing#team-members)
-* [Automatic Forwarding doesn’t work](https://help.mailtrap.io/article/59-troubleshooting-email-testing#forwarding)
-* [I see suspicious emails in my sandbox](https://help.mailtrap.io/article/59-troubleshooting-email-testing#suspicious-emails)
+* [Connection errors](#connection-errors)
+* [Expected response code 250 but got code "530", with the message "530 5.7.1 Authentication required"](#id-530)
+* [Messages are not delivered to my sandbox](#not-in-sandbox)
+* [Mail not delivered to the recipient](#recipient)
+* [Why is my sandbox email address disabled?](#address-disabled)
+* [Tech info/ headers unavailable](#headers)
+* [I can't add more team members](#team-members)
+* [Automatic Forwarding doesn't work](#forwarding)
+* [I see suspicious emails in my sandbox](#suspicious-emails)
 
-#### Connection errors <a href="#connection-errors" id="connection-errors"></a>
+## Connection errors <a href="#connection-errors" id="connection-errors"></a>
 
 If you can't connect to the Sandbox SMTP server and receive errors _Connection cannot be established_ or _Connection timed out_, follow the steps described below. 
 
@@ -32,7 +34,7 @@ To make sure our SMTP server is up and running, go to the [Status page](http://s
 
 If the issue persists, please let us know at [support@mailtrap.io](mailto:support@mailtrap.io).
 
-#### Expected response code 250 but got code "530", with the "530 5.7.1 Authentication required" message <a href="#id-530" id="id-530"></a>
+## Expected response code 250 but got code "530", with the "530 5.7.1 Authentication required" message <a href="#id-530" id="id-530"></a>
 
 When you receive the _5.7.1 Authentication required_ error, it means that either:
 
@@ -43,9 +45,9 @@ In either case, an email was not sent.
 
 Please enable SMTP authentication in your settings and configure your app to enable SMTP authentication. If it is already enabled, revise your credentials and authentication settings, and try sending an email again.
 
-#### Messages are not delivered to my sandbox <a href="#not-in-sandbox" id="not-in-sandbox"></a>
+## Messages are not delivered to my sandbox <a href="#not-in-sandbox" id="not-in-sandbox"></a>
 
-1\. Check your [SMTP integration](https://mailtrap.helpscoutdocs.com/article/5-smtp-integration)
+1\. Check your [SMTP integration](how-to-integrate-email-sandbox-with-your-application.md)
 
 * Go to your sandbox Integration tab;
 * Compare hostname, username, and password with those in your app (if you reset SMTP/POP3, all existing integrations are affected)
@@ -56,15 +58,15 @@ If everything is correct, view your SMTP logs and check whether you received any
 
 If you still can’t figure out why your emails aren’t getting delivered to your sandbox, please save an undelivered message in **.eml** format and send it to us at support@mailtrap.io. Just don't forget to remove any sensitive information!
 
-#### Why is my sandbox email address disabled? <a href="#address-disabled" id="address-disabled"></a>
+## Why is my sandbox email address disabled? <a href="#address-disabled" id="address-disabled"></a>
 
 Email per sandbox is a premium feature available in the [Basic, Team, Enterprise, or Business plans.](https://mailtrap.io/pricing/).
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc0acc660d2d1b35da3ea1/file-1X5LFP3uLv.png)
+<figure><img src="../.gitbook/assets/troubleshoot-sandbox-email-address-disabled.png" alt="Sandbox Email Address tab showing disabled status with upgrade message"><figcaption><p>Email address disabled - upgrade required</p></figcaption></figure>
 
 Once you upgrade your plan, make sure you activate the address. Go to the Email Address tab in your sandbox, click the three-dot menu to the right, and select Enable.
 
-![](https://lh7-us.googleusercontent.com/wHJnuNq4iWr4TxpAUSrMF1u2KTXHgvHMKzt1Ne2JZUhqH3BqWnFXEDrUvECr5AnWAZBUWwzwrrdQoFX-4X8VWt9VIPw88yyI6DcTht6mp75phscSm2Ny_KzfdxgiFXJS1kffdUQqm5dcU0oezEaW70Y)
+<figure><img src="../.gitbook/assets/troubleshoot-sandbox-enable-email-address.png" alt="Email Address menu with Enable option highlighted"><figcaption><p>Enable email address option</p></figcaption></figure>
 
 Of course, you can freely test emails without this feature.
 
@@ -72,7 +74,7 @@ With any plan (including the free tier), you can integrate SMTP credentials into
 
 You’ll find the integration samples for over 20 frameworks and libraries on the Integration page of your sandbox. You can also use the API without any restrictions.
 
-#### Tech info/headers unavailable <a href="#headers" id="headers"></a>
+## Tech info/headers unavailable <a href="#headers" id="headers"></a>
 
 The Tech Info tab will show the following headers if they’re present in an email:
 
@@ -89,11 +91,11 @@ If any of these headers haven’t been specified (for example, an email doesn’
 
 If you are on the Business plan or higher ([view plans](https://mailtrap.io/pricing/)), you will also see the BCC header in this tab (if specified for the message). On lower plans, no bcc field will appear even if it was included with a message.
 
-#### I can’t add more team members <a href="#team-members" id="team-members"></a>
+## I can't add more team members <a href="#team-members" id="team-members"></a>
 
 If that happens, you may have reached the user limit of your plan.
 
-#### Automatic Forwarding doesn’t work <a href="#forwarding" id="forwarding"></a>
+## Automatic Forwarding doesn't work <a href="#forwarding" id="forwarding"></a>
 
 If your test emails aren’t forwarded, there’s very probably an error in the auto-forwarding configuration.
 
@@ -106,12 +108,12 @@ Remember that a forwarding rule needs to be verified (its status must be ‘Acti
 
 If a particular email is not forwarded, check its headers via the Tech Info tab to see whether you have the correct TO or CC address set.
 
-#### I see suspicious emails in my sandbox <a href="#suspicious-emails" id="suspicious-emails"></a>
+## I see suspicious emails in my sandbox <a href="#suspicious-emails" id="suspicious-emails"></a>
 
 If you see emails in your sandbox that you didn’t send from your app,  someone may have accessed your SMTP credentials.
 
-Don’t panic, though. It’s very easy to reset your credentials. Log in to your dashboard, open your sandbox, and go to the Integration tab. There, click the Reset Credentials button, and your details will be reset right away. Make sure you update them in your app, as old credentials will no longer be valid.
+Don't panic, though. It's very easy to reset your credentials. Log in to your dashboard, open your sandbox, and go to the Integration tab. There, click the Reset Credentials button, and your details will be reset right away. Make sure you update them in your app, as old credentials will no longer be valid.
 
-![](https://lh7-us.googleusercontent.com/kkONxEl_pfW-BO1tNUa9E8-P5b_1NXqR0QoJ5EXQ0Kgnk82_taaJHg7qq-qzhuC6RhA3V4xVNBpJ4B4ip7GhVJPymtFZZR-mX1faVtXaIkFfxnfGwMFs7mjH41_58l9bUuGZ_gCeQJRWE50-dWr98hc)
+<figure><img src="../.gitbook/assets/troubleshoot-sandbox-reset-credentials.png" alt="Integration tab with Reset Credentials button highlighted"><figcaption><p>Reset Credentials button in Integration tab</p></figcaption></figure>
 
 Unfortunately, we don’t store information about the server or IP address that sent the message in question. As such, we won’t be able to help you track down the sender.

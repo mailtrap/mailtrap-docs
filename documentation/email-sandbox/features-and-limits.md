@@ -23,7 +23,7 @@ The groups that help you arrange your Sandboxes and distinguish different tasks 
 
 ## Team members
 
-Mailtrap users who you can interact with by inviting them to your account and sharing projects or the billing section. This feature is available from the Basic Testing plan and more advanced billing plans. [Click here](https://help.mailtrap.io/article/65-user-management) to learn more about the User Management feature.
+Mailtrap users who you can interact with by inviting them to your account and sharing projects or the billing section. This feature is available from the Basic Testing plan and more advanced billing plans. [Click here](../user-management/user-management.md) to learn more about the User Management feature.
 
 ## Max emails per sandbox
 

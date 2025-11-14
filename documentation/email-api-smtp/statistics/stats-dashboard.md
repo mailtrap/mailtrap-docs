@@ -22,7 +22,7 @@ layout:
 
 Mailtrap provides analytics for all the emails you send.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/unknown (4).png" alt=""></div>
+<div data-with-frame="true"><img src="../../.gitbook/assets/stats-dashboard-overview.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"></div>
 
 On the statistics dashboards, you can see the following metrics:
 

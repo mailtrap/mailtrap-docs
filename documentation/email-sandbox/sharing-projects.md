@@ -11,7 +11,7 @@ All incoming emails in Sandbox are organized into sandboxes - the folders that a
 
 Sharing options are available starting from the Team plan.
 
-You can share any of the projects in your account. Users that receive access to your project also receive access to all of its sandboxes and can manage or view their content. To learn how to share a specific sandbox, check the [Sharing sandboxes](https://mailtrap.helpscoutdocs.com/article/16-share-inboxes) article.
+You can share any of the projects in your account. Users that receive access to your project also receive access to all of its sandboxes and can manage or view their content. To learn how to share a specific sandbox, check the [Sharing sandboxes](sharing-sandboxes.md) article.
 
 To share a project including all of its sandboxes, you have three options - use the three vertical dots next to My Project under Sandboxes. Also, you can share a link from Project Team Members, or utilize the User Management feature.
 
