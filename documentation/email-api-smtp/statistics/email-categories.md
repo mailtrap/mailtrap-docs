@@ -1,3 +1,24 @@
+---
+description: >-
+  Understand Mailtrap email categories: organize email types like welcome,
+  onboarding, or billing. Track performance, analyze metrics, and compare
+  categories.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Email Categories
 
 Email Categories were built to show the performance of various types of emails, such as welcome emails, billing emails, confirmation emails, etc.
@@ -27,7 +48,7 @@ You specify categories when creating an email to be sent with Mailtrap, by inser
 
 If you are using the API, refer to our [Api Docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/67f1d70aeb62c-send-email-including-templates).
 
-At this point, categories can only be specified when sending an email. Once you add one to an email and a message is sent, the category will appear in Mailtrap - in the Email Logs’ filters as well as in statistics.&#x20;
+At this point, categories can only be specified when sending an email. Once you add one to an email and a message is sent, the category will appear in Mailtrap - in the Email Logs’ filters as well as in statistics.
 
 Categories cannot be removed or modified at this point. The number of categories in your account is unlimited.
 
@@ -44,3 +65,4 @@ You can filter out the data for specific domains or mailbox providers using the 
 Mailtrap tracks statistics for each day separately, which can sometimes lead to, for example, open rates going into hundreds of percent.
 
 <div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/jnAcgiDWuXUlsXwPw0Knl7D33m0-dpIjWdV81w7A0GoleM1YDM0umfsR9ua_Y0ibf8okxjnma-XvTXBeIPfFouCM1p0K_2zV6l7L2y25VLMe2vpISgQTAeeqgxnnZ-nNNxeJg9OH_AGCcwG519UvERY" alt="" width="563"></div>
+
