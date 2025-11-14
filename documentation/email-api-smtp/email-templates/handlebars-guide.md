@@ -1,7 +1,11 @@
 ---
 title: Using Handlebars with Email Templates
-description: Complete guide to using Handlebars templating language with Mailtrap Email Templates, including syntax examples, helpers, and practical use cases.
+description: >-
+  Complete guide to using Handlebars templating language with Mailtrap Email
+  Templates, including syntax examples, helpers, and practical use cases.
 ---
+
+# Handlebars Guide
 
 Mailtrap Email Templates support the Handlebars templating language. It combines an input object (JSON) and a template to create text formats, HTML, or an email subject.
 
@@ -11,7 +15,7 @@ For instance, you may have a client business name called "business name" under a
 
 The main benefit of using this syntax is that you don't have to update your code base. The dynamic templating happens fast and outside the code base.
 
-## Supported Handlebars features
+### Supported Handlebars features
 
 Handlebars supports a bunch of features, not just the variable replacement. Mailtrap templates support the standard set of Helpers:
 
@@ -20,7 +24,7 @@ Handlebars supports a bunch of features, not just the variable replacement. Mail
 
 The following sections give you examples for each of the helpers including code blocks, mock JSON data, and HTML output.
 
-## Basic Replacement
+### Basic Replacement
 
 The basic usage is just to render the values you pass. You can use objects and refer to variables like `{{object_name.variable}}`.
 
@@ -61,9 +65,9 @@ If you want to do a replacement with HTML, use triple brackets `{{{value_with_ht
 <p><strong>thanks!<strong></p>
 ```
 
-## Conditional Statements
+### Conditional Statements
 
-## if / else / if else
+### if / else / if else
 
 Use the `if` helper for conditional block rendering.
 
@@ -112,7 +116,7 @@ If you change the `isSubscribed` variable to `false` in JSON data, the HTML outp
 The examples above include both `if` and `else` expressions. Of course, you can use only `if`, but it's recommendable to include `else` as well to cover the scenario where a conditional statement is `false`.
 {% endhint %}
 
-## unless
+### unless
 
 The `unless` block helper works like an inverse `if`. Simply put, it renders when the expression returns a `false` value.
 
@@ -153,7 +157,7 @@ The block helper example also contains `{{else}}` and should the `isSubscribed` 
   <p>Thank you for subscribing to our newsletter!</p>
 ```
 
-## each
+### each
 
 The `{{#each}}` helper is used to iterate over an object or array, then execute a block of code for each item.
 
@@ -217,7 +221,7 @@ In the example below, `{{#each user.items}}` iterate over the `user.items` array
 <p>No items found</p>
 ```
 
-## with
+### with
 
 You can use the `with` helper to change the context in which the code block gets executed.
 
@@ -277,7 +281,7 @@ In the example below, the `{{else}}` clause only gets executed if there's no val
 <p>No user found</p>
 ```
 
-## Example: Order Confirmation Template
+### Example: Order Confirmation Template
 
 The following example contains the majority of Handlebars helpers explained above as well as mock JSON data, and HTML output.
 
@@ -409,7 +413,7 @@ The following example contains the majority of Handlebars helpers explained abov
 </html>
 ```
 
-## Testing Templates with Handlebars
+### Testing Templates with Handlebars
 
 In the quick tutorial below, we assume you've activated both Mailtrap Email Sandbox and Email Sending.
 
@@ -417,7 +421,7 @@ In the quick tutorial below, we assume you've activated both Mailtrap Email Sand
 {% step %}
 Navigate to Email Sending > Email Templates in the menu on the left.
 
-<figure><img src="../../.gitbook/assets/template-menu-nav.png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-menu-nav (1).png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -448,8 +452,8 @@ Run the template test and check the associated inbox to preview the template und
 
 For more details on template debugging, see [Debugging](debugging.md).
 
-## Next steps
+### Next steps
 
-- [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to edit templates
-- [Integration](integration.md) - Integrate templates with Email API/SMTP
-- [Debugging](debugging.md) - Test templates with Email Sandbox
+* [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to edit templates
+* [Integration](integration.md) - Integrate templates with Email API/SMTP
+* [Debugging](debugging.md) - Test templates with Email Sandbox

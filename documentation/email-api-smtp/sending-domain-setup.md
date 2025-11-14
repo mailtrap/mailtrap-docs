@@ -5,9 +5,11 @@ description: >-
   SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
 ---
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup/aws-route-53">AWS Route 53</a></td><td><a href="../../guides-and-tips/dns-setup/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td></td><td><a href="../../guides-and-tips/dns-setup/cloudflare.md">cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td></td><td><a href="../../guides-and-tips/dns-setup/digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td></td><td><a href="../../guides-and-tips/dns-setup/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td></td><td><a href="../../guides-and-tips/dns-setup/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td></td><td><a href="../../guides-and-tips/dns-setup/google-domains.md">google-domains.md</a></td></tr><tr><td>Namecheap</td><td></td><td><a href="../../guides-and-tips/dns-setup/namecheap.md">namecheap.md</a></td></tr></tbody></table>
+# Sending Domain Setup
 
-### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="../../guides-and-tips/dns-setup/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="../../guides-and-tips/dns-setup/cloudflare.md">cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td><a href="../../guides-and-tips/dns-setup/digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="../../guides-and-tips/dns-setup/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="../../guides-and-tips/dns-setup/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td><a href="../../guides-and-tips/dns-setup/google-domains.md">google-domains.md</a></td></tr><tr><td>Namecheap</td><td><a href="../../guides-and-tips/dns-setup/namecheap.md">namecheap.md</a></td></tr></tbody></table>
+
+#### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
 {% hint style="info" %}
 In the example below, we'll be using GoDaddy.
@@ -137,7 +139,7 @@ In some cases, your domain may be selected for manual verification. This is the 
 {% endstep %}
 {% endstepper %}
 
-### (Optional) Tracking Settings <a href="#optional-tracking-settings-ffi49" id="optional-tracking-settings-ffi49"></a>
+#### (Optional) Tracking Settings <a href="#optional-tracking-settings-ffi49" id="optional-tracking-settings-ffi49"></a>
 
 An optional step is to change the tracking settings. By default, Mailtrap tracks email opens for each email sent. You can also enable click tracking.
 
@@ -165,7 +167,7 @@ Some mailbox providers, browsers, and extensions block invisible pixels. Users c
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-add-cname-record.png" alt="Track Clicks and Custom Domain for Clicks Tracking toggles enabled" width="563"></div>
 
-### Unsubscribe Settings <a href="#unsubscribe-settings-ekyqh" id="unsubscribe-settings-ekyqh"></a>
+#### Unsubscribe Settings <a href="#unsubscribe-settings-ekyqh" id="unsubscribe-settings-ekyqh"></a>
 
 You can also configure unsubscribe settings.
 
@@ -189,7 +191,7 @@ You will still be able to email them using other domains or subdomains added to 
 
 For that reason, it’s worth having different domains or subdomains for different types of emails. This way, users can, for example, unsubscribe from your bulk or marketing messages while still receiving vital transactional messages.
 
-### (Optional) Webhooks <a href="#optional-webhooks-4hmes" id="optional-webhooks-4hmes"></a>
+#### (Optional) Webhooks <a href="#optional-webhooks-4hmes" id="optional-webhooks-4hmes"></a>
 
 Lastly, you can set up webhooks to receive event information almost real-time.
 
@@ -201,7 +203,7 @@ Click the Add New Webhook button, choose the Sending Stream, paste the webhook U
 
 Mailtrap also allows you to batch up to 500 events within a webhook; that is - group all events under one object, and thus save on computing power.
 
-### Useful tips <a href="#sending-domains-j_1ht" id="sending-domains-j_1ht"></a>
+#### Useful tips <a href="#sending-domains-j_1ht" id="sending-domains-j_1ht"></a>
 
 After completing the setup process, you can always return to the Sending Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
 

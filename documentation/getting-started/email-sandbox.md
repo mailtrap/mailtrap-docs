@@ -3,23 +3,26 @@ title: Email Sandbox
 description: Learn how to inspect and debug emails with Mailtrap Email Sandbox
 ---
 
+# Email Sandbox
+
 Learn how to inspect and debug emails with sandbox functionality.
 
 **What you can do:**
+
 1. Catch testing emails from staging.
 2. Preview and analyze content for spam.
 3. Validate HTML/CSS before sending emails.
 
-## Good to know
+### Good to know
 
 * Your emails won't reach your users as you use our Sandbox SMTP.
 * You don't need to verify a domain to use sandbox.
 
-## Overview
+### Overview
 
 {% stepper %}
 {% step %}
-### Navigate to Email Sandbox
+#### Navigate to Email Sandbox
 
 Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking Sandboxes, then My Sandbox.
 
@@ -39,7 +42,7 @@ Or, use one of the pre-made code snippets for major programming languages and fr
 {% endstep %}
 
 {% step %}
-### Send your first test email
+#### Send your first test email
 
 After sending the first test email, you can immediately find it in your Mailtrap sandbox.
 
@@ -53,7 +56,7 @@ Lastly, you can automate the QA flow with [API](https://api-docs.mailtrap.io/doc
 {% endstep %}
 
 {% step %}
-### Bonus: Invite your colleagues
+#### Bonus: Invite your colleagues
 
 Mailtrap is a collaborative tool. Starting from the [Team Plan](https://mailtrap.io/billing/plans/testing), you can create different sandboxes and projects and share them with your colleagues.
 
@@ -61,7 +64,7 @@ That allows you to organize all testing-related workflows among different people
 {% endstep %}
 {% endstepper %}
 
-## What else you can do with Email Sandbox
+### What else you can do with Email Sandbox
 
 * [Enable email per sandbox feature](../email-sandbox/email-address-per-sandbox.md)
 * [HTML or RAW format preview](../email-sandbox/inspect-your-email-template.md)

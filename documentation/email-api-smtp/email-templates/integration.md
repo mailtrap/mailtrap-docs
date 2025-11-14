@@ -5,23 +5,25 @@ description: >-
   Transactional or Bulk streams.
 ---
 
-## Overview
+# Integration
+
+### Overview
 
 Once you've created and customized your email template, you can integrate it with your application using the Email API or SMTP. This guide shows you how to get the necessary credentials and code samples to send emails using your templates.
 
-## Integration steps
+### Integration steps
 
 {% stepper %}
 {% step %}
 Navigate to Templates in the menu on the left.
 
-<figure><img src="../../.gitbook/assets/template-menu-nav.png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Templates in navigation menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-menu-nav (1).png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Templates in navigation menu</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Click the template you want to call using the API.
 
-<figure><img src="../../.gitbook/assets/template-list-view.png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template from list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-list-view (1).png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template from list</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -55,7 +57,7 @@ For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap
 {% endstep %}
 {% endstepper %}
 
-## Next steps
+### Next steps
 
 * [Debugging](debugging.md) - Test your template integration with Email Sandbox
 * [Handlebars Guide](handlebars-guide.md) - Learn about using variables and dynamic content in templates

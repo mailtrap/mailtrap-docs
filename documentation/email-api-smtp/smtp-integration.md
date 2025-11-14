@@ -19,17 +19,19 @@ layout:
     visible: true
 ---
 
+# SMTP integration
+
 Learn how to integrate your application via SMTP.
 
 {% stepper %}
 {% step %}
-### Choose your sending domain
+#### Choose your sending domain
 
 Go to the Sending Domains tab and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the [domain is verified](sending-domain-setup/).
 {% endstep %}
 
 {% step %}
-### Open the Integrations tab
+#### Open the Integrations tab
 
 Navigate to the Integrations tab for your selected domain.
 
@@ -37,7 +39,7 @@ Navigate to the Integrations tab for your selected domain.
 {% endstep %}
 
 {% step %}
-### Select your stream type
+#### Select your stream type
 
 Click the Integrate button under Transactional Stream or Bulk Stream.
 
@@ -53,7 +55,7 @@ Click the Integrate button under Transactional Stream or Bulk Stream.
 {% endstep %}
 
 {% step %}
-### Configure SMTP credentials
+#### Configure SMTP credentials
 
 Toggle the switch to SMTP and copy credentials, such as Host, Port, Username, and Password and paste them into your project, app, email-sending service, or any platform that supports SMTP.
 
@@ -69,7 +71,7 @@ Alternatively, choose the programming language or framework from the menu under 
 {% endstep %}
 
 {% step %}
-### Test your integration
+#### Test your integration
 
 Complete your email-sending script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 
