@@ -1,4 +1,9 @@
-# Excluding Specific Links from Tracking
+---
+title: Excluding Specific Links from Tracking
+description: Learn how to exclude specific links from tracking using the data-mt-no-track attribute to preserve app deeplinks and sensitive URLs.
+---
+
+# Overview
 
 By default, when link tracking is enabled for a domain, Mailtrap rewrites links in your emails to add tracking redirects. However, in some cases you may want to exclude certain links (such as app deeplinks or sensitive URLs) from being tracked.
 

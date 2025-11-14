@@ -55,4 +55,4 @@ Once your campaign has been sent, you can check the campaign deliverability data
 
 2. If you want more details for a particular campaign, click the campaign name, then select the Reports tab where you'll see the full [Statistics report](../email-marketing/statistics.md).
 
-<figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/670660d96d43ca7b17b2baac/file-5tXtQwNX5k.png" alt="Campaign statistics report"><figcaption><p>Campaign statistics report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started-marketing-campaign-statistics.png" alt="Campaign statistics report showing delivery rates, opens, clicks, and mailbox provider breakdown"><figcaption><p>Campaign statistics report</p></figcaption></figure>

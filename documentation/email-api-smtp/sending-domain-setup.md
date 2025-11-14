@@ -44,7 +44,7 @@ At this stage, you need to verify the domain. You have two options:
 To send instructions to your admin or developer, enter their email address and click Send Instructions.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5d4e772e5b7dd60d8548/file-a5cMdgPIul.png" alt=""></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-email-to-admin.png" alt="Send domain verification instructions form with email address field and Send Instructions button"></div>
 
 To verify the domain yourself, follow these steps:
 
@@ -56,13 +56,13 @@ To verify the domain yourself, follow these steps:
 
 <figure><img src="../.gitbook/assets/godaddy-dns-add-new-record.png" alt="GoDaddy DNS Management with Add New Record button"><figcaption><p>GoDaddy DNS Management - Add New Record</p></figcaption></figure>
 
-* Return to Mailtrap. On the Domain Verification page, you’ll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You’ll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in most domain providers but may differ slightly depending on the provider.
+* Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in most domain providers but may differ slightly depending on the provider.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5da7442d517d60d26c5f/file-kl0nGsYGqW.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-dns-records-list.png" alt="DNS records list showing Domain Verification, DKIM, SPF, DMARC and Domain Tracking records with Type, Name and Value columns" width="563"></div>
 
 * Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5dbd772e5b7dd60d854b/file-NxGu99kleR.png" alt="DNS Types and Categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/sending-domains-dns-types-categories.png" alt="DNS Types and Categories in Mailtrap showing CNAME and TXT record types" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
 <figure><img src="../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
 
@@ -72,7 +72,7 @@ _Note that you should have only one SPF record. So, if you already have one for 
 
 * Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5df7253ee02cb10711ad/file-o5XTkj8phs.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-copy-button.png" alt="DNS record with copy button highlighted showing how to copy Name and Value" width="563"></div>
 
 * Paste them into your domain provider.
 
@@ -85,11 +85,11 @@ _Note that you should have only one SPF record. So, if you already have one for 
 
 * Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c5edf1f08a9604200325b/file-IhJ2jEg6pC.png" alt=""></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-dns-records-to-add.png" alt="Domain verification page showing DNS records with Missing status and Re-check DNS Records button"></div>
 
 * If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c6307268fb643f63a5b37/file-GMKtJImPDV.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-domain-list.png" alt="DNS records showing Verified status with green checkmarks" width="563"></div>
 
 * Once the DNS records are verified, you’ll be taken to the next step - Compliance Check. 
 
@@ -145,33 +145,33 @@ An optional step is to change the tracking settings. By default, Mailtrap tracks
 _Click tracking and custom domain for clicks tracking are available only for paid accounts._
 {% endhint %}
 
-<div data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c6593442d517d60d26c65/file-vHR7EJAfx8.png" alt=""></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-dns-settings.png" alt="Tracking Settings overview showing Track Opened Emails and Track Clicks toggles"></div>
 
 With tracking enabled, you will find the open and click rates in the Analytics reports. [Read this article](../statistics/) for a detailed breakdown of Statistics.
 
 1. Navigate to the Tracking Settings tab.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c65d3268fb643f63a5b3c/file-pwnq75lN1S.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-record-type-dropdown.png" alt="Tracking Settings tab with Track Opened Emails toggle" width="563"></div>
 
 2. Toggle the switch next to Track Opened Emails to enable or disable tracking opens. Mailtrap tracks email opens via an invisible pixel. It’s added to each message sent from your account. When an email is opened, a pixel is loaded, and an ‘open’ event is recorded. Each of these events will be visible in [Email Logs](../statistics/email-logs.md).
 
 {% hint style="info" %}
-_Some mailbox providers, browsers, and extensions block invisible pixels. Users can also choose not to display images, or a solution they use to retrieve emails may not support images by default. In each of these cases, an ‘open’ event won’t be recorded even if an email is opened._
+_Some mailbox providers, browsers, and extensions block invisible pixels. Users can also choose not to display images, or a solution they use to retrieve emails may not support images by default. In each of these cases, an 'open' event won't be recorded even if an email is opened._
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c6611772e5b7dd60d8559/file-tvKTW9kyVQ.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-add-txt-record.png" alt="Track Opened Emails toggle enabled in Tracking Settings" width="563"></div>
 
 3. If you're a paid user, toggle the switch next to Track Clicks to enable or disable tracking clicks. If you enable click tracking, the toggle for Custom Domain for Clicks Tracking will be switched on automatically. That way, all links will be redirected through your domain (mt-link.yourdomain.com). And if you verified all the records correctly in Step 2, Domain Tracking will also be verified and ready to use.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c66321f08a96042003264/file-vfPKzvZwVC.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-add-cname-record.png" alt="Track Clicks and Custom Domain for Clicks Tracking toggles enabled" width="563"></div>
 
 ### Unsubscribe Settings <a href="#unsubscribe-settings-ekyqh" id="unsubscribe-settings-ekyqh"></a>
 
 You can also configure unsubscribe settings.
 
-Unsubscribe links are mandatory for bulk emails as per privacy laws. If your emails don’t include an unsubscribe link, Mailtrap will add an Unsubscribe Footer automatically. This is what it will look like:
+Unsubscribe links are mandatory for bulk emails as per privacy laws. If your emails don't include an unsubscribe link, Mailtrap will add an Unsubscribe Footer automatically. This is what it will look like:
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c6657772e5b7dd60d855a/file-h4zAxojjdh.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-all-records-added.png" alt="Example unsubscribe footer in email with unsubscribe link and company address" width="563"></div>
 
 To add an unsubscribe link anywhere in your template, include this tag in your HTML template: `<a href="__unsubscribe_url__">unsubscribe</a>` . Mailtrap will render a clickable link in your email.
 
@@ -179,7 +179,7 @@ Unsubscribe Footer and Links are optional for transactional emails and are switc
 
 However, if you want to, you can still add an Unsubscribe Footer to your transactional emails by toggling the switch On under Unsubscribe Footer for Transactional emails or adding an HTML tag mentioned above.
 
-<div data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/673c6686268fb643f63a5b3d/file-rwwC9AJ3wi.png" alt=""></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/sending-domains-verification-complete.png" alt="Unsubscribe Settings showing toggles for Bulk and Transactional emails"></div>
 
 If you’d like, you can mix both approaches - automatically add a footer to emails sent from one domain and do it manually (when applicable) for emails sent from another domain.
 
@@ -193,11 +193,11 @@ For that reason, it’s worth having different domains or subdomains for differe
 
 Lastly, you can set up webhooks to receive event information almost real-time.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/679a619ec72d0b603e83468f/file-nao4bkR40r.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-compliance-in-progress.png" alt="Webhooks page with Add New Webhook button" width="563"></div>
 
 Click the Add New Webhook button, choose the Sending Stream, paste the webhook URL (your endpoint) into the designated field, select the events you want to listen to, and then test the setup.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/679a63312c51514a3dd8a240/file-J489GncXKV.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-webhook-setup.png" alt="Add new webhook form showing webhook URL, sending stream selection, and events to listen for" width="563"></div>
 
 Mailtrap also allows you to batch up to 500 events within a webhook; that is - group all events under one object, and thus save on computing power.
 

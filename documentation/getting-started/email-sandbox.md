@@ -21,19 +21,19 @@ Learn how to inspect and debug emails with sandbox functionality.
 
 ### Step 1: Navigate to Email Sandbox
 
-Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking Sandboxes, then My Sandbox. 
+Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking Sandboxes, then My Sandbox.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68b16cd14a14f74312312f04/file-qMNm0UX5sm.png)
+<figure><img src="../.gitbook/assets/getting-started-sandbox-navigation.png" alt="Sandboxes page showing My Project with My Inbox sandbox highlighted"><figcaption><p>Navigate to My Sandbox</p></figcaption></figure>
 
 **Tip:** By default, we created an sandbox for you and called it "My Sandbox". The Edit button on the far right allows you to rename either a project or an sandbox.
 
-Once inside “My Sandbox”, copy the credentials from the "Integration" tab to your clipboard.
+Once inside "My Sandbox", copy the credentials from the "Integration" tab to your clipboard.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68b16d7c0d5a6676085238a4/file-p8axQ7xFyA.png)
+<figure><img src="../.gitbook/assets/getting-started-sandbox-smtp-credentials.png" alt="Integration tab showing SMTP credentials including host, port, username, password and auth settings"><figcaption><p>SMTP credentials in Integration tab</p></figcaption></figure>
 
 Or, use one of the pre-made code snippets for major programming languages and frameworks:
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68b16df44a14f74312312f0a/file-T3tSYwnf3r.png)
+<figure><img src="../.gitbook/assets/getting-started-sandbox-code-samples.png" alt="Code Samples section with PHP framework dropdown showing CakePHP, Laravel, Symfony and other options"><figcaption><p>Code samples for different frameworks</p></figcaption></figure>
 
 ### Step 2: Send your first test email
 
