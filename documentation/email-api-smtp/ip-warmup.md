@@ -1,4 +1,5 @@
 ---
+title: IP Warmup
 description: >-
   Learn about Mailtrap IP warmup: shared vs dedicated IPs, automated IP warmup
   schedule, and gradual daily sending limits over 3 weeks.
@@ -18,8 +19,6 @@ layout:
     visible: true
 ---
 
-# IP Warmup
-
 Mailtrap offers both shared IP addresses as well as dedicated IPs.
 
 ### Shared IP vs Dedicated IP
@@ -34,7 +33,7 @@ We recommend dedicated IPs only if your volume regularly exceeds 100,000 emails 
 
 Each newly purchased dedicated IP goes through a mandatory 3-weeks-long (in most cases) warm-up process, aimed at giving you the best possible preparation for sending mass emails.
 
-<div data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6401ed3d3c396c395ec0f77b/file-2tSnpbRzOJ.png" alt=""></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/ip-warmup-dedicated-ips-status.png" alt="Dedicated IPs page showing a warmed up IP address with status, date assigned, and domains information"></div>
 
 Mailtrap automatically increases your volume each day, with about 30% more emails sent every day. Simultaneously, our deliverability experts closely monitor your stats.
 

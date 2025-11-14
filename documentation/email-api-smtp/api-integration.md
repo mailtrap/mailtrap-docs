@@ -32,29 +32,29 @@ Use API credentials to integrate Mailtrap with your project.
 
 * Transactional Stream is used to send automated, non-promotional application emails triggered by the specific user action.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a2450048915f570c6a8846/file-3nPXwIZaNk.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-integration-tab-navigation.png" alt="Integration page with SMTP and API tabs showing API credentials and code samples" width="563"></div>
 
 * Bulk Stream is used to send a single marketing campaign to a large group of recipients in bulk.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a2451948915f570c6a8847/file-ZRDhVyUvU1.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-integration-stream-selection.png" alt="Integration page for Bulk Stream showing API credentials and code samples" width="563"></div>
 
 4. Toggle the switch to API.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a24577d39e504a2aed1cbf/file-Lj2WUAEACu.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-integration-credentials-streams.png" alt="SMTP and API toggle switch with API selected" width="563"></div>
 
 5. Build the authenticated HTTP request in your programming language or framework and configure it with Mailtrap Host and API Token.
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a245e96eb51e63b8f9dc97/file-qjoAogG22Y.png" alt="" width="563"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/api-integration-credentials-transactional.png" alt="Transactional Stream API credentials showing Host and API Token" width="563"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a246176eb51e63b8f9dc98/file-yWEym3bHnF.png" alt="" width="563"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/api-integration-credentials-bulk.png" alt="Bulk Stream API credentials showing Host and API Token" width="563"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure></div>
 
 *   Alternatively, choose the programming language or framework from the menu under Code Samples and copy the sample configuration already containing your credentials. In this menu, you’ll find official SDKs for [PHP](https://github.com/railsware/mailtrap-php), [Python](https://github.com/railsware/mailtrap-python), [Ruby](https://github.com/railsware/mailtrap-ruby), and [Node.js](https://github.com/railsware/mailtrap-nodejs).
 
     _Note: For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Stream, but others are in development. Request and response examples are also available_ [_here_](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/67f1d70aeb62c-send-email-including-templates)_._
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a2468c6eb51e63b8f9dc9a/file-QfrIxlNCkH.png" alt="" width="563"><figcaption><p>Transactional Stream code samples</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/api-integration-code-samples-transactional.png" alt="Code Samples dropdown showing programming languages including cURL, C++, C#, Go, Java, Node.js, Ruby, Python, and PHP" width="563"><figcaption><p>Transactional Stream code samples</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a2469a6eb51e63b8f9dc9b/file-w5kQFpcn4l.png" alt="" width="563"><figcaption><p>Bulk Stream code samples</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/api-integration-code-samples-bulk.png" alt="Code Samples dropdown for Bulk Stream showing available programming languages and frameworks" width="563"><figcaption><p>Bulk Stream code samples</p></figcaption></figure></div>
 
 6. Complete your script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 

@@ -40,7 +40,7 @@ In that **Stats** tab, you'll find a domain selector at the top of the page. Her
 
 By default, the stats are shown for the last week + today.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6401ef95188a9d242a7d65a8/file-QGQA9mEWm0.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-mailbox-providers-overview.png" alt="Stats Overview showing mailbox provider breakdown with delivery rates, open rates, click rates, bounce rates, and spam complaints for providers like Google Workspace, Office 365, and Others" width="563"></div>
 
 ### Thresholds <a href="#thresholds-s8z17" id="thresholds-s8z17"></a>
 

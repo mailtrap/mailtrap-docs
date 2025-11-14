@@ -30,25 +30,25 @@ Learn how to integrate your application via SMTP.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-stream-selection.png" alt="Integration options showing Transactional Stream and Bulk Stream with Integrate buttons" width="375"></div>
 
-* Transactional Stream is used to send automated, non-promotional application emails that are triggered by the user’s specific action.
+* Transactional Stream is used to send automated, non-promotional application emails that are triggered by the user's specific action.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a240c06eb51e63b8f9dc95/file-gEDHceUiAf.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-credentials-transactional.png" alt="Transactional Stream SMTP credentials panel showing Host, Port, Username, Password fields with code samples below" width="563"></div>
 
 * Bulk Stream is used to send a single marketing campaign to a large group of recipients in bulk.
 
-<div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a240cc9638c36b868f1b66/file-m4ll9av3Ug.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-credentials-bulk.png" alt="Bulk Stream SMTP credentials panel showing Host, Port, Username, Password fields with code samples below" width="563"></div>
 
 4. Toggle the switch to SMTP and copy credentials, such as Host, Port, Username, and Password and paste them into your project, app, email-sending service, or any platform that supports SMTP.
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a24162d39e504a2aed1cbd/file-0a2G0GSPDs.png" alt="" width="563"><figcaption><p>Transactional Stream SMTP credentials</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-credentials-transactional.png" alt="Transactional Stream SMTP credentials showing highlighted credentials section with Host, Port, Username, Password, Auth, and STARTTLS fields" width="563"><figcaption><p>Transactional Stream SMTP credentials</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a241a26eb51e63b8f9dc96/file-CGe0ccmAlM.png" alt="" width="563"><figcaption><p>Bulk Stream SMTP credentials</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-credentials-bulk.png" alt="Bulk Stream SMTP credentials showing highlighted credentials section with Host, Port, Username, Password, Auth, and STARTTLS fields" width="563"><figcaption><p>Bulk Stream SMTP credentials</p></figcaption></figure></div>
 
 * Alternatively, choose the programming language or framework from the menu under Code Samples and copy the sample configuration containing your credentials.
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a242458919a15d1b1d1f84/file-loZgd6vu5c.png" alt="" width="563"><figcaption><p>Transactional Stream code samples</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-code-samples-transactional.png" alt="Transactional Stream integration showing highlighted Code samples section with cURL example and programming language options" width="563"><figcaption><p>Transactional Stream code samples</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/66a2427848915f570c6a8845/file-YvlB4mk58M.png" alt="" width="563"><figcaption><p>Bulk Stream code samples</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-code-samples-bulk.png" alt="Bulk Stream integration showing highlighted Code samples section with cURL example and programming language options" width="563"><figcaption><p>Bulk Stream code samples</p></figcaption></figure></div>
 
 5. Complete your email-sending script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 
