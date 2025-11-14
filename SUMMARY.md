@@ -1,29 +1,6 @@
 # Table of contents
 
-* [Developer Platform API](README.md)
+## DNS Setup
 
-## Email API
-
-* [Page 1](email-api/page-1.md)
-* ```yaml
-  type: builtin:openapi
-  props:
-    models: false
-    downloadLink: false
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: mailtrap-transactional
-  ```
-* ```yaml
-  type: builtin:openapi
-  props:
-    models: false
-    downloadLink: false
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: mailtrap-bulk
-  ```
+* [AWS Route 53](README.md)
+* [Page 1](dns-setup/page-1.md)
