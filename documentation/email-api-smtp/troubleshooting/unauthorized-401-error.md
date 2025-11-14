@@ -4,11 +4,13 @@ description: How to fix Unauthorised authentication errors in Mailtrap
 icon: lock
 ---
 
+# Unauthorized Error (401 Code)
+
 If you're getting an "Unauthorised" error (401 code) when trying to send emails, there are several possible causes and solutions.
 
-## Common Causes
+### Common Causes
 
-### 1. Sending from Unverified Domain
+#### 1. Sending from Unverified Domain
 
 Make sure you're sending from the domain that you've set up and verified in Mailtrap. Using any other domain will result in this error.
 
@@ -16,26 +18,27 @@ Make sure you're sending from the domain that you've set up and verified in Mail
 If you verified `example.com`, you can only send from `*@example.com` addresses. Attempting to send from `otherdomain.com` will fail with a 401 error.
 {% endhint %}
 
-### 2. API Token Permissions
+#### 2. API Token Permissions
 
 If you've configured a custom API token for your domain, make sure it has proper permissions to send emails.
 
 Check your [API tokens](https://mailtrap.io/api-tokens) and verify the token has:
+
 * Email sending permissions
 * Access to the correct domain
 * Valid expiration date (if applicable)
 
-### 3. Incorrect Credentials
+#### 3. Incorrect Credentials
 
 Make sure you're using the correct SMTP/API credentials provided in the Integration tab of your domain.
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-credentials-both-streams.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap"><figcaption>SMTP and API credentials in Integration tab</figcaption></figure>
+<figure><img src="../../.gitbook/assets/troubleshoot-sending-credentials-both-streams.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure>
 
-## How to Fix
+### How to Fix
 
 {% stepper %}
 {% step %}
-### Verify Your Domain
+#### Verify Your Domain
 
 1. Go to [Sending Domains](https://mailtrap.io/sending/domains)
 2. Ensure your domain shows the **Verified** badge
@@ -43,7 +46,7 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 {% endstep %}
 
 {% step %}
-### Check API Token (if using custom tokens)
+#### Check API Token (if using custom tokens)
 
 1. Go to [API Tokens](https://mailtrap.io/api-tokens)
 2. Verify the token has **Send Email** permissions
@@ -52,11 +55,12 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 {% endstep %}
 
 {% step %}
-### Verify Credentials
+#### Verify Credentials
 
 Navigate to: **Sending Domains > Integration > Integrate** (under Transactional or Bulk Stream)
 
 Copy the exact credentials shown there:
+
 * For SMTP: Username and Password
 * For API: API Token
 
@@ -64,7 +68,7 @@ Replace your current credentials with these values.
 {% endstep %}
 
 {% step %}
-### Test with cURL
+#### Test with cURL
 
 Use the cURL code example to test if the error persists:
 
@@ -73,13 +77,13 @@ Use the cURL code example to test if the error persists:
 3. Go to **Code Samples > cURL**
 4. Copy and run the cURL command
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-code-samples.png" alt="Code Samples section in Mailtrap showing cURL integration example"><figcaption>Code Samples section with cURL example</figcaption></figure>
+<figure><img src="../../.gitbook/assets/troubleshoot-sending-code-samples.png" alt="Code Samples section in Mailtrap showing cURL integration example"><figcaption><p>Code Samples section with cURL example</p></figcaption></figure>
 
 If the cURL test succeeds but your application fails, the issue is with your application's configuration.
 {% endstep %}
 {% endstepper %}
 
-## Still Having Issues?
+### Still Having Issues?
 
 If you've verified all the above and still getting 401 errors:
 
@@ -90,7 +94,7 @@ If you've verified all the above and still getting 401 errors:
   * The exact error message
   * A code sample showing how you're attempting to send
 
-## Related Articles
+### Related Articles
 
 * [Sending Domain Setup](../sending-domain-setup.md)
 * [API Integration](../api-integration.md)

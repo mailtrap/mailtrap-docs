@@ -1,21 +1,25 @@
 ---
 title: Editing and Customizing Templates
-description: Learn how to edit and customize email templates using Details, Drag & Drop Editor, Code Editor, and test your templates before sending.
+description: >-
+  Learn how to edit and customize email templates using Details, Drag & Drop
+  Editor, Code Editor, and test your templates before sending.
 ---
 
-# Details
+# Editing and Customizing
+
+## Details
 
 Each template must have a name, subject, category, and assigned domain. The subject also supports variables.
 
 <figure><img src="../../.gitbook/assets/template-details-view.png" alt="Template Details page showing domain, name, subject, and category fields in a bordered section"><figcaption><p>Template details section</p></figcaption></figure>
 
-## Drag & Drop Editor
+### Drag & Drop Editor
 
 The drag-and-drop editor allows you to design templates without any coding.
 
 <figure><img src="../../.gitbook/assets/template-drag-drop-interface.png" alt="Drag and Drop Editor interface showing template preview in center with blocks and content options on right sidebar"><figcaption><p>Drag and Drop Editor</p></figcaption></figure>
 
-## Code Editor
+### Code Editor
 
 Code Editor allows you to edit the HTML or Text content, depending on the emails you want to send.
 
@@ -25,11 +29,11 @@ The editor supports Find and Replace options, and you can use Cmd+F or Win+F as 
 
 If your template has an error, Handlebars cannot render it. You'll see an error message in the Preview tab, and the RAW code with an error will be highlighted in the Editor.
 
-<figure><img src="../../.gitbook/assets/template-error-highlighting.png" alt="Code Editor showing error message in preview and highlighted error in HTML code"><figcaption><p>Template error highlighting</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/marketing-templates-error (1).png" alt="Code Editor showing error message in preview and highlighted error in HTML code"><figcaption><p>Template error highlighting</p></figcaption></figure>
 
 You can't save a template with errors, either. Remember that we don't validate HTML.
 
-### Uploading an image
+#### Uploading an image
 
 {% stepper %}
 {% step %}
@@ -63,7 +67,7 @@ Proceed to add the image to the template body under the `<img>` tag. You can pre
 {% endstep %}
 {% endstepper %}
 
-### Test Data
+#### Test Data
 
 Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
 
@@ -71,7 +75,7 @@ Code Editor automatically parses your template and shows all the variables found
 
 By default, as a value, we put a variable name and add the "Test\_" prefix.
 
-## Send test
+### Send test
 
 If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the Send Test button.
 
@@ -82,8 +86,8 @@ Important Notes:
 * Your domain should be verified to send a test.
 * Each test email is billed over your quota.
 
-# Next steps
+## Next steps
 
-- [Handlebars Guide](handlebars-guide.md) - Learn how to use Handlebars syntax to add dynamic content
-- [Integration](integration.md) - Integrate templates with Email API/SMTP
-- [Debugging](debugging.md) - Test templates with Email Sandbox
+* [Handlebars Guide](handlebars-guide.md) - Learn how to use Handlebars syntax to add dynamic content
+* [Integration](integration.md) - Integrate templates with Email API/SMTP
+* [Debugging](debugging.md) - Test templates with Email Sandbox

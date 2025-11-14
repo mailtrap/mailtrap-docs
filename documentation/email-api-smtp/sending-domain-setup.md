@@ -1,13 +1,15 @@
 ---
 title: Sending Domain Setup
-description: Set up your sending domain in Mailtrap. Add DNS records, verify SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
+description: >-
+  Set up your sending domain in Mailtrap. Add DNS records, verify
+  SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
 ---
 
 # Sending Domain Setup
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="../../guides-and-tips/dns-setup/aws-route-53.md">../../guides-and-tips/dns-setup/aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="../../guides-and-tips/dns-setup/cloudflare.md">../../guides-and-tips/dns-setup/cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td><a href="../../guides-and-tips/dns-setup/digitalocean.md">../../guides-and-tips/dns-setup/digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="../../guides-and-tips/dns-setup/godaddy.md">../../guides-and-tips/dns-setup/godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="../../guides-and-tips/dns-setup/google-cloud-dns.md">../../guides-and-tips/dns-setup/google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td><a href="../../guides-and-tips/dns-setup/google-domains.md">../../guides-and-tips/dns-setup/google-domains.md</a></td></tr><tr><td>Namecheap</td><td><a href="../../guides-and-tips/dns-setup/namecheap.md">../../guides-and-tips/dns-setup/namecheap.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup/aws-route-53">AWS Route 53</a></td><td><a href="../../guides-and-tips/dns-setup/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td></td><td><a href="../../guides-and-tips/dns-setup/cloudflare.md">cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td></td><td><a href="../../guides-and-tips/dns-setup/digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td></td><td><a href="../../guides-and-tips/dns-setup/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td></td><td><a href="../../guides-and-tips/dns-setup/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td></td><td><a href="../../guides-and-tips/dns-setup/google-domains.md">google-domains.md</a></td></tr><tr><td>Namecheap</td><td></td><td><a href="../../guides-and-tips/dns-setup/namecheap.md">namecheap.md</a></td></tr></tbody></table>
 
-### Setting up your domain  <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
+### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
 {% hint style="info" %}
 _In the example below, we’ll be using GoDaddy._
@@ -15,7 +17,7 @@ _In the example below, we’ll be using GoDaddy._
 
 {% stepper %}
 {% step %}
-#### Add Domain  <a href="#step-1-add-domain-woixs" id="step-1-add-domain-woixs"></a>
+**Add Domain**
 
 * Navigate to Sending Domains in the left navigation panel.
 
@@ -27,13 +29,13 @@ _In the example below, we’ll be using GoDaddy._
 
 * Type in the domain from which you want to send emails and click Add. Remember that you should be the domain owner with access to its DNS records/have someone with access to DNS records.
 
-<figure><img src="../.gitbook/assets/sending-domains-add-domain-form.png" alt="Add Domain Name form with domain input field"><figcaption><p>Add Domain Name form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/bulk-add-domain-name (1).png" alt="Add Domain Name form with domain input field"><figcaption><p>Add Domain Name form</p></figcaption></figure>
 
 * After this step, you’ll see the Domain Verification page.
 {% endstep %}
 
 {% step %}
-#### Domain Verification   <a href="#step-2-domain-verification-04egm" id="step-2-domain-verification-04egm"></a>
+**Domain Verification**
 
 At this stage, you need to verify the domain. You have two options:
 
@@ -54,7 +56,7 @@ To verify the domain yourself, follow these steps:
 
 * Open the DNS settings and click Add New Record.
 
-<figure><img src="../.gitbook/assets/godaddy-dns-add-new-record.png" alt="GoDaddy DNS Management with Add New Record button"><figcaption><p>GoDaddy DNS Management - Add New Record</p></figcaption></figure>
+<figure><img src="../../guides-and-tips/.gitbook/assets/godaddy-add-new-record (1).png" alt="GoDaddy DNS Management with Add New Record button"><figcaption><p>GoDaddy DNS Management - Add New Record</p></figcaption></figure>
 
 * Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in most domain providers but may differ slightly depending on the provider.
 
@@ -64,7 +66,7 @@ To verify the domain yourself, follow these steps:
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/sending-domains-dns-types-categories.png" alt="DNS Types and Categories in Mailtrap showing CNAME and TXT record types" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
+<figure><img src="../../guides-and-tips/.gitbook/assets/godaddy-dns-record-types (1).png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
 
 {% hint style="info" %}
 _Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap._
@@ -91,7 +93,7 @@ _Note that you should have only one SPF record. So, if you already have one for 
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-domain-list.png" alt="DNS records showing Verified status with green checkmarks" width="563"></div>
 
-* Once the DNS records are verified, you’ll be taken to the next step - Compliance Check. 
+* Once the DNS records are verified, you’ll be taken to the next step - Compliance Check.
 
 **Several notes:**
 
@@ -101,7 +103,7 @@ _Note that you should have only one SPF record. So, if you already have one for 
 {% endstep %}
 
 {% step %}
-#### Company / Personal Information
+**Company / Personal Information**
 
 After adding your DNS records, click on “Fill in Compliance Form” to complete a short form where you’ll be asked to provide either business or personal information.
 
@@ -119,7 +121,7 @@ You can switch between personal and business information only once, meaning that
 {% endstep %}
 
 {% step %}
-#### Compliance Check <a href="#step-3-compliance-check-v3fbr" id="step-3-compliance-check-v3fbr"></a>
+**Compliance Check**
 
 Compliance Check is a process of checking every new domain added to Mailtrap.
 

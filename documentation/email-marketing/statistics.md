@@ -7,7 +7,7 @@ description: View and analyze email campaign performance metrics and analytics
 
 Mailtrap provides analytics for all the emails you send.
 
-<figure><img src="../.gitbook/assets/stats-dashboard-overview.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"><figcaption><p>Statistics overview dashboard</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (2).png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"><figcaption><p>Statistics overview dashboard</p></figcaption></figure>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -21,7 +21,7 @@ On the statistics dashboards, you can see the following metrics:
 
 In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-<figure><img src="../.gitbook/assets/statistics-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains"><figcaption><p>Domain selector in Stats Overview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/stats-domain-selector (1).png" alt="Stats Overview with domain selector dropdown showing available domains"><figcaption><p>Domain selector in Stats Overview</p></figcaption></figure>
 
 By default, the stats are shown for the last week + today.
 
@@ -61,7 +61,7 @@ Unique open rate refers to the percentage of emails that were opened at least on
 
 Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
 
-<figure><img src="../.gitbook/assets/statistics-tracking-settings.png" alt="Tracking Settings tab showing Track Opened Emails and Track Clicks toggles"><figcaption><p>Tracking Settings for email opens and clicks</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/stats-tracking-settings (1).png" alt="Tracking Settings tab showing Track Opened Emails and Track Clicks toggles"><figcaption><p>Tracking Settings for email opens and clicks</p></figcaption></figure>
 
 ### Click rate
 
@@ -71,7 +71,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-<figure><img src="../.gitbook/assets/statistics-event-history-clicks.png" alt="Event History tab showing Click events with timestamps"><figcaption><p>Click events in Event History</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/stats-click-events-history (1).png" alt="Event History tab showing Click events with timestamps"><figcaption><p>Click events in Event History</p></figcaption></figure>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 

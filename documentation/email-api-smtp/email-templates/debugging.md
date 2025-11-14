@@ -1,31 +1,35 @@
 ---
 title: Template Debugging
-description: Learn how to test and debug your email templates using Mailtrap Email Sandbox before sending them to production.
+description: >-
+  Learn how to test and debug your email templates using Mailtrap Email Sandbox
+  before sending them to production.
 ---
 
-# Overview
+# Debugging
+
+## Overview
 
 Before sending your email templates to production, it's important to test them in a safe environment. Mailtrap Email Sandbox allows you to test your templates, preview how they render, and verify that all variables are working correctly.
 
-# Debugging steps
+## Debugging steps
 
 {% stepper %}
 {% step %}
 Navigate to Templates in the menu on the left.
 
-<figure><img src="../../.gitbook/assets/template-menu-debug-nav.png" alt="Mailtrap sidebar with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-menu-nav (1).png" alt="Mailtrap sidebar with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Click the template you want to call using the API.
 
-<figure><img src="../../.gitbook/assets/template-debug-list.png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template to debug</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-list-view (1).png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template to debug</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Open the Integration tab.
 
-<figure><img src="../../.gitbook/assets/template-debug-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-integration-tab (1).png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -65,7 +69,7 @@ For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap
 {% endstep %}
 {% endstepper %}
 
-# Next steps
+## Next steps
 
-- [Integration](integration.md) - Once testing is complete, integrate your template with Email API/SMTP
-- [Handlebars Guide](handlebars-guide.md) - Learn more about using variables in templates
+* [Integration](integration.md) - Once testing is complete, integrate your template with Email API/SMTP
+* [Handlebars Guide](handlebars-guide.md) - Learn more about using variables in templates

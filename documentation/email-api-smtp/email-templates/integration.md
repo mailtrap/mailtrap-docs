@@ -1,13 +1,17 @@
 ---
 title: Template Integration - Email API/SMTP
-description: Learn how to integrate Mailtrap email templates with Email API/SMTP using Transactional or Bulk streams.
+description: >-
+  Learn how to integrate Mailtrap email templates with Email API/SMTP using
+  Transactional or Bulk streams.
 ---
 
-# Overview
+# Integration
+
+## Overview
 
 Once you've created and customized your email template, you can integrate it with your application using the Email API or SMTP. This guide shows you how to get the necessary credentials and code samples to send emails using your templates.
 
-# Integration steps
+## Integration steps
 
 {% stepper %}
 {% step %}
@@ -37,9 +41,9 @@ With Email API/SMTP toggled on, click Integrate under Transactional Stream or Bu
 {% step %}
 Copy the necessary credentials such as Host, API Token, and Template UUID.
 
-<figure><img src="../../.gitbook/assets/template-transactional-credentials.png" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/marketing-templates-transactional (1).png" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/template-bulk-credentials.png" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/marketing-templates-bulk (1).png" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -53,7 +57,7 @@ For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap
 {% endstep %}
 {% endstepper %}
 
-# Next steps
+## Next steps
 
-- [Debugging](debugging.md) - Test your template integration with Email Sandbox
-- [Handlebars Guide](handlebars-guide.md) - Learn about using variables and dynamic content in templates
+* [Debugging](debugging.md) - Test your template integration with Email Sandbox
+* [Handlebars Guide](handlebars-guide.md) - Learn about using variables and dynamic content in templates

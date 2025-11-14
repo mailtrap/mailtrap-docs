@@ -1,12 +1,14 @@
 ---
-icon: exclamation
 title: Email Marketing Campaigns
 description: Set up and send email marketing campaigns to your contact lists
+icon: exclamation
 ---
+
+# Copy of Email Marketing
 
 Make sure you've added and verified a domain, or you won't be able to send a campaign.
 
-### How to set up and send a campaign
+#### How to set up and send a campaign
 
 1. Go to Email Marketing and click Create New Campaign.
 
@@ -26,13 +28,13 @@ Make sure you've added and verified a domain, or you won't be able to send a cam
 
 5. Create your campaign design, click Save, and then Continue.
 
-<div align="left"><img src="../.gitbook/assets/marketing-campaign-save-continue.png" alt="Campaign design interface with Save and Continue buttons" width="563"></div>
+<div align="left"><img src="../.gitbook/assets/getting-started-drag-drop-editor (1).png" alt="Campaign design interface with Save and Continue buttons" width="563"></div>
 
 * Instead of continuing to the next step, you can click Send Test to send a test to one email address to check the design in your email client or click Finish Later to return to the campaign Details, where you can change any of the parameters you set in previous steps.
 
 6. If you've already imported your contacts, select your audience by including or excluding specific lists. Then, click Confirm Audience. _Tip: With Including and Excluding features, you can easily send campaigns to specific audience groups only._
 
-<div align="left"><img src="../.gitbook/assets/marketing-campaign-audience-select.png" alt="Audience selection interface to include or exclude contact lists" width="563"></div>
+<div align="left"><img src="../.gitbook/assets/getting-started-audience-selection (1).png" alt="Audience selection interface to include or exclude contact lists" width="563"></div>
 
 * If you didn't upload your contacts before creating a campaign, you'll be prompted to import contacts at this stage. Simply click Import Contacts and follow the steps. _Important: you should create Fields beforehand to be able to assign variables to the fields (map fields) when importing contacts._
 
@@ -44,7 +46,7 @@ Make sure you've added and verified a domain, or you won't be able to send a cam
 
 <div align="left"><img src="../.gitbook/assets/marketing-campaign-schedule.png" alt="Campaign scheduling interface with date and time picker" width="375"></div>
 
-#### What’s next?
+**What’s next?**
 
 Once your campaign has been sent, you can check the campaign deliverability data and stats. Here's how to do it:
 

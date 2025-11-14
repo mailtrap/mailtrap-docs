@@ -8,6 +8,7 @@ description: Learn how to send your application emails with Mailtrap Email API/S
 Learn how to send your application emails with Mailtrap
 
 **Migration guides:**
+
 * [SendGrid](https://mailtrap.io/sendgrid-migration/)
 * [Mailchimp](https://mailtrap.io/mandrill-migration/)
 * [Mailgun](https://mailtrap.io/mailgun-migration/)
@@ -28,11 +29,11 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 
 To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
-<figure><img src="../.gitbook/assets/getting-started-add-domain-form.png" alt="Add Domain form in Mailtrap with domain input field"><figcaption><p>Add Domain form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/bulk-add-domain-name (1).png" alt="Add Domain form in Mailtrap with domain input field"><figcaption><p>Add Domain form</p></figcaption></figure>
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<figure><img src="../.gitbook/assets/getting-started-dns-records-verification.png" alt="DNS records table showing domain verification requirements"><figcaption><p>DNS records for domain verification</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/bulk-dns-records-verification (1).png" alt="DNS records table showing domain verification requirements"><figcaption><p>DNS records for domain verification</p></figcaption></figure>
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
 
