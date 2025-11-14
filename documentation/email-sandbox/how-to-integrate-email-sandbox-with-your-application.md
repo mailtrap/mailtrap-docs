@@ -1,34 +1,35 @@
-# How to integrate Email Sandbox with your application
+---
+title: How to integrate Email Sandbox with your application
+description: Learn how to integrate sandbox with your application using SMTP credentials or code samples
+---
 
-Learn how to integrate sandbox with your application.
-
-### #1- Copy SMTP credentials
+## #1- Copy SMTP credentials
 
 Follow these steps:
 
 1. Go to Email Testing → Sandboxes.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc0d42660d2d1b35da3ea9/file-2cE5RYhwqf.png)
+<div align="left"><img src="../.gitbook/assets/sandbox-integration-navigate-to-sandboxes.png" alt="Navigation menu showing Email Testing section with Sandboxes option" width="563"></div>
 
 2. Open the sandbox (named My Sandbox) created by default.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc0dba8c2afc3a9c9e32c8/file-XleK8Nc0UT.png)
+<div align="left"><img src="../.gitbook/assets/sandbox-integration-open-my-sandbox.png" alt="Sandboxes list displaying My Sandbox and other project sandboxes" width="563"></div>
 
 3. Under the Integration tab, select SMTP and copy the credentials such as Host, Port, Username, and Password.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc17558c2afc3a9c9e3315/file-TL5yxzC1BE.png)
+<div align="left"><img src="../.gitbook/assets/sandbox-integration-smtp-credentials.png" alt="Integration tab showing SMTP credentials including Host, Port, Username, and Password" width="563"></div>
 
 4. Paste them into your email-sending script, service, or MTA (any service that supports SMTP integration), and run it. The email will arrive in your sandbox in a few seconds.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc16d485869d13ea4fc9bd/file-VE57nMD3wJ.png)
+<div align="left"><img src="../.gitbook/assets/sandbox-integration-email-received.png" alt="Sandbox inbox displaying received test email message" width="563"></div>
 
-### #2 - Select your integration
+## #2 - Select your integration
 
 Instead of copy-pasting the SMTP credentials, you can use the code samples already containing your credentials.
 
-1. In the Integration tab of your sandbox, scroll down to Code Samples and select the programming language or framework you’re working with.
+1. In the Integration tab of your sandbox, scroll down to Code Samples and select the programming language or framework you're working with.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dc17331de088462a55b1e3/file-XBNVyg6nhq.png)
+<div align="left"><img src="../.gitbook/assets/sandbox-integration-code-samples.png" alt="Code Samples section showing various programming language options for integration" width="563"></div>
 
 2. Copy the configuration and paste it into your email-sending script. Then, run it. The email will arrive in the sandbox in a few seconds.
 

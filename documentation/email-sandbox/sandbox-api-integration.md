@@ -1,12 +1,9 @@
-# Sandbox API integration
+---
+title: Sandbox API integration
+description: Learn how to use the Sandbox API to automate testing and manage email sandboxes programmatically
+---
 
-**In this article:**
-
-* [How the API works](https://help.mailtrap.io/article/24-mailtrap-testing-api#how-API-works)
-* [What you can do with the API](https://help.mailtrap.io/article/24-mailtrap-testing-api#What-you-can-do-with-the-Sandbox-API-LoE94)
-* [How to get started](https://help.mailtrap.io/article/24-mailtrap-testing-api#start-API)
-
-### **How the API works** <a href="#how-api-works" id="how-api-works"></a>
+## How the API works
 
 The testing API uses REST protocol and can return calls as JSON objects. And it's compatible with the majority of programming languages.
 
@@ -17,7 +14,7 @@ Mailtrap supports the following HTTPs requests:
 * **GET** to get a resource or list of resources
 * **DELETE** to delete a resource
 
-#### What you can do with the Sandbox API <a href="#what-you-can-do-with-the-sandbox-api-loe94" id="what-you-can-do-with-the-sandbox-api-loe94"></a>
+## What you can do with the Sandbox API
 
 Via the API, you can run the following commands:
 
@@ -32,17 +29,18 @@ This way, you can test and verify the following scenarios:
 
 * Email sending script works.
 * Email recipients are correct + Bcc testing (on the advanced plans).
-* HTML template doesn’t cause errors.
+* HTML template doesn't cause errors.
 * Mail merge/dynamic content is replaced properly.
 * Appropriate files are attached.
 * Important links, such as reset password and account confirmation, work.
-* Your message doesn’t trigger a spam filter and your domain is not blacklisted, etc.
+* Your message doesn't trigger a spam filter and your domain is not blacklisted, etc.
 
-### How to get started with Sandbox API <a href="#start-api" id="start-api"></a>
+## How to get started with Sandbox API
 
 First, you need to get a token. You can find it under Settings, API Tokens.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6401d7f0188a9d242a7d6593/file-YC3nwspl1B.png)\
+<div align="left"><img src="../.gitbook/assets/sandbox-api-tokens-settings.png" alt="Settings page showing API Tokens section for generating authentication tokens" width="563"></div>
+
 To learn more about managing your tokens, please [check this guide](https://help.mailtrap.io/article/103-api-tokens). Then, there are a couple ways to send authenticated HTTP requests:
 
 * Send a HTTP header  `Api-Token: {api_token}` , where `{api_token}`  is your API token
