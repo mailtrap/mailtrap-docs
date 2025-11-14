@@ -29,7 +29,7 @@ Click the template you want to call using the API.
 {% step %}
 Open the Integration tab.
 
-<figure><img src="../../.gitbook/assets/template-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-integration-tab (1).png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

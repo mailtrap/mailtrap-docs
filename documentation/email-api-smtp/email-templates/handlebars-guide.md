@@ -67,7 +67,7 @@ If you want to do a replacement with HTML, use triple brackets `{{{value_with_ht
 
 ### Conditional Statements
 
-### if / else / if else
+#### if / else / if else
 
 Use the `if` helper for conditional block rendering.
 
@@ -116,7 +116,7 @@ If you change the `isSubscribed` variable to `false` in JSON data, the HTML outp
 The examples above include both `if` and `else` expressions. Of course, you can use only `if`, but it's recommendable to include `else` as well to cover the scenario where a conditional statement is `false`.
 {% endhint %}
 
-### unless
+#### unless
 
 The `unless` block helper works like an inverse `if`. Simply put, it renders when the expression returns a `false` value.
 
@@ -157,7 +157,7 @@ The block helper example also contains `{{else}}` and should the `isSubscribed` 
   <p>Thank you for subscribing to our newsletter!</p>
 ```
 
-### each
+#### each
 
 The `{{#each}}` helper is used to iterate over an object or array, then execute a block of code for each item.
 
@@ -221,7 +221,7 @@ In the example below, `{{#each user.items}}` iterate over the `user.items` array
 <p>No items found</p>
 ```
 
-### with
+#### with
 
 You can use the `with` helper to change the context in which the code block gets executed.
 
@@ -427,7 +427,7 @@ Navigate to Email Sending > Email Templates in the menu on the left.
 {% step %}
 Select your email template and click the Integration tab.
 
-<figure><img src="../../.gitbook/assets/template-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-integration-tab (1).png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

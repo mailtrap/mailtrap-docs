@@ -29,7 +29,7 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 
 {% stepper %}
 {% step %}
-### Verify the sending domain you own
+#### Verify the sending domain you own
 
 To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -43,15 +43,15 @@ Check our [Sending Domain Setup Guide](../email-api-smtp/sending-domain-setup.md
 {% endstep %}
 
 {% step %}
-### Integrate your application via Email API or SMTP
+#### Integrate your application via Email API or SMTP
 
-#### SMTP Integration
+**SMTP Integration**
 
 To send emails via Mailtrap SMTP, follow the instructions [in this article](../email-api-smtp/smtp-integration.md).
 
 <figure><img src="../.gitbook/assets/getting-started-smtp-integration-credentials.png" alt="SMTP integration credentials and code samples"><figcaption><p>SMTP integration credentials and code samples</p></figcaption></figure>
 
-#### Email API Integration
+**Email API Integration**
 
 To send emails via Mailtrap Email API, follow the steps [in this article](../email-api-smtp/api-integration.md).
 
