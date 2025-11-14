@@ -1,85 +1,29 @@
 # Table of contents
 
-* [Mailtrap Knowledge Base](README.md)
+* [Developer Platform API](README.md)
 
-## Getting Started
+## Email API
 
-* [Email API/SMTP](getting-started/email-api-smtp.md)
-* [Email Sandbox](getting-started/email-sandbox.md)
-* [Email Marketing](getting-started/email-marketing.md)
-
-## Email API/SMTP
-
-* [Sending Domain Setup](email-api-smtp/sending-domain-setup/README.md)
-  * [AWS Route 53](email-api-smtp/sending-domain-setup/aws-route-53.md)
-  * [Cloudflare](email-api-smtp/sending-domain-setup/cloudflare.md)
-  * [DigitalOcean](email-api-smtp/sending-domain-setup/digitalocean.md)
-  * [GoDaddy](email-api-smtp/sending-domain-setup/godaddy.md)
-  * [Google Cloud DNS](email-api-smtp/sending-domain-setup/google-cloud-dns.md)
-  * [Google Domains](email-api-smtp/sending-domain-setup/google-domains.md)
-  * [Namecheap](email-api-smtp/sending-domain-setup/namecheap.md)
-* [API integration](email-api-smtp/api-integration.md)
-* [SMTP integration](email-api-smtp/smtp-integration.md)
-* [Sending Limits](email-api-smtp/sending-limits.md)
-* [Email Templates](email-api-smtp/email-templates.md)
-* [Suppressions list](email-api-smtp/suppressions-list.md)
-* [IP Warmup](email-api-smtp/ip-warmup.md)
-* [Statuses and Events](email-api-smtp/statuses-and-events.md)
-* [Statistics](email-api-smtp/statistics/README.md)
-  * [Stats dashboard](email-api-smtp/statistics/stats-dashboard.md)
-  * [Email Logs](email-api-smtp/statistics/email-logs.md)
-  * [Email Categories](email-api-smtp/statistics/email-categories.md)
-  * [Mailbox Providers](email-api-smtp/statistics/mailbox-providers.md)
-* [Custom Variables](email-api-smtp/custom-variables.md)
-* [Get Started - Bulk Stream](email-api-smtp/get-started-bulk-stream.md)
-* [Bounce Categorization](email-api-smtp/bounce-categorization.md)
-* [Feedback Loops](email-api-smtp/feedback-loops.md)
-* [Auto BCC](email-api-smtp/auto-bcc.md)
-* [Excluding Specific Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
-* Email Sandbox
-  * [How to integrate Email Sandbox with your application](email-api-smtp/email-sandbox/how-to-integrate-email-sandbox-with-your-application.md)
-  * [Email address per sandbox](email-api-smtp/email-sandbox/email-address-per-sandbox.md)
-  * [Inspect your email template](email-api-smtp/email-sandbox/inspect-your-email-template.md)
-  * [Features and limits](email-api-smtp/email-sandbox/features-and-limits.md)
-  * [Sandbox API integration](email-api-smtp/email-sandbox/sandbox-api-integration.md)
-  * [Automatic email forwarding](email-api-smtp/email-sandbox/automatic-email-forwarding.md)
-  * [Checking email headers and Bcc](email-api-smtp/email-sandbox/checking-email-headers-and-bcc.md)
-  * [Manual email forwarding](email-api-smtp/email-sandbox/manual-email-forwarding.md)
-  * [HTML Check](email-api-smtp/email-sandbox/html-check.md)
-  * [Sharing sandboxes](email-api-smtp/email-sandbox/sharing-sandboxes.md)
-  * [Email app load testing](email-api-smtp/email-sandbox/email-app-load-testing.md)
-  * [Sharing projects](email-api-smtp/email-sandbox/sharing-projects.md)
-  * [Deliverability tests](email-api-smtp/email-sandbox/deliverability-tests.md)
-  * [Searching messages](email-api-smtp/email-sandbox/searching-messages.md)
-  * [Sandbox Glossary](email-api-smtp/email-sandbox/sandbox-glossary.md)
-  * [Bounce Emulator](email-api-smtp/email-sandbox/bounce-emulator.md)
-  * Email Marketing
-    * [Copy of Email Marketing](email-api-smtp/email-sandbox/email-marketing/copy-of-email-marketing.md)
-    * [Contacts](email-api-smtp/email-sandbox/email-marketing/contacts.md)
-    * [Campaign Scheduling](email-api-smtp/email-sandbox/email-marketing/campaign-scheduling.md)
-    * [Email Templates](email-api-smtp/email-sandbox/email-marketing/email-templates.md)
-    * [Automations](email-api-smtp/email-sandbox/email-marketing/automations.md)
-    * [Statistics](email-api-smtp/email-sandbox/email-marketing/statistics.md)
-    * Account & Billing
-      * [2FA](email-api-smtp/email-sandbox/email-marketing/account-and-billing/2fa.md)
-      * [Billing setup](email-api-smtp/email-sandbox/email-marketing/account-and-billing/billing-setup.md)
-      * [Payment and billing FAQs](email-api-smtp/email-sandbox/email-marketing/account-and-billing/payment-and-billing-faqs.md)
-      * [Payment issues](email-api-smtp/email-sandbox/email-marketing/account-and-billing/payment-issues.md)
-      * [Supporting Non-Profit and Open-Source Projects](email-api-smtp/email-sandbox/email-marketing/account-and-billing/supporting-non-profit-and-open-source-projects.md)
-      * [Suspensions and Bans](email-api-smtp/email-sandbox/email-marketing/account-and-billing/suspensions-and-bans.md)
-      * User Management
-        * [User Management](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/user-management.md)
-        * [User Profile](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/user-profile.md)
-        * [My Profile](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/my-profile.md)
-        * [Organization & Sub‑Accounts](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/organization-and-sub-accounts.md)
-        * Troubleshooting
-          * [Troubleshooting - Email Sandbox](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/troubleshooting-email-sandbox.md)
-          * [Troubleshooting - Email Sending](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/troubleshooting-email-sending.md)
-          * Privacy & Security
-            * [API Tokens](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/api-tokens.md)
-            * [GDPR Compliance](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/gdpr-compliance.md)
-            * [ISO certification](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/iso-certification.md)
-            * [Legal policies](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/legal-policies.md)
-            * FAQs
-              * [Email API and SMTP](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/faqs/email-api-and-smtp.md)
-              * [Sandbox - FAQs](email-api-smtp/email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/faqs/sandbox-faqs.md)
+* [Page 1](email-api/page-1.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: mailtrap-transactional
+  ```
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: mailtrap-bulk
+  ```
