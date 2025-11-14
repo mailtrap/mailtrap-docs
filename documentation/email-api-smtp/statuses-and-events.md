@@ -1,10 +1,31 @@
+---
+description: >-
+  Learn about Mailtrap statuses and events: delivery, bounces, opens, clicks,
+  and opt-outs. Understand how statuses differ from events and track
+  performance.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Statuses and Events
 
 When sending emails with Mailtrap, you’ll often encounter the terms Status and Event.
 
 **Status** is the latest delivery status of an email. Each status bears a distinct color, and an email can only have one status at a time. The available statuses are: **Delivered, Not Delivered, Enqueued,** and **Opted Out**.
 
-As an email changes status, multiple **events** can occur. Events are one-time occurrences that are logged into the **Event History**. Multiple events can (and often are) recorded for an email.&#x20;
+As an email changes status, multiple **events** can occur. Events are one-time occurrences that are logged into the **Event History**. Multiple events can (and often are) recorded for an email.
 
 For example, a certain email can have the status **Opted Out.** This indicates that the recipient marked your message as spam or unsubscribed from the list. The **Event History** tab for such an email may look like this:
 
@@ -32,11 +53,11 @@ Email failed to be delivered, and no further attempts will be made.
 {% tab title="Delivered" %}
 Email was accepted by the recipient’s mailbox provider.
 
-<table><thead><tr><th width="188.8046875">Event</th><th>Event Desription</th></tr></thead><tbody><tr><td>Delivery</td><td>Email was accepted by the recipient’s mailbox provider.  Note: this doesn’t exclude a delivery to a spam folder. In some cases, an email may be accepted, but an internal policy may prevent it from reaching an sandbox.</td></tr><tr><td>Open</td><td>Email was opened by a recipient or another person that a message was forwarded to. Multiple open events can be recorded.</td></tr><tr><td>Click</td><td>Any link in an email was clicked.</td></tr></tbody></table>
+<table><thead><tr><th width="188.8046875">Event</th><th>Event Desription</th></tr></thead><tbody><tr><td>Delivery</td><td>Email was accepted by the recipient’s mailbox provider. Note: this doesn’t exclude a delivery to a spam folder. In some cases, an email may be accepted, but an internal policy may prevent it from reaching an sandbox.</td></tr><tr><td>Open</td><td>Email was opened by a recipient or another person that a message was forwarded to. Multiple open events can be recorded.</td></tr><tr><td>Click</td><td>Any link in an email was clicked.</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Opted Out" %}
-A recipient opted out of receiving any further messages and has been added to Mailtrap’s suppression list for this domain.&#x20;
+A recipient opted out of receiving any further messages and has been added to Mailtrap’s suppression list for this domain.
 
 {% hint style="info" %}
 _This doesn’t prevent you from emailing them from other verified domains_
@@ -46,8 +67,6 @@ _This doesn’t prevent you from emailing them from other verified domains_
 {% endtab %}
 {% endtabs %}
 
-
-
 | Status        | Status Description                                                                                                                                                                                        | Event       | Event Description                                                                                                                                                                                                            |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enqueued      | Email has been queued for sending or has been dispatched, but something prevented its delivery.                                                                                                           | Sending     | Email sending is in process, or it’s in the queue.                                                                                                                                                                           |
@@ -55,21 +74,21 @@ _This doesn’t prevent you from emailing them from other verified domains_
 | <p><br></p>   | <p><br></p>                                                                                                                                                                                               | Suspension  | Email was sent from an unverified domain. We’ll re-check the domain status 10 more times. If it’s verified during this time, an email will be sent. Possible outcomes: Delivery, Reject.                                     |
 | Not delivered | Email failed to be delivered, and no further attempts will be made.                                                                                                                                       | Reject      | The domain in question was not verified in time after an initial suspension of an email, and a message was rejected. Or, a recipient is on a suppression list for this domain.                                               |
 | <p><br></p>   | <p><br></p>                                                                                                                                                                                               | Bounce      | Email recorded a bounce (permanent delivery failure), and no further attempts will be made to deliver it. Most commonly this happens because of an invalid email address or a rejection by the recipient’s mailbox provider. |
-| Delivered     | Email was accepted by the recipient’s mailbox provider.                                                                                                                                                   | Delivery    | Email was accepted by the recipient’s mailbox provider.  Note: this doesn’t exclude a delivery to a spam folder. In some cases, an email may be accepted, but an internal policy may prevent it from reaching an sandbox.    |
+| Delivered     | Email was accepted by the recipient’s mailbox provider.                                                                                                                                                   | Delivery    | Email was accepted by the recipient’s mailbox provider. Note: this doesn’t exclude a delivery to a spam folder. In some cases, an email may be accepted, but an internal policy may prevent it from reaching an sandbox.     |
 | <p><br></p>   | <p><br></p>                                                                                                                                                                                               | Open        | Email was opened by a recipient or another person that a message was forwarded to. Multiple open events can be recorded.                                                                                                     |
 | <p><br></p>   | <p><br></p>                                                                                                                                                                                               | Click       | Any link in an email was clicked.                                                                                                                                                                                            |
 | Opted Out     | A recipient opted out of receiving any further messages and has been added to Mailtrap’s suppression list for this domain. Note: this doesn’t prevent you from emailing them from other verified domains. | Unsubscribe | The recipient unsubscribed from receiving emails. Mailtrap won’t send any further emails to them from this domain.                                                                                                           |
 | <p><br></p>   | <p><br></p>                                                                                                                                                                                               | Spam        | User reported a message as spam. Mailtrap won’t send them any more messages from this domain.                                                                                                                                |
 
 {% hint style="success" %}
-_If you want to track how many emails were delivered, it’s better to use the **Delivery** event rather than the **Delivered** status._&#x20;
+_If you want to track how many emails were delivered, it’s better to use the **Delivery** event rather than the **Delivered** status._
 {% endhint %}
 
 When a recipient unsubscribes or reports your message as spam, an email's status changes to Opted Out. At the same time, the Delivery event remains in its Events History. By filtering for this event, you’ll easily find all emails that were delivered in a chosen timeframe, regardless of what happened to them next.
 
 Some useful definitions:
 
-* **Client Sending IP** - IP address of a device that was used to send an email.&#x20;
+* **Client Sending IP** - IP address of a device that was used to send an email.
 * **Mailtrap Sending IP** - IP address of Mailtrap, used to send a message to the final recipient.
 * **Recipient IP** - IP address of a device or an email server where an email was opened. If a message is opened on devices using different IP addresses, multiple Recipient IPs will be recorded. If a message is not opened at all, no Recipient IP will be displayed.
 
