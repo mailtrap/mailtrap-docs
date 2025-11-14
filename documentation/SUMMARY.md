@@ -11,7 +11,6 @@
 ## Email API/SMTP
 
 * [Sending Domain Setup](email-api-smtp/sending-domain-setup/README.md)
-  * [AWS Route 53](email-api-smtp/sending-domain-setup/aws-route-53.md)
   * [Cloudflare](email-api-smtp/sending-domain-setup/cloudflare.md)
   * [DigitalOcean](email-api-smtp/sending-domain-setup/digitalocean.md)
   * [GoDaddy](email-api-smtp/sending-domain-setup/godaddy.md)
