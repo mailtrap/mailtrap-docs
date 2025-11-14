@@ -1,14 +1,35 @@
+---
+description: >-
+  Manage Mailtrap suppression lists. View, add, remove, or import suppressed
+  emails from hard bounces, unsubscribes, and spam complaints via CSV or
+  manually.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Suppressions list
 
 When hard bounce, unsubscribe, and spam complaints events occur, Mailtrap adds the email address to a suppression list. The suppression list contains all the addresses you cannot send emails to.
 
-You’ll find all the addresses on suppression lists in the **Suppressions** menu to the left.&#x20;
+You’ll find all the addresses on suppression lists in the **Suppressions** menu to the left.
 
 <div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6639f90f1bee2d183948cae6/file-GgoQp5felm.png" alt="" width="563"></div>
 
-The menu contains the data for all your domains. If an email address was suppressed for more than one domain, it appears multiple times on the list.&#x20;
+The menu contains the data for all your domains. If an email address was suppressed for more than one domain, it appears multiple times on the list.
 
-You can export the whole Suppressions list.&#x20;
+You can export the whole Suppressions list.
 
 <div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/b5sLWLtrMsOZ_b0_s8CH5e5M2LU2cjo4je9yiQuxB3mJHfbjh9R65FEhsr-vkNhSbGY_J6_mycBiRTUdYLv_pFVs8TwgvjSLHnEF3iLNppyikLdk6ewaNGxoPNAWhrvP9FOtQ8AZnv3CbS3tOUdcai0" alt="" width="563"></div>
 
@@ -18,11 +39,11 @@ If you believe an email landed on a suppression list by accident, you can remove
 
 <div align="left" data-with-frame="true"><img src="https://lh6.googleusercontent.com/QptnHTV8qqEVEb8to38Pi1OWh52Zdbd-1hvmmMljJznaWyz_o2Y0f6uD8ERFT24QlzDI5n7hrazKMFTVaRFt7YdvYj7p9cIL-3PeIr0j2SfRAiqa3x2f4SCckjOryxY3Q3rwGYTm" alt="" width="563"></div>
 
-However, we advise you not to misuse the feature.&#x20;
+However, we advise you not to misuse the feature.
 
 If someone decided to report your message as spam or leave your email list, you really don’t want to be emailing them again (unless they explicitly told you they had done it by mistake). Any further attempts will probably result in the same outcome, immediately hurting your email deliverability.
 
-### Suppression list filters&#x20;
+### Suppression list filters
 
 You can filter the suppression list for:
 
@@ -47,9 +68,9 @@ After you select the domain and stream, type or copy-paste the email addresses y
 
 <div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6687d80ee1989867dcefed22/file-h4O05MuJXB.png" alt="" width="375"></div>
 
-You can add only one email address per line and up to 1000 emails per selected domain.&#x20;
+You can add only one email address per line and up to 1000 emails per selected domain.
 
-Note that there’s also the **Add New/Import** button at the top right of the screen in the Suppressions main dashboard. It allows you to access the Add recipients to suppression list menu quickly. &#x20;
+Note that there’s also the **Add New/Import** button at the top right of the screen in the Suppressions main dashboard. It allows you to access the Add recipients to suppression list menu quickly.
 
 <div align="left" data-with-frame="true"><img src="https://lh4.googleusercontent.com/9WqZGQbgOyzz6-bBUvMwLTM_77jF-CiTwb0z3oDH2wnS8RC0wyhOsNk7XTxjqmpVnKCRg5NkUAN5ADwK5kE41S5j8xftdw12FsCaPx1SMPTQuO_sUneRVIjwubiOFtflN1Yk7uER" alt="" height="92" width="624"></div>
 
@@ -61,7 +82,7 @@ Before you upload CSV to Mailtrap, you first need to export the document from yo
 
 **Sendgrid**
 
-Navigate to Suppression Management - this is where you’ll find the list of all your Unsubscribe Groups. You’ll see the default groups and the ones you created.&#x20;
+Navigate to Suppression Management - this is where you’ll find the list of all your Unsubscribe Groups. You’ll see the default groups and the ones you created.
 
 To export the CSV file, you’ll need to click the Settings button (the gear icon) next to each group, then choose **Export**.
 
@@ -73,7 +94,7 @@ To get the list in CSV format, make sure you choose the correct domain and use t
 
 **Postmark**
 
-There’s an Export button in the Postmark dashboard. This allows you to export up to 500 records in a JSON file. For more records, you’d need to use Postmark’s Messages API.&#x20;
+There’s an Export button in the Postmark dashboard. This allows you to export up to 500 records in a JSON file. For more records, you’d need to use Postmark’s Messages API.
 
 Many online services offer services for converting JSON to CSV. [Postmark’s help page](https://postmarkapp.com/support/article/881-can-i-export-a-list-of-all-bounces) provides more information.
 
@@ -83,6 +104,6 @@ Select **Upload CSV** and then choose the stream and the domain.
 
 <div align="left" data-with-frame="true"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6687da1ee1989867dcefed23/file-a3NJbH4tcH.png" alt="" width="375"></div>
 
-Click **Browse file** to select the CSV file from your computer or drag and drop it into the **Select file** box.&#x20;
+Click **Browse file** to select the CSV file from your computer or drag and drop it into the **Select file** box.
 
 To complete the action, click **Add To Suppressions** and you’re done. If you wish, you can also download our CSV template by clicking on the corresponding option.
