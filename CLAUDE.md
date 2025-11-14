@@ -125,12 +125,13 @@ For detailed syntax, templates, and validation, refer to:
 -- Images from Helpscout might be removed from Helpscout in the future so we need to fetch them, reformat them and include into asset folders
 -- Reformating should include user-friendly name of image and proper alt text
 -- Name shouldn't have spaces or special characters
--- Use image vision to understand the image content and provide a meaningful alt text and name.
+-- Use image vision to understand the image content and provide a meaningful alt text and name. If image is bigger than Read tool max width (2000 pixels), detect it and resize it to fit before submitting to Read tool for recognition.
 
 ### Content Organization
 - Use `SUMMARY.md` to define navigation structure
 - Maintain consistent nested folder structure matching SUMMARY.md hierarchy
 - Place shared assets in `.gitbook/assets/` directory
+- Use Gitbook Page links formatting for internal navigation and cross-linking articles
 
 ## Working with This Repository
 
