@@ -4,8 +4,6 @@ description: How to fix the From Header does not match the sender's domain error
 icon: envelope
 ---
 
-# From Header Domain Mismatch
-
 ## Error Message
 
 ```

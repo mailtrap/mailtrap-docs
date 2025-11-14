@@ -4,8 +4,6 @@ description: How to fix SSL errors when using custom domains for click tracking
 icon: certificate
 ---
 
-# SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001
-
 When using a custom domain for click tracking, you may encounter `SSL_ERROR_NO_CYPHER_OVERLAP` or `Error 1001` error.
 
 <figure><img src="../../.gitbook/assets/troubleshoot-sending-ssl-error.png" alt="Browser showing SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001 when accessing custom tracking domain"><figcaption>SSL error when accessing custom domain for click tracking</figcaption></figure>

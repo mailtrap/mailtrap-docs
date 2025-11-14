@@ -4,8 +4,6 @@ description: How to fix Unauthorised authentication errors in Mailtrap
 icon: lock
 ---
 
-# Unauthorized Error (401 Code)
-
 If you're getting an "Unauthorised" error (401 code) when trying to send emails, there are several possible causes and solutions.
 
 ## Common Causes

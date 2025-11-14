@@ -4,8 +4,6 @@ description: Common issues and solutions for Mailtrap Email Sandbox
 icon: wrench
 ---
 
-# Troubleshooting - Email Sandbox
-
 This page covers common issues you might encounter when using Mailtrap Email Sandbox and their solutions.
 
 ## Connection Errors

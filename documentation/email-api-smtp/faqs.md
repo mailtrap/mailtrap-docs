@@ -4,8 +4,6 @@ description: Frequently asked questions about Mailtrap Email API/SMTP
 icon: exclamation
 ---
 
-# Email API/SMTP - FAQs
-
 This page covers frequently asked questions about Mailtrap Email API/SMTP. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting/).
 
 ## Getting Started
