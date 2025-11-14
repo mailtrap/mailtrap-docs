@@ -1,7 +1,8 @@
 ---
 title: Get Started - Bulk Stream
-icon: exclamation
 ---
+
+# Bulk Stream
 
 {% hint style="info" %}
 Bulk emails are typically marketing or promotional emails sent to a large number of recipients at once, for example, newsletters, product announcements, etc.
@@ -9,7 +10,7 @@ Bulk emails are typically marketing or promotional emails sent to a large number
 
 {% stepper %}
 {% step %}
-#### Verify the sending domain you own
+**Verify the sending domain you own**
 
 To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -23,7 +24,7 @@ Check our [Sending Domain Setup Guide](sending-domain-setup/) for detailed instr
 {% endstep %}
 
 {% step %}
-#### Integrate your application with Mailtrap
+**Integrate your application with Mailtrap**
 
 To send emails via Mailtrap SMTP, follow the instructions [in this article](smtp-integration.md).
 

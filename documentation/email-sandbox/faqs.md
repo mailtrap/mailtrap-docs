@@ -1,12 +1,14 @@
 ---
 title: Email Sandbox - FAQs
 description: Frequently asked questions about Mailtrap Email Sandbox
-icon: exclamation
+icon: question
 ---
+
+# FAQs
 
 This page covers frequently asked questions about Mailtrap Email Sandbox. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting.md).
 
-## Integration & Setup
+### Integration & Setup
 
 <details>
 
@@ -27,12 +29,13 @@ No, you don't have to stick to Mailtrap web interface. You can forward every sin
 You can even enable automatic forwarding, and Mailtrap will act as a proxy between your application and your email client. In this case, you won't miss important messages from the QA environment, such as exception notifications.
 
 Learn more:
-- [Automatic Email Forwarding](automatic-email-forwarding.md)
-- [Manual Email Forwarding](manual-email-forwarding.md)
+
+* [Automatic Email Forwarding](automatic-email-forwarding.md)
+* [Manual Email Forwarding](manual-email-forwarding.md)
 
 </details>
 
-## Technical Specifications
+### Technical Specifications
 
 <details>
 
@@ -58,7 +61,7 @@ You can also forward emails to Outlook, Thunderbird, etc., and use these desktop
 
 <details>
 
-<summary>What does Sandbox do with the &lt;style&gt; tag?</summary>
+<summary>What does Sandbox do with the &#x3C;style> tag?</summary>
 
 Sandbox doesn't remove the `<style>` tag from email templates.
 
@@ -66,7 +69,7 @@ Sandbox doesn't remove the `<style>` tag from email templates.
 
 <details>
 
-<summary>What does Sandbox do with the &lt;script&gt; tag?</summary>
+<summary>What does Sandbox do with the &#x3C;script> tag?</summary>
 
 For enhanced security, Sandbox removes all `<script>` tags from HTML.
 
@@ -122,7 +125,7 @@ For more details, check the [Features and Limits](features-and-limits.md#total-t
 
 </details>
 
-## Pricing
+### Pricing
 
 <details>
 

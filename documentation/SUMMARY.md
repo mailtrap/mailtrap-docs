@@ -28,7 +28,7 @@
   * [Email Categories](email-api-smtp/statistics/email-categories.md)
   * [Mailbox Providers](email-api-smtp/statistics/mailbox-providers.md)
 * [Custom Variables](email-api-smtp/custom-variables.md)
-* [Get Started - Bulk Stream](email-api-smtp/get-started-bulk-stream.md)
+* [Bulk Stream](email-api-smtp/bulk-stream.md)
 * [Bounce Categorization](email-api-smtp/bounce-categorization.md)
 * [Feedback Loops](email-api-smtp/feedback-loops.md)
 * [Auto BCC](email-api-smtp/auto-bcc.md)

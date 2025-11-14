@@ -1,12 +1,14 @@
 ---
 title: Email API/SMTP - FAQs
 description: Frequently asked questions about Mailtrap Email API/SMTP
-icon: exclamation
+icon: question
 ---
+
+# FAQs
 
 This page covers frequently asked questions about Mailtrap Email API/SMTP. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting/).
 
-## Getting Started
+### Getting Started
 
 <details>
 
@@ -26,9 +28,10 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 4. Proceed to integrate Mailtrap with your application via SMTP or API.
 
 Learn more:
-- [API Integration](api-integration.md)
-- [SMTP Integration](smtp-integration.md)
-- [Sending Domain Setup](sending-domain-setup.md)
+
+* [API Integration](api-integration.md)
+* [SMTP Integration](smtp-integration.md)
+* [Sending Domain Setup](sending-domain-setup.md)
 
 If you have any questions, contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 
@@ -54,7 +57,7 @@ If you verified mydomain.com, you can send emails only on behalf of your domain.
 
 </details>
 
-## Domain Setup
+### Domain Setup
 
 <details>
 
@@ -74,7 +77,7 @@ No, you need to add and verify each subdomain/domain separately.
 
 </details>
 
-## Features & Capabilities
+### Features & Capabilities
 
 <details>
 
@@ -110,7 +113,7 @@ We use AWS with auto-balancing, so our IP ranges are the following: [https://ip-
 
 </details>
 
-## Billing & Limits
+### Billing & Limits
 
 <details>
 
@@ -152,7 +155,7 @@ To choose one that best fits your needs, check out our [pricing plans](https://m
 
 </details>
 
-## Data & Privacy
+### Data & Privacy
 
 <details>
 
@@ -171,9 +174,10 @@ You can set up [Webhooks](sending-domain-setup.md#optional-webhooks-4hmes) to au
 The General Data Protection Regulation (GDPR) came into effect on May 25, 2018. We have implemented appropriate technical and security processes to ensure Mailtrap's full compliance with this regulation.
 
 For more details, refer to our:
-- [Privacy Policy](https://mailtrap.io/privacy/)
-- [Navigational Information](https://mailtrap.io/navigational-info/)
-- [Data Protection Agreement](https://mailtrap.io/dpa/)
+
+* [Privacy Policy](https://mailtrap.io/privacy/)
+* [Navigational Information](https://mailtrap.io/navigational-info/)
+* [Data Protection Agreement](https://mailtrap.io/dpa/)
 
 </details>
 
