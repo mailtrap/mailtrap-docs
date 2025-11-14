@@ -160,56 +160,104 @@ Coming soon: We're working on adding support for managing sub‑accounts via API
 
 ### Users and Permissions
 
-{% expand title="Are the number of users shared for all the sub-accounts under the organization?" %}
+<details>
+
+<summary>Are the number of users shared for all the sub-accounts under the organization?</summary>
+
 Yes, user counts are shared across all sub-accounts within the organization.
-{% endexpand %}
 
-{% expand title="How am I counted as a user if I have permissions to more than 1 sub-account?" %}
+</details>
+
+<details>
+
+<summary>How am I counted as a user if I have permissions to more than 1 sub-account?</summary>
+
 You'll still be counted as one user, regardless of how many sub-accounts you have access to within the organization.
-{% endexpand %}
 
-{% expand title="Can a user be in multiple sub-accounts?" %}
+</details>
+
+<details>
+
+<summary>Can a user be in multiple sub-accounts?</summary>
+
 Yes, just invite them to each sub‑account and assign the right role. You can also add users to the entire Organization, and thus, they will have access to all sub-accounts within your Organization.
-{% endexpand %}
+
+</details>
 
 ### Organization and Sub-Account Management
 
-{% expand title="How can a sub-account be removed from the organization they're currently in?" %}
+<details>
+
+<summary>How can a sub-account be removed from the organization they're currently in?</summary>
+
 You can either fully delete the sub-account (using the same process as deleting standard accounts) or contact our Support Team to transfer the sub-account to another Organization.
-{% endexpand %}
 
-{% expand title="Need to migrate existing accounts into one Organization?" %}
+</details>
+
+<details>
+
+<summary>Need to migrate existing accounts into one Organization?</summary>
+
 Sure! Reach out to us, and we'll help you move everything over without losing data or re-verifying domains.
-{% endexpand %}
 
-{% expand title="Can sub-accounts have different plan levels?" %}
+</details>
+
+<details>
+
+<summary>Can sub-accounts have different plan levels?</summary>
+
 No, the subscription plan is defined at the Organization level and shared across all sub‑accounts.
-{% endexpand %}
 
-{% expand title="What about billing?" %}
+</details>
+
+<details>
+
+<summary>What about billing?</summary>
+
 All usage is tracked and billed under the Organization's plan. If you need billing per account, we recommend keeping them as standalone accounts.
-{% endexpand %}
 
-{% expand title="How to update the organization owner?" %}
+</details>
+
+<details>
+
+<summary>How to update the organization owner?</summary>
+
 Submit a support request to update the organization owner.
-{% endexpand %}
+
+</details>
 
 ### Quotas and Stats
 
-{% expand title="Can we set a per sub-account quota limit?" %}
-This feature is currently in development and will be available soon.
-{% endexpand %}
+<details>
 
-{% expand title="Are stats and email quotas shared?" %}
+<summary>Can we set a per sub-account quota limit?</summary>
+
+This feature is currently in development and will be available soon.
+
+</details>
+
+<details>
+
+<summary>Are stats and email quotas shared?</summary>
+
 Quotas apply at the Organization level, but stats are tracked separately for each sub‑account.
-{% endexpand %}
+
+</details>
 
 ### General
 
-{% expand title="Can sub-accounts share templates?" %}
-No, templates are isolated per sub‑account. You can manually export and import them if needed.
-{% endexpand %}
+<details>
 
-{% expand title="Not seeing the \"Organization\" menu item?" %}
+<summary>Can sub-accounts share templates?</summary>
+
+No, templates are isolated per sub‑account. You can manually export and import them if needed.
+
+</details>
+
+<details>
+
+<summary>Not seeing the "Organization" menu item?</summary>
+
 Your current plan may not include this feature. You can check our pricing or contact support for help.
-{% endexpand %}
+
+</details>
