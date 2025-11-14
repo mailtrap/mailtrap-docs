@@ -1,16 +1,9 @@
-# Organization & Sub‑Accounts
+---
+title: Organization & Sub‑Accounts
+description: Manage complex setups with Mailtrap Organization & Sub‑Accounts. Learn about centralized billing, isolated workspaces, permissions, and how to create and migrate sub-accounts.
+---
 
-In this article:
-
-* [Overview](https://help.mailtrap.io/article/187-organization-sub-accounts#Overview-u5ym_)
-* [When to use organization & sub‑accounts](https://help.mailtrap.io/article/187-organization-sub-accounts#When-to-Use-Organization--Sub-accounts-Z3P7R)
-* [Creating a sub‑account](https://help.mailtrap.io/article/187-organization-sub-accounts#Creating-a-sub-account-mcIKC)
-* [Migrating an already existing account](https://help.mailtrap.io/article/187-organization-sub-accounts#Migrating-an-already-existing-account--uSR5o)
-* [Permissions & user management](https://help.mailtrap.io/article/187-organization-sub-accounts#Permissions--user-management-Elpl6)
-* [API tokens](https://help.mailtrap.io/article/187-organization-sub-accounts#API-tokens-ZtdRc)
-* [FAQ](https://help.mailtrap.io/article/187-organization-sub-accounts#FAQ-ybgBt)
-
-### Overview <a href="#overview-u5ym" id="overview-u5ym"></a>
+## Overview
 
 The Organization & Sub-Accounts structure is designed to help you manage complex setups involving multiple teams, clients, environments, or products - all under a single Organization.
 
@@ -23,7 +16,7 @@ At the same time, your Organization acts as the central hub:
 * Org-level permissions give users access to all current and future sub‑accounts by default - ideal for admins or managers.
 * Sub-account-level permissions can be assigned when you need to restrict access to just selected environments or clients.
 * Clear separation of data. Projects, templates, stats, and domains stay neatly separated between sub‑accounts.
-* Deliverability isolation. Each sub‑account’s sending reputation stays isolated. If one goes off track, others remain unaffected.
+* Deliverability isolation. Each sub‑account's sending reputation stays isolated. If one goes off track, others remain unaffected.
 * Smooth migration of accounts. Existing standalone accounts can be converted to sub‑accounts, bringing over settings, stats, and domains seamlessly.
 
 This structure is ideal whether you're working with:
@@ -36,11 +29,11 @@ No matter the product, sub‑accounts remain consistently isolated and manageabl
 
 Additionally, if your teams or clients shift over time, you can transfer sub‑accounts between Organizations without losing historical data, settings, or domain authentications. Our support team can guide you through this process to make it smooth and safe.
 
-Note: The Organization & Sub‑Accounts feature is available only on Business and Enterprise Email Sending or Sandbox plans. If you don’t see this option in your user panel, you may need to upgrade your plan to access it.
+Note: The Organization & Sub‑Accounts feature is available only on Business and Enterprise Email Sending or Sandbox plans. If you don't see this option in your user panel, you may need to upgrade your plan to access it.
 
-Note: If your account is currently using Braintree as the payment gateway, you’ll need to migrate to Stripe in order to enable and use the Organization & Sub‑Accounts feature.
+Note: If your account is currently using Braintree as the payment gateway, you'll need to migrate to Stripe in order to enable and use the Organization & Sub‑Accounts feature.
 
-### When to use Organization & Sub-accounts <a href="#when-to-use-organization-sub-accounts-z3p7r" id="when-to-use-organization-sub-accounts-z3p7r"></a>
+## When to use Organization & Sub-accounts
 
 Use Organization & Sub‑accounts to:
 
@@ -50,32 +43,26 @@ Use Organization & Sub‑accounts to:
 * Prevent issues in one sub‑account affecting others.
 * Keep email stats, templates, or sender configurations isolated.
 
-### Creating a sub-account <a href="#creating-a-sub-account-mcikc" id="creating-a-sub-account-mcikc"></a>
+## Creating a sub-account
 
 1. Go to the left-side menu and select Settings → Organization.
 2. This will open the Organization page.
 
-![](<../../../../../.gitbook/assets/unknown (5).png>)
+<div align="left"><img src="../.gitbook/assets/org-organization-details.png" alt="Mailtrap Organization page showing Organization Details tab with name, owner email, and organization ID" width="563"></div>
 
 3. Click Create sub-account.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dbd3c4660d2d1b35da3d80/file-BVgkYeUhA6.png)
-
-\
-
+<div align="left"><img src="../.gitbook/assets/org-create-subaccount-button.png" alt="Organization page with Create sub-account button highlighted" width="563"></div>
 
 4. Enter the sub-account name and click Create.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68dbd3e78c2afc3a9c9e31ab/file-BmEdv0jK1e.png)
-
-\
-
+<div align="left"><img src="../.gitbook/assets/org-subaccount-name-input.png" alt="Create sub-account dialog with name input field and Create button" width="563"></div>
 
 5. You will be automatically redirected to the new account settings page, where you can manage other account settings.
 
-![](<../../../../../.gitbook/assets/unknown (6).png>)
+<div align="left"><img src="../.gitbook/assets/org-account-settings-created.png" alt="Account Settings page for newly created sub-account showing account name and owner details" width="563"></div>
 
-🎉 You’re ready! Each sub‑account starts fresh with no domains, tokens, or stats - configure however you like.
+You're ready! Each sub‑account starts fresh with no domains, tokens, or stats - configure however you like.
 
 You can create as many sub‑accounts as needed - there is no limit, making this feature scalable for any organization size.
 
@@ -83,13 +70,13 @@ Note: At the moment, sub‑accounts can be created and managed only through the 
 
 Switch between sub‑accounts from the top-right menu (under your profile) anytime.
 
-![](<../../../../../.gitbook/assets/unknown (7).png>)
+<div align="left"><img src="../.gitbook/assets/org-account-switcher-menu.png" alt="User menu dropdown showing organization accounts and sub-accounts with account switcher" width="375"></div>
 
-### Migrating an already existing account  <a href="#migrating-an-already-existing-account-usr5o" id="migrating-an-already-existing-account-usr5o"></a>
+## Migrating an already existing account
 
 If you have multiple Mailtrap accounts and want to merge them under a single Organization (without re-authenticating domains or losing data), our Support Team can help make the process smooth. You can transfer any account, including free ones. The only requirement is that the **destination Organization** is on a subscription plan that includes **Organization & Sub-accounts**.
 
-To start, email us at [support@mailtrap.io](mailto:support@mailtrap.io) from the account owner’s email address (the one who owns the account you want to move) and include:
+To start, email us at [support@mailtrap.io](mailto:support@mailtrap.io) from the account owner's email address (the one who owns the account you want to move) and include:
 
 * **Account name or ID** you want to transfer
 * **Destination Organization name or ID**
@@ -100,7 +87,7 @@ Once we receive your request, our team will confirm the transfer with both sides
 
 **Important notes**
 
-* If you need to transfer multiple accounts, please submit **one request per account**. Always send each request from the account owner’s email.
+* If you need to transfer multiple accounts, please submit **one request per account**. Always send each request from the account owner's email.
 * The transferred account will be **removed from the original Organization**.
 * Original Organization admins and viewers will lose access to this account. **Account-level admins and viewers will retain their access.**
 * If the transferred account was the **only one** in the original Organization, the subscription for that Organization will be canceled. If no accounts remain, the empty Organization will be deleted.
@@ -113,14 +100,11 @@ After both sides approve:
 * The account will now use the **subscription and usage limits of the Destination Organization**.
 * Usage counters will reset, since the account is now part of a new shared plan.
 
-\
-
-
-### Permissions & user management <a href="#permissions-user-management-elpl6" id="permissions-user-management-elpl6"></a>
+## Permissions & user management
 
 The Organization & Sub‑Accounts structure offers flexible and secure user access controls, so you can easily tailor permissions based on team roles, client needs, or project scope.
 
-#### Types of access
+### Types of access
 
 There are two levels of user access:
 
@@ -140,11 +124,11 @@ Note: A user with organization-level permissions will always have access to all 
 
 If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](https://help.mailtrap.io/article/65-user-management).
 
-![](<../../../../../.gitbook/assets/unknown (8).png>)
+<div align="left"><img src="../.gitbook/assets/org-edit-user-permissions.png" alt="Edit User dialog showing Organization Permissions and Account Permissions with admin and viewer role options" width="563"></div>
 
-Note: Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don’t need to create multiple invitations for the same person.
+Note: Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
 
-#### Viewing current users
+### Viewing current users
 
 You can easily check who has access to your account.
 
@@ -154,17 +138,17 @@ Go to the Settings → User Management tab to see a list of all users with accou
 
 * Organization-level users:
 
-All users with Organization-level access also have access to your account, and they are listed in a separate ”Organization” tab. These users automatically have access to all current and future sub‑accounts.
+All users with Organization-level access also have access to your account, and they are listed in a separate "Organization" tab. These users automatically have access to all current and future sub‑accounts.
 
-If you are an Organization Owner or Organization Admin, you can edit organization-level users (e.g., invite, remove, or change roles). If you don’t have admin rights, you will still see the full list of org-level users, but only in view-only mode.
+If you are an Organization Owner or Organization Admin, you can edit organization-level users (e.g., invite, remove, or change roles). If you don't have admin rights, you will still see the full list of org-level users, but only in view-only mode.
 
-![](<../../../../../.gitbook/assets/unknown (9).png>)
+<div align="left"><img src="../.gitbook/assets/org-user-management-tab.png" alt="User Management page showing Organization users tab with list of members and their permissions" width="563"></div>
 
-### API tokens <a href="#api-tokens-ztdrc" id="api-tokens-ztdrc"></a>
+## API tokens
 
-API tokens in Mailtrap are account–level only. That means each sub‑account has its own isolated set of tokens used for authentication when interacting with Mailtrap’s API or SMTP services.
+API tokens in Mailtrap are account–level only. That means each sub‑account has its own isolated set of tokens used for authentication when interacting with Mailtrap's API or SMTP services.
 
-#### Key Points:
+### Key Points:
 
 * Isolated by design: Tokens are unique to each sub‑account and cannot be used to access resources from other sub‑accounts or the entire Organization.
 * Scoped access: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
@@ -172,7 +156,7 @@ API tokens in Mailtrap are account–level only. That means each sub‑account h
 
 Coming soon: We're working on adding support for managing sub‑accounts via API, which may include extended token management capabilities at the organization level.
 
-### FAQ <a href="#faq-ybgbt" id="faq-ybgbt"></a>
+## FAQ
 
 Users and Permissions
 
@@ -193,13 +177,13 @@ Organization and Sub-Account Management
     You can either fully delete the sub-account (using the same process as deleting standard accounts) or contact our Support Team to transfer the sub-account to another Organization.
 *   Need to migrate existing accounts into one Organization?
 
-    Sure! Reach out to us, and we’ll help you move everything over without losing data or re-verifying domains.
+    Sure! Reach out to us, and we'll help you move everything over without losing data or re-verifying domains.
 *   Can sub-accounts have different plan levels?
 
     No, the subscription plan is defined at the Organization level and shared across all sub‑accounts.
 *   What about billing?
 
-    All usage is tracked and billed under the Organization’s plan. If you need billing per account, we recommend keeping them as standalone accounts.
+    All usage is tracked and billed under the Organization's plan. If you need billing per account, we recommend keeping them as standalone accounts.
 *   **How to update the organization owner?**
 
     Submit a support request to update the organization owner.
@@ -219,6 +203,6 @@ General
 
 No, templates are isolated per sub‑account. You can manually export and import them if needed.
 
-* Not seeing the ”Organization” menu item?
+* Not seeing the "Organization" menu item?
 
 Your current plan may not include this feature. You can check our pricing or contact support for help.
