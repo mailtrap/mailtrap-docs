@@ -37,7 +37,7 @@ These filters are a quick way to find:
 * **Yahoo** - all emails that were sent to Yahoo mailboxes.
 
 {% hint style="info" %}
-_When an email is sent, Mailtrap doesn’t yet know which Mailbox Provider (e.g., Google, Outlook, Hotmail, etc.) it sent a message to. It’s only able to determine this when it receives a response from the recipient’s Mailbox Provider, which may sometimes take a few minutes._
+When an email is sent, Mailtrap doesn't yet know which Mailbox Provider (e.g., Google, Outlook, Hotmail, etc.) it sent a message to. It's only able to determine this when it receives a response from the recipient's Mailbox Provider, which may sometimes take a few minutes.
 {% endhint %}
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-date-picker.png" alt="Date range picker for Email Logs showing calendar with selected date range" width="375"></div>

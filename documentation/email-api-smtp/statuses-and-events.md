@@ -59,7 +59,7 @@ Email was accepted by the recipient’s mailbox provider.
 A recipient opted out of receiving any further messages and has been added to Mailtrap’s suppression list for this domain.
 
 {% hint style="info" %}
-_This doesn’t prevent you from emailing them from other verified domains_
+This doesn't prevent you from emailing them from other verified domains
 {% endhint %}
 
 <table><thead><tr><th width="188.83984375">Event</th><th>Event Description</th></tr></thead><tbody><tr><td>Unsubscribe</td><td>The recipient unsubscribed from receiving emails. Mailtrap won’t send any further emails to them from this domain.</td></tr><tr><td>Spam</td><td>User reported a message as spam. Mailtrap won’t send them any more messages from this domain.</td></tr></tbody></table>
@@ -80,7 +80,7 @@ _This doesn’t prevent you from emailing them from other verified domains_
 | <p><br></p>   | <p><br></p>                                                                                                                                                                                               | Spam        | User reported a message as spam. Mailtrap won’t send them any more messages from this domain.                                                                                                                                |
 
 {% hint style="success" %}
-_If you want to track how many emails were delivered, it’s better to use the **Delivery** event rather than the **Delivered** status._
+If you want to track how many emails were delivered, it's better to use the **Delivery** event rather than the **Delivered** status.
 {% endhint %}
 
 When a recipient unsubscribes or reports your message as spam, an email's status changes to Opted Out. At the same time, the Delivery event remains in its Events History. By filtering for this event, you’ll easily find all emails that were delivered in a chosen timeframe, regardless of what happened to them next.

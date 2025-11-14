@@ -62,7 +62,7 @@ The thresholds are based on our extensive cross-industry research and, at this p
 Delivered refers to the percentage of emails that were accepted by the recipient’s mailbox providers compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs.](email-logs.md)
 
 {% hint style="info" %}
-_"**Delivered**" status doesn’t mean that a message went straight into the recipient’s Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder._
+"**Delivered**" status doesn't mean that a message went straight into the recipient's Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
 {% endhint %}
 
 Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about [Suppressions](../suppressions-list.md).

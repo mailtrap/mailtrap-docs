@@ -10,7 +10,7 @@ To add and verify a sending domain in Mailtrap, you need access to your domain�
 <a href="broken-reference" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to AWS Route 53.
 
 {% hint style="info" %}
-_This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you’ve already created and configured a Hosted Zone for your domain._
+This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you've already created and configured a Hosted Zone for your domain.
 {% endhint %}
 
 1. Go to the AWS Management Console, type Route 53 in the search bar, and click on it.
@@ -38,7 +38,7 @@ Make sure you check the type next to each record in Mailtrap and choose a releva
 <figure><img src=".gitbook/assets/aws-route53-dns-types-categories.png" alt="Mailtrap DNS records showing different record types and categories highlighted"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure>
 
 {% hint style="warning" %}
-_You should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It’s okay to have multiple DMARC records._
+You should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It's okay to have multiple DMARC records.
 {% endhint %}
 
 6. Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
@@ -64,5 +64,5 @@ _You should have only one SPF record. So, if you already have one for your domai
 <figure><img src=".gitbook/assets/aws-route53-verified-records.png" alt="Mailtrap showing all DNS records with Verified status and green checkmarks"><figcaption><p>All DNS records verified</p></figcaption></figure>
 
 {% hint style="info" %}
-_If you have additional questions,_ [_consult AWS documentation_](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html) _or contact us at_ [_support@mailtrap.io_](mailto:support@mailtrap.io)
+If you have additional questions, [consult AWS documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html) or contact us at [support@mailtrap.io](mailto:support@mailtrap.io)
 {% endhint %}

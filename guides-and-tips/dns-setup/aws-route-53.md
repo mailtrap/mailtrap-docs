@@ -24,7 +24,7 @@ To add and verify a sending domain in Mailtrap, you need access to your domain's
 <a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to AWS Route 53.
 
 {% hint style="info" %}
-_This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you've already created and configured a Hosted Zone for your domain._
+This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you've already created and configured a Hosted Zone for your domain.
 {% endhint %}
 
 {% stepper %}
@@ -72,7 +72,7 @@ Make sure you check the type next to each record in Mailtrap and choose a releva
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/mailtrap-dns-record-types.png" alt="Mailtrap Domain Verification page with Type column highlighted showing CNAME and TXT record types" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
 
 {% hint style="info" %}
-_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
+The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
 {% endhint %}
 {% endstep %}
 

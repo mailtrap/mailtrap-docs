@@ -12,7 +12,7 @@ description: >-
 ### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
 {% hint style="info" %}
-_In the example below, we’ll be using GoDaddy._
+In the example below, we'll be using GoDaddy.
 {% endhint %}
 
 {% stepper %}
@@ -69,7 +69,7 @@ To verify the domain yourself, follow these steps:
 <figure><img src="../../guides-and-tips/.gitbook/assets/godaddy-dns-record-types (1).png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
 
 {% hint style="info" %}
-_Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap._
+Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap.
 {% endhint %}
 
 * Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
@@ -110,7 +110,7 @@ After adding your DNS records, click on “Fill in Compliance Form” to complet
 Please keep in mind that it’s crucial to provide correct information corresponding to your company registration details. It is crucial in order to comply with international regulations. Those information may also be automatically added to an email footer of promotional emails sent from your domain.
 
 {% hint style="success" %}
-_Tip: If you’ve provided this information before, you won’t be asked to fill it in again._
+Tip: If you've provided this information before, you won't be asked to fill it in again.
 {% endhint %}
 
 <div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt="" width="355"><figcaption></figcaption></figure></div>
@@ -144,7 +144,7 @@ In some cases, your domain may be selected for manual verification. This is the 
 An optional step is to change the tracking settings. By default, Mailtrap tracks email opens for each email sent. You can also enable click tracking.
 
 {% hint style="info" %}
-_Click tracking and custom domain for clicks tracking are available only for paid accounts._
+Click tracking and custom domain for clicks tracking are available only for paid accounts.
 {% endhint %}
 
 <div data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-dns-settings.png" alt="Tracking Settings overview showing Track Opened Emails and Track Clicks toggles"></div>
@@ -158,7 +158,7 @@ With tracking enabled, you will find the open and click rates in the Analytics r
 2. Toggle the switch next to Track Opened Emails to enable or disable tracking opens. Mailtrap tracks email opens via an invisible pixel. It’s added to each message sent from your account. When an email is opened, a pixel is loaded, and an ‘open’ event is recorded. Each of these events will be visible in [Email Logs](../statistics/email-logs.md).
 
 {% hint style="info" %}
-_Some mailbox providers, browsers, and extensions block invisible pixels. Users can also choose not to display images, or a solution they use to retrieve emails may not support images by default. In each of these cases, an 'open' event won't be recorded even if an email is opened._
+Some mailbox providers, browsers, and extensions block invisible pixels. Users can also choose not to display images, or a solution they use to retrieve emails may not support images by default. In each of these cases, an 'open' event won't be recorded even if an email is opened.
 {% endhint %}
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/sending-domains-godaddy-add-txt-record.png" alt="Track Opened Emails toggle enabled in Tracking Settings" width="563"></div>
@@ -208,7 +208,7 @@ Mailtrap also allows you to batch up to 500 events within a webhook; that is - g
 After completing the setup process, you can always return to the Sending Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
 
 {% hint style="info" %}
-_You can’t create any additional demo domains, but you can delete the existing one if needed._
+You can't create any additional demo domains, but you can delete the existing one if needed.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/sending-domains-verified-list.png" alt="Sending Domains list showing verified domains with status and emails sent"><figcaption><p>Sending Domains list with verified domains</p></figcaption></figure>

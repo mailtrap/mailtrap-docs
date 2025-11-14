@@ -66,7 +66,7 @@ Pay attention to the Type next to each record in Mailtrap and choose a relevant 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption><p>DNS record types in Cloudflare </p></figcaption></figure></div>
 
 {% hint style="info" %}
-_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
+The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
 {% endhint %}
 {% endstep %}
 

@@ -58,7 +58,7 @@ Check the type next to each record in Mailtrap and choose a relevant one in Digi
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/digitalocean-record-type-selector.png" alt="DigitalOcean DNS record type selector dropdown" width="563"><figcaption><p>DNS record types in DigitalOcean </p></figcaption></figure></div>
 
 {% hint style="info" %}
-_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
+The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
 {% endhint %}
 {% endstep %}
 

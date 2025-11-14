@@ -72,7 +72,7 @@ Clicking on Templates in the side menu lists all the templates you can access.
 Access to templates is managed on a domain level. You need to have Admin access to a domain to manipulate the templates. In case you don't have Edit rights, you can't change the template. Each account can have up to 200 email templates.
 
 {% hint style="warning" %}
-_You can delete a template. However, this action is irreversible, so be sure to change the sending/testing code after deletion. When the template is deleted, the UUID is also deleted, and Mailtrap won't be able to render it._
+You can delete a template. However, this action is irreversible, so be sure to change the sending/testing code after deletion. When the template is deleted, the UUID is also deleted, and Mailtrap won't be able to render it.
 {% endhint %}
 
 ## Next steps

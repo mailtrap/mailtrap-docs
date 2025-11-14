@@ -58,7 +58,7 @@ Make sure you check the type next to each record in Mailtrap and choose a releva
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/godaddy-dns-record-types.png" alt="GoDaddy DNS record type selector dropdown" width="375"><figcaption><p>DNS record types in GoDaddy </p></figcaption></figure></div>
 
 {% hint style="info" %}
-_The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain._
+The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
 {% endhint %}
 {% endstep %}
 
