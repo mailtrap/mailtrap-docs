@@ -1,3 +1,24 @@
+---
+description: >-
+  Understand Mailtrap stats dashboard: delivery, open, click, bounce, and spam
+  rates. Learn about domain filtering, warning thresholds, and metric
+  calculations.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Stats dashboard
 
 Mailtrap provides analytics for all the emails you send.
