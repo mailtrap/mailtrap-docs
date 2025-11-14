@@ -1,4 +1,7 @@
-# Supporting Non-Profit and Open-Source Projects
+---
+title: Supporting Non-Profit and Open-Source Projects
+description: Mailtrap offers free plans and discounts for non-profit organizations and open-source initiatives. Learn how to activate non-profit benefits for your account.
+---
 
 We deeply appreciate the valuable work of non-profit organizations and open-source initiatives. To support your efforts, we offer the following benefits:
 
