@@ -18,7 +18,7 @@
   * [Editing and Customizing](email-api-smtp/email-templates/editing-and-customizing.md)
   * [Handlebars Guide](email-api-smtp/email-templates/handlebars-guide.md)
   * [Integration](email-api-smtp/email-templates/integration.md)
-  * [Debugging](email-api-smtp/email-templates/debugging.md)
+  * [Debugging with Sandbox](email-api-smtp/email-templates/debugging.md)
 * [Suppressions list](email-api-smtp/suppressions-list.md)
 * [IP Warmup](email-api-smtp/ip-warmup.md)
 * [Statuses and Events](email-api-smtp/statuses-and-events.md)

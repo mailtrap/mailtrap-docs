@@ -54,4 +54,4 @@ If those limits are not enough, please let us know by contacting our Support Tea
 
 ### Email Size
 
-The maximum allowed size of each email message, including attachments, is 10 MB in all plans, including free.
+The maximum allowed size of each email message, including attachments, is 10 MB in all plans by default. In Business and higher plans it's possible to increase size up to 30 MB by contacting our Support team.&#x20;
