@@ -3,8 +3,6 @@ title: Statistics
 description: View and analyze email campaign performance metrics and analytics
 ---
 
-# Statistics
-
 Mailtrap provides analytics for all the emails you send.
 
 <figure><img src="../.gitbook/assets/unknown (2).png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"><figcaption><p>Statistics overview dashboard</p></figcaption></figure>

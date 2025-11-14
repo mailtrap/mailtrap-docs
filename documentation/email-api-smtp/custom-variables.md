@@ -3,8 +3,6 @@ title: Custom Variables
 description: Add unique data to your emails with custom variables. Track user IDs, inbox IDs, and other metadata via Email Logs using X-MT-Custom-Variables header.
 ---
 
-# Overview
-
 Custom variables are pieces of information that you can include with emails to better manage them in the future. They allow you to add unique data to each message, for example, the data can be an internal `user\_id`, `inbox\_id`, etc.
 
 For now, you can only access them via Email Logs.
@@ -19,9 +17,9 @@ For now, you can only access them via Email Logs.
 
 #### How to set up custom variables with SMTP
 
-Mailtrap has an option to pass unique arguments to each sent email via the **‘X-MT-Custom-Variables’**. And we add the arguments to the RAW email body. Of course, the RAW data is visible to the sender but not the end-user.
+Mailtrap has an option to pass unique arguments to each sent email via the `X-MT-Custom-Variables`. And we add the arguments to the RAW email body. Of course, the RAW data is visible to the sender but not the end-user.
 
-To set custom variables, you only need to set the unique argument in the following format - **{"variable name": "variable value"}**.
+To set custom variables, you only need to set the unique argument in the following format - `{"variable name": "variable value"}`.
 
 Here’s a code snippet, to show you where to look for it, and how to set the variable. Note that this applies when you set Mailtrap as your SMTP server.
 
@@ -54,12 +52,10 @@ The format for adding more custom variables is - `X-MT-Custom-Variables: {"varia
 
 <div align="left" data-with-frame="true"><img src="https://lh6.googleusercontent.com/cwMxhKav7bb7cmGP5-Zu_giUYPWSws0YlOUXf7djPRjhP0uODwrXwtK-DyLQorRi324_fqYmqSOoozUZ6b7nz0XAR7h-YhaJlNs2kWESU1C0V9N7UDuepIiux1zrDdRXkVcnhF5j" alt="" width="375"></div>
 
-> Parts of the Sending IPs and email headers have been blurred for security.
-
 Lastly, keep in mind that we don’t support arrays. If you want to add arrays - \`[“index0”,”index1”,”index2”], for example, Mailtrap only takes the first value (`"index0"`) and ignores the rest.
 
 {% hint style="warning" %}
-We limit the custom variables payload to 1000 bytes, and it’s a valid JSON string. If the payload is more than 1000 bytes, Mailtrap ignores the **‘X-MT-Custom-Variables**’.
+We limit the custom variables payload to 1000 bytes, and it’s a valid JSON string. If the payload is more than 1000 bytes, Mailtrap ignores the `X-MT-Custom-Variables`.
 
-We use only - **‘X-MT-Custom-Variables’**; and it can’t get appended with another one.
+We use only - `X-MT-Custom-Variables`; and it can’t get appended with another one.
 {% endhint %}

@@ -5,8 +5,6 @@ description: >-
   Editor, Code Editor, and test your templates before sending.
 ---
 
-# Editing and Customizing
-
 ## Details
 
 Each template must have a name, subject, category, and assigned domain. The subject also supports variables.

@@ -4,8 +4,6 @@ description: Common issues and solutions for Mailtrap Email API/SMTP
 icon: wrench
 ---
 
-# Overview
-
 This section covers common issues you might encounter when using Mailtrap Email API/SMTP and their solutions.
 
 ## Common Issues

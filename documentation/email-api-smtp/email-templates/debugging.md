@@ -5,8 +5,6 @@ description: >-
   before sending them to production.
 ---
 
-# Debugging
-
 ## Overview
 
 Before sending your email templates to production, it's important to test them in a safe environment. Mailtrap Email Sandbox allows you to test your templates, preview how they render, and verify that all variables are working correctly.

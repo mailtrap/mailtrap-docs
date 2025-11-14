@@ -4,17 +4,15 @@ description: How to fix the From Header does not match the sender's domain error
 icon: envelope
 ---
 
-# From Header Domain Mismatch
+## Error Message
 
-### Error Message
-
-```
+```text
 From: Header does not match the sender's domain
 ```
 
 This error occurs when the `From:` header in your email doesn't match your verified domain in Mailtrap.
 
-### The Requirement
+## The Requirement
 
 To send email with Mailtrap, your `From:` header **must match** your verified domain.
 
@@ -24,7 +22,7 @@ To send email with Mailtrap, your `From:` header **must match** your verified do
 If you're sending from a subdomain like `mail.acme.com`, your `From:` address must match that subdomain exactly.
 {% endhint %}
 
-### Common Causes
+## Common Causes
 
 #### 1. Unverified Domain
 
@@ -48,7 +46,7 @@ Make sure both the **envelope from** and the **header from** use the same domain
 
 If you verified `example.com` but are trying to send from `mail.example.com`, you need to verify the subdomain separately.
 
-### How to Fix
+## How to Fix
 
 {% stepper %}
 {% step %}
@@ -102,7 +100,7 @@ Send a test email and verify:
 {% endstep %}
 {% endstepper %}
 
-### Framework-Specific Examples
+## Framework-Specific Examples
 
 #### Laravel
 
@@ -131,7 +129,7 @@ The principle is the same across all frameworks:
 2. Ensure both envelope and header from addresses match
 3. Verify the domain in Mailtrap before sending
 
-### Still Having Issues?
+## Still Having Issues?
 
 If you've verified your domain and updated your configuration but still see this error:
 
@@ -140,7 +138,7 @@ If you've verified your domain and updated your configuration but still see this
 * Review your framework's documentation for email configuration
 * Contact support at [support@mailtrap.io](mailto:support@mailtrap.io)
 
-### Related Articles
+## Related Articles
 
 * [Sending Domain Setup](../sending-domain-setup.md)
 * [SMTP Integration](../smtp-integration.md)

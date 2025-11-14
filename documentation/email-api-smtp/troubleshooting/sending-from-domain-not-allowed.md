@@ -4,17 +4,15 @@ description: How to fix the 550 5.7.1 Sending from domain is not allowed error
 icon: ban
 ---
 
-# Sending from Domain Not Allowed
+## Error Message
 
-### Error Message
-
-```
+```text
 Error: Mail command failed: 550 5.7.1 Sending from domain is not allowed
 ```
 
 This error occurs when you try to send an email using SMTP with a domain that doesn't match your verified domain in Mailtrap.
 
-### Common Causes
+## Common Causes
 
 #### 1. Domain Mismatch
 
@@ -30,7 +28,7 @@ If you verified `example.com` in Mailtrap, you can only send emails from `*@exam
 
 Your domain might not be fully verified, or you haven't passed the Compliance Check.
 
-### How to Fix
+## How to Fix
 
 {% stepper %}
 {% step %}
@@ -71,7 +69,7 @@ Ensure your application sends emails from an address that matches your verified 
 {% endstep %}
 {% endstepper %}
 
-### Related Articles
+## Related Articles
 
 * [Sending Domain Setup](../sending-domain-setup.md)
 * [SMTP Integration](../smtp-integration.md)

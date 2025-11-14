@@ -4,8 +4,6 @@ description: Common issues and solutions for Mailtrap Email Sandbox
 icon: wrench
 ---
 
-# Troubleshooting
-
 This page covers common issues you might encounter when using Mailtrap Email Sandbox and their solutions.
 
 ### Connection Errors
@@ -71,7 +69,7 @@ If the issue persists after trying all these steps, please contact us at [suppor
 
 #### Error Message
 
-```
+```text
 Expected response code 250 but got code "530", with the message "530 5.7.1 Authentication required"
 ```
 

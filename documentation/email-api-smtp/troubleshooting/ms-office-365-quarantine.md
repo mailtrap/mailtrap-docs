@@ -4,11 +4,9 @@ description: How to resolve Mailtrap emails being sent to Office 365 quarantine
 icon: shield-halved
 ---
 
-# MS Office 365 Quarantine
-
 Sometimes transactional messages from Mailtrap (such as email confirmations, invitations to join a sandbox, invoices, etc.) can be sent to Threat Management >> Quarantine by MS Office 365.
 
-### Solution
+## Solution
 
 If you have faced this issue, follow these steps to resolve it:
 
@@ -40,11 +38,11 @@ This will prevent future emails from Mailtrap from being quarantined.
 {% endstep %}
 {% endstepper %}
 
-### Alternative: OAuth Integration
+## Alternative: OAuth Integration
 
 When signing up for Mailtrap, you have the option to use Office 365 account authorization (OAuth) for smooth integration. In this case, email confirmation won't be required and you can avoid quarantine issues altogether.
 
-### Related Articles
+## Related Articles
 
 * [Getting Started with Email API/SMTP](../sending-domain-setup.md)
 * [Email API/SMTP FAQs](../faqs.md)

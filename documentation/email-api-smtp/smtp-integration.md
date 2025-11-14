@@ -19,8 +19,6 @@ layout:
     visible: true
 ---
 
-# SMTP integration
-
 Learn how to integrate your application via SMTP.
 
 {% stepper %}

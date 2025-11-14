@@ -19,8 +19,6 @@ layout:
     visible: true
 ---
 
-# Mailbox Providers
-
 <details>
 
 <summary>Why is it important to monitor mailbox provider stats?</summary>

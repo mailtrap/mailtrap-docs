@@ -3,8 +3,6 @@ title: Using Handlebars with Email Templates
 description: Complete guide to using Handlebars templating language with Mailtrap Email Templates, including syntax examples, helpers, and practical use cases.
 ---
 
-# Overview
-
 Mailtrap Email Templates support the Handlebars templating language. It combines an input object (JSON) and a template to create text formats, HTML, or an email subject.
 
 You can use Handlebars syntax to personalize your email templates and insert specific information for each of your recipients.
@@ -22,7 +20,7 @@ Handlebars supports a bunch of features, not just the variable replacement. Mail
 
 The following sections give you examples for each of the helpers including code blocks, mock JSON data, and HTML output.
 
-# Basic Replacement
+## Basic Replacement
 
 The basic usage is just to render the values you pass. You can use objects and refer to variables like `{{object_name.variable}}`.
 
@@ -63,7 +61,7 @@ If you want to do a replacement with HTML, use triple brackets `{{{value_with_ht
 <p><strong>thanks!<strong></p>
 ```
 
-# Conditional Statements
+## Conditional Statements
 
 ## if / else / if else
 
@@ -279,7 +277,7 @@ In the example below, the `{{else}}` clause only gets executed if there's no val
 <p>No user found</p>
 ```
 
-# Example: Order Confirmation Template
+## Example: Order Confirmation Template
 
 The following example contains the majority of Handlebars helpers explained above as well as mock JSON data, and HTML output.
 
@@ -411,7 +409,7 @@ The following example contains the majority of Handlebars helpers explained abov
 </html>
 ```
 
-# Testing Templates with Handlebars
+## Testing Templates with Handlebars
 
 In the quick tutorial below, we assume you've activated both Mailtrap Email Sandbox and Email Sending.
 
@@ -450,7 +448,7 @@ Run the template test and check the associated inbox to preview the template und
 
 For more details on template debugging, see [Debugging](debugging.md).
 
-# Next steps
+## Next steps
 
 - [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to edit templates
 - [Integration](integration.md) - Integrate templates with Email API/SMTP

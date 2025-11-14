@@ -5,8 +5,6 @@ description: >-
   editor, add Handlebars variables, and integrate via API or SMTP.
 ---
 
-# Email Templates
-
 ## Overview
 
 Email Templates allow you to design, edit, and host HTML email templates, and reference them via API.

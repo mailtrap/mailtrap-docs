@@ -18,9 +18,7 @@ layout:
     visible: true
 ---
 
-# Sending Limits
-
-### Hourly Limits
+## Hourly Limits
 
 When you first sign up for Mailtrap, we limit your throughput to 150 emails an hour. This is a security measure to prevent abusing our system for spam.
 

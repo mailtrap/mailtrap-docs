@@ -20,8 +20,6 @@ layout:
     visible: true
 ---
 
-# Stats dashboard
-
 Mailtrap provides analytics for all the emails you send.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/unknown (2).png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"></div>

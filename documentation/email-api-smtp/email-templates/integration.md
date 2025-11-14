@@ -5,8 +5,6 @@ description: >-
   Transactional or Bulk streams.
 ---
 
-# Integration
-
 ## Overview
 
 Once you've created and customized your email template, you can integrate it with your application using the Email API or SMTP. This guide shows you how to get the necessary credentials and code samples to send emails using your templates.

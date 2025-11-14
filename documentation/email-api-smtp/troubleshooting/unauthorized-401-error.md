@@ -4,11 +4,9 @@ description: How to fix Unauthorised authentication errors in Mailtrap
 icon: lock
 ---
 
-# Unauthorized Error (401 Code)
-
 If you're getting an "Unauthorised" error (401 code) when trying to send emails, there are several possible causes and solutions.
 
-### Common Causes
+## Common Causes
 
 #### 1. Sending from Unverified Domain
 
@@ -34,7 +32,7 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 
 <figure><img src="../../.gitbook/assets/troubleshoot-sending-credentials-both-streams.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure>
 
-### How to Fix
+## How to Fix
 
 {% stepper %}
 {% step %}
@@ -83,7 +81,7 @@ If the cURL test succeeds but your application fails, the issue is with your app
 {% endstep %}
 {% endstepper %}
 
-### Still Having Issues?
+## Still Having Issues?
 
 If you've verified all the above and still getting 401 errors:
 
@@ -94,7 +92,7 @@ If you've verified all the above and still getting 401 errors:
   * The exact error message
   * A code sample showing how you're attempting to send
 
-### Related Articles
+## Related Articles
 
 * [Sending Domain Setup](../sending-domain-setup.md)
 * [API Integration](../api-integration.md)

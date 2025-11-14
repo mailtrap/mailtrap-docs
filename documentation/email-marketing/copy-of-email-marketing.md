@@ -3,8 +3,6 @@ title: Email Marketing Campaigns
 description: Set up and send email marketing campaigns to your contact lists
 ---
 
-# Email Marketing
-
 Make sure you've added and verified a domain, or you won't be able to send a campaign.
 
 #### How to set up and send a campaign

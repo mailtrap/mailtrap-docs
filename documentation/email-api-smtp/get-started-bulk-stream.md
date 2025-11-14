@@ -1,5 +1,3 @@
-# Bulk Stream
-
 {% hint style="info" %}
 Bulk emails are typically marketing or promotional emails sent to a large number of recipients at once, for example, newsletters, product announcements, etc.
 {% endhint %}

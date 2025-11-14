@@ -3,8 +3,6 @@ title: Email API/SMTP
 description: Learn how to send your application emails with Mailtrap Email API/SMTP
 ---
 
-# Email API/SMTP
-
 Learn how to send your application emails with Mailtrap
 
 **Migration guides:**
@@ -19,13 +17,17 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 
 ## Overview
 
-### Good to know
+{% hint style="info" %}
+**Good to know**
 
 * To send emails to your recipients, you must own a domain and add it to Mailtrap.
 * Every new domain requires a Compliance Check after DNS verification.
 * You can try out all features with the Demo domain we provided once you sign up.
+{% endhint %}
 
-## Step 1: Verify the sending domain you own
+{% stepper %}
+{% step %}
+## Verify the sending domain you own
 
 To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -36,8 +38,10 @@ Then, add the DNS records Mailtrap provides to your domain provider.
 <figure><img src="../.gitbook/assets/bulk-dns-records-verification (1).png" alt="DNS records table showing domain verification requirements"><figcaption><p>DNS records for domain verification</p></figcaption></figure>
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
+{% endstep %}
 
-## Step 2: Integrate your application via Email API or SMTP
+{% step %}
+## Integrate your application via Email API or SMTP
 
 ### SMTP Integration
 
@@ -50,6 +54,8 @@ To send emails via Mailtrap SMTP, follow the instructions [in this article](../e
 To send emails via Mailtrap Email API, follow the steps [in this article](../email-api-smtp/api-integration.md).
 
 <figure><img src="../.gitbook/assets/getting-started-api-integration-credentials.png" alt="Email API integration credentials and code samples"><figcaption><p>Email API integration credentials and code samples</p></figcaption></figure>
+{% endstep %}
+{% endstepper %}
 
 ## What else you can do with Mailtrap Email API/SMTP
 

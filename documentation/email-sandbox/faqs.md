@@ -4,8 +4,6 @@ description: Frequently asked questions about Mailtrap Email Sandbox
 icon: question
 ---
 
-# FAQs
-
 This page covers frequently asked questions about Mailtrap Email Sandbox. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting.md).
 
 ### Integration & Setup

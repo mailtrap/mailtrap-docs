@@ -5,8 +5,6 @@ description: >-
   SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
 ---
 
-# Sending Domain Setup
-
 <table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup/aws-route-53">AWS Route 53</a></td><td><a href="../../guides-and-tips/dns-setup/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td></td><td><a href="../../guides-and-tips/dns-setup/cloudflare.md">cloudflare.md</a></td></tr><tr><td>Digital Ocean</td><td></td><td><a href="../../guides-and-tips/dns-setup/digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td></td><td><a href="../../guides-and-tips/dns-setup/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td></td><td><a href="../../guides-and-tips/dns-setup/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Google Domains</td><td></td><td><a href="../../guides-and-tips/dns-setup/google-domains.md">google-domains.md</a></td></tr><tr><td>Namecheap</td><td></td><td><a href="../../guides-and-tips/dns-setup/namecheap.md">namecheap.md</a></td></tr></tbody></table>
 
 ### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>

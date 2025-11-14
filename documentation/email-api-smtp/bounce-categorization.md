@@ -3,8 +3,6 @@ title: Bounce Categorization
 description: Understand how Mailtrap categorizes email bounces based on MX server responses, including bounce types, descriptions, and automatic suppression rules.
 ---
 
-# Overview
-
 Mailtrap categorizes [bounces](statistics/stats-dashboard.md) based on the responses from the recipients' MX servers.
 
 The table below lists these responses and their descriptions. It also contains information on whether these bounces cause automatic suppression.

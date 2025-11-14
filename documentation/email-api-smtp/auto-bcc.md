@@ -3,8 +3,6 @@ title: Auto BCC
 description: Automatically add BCC recipients to all emails sent from your domain with custom headers support
 ---
 
-# Auto BCC
-
 ## How to set up Auto BCC
 
 {% stepper %}

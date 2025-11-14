@@ -2,5 +2,3 @@
 icon: screwdriver-wrench
 ---
 
-# Troubleshooting
-

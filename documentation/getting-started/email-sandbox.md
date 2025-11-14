@@ -3,8 +3,6 @@ title: Email Sandbox
 description: Learn how to inspect and debug emails with Mailtrap Email Sandbox
 ---
 
-# Email Sandbox
-
 Learn how to inspect and debug emails with sandbox functionality.
 
 **What you can do:**
@@ -19,13 +17,17 @@ Learn how to inspect and debug emails with sandbox functionality.
 
 ## Overview
 
-### Step 1: Navigate to Email Sandbox
+{% stepper %}
+{% step %}
+### Navigate to Email Sandbox
 
 Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking Sandboxes, then My Sandbox.
 
 <figure><img src="../.gitbook/assets/getting-started-sandbox-navigation.png" alt="Sandboxes page showing My Project with My Inbox sandbox highlighted"><figcaption><p>Navigate to My Sandbox</p></figcaption></figure>
 
-**Tip:** By default, we created an sandbox for you and called it "My Sandbox". The Edit button on the far right allows you to rename either a project or an sandbox.
+{% hint style="info" %}
+By default, we created an sandbox for you and called it "My Sandbox". The Edit button on the far right allows you to rename either a project or an sandbox.
+{% endhint %}
 
 Once inside "My Sandbox", copy the credentials from the "Integration" tab to your clipboard.
 
@@ -34,8 +36,10 @@ Once inside "My Sandbox", copy the credentials from the "Integration" tab to you
 Or, use one of the pre-made code snippets for major programming languages and frameworks:
 
 <figure><img src="../.gitbook/assets/getting-started-sandbox-code-samples.png" alt="Code Samples section with PHP framework dropdown showing CakePHP, Laravel, Symfony and other options"><figcaption><p>Code samples for different frameworks</p></figcaption></figure>
+{% endstep %}
 
-### Step 2: Send your first test email
+{% step %}
+### Send your first test email
 
 After sending the first test email, you can immediately find it in your Mailtrap sandbox.
 
@@ -46,12 +50,16 @@ Click on the email, and proceed to inspect and debug it by selecting the HTML Ch
 <figure><img src="../.gitbook/assets/getting-started-html-check-results.png" alt="HTML Check tab showing email validation results"><figcaption><p>HTML Check results</p></figcaption></figure>
 
 Lastly, you can automate the QA flow with [API](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) if you need it.
+{% endstep %}
 
+{% step %}
 ### Bonus: Invite your colleagues
 
 Mailtrap is a collaborative tool. Starting from the [Team Plan](https://mailtrap.io/billing/plans/testing), you can create different sandboxes and projects and share them with your colleagues.
 
 That allows you to organize all testing-related workflows among different people - from user management with different permissions to SSO.
+{% endstep %}
+{% endstepper %}
 
 ## What else you can do with Email Sandbox
 

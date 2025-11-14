@@ -19,8 +19,6 @@ layout:
     visible: true
 ---
 
-# API integration
-
 Use API credentials to integrate Mailtrap with your project.
 
 {% stepper %}

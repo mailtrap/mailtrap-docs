@@ -3,8 +3,6 @@ title: Feedback Loops
 description: Learn how Mailtrap integrates with popular Feedback Loops (FBLs) to track spam complaints from major mailbox providers including Outlook, Yahoo, and more.
 ---
 
-# Overview
-
 Mailtrap is integrated with the majority of popular Feedback Loops (FBLs) to gather information about spam complaints.
 
 {% hint style="info" %}

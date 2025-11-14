@@ -3,9 +3,7 @@ title: Email Templates
 description: Design, edit, and host HTML email templates and reference them via API
 ---
 
-# Email Templates
-
-#### Overview
+## Overview
 
 Email Templates allow you to design, edit, and host HTML email templates, and reference them via API.
 
