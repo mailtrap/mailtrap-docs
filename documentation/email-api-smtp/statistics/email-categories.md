@@ -1,4 +1,5 @@
 ---
+title: Email Categories
 description: >-
   Understand Mailtrap email categories: organize email types like welcome,
   onboarding, or billing. Track performance, analyze metrics, and compare
@@ -19,11 +20,9 @@ layout:
     visible: true
 ---
 
-# Email Categories
-
 Email Categories were built to show the performance of various types of emails, such as welcome emails, billing emails, confirmation emails, etc.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/Wd7CbaaScN5rdfFH1Gi1rlxt3hjixESk_LqxD0mjjs2MD4Vdb6aaBIJN_P8mWIUc6jXUH7gC-6w8h_04qA6SemooLhJr2irDObZWT0O9bsaQKPrSKaR9vgk3-iIJ5I0LUl0TnZosO4y40MCTb60cb6g" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-overview-table.png" alt="Email Categories Overview table showing performance metrics for different email categories" width="563"></div>
 
 ### Why should you use categories?
 
@@ -56,13 +55,13 @@ Categories cannot be removed or modified at this point. The number of categories
 
 Categories can be tracked via the Email Categories tab in the Stats menu.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/A1iMU0riNtq2_h0I9KV4IcAgD0VQ447rtaWnyVLwGdbQxIlfGB1CdRTIFS9vIZG4F7NAD5rREEmgi8p7KTRa14rJIaE8DW9alBM_mAIVBQDTZjs5RWOaoAma1l95nKchIpzqQTLxbBXtLAIwK5Jz9hs" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-metrics-detail.png" alt="Detailed metrics view showing delivered, opens, open rate, clicks, and bounce statistics" width="563"></div>
 
 You can filter out the data for specific domains or mailbox providers using the filters. You can also limit the number of domains displayed and compare statistics only for some of them.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/X2D1t5yxsVbuXtErUtudEbHPUFR2RWe_liwnxZ9INLB-IxR2keY2WQd9A8vTvLeS7XRZ3ZGpZT3XmxXum7JtlqovW6cUyyW4RlOA9Yl8o9SwGhWC9o70CxHe2A_n1H0UkBHEM19sobJwG6HK-h1LRa0" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-charts-view.png" alt="Charts view with filters for domains, mailbox providers, and categories showing performance graphs" width="563"></div>
 
 Mailtrap tracks statistics for each day separately, which can sometimes lead to, for example, open rates going into hundreds of percent.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/jnAcgiDWuXUlsXwPw0Knl7D33m0-dpIjWdV81w7A0GoleM1YDM0umfsR9ua_Y0ibf8okxjnma-XvTXBeIPfFouCM1p0K_2zV6l7L2y25VLMe2vpISgQTAeeqgxnnZ-nNNxeJg9OH_AGCcwG519UvERY" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-daily-stats.png" alt="Daily statistics table showing processed, delivered, opens, clicks, and bounce rates by date" width="563"></div>
 

@@ -1,4 +1,5 @@
 ---
+title: Stats dashboard
 description: >-
   Understand Mailtrap stats dashboard: delivery, open, click, bounce, and spam
   rates. Learn about domain filtering, warning thresholds, and metric
@@ -19,8 +20,6 @@ layout:
     visible: true
 ---
 
-# Stats dashboard
-
 Mailtrap provides analytics for all the emails you send.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/unknown (4).png" alt=""></div>
@@ -37,7 +36,7 @@ On the statistics dashboards, you can see the following metrics:
 
 In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/tUFcCa-3_iKL57k4X9LqxJZngVtIrove4PaKxW9GASFnyrKbZr4Yre1bWUCmJuzPh0-LDDyElfO1rcDh7I6jgvXudSQ7K-TtcdFz018v48MHz4nOVe9XnD2VUqGsZOBEh0TGzDCa1NNcTSLfHF34I8I" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview page with domain selector dropdown showing multiple domains" width="375"></div>
 
 By default, the stats are shown for the last week + today.
 
@@ -79,7 +78,7 @@ Unique open rate refers to the percentage of emails that were opened at least on
 
 Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
 
-<div data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/G4wfcj9NzqHOkJlA0KU9_3_VZVJWeFwOzedTikmrCC68pw54-8u9mZpaUmfflnzAQkmeRpDNEZwkmWjoG3gSwRl0npyX5vUBXHJ4pDB_2ZOs10kddFd1u216wPkvXWV4jqW2KiPaW2kQooceBKDPOck" alt=""></div>
+<div data-with-frame="true"><img src="../../.gitbook/assets/stats-tracking-settings.png" alt="Tracking Settings page with toggles for Track Opened Emails and Track Clicks"></div>
 
 #### Click rate <a href="#click-rate" id="click-rate"></a>
 
@@ -89,7 +88,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/iNboqLTvD7XwYaJevUwkpfh3zr68WfEFh7TbwyTuFJmxgoLLLvKyO2UafZ53fzdXOc0N1c11tFGDrif1y6_P7dHZ6QvMa1ej8bU2n05EOnO2ABppo7JbJidiYKyE-jD-NJ3E0IjBU2lU8EgnagI9mAM" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-click-events-history.png" alt="Event History displaying Click and Open events with timestamps" width="375"></div>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 

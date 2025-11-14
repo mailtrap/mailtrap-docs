@@ -1,91 +1,88 @@
-# Contacts
-
-In this article:
-
-* [How to upload Contacts](https://help.mailtrap.io/article/147-contacts#How-to-upload-Contacts--NAg8y)
-* [How to manage Contacts](https://help.mailtrap.io/article/147-contacts#How-to-manage-Contacts--QXSMy)
-* [How to create and manage Lists](https://help.mailtrap.io/article/147-contacts#How-to-create-and-manage-Lists-9KUN3)
+---
+title: Contacts
+description: Upload, store, and organize your contacts in email lists to send targeted campaigns
+---
 
 Mailtrap Contacts allows you to upload and store your contacts on Mailtrap platform and organize them in different email lists to send targeted campaigns.
 
-### Before uploading your contacts  <a href="#before-uploading-your-contacts-t2nbh" id="before-uploading-your-contacts-t2nbh"></a>
+### Before uploading your contacts
 
 * Review your email list and identify the variables, such as first and last name, date of birth, address, etc. You’ll need these to create custom fields.
 * Go to Mailtrap and navigate to Fields under Contacts.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv881L6ib8T1UPOOgkeEcnaQ9ZFf7UXYYDDtoctgNgBFflEN6SCmIRRESbfm4f_gpPvWJ6EQU4o8oHDtX7Q6iN09A9gtSzWCkkF8QySClWNAHtCgIetJ7XjYLLEpm_qlhIkxqhY3bq8YFqZvOPgxAa2To?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-fields-menu.png" alt="Contacts menu showing Fields tab" width="563"></div>
 
 * Click Create Field.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUVRz7t9crB8_THPHtJiKVDuVsTlpY4dvO8Oy2vmrZl3JP-usP_vQECgf6ZmIAofULtL49QLSgrKkBnkdJrz59cP_lN4cfQmisT0rahCPv_jk8bqXW7cbJ5GqpI6llqYYY-G5Isch2u3cLXbVuEbn1hrM?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-create-field-button.png" alt="Create Field button in the fields interface" width="375"></div>
 
 * In the popup window, enter the Field name (e.g., Name), select the Type (e.g., Text), and enter the Merge tag (e.g., name). If your merge tag contains two or more words, separate them with an underscore (e.g., last\_name). _The email field is created automatically by default_.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7k4rIgOwMz8bqjExi42KcPu11PbUmF-jAsAnwTzI5lfPOtqR9-869OS9hVg-Ir0SLNXyjcO6lm8TDRkR9NvrZi2z6P8e5MT2sSC6nzEEA2uV3JS_8l2NMOL_X0TBq9YznBUgfmD9TqFpI95ezWqVC75hA?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-field-form.png" alt="Form to create a new contact field with name, type, and merge tag inputs" width="375"></div>
 
 * Click Create. Repeat the process for each custom field you want to use with your contacts.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXclG_WqHK1k2u7D0d11T3tZiJiX6FbA6DPltAp-7lbd8Hjjv_tq8l-RBwVdj30XKFhrg6ECZg4wb-OGyfbTDJzUqMhIffNGvuziYRdm32bCQDh-1EQBIhEYJIWUzCZTV-DG5tX4I7kR_Bt4qfiJH0-Kq0Jg?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-fields-list.png" alt="List of created contact fields including name and email" width="563"></div>
 
 * Once you create all your custom fields, you can start uploading your contacts.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0sbVL2-L0EWf7TkkjqLuCywPosQQFvcQkzxQbdAZUuWn2KuvQMafCYtt0k9OJe9hHtTvDhwcnhT5IsfBk-QzJrxGinXCVAgNrhDrQMr7AbJBksrToUJRjqCPXFkYiSiXj255gNe_qnQiv11YlaRtZpsY?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-ready-to-upload.png" alt="Contact fields configured and ready for contact upload" width="563"></div>
 
-### How to upload Contacts  <a href="#how-to-upload-contacts-nag8y" id="how-to-upload-contacts-nag8y"></a>
+### How to upload Contacts
 
 1. Go to Contacts and click Import Contacts.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQ5oIWOJF9FEhTdAiupFmL4CyPxKLxCOhP0ybZdvAOCwMr9bNjNLtZKRM88SEMX4RdHeaKK0i926Xp5QofIVwE8g51z4qiHSa5xX8H11xBKCey6AXOOWeNor_AbE6jWBiObARAQDONItb8gmP1y46ur9hr?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-import-button.png" alt="Import Contacts button in the contacts interface" width="563"></div>
 
 2. Download the CSV template if needed by clicking Download CSV Template and add your contacts there.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcCWlEX4EwCFdLO7VndyT0zvIkSGEjeF1tFosmxtsbX4zzqGyyEkPMv_wA2hAyNmWfH_khgfpO1RdzTTXWaOjugMyXf4xEwLOhlkxZdiiPPKo4obMXje6CxNxFgfceASmOJWanr4T0nhNXWGdr_ECF1sMDa?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-download-template.png" alt="Download CSV Template button for importing contacts" width="563"></div>
 
 3. Upload the CSV by clicking Browse files or dragging and dropping the file.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdePz7j5RqYQoa0M4h_STwgYrCc5P49_ROyyVSbKvyssBajr2GqG71NbdsxRbBP64UWPmnK-sSj2-MJnsSSnH7QBrXR9YLGGcG3wM2c1wMdV0MKj3MSnJ0HutGU2_pjBfMybgkpMlJhC_wStX2TLzcbELA?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-upload-csv.png" alt="File upload area to import contacts CSV file" width="563"></div>
 
 4. Click Import File.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc6LhacJnDowN1ocQlTTCYGnNeb70tdCIauTDDAFMGYBePt9QhbsucBILUcByEkUVlYtop05MEGcZbPS90Dc7_YET2Ue3dCTS5fh823H937FohhCP3eVQeRSRx3pnyj649A69dHvkFpfzWZUkDRHpY020iw?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-import-file.png" alt="Import File button to proceed with contact upload" width="375"></div>
 
 5. Define the contact details by assigning fields created earlier. For example, choose Name next to First Name if you want to use it as a variable. Then, click Confirm Mapping.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNjs5M_yv57cbXBYYx0vGaQ1jgTyGhPJVKOspnEtowTZvehi81EZNTreEUZr4ockNVPmOeTrZD325Kojs2W7FCHjNquxo-4b0kdFDJ48e7lKZrdmgBxSzPqOwV81OW371cYO0vlFqQc7myQAAEEN5OO8c?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-field-mapping.png" alt="Field mapping interface to assign CSV columns to contact fields" width="563"></div>
 
 6. Add the newly uploaded contacts to a list. If you already have lists, choose the desired one(s) from the dropdown menu and click Continue.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJ029dc9R9_ZWjebsuWYKIxnTN_PDlnezlBFpNiO8Bhl-IswLc7vWva-rDAviSMUydywbD9zVJJUroliPqq-mN_clUMQeF3vcOCVfcHHMqBqGA-PblJYMKWiek1GkiM4blNsPMWWbSDtK62mPnz153tHI?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-add-to-list.png" alt="Interface to add contacts to existing lists" width="563"></div>
 
 * To create a new list, click Create New List, type the desired list name, and click Create. Then, repeat step 6.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd1RymO6R8MQ6DcTSY0oIkaJ55D5sH2KT0XZps8BzryncVl5Fpl67JgmXXGqXJr_5NwVO00G9TnFfnKJOn_scrnsMxP6ZmmzYLvKiGTPm37uJVqGW9PQh265LTUmmI3bfM94edm6g3HWs4sIEfSpeIAQEA?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-create-new-list.png" alt="Form to create a new contact list" width="375"></div>
 
 * You can add contacts to one or several lists.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnbDwQsW4a8Xe-OH_Zr7Td9CEVYTyTfbEgz4acpQLD-Q3gPWfE-atEFn0yQOLHJABi3F33X6qFGClVwSCPvMMHn0Fj-_T1QkOMWjczavaN4YZrXiG02IlYvGwbFT-zT2rqCESoWkDVdIoh_RdCpuj5mN9N?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-multiple-lists.png" alt="Interface showing contacts being added to multiple lists" width="563"></div>
 
-7. As the last step, mark the checkbox to verify that you’ve obtained recipients’ consent to be included in marketing campaigns. Note that you won’t be able to continue without this step. Once that’s done, click Confirm Import.
+7. As the last step, mark the checkbox to verify that you've obtained recipients' consent to be included in marketing campaigns. Note that you won't be able to continue without this step. Once that's done, click Confirm Import.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSAUPzYTm5o3Nx7cccXgcMZ_zkO2AgrJf_C-_c9Pei0cplSi3Royvkq6Lb_ZXZp42cug-h-I1LIpd_C7nvbbcSxTDj3sF9QvCZFTb33qK1_dPhLVjlER6DrFj4JuglxJyNElQFkm5ZAxTb0DkCQrcJuds?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-confirm-consent.png" alt="Consent confirmation checkbox before importing contacts" width="563"></div>
 
-8. You’ll see a confirmation notification, and the contacts will be under Contacts and Lists once the upload is completed.
+8. You'll see a confirmation notification, and the contacts will be under Contacts and Lists once the upload is completed.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZszC1eF580I8qaQoP_hK_bX0M9MbVhcy3TQpgYZcMhuU7xqmI8Blklrb3c4nYi5FejPq7ESm1D90YY485JjoDAmFdmkg8xGFfEs_ubzpj018WmN8qTgT9JcO_ziTcL5E8CkeMGIm9DVikw3bqfMXIKRBS?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-import-success.png" alt="Success notification after contacts are imported" width="375"></div>
 
-### How to manage Contacts  <a href="#how-to-manage-contacts-qxsmy" id="how-to-manage-contacts-qxsmy"></a>
+### How to manage Contacts
 
-You can filter Contacts by subscription status, email, or Lists. For example, if you want to search for subscribed contacts only, you need to choose _Subscription Status_ in the first field, _Is_ in the second, and _Subscribed_ in the third. Then, click Search, and you’ll see all your subscribed contacts.
+You can filter Contacts by subscription status, email, or Lists. For example, if you want to search for subscribed contacts only, you need to choose _Subscription Status_ in the first field, _Is_ in the second, and _Subscribed_ in the third. Then, click Search, and you'll see all your subscribed contacts.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXelsxRAu5gXU_EHg_n4DaMPCkSpOU74d0y7tnB_YKK1r94qUDj2Ho_E4X5ZtYqBGC09QPFQ7zG0rtLSBzumwXSJ0ToZxHv-q3KwIyHyLb1Xlx5P8Fxq28dX7vPQGJy-7D71PUv8X_k0J4athvE-GOILH9rd?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-filter-search.png" alt="Contact filtering interface with subscription status filter" width="563"></div>
 
 From the All Contacts page, click the contact to open its details, such as its subscription status, email, associated fields, and the lists it belongs to.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcSNESFYmAHE4Xp1XN1gLv6sZKRLQJod3Zp0eBOr81cFHjZ9cqYW-lHx0mTwNidbXIBwCSFelugDKOHBS5esffOqnMAnUWLAmPW-SCds2yRWn5RfyQ6iTsOPqiDrbDGnP0Cz8VEhgSy2IO2DM_Btyi0Fud3?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-details-view.png" alt="Contact details page showing subscription status and associated fields" width="563"></div>
 
-You can also delete or unsubscribe a contact, add them to a list, remove them from a list, or edit their details. 
+You can also delete or unsubscribe a contact, add them to a list, remove them from a list, or edit their details.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdE3KcvxQIdO1G6IuVu3esknB97lUfs1yoOxv5qy0VQjn30UGiNupmCjwu9-x4HoF_7p94y9hIt4I4p5a60c4qarP0W7aDX4SVPfIUbxn4PzDy88PWmmBD2jTdBOl-DXFeni8QkhqIpztT3L6nk9-w8puog?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-actions-menu.png" alt="Contact actions menu with delete, unsubscribe, and edit options" width="563"></div>
 
 Remember that you won’t be able to activate a subscription for a contact manually after unsubscribing them unless they sign up for your list again.
 
@@ -95,66 +92,66 @@ Remember that you won’t be able to activate a subscription for a contact manua
 
 1. Mark the contacts you want to add to the lists and click Add To Lists.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTIAotSR-2x0xH6EcKN1NXzj95dR_8xGAMqeHYfTRiDa6rZXaeGSxrG4u_UsDCvdGrmLsl11qjftsclUUY38s63ehoAzVRaYGQXMoGTmpJCeGb0aiBYMryDRXT9Y5d9nKhaV8RgOjJn8nkl-hq1d1b-ak?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-bulk-add-to-lists.png" alt="Bulk action to add selected contacts to lists" width="563"></div>
 
 2. Select the desired list(s) and click Add To Lists.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQErO3uKEUQyGjeYPLQWaNOxRKJE88AMuP0vpIu-Q5tJ9p-a-Q9oXNuDmOpglgjDrCqYgXtUV5bpz2bHVYAuMGv8RzSNLMPcuIkE6vJhLwSohhBvjtmMLpOC8UHTZP-2LHoewM56hz4m8oyLLwHZtCIGQ?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-select-lists.png" alt="List selection dialog for adding contacts" width="375"></div>
 
 **Remove from lists**
 
 1. Mark the contacts you want to remove from lists, click More Actions, and then Remove from lists.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7gQtc6_NU2ZBGDf66Dj04dfym1lakqsExk7rheM9huxiq_8K5BpLX3Y-D2k_ne_6wdPscWIVaA7uwtI9c8eB4QB4DoQDH9-_S5PbI4b3JvBCesEwyoFF88ZuxtAnPw0tqDYcbuNLLBQ7nIl6aCeJJswRw?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-bulk-remove.png" alt="Bulk action menu showing Remove from lists option" width="563"></div>
 
 2. Choose the list(s) from which you want to remove the contacts and click Remove.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeu7JzhhtcP_HLWzEX8cMXCGrAYkLn2k1T-Hg75VoHV6gg5QlvpP_16MwOH3o6rKdo-NxrXe90_3UsU8Rtb6nSEb4PVh4clH0Kzy6hh9hl9JamVpF1ilpMZkpf8wMOd6mgWrFwgVrqX3T3tmXvsuHs-Y9r1?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-remove-from-lists.png" alt="List selection dialog for removing contacts" width="375"></div>
 
 **Unsubscribe**
 
 1. Mark the contacts you want to unsubscribe, click More Actions, and then Unsubscribe.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfncUA8ExV1cPXJIknnXDN7BMfANIONhAi8FyldkJgglBU5MajoE3cKAL0U7GBWGLoGQOh_17nBghyyfg0oIGpmHVT7bxjWzWvfnIqFnkNggKSE8LEvvxPex0g_QbqTuL5UZRFAcXeYbzomDuMe_0FIIF7t?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-bulk-unsubscribe.png" alt="Bulk action menu showing Unsubscribe option" width="563"></div>
 
-2. Confirm the action by typing ‘unsubscribe’ and clicking the Unsubscribe button.
+2. Confirm the action by typing 'unsubscribe' and clicking the Unsubscribe button.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe5_IFGmXJR8lyJrZcwux4TXO3fZp3tyFs_ci2vWngTXR04LEYuRPrfVybk-lX3dcOQ53JbbuIVwoxcsG9ECDEB9d4fy8Vk5eRo6o-GC7yOZiaDM__7fHbzuFJdt_BRaWvsh821TeNdAHTh6Bs0B2uGRzxf?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-unsubscribe-confirm.png" alt="Confirmation dialog to unsubscribe contacts" width="375"></div>
 
 **Export**
 
 1. Mark the contacts you want to export, click More Actions, and then Export.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68ae8d6b60ee3762fc6b6220/file-PDeUYzO9yN.png)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-export.png" alt="Bulk action menu showing Export option" width="563"></div>
 
 2. Confirm the action by clicking the Confirm Export button.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68ae8d18eb3bae0b8ffc56b8/file-FhMFQ9FFMh.png)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-export-confirm.png" alt="Confirmation dialog to export contacts" width="375"></div>
 
 3. The download link will be sent to you via email:
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68ae8dd93188f21d59514635/file-qOfIakpMIo.png)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-export-email.png" alt="Email notification with download link for exported contacts" width="563"></div>
 
 **Delete**
 
 1. Mark the contacts you want to delete, click More Actions, and then Delete.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe2chc4t1kWB5qBMo4wWtlVJsiQh4U8PWmexOT3_nGzzYHTUNkHfOOSFFgQ5_FToy5RzRNVB-v-IB3YaZO1yqJGTRR53EScnKX3m3N9VyYYXYG9Mw9sib6OjNF0TZGRlON9gimXdbaZoHpMwETxzpwTnzg?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-bulk-delete.png" alt="Bulk action menu showing Delete option" width="563"></div>
 
-2. Confirm the action by typing ‘delete’ and clicking the Delete button. Remember that you can’t undo this action.
+2. Confirm the action by typing 'delete' and clicking the Delete button. Remember that you can't undo this action.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxhY9UrOAJKEQj6j1PzaWoyPkkXWUk8UFgYKW7TNA1agCGnKNEqTlbfrY-t65ivkgseY1rh8MWeNFLvnOUQVu084w8Wq9AyYc7alRrEqwchrCOjq2CYVp1JhcXvLhoZ1FXzpAzdiBL5i4qsqmoY5qEr-66?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-contacts-delete-confirm.png" alt="Confirmation dialog to delete contacts with warning" width="375"></div>
 
-### How to create and manage Lists <a href="#how-to-create-and-manage-lists-9kun3" id="how-to-create-and-manage-lists-9kun3"></a>
+### How to create and manage Lists
 
 1. Go to Lists under Contacts and click Create List.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdsQrSQN7MI5yoW6QNytQmbGJDA1e_2Ussky8vroA3UPmTDsluKUB1c4gyKI0btjNTYDgRYgNwWVGTK8nMB1MIheNwzcXoyt5OjalUW8MX4ST73lYBn70Xg7eLKy3h7JBcwiBLiI_WU-kT4taXliH4htyqT?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-lists-create-button.png" alt="Create List button in the Lists interface" width="563"></div>
 
-2. Enter the name of the List and click Create. Make sure you don’t already have a list with the same name; otherwise, you won’t be able to create it.
+2. Enter the name of the List and click Create. Make sure you don't already have a list with the same name; otherwise, you won't be able to create it.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdyXN41AAkMi7ADlrNfMb3Dg0_48OdkNow0wK1hz43iarjOF1Q-X4OtFpP2j5DMHlEvANFlkjt1wi6b778SKZqmd1CgcIzpcFyvjUtjko6p2jsemSUHvoZoNghjxK_fSacq5qvoVf-hQs08SQIkCvpSl_k?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-lists-create-form.png" alt="Form to enter new list name" width="375"></div>
 
 3. All your lists will be under the List tab. From there, you can rename or delete them.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegn3WwuQynb8g0jCBGvMQnN3HVSEsRq5LALA16CP2hNUn0NaISeqW6SX5brrw-q6BnxGXQUeb_ndOsprt8diufK-xHW5VkO_xJu084JG5FallU6LYDmsH5yz_dNC_ZQKbve4jEU0m7RCRG3Eqg3XyGle1i?key=yAlMohHVIjGTEaufMiogWg)
+<div align="left"><img src="../.gitbook/assets/marketing-lists-manage.png" alt="Lists management page showing all created lists" width="563"></div>

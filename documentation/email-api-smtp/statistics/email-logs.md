@@ -1,4 +1,5 @@
 ---
+title: Email Logs
 description: >-
   Understand Mailtrap email logs: search and filter sent emails by status,
   events, and provider. View event history, previews, HTML source, and spam
@@ -19,13 +20,11 @@ layout:
     visible: true
 ---
 
-# Email Logs
-
 It’s a place to view all the emails sent from your account, along with corresponding details. These include the status of each message, its preview, events history, HTML source, and statistics.
 
 ### How to use filters in Email Logs
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/3DYN6kGYFczdgbPNypNWKKXIwFd3Tne2QEGCtnRjsIN94F1_gN74VNV6fF59EiadFN0ky9vEGmZV9JLR7pnyaksDc5664uwZwk_Yst2JKX10bRKpl5IBJEirOXsTldmfCl3wvN8hseTlVgP0pOX3S_g" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-tabs.png" alt="Email Logs page with quick filter tabs for Bounces, Spam, Google, Workspace, Outlook, Office 365, and Yahoo" width="563"></div>
 
 These filters are a quick way to find:
 
@@ -41,7 +40,7 @@ These filters are a quick way to find:
 _When an email is sent, Mailtrap doesn’t yet know which Mailbox Provider (e.g., Google, Outlook, Hotmail, etc.) it sent a message to. It’s only able to determine this when it receives a response from the recipient’s Mailbox Provider, which may sometimes take a few minutes._
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/Q2PRxPtQarf4FkLBPaVIZppX476XI5Wq6gfg68nx11f6AzVpCKodEdKpkyKYm_E2OjoiWtp9thXtZjM7OwiHTFJxlPxWKEhJ1yT7g3cH_9bx0sw6zVX_a1jYrs661ZR6RegXV-BnDeE3bjKvzvA59zw" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-date-picker.png" alt="Date range picker for Email Logs showing calendar with selected date range" width="375"></div>
 
 The number of days Mailtrap stores email logs depends on your [billing plan](https://mailtrap.io/pricing/).
 
@@ -55,11 +54,11 @@ You can combine different filters by using the **Add Filter** button to the righ
 
 For example, here, we search for emails that were delivered or clicked, and the recipient has either a Google Workspace or Yahoo! mailbox.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/N1yOdCtXmj9-gHt0weYhQ6oz-nYAs8CSiSSw6N7H9rAsr8F2ffQHUnrxMb3NUciMlswz3nUWz6F4Ke5YUlmtWe_olL4m2E4VE52IiY8vVhFcf2sLHWa6adT30hE03V16UiHy-F1Bjl9qs9EL7UkYVvs" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-example.png" alt="Email Logs filter interface showing combined filters for Status, Number of Clicks, and Mailbox Provider" width="563"></div>
 
 Email Logs store emails sent from all your domains. If you wish to filter only for a particular domain or address, use **Email from**. For example:
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/X3RwaZSgxq7pmBdJvNoeeI0138iE6tu2OrNnPtFn-3aw3WgMBjkUvQYyz1Ix5qbyeseHFyUQvvR5MCKhjTfqt_0IBZISlbiKY65q2Wn07mT67B67OYG4p9300Hc8Z4EqFeMHV_iPYNQHN7QercnThLk" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-by-domain.png" alt="Email from filter showing domain filtering with mailtrap.io as example" width="563"></div>
 
 ### Diving deeper into Email Logs
 
@@ -67,7 +66,7 @@ Email Logs provide much more information about each sent message. To access this
 
 The **Email info** tab provides the basic details of a message, including the timestamps, status, from/to addresses, or the IPs. If you’re confused about any of these terms, check our [Sending Glossary](../email-sandbox/sandbox-glossary.md).
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/XbOIuZtYGJm05WddDix478KI3jYZ2SqmlIGN7wBW_RdXGlhLkVRqazpe4VxzSRJajgDAAFK0De6VQWe1EzCqf7fnwTDhv86cIxaKu7rdfCgSFhcdxpF3yO7sPhcfx75y0lY0d7B8T1e1ohGqoZwKrnk" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-email-info-tab.png" alt="Email Info tab showing detailed email information including status, timestamps, IPs, and mailbox provider" width="563"></div>
 
 Event History offers a list of all the events that have happened to this email since it was sent and until this moment.
 

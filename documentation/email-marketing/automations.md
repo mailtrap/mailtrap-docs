@@ -1,12 +1,7 @@
-# Automations
-
-* [Building automation sequence](https://help.mailtrap.io/article/170-automations#Building-your-automation-sequence-DQlC8)
-* [Adding delays and additional steps](https://help.mailtrap.io/article/170-automations#Adding-Delays-and-Additional-Steps-SeU37)
-* [Automation activation](https://help.mailtrap.io/article/170-automations#Automation-activation-A4zJZ)
-* [Monitoring automation's performance](https://help.mailtrap.io/article/170-automations#Monitoring-automations-performance-NZnhx)
-
-\
-
+---
+title: Automations
+description: Create automated email sequences to engage your contacts with triggers, actions, and rules
+---
 
 Automations feature allows you to create, automated email sequences to engage your contacts.
 
@@ -73,7 +68,7 @@ Event in the trigger settings should be equal to the event you pass via API.
 * Each contact can go through the same automation once in 24 hours.
 * The feature is currently free/include in your plans; it might change later.
 
-<figure><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876c26734dd51cee2971c4/file-vsNWlBpDmt.png" alt=""><figcaption><p>Check your runs limit</p></figcaption></figure>
+<div align="left"><img src="../.gitbook/assets/marketing-automation-runs-limit.png" alt="Billing dashboard showing automation runs limit counter" width="563"></div>
 
 ### Creating your first automation
 
@@ -83,27 +78,27 @@ Create a new automation:
 
 1. Define the name
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876d0180463b1f483684aa/file-DFOkXyJzgx.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-create-name.png" alt="Dialog to enter automation name" width="375"></div>
 
 2. Set up an Entry Trigger
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876df480463b1f483684ac/file-eAQf1nTGVA.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-trigger-setup.png" alt="Interface showing automation trigger selection options" width="563"></div>
 
 For this example, we'll use the "Contact created" trigger. This means the automation will start whenever a new contact is added. After selecting the trigger type, click "Save".
 
-### Building your automation sequence <a href="#building-your-automation-sequence-dqlc8" id="building-your-automation-sequence-dqlc8"></a>
+### Building your automation sequence
 
 Now that you've set up the trigger, you can start adding steps to your automation.
 
 1. **Add an Action:**
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876e7bb3b3eb04f64279d0/file-pTi6DNCIyX.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-add-action.png" alt="Button to add a new action to the automation sequence" width="375"></div>
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876eb2f35f195c4aa8de06/file-0SgJ36vkAz.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-send-email-action.png" alt="Action selection menu showing Send Email option" width="563"></div>
 
 2. **Configure the Email**
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876ee5734dd51cee2971cb/file-9hQKPWBUGY.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-configure-email.png" alt="Email configuration interface with subject and content fields" width="563"></div>
 
 #### Adding delays and additional steps
 
@@ -111,23 +106,23 @@ To create a more sophisticated sequence, you can add time delays and further act
 
 1. **Add a Time Delay** and configure it.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68877163c3d29c692643b09d/file-Fo2bkCnF8m.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-time-delay.png" alt="Time delay configuration showing options for delay duration" width="563"></div>
 
 2. **Add Another Email**
 
-### Automation activation <a href="#automation-activation-a4zjz" id="automation-activation-a4zjz"></a>
+### Automation activation
 
 Once you've built your automation sequence, it's time to activate it.
 
 **Activate Automation:**
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876f4f80463b1f483684b5/file-KmTqdw7jnj.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-activate.png" alt="Button to activate the automation" width="375"></div>
 
 **Pausing and Disabling:**
 
 You can pause or disable your automation at any time.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/68876fbd80463b1f483684b7/file-fa63jJ6vVF.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-pause-disable.png" alt="Menu showing pause and disable automation options" width="375"></div>
 
 * **Pause Automation:** No new contacts can enter automation, but contacts currently in automation continue the flow.
 * **Disable Automation:** No new contacts can enter automation, and all contacts currently in automation will complete their current step and then be removed from the flow.
@@ -136,4 +131,4 @@ You can pause or disable your automation at any time.
 
 You can track the performance of your automation by clicking on the Reports tab within the automation builder. Here you can see metrics for each step of your sequence, including how many contacts have completed each action and the open and click rates for your emails.
 
-![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6887700ef35f195c4aa8de0a/file-9GKCPtPFhX.png)
+<div align="left"><img src="../.gitbook/assets/marketing-automation-reports.png" alt="Automation reports dashboard showing performance metrics for each step" width="563"></div>

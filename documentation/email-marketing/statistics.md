@@ -1,15 +1,7 @@
-# Statistics
-
-**In this article:**
-
-* [Navigating around the statistics dashboard ](https://help.mailtrap.io/article/88-statistics#navigating)
-* [Thresholds](https://help.mailtrap.io/article/88-statistics#thresholds)
-* [Terminology](https://help.mailtrap.io/article/88-statistics#Terminology-tkssh)
-  * [Delivered](https://help.mailtrap.io/article/88-statistics#delivered)
-  * [Unique open rate](https://help.mailtrap.io/article/88-statistics#unique%20open)
-  * [Click rate](https://help.mailtrap.io/article/88-statistics#click%20rate)
-  * [Bounce rate](https://help.mailtrap.io/article/88-statistics#bounce%20rate)
-  * [Spam complaints](https://help.mailtrap.io/article/88-statistics#spam%20complaints)
+---
+title: Statistics
+description: View and analyze email campaign performance metrics and analytics
+---
 
 Mailtrap provides analytics for all the emails you send.
 
@@ -33,7 +25,7 @@ By default, the stats are shown for the last week + today.
 
 ![](https://d33v4339jhl8k0.cloudfront.net/docs/assets/5ed6bd832c7d3a10cba8416b/images/6401ef95188a9d242a7d65a8/file-QGQA9mEWm0.png)
 
-### Thresholds <a href="#thresholds-s8z17" id="thresholds-s8z17"></a>
+### Thresholds
 
 The thresholds are based on our extensive cross-industry research and, at this point, can’t be edited. The current values are:
 
@@ -44,9 +36,9 @@ The thresholds are based on our extensive cross-industry research and, at this p
   * 0.08%-0.1% is a warning level (yellow)
   * \>0.1% is a critical level (red)
 
-### Terminology <a href="#terminology-tkssh" id="terminology-tkssh"></a>
+### Terminology
 
-#### Delivered <a href="#delivered" id="delivered"></a>
+#### Delivered
 
 Delivered refers to the percentage of emails that were accepted by the recipient’s mailbox providers compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](https://help.mailtrap.io/article/71-email-logs).
 
@@ -61,7 +53,7 @@ On top of that, an email can be rejected on the recipient’s end for various re
 * A server timeout occurs (in such case, Mailtrap will retry the delivery 10 times until it eventually gives up).
 * Email authentications (SPF, DKIM, DMARC) fail.
 
-#### Unique open rate <a href="#unique-open" id="unique-open"></a>
+#### Unique open rate
 
 Unique open rate refers to the percentage of emails that were opened at least once compared to all emails sent.
 
@@ -69,7 +61,7 @@ Open tracking needs to be enabled for a domain in question in the Sending Domain
 
 ![](https://lh7-us.googleusercontent.com/G4wfcj9NzqHOkJlA0KU9_3_VZVJWeFwOzedTikmrCC68pw54-8u9mZpaUmfflnzAQkmeRpDNEZwkmWjoG3gSwRl0npyX5vUBXHJ4pDB_2ZOs10kddFd1u216wPkvXWV4jqW2KiPaW2kQooceBKDPOck)
 
-#### Click rate <a href="#click-rate" id="click-rate"></a>
+#### Click rate
 
 Click rate refers to the percentage of emails that received at least one link click compared to all delivered emails.
 
@@ -85,7 +77,7 @@ However, the metrics such as **clicked** and **click rate** used in the statisti
 
 The **click rate** is basically clicked/delivered \* 100%.
 
-#### Bounce rate <a href="#bounce-rate" id="bounce-rate"></a>
+#### Bounce rate
 
 Bounce rate refers to the percentage of emails dispatched from Mailtrap that were rejected on the recipient’s end compared to all emails sent.
 
@@ -100,6 +92,6 @@ The term bounce used in Mailtrap is also known as a hard bounce. This is differe
 
 If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
 
-#### Spam complaints <a href="#spam-complaints" id="spam-complaints"></a>
+#### Spam complaints
 
 Spam complaints refer to the percentage of emails that are reported as spam by recipients, as compared to all emails that were delivered.

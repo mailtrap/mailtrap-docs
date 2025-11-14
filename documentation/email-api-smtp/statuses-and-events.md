@@ -1,4 +1,5 @@
 ---
+title: Statuses and Events
 description: >-
   Learn about Mailtrap statuses and events: delivery, bounces, opens, clicks,
   and opt-outs. Understand how statuses differ from events and track
@@ -19,8 +20,6 @@ layout:
     visible: true
 ---
 
-# Statuses and Events
-
 When sending emails with Mailtrap, you’ll often encounter the terms Status and Event.
 
 **Status** is the latest delivery status of an email. Each status bears a distinct color, and an email can only have one status at a time. The available statuses are: **Delivered, Not Delivered, Enqueued,** and **Opted Out**.
@@ -29,11 +28,11 @@ As an email changes status, multiple **events** can occur. Events are one-time o
 
 For example, a certain email can have the status **Opted Out.** This indicates that the recipient marked your message as spam or unsubscribed from the list. The **Event History** tab for such an email may look like this:
 
-<div data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/1g1omIPM4pnv36kz3HZcJQ-l8mFv56azVvxBiztN53wski7VTehjPUrTycnKH2kDHtIF6tQLwjE7MNurv6QSmMag7_bk3PQLOzftZTK--yhfwsOM_tQg3Xn0Qg3K78LI1h040NBKayAAxpNECxB9EO0" alt="" width="375"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/statuses-event-history-example.png" alt="Event History showing Unsubscription, Open, Delivery, and Sending events with timestamps" width="375"></div>
 
 The chart below showcases all the possible events and the relations between them.
 
-![](https://lh7-us.googleusercontent.com/2gYBQ8GmWOYDogoL9xFSOTO4K04tvqaAUPFGDiU_nJVKPPzdG6A4fsc9L1-t3ToazU1yogSRi-hg7oQTUaGWhrlWWb_15mAc9dI-VbwSuVrt0KwpBjUaZdVEuu6QVI1NPKCG1Qp5utkeqDd9DXfyo5k)
+![Email delivery flow diagram showing all possible events and their relationships from sending to final outcomes](../.gitbook/assets/statuses-events-flow-diagram.png)
 
 Here’s a summary of all the possible events and statuses:
 

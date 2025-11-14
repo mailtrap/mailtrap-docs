@@ -1,4 +1,5 @@
 ---
+title: API integration
 description: >-
   Integrate Mailtrap email API. Get API credentials, choose transactional or
   bulk sending, use SDKs or code samples, and start sending.
@@ -18,18 +19,16 @@ layout:
     visible: true
 ---
 
-# API integration
-
 Use API credentials to integrate Mailtrap with your project.
 
 1. Go to the Sending Domains tab and choose the domain you want to send emails from. Remember that you’ll be able to start sending emails once the domain is verified.
 2. Open the Integration tab.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/m2ijl7AqsNHDotlvsRBBMHNWOz5YUiOfF7riOlkPC8XH6imNLqbE0jtWarhXIL4aew3JxPnHNkruXFwvF-tSfUX206CxGbJR1Ll33tlkK8QjyPrN5xRTq02Ybc4t4dlzeanHfwlcmJVzKixLawQO2Vk" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-integration-tab-navigation.png" alt="Domain Integration tab in Mailtrap dashboard with verified domain" width="563"></div>
 
 3. Click the Integrate button under Transactional Stream or Bulk Stream.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/R8o93mWlwrNEEbGIkpzAwM8_TRTuCPIFJ9XdtKRGUzRLzKAKGFW3Mk2SFXnEwGpNm2IA-NHzouieBFRRMhSlJqLy51SXAB12jrsZGJNaF5IcHX-TYbmbeu6gsX_ixwGEiKP8-Z9VoAW9zK3iZE0TJug" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-integration-stream-selection.png" alt="Integration options showing Transactional Stream and Bulk Stream with Integrate buttons" width="375"></div>
 
 * Transactional Stream is used to send automated, non-promotional application emails triggered by the specific user action.
 
@@ -59,7 +58,7 @@ Use API credentials to integrate Mailtrap with your project.
 
 6. Complete your script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/sBKpOoDvt_7hTAEfmVu7f3TMeipJ3nK1ZoElNqPlwpf2aQD_OlMGyDAcP9LmzfonKkBEcAXbtyG8G_CvIE4QnJo5tq_mHNMW0l9Acd7sFyRn-J011XnKVAU5RS4EYI66GHnj_4nHdFRbUchVSU5hHy4" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-email-logs-delivered.png" alt="Email Logs showing delivered email with status and statistics" width="563"></div>
 
 Remember that each domain has different API tokens that you can always access by clicking on the desired domain and going to the Integration tab.
 
@@ -67,7 +66,7 @@ You can also create additional API tokens by going to Settings → API Tokens an
 
 <a href="email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/eniGWd9R_Qg8BeachWjf1WpO1LKMEBiNrWDXFGxVJoJcvobyRbULGRuzE8nhKVjjO3kkar8vOFb2fkxUYnCYgP4CpYEZyNulgft_MXel97FrybiPWkZ2zVP65Am0vQqC59LQBX3MF7p8wTm-SPlz5AE" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-tokens-add-token.png" alt="API Tokens page with Add Token button highlighted" width="563"></div>
 
 Mailtrap Email Sending API supports:
 

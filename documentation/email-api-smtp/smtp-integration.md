@@ -1,4 +1,5 @@
 ---
+title: SMTP integration
 description: >-
   Integrate Mailtrap SMTP. Get SMTP credentials, choose transactional or bulk
   sending, use code samples, and start sending.
@@ -18,18 +19,16 @@ layout:
     visible: true
 ---
 
-# SMTP integration
-
 Learn how to integrate your application via SMTP.
 
 1. Go to the Sending Domains tab and choose the domain you want to send emails from. Remember that you’ll be able to start sending emails once the [domain is verified](sending-domain-setup/).
 2. Open the Integrations tab.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/gYGy9BXrQMZp-EigE0LA7cTrDr63jn0_9lwrZXXOD8B19171U2IXU-TEMlH_F7jH33E2r_e55qukYRTQAaPnSthYEW-d_HDII_CHiaJF1aeBZJH40LpIqolcfJB5EsaZnCJuASM8dfVyY01dthJHDv4" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-tab-navigation.png" alt="Domain Integration tab in Mailtrap dashboard with verified domain" width="563"></div>
 
 3. Click the Integrate button under Transactional Stream or Bulk Stream.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/scIgiBuvYnuwQXtW5byVP4QLGQyjfMu-1MgdJhTLDHoQStph_ONouURbf-djFkngLJMDqL1ZTd6bvyMbDbOx4IyoJ8D8bAuiZ85E0sU-bnrF09qimzsFjb8nNt4Sv4nDzdGy9w9uqC56fB4erDpQor8" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-stream-selection.png" alt="Integration options showing Transactional Stream and Bulk Stream with Integrate buttons" width="375"></div>
 
 * Transactional Stream is used to send automated, non-promotional application emails that are triggered by the user’s specific action.
 
@@ -53,7 +52,7 @@ Learn how to integrate your application via SMTP.
 
 5. Complete your email-sending script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/z1Ez69cZmidYH3J06QTnGdd6a0okqkvleAUVLwiI4xCq1qwvXvodvPjFEpag07m4I70l6bQWBcV8jNHVLLwd5zDU5nK4TivQ-0Ngvx0TgXgyn34UESPG5ur8nnxvL4urfAxxtiX5hiXsHBFRFa7cFdA" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-email-logs-delivered.png" alt="Email Logs showing delivered email with status and statistics" width="563"></div>
 
 Remember that each domain has different SMTP credentials that you can always access by clicking on the desired domain and going to the Integrations tab.
 
@@ -61,7 +60,7 @@ You can also create additional API tokens (or SMTP passwords) by going to Settin
 
 <a href="email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/VkkmQj64_MMwu99HRd5Hi5jMh3fihYc1zhSyDwouB2azhBhOGjFlfVaM6zZRitcL-ftSLyAdG_dOfCkrTQ_4dQOng0pf8LwKveAgYAV7oKZLU8MPWeSKPHe3ZQPPT643QbUVUQMPtNBC4ncYUdvSc-E" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-tokens-add-token.png" alt="API Tokens page with Add Token button highlighted" width="563"></div>
 
 {% hint style="info" %}
 _If you need any help with SMTP integration, please, contact our support team at_ [_support@mailtrap.io_](mailto:support@mailtrap.io)_._

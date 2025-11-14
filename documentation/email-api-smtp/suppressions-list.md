@@ -1,4 +1,5 @@
 ---
+title: Suppressions list
 description: >-
   Manage Mailtrap suppression lists. View, add, remove, or import suppressed
   emails from hard bounces, unsubscribes, and spam complaints via CSV or
@@ -19,8 +20,6 @@ layout:
     visible: true
 ---
 
-# Suppressions list
-
 When hard bounce, unsubscribe, and spam complaints events occur, Mailtrap adds the email address to a suppression list. The suppression list contains all the addresses you cannot send emails to.
 
 You’ll find all the addresses on suppression lists in the **Suppressions** menu to the left.
@@ -31,13 +30,13 @@ The menu contains the data for all your domains. If an email address was suppres
 
 You can export the whole Suppressions list.
 
-<div align="left" data-with-frame="true"><img src="https://lh7-us.googleusercontent.com/b5sLWLtrMsOZ_b0_s8CH5e5M2LU2cjo4je9yiQuxB3mJHfbjh9R65FEhsr-vkNhSbGY_J6_mycBiRTUdYLv_pFVs8TwgvjSLHnEF3iLNppyikLdk6ewaNGxoPNAWhrvP9FOtQ8AZnv3CbS3tOUdcai0" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-export.png" alt="Suppressions list showing suppressed email addresses with Export in CSV button" width="563"></div>
 
 #### How to remove an email from a suppression list?
 
 If you believe an email landed on a suppression list by accident, you can remove it by clicking the **Reactivate** button to the right.
 
-<div align="left" data-with-frame="true"><img src="https://lh6.googleusercontent.com/QptnHTV8qqEVEb8to38Pi1OWh52Zdbd-1hvmmMljJznaWyz_o2Y0f6uD8ERFT24QlzDI5n7hrazKMFTVaRFt7YdvYj7p9cIL-3PeIr0j2SfRAiqa3x2f4SCckjOryxY3Q3rwGYTm" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-reactivate-button.png" alt="Suppression list entry with Reactivate button to remove email from suppression list" width="563"></div>
 
 However, we advise you not to misuse the feature.
 
@@ -52,7 +51,7 @@ You can filter the suppression list for:
 * Type of suppression
 * Reason for suppression
 
-<div align="left" data-with-frame="true"><img src="https://lh5.googleusercontent.com/QhjY1RIG4ESh_xcMczrEbBxsdwCvmS4xnJuFoI4mTmnN1eK5gCSoeNv6jtPCOLJ9aS8L49_NQeFJtb__R2VpPBE_X5zCqi99OQm2tAD0NjX1r6ZLBFJFnVhA1OYtDL6Pmiueq2-7" alt="" height="129" width="624"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-filters.png" alt="Filter interface showing Email, Type, and Domain filter options" height="129" width="624"></div>
 
 ### How to add recipients to the suppression list
 
