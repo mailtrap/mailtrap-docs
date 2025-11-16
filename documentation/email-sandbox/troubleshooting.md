@@ -8,7 +8,7 @@ icon: wrench
 
 This page covers common issues you might encounter when using Mailtrap Email Sandbox and their solutions.
 
-#### Connection Errors
+### Connection Errors
 
 If you can't connect to the Sandbox SMTP server and receive errors like **Connection cannot be established** or **Connection timed out**, follow these troubleshooting steps.
 
@@ -67,7 +67,7 @@ To make sure our SMTP server is up and running, go to the [Status page](http://s
 If the issue persists after trying all these steps, please contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 {% endhint %}
 
-#### Authentication Error (530)
+### Authentication Error (530)
 
 **Error Message**
 
@@ -91,7 +91,7 @@ In either case, an email was not sent.
 3. If it is already enabled, revise your credentials and authentication settings
 4. Try sending an email again
 
-#### Messages Not Delivered to Sandbox
+### Messages Not Delivered to Sandbox
 
 If your messages aren't appearing in your sandbox, follow these troubleshooting steps:
 
@@ -140,7 +140,7 @@ If you still can't figure out why your emails aren't getting delivered to your s
 {% endstep %}
 {% endstepper %}
 
-#### Sandbox Email Address Disabled
+### Sandbox Email Address Disabled
 
 Email per sandbox is a premium feature available in the Basic, Team, Enterprise, or Business plans.
 
@@ -174,7 +174,7 @@ You can freely test emails without this feature. With any plan (including the fr
 
 You'll find the integration samples for over 20 frameworks and libraries on the Integration page of your sandbox. You can also use the API without any restrictions.
 
-#### Tech Info / Headers Unavailable
+### Tech Info / Headers Unavailable
 
 The **Tech Info** tab will show the following headers if they're present in an email:
 
@@ -197,13 +197,13 @@ If you are on the Business plan or higher ([view plans](https://mailtrap.io/pric
 
 On lower plans, no BCC field will appear even if it was included with a message.
 
-#### Team Members Limit Reached
+### Team Members Limit Reached
 
 If you can't add more team members, you may have reached the user limit of your plan.
 
 **Solution:** Upgrade your plan to increase the team member limit. Check [pricing plans](https://mailtrap.io/pricing/) for details.
 
-#### Automatic Forwarding Issues
+### Automatic Forwarding Issues
 
 If your test emails aren't being forwarded automatically, there's very probably an error in the auto-forwarding configuration.
 
@@ -231,7 +231,7 @@ If a particular email is not forwarded:
 
 Learn more: [Automatic Email Forwarding](automatic-email-forwarding.md)
 
-#### Suspicious Emails in Sandbox
+### Suspicious Emails in Sandbox
 
 If you see emails in your sandbox that you didn't send from your app, someone may have accessed your SMTP credentials.
 
