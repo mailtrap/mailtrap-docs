@@ -45,7 +45,7 @@ First, you need to get a token. You can find it under Settings, API Tokens.
 
 <div align="left"><img src="../.gitbook/assets/sandbox-api-tokens-settings.png" alt="Settings page showing API Tokens section for generating authentication tokens" width="563"></div>
 
-To learn more about managing your tokens, please [check this guide](../privacy-and-security/api-tokens.md). Then, there are a couple ways to send authenticated HTTP requests:
+To learn more about managing your tokens, please [check this guide](../account-and-organization/api-tokens.md). Then, there are a couple ways to send authenticated HTTP requests:
 
 * Send a HTTP header `Api-Token: {api_token}` , where `{api_token}` is your API token
 * Send a HTTP header `Authorization: Bearer #{token}` , where `{api_token}` is your API token (more info: Token Access Authentication)

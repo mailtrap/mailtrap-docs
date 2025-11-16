@@ -21,8 +21,6 @@ You can put \{{user\_name\}} into your template and pass "John" as the "user\_na
 
 For a complete guide on using Handlebars with email templates, see [Handlebars Guide](handlebars-guide.md).
 
-{% embed url="https://mailtrap.io/blog/using-handlebars-with-mailtrap-email-templates-quick-guide-with-examples/" fullWidth="false" %}
-
 ### Creating a template
 
 {% stepper %}

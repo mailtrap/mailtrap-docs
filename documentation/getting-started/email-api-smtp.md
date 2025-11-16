@@ -1,9 +1,10 @@
 ---
 title: Email API/SMTP
 description: Learn how to send your application emails with Mailtrap Email API/SMTP
+icon: paper-plane
 ---
 
-# ⚡ Email API/SMTP
+# Email API/SMTP
 
 Learn how to send your application emails with Mailtrap
 
@@ -23,7 +24,7 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 **Good to know**
 
 * To send emails to your recipients, you must own a domain and add it to Mailtrap.
-* Every new domain requires a Compliance Check after DNS verification.
+* Every new domain requires a Compliance Check after DNS verification. In most of cases it takes a few minutes.
 * You can try out all features with the Demo domain we provided once you sign up.
 {% endhint %}
 

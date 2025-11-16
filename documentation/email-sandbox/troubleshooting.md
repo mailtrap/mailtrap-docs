@@ -4,13 +4,15 @@ description: Common issues and solutions for Mailtrap Email Sandbox
 icon: wrench
 ---
 
+# Troubleshooting
+
 This page covers common issues you might encounter when using Mailtrap Email Sandbox and their solutions.
 
-### Connection Errors
+#### Connection Errors
 
 If you can't connect to the Sandbox SMTP server and receive errors like **Connection cannot be established** or **Connection timed out**, follow these troubleshooting steps.
 
-#### Testing Your Connection
+**Testing Your Connection**
 
 First, test your connection using the Telnet utility:
 
@@ -24,7 +26,7 @@ If Telnet shows that a connection can't be established with our server, follow t
 
 {% stepper %}
 {% step %}
-#### Try Alternative SMTP Ports
+**Try Alternative SMTP Ports**
 
 Try using another SMTP port: **2525**, **465**, or **25**.
 
@@ -34,7 +36,7 @@ In most cases, connection issues are related to the firewall blocking the SMTP p
 {% endstep %}
 
 {% step %}
-#### Test from Different Location
+**Test from Different Location**
 
 If none of these ports work, try connecting with:
 
@@ -47,7 +49,7 @@ This will help identify the route affected by the issue.
 {% endstep %}
 
 {% step %}
-#### Check Idle Timeout
+**Check Idle Timeout**
 
 Check if the SMTP connection is not closed on idle timeout on the server side.
 
@@ -55,7 +57,7 @@ If you've opened an SMTP connection and haven't closed it afterward, the SMTP se
 {% endstep %}
 
 {% step %}
-#### Verify Server Status
+**Verify Server Status**
 
 To make sure our SMTP server is up and running, go to the [Status page](http://status.mailtrap.info/). Here, you can check the SMTP server availability from different locations.
 {% endstep %}
@@ -65,11 +67,11 @@ To make sure our SMTP server is up and running, go to the [Status page](http://s
 If the issue persists after trying all these steps, please contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 {% endhint %}
 
-### Authentication Error (530)
+#### Authentication Error (530)
 
-#### Error Message
+**Error Message**
 
-```text
+```
 Expected response code 250 but got code "530", with the message "530 5.7.1 Authentication required"
 ```
 
@@ -82,20 +84,20 @@ When you receive the **5.7.1 Authentication required** error, it means that eith
 In either case, an email was not sent.
 {% endhint %}
 
-#### Solution
+**Solution**
 
 1. Enable SMTP authentication in your settings
 2. Configure your app to enable SMTP authentication
 3. If it is already enabled, revise your credentials and authentication settings
 4. Try sending an email again
 
-### Messages Not Delivered to Sandbox
+#### Messages Not Delivered to Sandbox
 
 If your messages aren't appearing in your sandbox, follow these troubleshooting steps:
 
 {% stepper %}
 {% step %}
-#### Check SMTP Integration
+**Check SMTP Integration**
 
 Verify your [SMTP integration](how-to-integrate-email-sandbox-with-your-application.md) is correct:
 
@@ -108,7 +110,7 @@ If you reset SMTP/POP3 credentials, all existing integrations are affected and m
 {% endstep %}
 
 {% step %}
-#### Verify Limits
+**Verify Limits**
 
 Make sure that the number and frequency of the messages sent correspond to the terms of your [billing plan](https://mailtrap.io/pricing/).
 
@@ -120,7 +122,7 @@ Check:
 {% endstep %}
 
 {% step %}
-#### Check SMTP Logs
+**Check SMTP Logs**
 
 View your SMTP logs and check whether you received any errors. To view SMTP logs, enable debugging in your email code.
 
@@ -128,7 +130,7 @@ For example, see [how to enable debugging in PHPMailer](https://mailtrap.io/blog
 {% endstep %}
 
 {% step %}
-#### Contact Support
+**Contact Support**
 
 If you still can't figure out why your emails aren't getting delivered to your sandbox:
 
@@ -138,25 +140,25 @@ If you still can't figure out why your emails aren't getting delivered to your s
 {% endstep %}
 {% endstepper %}
 
-### Sandbox Email Address Disabled
+#### Sandbox Email Address Disabled
 
 Email per sandbox is a premium feature available in the Basic, Team, Enterprise, or Business plans.
 
 <figure><img src="../.gitbook/assets/troubleshoot-sandbox-email-address-disabled.png" alt="Sandbox Email Address tab showing disabled status with upgrade message"><figcaption><p>Email address disabled - upgrade required</p></figcaption></figure>
 
-#### Enabling After Upgrade
+**Enabling After Upgrade**
 
 Once you upgrade your plan, make sure you activate the address:
 
 {% stepper %}
 {% step %}
-#### Navigate to Email Address Tab
+**Navigate to Email Address Tab**
 
 Go to the **Email Address** tab in your sandbox.
 {% endstep %}
 
 {% step %}
-#### Enable the Address
+**Enable the Address**
 
 Click the three-dot menu to the right, and select **Enable**.
 
@@ -164,7 +166,7 @@ Click the three-dot menu to the right, and select **Enable**.
 {% endstep %}
 {% endstepper %}
 
-#### Alternative: SMTP Integration
+**Alternative: SMTP Integration**
 
 {% hint style="info" %}
 You can freely test emails without this feature. With any plan (including the free tier), you can integrate SMTP credentials into your app and receive every email this way.
@@ -172,7 +174,7 @@ You can freely test emails without this feature. With any plan (including the fr
 
 You'll find the integration samples for over 20 frameworks and libraries on the Integration page of your sandbox. You can also use the API without any restrictions.
 
-### Tech Info / Headers Unavailable
+#### Tech Info / Headers Unavailable
 
 The **Tech Info** tab will show the following headers if they're present in an email:
 
@@ -189,23 +191,23 @@ The **Tech Info** tab will show the following headers if they're present in an e
 If any of these headers haven't been specified (for example, an email doesn't have a `reply_to` header specified), it won't be displayed.
 {% endhint %}
 
-#### BCC Header
+**BCC Header**
 
 If you are on the Business plan or higher ([view plans](https://mailtrap.io/pricing/)), you will also see the **BCC** header in this tab (if specified for the message).
 
 On lower plans, no BCC field will appear even if it was included with a message.
 
-### Team Members Limit Reached
+#### Team Members Limit Reached
 
 If you can't add more team members, you may have reached the user limit of your plan.
 
 **Solution:** Upgrade your plan to increase the team member limit. Check [pricing plans](https://mailtrap.io/pricing/) for details.
 
-### Automatic Forwarding Issues
+#### Automatic Forwarding Issues
 
 If your test emails aren't being forwarded automatically, there's very probably an error in the auto-forwarding configuration.
 
-#### How Auto-Forwarding Works
+**How Auto-Forwarding Works**
 
 When auto-forwarding to predefined addresses/domains, sandbox verifies the `TO` and `CC` headers of a message (BCC is ignored).
 
@@ -218,7 +220,7 @@ An email is forwarded if:
 A forwarding rule needs to be verified (its status must be **Active**) before it can be considered. To do that, you'll need to confirm the email address or the domain's ownership.
 {% endhint %}
 
-#### Troubleshooting Steps
+**Troubleshooting Steps**
 
 If a particular email is not forwarded:
 
@@ -229,7 +231,7 @@ If a particular email is not forwarded:
 
 Learn more: [Automatic Email Forwarding](automatic-email-forwarding.md)
 
-### Suspicious Emails in Sandbox
+#### Suspicious Emails in Sandbox
 
 If you see emails in your sandbox that you didn't send from your app, someone may have accessed your SMTP credentials.
 
@@ -237,19 +239,19 @@ If you see emails in your sandbox that you didn't send from your app, someone ma
 If you suspect unauthorized access to your sandbox, reset your credentials immediately.
 {% endhint %}
 
-#### How to Reset Credentials
+**How to Reset Credentials**
 
 Don't panic - it's very easy to reset your credentials:
 
 {% stepper %}
 {% step %}
-#### Navigate to Integration Tab
+**Navigate to Integration Tab**
 
 Log in to your dashboard, open your sandbox, and go to the **Integration** tab.
 {% endstep %}
 
 {% step %}
-#### Reset Credentials
+**Reset Credentials**
 
 Click the **Reset Credentials** button, and your details will be reset right away.
 
@@ -257,7 +259,7 @@ Click the **Reset Credentials** button, and your details will be reset right awa
 {% endstep %}
 
 {% step %}
-#### Update Your Application
+**Update Your Application**
 
 Make sure you update the credentials in your app, as old credentials will no longer be valid.
 {% endstep %}
@@ -267,13 +269,13 @@ Make sure you update the credentials in your app, as old credentials will no lon
 We don't store information about the server or IP address that sent messages. As such, we won't be able to help you track down the sender.
 {% endhint %}
 
-### Related Articles
+#### Related Articles
 
 * [How to integrate Email Sandbox with your application](how-to-integrate-email-sandbox-with-your-application.md)
-* [Features and Limits](features-and-limits.md)
+* [Features and Limits](help/features-and-limits.md)
 * [Automatic Email Forwarding](automatic-email-forwarding.md)
 * [Email Sandbox FAQs](faqs.md)
 
-### Need More Help?
+#### Need More Help?
 
 If you don't find the solution to your problem here, contact our support at [support@mailtrap.io](mailto:support@mailtrap.io).

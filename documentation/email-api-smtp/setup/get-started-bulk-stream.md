@@ -104,13 +104,13 @@ $response = $mailtrap->bulk()->emails()->send([
 
 To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bulk-add-domain-name (1).png" alt="Add Domain Name dialog with domain input field and Add button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-add-domain-name (1).png" alt="Add Domain Name dialog with domain input field and Add button" width="563"></div>
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bulk-dns-records-verification (1).png" alt="DNS records verification page showing DKIM, SPF, and DMARC records to add" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-dns-records-verification (1).png" alt="DNS records verification page showing DKIM, SPF, and DMARC records to add" width="563"></div>
 
-Check our [Sending Domain Setup Guide](sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
+Check our [Sending Domain Setup Guide](../sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}
 
 {% step %}
@@ -124,9 +124,9 @@ To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 * **Port**: 587 (or 25, 2525, 465 with SSL)
 * **Authentication**: Your stream-specific username and password
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bulk-smtp-credentials.png" alt="Bulk Stream SMTP credentials with host, port, username, and password" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-smtp-credentials.png" alt="Bulk Stream SMTP credentials with host, port, username, and password" width="563"></div>
 
-See our [SMTP Integration Guide](smtp-integration.md) for detailed setup instructions.
+See our [SMTP Integration Guide](../smtp-integration.md) for detailed setup instructions.
 
 #### For API Integration
 
@@ -135,9 +135,9 @@ To send via Bulk Stream API, use the bulk endpoint:
 * **Base URL**: `https://bulk.api.mailtrap.io/api`
 * **Authentication**: Bearer token (same as transactional)
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bulk-api-credentials.png" alt="Bulk Stream API credentials with host and API token" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-api-credentials.png" alt="Bulk Stream API credentials with host and API token" width="563"></div>
 
-See our [API Integration Guide](api-integration.md) for implementation details.
+See our [API Integration Guide](../api-integration.md) for implementation details.
 {% endstep %}
 {% endstepper %}
 
@@ -280,10 +280,10 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 
 ## Related Resources
 
-* [**📚 Email Deliverability Guide**](deliverability/email-deliverability-guide.md) - Essential reading for bulk senders
-* [Sending Domain Setup](sending-domain-setup.md)
-* [Email Templates](email-templates/)
-* [Suppressions List](suppressions-list.md)
-* [Email Categories](statistics/email-categories.md)
-* [IP Warmup](ip-warmup.md)
+* [**📚 Email Deliverability Guide**](broken-reference) - Essential reading for bulk senders
+* [Sending Domain Setup](../sending-domain-setup.md)
+* [Email Templates](../email-templates/)
+* [Suppressions List](../suppressions-list.md)
+* [Email Categories](../statistics/email-categories.md)
+* [IP Warmup](../deliverability/ip-warmup.md)
 * [Google's Email Sender Guidelines](https://support.google.com/mail/answer/81126)

@@ -83,7 +83,7 @@ Remember that each domain has different SMTP credentials that you can always acc
 
 You can also create additional API tokens (or SMTP passwords) by going to Settings → API Tokens and clicking Add Token.
 
-<a href="email-sandbox/email-marketing/account-and-billing/user-management/troubleshooting/privacy-and-security/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
+<a href="../account-and-organization/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-tokens-add-token.png" alt="API Tokens page with Add Token button highlighted" width="563"></div>
 

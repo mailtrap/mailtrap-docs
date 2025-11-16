@@ -1,11 +1,14 @@
 ---
 title: Email Sandbox
 description: Learn how to inspect and debug emails with Mailtrap Email Sandbox
+icon: spider-black-widow
 ---
 
-# 🧪 Email Sandbox
+# Email Sandbox
 
 Learn how to inspect and debug emails with sandbox functionality.
+
+It's also known as Fake SMTP.
 
 **What you can do:**
 
@@ -71,3 +74,4 @@ That allows you to organize all testing-related workflows among different people
 * [HTML Check](../email-sandbox/html-check.md)
 * [Automatic Forwarding](../email-sandbox/automatic-email-forwarding.md) and [Manual Forwarding](../email-sandbox/manual-email-forwarding.md) to view emails in real sandboxes
 * [Test Bcc and email headers](../email-sandbox/checking-email-headers-and-bcc.md)
+

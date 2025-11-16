@@ -61,9 +61,9 @@ Please have the following information ready:
 
 ### Can't send emails?
 
-1. Verify your [API token](../../privacy-and-security/api-tokens.md) is correct
+1. Verify your [API token](../../account-and-organization/api-tokens.md) is correct
 2. Check your [sending domain](../sending-domain-setup.md) is verified
-3. Review your [sending limits](../sending-limits.md)
+3. Review your [sending limits](../setup/sending-limits.md)
 4. Confirm your [integration](../api-integration.md) is properly configured
 
 ### Emails not reaching inbox?

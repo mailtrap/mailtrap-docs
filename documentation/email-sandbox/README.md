@@ -3,7 +3,6 @@ title: Email Sandbox Overview
 description: >-
   Test and preview emails safely in a sandbox environment before sending to
   production
-icon: message-smile
 ---
 
 # 📋 Overview
@@ -272,8 +271,8 @@ Pre-configured for popular frameworks:
 
 ## Support & Resources
 
-* 📚 [Features and Limits](features-and-limits.md)
-* 📖 [Sandbox Glossary](sandbox-glossary.md)
+* 📚 [Features and Limits](help/features-and-limits.md)
+* 📖 [Sandbox Glossary](help/sandbox-glossary.md)
 * 💬 [FAQs](faqs.md)
 * 🔧 [Troubleshooting](troubleshooting.md)
 

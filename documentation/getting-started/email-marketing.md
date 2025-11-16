@@ -1,9 +1,10 @@
 ---
 title: Email Marketing
 description: Learn how to set up and send email marketing campaigns with Mailtrap
+icon: headset
 ---
 
-# 📨 Email Marketing
+# Email Marketing
 
 Make sure you've added and [verified a domain](../email-api-smtp/sending-domain-setup.md), or you won't be able to send a campaign.
 

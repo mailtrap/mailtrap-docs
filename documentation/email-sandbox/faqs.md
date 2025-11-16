@@ -4,9 +4,11 @@ description: Frequently asked questions about Mailtrap Email Sandbox
 icon: question
 ---
 
+# FAQs
+
 This page covers frequently asked questions about Mailtrap Email Sandbox. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting.md).
 
-### Integration & Setup
+#### Integration & Setup
 
 <details>
 
@@ -33,7 +35,7 @@ Learn more:
 
 </details>
 
-### Technical Specifications
+#### Technical Specifications
 
 <details>
 
@@ -95,7 +97,7 @@ The maximum size of an email including attachments ranges from 5 MB to 25 MB, de
 
 If your message exceeds this limit, you will get the following error: `552 5.3.4 Error: message too big`.
 
-See [Features and Limits](features-and-limits.md#email-size-mb) for complete details.
+See [Features and Limits](help/features-and-limits.md#email-size-mb) for complete details.
 
 </details>
 
@@ -105,7 +107,7 @@ See [Features and Limits](features-and-limits.md#email-size-mb) for complete det
 
 It's the number of emails you can send to each of your sandboxes every 10 seconds. The rate limit depends on the subscription plan.
 
-For more details, check out the [Features and Limits](features-and-limits.md#rate-limits-per-10-sec) and [Pricing page](https://mailtrap.io/pricing/).
+For more details, check out the [Features and Limits](help/features-and-limits.md#rate-limits-per-10-sec) and [Pricing page](https://mailtrap.io/pricing/).
 
 </details>
 
@@ -119,11 +121,11 @@ If you reach your monthly limit, you'll receive the SMTP protocol error: "535 5.
 
 To continue testing when you're over the limit, please upgrade your subscription plan. Alternatively, you can wait until the next billing period starts, when the limit is reset.
 
-For more details, check the [Features and Limits](features-and-limits.md#total-test-emails-per-month) and [Pricing page](https://mailtrap.io/pricing/).
+For more details, check the [Features and Limits](help/features-and-limits.md#total-test-emails-per-month) and [Pricing page](https://mailtrap.io/pricing/).
 
 </details>
 
-### Pricing
+#### Pricing
 
 <details>
 

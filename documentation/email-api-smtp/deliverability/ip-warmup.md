@@ -19,7 +19,7 @@ layout:
     visible: true
 ---
 
-# 📈 IP Warmup
+# 📈 Dedicated IP
 
 Mailtrap offers both shared IP addresses as well as dedicated IPs.
 
@@ -29,13 +29,13 @@ A **shared IP** is a default option with nearly all sending providers (including
 
 A **dedicated IP** is the IP address that only you use for sending emails. As such, you have full control over your reputation and can influence it with each email sent.
 
-We recommend dedicated IPs only if your volume regularly exceeds 100,000 emails per month.
+We recommend dedicated IPs only if your volume regularly exceeds 100,000+ emails per month. No risk for 200,000 per month.
 
 ### Automated IP warmup at Mailtrap
 
 Each newly purchased dedicated IP goes through a mandatory 3-weeks-long (in most cases) warm-up process, aimed at giving you the best possible preparation for sending mass emails.
 
-<div data-with-frame="true"><img src="../.gitbook/assets/ip-warmup-dedicated-ips-status.png" alt="Dedicated IPs page showing a warmed up IP address with status, date assigned, and domains information"></div>
+<div data-with-frame="true"><img src="../../.gitbook/assets/ip-warmup-dedicated-ips-status.png" alt="Dedicated IPs page showing a warmed up IP address with status, date assigned, and domains information"></div>
 
 Mailtrap automatically increases your volume each day, with about 30% more emails sent every day. Simultaneously, our deliverability experts closely monitor your stats.
 

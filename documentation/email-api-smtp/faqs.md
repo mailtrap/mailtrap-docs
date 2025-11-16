@@ -4,9 +4,11 @@ description: Frequently asked questions about Mailtrap Email API/SMTP
 icon: question
 ---
 
+# FAQs
+
 This page covers frequently asked questions about Mailtrap Email API/SMTP. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting/).
 
-### Getting Started
+#### Getting Started
 
 <details>
 
@@ -55,7 +57,7 @@ If you verified mydomain.com, you can send emails only on behalf of your domain.
 
 </details>
 
-### Domain Setup
+#### Domain Setup
 
 <details>
 
@@ -75,7 +77,7 @@ No, you need to add and verify each subdomain/domain separately.
 
 </details>
 
-### Features & Capabilities
+#### Features & Capabilities
 
 <details>
 
@@ -111,7 +113,7 @@ We use AWS with auto-balancing, so our IP ranges are the following: [https://ip-
 
 </details>
 
-### Billing & Limits
+#### Billing & Limits
 
 <details>
 
@@ -139,7 +141,7 @@ If you reach your monthly limit, you'll receive the SMTP protocol error: "535 5.
 
 To continue sending when you're over the limit, please upgrade your subscription plan. Alternatively, you can wait until the next billing period starts, when the limit is reset.
 
-For more details, check the [Sending Limits](sending-limits.md) and [Pricing page](https://mailtrap.io/pricing/?tab=api).
+For more details, check the [Sending Limits](setup/sending-limits.md) and [Pricing page](https://mailtrap.io/pricing/?tab=api).
 
 </details>
 
@@ -153,7 +155,7 @@ For current pricing and to choose a plan that best fits your needs, visit our [p
 
 </details>
 
-### Data & Privacy
+#### Data & Privacy
 
 <details>
 

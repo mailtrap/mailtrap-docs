@@ -4,9 +4,9 @@
 
 ## Getting Started
 
-* [⚡ Email API/SMTP](getting-started/email-api-smtp.md)
-* [🧪 Email Sandbox](getting-started/email-sandbox.md)
-* [📨 Email Marketing](getting-started/email-marketing.md)
+* [Email API/SMTP](getting-started/email-api-smtp.md)
+* [Email Sandbox](getting-started/email-sandbox.md)
+* [Email Marketing](getting-started/email-marketing.md)
 
 ## Email API/SMTP
 
@@ -15,7 +15,8 @@
   * [🌐 Sending Domain Setup](email-api-smtp/sending-domain-setup.md)
   * [🔌 API Integration](email-api-smtp/api-integration.md)
   * [📮 SMTP Integration](email-api-smtp/smtp-integration.md)
-  * [📈 IP Warmup](email-api-smtp/ip-warmup.md)
+  * [📤 Bulk Stream](email-api-smtp/setup/get-started-bulk-stream.md)
+  * [⚠️ Sending Limits](email-api-smtp/setup/sending-limits.md)
 * [🎨 Email Templates](email-api-smtp/email-templates/README.md)
   * [✏️ Editing and Customizing](email-api-smtp/email-templates/editing-and-customizing.md)
   * [🔤 Handlebars Guide](email-api-smtp/email-templates/handlebars-guide.md)
@@ -28,16 +29,14 @@
   * [📬 Mailbox Providers](email-api-smtp/statistics/mailbox-providers.md)
   * [🔔 Statuses and Events](email-api-smtp/statuses-and-events.md)
 * [🛡️ Deliverability Features](email-api-smtp/deliverability/README.md)
-  * [📚 Email Deliverability Guide](email-api-smtp/deliverability/email-deliverability-guide.md)
   * [🚫 Suppressions List](email-api-smtp/suppressions-list.md)
   * [↩️ Bounce Categorization](email-api-smtp/bounce-categorization.md)
   * [💬 Feedback Loops](email-api-smtp/feedback-loops.md)
-  * [📋 Auto BCC](email-api-smtp/auto-bcc.md)
+  * [📈 Dedicated IP](email-api-smtp/deliverability/ip-warmup.md)
 * [🚀 Advanced Features](email-api-smtp/advanced/README.md)
-  * [📤 Bulk Stream](email-api-smtp/get-started-bulk-stream.md)
   * [🏷️ Custom Variables](email-api-smtp/custom-variables.md)
-  * [⚠️ Sending Limits](email-api-smtp/sending-limits.md)
   * [🔗 Excluding Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
+  * [📋 Auto BCC](email-api-smtp/advanced/auto-bcc.md)
 * [❓ Help & Support](email-api-smtp/help/README.md)
   * [FAQs](email-api-smtp/faqs.md)
   * [Troubleshooting](email-api-smtp/troubleshooting/README.md)
@@ -68,12 +67,11 @@
 * [👥 Collaboration](email-sandbox/collaboration/README.md)
   * [🤝 Sharing Sandboxes](email-sandbox/sharing-sandboxes.md)
   * [📂 Sharing Projects](email-sandbox/sharing-projects.md)
-* [🚀 Advanced Features](email-sandbox/advanced/README.md)
-  * [📊 Features and Limits](email-sandbox/features-and-limits.md)
-  * [📖 Sandbox Glossary](email-sandbox/sandbox-glossary.md)
 * [❓ Help & Support](email-sandbox/help/README.md)
   * [FAQs](email-sandbox/faqs.md)
   * [Troubleshooting](email-sandbox/troubleshooting.md)
+  * [📊 Features and Limits](email-sandbox/help/features-and-limits.md)
+  * [📖 Sandbox Glossary](email-sandbox/help/sandbox-glossary.md)
 
 ## Email Marketing
 
@@ -103,9 +101,9 @@
   * [❓ Payment and Billing FAQs](account-and-billing/payment-and-billing-faqs.md)
   * [❤️ Non-Profit and Open-Source](account-and-billing/supporting-non-profit-and-open-source-projects.md)
   * [🚫 Suspensions and Bans](account-and-billing/suspensions-and-bans.md)
+* [🔑 API Tokens](account-and-organization/api-tokens.md)
 * [🔒 Security & Privacy](privacy-and-security/README.md)
   * [🔐 Two-Factor Authentication](account-and-billing/2fa.md)
-  * [🔑 API Tokens](privacy-and-security/api-tokens.md)
   * [🛡️ GDPR Compliance](privacy-and-security/gdpr-compliance.md)
   * [✅ ISO Certification](privacy-and-security/iso-certification.md)
   * [📜 Legal Policies](privacy-and-security/legal-policies.md)

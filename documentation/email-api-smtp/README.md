@@ -24,20 +24,20 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 
 * **Enterprise-grade infrastructure**: Built for reliability and scale
 * **Automatic Failover**: Redundant systems ensure delivery
-* **Smart Routing**: Optimal path selection for each email
+* **Smart Routing**: Optimal rules selection for each email depending on recipient MX
 
 ### 📊 Analytics & Monitoring
 
 * **Real-Time Analytics**: Track opens, clicks, bounces instantly
 * **Detailed Email Logs**: Full visibility into email journey
-* **Custom Categories**: Organize and analyze by type
+* **Custom Categories**: Organize and analyze by type/templates/etc
 * **Webhook Events**: Real-time notifications for email events
 
 ### 🛡️ Deliverability Tools
 
-* [**Complete Deliverability Guide**](deliverability/email-deliverability-guide.md): Best practices for optimal inbox placement
+* [**Complete Deliverability Guide**](broken-reference): Best practices for optimal inbox placement
 * **Domain Authentication**: SPF, DKIM, DMARC setup
-* **IP Warmup**: Gradual reputation building
+* **Dedicated IP + Warmup**: Gradual reputation building
 * **Suppressions Management**: Automatic bounce handling
 * **Feedback Loops**: ISP complaint processing
 
@@ -129,10 +129,10 @@ Begin with transactional emails, then expand to bulk campaigns as needed.
 
 Mailtrap separates email traffic for optimal deliverability:
 
-| Stream            | Purpose              | Features                                    |
-| ----------------- | -------------------- | ------------------------------------------- |
-| **Transactional** | Critical user emails | High priority, immediate delivery           |
-| **Bulk**          | Marketing campaigns  | Built-in compliance, unsubscribe management |
+| Stream            | Purpose               | Features                                    |
+| ----------------- | --------------------- | ------------------------------------------- |
+| **Transactional** | Triggered user emails | High priority, immediate delivery           |
+| **Bulk**          | Marketing campaigns   | Built-in compliance, unsubscribe management |
 
 ## Getting Started
 
@@ -143,17 +143,17 @@ Mailtrap separates email traffic for optimal deliverability:
 * [Sending Domain Setup](sending-domain-setup.md)
 * [API Integration](api-integration.md)
 * [SMTP Integration](smtp-integration.md)
-* [IP Warmup](ip-warmup.md)
+* [IP Warmup](deliverability/ip-warmup.md)
 {% endcolumn %}
 
 {% column %}
 #### Essential Features
 
-* [📚 Deliverability Guide](deliverability/email-deliverability-guide.md)
+* [📚 Deliverability Guide](broken-reference)
 * [Email Templates](email-templates/)
 * [Analytics & Reports](statistics/)
 * [Deliverability Features](deliverability/)
-* [Bulk Stream](get-started-bulk-stream.md)
+* [Bulk Stream](setup/get-started-bulk-stream.md)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -191,7 +191,7 @@ Need help getting started or have questions?
 
 ## Next Steps
 
-1. [**Read the Deliverability Guide**](deliverability/email-deliverability-guide.md) - Essential best practices for inbox placement
+1. [**Read the Deliverability Guide**](broken-reference) - Essential best practices for inbox placement
 2. [**Set up your domain**](sending-domain-setup.md) - Authenticate your sending domain
 3. [**Choose integration method**](api-integration.md) - API or SMTP
 4. [**Create templates**](email-templates/) - Design reusable emails

@@ -9,7 +9,7 @@ Maximize your email deliverability with Mailtrap's comprehensive suite of delive
 
 ## 📚 Essential Guide
 
-### [Email Deliverability Guide](email-deliverability-guide.md)
+### [Email Deliverability Guide](broken-reference)
 
 **Start here!** Our comprehensive guide covers everything you need to know about achieving optimal deliverability:
 
@@ -48,7 +48,7 @@ Email deliverability directly impacts your business communication:
 
 ## Getting Started
 
-1. **Read the** [**Email Deliverability Guide**](email-deliverability-guide.md) for comprehensive best practices
+1. **Read the** [**Email Deliverability Guide**](broken-reference) for comprehensive best practices
 2. Configure your [sending domain](../sending-domain-setup.md) with proper authentication
 3. Set up [suppressions lists](../suppressions-list.md) to manage unsubscribes
 4. Monitor [bounce categorization](../bounce-categorization.md) to identify issues
@@ -74,7 +74,7 @@ For detailed deliverability optimization strategies, including:
 * Google Postmaster Tools setup
 * Monitoring and audit procedures
 
-👉 **See our complete** [**Email Deliverability Guide**](email-deliverability-guide.md)
+👉 **See our complete** [**Email Deliverability Guide**](broken-reference)
 
 ## External Resources
 

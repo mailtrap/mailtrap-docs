@@ -32,7 +32,7 @@ Modern RESTful API for programmatic email sending. Best for new applications and
 
 Traditional SMTP protocol for universal compatibility. Works with any email library or legacy system.
 
-### [IP Warmup](../ip-warmup.md)
+### [IP Warmup](../deliverability/ip-warmup.md)
 
 Gradually build your sending reputation. Essential for high-volume senders and dedicated IPs.
 

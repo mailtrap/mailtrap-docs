@@ -15,7 +15,7 @@ Mailtrap takes security and privacy seriously. We implement industry-leading sec
 
 Enhance account security with two-factor authentication. Protect against unauthorized access even if passwords are compromised.
 
-### [API Tokens](api-tokens.md)
+### [API Tokens](../account-and-organization/api-tokens.md)
 
 Secure API access with token-based authentication. Manage tokens, set permissions, and rotate credentials regularly.
 

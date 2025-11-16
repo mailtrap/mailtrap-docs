@@ -9,7 +9,7 @@ Take your email sending to the next level with Mailtrap's advanced features. The
 
 ## Features Overview
 
-### [Bulk Stream](../get-started-bulk-stream.md)
+### [Bulk Stream](../setup/get-started-bulk-stream.md)
 
 Send high-volume marketing and promotional emails efficiently with our dedicated bulk stream. Separate your transactional and bulk email traffic for better deliverability.
 
@@ -17,7 +17,7 @@ Send high-volume marketing and promotional emails efficiently with our dedicated
 
 Add custom metadata to your emails for advanced tracking and segmentation. Pass through data that helps you analyze email performance in your own systems.
 
-### [Sending Limits](../sending-limits.md)
+### [Sending Limits](../setup/sending-limits.md)
 
 Understand and manage your account's sending limits. Learn about rate limiting, daily quotas, and how to increase your limits as your needs grow.
 
@@ -25,7 +25,7 @@ Understand and manage your account's sending limits. Learn about rate limiting, 
 
 Have sensitive links that shouldn't be tracked? Learn how to exclude specific URLs from click tracking while maintaining analytics for other links.
 
-### [Auto BCC](../auto-bcc.md)
+### [Auto BCC](auto-bcc.md)
 
 Automatically send blind carbon copies of all emails to a specified address for compliance and monitoring purposes.
 
@@ -54,8 +54,8 @@ Automatically send blind carbon copies of all emails to a specified address for 
 
 ## Getting Started
 
-1. Review your current [sending limits](../sending-limits.md)
-2. Set up [bulk stream](../get-started-bulk-stream.md) for marketing emails
+1. Review your current [sending limits](../setup/sending-limits.md)
+2. Set up [bulk stream](../setup/get-started-bulk-stream.md) for marketing emails
 3. Implement [custom variables](../custom-variables.md) for enhanced tracking
 4. Configure [link exclusions](../excluding-specific-links-from-tracking.md) as needed
 
