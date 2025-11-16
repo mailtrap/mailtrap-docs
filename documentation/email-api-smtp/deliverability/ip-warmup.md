@@ -29,7 +29,9 @@ A **shared IP** is a default option with nearly all sending providers (including
 
 A **dedicated IP** is the IP address that only you use for sending emails. As such, you have full control over your reputation and can influence it with each email sent.
 
-We recommend dedicated IPs only if your volume regularly exceeds 100,000+ emails per month. No risk for 200,000 per month.
+We recommend dedicated IPs only if your volume regularly exceeds 100,000+ emails per month (no risk for 200,000 per month) and your sending emails regularly.&#x20;
+
+Each request is reviewed individually by our Deliverability team. In some cases we recommend and insist you to stay on a shared IP for your own benefits.
 
 ### Automated IP warmup at Mailtrap
 
