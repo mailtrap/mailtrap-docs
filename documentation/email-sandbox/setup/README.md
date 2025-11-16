@@ -79,18 +79,3 @@ await transporter.sendMail({
 * Retrieve and analyze emails via API
 * Automate testing workflows
 * Perfect for CI/CD pipelines
-
-### Webhook Integration
-
-* Real-time notifications
-* Event-driven testing
-* Automated test validation
-* Integration with testing frameworks
-
-## Best Practices
-
-* Use separate sandboxes for different environments
-* Implement sandbox rotation for parallel testing
-* Clear sandboxes regularly in automated tests
-* Use unique email addresses for test isolation
-* Tag emails with custom headers for easy filtering
