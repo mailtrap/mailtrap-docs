@@ -256,6 +256,7 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 
 ## Related Resources
 
+- **[📚 Email Deliverability Guide](deliverability/email-deliverability-guide.md)** - Essential reading for bulk senders
 - [Sending Domain Setup](sending-domain-setup.md)
 - [Email Templates](email-templates/README.md)
 - [Suppressions List](suppressions-list.md)
