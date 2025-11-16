@@ -32,9 +32,6 @@ Understand why emails bounce with detailed categorization. Differentiate between
 ### [Feedback Loops](../feedback-loops.md)
 Receive notifications when recipients mark your emails as spam. Automatically suppress these contacts to maintain deliverability.
 
-### [Auto BCC](../auto-bcc.md)
-Automatically send blind carbon copies of all emails to a specified address for compliance and monitoring purposes.
-
 ## Why Deliverability Matters
 
 Email deliverability directly impacts your business communication:

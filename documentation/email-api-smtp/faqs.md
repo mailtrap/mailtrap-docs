@@ -20,7 +20,7 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 
 <summary>How do I integrate Mailtrap with my application?</summary>
 
-1. [Sign up](https://mailtrap.io/register/signup/) by creating a free account.
+1. [Sign up](https://mailtrap.io/register/signup/) for an account.
 2. Go to Email Sending and select [Sending Domains](https://mailtrap.io/sending/domains).
 3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.
 4. Proceed to integrate Mailtrap with your application via SMTP or API.
@@ -147,9 +147,9 @@ For more details, check the [Sending Limits](sending-limits.md) and [Pricing pag
 
 <summary>How much does Mailtrap cost?</summary>
 
-Mailtrap plans start from $15 for 10,000 emails/month. We offer plans for businesses from $85/month for 100,000 emails, and for enterprises, there are plans from $750/month for 1,500,000 emails.
+Mailtrap offers flexible pricing plans that scale with your email volume, from starter plans for small projects to enterprise solutions for high-volume senders.
 
-To choose one that best fits your needs, check out our [pricing plans](https://mailtrap.io/pricing/?tab=api).
+For current pricing and to choose a plan that best fits your needs, visit our [pricing page](https://mailtrap.io/pricing/?tab=api).
 
 </details>
 

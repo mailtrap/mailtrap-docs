@@ -18,8 +18,7 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 ## Key Features
 
 ### 🚀 Reliable Delivery
-- **99.9% Uptime SLA**: Enterprise-grade infrastructure
-- **Global Delivery Network**: Multiple data centers worldwide
+- **Enterprise-grade infrastructure**: Built for reliability and scale
 - **Automatic Failover**: Redundant systems ensure delivery
 - **Smart Routing**: Optimal path selection for each email
 
@@ -143,14 +142,6 @@ Mailtrap separates email traffic for optimal deliverability:
 {% endcolumn %}
 {% endcolumns %}
 
-## Pricing & Plans
-
-Our transparent pricing scales with your needs:
-- **Free tier**: 1,000 emails/month
-- **Pay as you go**: From $10/10,000 emails
-- **Volume discounts**: For 100,000+ emails/month
-- **Enterprise**: Custom pricing and features
-
 ## Why Choose Mailtrap?
 
 ### For Developers
@@ -163,7 +154,7 @@ Our transparent pricing scales with your needs:
 - High deliverability rates
 - Detailed analytics and reporting
 - Scalable infrastructure
-- Competitive pricing
+- Enterprise-grade reliability
 
 ### For Teams
 - Multi-user access control

@@ -21,6 +21,9 @@ Understand and manage your account's sending limits. Learn about rate limiting, 
 ### [Excluding Links from Tracking](../excluding-specific-links-from-tracking.md)
 Have sensitive links that shouldn't be tracked? Learn how to exclude specific URLs from click tracking while maintaining analytics for other links.
 
+### [Auto BCC](../auto-bcc.md)
+Automatically send blind carbon copies of all emails to a specified address for compliance and monitoring purposes.
+
 ## Use Cases
 
 ### High-Volume Sending

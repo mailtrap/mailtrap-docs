@@ -22,7 +22,15 @@ Email Sandbox acts as a fake SMTP server that traps all emails sent from your ap
 - **Zero Risk**: Emails never reach real recipients
 - **Unlimited Testing**: No limits on test emails
 - **Multiple Sandboxes**: Separate environments for different projects
+- **Email Address per Sandbox**: Unique inbound email addresses for each sandbox
 - **Team Collaboration**: Share sandboxes with team members
+
+### 📨 Inbound Email Testing
+- **Dedicated Email Addresses**: Each sandbox gets unique @mailtrap.io addresses
+- **Real Email Reception**: Test reply workflows and email parsing
+- **Two-Way Communication**: Send and receive emails in sandbox
+- **Custom Domain Support**: Use your own domain for testing (Enterprise)
+- **Email Routing**: Test complex email routing scenarios
 
 ### 📧 Email Analysis Tools
 - **HTML/Text Preview**: See exactly how emails render
@@ -35,7 +43,7 @@ Email Sandbox acts as a fake SMTP server that traps all emails sent from your ap
 - **Deliverability Tests**: Check authentication and content
 - **Bounce Emulation**: Test bounce handling
 - **Load Testing**: Verify performance under load
-- **API Access**: Automate testing workflows
+- **API & SDKs**: Full programmatic access with official SDKs
 - **Webhook Testing**: Validate event handling
 
 ### 🤝 Collaboration Features
@@ -73,8 +81,9 @@ Ideal for designers and marketers:
 ## How It Works
 
 ### 1. Simple Integration
-Replace your SMTP settings with Sandbox credentials:
+Choose your integration method:
 
+**SMTP Configuration:**
 ```
 Host: sandbox.smtp.mailtrap.io
 Port: 2525
@@ -82,11 +91,15 @@ Username: YOUR_SANDBOX_USERNAME
 Password: YOUR_SANDBOX_PASSWORD
 ```
 
-### 2. Send Test Emails
-Your application sends emails normally - Sandbox captures them automatically.
+**Unique Email Addresses:**
+Each sandbox provides unique @mailtrap.io addresses for inbound testing.
+
+### 2. Send & Receive Test Emails
+- **Outbound**: Your application sends emails normally - Sandbox captures them
+- **Inbound**: Send emails to your sandbox's unique addresses for testing replies and parsing
 
 ### 3. Review & Analyze
-Access your sandbox to preview, test, and share captured emails.
+Access your sandbox to preview, test, and share all captured emails (both sent and received).
 
 ## Quick Start
 
@@ -125,15 +138,61 @@ server.login('username', 'password')
 server.sendmail(from_addr, to_addr, message)
 ```
 
-### API Integration
-Programmatic access for automation:
+### API Integration with Official SDKs
+Full programmatic access with our official SDKs for all major languages:
+
+**Node.js SDK:**
 ```javascript
-// Fetch emails via API
-const response = await fetch('https://mailtrap.io/api/v1/inboxes/INBOX_ID/messages', {
-  headers: {
-    'Authorization': 'Bearer YOUR_API_TOKEN'
-  }
+const { MailtrapClient } = require("mailtrap");
+
+const client = new MailtrapClient({
+  token: "YOUR_API_TOKEN",
+  testInboxId: INBOX_ID
 });
+
+// Send test email
+await client.testing.send({
+  from: { email: "test@example.com" },
+  to: [{ email: "user@example.com" }],
+  subject: "Test Email",
+  text: "Testing in sandbox"
+});
+```
+
+**PHP SDK:**
+```php
+use Mailtrap\MailtrapClient;
+use Mailtrap\Helper\ResponseHelper;
+
+$mailtrap = new MailtrapClient('YOUR_API_TOKEN');
+
+// Get sandbox messages
+$response = $mailtrap->sandbox()
+    ->inbox(INBOX_ID)
+    ->messages()
+    ->get();
+```
+
+**Available SDKs:**
+- Node.js/TypeScript
+- PHP
+- Python
+- Ruby
+- Java
+- Go
+- .NET
+
+### Email Address per Sandbox
+Each sandbox automatically gets unique email addresses:
+```
+# Example addresses for your sandbox:
+sandbox-12345@mailtrap.io
+test-project-67890@mailtrap.io
+
+# Test inbound email processing:
+1. Send email to your sandbox address
+2. Process received email via API/SDK
+3. Test reply handling and parsing
 ```
 
 ### Framework Examples
@@ -166,27 +225,6 @@ Pre-configured for popular frameworks:
 - **Bulk Operations**: Test mass email scenarios
 - **Rate Limiting**: Verify throttling behavior
 - **Queue Management**: Test email queuing
-
-## Pricing & Plans
-
-### Free Plan
-- 500 emails/month per inbox
-- 2 sandboxes
-- 5-second auto-refresh
-- 7-day email retention
-
-### Individual & Team Plans
-- Unlimited emails
-- Unlimited sandboxes
-- API access
-- Team collaboration
-- Extended retention
-
-### Enterprise
-- Custom retention policies
-- SSO integration
-- Priority support
-- SLA guarantees
 
 ## Best Practices
 

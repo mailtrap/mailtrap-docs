@@ -152,40 +152,15 @@ Ready-to-use designs:
 ## Compliance & Deliverability
 
 ### Built-in Compliance
-- **GDPR Ready**: Double opt-in, data portability
+- **GDPR Ready**: Data portability and privacy controls
 - **CAN-SPAM Compliant**: Unsubscribe links, physical address
 - **CASL Support**: Canadian anti-spam compliance
 - **Footer Management**: Automatic compliance footers
-- **Consent Tracking**: Document subscriber consent
 
 ### Deliverability Features
 - **Domain Authentication**: SPF, DKIM, DMARC
 - **List Cleaning**: Remove invalid emails
 - **Engagement Tracking**: Identify inactive subscribers
-- **Spam Testing**: Check before sending
-- **Reputation Monitoring**: Track sender score
-
-## Pricing & Plans
-
-### Starter
-- Up to 1,000 contacts
-- 10,000 emails/month
-- Basic templates
-- Email support
-
-### Growth
-- Up to 10,000 contacts
-- 100,000 emails/month
-- Advanced segmentation
-- A/B testing
-- Priority support
-
-### Business
-- Unlimited contacts
-- Custom volume
-- Custom templates
-- Dedicated IP
-- Account manager
 
 ## Integration Capabilities
 
