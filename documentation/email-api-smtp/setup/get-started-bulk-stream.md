@@ -17,11 +17,15 @@ Bulk Stream is Mailtrap's dedicated infrastructure for sending marketing, promot
 
 ## Why Use Bulk Stream?
 
+### Suppression list separation
+
+* **We separate suppression by a stream**. So e.g. you use one domain for both transactional and bulk emails and your recipients unsubscribed from bulk email - it won't affect your transactional email.
+
 ### Deliverability Protection
 
 Using separate streams for transactional and bulk emails is critical for maintaining high deliverability:
 
-* **Reputation Isolation**: Marketing emails don't affect your transactional email reputation
+* **Reputation Isolation**: Marketing emails don't affect your transactional email reputation. Ideally you should use a seperate subdomain/domain for your bulk emails.
 * **Different IP Pools**: Dedicated IPs for bulk sending
 * **Optimized Routing**: Infrastructure optimized for bulk sending patterns
 * **Better Inbox Placement**: Proper categorization by email providers
@@ -33,7 +37,6 @@ Mailtrap automatically adds required elements to comply with Google, Yahoo, and 
 * **List-Unsubscribe Headers**: One-click unsubscribe functionality
 * **List-Unsubscribe-Post Headers**: RFC 8058 compliance
 * **Precedence Headers**: Proper bulk email identification
-* **Authentication Headers**: Enhanced SPF, DKIM, and DMARC handling
 * **Unsubscribe Links**: Automatic footer unsubscribe links when not present
 
 {% hint style="info" %}
@@ -75,25 +78,6 @@ await bulkClient.send({
   html: "<p>Newsletter content...</p>",
   category: "newsletter"  // Categorize for analytics
 });
-```
-
-```php
-// PHP SDK example
-use Mailtrap\Config;
-use Mailtrap\MailtrapClient;
-
-// For bulk emails
-$config = new Config('your_api_token');
-$mailtrap = new MailtrapClient($config);
-
-// Use bulk API
-$response = $mailtrap->bulk()->emails()->send([
-    'from' => ['email' => 'marketing@yourdomain.com'],
-    'to' => [['email' => 'subscriber@example.com']],
-    'subject' => 'Our Monthly Newsletter',
-    'html' => '<p>Newsletter content...</p>',
-    'category' => 'newsletter'
-]);
 ```
 
 ## Setup Instructions
@@ -198,15 +182,13 @@ When using Bulk Stream, Mailtrap automatically includes:
 List-Unsubscribe: <mailto:unsubscribe@yourdomain.com>, <https://yourdomain.com/unsubscribe?id=xyz>
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
 Precedence: bulk
-X-Mailer: Mailtrap Bulk
 ```
 
 Plus, if no unsubscribe link is detected in your HTML, we add a compliant footer:
 
 ```html
 <div style="text-align: center; margin-top: 20px;">
-  <a href="{unsubscribe_url}">Unsubscribe</a> |
-  <a href="{preferences_url}">Manage Preferences</a>
+  <a href="__unsubscribe_url__">Unsubscribe</a> |
 </div>
 ```
 
