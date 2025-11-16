@@ -224,19 +224,19 @@ Ready-to-use designs:
 #### Audience & Analytics
 
 * [Contact Management](contacts.md)
-* [List Segmentation](audience/)
+* [List Segmentation](broken-reference)
 * [Campaign Statistics](statistics.md)
-* [Reports & Analytics](analytics/)
+* [Reports & Analytics](broken-reference)
 {% endcolumn %}
 {% endcolumns %}
 
 ## Support & Resources
 
 * 📚 [Campaign Guide](campaigns/)
-* 👥 [Audience Management](audience/)
-* 📊 [Analytics Guide](analytics/)
+* 👥 [Audience Management](broken-reference)
+* 📊 [Analytics Guide](broken-reference)
 * 💬 [FAQs](faqs.md)
-* 🔧 [Troubleshooting](troubleshooting.md)
+* 🔧 [Troubleshooting](broken-reference)
 
 ## Next Steps
 

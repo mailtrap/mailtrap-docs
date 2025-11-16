@@ -60,7 +60,7 @@
   * [📬 Deliverability Tests](email-sandbox/deliverability-tests.md)
   * [↩️ Bounce Emulator](email-sandbox/bounce-emulator.md)
   * [⚡ Load Testing](email-sandbox/email-app-load-testing.md)
-* [📁 Email Management](email-sandbox/management/README.md)
+* [📁 Sandbox Management](email-sandbox/management/README.md)
   * [🔍 Searching Messages](email-sandbox/searching-messages.md)
   * [↪️ Automatic Forwarding](email-sandbox/automatic-email-forwarding.md)
   * [📤 Manual Forwarding](email-sandbox/manual-email-forwarding.md)
@@ -79,14 +79,11 @@
 * [📢 Campaign Management](email-marketing/campaigns/README.md)
   * [📅 Campaign Scheduling](email-marketing/campaign-scheduling.md)
   * [🎨 Email Templates](email-marketing/email-templates.md)
-  * [⚙️ Automations](email-marketing/automations.md)
-* [👥 Audience Management](email-marketing/audience/README.md)
-  * [👤 Contacts](email-marketing/contacts.md)
-* [📊 Analytics & Reports](email-marketing/analytics/README.md)
-  * [📈 Statistics](email-marketing/statistics.md)
+* [🤖 Automations](email-marketing/automations.md)
+* [👤 Contacts](email-marketing/contacts.md)
+* [📈 Statistics](email-marketing/statistics.md)
 * [❓ Help & Support](email-marketing/help/README.md)
   * [💬 FAQs](email-marketing/faqs.md)
-  * [🔧 Troubleshooting](email-marketing/troubleshooting.md)
 
 ## Account & Organization
 

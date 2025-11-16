@@ -25,20 +25,6 @@ Email Marketing is designed for bulk promotional emails with built-in campaign t
 
 </details>
 
-<details>
-
-<summary>What's included in the free plan?</summary>
-
-The free plan includes:
-
-* Up to 1,000 contacts
-* 1,000 emails per month
-* Basic templates
-* Email support
-* Core analytics
-
-</details>
-
 ## Campaign Creation
 
 <details>
@@ -59,19 +45,6 @@ Yes, you can import your own HTML templates or create them from scratch using ou
 
 <details>
 
-<summary>What image formats are supported?</summary>
-
-We support JPG, PNG, and GIF formats. For best results:
-
-* Keep images under 1MB each
-* Use JPG for photos
-* Use PNG for graphics with transparency
-* Optimize GIFs for file size
-
-</details>
-
-<details>
-
 <summary>How do I personalize emails?</summary>
 
 Use merge tags in your content:
@@ -86,18 +59,6 @@ These will be replaced with actual contact data when sent.
 
 </details>
 
-<details>
-
-<summary>Can I schedule campaigns for different time zones?</summary>
-
-Yes, you can either:
-
-* Schedule for a specific time zone
-* Send based on recipient's time zone (if that data is available)
-* Use our AI-powered send time optimization
-
-</details>
-
 ## Contact Management
 
 <details>
@@ -109,34 +70,7 @@ You can import contacts via:
 1. **CSV Upload**: Upload a CSV file with contact data
 2. **Copy/Paste**: Paste contact list directly
 3. **API**: Import programmatically
-4. **Integrations**: Sync from CRM or e-commerce platforms
-
-</details>
-
-<details>
-
-<summary>What is double opt-in and should I use it?</summary>
-
-Double opt-in requires subscribers to confirm their email address after signing up. We strongly recommend it because:
-
-* Ensures valid email addresses
-* Improves deliverability
-* Reduces spam complaints
-* Required in some regions (GDPR)
-
-</details>
-
-<details>
-
-<summary>How do I segment my contacts?</summary>
-
-Create segments based on:
-
-* Demographics (location, age, gender)
-* Behavior (opens, clicks, purchases)
-* Engagement (active, inactive)
-* Custom fields (any data you collect)
-* Signup source or date
+4. **Integrations**: Sync from CRM or e-commerce platforms using our Zapier, Make.com, n8n integrations.
 
 </details>
 
@@ -156,8 +90,7 @@ Unsubscribed contacts:
 
 * Remain in your account for record-keeping
 * Cannot receive campaigns
-* Don't count toward your plan limits
-* Can be re-subscribed only if they opt-in again
+* Count toward your plan limits
 
 </details>
 
@@ -206,19 +139,7 @@ Best practices:
 6. Include unsubscribe links
 7. Monitor engagement metrics
 
-</details>
-
-<details>
-
-<summary>What is the sending limit?</summary>
-
-Limits depend on your plan:
-
-* Free: 1,000/month
-* Starter: 10,000/month
-* Growth: 100,000/month
-* Business: 1,000,000+/month
-* Enterprise: Custom limits
+Check our [Deliverability Guide](https://mailtrap.io/email-deliverability-guide/) for more info.
 
 </details>
 
@@ -257,75 +178,6 @@ Open tracking works via a tiny, invisible image (pixel) in the email. When the i
 
 * Some clients block images (undercounts opens)
 * Privacy features may affect accuracy
-* Text-only emails can't track opens
-
-</details>
-
-<details>
-
-<summary>What's the difference between unique and total clicks?</summary>
-
-* **Unique clicks**: Number of recipients who clicked any link
-* **Total clicks**: Total number of all link clicks
-
-Example: If one person clicks 3 different links, that's 1 unique click and 3 total clicks.
-
-</details>
-
-<details>
-
-<summary>Can I export campaign reports?</summary>
-
-Yes, you can export:
-
-* Summary reports as PDF
-* Detailed data as CSV
-* API access for custom reporting
-* Scheduled report delivery via email
-
-</details>
-
-## Automation & Advanced Features
-
-<details>
-
-<summary>What automations are available?</summary>
-
-Available automation types:
-
-* Welcome series for new subscribers
-* Abandoned cart recovery
-* Birthday/anniversary emails
-* Re-engagement campaigns
-* Post-purchase follow-ups
-* Drip campaigns
-
-</details>
-
-<details>
-
-<summary>How does A/B testing work?</summary>
-
-A/B testing allows you to:
-
-1. Create two versions (subject line, content, etc.)
-2. Send to a test group (10-50% of list)
-3. Measure performance (opens, clicks)
-4. Automatically send winner to remainder
-5. Requires minimum 1,000 recipients
-
-</details>
-
-<details>
-
-<summary>Can I integrate with my CRM/e-commerce platform?</summary>
-
-Yes, we integrate with:
-
-* **CRM**: Salesforce, HubSpot, Pipedrive
-* **E-commerce**: Shopify, WooCommerce, Magento
-* **Others**: Via Zapier or API
-* **Custom**: Webhook and API available
 
 </details>
 
@@ -338,10 +190,8 @@ Yes, we integrate with:
 Yes, we are fully GDPR compliant:
 
 * Data processing agreements available
-* EU data centers
 * Data portability features
 * Right to deletion support
-* Consent tracking tools
 
 </details>
 
@@ -370,7 +220,6 @@ Unsubscribe process:
 2. Immediate processing (within seconds)
 3. Confirmation page shown
 4. Contact moved to suppression list
-5. Cannot be re-added without new opt-in
 
 </details>
 
@@ -392,105 +241,11 @@ Yes, you can:
 
 <details>
 
-<summary>What happens if I exceed my limits?</summary>
-
-When approaching limits:
-
-* Email notification at 80%
-* Warning at 90%
-* Sending paused at 100%
-* Option to upgrade or purchase add-ons
-* No overage charges without consent
-
-</details>
-
-<details>
-
 <summary>Do unused emails roll over?</summary>
 
 No, monthly email quotas don't roll over. However:
 
-* Annual plans provide yearly quota
-* Can purchase additional emails
+* Additional emails counted as overage
 * Upgrade anytime for more capacity
-
-</details>
-
-## Troubleshooting
-
-<details>
-
-<summary>Why is my campaign not sending?</summary>
-
-Common reasons:
-
-1. Domain not verified
-2. No recipients selected
-3. Sending limits reached
-4. Campaign not approved
-5. Schedule set for future
-6. Payment issue
-
-Check campaign status for specific error.
-
-</details>
-
-<details>
-
-<summary>Why are emails going to spam?</summary>
-
-Possible causes:
-
-* Domain not properly authenticated
-* Poor list quality (old/purchased)
-* Spam trigger words in content
-* Too many images, not enough text
-* Missing unsubscribe link
-* Sudden volume increase
-
-Review our deliverability guide for solutions.
-
-</details>
-
-<details>
-
-<summary>How do I recover a deleted campaign?</summary>
-
-Deleted campaigns:
-
-* Moved to trash for 30 days
-* Can be restored during this period
-* Permanently deleted after 30 days
-* Statistics retained for records Contact support for emergency recovery.
-
-</details>
-
-## Getting Help
-
-<details>
-
-<summary>How do I contact support?</summary>
-
-Support options:
-
-* **Email**: support@mailtrap.io
-* **Help Center**: help.mailtrap.io
-* **Live Chat**: Business hours
-* **Documentation**: Current docs
-* **API Reference**: api-docs.mailtrap.io
-
-</details>
-
-<details>
-
-<summary>Is training available?</summary>
-
-Yes, we offer:
-
-* Free onboarding for new users
-* Video tutorials and guides
-* Monthly webinars
-* Custom training (Enterprise)
-* Certification program
 
 </details>

@@ -13,7 +13,7 @@ Find answers to common questions and troubleshoot issues with Email Marketing. G
 
 Quick answers to common questions about Email Marketing campaigns, contact management, templates, and analytics.
 
-### [Troubleshooting Guide](../troubleshooting.md)
+### [Troubleshooting Guide](broken-reference)
 
 Step-by-step solutions for campaign issues, delivery problems, and configuration errors.
 
@@ -281,9 +281,9 @@ WHERE campaign_id = 'YOUR_CAMPAIGN_ID';
 
 ### Advanced Topics
 
-* [Segmentation Strategies](../audience/)
+* [Segmentation Strategies](broken-reference)
 * [Automation Workflows](../automations.md)
-* [Analytics Deep Dive](../analytics/)
+* [Analytics Deep Dive](broken-reference)
 * [Template Optimization](../email-templates.md)
 
 ### Webinars & Training

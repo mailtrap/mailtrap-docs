@@ -9,6 +9,12 @@ description: >-
 
 Mailtrap Contacts allows you to upload and store your contacts on Mailtrap platform and organize them in different email lists to send targeted campaigns.
 
+### Adding Contacts
+
+* **CSV Import**: Bulk import from spreadsheets
+* **API Integration**: Sync from your application
+* **Third-party Import**: using our Zapier, Make.com, n8n integrations.
+
 #### Before uploading your contacts
 
 * Review your email list and identify the variables, such as first and last name, date of birth, address, etc. You’ll need these to create custom fields.

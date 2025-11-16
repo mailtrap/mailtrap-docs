@@ -5,7 +5,7 @@ description: >-
   actions, and rules
 ---
 
-# ⚙️ Automations
+# 🤖 Automations
 
 Automations feature allows you to create, automated email sequences to engage your contacts.
 
