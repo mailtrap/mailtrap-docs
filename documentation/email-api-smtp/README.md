@@ -35,7 +35,7 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 
 ### 🛡️ Deliverability Tools
 
-* [**Complete Deliverability Guide**](broken-reference): Best practices for optimal inbox placement
+* [**Complete Deliverability Guide**](https://mailtrap.io/email-deliverability-guide/): Best practices for optimal inbox placement
 * **Domain Authentication**: SPF, DKIM, DMARC setup
 * **Dedicated IP + Warmup**: Gradual reputation building
 * **Suppressions Management**: Automatic bounce handling
