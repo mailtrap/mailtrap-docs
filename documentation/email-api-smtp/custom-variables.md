@@ -5,11 +5,13 @@ description: >-
   IDs, and other metadata via Email Logs using X-MT-Custom-Variables header.
 ---
 
+# 🏷️ Custom Variables
+
 Custom variables are pieces of information that you can include with emails to better manage them in the future. They allow you to add unique data to each message, for example, the data can be an internal `user_id`, `inbox_id`, etc.
 
 For now, you can only access them via Email Logs.
 
-### How to access custom variables
+#### How to access custom variables
 
 1. Click on the given functionality
 2. Choose an email
@@ -17,7 +19,7 @@ For now, you can only access them via Email Logs.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/custom-variables-email-info-tab.png" alt="Email info tab showing custom variables in Mailtrap interface" width="563"></div>
 
-### **How to set up custom variables with SMTP**
+#### **How to set up custom variables with SMTP**
 
 Mailtrap has an option to pass unique arguments to each sent email via the `X-MT-Custom-Variables`. And we add the arguments to the RAW email body. Of course, the RAW data is visible to the sender but not the end-user.
 

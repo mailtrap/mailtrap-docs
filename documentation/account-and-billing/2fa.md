@@ -1,12 +1,15 @@
 ---
 title: 2FA
-description: Set up two-factor authentication (2FA) for your Mailtrap account to enhance security. Learn how to enable, disable, and recover your account with 2FA.
+description: >-
+  Set up two-factor authentication (2FA) for your Mailtrap account to enhance
+  security. Learn how to enable, disable, and recover your account with 2FA.
 ---
 
-## Setting up 2FA
+# 🔐 Two-Factor Authentication
+
+### Setting up 2FA
 
 1. Go to Account (top-right) → My profile → Authentication
-
 2. Click on Enable 2FA under the Two-Factor Authentication (2FA) section
 
 <div align="left"><img src="../.gitbook/assets/2fa-enable-button.png" alt="Mailtrap My Profile Authentication page showing Enable 2FA button under Two-Factor Authentication section" width="563"></div>
@@ -28,7 +31,7 @@ This will take you to the following page, where you will be provided with the re
 
 Lastly, click on Finish Setup, and you will have enabled 2FA for your Mailtrap account.
 
-## Disabling 2FA
+### Disabling 2FA
 
 1. Navigate to Account (top-right) → My profile → Authentication.
 2. Click on Disable under the Two-Factor Authentication section.
@@ -37,7 +40,7 @@ Lastly, click on Finish Setup, and you will have enabled 2FA for your Mailtrap a
 
 Please also note that disabling 2FA also resets the recovery codes, so after setting it up again, the old codes will no longer work, regardless of whether they had been used or not.
 
-## Logging in via 2FA
+### Logging in via 2FA
 
 During login, if you have enabled 2FA, you will be redirected to the following screen upon entering the correct username/password combination:
 
@@ -45,15 +48,15 @@ During login, if you have enabled 2FA, you will be redirected to the following s
 
 To successfully login, all you have to do is enter the code provided by your authenticator app.
 
-## Recovering account
+### Recovering account
 
-### No access to the authenticator app
+#### No access to the authenticator app
 
 If you can't access your authenticator app, simply use one of the recovery codes at the two-factor authentication step. Then, disable the 2FA and set it up with a different device or app. Please remember to save your new recovery codes, as the old ones will no longer work.
 
 Important: Each recovery code only works once.
 
-### Lost recovery codes
+#### Lost recovery codes
 
 In case you cannot access or use your recovery codes for any reason, you can contact Support for help. Our Support Agent will:
 
@@ -64,12 +67,11 @@ Lastly, the Support Agent will inform you that you can login and set up 2FA agai
 
 Note: If 2FA is enforced by your account owner, you will be prompted to set it up the first time you log in.
 
-## Enforcing 2FA for all account users
+### Enforcing 2FA for all account users
 
 As a Mailtrap account owner, you can enforce 2FA for all users linked to the account, except those who login via SSO. Moreover, you can add a grace period, during which setting up 2FA can be skipped.
 
 1. Navigate to Settings → Account Settings → Two-Factor Authentication tab
-
 2. Tick the "Require 2FA for all users on this account" box
 
 <div align="left"><img src="../.gitbook/assets/2fa-enforce-account-setting.png" alt="Account Settings page with Require 2FA for all users checkbox highlighted" width="563"></div>
@@ -78,7 +80,7 @@ After enforcing 2FA as an account owner, you can set a grace period, during whic
 
 <div align="left"><img src="../.gitbook/assets/2fa-grace-period-calendar.png" alt="2FA grace period settings with calendar date picker for setting grace period end date" width="563"></div>
 
-## Email-based 2FA on unrecognized devices
+### Email-based 2FA on unrecognized devices
 
 To protect accounts with no 2FA enabled, Mailtrap will require email-based 2FA for new unrecognized devices.
 
@@ -109,16 +111,16 @@ Cases when a new device might be detected:
 * An updated version of the same browser on the same device
 * The same version of the same browser on the same device, after some time has passed
 
-## 2FA Support FAQ
+### 2FA Support FAQ
 
-### 1. What's happening? Why has our signing-in behavior changed?
+#### 1. What's happening? Why has our signing-in behavior changed?
 
 Mailtrap implemented 2FA, or two-factor authentication, to additionally protect customer's accounts against attackers.
 
-### 2. When did we release the changes?
+#### 2. When did we release the changes?
 
 We released those features on Monday Oct 7, 2024 1:08 PM (UTC+3:00)
 
-### 3. Can we disable the OTP sent via email?
+#### 3. Can we disable the OTP sent via email?
 
 There's no way to disable the OTP sent via email. The only way to skip it is having 2FA enabled.

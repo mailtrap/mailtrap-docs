@@ -5,7 +5,7 @@ description: >-
   Templates, including syntax examples, helpers, and practical use cases.
 ---
 
-# Handlebars Guide
+# 🔤 Handlebars Guide
 
 Mailtrap Email Templates support the Handlebars templating language. It combines an input object (JSON) and a template to create text formats, HTML, or an email subject.
 

@@ -3,9 +3,11 @@ title: Email Marketing
 description: Learn how to set up and send email marketing campaigns with Mailtrap
 ---
 
+# 📨 Email Marketing
+
 Make sure you've added and [verified a domain](../email-api-smtp/sending-domain-setup.md), or you won't be able to send a campaign.
 
-## How to set up and send a campaign
+### How to set up and send a campaign
 
 {% stepper %}
 {% step %}
@@ -75,7 +77,7 @@ To schedule the campaign, click Schedule Campaign, select the date, and choose t
 {% endstep %}
 {% endstepper %}
 
-## What's next?
+### What's next?
 
 Once your campaign has been sent, you can check the campaign deliverability data and stats. Here's how to do it:
 

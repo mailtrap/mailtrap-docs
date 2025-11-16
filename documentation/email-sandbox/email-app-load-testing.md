@@ -1,7 +1,11 @@
 ---
 title: Email app load testing
-description: Test your email application at scale using the Sandbox Enterprise plan with up to 150 emails per 10 seconds across 300 sandboxes
+description: >-
+  Test your email application at scale using the Sandbox Enterprise plan with up
+  to 150 emails per 10 seconds across 300 sandboxes
 ---
+
+# ⚡ Load Testing
 
 Email app load testing is one of the most popular cases of using Sandbox Enterprise plan. This plan allows you to send up to 150 emails every 10 seconds to as many as 300 sandboxes.
 
@@ -18,9 +22,9 @@ By default, the sandbox email address is disabled for security reasons. To activ
 
 <div align="left"><img src="../.gitbook/assets/sandbox-enable-email-address.png" alt="Three dots menu displaying Enable, Edit, and Reset Address options for sandbox email" width="375"></div>
 
-## Load testing use case
+### Load testing use case
 
-Large-scale systems employ numerous servers to distribute loading. Specifying  **a separate testing email address for each server** allows you to follow and inspect failures or unexpected behavior. This way you can test and load all your resources at once and then filter the results accordingly.
+Large-scale systems employ numerous servers to distribute loading. Specifying **a separate testing email address for each server** allows you to follow and inspect failures or unexpected behavior. This way you can test and load all your resources at once and then filter the results accordingly.
 
 Here is how it looks in practice:
 

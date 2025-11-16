@@ -20,6 +20,8 @@ layout:
     visible: true
 ---
 
+# 🔔 Statuses and Events
+
 When sending emails with Mailtrap, you’ll often encounter the terms Status and Event.
 
 **Status** is the latest delivery status of an email. Each status bears a distinct color, and an email can only have one status at a time. The available statuses are: **Delivered, Not Delivered, Enqueued,** and **Opted Out**.

@@ -20,6 +20,8 @@ layout:
     visible: true
 ---
 
+# 📈 Stats Dashboard
+
 Mailtrap provides analytics for all the emails you send.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/unknown (2).png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"></div>
@@ -32,7 +34,7 @@ On the statistics dashboards, you can see the following metrics:
 * Bounce rate
 * Spam complaints
 
-#### Navigating around the statistics dashboards
+**Navigating around the statistics dashboards**
 
 In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
@@ -42,7 +44,7 @@ By default, the stats are shown for the last week + today.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-mailbox-providers-overview.png" alt="Stats Overview showing mailbox provider breakdown with delivery rates, open rates, click rates, bounce rates, and spam complaints for providers like Google Workspace, Office 365, and Others" width="563"></div>
 
-#### Thresholds <a href="#thresholds-s8z17" id="thresholds-s8z17"></a>
+**Thresholds**
 
 The thresholds are based on our extensive cross-industry research and, at this point, can’t be edited. The current values are:
 
@@ -53,7 +55,7 @@ The thresholds are based on our extensive cross-industry research and, at this p
   * 0.08%-0.1% is a warning level (yellow)
   * \>0.1% is a critical level (red)
 
-#### Terminology <a href="#terminology-tkssh" id="terminology-tkssh"></a>
+**Terminology**
 
 **Delivered**
 

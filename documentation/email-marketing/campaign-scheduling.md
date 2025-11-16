@@ -3,6 +3,8 @@ title: Campaign Scheduling
 description: Schedule your email campaigns up to two weeks in advance
 ---
 
+# 📅 Campaign Scheduling
+
 Once you have an email campaign ready for launch, you can schedule it by clicking on Schedule Campaign → Schedule Campaign.
 
 On the next page, you'll be able to schedule a campaign two weeks in advance.

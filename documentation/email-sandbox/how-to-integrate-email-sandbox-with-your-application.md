@@ -1,9 +1,13 @@
 ---
 title: How to integrate Email Sandbox with your application
-description: Learn how to integrate sandbox with your application using SMTP credentials or code samples
+description: >-
+  Learn how to integrate sandbox with your application using SMTP credentials or
+  code samples
 ---
 
-## #1- Copy SMTP credentials
+# 🔌 Application Integration
+
+### #1- Copy SMTP credentials
 
 Follow these steps:
 
@@ -23,7 +27,7 @@ Follow these steps:
 
 <div align="left"><img src="../.gitbook/assets/sandbox-integration-email-received.png" alt="Sandbox inbox displaying received test email message" width="563"></div>
 
-## #2 - Select your integration
+### #2 - Select your integration
 
 Instead of copy-pasting the SMTP credentials, you can use the code samples already containing your credentials.
 

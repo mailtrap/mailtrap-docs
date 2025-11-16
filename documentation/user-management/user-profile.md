@@ -1,11 +1,16 @@
 ---
 title: User Profile
-description: Manage your Mailtrap user profile and account settings. Learn how to update your profile, delete your user account, create new accounts, and leave existing accounts.
+description: >-
+  Manage your Mailtrap user profile and account settings. Learn how to update
+  your profile, delete your user account, create new accounts, and leave
+  existing accounts.
 ---
+
+# 👤 User Profile
 
 Once you register with Mailtrap, we automatically create an **account** and a **user profile** for you.**Users** belong to accounts (organisations). Each user and user profile is defined by their email address and may belong to multiple accounts. You use the same credentials to access all your Mailtrap accounts.
 
-## User Profile Management
+### User Profile Management
 
 To manage your user profile, select your current account name or email address in the upper right corner, then click **MyProfile** in the drop-down menu.
 
@@ -19,7 +24,7 @@ The tokens under **User settings** work only with Mailtrap Email API v1 and will
 
 <div align="left"><img src="../.gitbook/assets/user-profile-settings.png" alt="Mailtrap User Settings page showing profile information, OAuth providers, and API tokens" width="563"></div>
 
-## Deleting Your User Profile
+### Deleting Your User Profile
 
 Click on your account name or email address and choose **My Profile**.
 
@@ -33,7 +38,7 @@ Only, keep in mind that the action is irreversible and wipes out all associated 
 
 If you have problems deleting your Mailtrap user profile, send us an email with your request at [support@mailtrap.io](mailto:support@mailtrap.io).
 
-## Create Account
+### Create Account
 
 When you delete just your account, your Mailtrap user profile isn't deleted and you can create a new account. This is the only available thing to do when you don't own or don't belong to any account.
 
@@ -41,7 +46,7 @@ When you delete just your account, your Mailtrap user profile isn't deleted and 
 
 If you want to delete your Mailtrap user profile, follow the steps described in the previous section. For more information on privacy protection, check your [rights to be forgotten](https://mailtrap.io/dpa/#411-Deletion-or-Retrieval-of-Personal-Data).
 
-## Leave Account
+### Leave Account
 
 You can also leave accounts that you belong to but don't own them. All the account data stays intact, but you lose the access to it. Use this option if you no longer work with an organisation or a team and don't want to access their data anymore.
 

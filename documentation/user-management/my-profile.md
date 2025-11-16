@@ -1,7 +1,12 @@
 ---
 title: My Profile
-description: Manage your Mailtrap user profile settings, including email address, password, OAuth providers, and account access. Learn how to delete your profile or switch between accounts.
+description: >-
+  Manage your Mailtrap user profile settings, including email address, password,
+  OAuth providers, and account access. Learn how to delete your profile or
+  switch between accounts.
 ---
+
+# ⚙️ My Profile
 
 Mailtrap defines your user profile by your email address, and you can't use Mailtrap without the address.
 

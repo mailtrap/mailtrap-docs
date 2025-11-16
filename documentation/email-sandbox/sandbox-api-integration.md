@@ -1,20 +1,24 @@
 ---
 title: Sandbox API integration
-description: Learn how to use the Sandbox API to automate testing and manage email sandboxes programmatically
+description: >-
+  Learn how to use the Sandbox API to automate testing and manage email
+  sandboxes programmatically
 ---
 
-## How the API works
+# 🔗 Sandbox API
+
+### How the API works
 
 The testing API uses REST protocol and can return calls as JSON objects. And it's compatible with the majority of programming languages.
 
 Mailtrap supports the following HTTPs requests:
 
 * **POST** to create a resource
-* **PATCH**  to update a resource
+* **PATCH** to update a resource
 * **GET** to get a resource or list of resources
 * **DELETE** to delete a resource
 
-## What you can do with the Sandbox API
+### What you can do with the Sandbox API
 
 Via the API, you can run the following commands:
 
@@ -35,7 +39,7 @@ This way, you can test and verify the following scenarios:
 * Important links, such as reset password and account confirmation, work.
 * Your message doesn't trigger a spam filter and your domain is not blacklisted, etc.
 
-## How to get started with Sandbox API
+### How to get started with Sandbox API
 
 First, you need to get a token. You can find it under Settings, API Tokens.
 
@@ -43,7 +47,7 @@ First, you need to get a token. You can find it under Settings, API Tokens.
 
 To learn more about managing your tokens, please [check this guide](../privacy-and-security/api-tokens.md). Then, there are a couple ways to send authenticated HTTP requests:
 
-* Send a HTTP header  `Api-Token: {api_token}` , where `{api_token}`  is your API token
-* Send a HTTP header `Authorization: Bearer #{token}` , where `{api_token}`   is your API token (more info: Token Access Authentication)
+* Send a HTTP header `Api-Token: {api_token}` , where `{api_token}` is your API token
+* Send a HTTP header `Authorization: Bearer #{token}` , where `{api_token}` is your API token (more info: Token Access Authentication)
 
 Go to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api), check samples, and experiment in the console.

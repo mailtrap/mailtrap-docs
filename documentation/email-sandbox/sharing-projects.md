@@ -3,11 +3,13 @@ title: Sharing projects
 description: Organize and share projects to collaborate with team members on email testing
 ---
 
-## How to organize projects
+# 📂 Sharing Projects
+
+### How to organize projects
 
 All incoming emails in Sandbox are organized into sandboxes - the folders that are grouped into projects. Usually, projects are used to separate companies, environments, or (surprisingly) projects.
 
-## How to share your projects
+### How to share your projects
 
 Sharing options are available starting from the Team plan.
 
@@ -26,7 +28,7 @@ It doesn't matter which option you choose. New users will be visible in the Sand
 * Project or account admin
 * Account owner
 
-## Important Notes
+### Important Notes
 
 The User Management section is visible to Account Admins and the Account owner.
 

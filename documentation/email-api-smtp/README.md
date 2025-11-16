@@ -1,63 +1,74 @@
 ---
 title: Email API/SMTP Overview
-description: Send transactional and bulk emails reliably with Mailtrap's Email API and SMTP service
+description: >-
+  Send transactional and bulk emails reliably with Mailtrap's Email API and SMTP
+  service
 ---
 
-# Email API/SMTP Overview
+# 📋 Overview
 
 Mailtrap Email API/SMTP is a reliable email delivery service designed for developers and businesses to send transactional and bulk emails at scale. Whether you're sending password resets, order confirmations, or marketing campaigns, we ensure your emails reach the inbox.
 
 ## What is Email API/SMTP?
 
 Email API/SMTP provides two powerful methods for sending emails:
-- **RESTful API**: Modern, flexible API for programmatic email sending
-- **SMTP Service**: Traditional protocol compatible with any email client or library
+
+* **RESTful API**: Modern, flexible API for programmatic email sending
+* **SMTP Service**: Traditional protocol compatible with any email client or library
 
 Both methods offer the same features, deliverability, and analytics - choose based on your technical requirements.
 
 ## Key Features
 
 ### 🚀 Reliable Delivery
-- **Enterprise-grade infrastructure**: Built for reliability and scale
-- **Automatic Failover**: Redundant systems ensure delivery
-- **Smart Routing**: Optimal path selection for each email
+
+* **Enterprise-grade infrastructure**: Built for reliability and scale
+* **Automatic Failover**: Redundant systems ensure delivery
+* **Smart Routing**: Optimal path selection for each email
 
 ### 📊 Analytics & Monitoring
-- **Real-Time Analytics**: Track opens, clicks, bounces instantly
-- **Detailed Email Logs**: Full visibility into email journey
-- **Custom Categories**: Organize and analyze by type
-- **Webhook Events**: Real-time notifications for email events
+
+* **Real-Time Analytics**: Track opens, clicks, bounces instantly
+* **Detailed Email Logs**: Full visibility into email journey
+* **Custom Categories**: Organize and analyze by type
+* **Webhook Events**: Real-time notifications for email events
 
 ### 🛡️ Deliverability Tools
-- **[Complete Deliverability Guide](deliverability/email-deliverability-guide.md)**: Best practices for optimal inbox placement
-- **Domain Authentication**: SPF, DKIM, DMARC setup
-- **IP Warmup**: Gradual reputation building
-- **Suppressions Management**: Automatic bounce handling
-- **Feedback Loops**: ISP complaint processing
+
+* [**Complete Deliverability Guide**](deliverability/email-deliverability-guide.md): Best practices for optimal inbox placement
+* **Domain Authentication**: SPF, DKIM, DMARC setup
+* **IP Warmup**: Gradual reputation building
+* **Suppressions Management**: Automatic bounce handling
+* **Feedback Loops**: ISP complaint processing
 
 ### ⚡ Developer-Friendly
-- **Official SDKs**: Node.js, PHP, Python, Ruby, and more
-- **RESTful API**: Simple JSON-based communication
-- **SMTP Integration**: Works with existing email libraries
-- **Sandbox Testing**: Test before production
+
+* **Official SDKs**: Node.js, PHP, Python, Ruby, and more
+* **RESTful API**: Simple JSON-based communication
+* **SMTP Integration**: Works with existing email libraries
+* **Sandbox Testing**: Test before production
 
 ## Use Cases
 
 ### Transactional Emails
+
 Perfect for critical user communications:
-- Password resets and account verification
-- Order confirmations and shipping notifications
-- Appointment reminders and alerts
-- System notifications and updates
-- Two-factor authentication codes
+
+* Password resets and account verification
+* Order confirmations and shipping notifications
+* Appointment reminders and alerts
+* System notifications and updates
+* Two-factor authentication codes
 
 ### Bulk Emails
+
 Dedicated infrastructure for marketing:
-- Newsletters and announcements
-- Promotional campaigns
-- Product updates and releases
-- Event invitations
-- Customer surveys
+
+* Newsletters and announcements
+* Promotional campaigns
+* Product updates and releases
+* Event invitations
+* Customer surveys
 
 ## Quick Start Guide
 
@@ -107,74 +118,81 @@ await client.send({
 {% endtabs %}
 
 ### 2. Verify Your Domain
+
 Add DNS records to authenticate your sending domain and improve deliverability.
 
 ### 3. Start Sending
+
 Begin with transactional emails, then expand to bulk campaigns as needed.
 
 ## Two Streams Architecture
 
 Mailtrap separates email traffic for optimal deliverability:
 
-| Stream | Purpose | Features |
-|--------|---------|----------|
-| **Transactional** | Critical user emails | High priority, immediate delivery |
-| **Bulk** | Marketing campaigns | Built-in compliance, unsubscribe management |
+| Stream            | Purpose              | Features                                    |
+| ----------------- | -------------------- | ------------------------------------------- |
+| **Transactional** | Critical user emails | High priority, immediate delivery           |
+| **Bulk**          | Marketing campaigns  | Built-in compliance, unsubscribe management |
 
 ## Getting Started
 
 {% columns %}
 {% column %}
-### Setup & Configuration
-- [Sending Domain Setup](sending-domain-setup.md)
-- [API Integration](api-integration.md)
-- [SMTP Integration](smtp-integration.md)
-- [IP Warmup](ip-warmup.md)
+#### Setup & Configuration
+
+* [Sending Domain Setup](sending-domain-setup.md)
+* [API Integration](api-integration.md)
+* [SMTP Integration](smtp-integration.md)
+* [IP Warmup](ip-warmup.md)
 {% endcolumn %}
 
 {% column %}
-### Essential Features
-- [📚 Deliverability Guide](deliverability/email-deliverability-guide.md)
-- [Email Templates](email-templates/README.md)
-- [Analytics & Reports](statistics/README.md)
-- [Deliverability Features](deliverability/README.md)
-- [Bulk Stream](get-started-bulk-stream.md)
+#### Essential Features
+
+* [📚 Deliverability Guide](deliverability/email-deliverability-guide.md)
+* [Email Templates](email-templates/)
+* [Analytics & Reports](statistics/)
+* [Deliverability Features](deliverability/)
+* [Bulk Stream](get-started-bulk-stream.md)
 {% endcolumn %}
 {% endcolumns %}
 
 ## Why Choose Mailtrap?
 
 ### For Developers
-- Clean, well-documented APIs
-- Multiple integration options
-- Comprehensive SDKs
-- Sandbox environment for testing
+
+* Clean, well-documented APIs
+* Multiple integration options
+* Comprehensive SDKs
+* Sandbox environment for testing
 
 ### For Businesses
-- High deliverability rates
-- Detailed analytics and reporting
-- Scalable infrastructure
-- Enterprise-grade reliability
+
+* High deliverability rates
+* Detailed analytics and reporting
+* Scalable infrastructure
+* Enterprise-grade reliability
 
 ### For Teams
-- Multi-user access control
-- Shared resources and templates
-- Collaborative workflows
-- Activity logging
+
+* Multi-user access control
+* Shared resources and templates
+* Collaborative workflows
+* Activity logging
 
 ## Support & Resources
 
 Need help getting started or have questions?
 
-- 📚 [API Reference](https://api-docs.mailtrap.io/)
-- 💬 [FAQs](faqs.md)
-- 🔧 [Troubleshooting](troubleshooting/README.md)
-- 📧 [Contact Support](mailto:support@mailtrap.io)
+* 📚 [API Reference](https://api-docs.mailtrap.io/)
+* 💬 [FAQs](faqs.md)
+* 🔧 [Troubleshooting](troubleshooting/)
+* 📧 [Contact Support](mailto:support@mailtrap.io)
 
 ## Next Steps
 
-1. **[Read the Deliverability Guide](deliverability/email-deliverability-guide.md)** - Essential best practices for inbox placement
-2. **[Set up your domain](sending-domain-setup.md)** - Authenticate your sending domain
-3. **[Choose integration method](api-integration.md)** - API or SMTP
-4. **[Create templates](email-templates/README.md)** - Design reusable emails
-5. **[Monitor performance](statistics/README.md)** - Track your email metrics
+1. [**Read the Deliverability Guide**](deliverability/email-deliverability-guide.md) - Essential best practices for inbox placement
+2. [**Set up your domain**](sending-domain-setup.md) - Authenticate your sending domain
+3. [**Choose integration method**](api-integration.md) - API or SMTP
+4. [**Create templates**](email-templates/) - Design reusable emails
+5. [**Monitor performance**](statistics/) - Track your email metrics

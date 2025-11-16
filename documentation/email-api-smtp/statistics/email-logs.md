@@ -20,9 +20,11 @@ layout:
     visible: true
 ---
 
+# 📝 Email Logs
+
 It’s a place to view all the emails sent from your account, along with corresponding details. These include the status of each message, its preview, events history, HTML source, and statistics.
 
-### How to use filters in Email Logs
+#### How to use filters in Email Logs
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-tabs.png" alt="Email Logs page with quick filter tabs for Bounces, Spam, Google, Workspace, Outlook, Office 365, and Yahoo" width="563"></div>
 
@@ -44,7 +46,7 @@ When an email is sent, Mailtrap doesn't yet know which Mailbox Provider (e.g., G
 
 The number of days Mailtrap stores email logs depends on your [billing plan](https://mailtrap.io/pricing/).
 
-### Understanding the filters
+#### Understanding the filters
 
 If you prefer to set up your filters manually, you have plenty of options at your disposal. Here’s what you can filter by:
 
@@ -60,7 +62,7 @@ Email Logs store emails sent from all your domains. If you wish to filter only f
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-by-domain.png" alt="Email from filter showing domain filtering with mailtrap.io as example" width="563"></div>
 
-### Diving deeper into Email Logs
+#### Diving deeper into Email Logs
 
 Email Logs provide much more information about each sent message. To access this, click on any of the messages.
 

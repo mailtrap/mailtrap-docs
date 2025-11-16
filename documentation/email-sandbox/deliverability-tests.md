@@ -3,7 +3,9 @@ title: Deliverability tests
 description: Learn how to check spam score and blacklisting to ensure email deliverability
 ---
 
-## Spam Report
+# 📬 Deliverability Tests
+
+### Spam Report
 
 Go to the **Spam Analysis** tab to view the Spam Report. It contains the general score and a detailed table with spam test points and their descriptions.
 
@@ -13,7 +15,7 @@ A score below 5 points is considered good. If your email gets more than 5 points
 
 <div align="left"><img src="../.gitbook/assets/sandbox-spam-analysis-report.png" alt="Spam Analysis report showing SpamAssassin score breakdown with detailed test results" width="563"></div>
 
-## Blacklists Report
+### Blacklists Report
 
 You will find the Blacklists Report in the **Spam** **Analysis** tab as well.
 

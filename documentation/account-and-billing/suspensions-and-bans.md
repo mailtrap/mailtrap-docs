@@ -1,11 +1,15 @@
 ---
 title: Suspensions and Bans
-description: Understand Mailtrap account suspensions and bans. Learn the differences, reasons for enforcement, and how to clear suspensions or appeal bans.
+description: >-
+  Understand Mailtrap account suspensions and bans. Learn the differences,
+  reasons for enforcement, and how to clear suspensions or appeal bans.
 ---
+
+# 🚫 Suspensions and Bans
 
 Suspensions and bans at Mailtrap exist to ensure that customers comply with our [Terms of Service](https://mailtrap.io/terms/).
 
-## What is a suspension?
+### What is a suspension?
 
 Suspension is a temporary state applied to a customer account.
 
@@ -17,7 +21,7 @@ There are three (3) levels of suspension:
 * Domain level – Only the problematic domain is suspended, and other domains under the same account can continue sending emails without disruption.
 * Stream level – If suspicious activity is detected on one of our two sending streams (Transactional and Bulk), only one stream will be suspended.
 
-## What is a ban?
+### What is a ban?
 
 A ban is a permanent state applied to a customer account.
 
@@ -25,7 +29,7 @@ Once an account is banned, all emails are rejected. Unlike with suspensions, ema
 
 Important: Bans apply not only to the domain level but to the entire account, stopping all email-sending capabilities.
 
-## Differences between suspension and bans
+### Differences between suspension and bans
 
 Here's a table to sum up the difference between suspension:
 
@@ -36,7 +40,7 @@ Here's a table to sum up the difference between suspension:
 | Reversibility | Easily reversible upon resolution.                     | Rarely reversed, and appeals are needed. |
 | Scope         | Can apply to a single domain or stream.                | Applies to the entire account.           |
 
-## Possible reasons for account suspension or ban
+### Possible reasons for account suspension or ban
 
 Your account might have been suspended or banned for one of the following reasons:
 
@@ -50,7 +54,7 @@ Your account might have been suspended or banned for one of the following reason
 * Mailtrap determines that the provision of the Mailtrap Service to You is prohibited or limited by applicable law or regulation;
 * Information in Your account is untrue, inaccurate, or incomplete.
 
-## How to clear a suspension or a ban
+### How to clear a suspension or a ban
 
 If you believe your account has been suspended or banned unjustifiably, please contact our customer support team. They will ask you to answer a few questions and provide relevant documents if needed.
 

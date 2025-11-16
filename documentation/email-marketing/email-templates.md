@@ -3,7 +3,7 @@ title: Email Templates
 description: Design, edit, and host HTML email templates and reference them via API
 ---
 
-## Overview
+# 🎨 Email Templates
 
 Email Templates allow you to design, edit, and host HTML email templates, and reference them via API.
 
@@ -15,7 +15,7 @@ Email Templates support Variables, and Mailtrap uses Handlebars as a template en
 
 You can put \{{user\_name\}} into your template and pass “John” as the “user\_name” value via API. For more, check our article on [using Handlebars syntax with Mailtrap](https://mailtrap.io/blog/using-handlebars-with-mailtrap-email-templates-quick-guide-with-examples/).
 
-#### Creating a template
+### Creating a template
 
 1. Navigate to the Templates menu.
 
@@ -41,7 +41,7 @@ You can put \{{user\_name\}} into your template and pass “John” as the “us
 
 <div align="left"><img src="../.gitbook/assets/template-list-view (1).png" alt="List of all saved email templates" width="563"></div>
 
-#### Editing and customizing templates
+### Editing and customizing templates
 
 **Details**
 
@@ -110,7 +110,7 @@ Important Notes:
 * Your domain should be verified to send a test.
 * Each test email is billed over your quota.
 
-#### Template integration - Email API/SMTP
+### Template integration - Email API/SMTP
 
 1. Navigate to Templates in the menu on the left.
 
@@ -139,7 +139,7 @@ Important Notes:
 
 For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api) and go to Email Sending API → Emails → Send email (including template) for transactional stream and Bulk Sending API → Emails → Send email (including template) for bulk stream. Under Body, click the dropdown menu, and choose `EmailFromTemplate` .
 
-#### Template debugging
+### Template debugging
 
 1. Navigate to Templates in the menu on the left.
 
@@ -177,7 +177,7 @@ For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap
 
 For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api) and go to [Sandbox API](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) → Test Emails → Send email (including templates). Under Body, click the dropdown menu, and choose `EmailFromTemplate` .
 
-#### List of templates and user permissions
+### List of templates and user permissions
 
 Clicking on Templates in the side menu lists all the templates you can access.
 

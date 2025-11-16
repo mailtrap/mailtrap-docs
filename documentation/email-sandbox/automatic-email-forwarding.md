@@ -1,7 +1,11 @@
 ---
 title: Automatic email forwarding
-description: Forward emails from the sandbox to any inbox automatically for testing in different clients and notifying colleagues
+description: >-
+  Forward emails from the sandbox to any inbox automatically for testing in
+  different clients and notifying colleagues
 ---
+
+# ↪️ Automatic Forwarding
 
 You can forward emails from the sandbox to any inbox.
 
@@ -11,7 +15,7 @@ You can forward emails from the sandbox to any inbox.
 
 Email forwarding is available starting from the [Basic plan](https://mailtrap.io/pricing/). You can set automatic forwarding to confirmed email addresses or domains.
 
-## How to set automatic forwarding to an email address
+### How to set automatic forwarding to an email address
 
 To set auto-forwarding to email addresses, go to the **Auto Forward** tab in your sandbox and enter the forwarding email address(es).
 
@@ -26,7 +30,7 @@ In the **Auto Forward** tab, you will also find the list of email addresses for 
 
 To resend the confirmation or remove a forwarding rule, use the action buttons in the three-dots menu next to the selected email address.
 
-## How to set automatic forwarding to a domain
+### How to set automatic forwarding to a domain
 
 To set auto-forwarding to a domain, you need to add a TXT record to verify your site. Here are the steps:
 
@@ -38,7 +42,7 @@ To set auto-forwarding to a domain, you need to add a TXT record to verify your 
 
 <div align="left"><img src="../.gitbook/assets/sandbox-auto-forward-domain-verification.png" alt="Domain verification table showing TXT record values for domain forwarding setup" width="563"></div>
 
-## "From" header in forwarded emails
+### "From" header in forwarded emails
 
 All forwarded email messages use forward.mailtrap.info in the "from" header, e.g., when you forward an email from sandbox you'll see something like this in your sandbox:
 

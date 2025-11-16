@@ -1,7 +1,12 @@
 ---
 title: User Management
-description: Manage user roles and permissions in your Mailtrap account. Learn about account owners, admins, viewers, domain permissions, template access, and billing roles.
+description: >-
+  Manage user roles and permissions in your Mailtrap account. Learn about
+  account owners, admins, viewers, domain permissions, template access, and
+  billing roles.
 ---
+
+# 👥 User Management
 
 This is the centralized place to manage users in your account.
 

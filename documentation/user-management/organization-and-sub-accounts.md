@@ -1,9 +1,14 @@
 ---
 title: Organization & Sub‑Accounts
-description: Manage complex setups with Mailtrap Organization & Sub‑Accounts. Learn about centralized billing, isolated workspaces, permissions, and how to create and migrate sub-accounts.
+description: >-
+  Manage complex setups with Mailtrap Organization & Sub‑Accounts. Learn about
+  centralized billing, isolated workspaces, permissions, and how to create and
+  migrate sub-accounts.
 ---
 
-## Overview
+# 🏢 Organization & Sub-Accounts
+
+### Overview
 
 The Organization & Sub-Accounts structure is designed to help you manage complex setups involving multiple teams, clients, environments, or products - all under a single Organization.
 
@@ -33,7 +38,7 @@ Note: The Organization & Sub‑Accounts feature is available only on Business an
 
 Note: If your account is currently using Braintree as the payment gateway, you'll need to migrate to Stripe in order to enable and use the Organization & Sub‑Accounts feature.
 
-## When to use Organization & Sub-accounts
+### When to use Organization & Sub-accounts
 
 Use Organization & Sub‑accounts to:
 
@@ -43,7 +48,7 @@ Use Organization & Sub‑accounts to:
 * Prevent issues in one sub‑account affecting others.
 * Keep email stats, templates, or sender configurations isolated.
 
-## Creating a sub-account
+### Creating a sub-account
 
 1. Go to the left-side menu and select Settings → Organization.
 2. This will open the Organization page.
@@ -72,7 +77,7 @@ Switch between sub‑accounts from the top-right menu (under your profile) anyti
 
 <div align="left"><img src="../.gitbook/assets/org-account-switcher-menu.png" alt="User menu dropdown showing organization accounts and sub-accounts with account switcher" width="375"></div>
 
-## Migrating an already existing account
+### Migrating an already existing account
 
 If you have multiple Mailtrap accounts and want to merge them under a single Organization (without re-authenticating domains or losing data), our Support Team can help make the process smooth. You can transfer any account, including free ones. The only requirement is that the **destination Organization** is on a subscription plan that includes **Organization & Sub-accounts**.
 
@@ -100,11 +105,11 @@ After both sides approve:
 * The account will now use the **subscription and usage limits of the Destination Organization**.
 * Usage counters will reset, since the account is now part of a new shared plan.
 
-## Permissions & user management
+### Permissions & user management
 
 The Organization & Sub‑Accounts structure offers flexible and secure user access controls, so you can easily tailor permissions based on team roles, client needs, or project scope.
 
-### Types of access
+#### Types of access
 
 There are two levels of user access:
 
@@ -128,7 +133,7 @@ If a user only needs access to selected sub‑accounts, you can invite them to t
 
 Note: Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
 
-### Viewing current users
+#### Viewing current users
 
 You can easily check who has access to your account.
 
@@ -144,11 +149,11 @@ If you are an Organization Owner or Organization Admin, you can edit organizatio
 
 <div align="left"><img src="../.gitbook/assets/org-user-management-tab.png" alt="User Management page showing Organization users tab with list of members and their permissions" width="563"></div>
 
-## API tokens
+### API tokens
 
 API tokens in Mailtrap are account–level only. That means each sub‑account has its own isolated set of tokens used for authentication when interacting with Mailtrap's API or SMTP services.
 
-### Key Points:
+#### Key Points:
 
 * Isolated by design: Tokens are unique to each sub‑account and cannot be used to access resources from other sub‑accounts or the entire Organization.
 * Scoped access: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
@@ -156,9 +161,9 @@ API tokens in Mailtrap are account–level only. That means each sub‑account h
 
 Coming soon: We're working on adding support for managing sub‑accounts via API, which may include extended token management capabilities at the organization level.
 
-## FAQ
+### FAQ
 
-### Users and Permissions
+#### Users and Permissions
 
 <details>
 
@@ -184,7 +189,7 @@ Yes, just invite them to each sub‑account and assign the right role. You can a
 
 </details>
 
-### Organization and Sub-Account Management
+#### Organization and Sub-Account Management
 
 <details>
 
@@ -226,7 +231,7 @@ Submit a support request to update the organization owner.
 
 </details>
 
-### Quotas and Stats
+#### Quotas and Stats
 
 <details>
 
@@ -244,7 +249,7 @@ Quotas apply at the Organization level, but stats are tracked separately for eac
 
 </details>
 
-### General
+#### General
 
 <details>
 

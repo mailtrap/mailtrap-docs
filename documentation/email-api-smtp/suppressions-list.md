@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# Suppressions list
+# 🚫 Suppressions List
 
 When hard bounce, unsubscribe, and spam complaints events occur, Mailtrap adds the email address to a suppression list. The suppression list contains all the addresses you cannot send emails to.
 

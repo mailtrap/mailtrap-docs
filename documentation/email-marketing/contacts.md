@@ -1,11 +1,15 @@
 ---
 title: Contacts
-description: Upload, store, and organize your contacts in email lists to send targeted campaigns
+description: >-
+  Upload, store, and organize your contacts in email lists to send targeted
+  campaigns
 ---
+
+# 👤 Contacts
 
 Mailtrap Contacts allows you to upload and store your contacts on Mailtrap platform and organize them in different email lists to send targeted campaigns.
 
-### Before uploading your contacts
+#### Before uploading your contacts
 
 * Review your email list and identify the variables, such as first and last name, date of birth, address, etc. You’ll need these to create custom fields.
 * Go to Mailtrap and navigate to Fields under Contacts.
@@ -28,7 +32,7 @@ Mailtrap Contacts allows you to upload and store your contacts on Mailtrap platf
 
 <div align="left"><img src="../.gitbook/assets/marketing-contacts-ready-to-upload.png" alt="Contact fields configured and ready for contact upload" width="563"></div>
 
-### How to upload Contacts
+#### How to upload Contacts
 
 1. Go to Contacts and click Import Contacts.
 
@@ -70,7 +74,7 @@ Mailtrap Contacts allows you to upload and store your contacts on Mailtrap platf
 
 <div align="left"><img src="../.gitbook/assets/marketing-contacts-import-success.png" alt="Success notification after contacts are imported" width="375"></div>
 
-### How to manage Contacts
+#### How to manage Contacts
 
 You can filter Contacts by subscription status, email, or Lists. For example, if you want to search for subscribed contacts only, you need to choose _Subscription Status_ in the first field, _Is_ in the second, and _Subscribed_ in the third. Then, click Search, and you'll see all your subscribed contacts.
 
@@ -86,7 +90,7 @@ You can also delete or unsubscribe a contact, add them to a list, remove them fr
 
 Remember that you won’t be able to activate a subscription for a contact manually after unsubscribing them unless they sign up for your list again.
 
-#### Bulk actions
+**Bulk actions**
 
 **Add to lists**
 
@@ -142,7 +146,7 @@ Remember that you won’t be able to activate a subscription for a contact manua
 
 <div align="left"><img src="../.gitbook/assets/marketing-contacts-delete-confirm.png" alt="Confirmation dialog to delete contacts with warning" width="375"></div>
 
-### How to create and manage Lists
+#### How to create and manage Lists
 
 1. Go to Lists under Contacts and click Create List.
 

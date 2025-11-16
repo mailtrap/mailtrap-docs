@@ -3,7 +3,7 @@ title: Email API/SMTP
 description: Learn how to send your application emails with Mailtrap Email API/SMTP
 ---
 
-# Email API/SMTP
+# ⚡ Email API/SMTP
 
 Learn how to send your application emails with Mailtrap
 
@@ -29,7 +29,7 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 
 {% stepper %}
 {% step %}
-#### Verify the sending domain you own
+**Verify the sending domain you own**
 
 To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -43,7 +43,7 @@ Check our [Sending Domain Setup Guide](../email-api-smtp/sending-domain-setup.md
 {% endstep %}
 
 {% step %}
-#### Integrate your application via Email API or SMTP
+**Integrate your application via Email API or SMTP**
 
 **SMTP Integration**
 

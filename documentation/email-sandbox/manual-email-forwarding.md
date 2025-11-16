@@ -1,7 +1,11 @@
 ---
 title: Manual email forwarding
-description: Forward individual emails from sandbox to any inbox for testing in different clients or notifying colleagues
+description: >-
+  Forward individual emails from sandbox to any inbox for testing in different
+  clients or notifying colleagues
 ---
+
+# 📤 Manual Forwarding
 
 You can forward emails from sandbox to any inbox.
 
@@ -11,9 +15,9 @@ You can forward emails from sandbox to any inbox.
 
 Email forwarding is available starting from the [Basic plan](https://mailtrap.io/pricing/).
 
-## Manual forwarding setup
+### Manual forwarding setup
 
-To forward emails manually,  go to the **Manual Forward** tab in your sandbox and add the email address for forwarding.
+To forward emails manually, go to the **Manual Forward** tab in your sandbox and add the email address for forwarding.
 
 The email confirmation will be sent to this email address for verification. Once the address is confirmed by its owner, you can forward emails to it.
 
@@ -28,7 +32,7 @@ Click the three-dot menu icon next to the email address to resend confirmation, 
 
 <div align="left"><img src="../.gitbook/assets/sandbox-manual-forward-addresses.png" alt="Manual Forward tab showing email addresses list with Active and Pending statuses" width="563"></div>
 
-## "From" header in forwarded emails
+### "From" header in forwarded emails
 
 All forwarded email messages use forward.mailtrap.info in the "from" header, e.g., when you forward an email you'll see something like this in your sandbox:
 
@@ -36,4 +40,4 @@ All forwarded email messages use forward.mailtrap.info in the "from" header, e.g
 
 It helps to use forwarding for users with a strict DMARC policy on their domains. Since DMARC doesn't allow sending emails from your domain without permissions, sandbox rewrites the "from" header.
 
-But because the original sender is valuable information, especially in automated testing, we still preserve it in  _x-mailtrap-original-from_ header of the forwarded emails.
+But because the original sender is valuable information, especially in automated testing, we still preserve it in _x-mailtrap-original-from_ header of the forwarded emails.

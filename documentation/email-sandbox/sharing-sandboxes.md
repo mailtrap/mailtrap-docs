@@ -3,13 +3,15 @@ title: Sharing sandboxes
 description: Share individual sandboxes with team members for collaborative email testing
 ---
 
-## How to organize your sandbox data
+# 🤝 Sharing Sandboxes
+
+### How to organize your sandbox data
 
 The best practice is to create separate sandboxes for different environments: development, test, or staging. Each sandbox is defined by SMTP credentials (your username and password). If necessary, you can reset them at any time.
 
 <div align="left"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-credentials.png" alt="Sandbox settings showing SMTP credentials and reset options" width="563"></div>
 
-## How to share your sandboxes with others
+### How to share your sandboxes with others
 
 For effortless collaboration with your colleagues or customers, you can share data of your choice with them: separate sandboxes or whole projects (to learn how to share projects, check this article - [Sharing projects](sharing-projects.md)).
 
@@ -44,7 +46,7 @@ Alternatively, you can use the **User Management** feature. Select it and click 
 
 And yes, you can share multiple sandboxes at the same time. To finalize sharing, hit Send Invite and you're good to go.
 
-## Sandboxes shared with you by others
+### Sandboxes shared with you by others
 
 Clicking on Sandboxes in the menu bar on the left reveals only the sandboxes associated with the account you're currently using.
 

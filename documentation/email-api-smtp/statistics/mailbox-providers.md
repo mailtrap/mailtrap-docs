@@ -19,6 +19,8 @@ layout:
     visible: true
 ---
 
+# 📬 Mailbox Providers
+
 <details>
 
 <summary>Why is it important to monitor mailbox provider stats?</summary>
@@ -29,11 +31,11 @@ It’s important because the deliverability towards a specific provider can sudd
 
 The following sections detail how to take advantage of **Mailbox Providers** feature within **Mailtrap API/SMTP**.
 
-### Mailbox Providers filters <a href="#mailbox" id="mailbox"></a>
+#### Mailbox Providers filters <a href="#mailbox" id="mailbox"></a>
 
 Mailbox Providers Overview panel allows you to filter by **Domains**, **Mailbox Providers**, and **Categories**. Here’s how to use each filter.
 
-#### Domains <a href="#domains" id="domains"></a>
+**Domains**
 
 1. Click on arrows in the All Domains box.
 2. Choose one or more domains you’d like to use.
@@ -41,7 +43,7 @@ Mailbox Providers Overview panel allows you to filter by **Domains**, **Mailbox 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/mailbox-providers-domains-filter.png" alt="Domains filter dropdown in Mailbox Providers panel" height="104" width="624"></div>
 
-#### Mailbox providers filter <a href="#mailbox-providers" id="mailbox-providers"></a>
+**Mailbox providers filter**
 
 1. Click the arrows in the Mailbox Provider box.
 2. Choose the provider you’d like to use.
@@ -53,7 +55,7 @@ You can select a few providers at the same time - just repeat the actions listed
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/mailbox-providers-multiple-selection.png" alt="Multiple mailbox providers selected in filter dropdown" height="152" width="624"></div>
 
-#### Categories <a href="#categories" id="categories"></a>
+**Categories**
 
 1. Click the arrows in the **Categories** box.
 2. Choose a category or categories.
@@ -61,9 +63,9 @@ You can select a few providers at the same time - just repeat the actions listed
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/mailbox-providers-categories-filter.png" alt="Categories filter dropdown in Mailbox Providers panel" height="139" width="624"></div>
 
-### Navigating mailbox providers <a href="#navigating" id="navigating"></a>
+#### Navigating mailbox providers <a href="#navigating" id="navigating"></a>
 
-#### Table <a href="#table" id="table"></a>
+**Table**
 
 The first column features **Mailbox Providers** of your recipients.
 

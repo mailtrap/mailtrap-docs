@@ -5,11 +5,13 @@ description: >-
   before sending them to production.
 ---
 
-## Overview
+# 🐛 Debugging with Sandbox
+
+### Overview
 
 Before sending your email templates to production, it's important to test them in a safe environment. Mailtrap Email Sandbox allows you to test your templates, preview how they render, and verify that all variables are working correctly.
 
-## Debugging steps
+### Debugging steps
 
 {% stepper %}
 {% step %}
@@ -67,7 +69,7 @@ For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap
 {% endstep %}
 {% endstepper %}
 
-## Next steps
+### Next steps
 
 * [Integration](integration.md) - Once testing is complete, integrate your template with Email API/SMTP
 * [Handlebars Guide](handlebars-guide.md) - Learn more about using variables in templates

@@ -20,11 +20,13 @@ layout:
     visible: true
 ---
 
+# 🏷️ Email Categories
+
 Email Categories were built to show the performance of various types of emails, such as welcome emails, billing emails, confirmation emails, etc.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-overview-table.png" alt="Email Categories Overview table showing performance metrics for different email categories" width="563"></div>
 
-### Why should you use categories?
+#### Why should you use categories?
 
 * See statistics for each type of email you send.
 * Analyze key metrics of each category, such as open, click, or bounce rates. A single underperforming category can influence your overall sender reputation.
@@ -41,7 +43,7 @@ Email categories examples:
 * “Onboarding Msg 3”
 * “Newsletter 04/20”
 
-### How to use
+#### How to use
 
 You specify categories when creating an email to be sent with Mailtrap, by inserting a category name into the `X-MT-Category` header if you are using SMTP.
 
@@ -51,7 +53,7 @@ At this point, categories can only be specified when sending an email. Once you 
 
 Categories cannot be removed or modified at this point. The number of categories in your account is unlimited.
 
-### How to analyze performance
+#### How to analyze performance
 
 Categories can be tracked via the Email Categories tab in the Stats menu.
 
@@ -64,4 +66,3 @@ You can filter out the data for specific domains or mailbox providers using the 
 Mailtrap tracks statistics for each day separately, which can sometimes lead to, for example, open rates going into hundreds of percent.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-daily-stats.png" alt="Daily statistics table showing processed, delivered, opens, clicks, and bounce rates by date" width="563"></div>
-

@@ -1,9 +1,13 @@
 ---
 title: Inspect your email template
-description: Check email content, validate HTML code, and verify text versions of your message
+description: >-
+  Check email content, validate HTML code, and verify text versions of your
+  message
 ---
 
-## 1. View the email in the sandbox and check its content
+# 🔍 Email Template Inspector
+
+### 1. View the email in the sandbox and check its content
 
 Go to the **HTML tab**. It opens by default when you open a message. This tab demonstrates how the email is rendered in a web browser.
 
@@ -13,7 +17,7 @@ Go to the **HTML tab**. It opens by default when you open a message. This tab de
 
 <div align="left"><img src="../.gitbook/assets/sandbox-inspect-template-html-view.png" alt="HTML tab displaying email preview with device responsiveness toggle buttons" width="563"></div>
 
-## 2. Check the HTML template code for validity
+### 2. Check the HTML template code for validity
 
 Email clients use different rendering standards. This is why your email can be displayed not as you designed it. You need to check that your message code won't cause rendering issues.
 
@@ -33,7 +37,7 @@ Clicking on the line number will take you to the **HTML Source** tab where you c
 
 To learn more about the HTML Check feature, refer to the [HTML Check article](html-check.md).
 
-## 3. Make sure that the HTML and TEXT versions of your message match
+### 3. Make sure that the HTML and TEXT versions of your message match
 
 It is important to include both the HTML and text versions in your message. This not only affects the spam score but also helps your recipients to understand your message if the HTML part hasn't rendered for some reason. Go to the **Text** tab to inspect the text version.
 

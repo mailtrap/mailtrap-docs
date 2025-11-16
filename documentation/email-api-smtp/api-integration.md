@@ -19,19 +19,19 @@ layout:
     visible: true
 ---
 
-# API integration
+# 🔌 API Integration
 
 Use API credentials to integrate Mailtrap with your project.
 
 {% stepper %}
 {% step %}
-#### Choose your sending domain
+**Choose your sending domain**
 
 Go to the Sending Domains tab and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is verified.
 {% endstep %}
 
 {% step %}
-#### Open the Integration tab
+**Open the Integration tab**
 
 Navigate to the Integration tab for your selected domain.
 
@@ -39,7 +39,7 @@ Navigate to the Integration tab for your selected domain.
 {% endstep %}
 
 {% step %}
-#### Select your stream type
+**Select your stream type**
 
 Click the Integrate button under Transactional Stream or Bulk Stream.
 
@@ -55,7 +55,7 @@ Click the Integrate button under Transactional Stream or Bulk Stream.
 {% endstep %}
 
 {% step %}
-#### Switch to API
+**Switch to API**
 
 Toggle the switch to API.
 
@@ -63,7 +63,7 @@ Toggle the switch to API.
 {% endstep %}
 
 {% step %}
-#### Configure your integration
+**Configure your integration**
 
 Build the authenticated HTTP request in your programming language or framework and configure it with Mailtrap Host and API Token.
 
@@ -83,7 +83,7 @@ Note: For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk
 {% endstep %}
 
 {% step %}
-#### Test your integration
+**Test your integration**
 
 Complete your script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 

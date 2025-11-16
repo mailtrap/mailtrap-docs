@@ -3,6 +3,8 @@ title: Checking email headers and Bcc
 description: Learn how to verify email headers including Subject, From, To, and Bcc fields
 ---
 
+# 📋 Email Headers and Bcc
+
 * **Subject line.** View how it looks for the recipient. Especially if you used emojis, make sure that they are rendered as expected.
 * **FROM** (sender). Make sure of the correct sender's name and email address.
 * **TO** (recipients) - To and Cc. When you send multiple emails and/or use "merge" functions, you should carefully check whether recipients are generated correctly.

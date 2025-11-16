@@ -5,7 +5,7 @@ description: >-
   Transactional or Bulk streams.
 ---
 
-# Integration
+# 🔗 Integration
 
 ### Overview
 

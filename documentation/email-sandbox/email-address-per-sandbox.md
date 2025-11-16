@@ -1,9 +1,11 @@
 ---
 title: Email address per sandbox
-description: Use a dedicated customizable email address for each sandbox to send test messages without SMTP integration
+description: >-
+  Use a dedicated customizable email address for each sandbox to send test
+  messages without SMTP integration
 ---
 
-## What is the email address per sandbox feature?
+# 📧 Email Address per Sandbox
 
 This feature offers an email address for testing, which you can customize. It supports dynamic aliases and provides you with an unlimited number of virtual email addresses. As soon as it is linked to your [sandbox](https://mailtrap.io/inboxes/), you can manage, view, and share your test results via the Mailtrap UI.
 
@@ -22,7 +24,7 @@ This way, you get an infinite number of combinations and can imitate sending ema
 
 The sandbox name changes are applied instantly.
 
-_Also, note that Mailtrap verifies sandbox aliases so that if you try to send a message to a custom sandbox address that doesn't exist, you will receive a  `554 5.5.1 Error: no sandbox for this email.`message._
+_Also, note that Mailtrap verifies sandbox aliases so that if you try to send a message to a custom sandbox address that doesn't exist, you will receive a `554 5.5.1 Error: no sandbox for this email.`message._
 
 In addition, Mailtrap sandboxes support dynamic aliased addresses. For example, [mailtrap-load-test-12ab34+1@inbox.mailtrap.io](mailto:mailtrap-load-test+1-12qb34@mailtrap.io) and [mailtrap-load-test-12ab34](mailto:mailtrap-load-test+2-12qb34@mailtrap.io)[+2](mailto:mailtrap-load-test+2-12qb34@mailtrap.io)[@inbox.mailtrap.io](mailto:mailtrap-load-test+2-12qb34@mailtrap.io) will be equally accepted and delivered to the same sandbox.
 

@@ -5,7 +5,7 @@ description: >-
   complaints from major mailbox providers including Outlook, Yahoo, and more.
 ---
 
-# Feedback Loops
+# 💬 Feedback Loops
 
 Mailtrap is integrated with the majority of popular Feedback Loops (FBLs) to gather information about spam complaints.
 

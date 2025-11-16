@@ -5,7 +5,9 @@ description: >-
   editor, add Handlebars variables, and integrate via API or SMTP.
 ---
 
-## Overview
+# 🎨 Email Templates
+
+### Overview
 
 Email Templates allow you to design, edit, and host HTML email templates, and reference them via API.
 
@@ -21,7 +23,7 @@ For a complete guide on using Handlebars with email templates, see [Handlebars G
 
 {% embed url="https://mailtrap.io/blog/using-handlebars-with-mailtrap-email-templates-quick-guide-with-examples/" fullWidth="false" %}
 
-## Creating a template
+### Creating a template
 
 {% stepper %}
 {% step %}
@@ -59,9 +61,9 @@ The main Templates menu features all your saved templates. To quickly access a s
 {% endstep %}
 {% endstepper %}
 
-## Managing templates
+### Managing templates
 
-### List of templates and user permissions
+#### List of templates and user permissions
 
 Clicking on Templates in the side menu lists all the templates you can access.
 
@@ -73,7 +75,7 @@ Access to templates is managed on a domain level. You need to have Admin access 
 You can delete a template. However, this action is irreversible, so be sure to change the sending/testing code after deletion. When the template is deleted, the UUID is also deleted, and Mailtrap won't be able to render it.
 {% endhint %}
 
-## Next steps
+### Next steps
 
 * [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to customize templates with the Drag & Drop or Code Editor
 * [Handlebars Guide](handlebars-guide.md) - Complete guide to using Handlebars syntax in templates

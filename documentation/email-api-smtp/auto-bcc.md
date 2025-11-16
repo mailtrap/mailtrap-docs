@@ -1,9 +1,13 @@
 ---
 title: Auto BCC
-description: Automatically add BCC recipients to all emails sent from your domain with custom headers support
+description: >-
+  Automatically add BCC recipients to all emails sent from your domain with
+  custom headers support
 ---
 
-## How to set up Auto BCC
+# 📋 Auto BCC
+
+### How to set up Auto BCC
 
 {% stepper %}
 {% step %}
@@ -37,7 +41,7 @@ To delete the email address or a custom header, click the trash bin icon and con
 {% endstep %}
 {% endstepper %}
 
-## Important notes
+### Important notes
 
 * You can add multiple BCC email addresses, and all of them will receive email copies;
 * You can’t use Auto BCC with a demo domain;

@@ -1,7 +1,11 @@
 ---
 title: HTML Check
-description: Learn how HTML Check scans your email for problematic elements and provides market support scores
+description: >-
+  Learn how HTML Check scans your email for problematic elements and provides
+  market support scores
 ---
+
+# ✅ HTML Check
 
 **HTML Check** scans through your email in search of problematic elements. For each it finds, it displays the list of email clients that lack support for it or support it only partially. It also estimates the support for your emails' code across popular email clients, and provides you with the percentage of the market share accordingly.
 
@@ -11,7 +15,7 @@ The report is available in the **HTML Check** tab:
 
 The higher your market support score, the better for your email!
 
-## Understanding the Market Support score
+### Understanding the Market Support score
 
 <div align="left"><img src="../.gitbook/assets/sandbox-html-check-market-support-score.png" alt="Market support score visualization showing percentage breakdown across email clients" width="563"></div>
 
@@ -27,7 +31,7 @@ The support for a rule in a particular client can fall into either of three cate
 
 When calculating the score, we take into consideration the market share of each email client. Some clients (e.g., Gmail or iPhone's default Mail app) are far more popular than others (for example, Yahoo! Mail). For that reason, the less popular clients may lack support for specific elements thus having a far more significant impact on the Market Support score.
 
-## Filtering options
+### Filtering options
 
 By default, the market support is calculated for all email clients listed to the right and all their versions in common use. You can freely check and uncheck particular filters, and the market score will adjust immediately.
 
@@ -43,7 +47,7 @@ Filtering is particularly beneficial if you know that the vast majority of your 
 
 Note that at least one category (Web/Mobile/Desktop) and at least one email client need to be checked to generate any result.
 
-## The algorithm behind HTML Check
+### The algorithm behind HTML Check
 
 You may also view the support for the entire family of popular email clients, such as Gmail (iOS, Android apps, desktop, mobile webmail, etc.). Simply hover over the respective name, and the green (fully supported), orange (partially supported), and red (not supported) numbers will appear.
 
@@ -71,7 +75,7 @@ The support for Gmail in our example is:
 
 We collect the data on support for particular rules from [Caniemail.com](https://www.caniemail.com/).
 
-## Analyzing the HTML elements
+### Analyzing the HTML elements
 
 Almost always, at least a few errors will appear. These will look as follows:
 

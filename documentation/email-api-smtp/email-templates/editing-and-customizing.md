@@ -5,7 +5,7 @@ description: >-
   Editor, Code Editor, and test your templates before sending.
 ---
 
-# Editing and Customizing
+# ✏️ Editing and Customizing
 
 ### Details
 

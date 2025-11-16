@@ -3,7 +3,7 @@ title: Setup & Configuration
 description: Get started with Email API/SMTP setup and configuration
 ---
 
-# Setup & Configuration
+# ⚙️ Setup & Configuration
 
 Complete guide to setting up and configuring Mailtrap Email API/SMTP for your application. Follow these steps to start sending emails in production.
 
@@ -11,25 +11,29 @@ Complete guide to setting up and configuring Mailtrap Email API/SMTP for your ap
 
 Get up and running with this essential setup checklist:
 
-- [ ] Create your Mailtrap account
-- [ ] Verify your sending domain
-- [ ] Choose integration method (API or SMTP)
-- [ ] Configure authentication
-- [ ] Send test email
-- [ ] Set up monitoring
+* [ ] Create your Mailtrap account
+* [ ] Verify your sending domain
+* [ ] Choose integration method (API or SMTP)
+* [ ] Configure authentication
+* [ ] Send test email
+* [ ] Set up monitoring
 
 ## Configuration Steps
 
 ### [Sending Domain Setup](../sending-domain-setup.md)
+
 The foundation of email delivery. Verify your domain ownership and configure authentication records (SPF, DKIM, DMARC) for optimal deliverability.
 
 ### [API Integration](../api-integration.md)
+
 Modern RESTful API for programmatic email sending. Best for new applications and microservices architecture.
 
 ### [SMTP Integration](../smtp-integration.md)
+
 Traditional SMTP protocol for universal compatibility. Works with any email library or legacy system.
 
 ### [IP Warmup](../ip-warmup.md)
+
 Gradually build your sending reputation. Essential for high-volume senders and dedicated IPs.
 
 ## Choose Your Integration Method
@@ -37,20 +41,23 @@ Gradually build your sending reputation. Essential for high-volume senders and d
 ### When to Use API
 
 **Best for:**
-- Modern web applications
-- Microservices architecture
-- Cloud-native applications
-- Real-time sending needs
-- Advanced analytics requirements
+
+* Modern web applications
+* Microservices architecture
+* Cloud-native applications
+* Real-time sending needs
+* Advanced analytics requirements
 
 **Advantages:**
-- Faster performance
-- Better error handling
-- Detailed response data
-- Webhook support
-- Easier debugging
+
+* Faster performance
+* Better error handling
+* Detailed response data
+* Webhook support
+* Easier debugging
 
 **Example:**
+
 ```bash
 curl -X POST "https://send.api.mailtrap.io/api/send" \
   -H "Authorization: Bearer YOUR_API_TOKEN" \
@@ -66,20 +73,23 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 ### When to Use SMTP
 
 **Best for:**
-- Legacy applications
-- Email clients
-- CMS platforms
-- Standard libraries
-- Minimal code changes
+
+* Legacy applications
+* Email clients
+* CMS platforms
+* Standard libraries
+* Minimal code changes
 
 **Advantages:**
-- Universal compatibility
-- No code changes required
-- Works with any language
-- Familiar protocol
-- Easy migration
+
+* Universal compatibility
+* No code changes required
+* Works with any language
+* Familiar protocol
+* Easy migration
 
 **Configuration:**
+
 ```
 Host: live.smtp.mailtrap.io
 Port: 587 (or 25, 465, 2525)
@@ -91,14 +101,17 @@ Encryption: STARTTLS/TLS
 ## Domain Configuration
 
 ### 1. Add Your Domain
+
 Navigate to **Sending Domains** and add your domain:
-- Enter your domain name (e.g., example.com)
-- Choose verification method
-- Add provided DNS records
+
+* Enter your domain name (e.g., example.com)
+* Choose verification method
+* Add provided DNS records
 
 ### 2. DNS Records Setup
 
 **SPF Record:**
+
 ```dns
 Type: TXT
 Name: @ (or your domain)
@@ -106,6 +119,7 @@ Value: v=spf1 include:mailtrap.io ~all
 ```
 
 **DKIM Record:**
+
 ```dns
 Type: TXT
 Name: mailtrap._domainkey
@@ -113,6 +127,7 @@ Value: v=DKIM1; k=rsa; p=MIGfMA0GCS...
 ```
 
 **DMARC Record:**
+
 ```dns
 Type: TXT
 Name: _dmarc
@@ -120,21 +135,24 @@ Value: v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com
 ```
 
 ### 3. Verify Configuration
-- DNS propagation: 15 minutes to 48 hours
-- Check verification status in dashboard
-- Use DNS lookup tools to confirm
+
+* DNS propagation: 15 minutes to 48 hours
+* Check verification status in dashboard
+* Use DNS lookup tools to confirm
 
 ## Authentication Setup
 
 ### API Authentication
 
 **Get Your API Token:**
+
 1. Go to Settings → API Tokens
 2. Click "Create Token"
 3. Set permissions (send, read, etc.)
 4. Copy and secure token
 
 **Using the Token:**
+
 ```javascript
 // Node.js example
 const headers = {
@@ -146,11 +164,13 @@ const headers = {
 ### SMTP Authentication
 
 **Get Credentials:**
+
 1. Navigate to SMTP Settings
 2. Copy username and password
 3. Note the stream (Transactional/Bulk)
 
 **Configure Your Application:**
+
 ```python
 # Python example
 import smtplib
@@ -163,6 +183,7 @@ server.login('username', 'password')
 ## Environment Configuration
 
 ### Development Setup
+
 ```env
 # .env.development
 MAILTRAP_HOST=sandbox.smtp.mailtrap.io
@@ -173,6 +194,7 @@ MAILTRAP_FROM=dev@example.com
 ```
 
 ### Production Setup
+
 ```env
 # .env.production
 MAILTRAP_HOST=live.smtp.mailtrap.io
@@ -185,6 +207,7 @@ MAILTRAP_FROM=noreply@yourdomain.com
 ## Framework-Specific Setup
 
 ### Laravel
+
 ```php
 // config/mail.php
 'mailers' => [
@@ -200,6 +223,7 @@ MAILTRAP_FROM=noreply@yourdomain.com
 ```
 
 ### Node.js (Nodemailer)
+
 ```javascript
 const nodemailer = require('nodemailer');
 
@@ -214,6 +238,7 @@ const transporter = nodemailer.createTransport({
 ```
 
 ### Django
+
 ```python
 # settings.py
 EMAIL_HOST = os.environ.get('MAILTRAP_HOST')
@@ -224,6 +249,7 @@ EMAIL_USE_TLS = True
 ```
 
 ### Ruby on Rails
+
 ```ruby
 # config/environments/production.rb
 config.action_mailer.smtp_settings = {
@@ -241,6 +267,7 @@ config.action_mailer.smtp_settings = {
 ### 1. Send Test Email
 
 **Via API:**
+
 ```bash
 curl -X POST "https://send.api.mailtrap.io/api/send" \
   -H "Authorization: Bearer YOUR_TOKEN" \
@@ -254,6 +281,7 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 ```
 
 **Via SMTP:**
+
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -271,48 +299,53 @@ server.quit()
 ```
 
 ### 2. Verify Delivery
-- Check Email Logs in dashboard
-- Verify recipient received email
-- Check spam folder if not in inbox
-- Review delivery status
+
+* Check Email Logs in dashboard
+* Verify recipient received email
+* Check spam folder if not in inbox
+* Review delivery status
 
 ### 3. Monitor Performance
-- Set up webhooks for events
-- Configure alerts for failures
-- Monitor delivery rates
-- Track engagement metrics
+
+* Set up webhooks for events
+* Configure alerts for failures
+* Monitor delivery rates
+* Track engagement metrics
 
 ## Troubleshooting Setup
 
 ### Common Issues
 
-| Problem | Solution |
-|---------|----------|
-| Domain verification failed | Check DNS propagation, verify records |
-| Authentication error | Regenerate credentials, check for typos |
-| Connection timeout | Check firewall, verify port is open |
-| Emails not sending | Verify domain, check sending limits |
-| Going to spam | Complete domain authentication |
+| Problem                    | Solution                                |
+| -------------------------- | --------------------------------------- |
+| Domain verification failed | Check DNS propagation, verify records   |
+| Authentication error       | Regenerate credentials, check for typos |
+| Connection timeout         | Check firewall, verify port is open     |
+| Emails not sending         | Verify domain, check sending limits     |
+| Going to spam              | Complete domain authentication          |
 
 ### Debug Checklist
-- [ ] DNS records properly configured
-- [ ] Domain verification complete
-- [ ] Credentials are correct
-- [ ] Using correct host/port
-- [ ] Firewall allows outbound SMTP
-- [ ] API token has send permission
-- [ ] Not hitting rate limits
+
+* [ ] DNS records properly configured
+* [ ] Domain verification complete
+* [ ] Credentials are correct
+* [ ] Using correct host/port
+* [ ] Firewall allows outbound SMTP
+* [ ] API token has send permission
+* [ ] Not hitting rate limits
 
 ## Security Best Practices
 
 ### Credential Management
-- Never commit credentials to version control
-- Use environment variables
-- Rotate credentials regularly
-- Use different credentials per environment
-- Implement IP restrictions when possible
+
+* Never commit credentials to version control
+* Use environment variables
+* Rotate credentials regularly
+* Use different credentials per environment
+* Implement IP restrictions when possible
 
 ### API Token Security
+
 ```javascript
 // Good - Using environment variable
 const apiToken = process.env.MAILTRAP_API_TOKEN;
@@ -322,22 +355,23 @@ const apiToken = 'abc123def456...';  // Never do this!
 ```
 
 ### SMTP Security
-- Always use TLS/STARTTLS
-- Use strong passwords
-- Implement rate limiting
-- Monitor for unusual activity
-- Set up alerts for failures
+
+* Always use TLS/STARTTLS
+* Use strong passwords
+* Implement rate limiting
+* Monitor for unusual activity
+* Set up alerts for failures
 
 ## Next Steps
 
-1. **[Configure Templates](../email-templates/README.md)** - Set up reusable email templates
-2. **[Set Up Analytics](../statistics/README.md)** - Track email performance
-3. **[Configure Webhooks](../statuses-and-events.md)** - Real-time event notifications
-4. **[Implement Best Practices](../deliverability/README.md)** - Optimize deliverability
+1. [**Configure Templates**](../email-templates/) - Set up reusable email templates
+2. [**Set Up Analytics**](../statistics/) - Track email performance
+3. [**Configure Webhooks**](../statuses-and-events.md) - Real-time event notifications
+4. [**Implement Best Practices**](../deliverability/) - Optimize deliverability
 
 ## Support Resources
 
-- [API Documentation](https://api-docs.mailtrap.io/)
-- [Integration Examples](https://github.com/railsware/mailtrap-examples)
-- [Video Tutorials](https://www.youtube.com/mailtrap)
-- [Support Center](https://help.mailtrap.io/)
+* [API Documentation](https://api-docs.mailtrap.io/)
+* [Integration Examples](https://github.com/railsware/mailtrap-examples)
+* [Video Tutorials](https://www.youtube.com/mailtrap)
+* [Support Center](https://help.mailtrap.io/)

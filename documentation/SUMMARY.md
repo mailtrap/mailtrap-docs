@@ -21,7 +21,7 @@
   * [🔤 Handlebars Guide](email-api-smtp/email-templates/handlebars-guide.md)
   * [🔗 Integration](email-api-smtp/email-templates/integration.md)
   * [🐛 Debugging with Sandbox](email-api-smtp/email-templates/debugging.md)
-* [📊 Analytics & Reports](email-api-smtp/statistics/README.md)
+* [Analytics & Reports](email-api-smtp/statistics/README.md)
   * [📈 Stats Dashboard](email-api-smtp/statistics/stats-dashboard.md)
   * [📝 Email Logs](email-api-smtp/statistics/email-logs.md)
   * [🏷️ Email Categories](email-api-smtp/statistics/email-categories.md)
@@ -39,13 +39,13 @@
   * [⚠️ Sending Limits](email-api-smtp/sending-limits.md)
   * [🔗 Excluding Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
 * [❓ Help & Support](email-api-smtp/help/README.md)
-  * [💬 FAQs](email-api-smtp/faqs.md)
-  * [🔧 Troubleshooting](email-api-smtp/troubleshooting/README.md)
-    * [🔐 401 Unauthorized Error](email-api-smtp/troubleshooting/unauthorized-401-error.md)
-    * [🚫 Domain Not Allowed](email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md)
-    * [📧 From Header Mismatch](email-api-smtp/troubleshooting/from-header-domain-mismatch.md)
-    * [🔒 SSL Cipher Error](email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md)
-    * [📮 Office 365 Quarantine](email-api-smtp/troubleshooting/ms-office-365-quarantine.md)
+  * [FAQs](email-api-smtp/faqs.md)
+  * [Troubleshooting](email-api-smtp/troubleshooting/README.md)
+    * [401 Unauthorized Error](email-api-smtp/troubleshooting/unauthorized-401-error.md)
+    * [Domain Not Allowed](email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md)
+    * [From Header Mismatch](email-api-smtp/troubleshooting/from-header-domain-mismatch.md)
+    * [SSL Cipher Error](email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md)
+    * [Office 365 Quarantine](email-api-smtp/troubleshooting/ms-office-365-quarantine.md)
 
 ## Email Sandbox
 
@@ -72,8 +72,8 @@
   * [📊 Features and Limits](email-sandbox/features-and-limits.md)
   * [📖 Sandbox Glossary](email-sandbox/sandbox-glossary.md)
 * [❓ Help & Support](email-sandbox/help/README.md)
-  * [💬 FAQs](email-sandbox/faqs.md)
-  * [🔧 Troubleshooting](email-sandbox/troubleshooting.md)
+  * [FAQs](email-sandbox/faqs.md)
+  * [Troubleshooting](email-sandbox/troubleshooting.md)
 
 ## Email Marketing
 

@@ -3,6 +3,8 @@ title: Sandbox Glossary
 description: Common terms and definitions for Email Sandbox features and protocols
 ---
 
+# 📖 Sandbox Glossary
+
 **Sandbox API** - Compatible with most programming languages, uses the REST protocol, and returns calls in JSON format. Here's the [link](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) to the API documentation. With API, you can take actions related to an sandbox, a project, email forwarding, email content, message headers, and more.
 
 **CORS Domains** - CORS is Cross-Origin Resource Sharing. It's a mechanism that allows restricted resources to be requested from another domain outside the domain from which the first resource was served. You can specify a list of domains that will have access to API.
@@ -15,7 +17,7 @@ description: Common terms and definitions for Email Sandbox features and protoco
 
 **STARTTLS** - It's an email protocol command that relays security information between an email server and an email client. The command shows an email client that Gmail, for example, wants to upgrade to a secure connection with TLS or SSL. STARTTLS is also commonly used with IMAP.
 
-## Miscellaneous Terms
+### Miscellaneous Terms
 
 **Email Headers** - All the original values of the email headers displayed as a table.
 

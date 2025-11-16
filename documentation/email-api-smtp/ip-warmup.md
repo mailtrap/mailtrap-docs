@@ -19,7 +19,7 @@ layout:
     visible: true
 ---
 
-# IP Warmup
+# 📈 IP Warmup
 
 Mailtrap offers both shared IP addresses as well as dedicated IPs.
 
