@@ -32,7 +32,7 @@ This integration is built to:
   * Lovable to create contact forms and generate your logic.
   * Supabase to securely store API keys.
   * Mailtrap to send emails and manage contacts.
-* Add and [verify your email sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) since Mailtrap allows you to send emails only from a verified domain.
+* Add and [verify your email sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) since Mailtrap allows you to send emails only from a verified domain.
 * Make sure your [API Token](https://mailtrap.io/api-tokens) has admin access level to that domain and contacts.
 * Create [Custom fields](https://mailtrap.io/contacts/fields) in Mailtrap in advance if your form has more inputs and you want to save their content in Mailtrap. You might also need a List ID.
 * Provide your Account ID as it's required for creating a contact in Mailtrap. You can find it [here](https://mailtrap.io/account-management).
@@ -92,7 +92,7 @@ In this example, we'll use Lovable to create a demo landing page with a form to 
 * Do not store sensitive information in code; use Secrets instead.
 
 {% hint style="info" %}
-**Pro tip**: To avoid Supabase's hourly limits on email sending, adjust your Supabase project's SMTP settings with Mailtrap. Follow [this guide](https://help.mailtrap.io/article/165-supabase-and-mailtrap-integration).
+**Pro tip**: To avoid Supabase's hourly limits on email sending, adjust your Supabase project's SMTP settings with Mailtrap.
 {% endhint %}
 
 {% stepper %}
@@ -159,7 +159,7 @@ And here it is in the Gmail inbox, which was set in `MAILTRAP_MY_EMAIL`.
 
 ![Email client preview showing deliverability consultation lead details and message content](../.gitbook/assets/send-email-with-lovable-11.png)
 
-And here it is in the [Mailtrap Email Logs](https://help.mailtrap.io/article/71-email-logs).
+And here it is in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
 
 ![Mailtrap Email Logs dashboard showing delivered email with subject, timestamp, and delivery metadata](../.gitbook/assets/send-email-with-lovable-12.png)
 

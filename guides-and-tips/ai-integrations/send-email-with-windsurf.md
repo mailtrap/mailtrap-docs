@@ -17,7 +17,7 @@ In this guide, you'll set up the integration and send emails in three steps.
 
 Before you start, ensure the following:
 
-* [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
+* [Set up your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) — this takes approximately 5 minutes
 * Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
 * Install or update [Windsurf](https://windsurf.com/) to the latest version
 
@@ -103,6 +103,6 @@ The email will arrive in your inbox:
 
 ### Check Mailtrap Email Logs
 
-You can also verify the email in the [Email Logs](https://help.mailtrap.io/article/71-email-logs) tab of your Mailtrap dashboard:
+You can also verify the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab of your Mailtrap dashboard:
 
 ![Mailtrap Email Logs showing the Hi John email with delivery details and email status information](../.gitbook/assets/send-email-with-windsurf-7.png)

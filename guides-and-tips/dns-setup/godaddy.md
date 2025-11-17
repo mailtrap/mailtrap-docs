@@ -35,7 +35,7 @@ This guide assumes that your domain is either registered with GoDaddy and uses i
 
 Go to GoDaddy and locate the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../../documentation/.gitbook/assets/godaddy-domain-list (1).png" alt="GoDaddy domain list with Manage button" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/godaddy-domain-list.png" alt="GoDaddy domain list with Manage button" width="375"></div>
 {% endstep %}
 
 {% step %}

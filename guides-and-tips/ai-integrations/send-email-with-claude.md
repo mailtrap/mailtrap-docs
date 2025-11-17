@@ -15,7 +15,7 @@ With the Claude and Mailtrap integration, you can now send emails from Claude AI
 
 ### Prerequisites
 
-* If you haven't set up your sending domain already, you'll need to do it before we start—it takes \~5 minutes, and you can use our [step-by-step article](https://help.mailtrap.io/article/69-sending-domain-setup) as a guide.
+* If you haven't set up your sending domain already, you'll need to do it before we start—it takes \~5 minutes, and you can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) as a guide.
 * Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 * If you haven't already done so, install the [Claude Desktop app](https://claude.ai/download). But if you have, make sure it's updated and uses the latest version.
 
@@ -88,7 +88,7 @@ Then, it should successfully send a new email and provide you with the propertie
 
 ![Claude Desktop showing successful email delivery response with request parameters and generated message content](../.gitbook/assets/send-email-with-claude-6.png)
 
-And here it is in the [Email Logs](https://help.mailtrap.io/article/71-email-logs) tab in the Mailtrap dashboard.
+And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
 
 ![Mailtrap Email Logs displaying delivered email with Hi John subject and delivery metadata](../.gitbook/assets/send-email-with-claude-7.png)
 {% endstep %}

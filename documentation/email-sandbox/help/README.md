@@ -92,7 +92,6 @@ Solution:
 If you can't find the answer you need:
 
 * **Email**: support@mailtrap.io
-* **Help Center**: [help.mailtrap.io](https://help.mailtrap.io)
 * **Status Page**: [status.mailtrap.io](https://status.mailtrap.io)
 
 ### Before Contacting Support

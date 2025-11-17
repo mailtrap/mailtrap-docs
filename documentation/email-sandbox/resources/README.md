@@ -77,7 +77,6 @@ Step-by-step solutions to common issues. Get back on track quickly when things d
 
 ### Contact Support
 - **Email**: support@mailtrap.io
-- **Help Center**: [help.mailtrap.io](https://help.mailtrap.io)
 - **Documentation**: Current location
 - **API Reference**: [API Docs](https://api-docs.mailtrap.io)
 

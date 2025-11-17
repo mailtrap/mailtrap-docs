@@ -11,8 +11,8 @@ This guide explains how to integrate Mailtrap with AWS Lambda functions to send 
 
 Before you start, make sure you have:
 
-- [Verified your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
-- [Created and saved an API key](https://help.mailtrap.io/article/103-api-tokens)
+- [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+- [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
 
 # Send emails using AWS Lambda and Mailtrap
 
@@ -83,4 +83,4 @@ Once you copy the script, update the following fields with your information:
 
 ## Learn more
 
-For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).
+For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

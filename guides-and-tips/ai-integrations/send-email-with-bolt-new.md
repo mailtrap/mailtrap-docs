@@ -22,10 +22,10 @@ Make sure to adjust the prompts to your specific needs—this is an exemplary tu
 
 Before you begin, ensure you have:
 
-* A verified sending domain in Mailtrap (see how to [verify a domain with GoDaddy](https://help.mailtrap.io/article/126-domain-verification-with-godaddy))
-* An Admin API token with access to your domain, Contacts, and Email API (see how to [create an API token](https://help.mailtrap.io/article/103-api-tokens#Mailtrap-Email-Sending-C-ZqM))
+* A verified sending domain in Mailtrap (see how to [verify a sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup))
+* An Admin API token with access to your domain, Contacts, and Email API (see how to [create an API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens))
 * Your **Account ID** (go to Mailtrap Settings, then select Account Settings)
-* (Optional) **Custom fields** for storing extra contact data (see [creating custom fields](https://help.mailtrap.io/article/147-contacts))
+* (Optional) **Custom fields** for storing extra contact data (see [creating custom fields](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/contacts-management/overview))
 * (Optional) **List IDs** for assigning contacts to lists (see Managing lists)
 * A **Bolt.new** account and **Supabase** account (connect the two when prompted by Bolt)
 
@@ -65,7 +65,7 @@ Adding contacts to Mailtrap enables you to send email campaigns, create recipien
 
 To add contacts:
 
-* Prepare [Mailtrap Custom Fields](https://help.mailtrap.io/article/147-contacts) beforehand
+* Prepare [Mailtrap Custom Fields](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/contacts-management/overview) beforehand
 * Locate your email list ID:
   * Click on an email list to reveal all contacts and the list URL
   * Paste the list URL into [URL Decoder](https://www.urldecoder.org/) and click **Decode**
@@ -105,7 +105,7 @@ Then paste the following prompt into Bolt.new:
 We used Bolt.new to create a simple landing page with a lead-capture form. This page is used for email sending, submission notifications, and contacts management.
 
 {% hint style="info" %}
-This guide is referential to help you understand Mailtrap integration. Remember, your experience with Bolt.new might differ because it's non-deterministic and constantly evolving. Make sure to store all sensitive information with Supabase, not in code. Also, adjust Supabase project SMTP settings to Mailtrap—see our [Supabase and Mailtrap integration guide](https://help.mailtrap.io/article/165-supabase-and-mailtrap-integration) to avoid their hourly email sending limit.
+This guide is referential to help you understand Mailtrap integration. Remember, your experience with Bolt.new might differ because it's non-deterministic and constantly evolving. Make sure to store all sensitive information with Supabase, not in code.
 {% endhint %}
 
 {% stepper %}

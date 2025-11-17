@@ -92,7 +92,7 @@ SMTP integration is compatible with any .NET programming language or library tha
 
 ![Mailtrap SMTP integration settings showing credentials and C# code sample for sending emails using System.Net.Mail library](<../.gitbook/assets/mailtrap-csharp-smtp-integration (1).png>)
 
-Read more about SMTP integration [here](../../documentation/sending/smtp-sending/smtp-integration.md).
+Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
 ### RESTful API integration
 
@@ -102,4 +102,4 @@ API integration can be used with any .NET programming language or library that s
 
 ![Mailtrap API integration showing code sample for sending emails via RESTful API using C# and HttpClient with API token authentication](<../.gitbook/assets/mailtrap-csharp-api-integration (1).png>)
 
-Read more about API integration [here](../../documentation/sending/api-sending/api-integration.md).
+Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

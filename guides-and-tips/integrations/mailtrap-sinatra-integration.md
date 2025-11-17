@@ -9,8 +9,8 @@ This guide shows you how to integrate Mailtrap with Sinatra and send emails usin
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
-- [Create and save an API key](https://help.mailtrap.io/article/103-api-tokens)
+- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
 
 ## Send emails using Sinatra and Mailtrap
 
@@ -49,5 +49,5 @@ Once you copy the script, make sure to:
 - Enter your recipient's email address in the `to:` field
 
 {% hint style="info" %}
-To learn more about API integration, see [Mailtrap Email Sending API Integration](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).
+To learn more about API integration, see [Mailtrap Email Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
 {% endhint %}

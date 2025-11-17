@@ -124,7 +124,6 @@ jane@example.com,Jane,Smith,Value2
 **Support Channels**:
 
 * **Email**: support@mailtrap.io
-* **Help Center**: [help.mailtrap.io](https://help.mailtrap.io)
 * **Live Chat**: Business hours (9 AM - 6 PM EST)
 * **Phone**: Enterprise customers only
 

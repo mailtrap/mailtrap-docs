@@ -14,7 +14,7 @@ description: >-
 Before you start, ensure you have:
 
 * A [Vercel account](https://vercel.com/) with a project where you'll add your Mailtrap API key
-* A verified sending domain in Mailtrap (setup takes approximately 5 minutes—see our [sending domain setup guide](https://help.mailtrap.io/article/69-sending-domain-setup) for instructions)
+* A verified sending domain in Mailtrap (setup takes approximately 5 minutes—see our [sending domain setup guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) for instructions)
 
 {% stepper %}
 {% step %}
@@ -28,7 +28,7 @@ If you don't already have an API key, click **Add Token** and assign the desired
 
 ![Mailtrap Add API Token dialog with permissions table showing admin and viewer access settings](../.gitbook/assets/vercel-img-2.png)
 
-Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://help.mailtrap.io/article/103-api-tokens).
+Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens).
 {% endstep %}
 
 {% step %}

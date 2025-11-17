@@ -23,7 +23,7 @@ Your prompts must be adjusted to your needs. These prompts are created based on 
 
 Before you start, ensure the following:
 
-* Add and [verify your email sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — Mailtrap allows you to send emails only from a verified domain
+* Add and [verify your email sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) — Mailtrap allows you to send emails only from a verified domain
 * Make sure your [API Token](https://mailtrap.io/api-tokens) has admin access level to that domain and contacts
 
 {% stepper %}
@@ -60,7 +60,7 @@ Here is the email received in Gmail:
 
 #### Check Mailtrap Email Logs
 
-You can view the email in the [Mailtrap Email Logs](https://help.mailtrap.io/article/71-email-logs):
+You can view the email in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs):
 
 ![Mailtrap Email Logs showing detailed email delivery information including timestamp, delivery status, and API key used](../.gitbook/assets/send-email-with-v0-4.png)
 
@@ -70,13 +70,13 @@ You can also view important statistics about your sent emails such as opens, cli
 
 ![Mailtrap Stats Overview dashboard displaying delivery rates, open rates, click rates, and email performance metrics](<../.gitbook/assets/send-email-with-v0-5 (1).png>)
 
-For more information on Mailtrap analytics, [view the analytics guide](https://help.mailtrap.io/article/88-statistics).
+For more information on Mailtrap analytics, [view the analytics guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
 {% endstep %}
 {% endstepper %}
 
 ## Next steps
 
-* Use [Mailtrap Templates](https://help.mailtrap.io/article/105-email-templates) to send branded emails with variables
+* Use [Mailtrap Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) to send branded emails with variables
 * Configure [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) to push user information to your Mailtrap dashboard for campaigns and automations
-* [Add automation triggers](https://help.mailtrap.io/article/170-automations) in Mailtrap to send follow-ups to new contacts
+* [Add automation triggers](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/automations) in Mailtrap to send follow-ups to new contacts
 * Track open and click rates with Mailtrap Email Tracking

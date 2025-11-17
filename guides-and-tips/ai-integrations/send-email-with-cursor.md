@@ -15,7 +15,7 @@ With the Cursor and Mailtrap integration, you can now send emails from Cursor us
 
 ### Prerequisites
 
-* If you haven't set up your sending domain already, you'll need to do it before we start—it takes \~5 minutes, and you can use our [step-by-step article](https://help.mailtrap.io/article/69-sending-domain-setup) as a guide.
+* If you haven't set up your sending domain already, you'll need to do it before we start—it takes \~5 minutes, and you can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) as a guide.
 * Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 * If you haven't already done so, install the [Cursor app](https://cursor.com/). But if you have, make sure it's updated and uses the latest version.
 
@@ -123,7 +123,7 @@ Lastly, Cursor AI will notify you when it successfully delivers the email.
 
 ![Cursor success message confirming email delivery with recipient email and message ID](../.gitbook/assets/send-email-with-cursor-8.png)
 
-And here is the generated message in the Mailtrap [Email Logs](https://help.mailtrap.io/article/71-email-logs).
+And here is the generated message in the Mailtrap [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
 
 ![Mailtrap Email Logs dashboard showing delivered email with Hi John subject and metadata](../.gitbook/assets/send-email-with-cursor-9.png)
 {% endstep %}

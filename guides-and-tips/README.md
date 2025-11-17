@@ -1,13 +1,11 @@
 ---
 title: Guides & Tips
 description: >-
-  Step-by-step guides for DNS setup, third-party integrations, and switching to
-  Mailtrap from other email service providers
+  Step-by-step guides for SDK integrations, DNS setup, third-party platform integrations,
+  AI-powered tools, and SSO configuration
 ---
 
-# README
-
-## Overview
+# Overview
 
 Welcome to Mailtrap Guides & Tips! This section provides detailed, step-by-step instructions to help you set up and configure various aspects of Mailtrap, including official SDKs, DNS records for different providers, integrations with popular platforms, and AI-powered development tools.
 

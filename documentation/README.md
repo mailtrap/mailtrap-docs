@@ -110,7 +110,6 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 * [FAQs](faqs/)
 * [Troubleshooting](troubleshooting/)
 * [Status Page](https://status.mailtrap.io/)
-* [Support Center](https://help.mailtrap.io/)
 * [Blog & Updates](https://mailtrap.io/blog/)
 * [Contact Support](https://mailtrap.io/support/)
 {% endcolumn %}

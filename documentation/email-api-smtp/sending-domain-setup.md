@@ -59,7 +59,7 @@ To verify the domain yourself, follow these steps:
 
 * Open the DNS settings and click Add New Record.
 
-<figure><img src="../../guides-and-tips/.gitbook/assets/godaddy-add-new-record (1).png" alt="GoDaddy DNS Management with Add New Record button"><figcaption><p>GoDaddy DNS Management - Add New Record</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/godaddy-add-new-record.png" alt="GoDaddy DNS Management with Add New Record button"><figcaption><p>GoDaddy DNS Management - Add New Record</p></figcaption></figure>
 
 * Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in most domain providers but may differ slightly depending on the provider.
 
@@ -69,7 +69,7 @@ To verify the domain yourself, follow these steps:
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/sending-domains-dns-types-categories.png" alt="DNS Types and Categories in Mailtrap showing CNAME and TXT record types" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
-<figure><img src="../../guides-and-tips/.gitbook/assets/godaddy-dns-record-types (1).png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure>
 
 {% hint style="info" %}
 Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap.

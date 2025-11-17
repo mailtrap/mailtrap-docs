@@ -37,6 +37,7 @@
   * [Custom Variables](email-api-smtp/custom-variables.md)
   * [Excluding Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
   * [Auto BCC](email-api-smtp/advanced/auto-bcc.md)
+  * [Webhooks](email-api-smtp/webhooks.md)
 * [Help & Support](email-api-smtp/help/README.md)
   * [FAQs](email-api-smtp/faqs.md)
   * [Troubleshooting](email-api-smtp/troubleshooting/README.md)

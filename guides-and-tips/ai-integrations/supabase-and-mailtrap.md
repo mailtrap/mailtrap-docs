@@ -20,7 +20,7 @@ Use Mailtrap's SMTP settings to send emails directly through your Supabase proje
 - Send emails through Supabase's built-in email system
 - Adjust email rate limits beyond Supabase defaults
 
-See the [Mailtrap SMTP and Supabase integration guide](https://help.mailtrap.io/article/165-mailtrap-smtp-and-supabase) for detailed setup instructions.
+See the Mailtrap SMTP and Supabase integration guide for detailed setup instructions.
 
 ### Mailtrap Contacts Management + Supabase
 
@@ -32,7 +32,7 @@ Sync your Supabase user database with Mailtrap's Contacts feature to manage reci
 - Automate email sequences based on user actions
 - Track opens, clicks, and other engagement metrics
 
-See the [Mailtrap Contacts and Supabase integration guide](https://help.mailtrap.io/article/167-mailtrap-contacts-and-supabase) for detailed setup instructions.
+See the Mailtrap Contacts and Supabase integration guide for detailed setup instructions.
 
 ## Which Integration Should You Choose?
 

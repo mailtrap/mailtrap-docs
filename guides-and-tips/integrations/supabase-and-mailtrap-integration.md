@@ -13,7 +13,7 @@ In this guide, I'll show you how to obtain the Mailtrap SMTP credentials and upd
 
 ## Step 1: Obtain your sending credentials
 
-If you haven't already, you'll need to verify your domain before we start. You can use our [step-by-step article](https://help.mailtrap.io/article/69-sending-domain-setup) as a guide.
+If you haven't already, you'll need to verify your domain before we start. You can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) as a guide.
 
 With a verified domain in place:
 
@@ -56,14 +56,14 @@ With a verified domain in place:
 
 ## Step 4: Monitor your email performance
 
-Once you send emails from your Supabase project, they should arrive in both your recipient's inbox and your **Mailtrap Email Logs**. There, you can see useful information such as delivery time, opens/clicks, email HTML source, [spam analysis](https://help.mailtrap.io/article/43-deliverability-tests), and more.
+Once you send emails from your Supabase project, they should arrive in both your recipient's inbox and your **Mailtrap Email Logs**. There, you can see useful information such as delivery time, opens/clicks, email HTML source, [spam analysis](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox/deliverability-tests), and more.
 
 ![Mailtrap email details page showing confirmation email delivery status with complete metadata](../.gitbook/assets/supabase-and-mailtrap-integration-9.png)
 
-You can read more about **Mailtrap Email Logs** in our [dedicated article](https://help.mailtrap.io/article/71-email-logs).
+You can read more about **Mailtrap Email Logs** in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
 
 Additionally, you'll be able to see all important stats regarding your sent emails, such as opens, clicks, bounces, and more.
 
 ![Mailtrap analytics dashboard showing email delivery statistics and performance metrics by mailbox provider](<../.gitbook/assets/send-email-with-v0-5 (1).png>)
 
-For more information on **Mailtrap Analytics**, [click here](https://help.mailtrap.io/article/88-statistics).
+For more information on **Mailtrap Analytics**, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).

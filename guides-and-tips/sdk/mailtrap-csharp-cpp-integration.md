@@ -25,7 +25,7 @@ SMTP integration is compatible with any C# and C/C++ framework or library that s
 
 ![Mailtrap SMTP integration interface showing C# code sample with SMTP credentials and MailKit library implementation](<../.gitbook/assets/mailtrap-csharp-smtp-integration (1).png>)
 
-Read more about SMTP integration [here](../../documentation/sending/smtp-sending/smtp-integration.md).
+Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
 ### RESTful API integration
 
@@ -37,4 +37,4 @@ API integration can be used with any C# and C/C++ framework or library that supp
 
 ![Mailtrap API integration interface showing C/C++ RESTful API code sample with libcurl implementation](../.gitbook/assets/mailtrap-cpp-api-integration.png)
 
-Read more about API integration [here](../../documentation/sending/api-sending/api-integration.md).
+Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
