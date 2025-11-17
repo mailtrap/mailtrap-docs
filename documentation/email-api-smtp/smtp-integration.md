@@ -3,6 +3,7 @@ title: SMTP integration
 description: >-
   Integrate Mailtrap SMTP. Get SMTP credentials, choose transactional or bulk
   sending, use code samples, and start sending.
+icon: envelope-open
 layout:
   width: default
   title:
@@ -19,7 +20,7 @@ layout:
     visible: true
 ---
 
-# 📮 SMTP Integration
+# SMTP Integration
 
 Learn how to integrate your application via SMTP.
 

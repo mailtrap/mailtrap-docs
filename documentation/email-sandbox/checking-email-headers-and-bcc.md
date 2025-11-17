@@ -1,9 +1,10 @@
 ---
 title: Checking email headers and Bcc
 description: Learn how to verify email headers including Subject, From, To, and Bcc fields
+icon: memo
 ---
 
-# 📋 Email Headers and Bcc
+# Email Headers and Bcc
 
 * **Subject line.** View how it looks for the recipient. Especially if you used emojis, make sure that they are rendered as expected.
 * **FROM** (sender). Make sure of the correct sender's name and email address.

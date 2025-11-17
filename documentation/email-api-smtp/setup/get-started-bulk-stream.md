@@ -3,9 +3,10 @@ title: Bulk Stream
 description: >-
   Send marketing and promotional emails through a dedicated stream with built-in
   compliance features
+icon: envelopes-bulk
 ---
 
-# 📤 Bulk Stream
+# Bulk Stream
 
 ## What is Bulk Stream?
 

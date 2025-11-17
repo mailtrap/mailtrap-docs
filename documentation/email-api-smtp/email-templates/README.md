@@ -3,9 +3,10 @@ title: Email Templates
 description: >-
   Create and send Mailtrap email templates with drag-and-drop builder or HTML
   editor, add Handlebars variables, and integrate via API or SMTP.
+icon: palette
 ---
 
-# 🎨 Email Templates
+# Email Templates
 
 ### Overview
 

@@ -1,9 +1,10 @@
 ---
 title: Sharing projects
 description: Organize and share projects to collaborate with team members on email testing
+icon: folder-open
 ---
 
-# 📂 Sharing Projects
+# Sharing Projects
 
 ### How to organize projects
 

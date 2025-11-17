@@ -3,9 +3,10 @@ title: Bounce Emulator
 description: >-
   Learn how to test your SMTP client's behavior when the server responds with an
   error
+icon: arrow-turn-down-left
 ---
 
-# ↩️ Bounce Emulator
+# Bounce Emulator
 
 ## Constructing the address
 

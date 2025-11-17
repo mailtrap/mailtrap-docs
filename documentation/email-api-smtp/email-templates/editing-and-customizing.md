@@ -3,9 +3,10 @@ title: Editing and Customizing Templates
 description: >-
   Learn how to edit and customize email templates using Details, Drag & Drop
   Editor, Code Editor, and test your templates before sending.
+icon: pen
 ---
 
-# ✏️ Editing and Customizing
+# Editing and Customizing
 
 ### Details
 

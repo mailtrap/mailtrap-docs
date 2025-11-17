@@ -1,9 +1,10 @@
 ---
 title: Collaboration
 description: Team features for collaborative email testing
+icon: users
 ---
 
-# 👥 Collaboration
+# Collaboration
 
 Work effectively with your team using Email Sandbox's collaboration features. Share sandboxes, projects, and test results to streamline your email testing workflow.
 

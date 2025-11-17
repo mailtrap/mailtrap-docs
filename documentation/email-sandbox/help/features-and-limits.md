@@ -1,9 +1,10 @@
 ---
 title: Features and limits
 description: All Mailtrap features and possible limits explained
+icon: list-radio
 ---
 
-# 📊 Features and Limits
+# Features and Limits
 
 ### Total test emails per month
 

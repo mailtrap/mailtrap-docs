@@ -3,6 +3,7 @@ title: IP Warmup
 description: >-
   Learn about Mailtrap IP warmup: shared vs dedicated IPs, automated IP warmup
   schedule, and gradual daily sending limits over 3 weeks.
+icon: map-pin
 layout:
   width: default
   title:
@@ -19,7 +20,7 @@ layout:
     visible: true
 ---
 
-# 📈 Dedicated IP
+# Dedicated IP
 
 Mailtrap offers both shared IP addresses as well as dedicated IPs.
 

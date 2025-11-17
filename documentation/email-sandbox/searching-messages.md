@@ -3,9 +3,10 @@ title: Searching messages
 description: >-
   Search for emails in your sandbox by subject, recipient address, or recipient
   name
+icon: magnifying-glass
 ---
 
-# 🔍 Searching Messages
+# Searching Messages
 
 Email search works as a case-insensitive pattern matching. You can search for emails by:
 

@@ -3,9 +3,10 @@ title: Email Sandbox Overview
 description: >-
   Test and preview emails safely in a sandbox environment before sending to
   production
+icon: memo-circle-check
 ---
 
-# 📋 Overview
+# Overview
 
 Email Sandbox is a safe testing environment that captures all your test emails, preventing them from reaching real inboxes. Perfect for development, QA testing, and staging environments, it ensures your email functionality works flawlessly before going live.
 

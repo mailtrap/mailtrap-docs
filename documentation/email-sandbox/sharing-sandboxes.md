@@ -1,9 +1,10 @@
 ---
 title: Sharing sandboxes
 description: Share individual sandboxes with team members for collaborative email testing
+icon: handshake-simple
 ---
 
-# 🤝 Sharing Sandboxes
+# Sharing Sandboxes
 
 ### How to organize your sandbox data
 

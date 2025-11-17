@@ -3,9 +3,10 @@ title: HTML Check
 description: >-
   Learn how HTML Check scans your email for problematic elements and provides
   market support scores
+icon: square-check
 ---
 
-# ✅ HTML Check
+# HTML Check
 
 **HTML Check** scans through your email in search of problematic elements. For each it finds, it displays the list of email clients that lack support for it or support it only partially. It also estimates the support for your emails' code across popular email clients, and provides you with the percentage of the market share accordingly.
 

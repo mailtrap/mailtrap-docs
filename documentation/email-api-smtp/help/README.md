@@ -1,9 +1,10 @@
 ---
 title: Help & Support
 description: Get help with Email API/SMTP issues and find answers to common questions
+icon: question
 ---
 
-# ❓ Help & Support
+# Help & Support
 
 Find answers to common questions and troubleshoot issues with Mailtrap's Email API/SMTP service. Our comprehensive help resources are designed to get you back on track quickly.
 

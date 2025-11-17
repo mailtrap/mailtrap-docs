@@ -1,9 +1,10 @@
 ---
 title: Sandbox Glossary
 description: Common terms and definitions for Email Sandbox features and protocols
+icon: book-open
 ---
 
-# 📖 Sandbox Glossary
+# Sandbox Glossary
 
 **Sandbox API** - Compatible with most programming languages, uses the REST protocol, and returns calls in JSON format. Here's the [link](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) to the API documentation. With API, you can take actions related to an sandbox, a project, email forwarding, email content, message headers, and more.
 

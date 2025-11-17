@@ -1,9 +1,10 @@
 ---
 title: Setup & Integration
 description: Get Email Sandbox configured and integrated with your application
+icon: gear
 ---
 
-# ⚙️ Setup & Configuration
+# Setup & Configuration
 
 Get started with Email Sandbox quickly and easily. This section covers everything you need to integrate Email Sandbox into your development workflow.
 

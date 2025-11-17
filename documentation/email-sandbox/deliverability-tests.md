@@ -1,9 +1,10 @@
 ---
 title: Deliverability tests
 description: Learn how to check spam score and blacklisting to ensure email deliverability
+icon: mailbox
 ---
 
-# 📬 Deliverability Tests
+# Deliverability Tests
 
 ### Spam Report
 

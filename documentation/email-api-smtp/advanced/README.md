@@ -1,9 +1,10 @@
 ---
 title: Advanced Features
 description: Powerful features for advanced email sending scenarios
+icon: scale-balanced
 ---
 
-# 🚀 Advanced Features
+# Advanced Features
 
 Take your email sending to the next level with Mailtrap's advanced features. These tools are designed for power users who need more control over their email infrastructure and want to optimize their sending patterns.
 

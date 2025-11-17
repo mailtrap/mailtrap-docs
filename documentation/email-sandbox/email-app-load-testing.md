@@ -3,9 +3,10 @@ title: Email app load testing
 description: >-
   Test your email application at scale using the Sandbox Enterprise plan with up
   to 150 emails per 10 seconds across 300 sandboxes
+icon: bolt-lightning
 ---
 
-# ⚡ Load Testing
+# Load Testing
 
 Email app load testing is one of the most popular cases of using Sandbox Enterprise plan. This plan allows you to send up to 150 emails every 10 seconds to as many as 300 sandboxes.
 

@@ -1,9 +1,10 @@
 ---
 title: Deliverability Features
 description: Tools and features to ensure your emails reach the inbox
+icon: truck-bolt
 ---
 
-# 🛡️ Deliverability Features
+# Deliverability Features
 
 Maximize your email deliverability with Mailtrap's comprehensive suite of deliverability tools. These features help you maintain a good sender reputation, manage bounces effectively, and ensure your emails reach their intended recipients.
 

@@ -2,6 +2,7 @@
 description: >-
   Learn Mailtrap email sending limits: hourly, daily, connection, and email
   size. Understand what happens when limits are reached and how to upgrade.
+icon: triangle-exclamation
 layout:
   width: default
   title:
@@ -18,7 +19,7 @@ layout:
     visible: true
 ---
 
-# ⚠️ Sending Limits
+# Sending Limits
 
 When you first sign up for Mailtrap, we limit your throughput to 150 emails an hour. This is a security measure to prevent abusing our system for spam.
 

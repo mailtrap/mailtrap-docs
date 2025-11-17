@@ -3,9 +3,10 @@ title: Automatic email forwarding
 description: >-
   Forward emails from the sandbox to any inbox automatically for testing in
   different clients and notifying colleagues
+icon: forward
 ---
 
-# ↪️ Automatic Forwarding
+# Automatic Forwarding
 
 You can forward emails from the sandbox to any inbox.
 

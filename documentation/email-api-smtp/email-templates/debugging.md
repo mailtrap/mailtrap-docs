@@ -3,9 +3,10 @@ title: Template Debugging
 description: >-
   Learn how to test and debug your email templates using Mailtrap Email Sandbox
   before sending them to production.
+icon: spider
 ---
 
-# 🐛 Debugging with Sandbox
+# Debugging with Sandbox
 
 ### Overview
 

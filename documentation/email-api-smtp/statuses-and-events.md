@@ -4,6 +4,7 @@ description: >-
   Learn about Mailtrap statuses and events: delivery, bounces, opens, clicks,
   and opt-outs. Understand how statuses differ from events and track
   performance.
+icon: bell
 layout:
   width: default
   title:
@@ -20,7 +21,7 @@ layout:
     visible: true
 ---
 
-# 🔔 Statuses and Events
+# Statuses and Events
 
 When sending emails with Mailtrap, you’ll often encounter the terms Status and Event.
 

@@ -3,6 +3,7 @@ title: API integration
 description: >-
   Integrate Mailtrap email API. Get API credentials, choose transactional or
   bulk sending, use SDKs or code samples, and start sending.
+icon: plug
 layout:
   width: default
   title:
@@ -19,7 +20,7 @@ layout:
     visible: true
 ---
 
-# 🔌 API Integration
+# API Integration
 
 Use API credentials to integrate Mailtrap with your project.
 

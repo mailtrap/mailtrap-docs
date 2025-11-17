@@ -4,6 +4,7 @@ description: >-
   Understand Mailtrap email categories: organize email types like welcome,
   onboarding, or billing. Track performance, analyze metrics, and compare
   categories.
+icon: tag
 layout:
   width: default
   title:
@@ -20,7 +21,7 @@ layout:
     visible: true
 ---
 
-# 🏷️ Email Categories
+# Email Categories
 
 Email Categories were built to show the performance of various types of emails, such as welcome emails, billing emails, confirmation emails, etc.
 

@@ -4,6 +4,7 @@ description: >-
   Manage Mailtrap suppression lists. View, add, remove, or import suppressed
   emails from hard bounces, unsubscribes, and spam complaints via CSV or
   manually.
+icon: ban
 layout:
   width: default
   title:
@@ -20,7 +21,7 @@ layout:
     visible: true
 ---
 
-# 🚫 Suppressions List
+# Suppressions List
 
 When hard bounce, unsubscribe, and spam complaints events occur, Mailtrap adds the email address to a suppression list. The suppression list contains all the addresses you cannot send emails to.
 

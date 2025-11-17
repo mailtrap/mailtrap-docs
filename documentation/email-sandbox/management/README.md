@@ -1,9 +1,10 @@
 ---
 title: Email Management
 description: Manage and organize emails in your sandbox effectively
+icon: folder
 ---
 
-# 📁 Sandbox Management
+# Sandbox Management
 
 Efficiently manage, search, and organize emails within your Email Sandbox. These tools help you maintain a clean testing environment and quickly find the emails you need.
 

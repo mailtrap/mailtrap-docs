@@ -1,9 +1,10 @@
 ---
 title: Testing Features
 description: Comprehensive email testing tools for quality assurance
+icon: vial
 ---
 
-# 🧪 Testing Features
+# Testing Features
 
 Email Sandbox provides a complete suite of testing tools to ensure your emails look perfect and function correctly across all email clients and scenarios.
 
