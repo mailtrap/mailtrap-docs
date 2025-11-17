@@ -115,10 +115,8 @@ For detailed syntax, templates, and validation, refer to:
 - `.claude/skills/gitbook-assistant/resources/gitbook-format-reference.md` - Full format reference
 - `.claude/skills/gitbook-assistant/resources/templates/` - Pre-formatted templates
 
-## Documentation Structure Patterns
-
-### Image Formatting
-- Image assets are stored in the `.gitbook/assets/` directory inside the relevant space.
+## Images Formatting
+- Images assets are stored in the `.gitbook/assets/` directory inside the relevant space directory
 - Gitbook-assistant skill has information about image formatting in the `.claude/skills/gitbook-assistant/resources/gitbook-format-reference.md` file.
 - After migration from Helpscout some images were not properly formatted and are not included into asset folders. 
 -- Some images still host on Helpscout and it can be detected if an image URL like `https://lh7-us.googleusercontent.com/`
@@ -126,6 +124,9 @@ For detailed syntax, templates, and validation, refer to:
 -- Reformating should include user-friendly name of image and proper alt text
 -- Name shouldn't have spaces or special characters
 -- Use image vision to understand the image content and provide a meaningful alt text and name. If image is bigger than Read tool max width (2000 pixels), detect it and resize it to fit before submitting to Read tool for recognition.
+
+
+## Documentation Structure Patterns
 
 ### Content Organization
 - Use `SUMMARY.md` to define navigation structure
@@ -174,3 +175,10 @@ When creating or editing documentation:
 
 - We should follow the product names as it appears on the website and in marketing materials
 - Current names: Email API/SMTP (can be shortened to Email API or API/SMTP), Email Sandbox (can be shortened to Sandbox), Email Marketing (can be shortened to Marketing)
+
+## Content guidelines
+
+- Do not use emojis in main content
+- Use Font Awesome icons for consistency
+-- https://fontawesome.com/search
+-- Representation in Markdown: <i class="fa-github">:github:</i>
