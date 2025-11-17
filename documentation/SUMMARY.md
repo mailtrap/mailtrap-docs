@@ -10,7 +10,7 @@
 
 ## Email API/SMTP
 
-* [📋 Overview](email-api-smtp/README.md)
+* [Overview](email-api-smtp/README.md)
 * [⚙️ Setup & Configuration](email-api-smtp/setup/README.md)
   * [🌐 Sending Domain Setup](email-api-smtp/sending-domain-setup.md)
   * [🔌 API Integration](email-api-smtp/api-integration.md)

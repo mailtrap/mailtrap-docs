@@ -3,9 +3,10 @@ title: Email API/SMTP Overview
 description: >-
   Send transactional and bulk emails reliably with Mailtrap's Email API and SMTP
   service
+icon: memo-circle-check
 ---
 
-# 📋 Overview
+# Overview
 
 Mailtrap Email API/SMTP is a reliable email delivery service designed for developers and businesses to send transactional and bulk emails at scale. Whether you're sending password resets, order confirmations, or marketing campaigns, we ensure your emails reach the inbox.
 
