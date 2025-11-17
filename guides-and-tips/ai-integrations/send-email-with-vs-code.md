@@ -1,9 +1,11 @@
 ---
 title: <i class="fa-code">:code:</i> VS Code and Mailtrap Integration
-description: Learn how to integrate Mailtrap with VS Code using the Mailtrap MCP server to send emails directly from the editor with simple AI prompts.
+description: >-
+  Learn how to integrate Mailtrap with VS Code using the Mailtrap MCP server to
+  send emails directly from the editor with simple AI prompts.
 ---
 
-# Overview
+# VS Code and Mailtrap
 
 With the VS Code Mailtrap integration, you can send emails directly from Visual Studio Code using simple AI prompts powered by GitHub Copilot.
 
@@ -15,15 +17,15 @@ In this guide, you'll set up the integration and send emails in three steps.
 
 Before you start, ensure the following:
 
-- [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
-- Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
-- Install or update [Visual Studio Code](https://code.visualstudio.com/) to the latest version
+* [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
+* Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
+* Install or update [Visual Studio Code](https://code.visualstudio.com/) to the latest version
 
 {% stepper %}
 {% step %}
-## Add Mailtrap MCP to VS Code
+### Add Mailtrap MCP to VS Code
 
-To add Mailtrap MCP to VS Code, you can use the [quick install link](https://insiders.vscode.dev/redirect/mcp/install?name=mailtrap&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-mailtrap%22%5D%2C%22env%22%3A%7B%22MAILTRAP_API_TOKEN%22%3A%22%24%7Binput%3AmailtrapApiToken%7D%22%2C%22DEFAULT_FROM_EMAIL%22%3A%22%24%7Binput%3AsenderEmail%7D%22%2C%22MAILTRAP_ACCOUNT_ID%22%3A%22%24%7Binput%3AmailtrapAccountId%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapApiToken%22%2C%22description%22%3A%22Mailtrap+API+Token%22%2C%22password%22%3Atrue%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22senderEmail%22%2C%22description%22%3A%22Sender+Email+Address%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapAccountId%22%2C%22description%22%3A%22Mailtrap+Account+ID%22%7D%5D) or follow these steps:
+To add Mailtrap MCP to VS Code, you can use the [quick install link](https://insiders.vscode.dev/redirect/mcp/install?name=mailtrap\&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-mailtrap%22%5D%2C%22env%22%3A%7B%22MAILTRAP_API_TOKEN%22%3A%22%24%7Binput%3AmailtrapApiToken%7D%22%2C%22DEFAULT_FROM_EMAIL%22%3A%22%24%7Binput%3AsenderEmail%7D%22%2C%22MAILTRAP_ACCOUNT_ID%22%3A%22%24%7Binput%3AmailtrapAccountId%7D%22%7D%7D\&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapApiToken%22%2C%22description%22%3A%22Mailtrap+API+Token%22%2C%22password%22%3Atrue%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22senderEmail%22%2C%22description%22%3A%22Sender+Email+Address%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapAccountId%22%2C%22description%22%3A%22Mailtrap+Account+ID%22%7D%5D) or follow these steps:
 
 1. Open VS Code and navigate to **Settings**
 2. Search for **MCP** in the settings search bar
@@ -63,16 +65,16 @@ Make sure to restart your MCP server after changing the "env" section.
 {% endstep %}
 
 {% step %}
-## Add Mailtrap API credentials
+### Add Mailtrap API credentials
 
 Replace the following values in your settings.json file:
 
-- **MAILTRAP_API_TOKEN** — Authentication token for API requests. You can copy this from the **Credentials** tab in your Mailtrap account
-- **DEFAULT_FROM_EMAIL** — Must match your verified domain in Mailtrap's **Sending Domains** tab
+* **MAILTRAP\_API\_TOKEN** — Authentication token for API requests. You can copy this from the **Credentials** tab in your Mailtrap account
+* **DEFAULT\_FROM\_EMAIL** — Must match your verified domain in Mailtrap's **Sending Domains** tab
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](../.gitbook/assets/send-email-with-vs-code-2.png)
+![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](<../.gitbook/assets/send-email-with-claude-2 (1).png>)
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload VS Code to ensure everything is set up correctly.
@@ -80,7 +82,7 @@ Although you shouldn't face any issues, reload VS Code to ensure everything is s
 {% endstep %}
 
 {% step %}
-## Send emails with a prompt
+### Send emails with a prompt
 
 To send an email:
 

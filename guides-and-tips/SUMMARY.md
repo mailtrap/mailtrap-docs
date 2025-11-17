@@ -1,5 +1,7 @@
 # Table of contents
 
+* [README](README.md)
+
 ## Integrations
 
 * [Webhooks](integrations/webhooks.md)

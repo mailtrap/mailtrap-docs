@@ -1,13 +1,15 @@
 ---
 title: AWS Route 53 DNS Setup
-description: Step-by-step guide to add and verify Mailtrap DNS records in AWS Route 53 for sending domain setup
+description: >-
+  Step-by-step guide to add and verify Mailtrap DNS records in AWS Route 53 for
+  sending domain setup
 ---
 
-# AWS Route 53
+# README
 
 To add and verify a sending domain in Mailtrap, you need access to your domain’s DNS records and your domain provider account.
 
-<a href="broken-reference" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to AWS Route 53.
+<a href="broken-reference/" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to AWS Route 53.
 
 {% hint style="info" %}
 This guide assumes that your domain is either registered and managed with AWS Route 53 or registered elsewhere but points to AWS Route 53. It also assumes that you've already created and configured a Hosted Zone for your domain.
@@ -15,7 +17,7 @@ This guide assumes that your domain is either registered and managed with AWS Ro
 
 1. Go to the AWS Management Console, type Route 53 in the search bar, and click on it.
 
-<figure><img src=".gitbook/assets/aws-route53-console-search.png" alt="AWS Management Console with Route 53 typed in search bar"><figcaption><p>Search for Route 53 in AWS Console</p></figcaption></figure>
+<figure><img src=".gitbook/assets/aws-route53-search (1).png" alt="AWS Management Console with Route 53 typed in search bar"><figcaption><p>Search for Route 53 in AWS Console</p></figcaption></figure>
 
 2. Navigate to Hosted Zone settings for the domain you've added to Mailtrap.
 
@@ -35,7 +37,7 @@ This guide assumes that your domain is either registered and managed with AWS Ro
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in AWS Route 53. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
 
-<figure><img src=".gitbook/assets/aws-route53-dns-types-categories.png" alt="Mailtrap DNS records showing different record types and categories highlighted"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure>
+<figure><img src=".gitbook/assets/mailtrap-dns-record-types (1).png" alt="Mailtrap DNS records showing different record types and categories highlighted"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure>
 
 {% hint style="warning" %}
 You should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap. It's okay to have multiple DMARC records.
@@ -43,7 +45,7 @@ You should have only one SPF record. So, if you already have one for your domain
 
 6. Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
-<figure><img src=".gitbook/assets/aws-route53-copy-dns-values.png" alt="Mailtrap DNS records page with copy button highlighted for Name and Value fields"><figcaption><p>Copy DNS record values from Mailtrap</p></figcaption></figure>
+<figure><img src=".gitbook/assets/mailtrap-dns-records-copy (1).png" alt="Mailtrap DNS records page with copy button highlighted for Name and Value fields"><figcaption><p>Copy DNS record values from Mailtrap</p></figcaption></figure>
 
 7. And paste them into AWS Route 53. The namings of the records are the same in AWS Route 53 as in Mailtrap.
 

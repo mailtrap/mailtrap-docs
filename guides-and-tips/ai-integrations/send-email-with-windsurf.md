@@ -1,9 +1,11 @@
 ---
 title: <i class="fa-wind">:wind:</i> Windsurf and Mailtrap Integration
-description: Learn how to integrate Mailtrap with Windsurf to send emails directly from the editor using Cascade and the Mailtrap MCP server.
+description: >-
+  Learn how to integrate Mailtrap with Windsurf to send emails directly from the
+  editor using Cascade and the Mailtrap MCP server.
 ---
 
-# Overview
+# Windsurf and Mailtrap
 
 With the Windsurf Mailtrap integration, you can send emails directly from Windsurf using the Cascade AI assistant and simple prompts.
 
@@ -15,13 +17,13 @@ In this guide, you'll set up the integration and send emails in three steps.
 
 Before you start, ensure the following:
 
-- [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
-- Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
-- Install or update [Windsurf](https://windsurf.com/) to the latest version
+* [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
+* Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
+* Install or update [Windsurf](https://windsurf.com/) to the latest version
 
 {% stepper %}
 {% step %}
-## Add Mailtrap MCP to Windsurf
+### Add Mailtrap MCP to Windsurf
 
 To add the Mailtrap MCP server to Windsurf:
 
@@ -55,16 +57,16 @@ This will open the mcp.config.json file. Add the following code snippet:
 {% endstep %}
 
 {% step %}
-## Add Mailtrap API credentials
+### Add Mailtrap API credentials
 
 Replace the following values in your mcp.config.json file:
 
-- **MAILTRAP_API_TOKEN** — Authentication token for API requests. You can copy this from the **Credentials** tab in your Mailtrap account
-- **DEFAULT_FROM_EMAIL** — Must match your verified domain in Mailtrap's **Sending Domains** tab
+* **MAILTRAP\_API\_TOKEN** — Authentication token for API requests. You can copy this from the **Credentials** tab in your Mailtrap account
+* **DEFAULT\_FROM\_EMAIL** — Must match your verified domain in Mailtrap's **Sending Domains** tab
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](../.gitbook/assets/send-email-with-windsurf-3.png)
+![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](<../.gitbook/assets/send-email-with-claude-2 (1).png>)
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload Windsurf to ensure everything is set up correctly.
@@ -72,7 +74,7 @@ Although you shouldn't face any issues, reload Windsurf to ensure everything is 
 {% endstep %}
 
 {% step %}
-## Send emails with a prompt
+### Send emails with a prompt
 
 To send an email:
 

@@ -1,23 +1,27 @@
 ---
 title: <i class="fa-bolt">:bolt:</i> Zapier Integration
-description: Automate email sending by connecting Mailtrap to over 7,000 applications using Zapier without writing any code.
+description: >-
+  Automate email sending by connecting Mailtrap to over 7,000 applications using
+  Zapier without writing any code.
 ---
 
-# Overview
+# Zapier Integration
+
+## Overview
 
 Using the Mailtrap integration with Zapier, you can automate email sending by connecting Mailtrap to over 7,000 other applications without any coding. This guide shows you how to set up the integration, create automations, and manage your connections.
 
-## Connecting Mailtrap to Zapier
+### Connecting Mailtrap to Zapier
 
 {% stepper %}
 {% step %}
-## Log in to Zapier
+### Log in to Zapier
 
 Log in to your [Zapier account](https://zapier.com/sign-up) or create a new account.
 {% endstep %}
 
 {% step %}
-## Navigate to Apps
+### Navigate to Apps
 
 Navigate to **Apps** in the left-hand side menu.
 
@@ -25,7 +29,7 @@ Navigate to **Apps** in the left-hand side menu.
 {% endstep %}
 
 {% step %}
-## Add connection
+### Add connection
 
 Click **Add connection**.
 
@@ -33,7 +37,7 @@ Click **Add connection**.
 {% endstep %}
 
 {% step %}
-## Search for Mailtrap
+### Search for Mailtrap
 
 Type _Mailtrap_ in the **App name** search bar.
 
@@ -41,7 +45,7 @@ Type _Mailtrap_ in the **App name** search bar.
 {% endstep %}
 
 {% step %}
-## Enter API key
+### Enter API key
 
 Enter your Mailtrap API key to allow Zapier to access your account. Note: This should be the token for the domain you've added and verified in Mailtrap. You'll find it in the **Settings** → **API Tokens** menu.
 
@@ -49,17 +53,17 @@ Enter your Mailtrap API key to allow Zapier to access your account. Note: This s
 {% endstep %}
 {% endstepper %}
 
-## Creating an automation
+### Creating an automation
 
 To set up trigger-based email sending via Mailtrap in Zapier, you need to create a Zap.
 
 A Zap is a workflow connecting multiple apps that consists of a trigger (an event that starts a Zap) and one or more actions (events the Zap performs).
 
-### Using Copilot
+#### Using Copilot
 
 {% stepper %}
 {% step %}
-## Describe your workflow
+### Describe your workflow
 
 Describe the workflow you want to create to Copilot.
 
@@ -67,7 +71,7 @@ Describe the workflow you want to create to Copilot.
 {% endstep %}
 
 {% step %}
-## Add steps from Copilot
+### Add steps from Copilot
 
 Add some or all the steps created by Copilot to the Zap or continue to prompt the chatbot to add or replace steps.
 
@@ -75,7 +79,7 @@ Add some or all the steps created by Copilot to the Zap or continue to prompt th
 {% endstep %}
 
 {% step %}
-## Configure email fields
+### Configure email fields
 
 Configure the required fields for sending an email. The from email should contain the same sending domain you added and verified in Mailtrap.
 
@@ -83,7 +87,7 @@ Configure the required fields for sending an email. The from email should contai
 {% endstep %}
 
 {% step %}
-## Send test email
+### Send test email
 
 Send a test email to Mailtrap (optional).
 
@@ -91,17 +95,17 @@ Send a test email to Mailtrap (optional).
 {% endstep %}
 
 {% step %}
-## Publish the Zap
+### Publish the Zap
 
 Publish the Zap.
 {% endstep %}
 {% endstepper %}
 
-### Manually
+#### Manually
 
 {% stepper %}
 {% step %}
-## Select trigger event
+### Select trigger event
 
 Select an event (trigger) to start your Zap.
 
@@ -113,7 +117,7 @@ Zapier's app directory contains 7,000+ apps with triggers and actions available 
 {% endstep %}
 
 {% step %}
-## Select Mailtrap action
+### Select Mailtrap action
 
 Select **Mailtrap** as the action for your Zap to run.
 
@@ -121,7 +125,7 @@ Select **Mailtrap** as the action for your Zap to run.
 {% endstep %}
 
 {% step %}
-## Select Send Email event
+### Select Send Email event
 
 Select **Send Email** as the action event.
 
@@ -129,7 +133,7 @@ Select **Send Email** as the action event.
 {% endstep %}
 
 {% step %}
-## Configure email fields
+### Configure email fields
 
 Configure the required fields for sending an email.
 
@@ -137,7 +141,7 @@ Configure the required fields for sending an email.
 {% endstep %}
 
 {% step %}
-## Send test email
+### Send test email
 
 Send a test email to Mailtrap (optional).
 
@@ -145,17 +149,17 @@ Send a test email to Mailtrap (optional).
 {% endstep %}
 
 {% step %}
-## Publish the Zap
+### Publish the Zap
 
 Publish the Zap.
 {% endstep %}
 {% endstepper %}
 
-## Removing Mailtrap credentials from Zapier
+### Removing Mailtrap credentials from Zapier
 
 {% stepper %}
 {% step %}
-## Navigate to Apps
+### Navigate to Apps
 
 Navigate to **Apps** in the left-hand side menu.
 
@@ -163,7 +167,7 @@ Navigate to **Apps** in the left-hand side menu.
 {% endstep %}
 
 {% step %}
-## Open Mailtrap connection
+### Open Mailtrap connection
 
 Click on your Mailtrap connection.
 
@@ -171,7 +175,7 @@ Click on your Mailtrap connection.
 {% endstep %}
 
 {% step %}
-## Delete connection
+### Delete connection
 
 Click the three-dot menu and then **Delete** in the dropdown menu. Using the same menu, you can edit the connection name, reconnect, test the connection, and view Zaps created using the connection.
 
@@ -179,6 +183,6 @@ Click the three-dot menu and then **Delete** in the dropdown menu. Using the sam
 {% endstep %}
 {% endstepper %}
 
-# Next Steps
+## Next Steps
 
 After setting up your Mailtrap and Zapier integration, you can create unlimited Zaps to automate your email workflows and connect your favorite apps seamlessly.

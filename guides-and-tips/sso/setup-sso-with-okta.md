@@ -1,9 +1,11 @@
 ---
 title: <i class="fa-shield-halved">:shield-halved:</i> Setup SSO with Okta
-description: Learn how to configure Single Sign-On (SSO) integration between Okta and Mailtrap using SAML 2.0, including role mapping and debugging.
+description: >-
+  Learn how to configure Single Sign-On (SSO) integration between Okta and
+  Mailtrap using SAML 2.0, including role mapping and debugging.
 ---
 
-# Overview
+# Setup SSO with Okta
 
 This guide walks you through setting up SSO integration between Okta and Mailtrap using SAML 2.0, including optional role mapping configuration.
 
@@ -11,7 +13,7 @@ This guide walks you through setting up SSO integration between Okta and Mailtra
 
 {% stepper %}
 {% step %}
-### Navigate to Applications and create integration
+#### Navigate to Applications and create integration
 
 Navigate to Applications and click **Create App Integration**.
 
@@ -19,37 +21,38 @@ Navigate to Applications and click **Create App Integration**.
 {% endstep %}
 
 {% step %}
-### Select Web Platform and SAML 2.0
+#### Select Web Platform and SAML 2.0
 
 Select the Web Platform and SAML 2.0 as the Sign on method.
 {% endstep %}
 
 {% step %}
-### Enter app name
+#### Enter app name
 
 Enter app name and click on Next.
 {% endstep %}
 
 {% step %}
-### Configure SAML Provider details
+#### Configure SAML Provider details
 
 Provide the following SAML Provider details to Okta from Mailtrap:
-- Entity ID = **Audience URI** (SP Entity ID)
-- Assertion Consumer Service URL = **Single sign on URL**
-- **Name ID format** should be set to `EmailAddress`
-- **Application username** should be set to `email`
+
+* Entity ID = **Audience URI** (SP Entity ID)
+* Assertion Consumer Service URL = **Single sign on URL**
+* **Name ID format** should be set to `EmailAddress`
+* **Application username** should be set to `email`
 
 ![Okta SAML settings configuration screen](../.gitbook/assets/setup-sso-with-okta-2.png)
 {% endstep %}
 
 {% step %}
-### Add attribute mapping (Optional)
+#### Add attribute mapping (Optional)
 
 To apply role mapping please add used for mapping attribute in **Attribute Statements (optional)**
 {% endstep %}
 
 {% step %}
-### Complete setup
+#### Complete setup
 
 Click **Next** and **Finish**.
 {% endstep %}
@@ -65,7 +68,7 @@ In Okta, you will see info that "**SAML 2.0** is not configured until you comple
 
 {% stepper %}
 {% step %}
-### View Setup Instructions
+#### View Setup Instructions
 
 Click **"View Setup Instructions"**
 
@@ -73,22 +76,23 @@ Click **"View Setup Instructions"**
 {% endstep %}
 
 {% step %}
-### Provide Okta details to Mailtrap
+#### Provide Okta details to Mailtrap
 
 Provide the following to Mailtrap from Okta:
-- IdP Entity ID (Identity Provider Issuer) = Identity Provider Issuer
-- Single Sign-on URL = Identity Provider Single Sign-On URL
-- X509 Certificate = X509 Certificate
+
+* IdP Entity ID (Identity Provider Issuer) = Identity Provider Issuer
+* Single Sign-on URL = Identity Provider Single Sign-On URL
+* X509 Certificate = X509 Certificate
 {% endstep %}
 
 {% step %}
-### Save configuration
+#### Save configuration
 
 Click Save in Mailtrap SSO configuration.
 {% endstep %}
 
 {% step %}
-### Configure Role mapping (Optional)
+#### Configure Role mapping (Optional)
 
 For Role mapping there is additional configuration, please find more details in the SSO Guide Step 4: Role mapping section
 {% endstep %}
@@ -113,8 +117,8 @@ There are several ways to do it in Okta. The best way is to consult with your te
 ### Map Okta group names to Mailtrap permissions
 
 1. Create groups in Okta
-   - "MT Admin Group"
-   - "MT Viewer Group"
+   * "MT Admin Group"
+   * "MT Viewer Group"
 
 ![Okta groups list showing MT Admin and Viewer groups](../.gitbook/assets/setup-sso-with-okta-7.png)
 
@@ -124,10 +128,10 @@ There are several ways to do it in Okta. The best way is to consult with your te
 ![Okta SAML attribute mapping configuration](../.gitbook/assets/setup-sso-with-okta-8.png)
 
 4. Update attribute statements to return new SAML attributes:
-   - `isMailtrapAdmin` with value `isMemberOfGroupName("MT Admin Group")`
-   - `isMailtrapViewer` with value `isMemberOfGroup("00ggiqham4LuYTBPL5d7")`
-     - `isMemberOfGroup` accepts group id. Group id can be taken from URL when visiting group page
-   - More about Okta expressions language [here](https://developer.okta.com/docs/reference/okta-expression-language/)
+   * `isMailtrapAdmin` with value `isMemberOfGroupName("MT Admin Group")`
+   * `isMailtrapViewer` with value `isMemberOfGroup("00ggiqham4LuYTBPL5d7")`
+     * `isMemberOfGroup` accepts group id. Group id can be taken from URL when visiting group page
+   * More about Okta expressions language [here](https://developer.okta.com/docs/reference/okta-expression-language/)
 
 ![Okta attribute statements configuration](../.gitbook/assets/setup-sso-with-okta-9.png)
 

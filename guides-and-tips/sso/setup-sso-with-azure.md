@@ -1,19 +1,23 @@
 ---
 title: <i class="fa-microsoft">:microsoft:</i> Setup SSO with Azure (Microsoft Entra)
-description: Step-by-step guide to configure SAML-based Single Sign-On between Azure Active Directory and Mailtrap with role mapping support.
+description: >-
+  Step-by-step guide to configure SAML-based Single Sign-On between Azure Active
+  Directory and Mailtrap with role mapping support.
 ---
 
-# Overview
+# Setup SSO with Azure (Microsoft Entra)
+
+## Overview
 
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between Azure Active Directory (Microsoft Entra) and Mailtrap.
 
-# Configure Single Sign-On with Azure
+## Configure Single Sign-On with Azure
 
-## Create Enterprise Application
+### Create Enterprise Application
 
 {% stepper %}
 {% step %}
-## Open Enterprise Applications
+### Open Enterprise Applications
 
 Open your Azure Active Directory and select **Enterprise applications**
 
@@ -21,25 +25,25 @@ Open your Azure Active Directory and select **Enterprise applications**
 {% endstep %}
 
 {% step %}
-## Add New Application
+### Add New Application
 
 Add new application by clicking the **+ New application** button
 {% endstep %}
 
 {% step %}
-## Create Custom Application
+### Create Custom Application
 
 Choose **+ Create your own application**
 {% endstep %}
 
 {% step %}
-## Name Your Application
+### Name Your Application
 
 Enter the name of the application (e.g., "Mailtrap")
 {% endstep %}
 
 {% step %}
-## Select Non-Gallery Integration
+### Select Non-Gallery Integration
 
 Select **Integrate any other application you don't find in the gallery (Non-gallery)**
 
@@ -47,13 +51,13 @@ Select **Integrate any other application you don't find in the gallery (Non-gall
 {% endstep %}
 {% endstepper %}
 
-## Set Up Single Sign-On
+### Set Up Single Sign-On
 
 After the application has been created, you can set up single sign-on:
 
 {% stepper %}
 {% step %}
-## Choose Set Up Single Sign-On
+### Choose Set Up Single Sign-On
 
 Choose **Set up single sign-on** in the **Getting Started** section
 
@@ -61,7 +65,7 @@ Choose **Set up single sign-on** in the **Getting Started** section
 {% endstep %}
 
 {% step %}
-## Select SAML Mode
+### Select SAML Mode
 
 For **Single Sign-on** mode, select **SAML** based Sign-on
 
@@ -71,21 +75,21 @@ Follow the steps on the SSO with SAML screen. Azure AD has a detailed [configura
 {% endstep %}
 {% endstepper %}
 
-## Basic SAML Configuration
+### Basic SAML Configuration
 
 Click edit in the dropdown menu and provide the following SAML Provider details to your Azure from Mailtrap:
 
-- **Entity ID** → Identifier (Entity ID)
-- **Assertion Consumer Service URL** → Reply URL (Assertion Consumer Service URL)
-- **Single Logout Service URL** → Logout URL
+* **Entity ID** → Identifier (Entity ID)
+* **Assertion Consumer Service URL** → Reply URL (Assertion Consumer Service URL)
+* **Single Logout Service URL** → Logout URL
 
 ![Split view showing Mailtrap Service Provider details on left and Azure Basic SAML Configuration on right with field mapping](../.gitbook/assets/setup-sso-with-azure-5.png)
 
-## User Attributes and Claims
+### User Attributes and Claims
 
 In the User Identifier field, enter **user.mail**.
 
-## SAML Signing Certificate
+### SAML Signing Certificate
 
 1. Click **Edit** and choose **SHA-1** Signing Algorithm
 2. Click **Save**
@@ -96,53 +100,53 @@ In the User Identifier field, enter **user.mail**.
 4. Open it in any text editor and copy its content
 5. Paste the certificate content into the Mailtrap **X509 Certificate** field
 
-## Identity Provider Details
+### Identity Provider Details
 
 Provide the following to Mailtrap from Azure:
 
-- **IdP Entity ID** (Identity Provider Issuer) → Azure AD Identifier
-- **Single Sign-on URL** → Login URL
-- **Optional: Single Logout Service (SLO) URL** → Logout URL
+* **IdP Entity ID** (Identity Provider Issuer) → Azure AD Identifier
+* **Single Sign-on URL** → Login URL
+* **Optional: Single Logout Service (SLO) URL** → Logout URL
 
 ![Split view showing Azure SAML signing certificate section and Mailtrap Identity Provider Details configuration fields](../.gitbook/assets/setup-sso-with-azure-7.png)
 
 Now you can save your SAML configuration on Mailtrap.
 
-## Assign Users and Groups
+### Assign Users and Groups
 
 With SAML configuration complete, you need to add users or groups to your application in Azure:
 
 {% stepper %}
 {% step %}
-## Navigate to Users and Groups
+### Navigate to Users and Groups
 
 Click **Users and groups** on the left sidebar
 {% endstep %}
 
 {% step %}
-## Add Users
+### Add Users
 
 Click on **+ Add User → Users and Groups**
 {% endstep %}
 
 {% step %}
-## Select Users
+### Select Users
 
 Select all users you want to add to the application and click **Select**
 {% endstep %}
 {% endstepper %}
 
-# Permissions
+## Permissions
 
 By default, we create users with no permissions. If you want the user to be automatically assigned to Account Admin or Account Viewer role, you need to set up the role mapping.
 
-## Configure Role Mapping in Mailtrap
+### Configure Role Mapping in Mailtrap
 
 In the following example, we assign the roles depending on the **title** attribute value:
 
 ![Mailtrap SAML Role Mapping interface showing Admin and Viewer roles mapped to title attribute](../.gitbook/assets/setup-sso-with-azure-8.png)
 
-## Configure Attributes in Azure
+### Configure Attributes in Azure
 
 1. Navigate to **Attributes & Claims**
 

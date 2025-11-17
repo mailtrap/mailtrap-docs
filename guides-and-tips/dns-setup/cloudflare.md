@@ -19,6 +19,8 @@ layout:
     visible: true
 ---
 
+# Cloudflare
+
 To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
 
 <a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to Cloudflare.
@@ -29,7 +31,7 @@ This guide assumes that your domain is either registered with Cloudflare and use
 
 {% stepper %}
 {% step %}
-## Open the Cloudflare dashboard
+### Open the Cloudflare dashboard
 
 Open the Cloudflare dashboard and click the domain you've added to Mailtrap.
 
@@ -37,7 +39,7 @@ Open the Cloudflare dashboard and click the domain you've added to Mailtrap.
 {% endstep %}
 
 {% step %}
-## Access DNS settings
+### Access DNS settings
 
 Click DNS in the left navigation panel. This will open DNS records.
 
@@ -45,7 +47,7 @@ Click DNS in the left navigation panel. This will open DNS records.
 {% endstep %}
 
 {% step %}
-## Add a new DNS record
+### Add a new DNS record
 
 Click the Add Record button.
 
@@ -53,7 +55,7 @@ Click the Add Record button.
 {% endstep %}
 
 {% step %}
-## View Mailtrap DNS records
+### View Mailtrap DNS records
 
 Return to Mailtrap. On the Verification page, you'll see the DNS records you need to add to Cloudflare. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
@@ -61,9 +63,9 @@ Return to Mailtrap. On the Verification page, you'll see the DNS records you nee
 
 Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-mailtrap-record-types.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-mailtrap-record-types.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption><p>DNS record types in Cloudflare </p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption><p>DNS record types in Cloudflare</p></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -71,7 +73,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-## Copy DNS record values from Mailtrap
+### Copy DNS record values from Mailtrap
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
@@ -79,7 +81,7 @@ Copy the Name and Value for each record one by one. You can do this by hovering 
 {% endstep %}
 
 {% step %}
-## Paste values into Cloudflare
+### Paste values into Cloudflare
 
 And paste them into Cloudflare. Remember that Cloudflare refers to the Value field as Target for CNAME records and Content for TXT records.
 
@@ -87,7 +89,7 @@ And paste them into Cloudflare. Remember that Cloudflare refers to the Value fie
 {% endstep %}
 
 {% step %}
-## Disable proxy if not needed
+### Disable proxy if not needed
 
 If you're not using proxy, make sure you disable it. By default, it will be enabled.
 
@@ -95,7 +97,7 @@ If you're not using proxy, make sure you disable it. By default, it will be enab
 {% endstep %}
 
 {% step %}
-## Set TTL and save
+### Set TTL and save
 
 Use the default value for TTL.
 
@@ -103,7 +105,7 @@ Click Save and repeat the process for all the remaining DNS records.
 {% endstep %}
 
 {% step %}
-## Verify DNS records in Mailtrap
+### Verify DNS records in Mailtrap
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -111,7 +113,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 {% endstep %}
 
 {% step %}
-## Confirm verification status
+### Confirm verification status
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 

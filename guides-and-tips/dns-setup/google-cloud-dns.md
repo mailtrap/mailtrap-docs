@@ -19,6 +19,8 @@ layout:
     visible: true
 ---
 
+# Google Cloud DNS
+
 To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
 
 <a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to Google Cloud DNS.
@@ -29,7 +31,7 @@ Note: This guide assumes that your domain is either registered and managed with 
 
 {% stepper %}
 {% step %}
-## Access Cloud DNS
+### Access Cloud DNS
 
 Go to Google Cloud Console, type Cloud DNS in the search bar, and choose it from the results.
 
@@ -37,7 +39,7 @@ Go to Google Cloud Console, type Cloud DNS in the search bar, and choose it from
 {% endstep %}
 
 {% step %}
-## Open Zone details
+### Open Zone details
 
 You'll be taken to the Cloud DNS Zones page. Open the Zone details for the domain you've added to Mailtrap by clicking on the Zone name.
 
@@ -45,7 +47,7 @@ You'll be taken to the Cloud DNS Zones page. Open the Zone details for the domai
 {% endstep %}
 
 {% step %}
-## Add Standard record
+### Add Standard record
 
 Click Add Standard.
 
@@ -53,7 +55,7 @@ Click Add Standard.
 {% endstep %}
 
 {% step %}
-## View Mailtrap DNS records
+### View Mailtrap DNS records
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Google Cloud DNS. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
@@ -61,7 +63,7 @@ Return to Mailtrap. On the Domain Verification page, you'll see the DNS records 
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Cloud DNS. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC). Ignore Google's SPF type record; it's deprecated.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap </p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -69,7 +71,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-## Copy DNS record values from Mailtrap
+### Copy DNS record values from Mailtrap
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
@@ -77,7 +79,7 @@ Copy the Name and Value for each record one by one. You can do this by hovering 
 {% endstep %}
 
 {% step %}
-## Paste values into Google Cloud DNS
+### Paste values into Google Cloud DNS
 
 And paste them into Google Cloud DNS. Remember that Google Cloud DNS refers to the Name field as DNS Name and the Value field as either Canonical name (for CNAME-type records) or TXT data (for TXT-type records).
 
@@ -89,7 +91,7 @@ When adding TXT-type records, add double quotes in the beginning and the end of 
 {% endstep %}
 
 {% step %}
-## Set TTL and create
+### Set TTL and create
 
 Use the default value for TTL.
 
@@ -99,7 +101,7 @@ Click Create after adding each record in Google Cloud DNS.
 {% endstep %}
 
 {% step %}
-## Add all DNS records
+### Add all DNS records
 
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to Google Cloud DNS.
 
@@ -107,7 +109,7 @@ Repeat the process of copying and pasting for each record until you've added all
 {% endstep %}
 
 {% step %}
-## Verify DNS records in Mailtrap
+### Verify DNS records in Mailtrap
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -115,7 +117,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 {% endstep %}
 
 {% step %}
-## Confirm verification status
+### Confirm verification status
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
