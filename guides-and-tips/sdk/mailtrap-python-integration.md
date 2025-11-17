@@ -6,7 +6,7 @@ description: >-
 icon: python
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-python" class="button secondary">Mailtrap Python SDK on GitHub</a>
+<a href="https://github.com/mailtrap/mailtrap-python" class="button primary">Mailtrap Python SDK on GitHub</a>
 
 # Python Integration
 

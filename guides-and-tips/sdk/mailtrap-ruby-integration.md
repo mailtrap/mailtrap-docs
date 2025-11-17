@@ -6,7 +6,7 @@ description: >-
 icon: gem
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-ruby" class="button secondary">Mailtrap Ruby SDK on GitHub</a>
+<a href="https://github.com/mailtrap/mailtrap-ruby" class="button primary">Mailtrap Ruby SDK on GitHub</a>
 
 # Ruby Integration
 

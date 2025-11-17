@@ -6,7 +6,7 @@ description: >-
 icon: java
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-java" class="button secondary">Mailtrap Java SDK on GitHub</a>
+<a href="https://github.com/mailtrap/mailtrap-java" class="button primary">Mailtrap Java SDK on GitHub</a>
 
 # Java Integration
 

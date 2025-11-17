@@ -6,7 +6,7 @@ description: >-
 icon: node
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-nodejs" class="button secondary">Mailtrap Node.js SDK on GitHub</a>
+<a href="https://github.com/mailtrap/mailtrap-nodejs" class="button primary">Mailtrap Node.js SDK on GitHub</a>
 
 # Node.js Integration
 
