@@ -48,7 +48,7 @@ Every contact in Mailtrap has these default fields:
 
 {% stepper %}
 {% step %}
-### Navigate to Fields
+#### Navigate to Fields
 
 Go to **Contacts** → **Fields** in your Mailtrap dashboard.
 
@@ -56,7 +56,7 @@ Go to **Contacts** → **Fields** in your Mailtrap dashboard.
 {% endstep %}
 
 {% step %}
-### Click Create Field
+#### Click Create Field
 
 Select the **Create Field** button to open the field creation form.
 
@@ -64,7 +64,7 @@ Select the **Create Field** button to open the field creation form.
 {% endstep %}
 
 {% step %}
-### Configure Field Properties
+#### Configure Field Properties
 
 Fill in the field details:
 
@@ -80,7 +80,7 @@ Fill in the field details:
 {% endstep %}
 
 {% step %}
-### Save Your Field
+#### Save Your Field
 
 Click **Create** to add the field to your account.
 
@@ -164,13 +164,21 @@ Create conditional content based on field values:
 
 <div data-gb-custom-block data-tag="code" data-title='Conditional Content Example'>
 ```liquid
-{% if preferred_language == "Spanish" %}
+
+<div data-gb-custom-block data-tag="if" data-expression='preferred_language == "Spanish"'>
+
   Hola {{first_name}},
-{% elsif preferred_language == "French" %}
+
+<div data-gb-custom-block data-tag="elsif" data-0='French' data-1='French' data-2='French'></div>
+
   Bonjour {{first_name}},
-{% else %}
+
+<div data-gb-custom-block data-tag="else"></div>
+
   Hello {{first_name}},
-{% endif %}
+
+</div>
+
 ````
 {% endcode %}
 

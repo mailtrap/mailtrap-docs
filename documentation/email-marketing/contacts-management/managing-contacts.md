@@ -30,7 +30,7 @@ Build complex filters using multiple criteria:
 
 {% stepper %}
 {% step %}
-### Select Filter Type
+#### Select Filter Type
 
 Choose from:
 
@@ -41,7 +41,7 @@ Choose from:
 {% endstep %}
 
 {% step %}
-### Set Conditions
+#### Set Conditions
 
 Define your filter logic:
 
@@ -52,7 +52,7 @@ Define your filter logic:
 {% endstep %}
 
 {% step %}
-### Apply Filter
+#### Apply Filter
 
 Click **Search** to view filtered results.
 
@@ -177,7 +177,7 @@ Perform actions on multiple contacts simultaneously for efficient management.
 
 {% stepper %}
 {% step %}
-### Select Contacts
+#### Select Contacts
 
 Check the contacts you want to add to lists.
 
@@ -185,7 +185,7 @@ Check the contacts you want to add to lists.
 {% endstep %}
 
 {% step %}
-### Choose Lists
+#### Choose Lists
 
 Select one or more destination lists.
 
@@ -193,7 +193,7 @@ Select one or more destination lists.
 {% endstep %}
 
 {% step %}
-### Confirm Action
+#### Confirm Action
 
 Click **Add To Lists** to complete the operation.
 {% endstep %}
@@ -203,7 +203,7 @@ Click **Add To Lists** to complete the operation.
 
 {% stepper %}
 {% step %}
-### Select Contacts
+#### Select Contacts
 
 Mark contacts to remove from lists.
 
@@ -213,7 +213,7 @@ Click **More Actions** → **Remove from lists**.
 {% endstep %}
 
 {% step %}
-### Choose Lists
+#### Choose Lists
 
 Select which lists to remove contacts from.
 
@@ -221,7 +221,7 @@ Select which lists to remove contacts from.
 {% endstep %}
 
 {% step %}
-### Confirm Removal
+#### Confirm Removal
 
 Click **Remove** to process the action.
 {% endstep %}
@@ -231,7 +231,7 @@ Click **Remove** to process the action.
 
 {% stepper %}
 {% step %}
-### Select Contacts
+#### Select Contacts
 
 Choose contacts to unsubscribe.
 
@@ -241,7 +241,7 @@ Click **More Actions** → **Unsubscribe**.
 {% endstep %}
 
 {% step %}
-### Confirm Action
+#### Confirm Action
 
 Type 'unsubscribe' to confirm.
 
@@ -249,7 +249,7 @@ Type 'unsubscribe' to confirm.
 {% endstep %}
 
 {% step %}
-### Process Unsubscribe
+#### Process Unsubscribe
 
 Click **Unsubscribe** to complete.
 
@@ -263,7 +263,7 @@ This action cannot be undone. Contacts must re-subscribe themselves.
 
 {% stepper %}
 {% step %}
-### Select for Export
+#### Select for Export
 
 Choose contacts to export.
 
@@ -273,7 +273,7 @@ Click **More Actions** → **Export**.
 {% endstep %}
 
 {% step %}
-### Confirm Export
+#### Confirm Export
 
 Click **Confirm Export**.
 
@@ -281,7 +281,7 @@ Click **Confirm Export**.
 {% endstep %}
 
 {% step %}
-### Download File
+#### Download File
 
 Check your email for the download link.
 
@@ -297,7 +297,7 @@ Export includes all contact fields and list memberships.
 
 {% stepper %}
 {% step %}
-### Select for Deletion
+#### Select for Deletion
 
 Choose contacts to delete.
 
@@ -307,7 +307,7 @@ Click **More Actions** → **Delete**.
 {% endstep %}
 
 {% step %}
-### Confirm Deletion
+#### Confirm Deletion
 
 Type 'delete' to confirm.
 
@@ -315,7 +315,7 @@ Type 'delete' to confirm.
 {% endstep %}
 
 {% step %}
-### Process Deletion
+#### Process Deletion
 
 Click **Delete** to permanently remove contacts.
 

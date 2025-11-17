@@ -25,7 +25,7 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 
 {% stepper %}
 {% step %}
-### Navigate to Lists
+#### Navigate to Lists
 
 Go to **Contacts** → **Lists** in your dashboard.
 
@@ -33,13 +33,13 @@ Go to **Contacts** → **Lists** in your dashboard.
 {% endstep %}
 
 {% step %}
-### Create New List
+#### Create New List
 
 Click **Create List** to open the creation dialog.
 {% endstep %}
 
 {% step %}
-### Name Your List
+#### Name Your List
 
 Enter a descriptive name for your list.
 
@@ -51,7 +51,7 @@ List names must be unique. You cannot create duplicate list names.
 {% endstep %}
 
 {% step %}
-### Save List
+#### Save List
 
 Click **Create** to save your new list.
 
@@ -184,7 +184,7 @@ Programmatically add contacts:
 
 {% stepper %}
 {% step %}
-### Create Onboarding Lists
+#### Create Onboarding Lists
 
 * Day 1 Welcome
 * Day 3 Follow-up
@@ -193,13 +193,13 @@ Programmatically add contacts:
 {% endstep %}
 
 {% step %}
-### Automate Movement
+#### Automate Movement
 
 Use API or integrations to move contacts through lists based on timeline.
 {% endstep %}
 
 {% step %}
-### Track Progress
+#### Track Progress
 
 Monitor engagement at each stage to optimize onboarding.
 {% endstep %}

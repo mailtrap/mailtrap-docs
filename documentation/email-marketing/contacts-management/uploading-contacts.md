@@ -87,9 +87,9 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 
 {% stepper %}
 {% step %}
-### Prepare Your CSV File
+#### Prepare Your CSV File
 
-#### Download the Template
+**Download the Template**
 
 Navigate to **Contacts** and click **Import Contacts**.
 
@@ -99,7 +99,7 @@ Download our CSV template by clicking **Download CSV Template**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-download-template.png" alt="Download CSV Template button for importing contacts" width="563"></div>
 
-#### Format Your Data
+**Format Your Data**
 
 Structure your CSV with:
 
@@ -117,7 +117,7 @@ jane@example.com,Jane,Smith,Tech Inc,2024-01-20
 {% endstep %}
 
 {% step %}
-### Upload Your File
+#### Upload Your File
 
 Click **Browse files** or drag and drop your CSV file into the upload area.
 
@@ -129,7 +129,7 @@ Click **Import File** to proceed.
 {% endstep %}
 
 {% step %}
-### Map Your Fields
+#### Map Your Fields
 
 Assign CSV columns to your Mailtrap fields:
 
@@ -151,17 +151,17 @@ Click **Confirm Mapping** when ready.
 {% endstep %}
 
 {% step %}
-### Assign to Lists
+#### Assign to Lists
 
 Choose which lists should include these contacts:
 
-#### Add to Existing Lists
+**Add to Existing Lists**
 
 Select one or more lists from the dropdown and click **Continue**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-add-to-list.png" alt="Interface to add contacts to existing lists" width="563"></div>
 
-#### Create New List
+**Create New List**
 
 Click **Create New List**, enter a name, and click **Create**.
 
@@ -175,7 +175,7 @@ Click **Create New List**, enter a name, and click **Create**.
 {% endstep %}
 
 {% step %}
-### Confirm Consent
+#### Confirm Consent
 
 Check the consent verification box to confirm you have permission to email these contacts.
 
@@ -189,7 +189,7 @@ Click **Confirm Import** to complete the process.
 {% endstep %}
 
 {% step %}
-### Import Confirmation
+#### Import Confirmation
 
 You'll receive a success notification once the import is complete.
 
@@ -280,25 +280,25 @@ For complete API documentation, see [Contacts API Reference](../../../api-docs/c
 
 {% stepper %}
 {% step %}
-### Connect Mailtrap
+#### Connect Mailtrap
 
 Add Mailtrap as an action in your Zap.
 {% endstep %}
 
 {% step %}
-### Configure Trigger
+#### Configure Trigger
 
 Set up your trigger app (CRM, form, spreadsheet).
 {% endstep %}
 
 {% step %}
-### Map Fields
+#### Map Fields
 
 Match trigger data to Mailtrap contact fields.
 {% endstep %}
 
 {% step %}
-### Test & Activate
+#### Test & Activate
 
 Run a test and activate your Zap.
 {% endstep %}

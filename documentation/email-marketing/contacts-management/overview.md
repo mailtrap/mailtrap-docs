@@ -25,7 +25,7 @@ Mailtrap Contacts allows you to upload and store your contacts on the Mailtrap p
 
 {% columns %}
 {% column %}
-#### <i class="fa-solid">:solid:</i>Custom Fields
+<i class="fa-solid">:solid:</i>**Custom Fields**
 
 Define custom variables like name, date of birth, or location to personalize your campaigns.
 
@@ -33,7 +33,7 @@ Define custom variables like name, date of birth, or location to personalize you
 {% endcolumn %}
 
 {% column %}
-#### <i class="fa-solid">:solid:</i>Import Contacts
+<i class="fa-solid">:solid:</i>**Import Contacts**
 
 Bulk import contacts from spreadsheets, sync via API, or use our integrations.
 
@@ -43,7 +43,7 @@ Bulk import contacts from spreadsheets, sync via API, or use our integrations.
 
 {% columns %}
 {% column %}
-#### <i class="fa-solid">:solid:</i>Manage Contacts
+<i class="fa-solid">:solid:</i>**Manage Contacts**
 
 Filter, search, edit, and perform bulk actions on your contact database.
 
@@ -51,7 +51,7 @@ Filter, search, edit, and perform bulk actions on your contact database.
 {% endcolumn %}
 
 {% column %}
-#### <i class="fa-solid">:solid:</i>Lists & Segments
+<i class="fa-solid">:solid:</i>**Lists & Segments**
 
 Create dynamic segments for targeted messaging based on contact fields or contacts engagement.
 
@@ -63,31 +63,31 @@ Create dynamic segments for targeted messaging based on contact fields or contac
 
 {% stepper %}
 {% step %}
-### Define Custom Fields
+#### Define Custom Fields
 
 Set up custom fields to store additional contact information for personalization.
 {% endstep %}
 
 {% step %}
-### Import Your Contacts
+#### Import Your Contacts
 
 Upload contacts via CSV, API integration, or third-party tools like Zapier.
 {% endstep %}
 
 {% step %}
-### Organize into Lists
+#### Organize into Lists
 
 Group contacts into relevant lists based on your marketing strategy.
 {% endstep %}
 
 {% step %}
-### Create Segments
+#### Create Segments
 
 Build dynamic segments that automatically update based on contact properties.
 {% endstep %}
 
 {% step %}
-### Launch Campaigns
+#### Launch Campaigns
 
 Use your organized contacts to send targeted email marketing campaigns.
 {% endstep %}

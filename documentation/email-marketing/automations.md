@@ -148,7 +148,7 @@ To get started, navigate to the tab in your Mailtrap account or go to [https://m
 
 {% stepper %}
 {% step %}
-### Create New Automation
+#### Create New Automation
 
 Define the name for your automation.
 
@@ -158,7 +158,7 @@ Choose a descriptive name that indicates the automation's purpose.
 {% endstep %}
 
 {% step %}
-### Set Up Entry Trigger
+#### Set Up Entry Trigger
 
 Select when the automation should start.
 
@@ -174,7 +174,7 @@ Now that you've set up the trigger, you can start adding steps to your automatio
 
 {% stepper %}
 {% step %}
-### Add an Action
+#### Add an Action
 
 Click the "Add Step" button to add your first action.
 
@@ -186,7 +186,7 @@ Select "Send Email" as your first action.
 {% endstep %}
 
 {% step %}
-### Configure the Email
+#### Configure the Email
 
 Set up your email content and settings.
 
@@ -202,7 +202,7 @@ To create a more sophisticated sequence, you can add time delays and further act
 
 {% stepper %}
 {% step %}
-### Add a Time Delay
+#### Add a Time Delay
 
 Insert waiting periods between actions.
 
@@ -212,7 +212,7 @@ Configure the delay duration (minutes, hours, days, or weeks).
 {% endstep %}
 
 {% step %}
-### Add Another Email
+#### Add Another Email
 
 Continue building your sequence with additional messages or actions.
 
