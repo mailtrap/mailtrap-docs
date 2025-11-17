@@ -48,7 +48,6 @@
 
 ## SSO
 
-* [SSO Guide](sso/sso-guide.md)
 * [Setup SSO with Azure (Microsoft Entra)](sso/setup-sso-with-azure.md)
 * [Setup SSO with Okta](sso/setup-sso-with-okta.md)
 * [Setup SSO with Google Workspace](sso/setup-sso-with-google-workspace.md)

@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Java Integration
+title: <i class="fa-java">:java:</i> Mailtrap Java Integration
 description: Learn how to integrate Mailtrap with Java applications using SDK, SMTP, or RESTful API for email sending.
 ---
 
 # Overview
-
-<i class="fa-java">:java:</i>
 
 Mailtrap can be integrated with Java apps and projects for email sending with SDK, SMTP, and RESTful API.
 

@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Elixir Integration
+title: <i class="fa-flask">:flask:</i> Mailtrap Elixir Integration
 description: Learn how to integrate Mailtrap with your Elixir applications using SDK, SMTP, or RESTful API for email sending
 ---
 
 # Overview
-
-<i class="fa-flask">:flask:</i>
 
 Mailtrap can be integrated with Elixir apps and projects for email sending.
 

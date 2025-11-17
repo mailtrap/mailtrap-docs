@@ -1,16 +1,16 @@
 ---
-title: Mailtrap Wget integration
+title: <i class="fa-download">:download:</i> Mailtrap Wget integration
 description: Learn how to integrate Mailtrap with Wget to send emails via the command line using the Email API.
 ---
+
+# Overview
+
+This guide shows you how to integrate Mailtrap with Wget and send emails using the Email API.
 
 Before we start, you'll need to:
 
 - [Verify your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
 - [Create and save an API key](https://help.mailtrap.io/article/103-api-tokens)
-
-# Overview
-
-<i class="fa-download">:download:</i>
 
 ## Send emails using Wget and Mailtrap
 

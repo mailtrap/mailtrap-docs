@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Python Integration
+title: <i class="fa-python">:python:</i> Mailtrap Python Integration
 description: Learn how to integrate Mailtrap with Python apps and projects for email sending using SDK, SMTP, and RESTful API.
 ---
 
 # Overview
-
-<i class="fa-python">:python:</i>
 
 Mailtrap can be integrated with Python apps and projects for email sending purposes.
 

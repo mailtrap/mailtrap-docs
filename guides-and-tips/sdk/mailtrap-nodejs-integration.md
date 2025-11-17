@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Node.js Integration
+title: <i class="fa-node-js">:node-js:</i> Mailtrap Node.js Integration
 description: Learn how to integrate Mailtrap with Node.js applications using SDK, SMTP, or RESTful API for email sending.
 ---
 
 # Overview
-
-<i class="fa-node-js">:node-js:</i>
 
 Mailtrap can be integrated with Node.js apps for email sending purposes with SDK, SMTP, and RESTful API.
 

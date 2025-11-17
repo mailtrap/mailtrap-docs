@@ -1,11 +1,9 @@
 ---
-title: Mailtrap cURL Integration
+title: <i class="fa-terminal">:terminal:</i> Mailtrap cURL Integration
 description: Send emails using cURL with Mailtrap through SMTP integration or API endpoints with code samples and configuration options.
 ---
 
 # Overview
-
-<i class="fa-terminal">:terminal:</i>
 
 Mailtrap can be integrated with cURL for email sending via SMTP or API methods. This guide shows you how to configure and send emails using cURL with Mailtrap.
 

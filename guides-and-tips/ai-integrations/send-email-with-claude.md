@@ -1,13 +1,11 @@
 ---
-title: Claude and Mailtrap Integration
+title: <i class="fa-robot">:robot:</i> Claude and Mailtrap Integration
 description: Integrate Mailtrap with Claude Desktop to send transactional and promotional emails directly from Claude using Model Context Protocol.
 ---
 
 Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
 
 # Overview
-
-<i class="fa-robot">:robot:</i>
 
 With the Claude and Mailtrap integration, you can now send emails from Claude AI using the Mailtrap MCP (Model Context Protocol) server. This enables seamless email sending through simple natural language prompts.
 

@@ -1,11 +1,9 @@
 ---
-title: Mailtrap PHP integration
+title: <i class="fa-php">:php:</i> Mailtrap PHP integration
 description: Integrate Mailtrap with PHP applications using SDK, SMTP, or RESTful API for reliable email sending
 ---
 
 # Overview
-
-<i class="fa-php">:php:</i>
 
 Mailtrap can be integrated with PHP apps and projects for email sending.
 

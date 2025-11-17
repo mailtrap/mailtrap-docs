@@ -1,11 +1,9 @@
 ---
-title: Supabase and Mailtrap Integration
+title: <i class="fa-database">:database:</i> Supabase and Mailtrap Integration
 description: Comprehensive guide to integrate Mailtrap with Supabase for email sending and contact management with flexible email options.
 ---
 
 # Overview
-
-<i class="fa-database">:database:</i>
 
 Mailtrap can now be integrated with Supabase, giving you flexible options for email sending and contact automation. This integration allows you to exceed the default sending limits and sync your user base to send personalized email campaigns.
 

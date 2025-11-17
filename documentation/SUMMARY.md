@@ -97,6 +97,7 @@
   * [User Management](user-management/user-management.md)
   * [User Profile](user-management/user-profile.md)
   * [My Profile](user-management/my-profile.md)
+  * [SSO Guide](user-management/sso-guide.md)
 * [Billing & Plans](account-and-billing/README.md)
   * [Billing Setup](account-and-billing/billing-setup.md)
   * [Payment Issues](account-and-billing/payment-issues.md)

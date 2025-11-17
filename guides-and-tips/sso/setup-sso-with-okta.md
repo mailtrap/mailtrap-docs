@@ -1,11 +1,9 @@
 ---
-title: Setup SSO with Okta
+title: <i class="fa-shield-halved">:shield-halved:</i> Setup SSO with Okta
 description: Learn how to configure Single Sign-On (SSO) integration between Okta and Mailtrap using SAML 2.0, including role mapping and debugging.
 ---
 
 # Overview
-
-<i class="fa-shield-halved">:shield-halved:</i>
 
 This guide walks you through setting up SSO integration between Okta and Mailtrap using SAML 2.0, including optional role mapping configuration.
 

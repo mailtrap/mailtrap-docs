@@ -1,15 +1,13 @@
 ---
-title: Supabase Integration with Mailtrap
+title: <i class="fa-database">:database:</i> Supabase Integration with Mailtrap
 description: Learn how to integrate Mailtrap SMTP with Supabase to bypass email rate limits and send production-ready emails with comprehensive analytics.
 ---
+
+# Overview
 
 With Mailtrap SMTP, you can move beyond Supabase's limit of [2 emails per hour](https://supabase.com/docs/guides/auth/rate-limits) to a production-ready [email-sending solution](https://mailtrap.io/email-sending/) with comprehensive [analytics](https://mailtrap.io/actionable-analytics/).
 
 In this guide, I'll show you how to obtain the Mailtrap SMTP credentials and update them in Supabase.
-
-# Overview
-
-<i class="fa-database">:database:</i>
 
 ## Step 1: Obtain your sending credentials
 

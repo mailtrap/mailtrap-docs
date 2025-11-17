@@ -1,11 +1,9 @@
 ---
-title: Vercel and Mailtrap Integration
+title: <i class="fa-server">:server:</i> Vercel and Mailtrap Integration
 description: Step-by-step guide on how to integrate Mailtrap with your application hosted on Vercel to enable email sending capabilities.
 ---
 
 # Overview
-
-<i class="fa-server">:server:</i>
 
 [Mailtrap](https://mailtrap.io/) is an email-sending solution for developer and product teams. It is focused on fast delivery and high inboxing rates for transactional and promotional emails, providing a highly customizable API and 24/7 technical support.
 

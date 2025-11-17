@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Astro integration
+title: <i class="fa-rocket">:rocket:</i> Mailtrap Astro integration
 description: Learn how to send emails in Astro using Mailtrap's Email API with step-by-step setup instructions.
 ---
 
 # Overview
-
-<i class="fa-rocket">:rocket:</i>
 
 This guide explains how to integrate Mailtrap with your Astro project to send emails programmatically using the Mailtrap Email API.
 

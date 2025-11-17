@@ -1,16 +1,18 @@
 ---
-title: Mailtrap Phoenix Integration
+title: <i class="fa-flask">:flask:</i> Mailtrap Phoenix Integration
 description: Learn how to integrate Mailtrap with Phoenix applications to send emails.
 ---
+
+# Overview
+
+This guide shows you how to integrate Mailtrap with Phoenix and send emails using the Email API.
 
 Before we start, you'll need to:
 
 - [Verify your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
 - [Create and save an API key](https://help.mailtrap.io/article/103-api-tokens)
 
-# Overview
-
-<i class="fa-flask">:flask:</i>
+## Send emails using Phoenix and Mailtrap
 
 To integrate Mailtrap and send emails via Phoenix, simply copy/paste the following script into your configuration:
 
