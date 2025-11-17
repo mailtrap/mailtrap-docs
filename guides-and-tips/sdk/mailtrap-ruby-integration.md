@@ -6,27 +6,29 @@ description: >-
 icon: gem
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-ruby" class="button primary">Mailtrap Ruby SDK on GitHub</a>
-
 # Ruby Integration
 
-## Overview
+<a href="https://github.com/mailtrap/mailtrap-ruby" class="button primary">Mailtrap Ruby SDK on GitHub</a>
+
+## Ruby Integration
+
+### Overview
 
 Mailtrap can be integrated with Ruby apps and projects for email sending.
 
-## Email API/SMTP for Ruby
+### Email API/SMTP for Ruby
 
-### SDK integration
+#### SDK integration
 
 The [Mailtrap Ruby SDK](https://github.com/mailtrap/mailtrap-ruby) provides an idiomatic Ruby interface for sending transactional and bulk emails. The SDK supports:
 
-- Transactional email sending
-- Batch email sending
-- Template management
-- ActionMailer integration for Rails applications
-- Comprehensive error handling
+* Transactional email sending
+* Batch email sending
+* Template management
+* [ActionMailer](https://github.com/mailtrap/mailtrap-ruby/blob/main/examples/action_mailer.rb) integration for Rails applications
+* Comprehensive error handling
 
-## Installation
+### Installation
 
 Add the SDK to your Gemfile:
 
@@ -44,7 +46,7 @@ bundle install
 ```
 {% endcode %}
 
-## Minimal Example
+### Minimal Example
 
 Here's a minimal example to send your first email:
 
@@ -81,7 +83,7 @@ puts response
 Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
 {% endhint %}
 
-### SMTP integration
+#### SMTP integration
 
 To integrate SMTP with your Ruby app, navigate to the **Integrations** tab, choose either Ruby on Rails or Ruby Net/SMTP, and copy-paste the credentials or ready-made code snippets.
 
@@ -93,7 +95,7 @@ SMTP integration is compatible with any Ruby framework or library that sends ema
 
 Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration) article.
 
-### RESTful API integration
+#### RESTful API integration
 
 To integrate Mailtrap using RESTful API, use the configuration available among **Code samples** under the API section.
 
