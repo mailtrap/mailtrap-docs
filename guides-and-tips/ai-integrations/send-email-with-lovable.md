@@ -91,7 +91,10 @@ In this example, we'll use Lovable to create a demo landing page with a form to 
 **Pro tip**: To avoid Supabase's hourly limits on email sending, adjust your Supabase project's SMTP settings with Mailtrap. Follow [this guide](https://help.mailtrap.io/article/165-supabase-and-mailtrap-integration).
 {% endhint %}
 
-### Step 1. Connect to Supabase
+{% stepper %}
+{% step %}
+
+## Connect to Supabase
 
 Lovable uses Supabase (built-in integration) to manage authentication, database, and backend.
 
@@ -105,7 +108,11 @@ After clicking on **Create new project**, Lovable will confirm that you have suc
 
 Note: For more information on integrating Supabase, follow the [official Lovable guide](https://docs.lovable.dev/integrations/supabase).
 
-### Step 2. Create a landing page
+{% endstep %}
+
+{% step %}
+
+## Create a landing page
 
 The landing form we'll create will have the following functionality: each form submission will create a contact in Mailtrap, and you'll get an email notification about each submission.
 
@@ -172,7 +179,11 @@ Lastly, apply proposed changes so the database table can be created:
 
 ![Lovable interface displaying SQL and HTTPS configuration code for database setup](../.gitbook/assets/send-email-with-lovable-6.png)
 
-### Step 3. Send emails via form
+{% endstep %}
+
+{% step %}
+
+## Send emails via form
 
 We got a landing page with a form, so let's test it.
 
@@ -208,6 +219,9 @@ MAILTRAP_MY_EMAIL=myemails@example.com
 MAILTRAP_FROM_EMAIL=form-submissions@demoatmailtrap.com
 ```
 {% endcode %}
+
+{% endstep %}
+{% endstepper %}
 
 # Next steps
 

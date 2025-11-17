@@ -14,7 +14,10 @@ Before you start, ensure you have:
 - A [Vercel account](https://vercel.com/) with a project where you'll add your Mailtrap API key
 - A verified sending domain in Mailtrap (setup takes approximately 5 minutes—see our [sending domain setup guide](https://help.mailtrap.io/article/69-sending-domain-setup) for instructions)
 
-## Step 1: Find your Mailtrap API key
+{% stepper %}
+{% step %}
+
+## Find your Mailtrap API key
 
 In your Mailtrap dashboard, navigate to **Settings → API Tokens**. You can view all active tokens, their creators, and access levels.
 
@@ -26,7 +29,11 @@ If you don't already have an API key, click **Add Token** and assign the desired
 
 Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://help.mailtrap.io/article/103-api-tokens).
 
-## Step 2: Add your key to Vercel
+{% endstep %}
+
+{% step %}
+
+## Add your key to Vercel
 
 Open your Vercel dashboard and go to the **Settings** for the project where you want to add Mailtrap:
 
@@ -40,7 +47,11 @@ In the **Environment Variables** section of Settings, locate the **Key** field a
 Since Vercel environment variables only become available after you redeploy your project, make sure to either push a new commit or click the **Deploy** button again in the Vercel dashboard.
 {% endhint %}
 
-## Step 3: Reference the key in your code
+{% endstep %}
+
+{% step %}
+
+## Reference the key in your code
 
 Reference the Mailtrap API key in your code so your application can use it when making requests. Add the Mailtrap API key and the Mailtrap URL `https://send.api.mailtrap.io/api/send` to your code.
 
@@ -65,6 +76,9 @@ const res = await fetch("https://send.api.mailtrap.io/api/send", {
 });
 ```
 {% endcode %}
+
+{% endstep %}
+{% endstepper %}
 
 ## Next Steps
 

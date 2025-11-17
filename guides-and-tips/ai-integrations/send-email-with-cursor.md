@@ -15,7 +15,9 @@ With the Cursor and Mailtrap integration, you can now send emails from Cursor us
 - Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 - If you haven't already done so, install the [Cursor app](https://cursor.com/). But if you have, make sure it's updated and uses the latest version.
 
-## Step 1. Add Mailtrap MCP to Cursor
+{% stepper %}
+{% step %}
+## Add Mailtrap MCP to Cursor
 
 To add Mailtrap MCP to Cursor, you can use the [quick install link](https://cursor.com/en/install-mcp?name=mailtrap&config=eyJjb21tYW5kIjoibnB4IC15IG1jcC1tYWlsdHJhcCIsImVudiI6eyJNQUlMVFJBUF9BUElfVE9LRU4iOiJ5b3VyX21haWx0cmFwX2FwaV90b2tlbiIsIkRFRkFVTFRfRlJPTV9FTUFJTCI6InlvdXJfc2VuZGVyQGV4YW1wbGUuY29tIiwiTUFJTFRSQVBfQUNDT1VOVF9JRCI6InlvdXJfYWNjb3VudF9pZCJ9fQ%3D%3D) or in your Cursor editor, navigate to Settings → Cursor Settings.
 
@@ -73,8 +75,10 @@ Note: In case you're using asdf to manage Node.js, you must use an absolute path
 }
 ```
 {% endcode %}
+{% endstep %}
 
-## Step 2. Add Mailtrap API credentials
+{% step %}
+## Add Mailtrap API credentials
 
 Open your Mailtrap account and navigate to Sending Domains → Integration → API.
 
@@ -90,8 +94,10 @@ For example, here's what your mcp.json file should ultimately look like:
 ![Cursor code editor displaying mcp.json configuration file with Mailtrap API token and email settings](../.gitbook/assets/send-email-with-cursor-4.png)
 
 And that's it! Hit save, reload, and you can start sending emails via Cursor with simple prompts.
+{% endstep %}
 
-## Step 3. Send emails with a prompt
+{% step %}
+## Send emails with a prompt
 
 First, toggle the AI Pane, located in the upper-right corner of the Cursor editor.
 
@@ -116,6 +122,8 @@ Lastly, Cursor AI will notify you when it successfully delivers the email.
 And here is the generated message in the Mailtrap [Email Logs](https://help.mailtrap.io/article/71-email-logs).
 
 ![Mailtrap Email Logs dashboard showing delivered email with Hi John subject and metadata](../.gitbook/assets/send-email-with-cursor-9.png)
+{% endstep %}
+{% endstepper %}
 
 # Next steps
 
