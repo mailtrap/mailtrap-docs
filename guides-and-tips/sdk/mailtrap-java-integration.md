@@ -6,6 +6,8 @@ description: >-
 icon: java
 ---
 
+<a href="https://github.com/mailtrap/mailtrap-java" class="button secondary">Mailtrap Java SDK on GitHub</a>
+
 # Java Integration
 
 ## Overview
@@ -16,7 +18,86 @@ Mailtrap can be integrated with Java apps and projects for email sending with SD
 
 ### SDK integration
 
-To integrate Mailtrap into your Java project, you can use the [official SDK](https://github.com/railsware/mailtrap-java), which gives you access to both Transactional and Bulk Streams, and Templates. You can install it as a Maven, Gradle Groovy, or Gradle Kotlin DSL dependency.
+The [Mailtrap Java SDK](https://github.com/mailtrap/mailtrap-java) is a robust, enterprise-ready library for sending transactional and bulk emails from Java applications. The SDK supports:
+
+- Transactional email sending
+- Batch email sending
+- Template management
+- Contact management
+- Sandbox testing
+- Account management
+- Thread-safe operations
+
+## Installation
+
+Add the SDK to your project using your preferred build tool:
+
+{% tabs %}
+{% tab title="Maven" %}
+{% code title="pom.xml" %}
+```xml
+<dependency>
+    <groupId>com.mailtrap</groupId>
+    <artifactId>mailtrap-java</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Gradle (Groovy)" %}
+{% code title="build.gradle" %}
+```groovy
+implementation 'com.mailtrap:mailtrap-java:1.0.0'
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Gradle (Kotlin DSL)" %}
+{% code title="build.gradle.kts" %}
+```kotlin
+implementation("com.mailtrap:mailtrap-java:1.0.0")
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+## Minimal Example
+
+Here's a minimal example to send your first email:
+
+{% code title="SendEmail.java" %}
+```java
+import com.mailtrap.MailtrapClient;
+import com.mailtrap.model.Mail;
+import com.mailtrap.model.Address;
+
+public class SendEmail {
+    public static void main(String[] args) {
+        MailtrapClient client = new MailtrapClient("your-api-token");
+
+        Mail mail = Mail.builder()
+            .from(new Address("hello@example.com", "Mailtrap Test"))
+            .to(new Address("recipient@example.com"))
+            .subject("Hello from Mailtrap!")
+            .text("Welcome to Mailtrap Email Sending!")
+            .html("<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>")
+            .build();
+
+        try {
+            var response = client.send(mail);
+            System.out.println("Email sent successfully: " + response);
+        } catch (Exception e) {
+            System.err.println("Error sending email: " + e.getMessage());
+        }
+    }
+}
+```
+{% endcode %}
+
+{% hint style="info" %}
+Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+{% endhint %}
 
 ### SMTP integration
 

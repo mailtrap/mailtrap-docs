@@ -6,6 +6,8 @@ description: >-
 icon: php
 ---
 
+<a href="https://github.com/mailtrap/mailtrap-php" class="button secondary">Mailtrap PHP SDK on GitHub</a>
+
 # PHP Integration
 
 ## Overview
@@ -16,9 +18,69 @@ Mailtrap can be integrated with PHP apps and projects for email sending.
 
 ### SDK integration
 
-You can integrate Mailtrap into your PHP project or app using the [official SDK](https://github.com/railsware/mailtrap-php). The SDK offers access to both Transactional and Bulk Streams, Email Templates, and Account Management and provides dedicated bridges for Laravel and Symfony.
+The [Mailtrap PHP SDK](https://github.com/mailtrap/mailtrap-php) is a modern, type-safe library for sending transactional and bulk emails from PHP applications. The SDK supports:
+
+- Transactional email sending
+- Batch email sending
+- Template management
+- Contact management
+- Sandbox testing
+- Account management
+- Dedicated Laravel and Symfony bridges
 
 Additionally, you can watch the [course released by Symfony Casts](https://symfonycasts.com/screencast/mailtrap) for a step-by-step integration walkthrough.
+
+## Installation
+
+Install the SDK using Composer:
+
+{% code title="Composer" %}
+```bash
+composer require railsware/mailtrap-php
+```
+{% endcode %}
+
+## Minimal Example
+
+Here's a minimal example to send your first email:
+
+{% code title="send_email.php" %}
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use Mailtrap\Config;
+use Mailtrap\EmailHeader\CategoryHeader;
+use Mailtrap\Helper\ResponseHelper;
+use Mailtrap\MailtrapClient;
+use Symfony\Component\Mime\Address;
+use Symfony\Component\Mime\Email;
+
+$apiKey = 'your-api-token';
+$mailtrap = MailtrapClient::initSendingEmails(
+    apiKey: $apiKey
+);
+
+$email = (new Email())
+    ->from(new Address('hello@example.com', 'Mailtrap Test'))
+    ->to(new Address('recipient@example.com'))
+    ->subject('Hello from Mailtrap!')
+    ->text('Welcome to Mailtrap Email Sending!')
+    ->html('<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>');
+
+try {
+    $response = $mailtrap->send($email);
+    var_dump(ResponseHelper::toArray($response));
+} catch (Exception $e) {
+    echo 'Error: ' . $e->getMessage();
+}
+```
+{% endcode %}
+
+{% hint style="info" %}
+Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+{% endhint %}
 
 ### SMTP integration
 

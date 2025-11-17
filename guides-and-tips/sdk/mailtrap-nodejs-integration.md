@@ -6,6 +6,8 @@ description: >-
 icon: node
 ---
 
+<a href="https://github.com/mailtrap/mailtrap-nodejs" class="button secondary">Mailtrap Node.js SDK on GitHub</a>
+
 # Node.js Integration
 
 ## Overview
@@ -16,7 +18,57 @@ Mailtrap can be integrated with Node.js apps for email sending purposes with SDK
 
 ### SDK integration
 
-To integrate Mailtrap into your Node.js project, you can use the [official SDK](https://github.com/railsware/mailtrap-nodejs), which gives you access to both Transactional and Bulk Streams, and Templates. You can install it either via yarn or npm.
+The [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs) provides a simple and intuitive way to send transactional and bulk emails from your Node.js applications. The SDK supports:
+
+- Transactional email sending
+- Batch email sending
+- Template management
+- Contact management
+- Sandbox testing
+- Account management
+
+## Installation
+
+Install the SDK using npm or yarn:
+
+{% code title="npm" %}
+```bash
+npm install mailtrap
+```
+{% endcode %}
+
+{% code title="yarn" %}
+```bash
+yarn add mailtrap
+```
+{% endcode %}
+
+## Minimal Example
+
+Here's a minimal example to send your first email:
+
+{% code title="index.js" %}
+```javascript
+const { MailtrapClient } = require("mailtrap");
+
+const client = new MailtrapClient({ token: "your-api-token" });
+
+const sender = { name: "Mailtrap Test", email: "hello@example.com" };
+
+client.send({
+  from: sender,
+  to: [{ email: "recipient@example.com" }],
+  subject: "Hello from Mailtrap!",
+  text: "Welcome to Mailtrap Email Sending!",
+})
+.then(console.log)
+.catch(console.error);
+```
+{% endcode %}
+
+{% hint style="info" %}
+Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+{% endhint %}
 
 ### SMTP integration
 

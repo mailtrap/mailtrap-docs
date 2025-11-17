@@ -2,8 +2,10 @@
 title: <i class="fa-windows">:windows:</i> Mailtrap .NET integration
 description: >-
   Learn how to integrate Mailtrap with .NET apps and projects for email sending
-  using SMTP or RESTful API.
+  using SDK, SMTP, or RESTful API.
 ---
+
+<a href="https://github.com/mailtrap/mailtrap-dotnet" class="button secondary">Mailtrap .NET SDK on GitHub</a>
 
 # .NET Integration
 
@@ -12,6 +14,73 @@ description: >-
 Mailtrap can be integrated with .NET apps and projects for email sending.
 
 ## Email API/SMTP for .NET
+
+### SDK integration
+
+The [Mailtrap .NET SDK](https://github.com/mailtrap/mailtrap-dotnet) is a modern, async-first library for sending transactional and bulk emails from .NET applications. The SDK supports:
+
+- Transactional email sending
+- Batch email sending
+- Template management
+- Contact management
+- Sandbox testing
+- Account management
+- Async/await pattern support
+- Compatible with .NET 6+, .NET Core, and .NET Framework
+
+## Installation
+
+Install the SDK using NuGet Package Manager:
+
+{% code title=".NET CLI" %}
+```bash
+dotnet add package Mailtrap
+```
+{% endcode %}
+
+Or using Package Manager Console:
+
+{% code title="Package Manager" %}
+```powershell
+Install-Package Mailtrap
+```
+{% endcode %}
+
+## Minimal Example
+
+Here's a minimal example to send your first email:
+
+{% code title="Program.cs" %}
+```csharp
+using Mailtrap;
+using Mailtrap.Models;
+
+var client = new MailtrapClient("your-api-token");
+
+var email = new Mail
+{
+    From = new Address("hello@example.com", "Mailtrap Test"),
+    To = new List<Address> { new Address("recipient@example.com") },
+    Subject = "Hello from Mailtrap!",
+    Text = "Welcome to Mailtrap Email Sending!",
+    Html = "<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>"
+};
+
+try
+{
+    var response = await client.SendAsync(email);
+    Console.WriteLine($"Email sent successfully: {response.MessageId}");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Error sending email: {ex.Message}");
+}
+```
+{% endcode %}
+
+{% hint style="info" %}
+Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+{% endhint %}
 
 ### SMTP integration
 

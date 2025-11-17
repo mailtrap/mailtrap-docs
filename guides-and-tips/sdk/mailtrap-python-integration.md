@@ -6,6 +6,8 @@ description: >-
 icon: python
 ---
 
+<a href="https://github.com/mailtrap/mailtrap-python" class="button secondary">Mailtrap Python SDK on GitHub</a>
+
 # Python Integration
 
 ## Overview
@@ -16,7 +18,55 @@ Mailtrap can be integrated with Python apps and projects for email sending purpo
 
 ### SDK Integration
 
-You can integrate Mailtrap into your Python project or app using the [official SDK](https://github.com/railsware/mailtrap-python). The SDK offers access to both Transactional and Bulk Streams, and Email Templates.
+The [Mailtrap Python SDK](https://github.com/mailtrap/mailtrap-python) is a Pythonic library for sending transactional and bulk emails with full type hints support. The SDK supports:
+
+- Transactional email sending
+- Batch email sending
+- Template management
+- Contact management
+- Sandbox testing
+- Account management
+- Type hints for better IDE support
+
+## Installation
+
+Install the SDK using pip:
+
+{% code title="pip" %}
+```bash
+pip install mailtrap
+```
+{% endcode %}
+
+## Minimal Example
+
+Here's a minimal example to send your first email:
+
+{% code title="send_email.py" %}
+```python
+from mailtrap import Mail, MailtrapClient
+
+client = MailtrapClient(token="your-api-token")
+
+mail = Mail(
+    sender={"email": "hello@example.com", "name": "Mailtrap Test"},
+    to=[{"email": "recipient@example.com"}],
+    subject="Hello from Mailtrap!",
+    text="Welcome to Mailtrap Email Sending!",
+    html="<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>"
+)
+
+try:
+    response = client.send(mail)
+    print(response)
+except Exception as e:
+    print(f"Error: {e}")
+```
+{% endcode %}
+
+{% hint style="info" %}
+Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+{% endhint %}
 
 ### SMTP Integration
 

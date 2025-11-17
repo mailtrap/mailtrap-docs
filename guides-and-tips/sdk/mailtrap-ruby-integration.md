@@ -6,6 +6,8 @@ description: >-
 icon: gem
 ---
 
+<a href="https://github.com/mailtrap/mailtrap-ruby" class="button secondary">Mailtrap Ruby SDK on GitHub</a>
+
 # Ruby Integration
 
 ## Overview
@@ -16,7 +18,68 @@ Mailtrap can be integrated with Ruby apps and projects for email sending.
 
 ### SDK integration
 
-You can integrate Mailtrap into your Ruby project or application using the [official SDK](https://github.com/railsware/mailtrap-ruby). The SDK offers access to both Transactional and Bulk Streams, Email Templates, and Account Management.
+The [Mailtrap Ruby SDK](https://github.com/mailtrap/mailtrap-ruby) provides an idiomatic Ruby interface for sending transactional and bulk emails. The SDK supports:
+
+- Transactional email sending
+- Batch email sending
+- Template management
+- ActionMailer integration for Rails applications
+- Comprehensive error handling
+
+## Installation
+
+Add the SDK to your Gemfile:
+
+{% code title="Gemfile" %}
+```ruby
+gem 'mailtrap'
+```
+{% endcode %}
+
+Then run:
+
+{% code title="Terminal" %}
+```bash
+bundle install
+```
+{% endcode %}
+
+## Minimal Example
+
+Here's a minimal example to send your first email:
+
+{% code title="send_email.rb" %}
+```ruby
+require 'mailtrap'
+
+client = Mailtrap::Client.new(api_key: 'your-api-token')
+
+mail = Mailtrap::Mail::FromTemplate.new(
+  from: { email: 'hello@example.com', name: 'Mailtrap Test' },
+  to: [{ email: 'recipient@example.com' }],
+  template_uuid: 'template-uuid',
+  template_variables: {
+    'user_name' => 'John Doe'
+  }
+)
+
+# Or send a simple email
+mail = {
+  from: { email: 'hello@example.com', name: 'Mailtrap Test' },
+  to: [{ email: 'recipient@example.com' }],
+  subject: 'Hello from Mailtrap!',
+  text: 'Welcome to Mailtrap Email Sending!',
+  html: '<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>'
+}
+
+response = client.send(mail)
+puts response
+```
+{% endcode %}
+
+{% hint style="info" %}
+Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+{% endhint %}
 
 ### SMTP integration
 
