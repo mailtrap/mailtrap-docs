@@ -8,3 +8,6 @@
 # Thumbnails
 ehthumbs.db
 Thumbs.db
+
+# Migration scripts and temp files
+migration_from_helpscout/
