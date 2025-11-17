@@ -1,9 +1,10 @@
 ---
 title: Billing & Plans
 description: Manage your Mailtrap subscription, billing, and account settings
+icon: credit-card
 ---
 
-# 💳 Billing & Plans
+# Billing & Plans
 
 Manage your Mailtrap subscription, understand pricing plans, and handle billing-related tasks. Find information about payment methods, invoices, and special programs.
 

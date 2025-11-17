@@ -3,9 +3,10 @@ title: User Management
 description: >-
   Manage users, teams, and organizational structure in Mailtrap. Control
   permissions, access, and collaboration.
+icon: users
 ---
 
-# 👤 User Management
+# User Management
 
 Efficiently manage your team's access to Mailtrap. Control permissions, organize users into teams, and maintain security across your organization.
 

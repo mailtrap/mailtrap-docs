@@ -3,9 +3,10 @@ title: Contacts
 description: >-
   Upload, store, and organize your contacts in email lists to send targeted
   campaigns
+icon: user-magnifying-glass
 ---
 
-# 👤 Contacts
+# Contacts
 
 Mailtrap Contacts allows you to upload and store your contacts on Mailtrap platform and organize them in different email lists to send targeted campaigns.
 

@@ -1,9 +1,10 @@
 ---
 title: Help & Support
 description: Get help with Email Marketing issues and find answers to common questions
+icon: question
 ---
 
-# ❓ Help & Support
+# Help & Support
 
 Find answers to common questions and troubleshoot issues with Email Marketing. Get help with campaign creation, contact management, analytics, and more.
 

@@ -3,9 +3,10 @@ title: Email Marketing Overview
 description: >-
   Create, send, and analyze email marketing campaigns with Mailtrap's
   comprehensive marketing platform
+icon: memo-circle-check
 ---
 
-# 📋 Overview
+# Overview
 
 Mailtrap Email Marketing is a complete solution for creating, sending, and analyzing email campaigns. Build beautiful emails with our drag-and-drop editor, manage your subscriber lists, automate campaigns, and track performance - all in one platform.
 

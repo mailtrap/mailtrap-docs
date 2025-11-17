@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏠 Documentation](README.md)
+* [Documentation](README.md)
 
 ## Getting Started
 
@@ -75,32 +75,32 @@
 
 ## Email Marketing
 
-* [📋 Overview](email-marketing/README.md)
-* [📢 Campaign Management](email-marketing/campaigns/README.md)
-  * [📅 Campaign Scheduling](email-marketing/campaign-scheduling.md)
-  * [🎨 Email Templates](email-marketing/email-templates.md)
-* [🤖 Automations](email-marketing/automations.md)
-* [👤 Contacts](email-marketing/contacts.md)
-* [📈 Statistics](email-marketing/statistics.md)
-* [❓ Help & Support](email-marketing/help/README.md)
-  * [💬 FAQs](email-marketing/faqs.md)
+* [Overview](email-marketing/README.md)
+* [Campaign Management](email-marketing/campaigns/README.md)
+  * [Campaign Scheduling](email-marketing/campaign-scheduling.md)
+  * [Email Templates](email-marketing/email-templates.md)
+* [Automations](email-marketing/automations.md)
+* [Contacts](email-marketing/contacts.md)
+* [Statistics](email-marketing/statistics.md)
+* [Help & Support](email-marketing/help/README.md)
+  * [FAQs](email-marketing/faqs.md)
 
 ## Account & Organization
 
-* [👤 User Management](user-management/README.md)
-  * [🏢 Organization & Sub-Accounts](user-management/organization-and-sub-accounts.md)
-  * [👥 User Management](user-management/user-management.md)
-  * [👤 User Profile](user-management/user-profile.md)
-  * [⚙️ My Profile](user-management/my-profile.md)
-* [💳 Billing & Plans](account-and-billing/README.md)
-  * [⚙️ Billing Setup](account-and-billing/billing-setup.md)
-  * [⚠️ Payment Issues](account-and-billing/payment-issues.md)
-  * [❓ Payment and Billing FAQs](account-and-billing/payment-and-billing-faqs.md)
-  * [❤️ Non-Profit and Open-Source](account-and-billing/supporting-non-profit-and-open-source-projects.md)
-  * [🚫 Suspensions and Bans](account-and-billing/suspensions-and-bans.md)
-* [🔑 API Tokens](account-and-organization/api-tokens.md)
-* [🔒 Security & Privacy](privacy-and-security/README.md)
-  * [🔐 Two-Factor Authentication](account-and-billing/2fa.md)
-  * [🛡️ GDPR Compliance](privacy-and-security/gdpr-compliance.md)
-  * [✅ ISO Certification](privacy-and-security/iso-certification.md)
-  * [📜 Legal Policies](privacy-and-security/legal-policies.md)
+* [User Management](user-management/README.md)
+  * [Organization & Sub-Accounts](user-management/organization-and-sub-accounts.md)
+  * [User Management](user-management/user-management.md)
+  * [User Profile](user-management/user-profile.md)
+  * [My Profile](user-management/my-profile.md)
+* [Billing & Plans](account-and-billing/README.md)
+  * [Billing Setup](account-and-billing/billing-setup.md)
+  * [Payment Issues](account-and-billing/payment-issues.md)
+  * [Payment and Billing FAQs](account-and-billing/payment-and-billing-faqs.md)
+  * [Non-Profit and Open-Source](account-and-billing/supporting-non-profit-and-open-source-projects.md)
+  * [Suspensions and Bans](account-and-billing/suspensions-and-bans.md)
+* [API Tokens](account-and-organization/api-tokens.md)
+* [Security & Privacy](privacy-and-security/README.md)
+  * [Two-Factor Authentication](account-and-billing/2fa.md)
+  * [GDPR Compliance](privacy-and-security/gdpr-compliance.md)
+  * [ISO Certification](privacy-and-security/iso-certification.md)
+  * [Legal Policies](privacy-and-security/legal-policies.md)

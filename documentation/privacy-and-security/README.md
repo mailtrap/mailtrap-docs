@@ -3,9 +3,10 @@ title: Security & Privacy
 description: >-
   Learn about Mailtrap's security measures, compliance standards, and data
   protection policies
+icon: lock
 ---
 
-# 🔒 Security & Privacy
+# Security & Privacy
 
 Mailtrap takes security and privacy seriously. We implement industry-leading security measures to protect your data and ensure compliance with global privacy regulations.
 

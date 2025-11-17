@@ -3,9 +3,10 @@ title: Payment issues
 description: >-
   Troubleshoot common payment issues with Mailtrap billing. Learn how to fix
   zip/postal code errors and CAPTCHA token problems when adding payment methods.
+icon: triangle-exclamation
 ---
 
-# ⚠️ Payment Issues
+# Payment Issues
 
 If your payment fails first of all, please check the validity of your credit card details and available funds. If everything is correct but the issue persists, please contact your bank.
 

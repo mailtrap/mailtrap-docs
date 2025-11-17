@@ -4,9 +4,10 @@ description: >-
   Manage your Mailtrap user profile and account settings. Learn how to update
   your profile, delete your user account, create new accounts, and leave
   existing accounts.
+icon: user
 ---
 
-# 👤 User Profile
+# User Profile
 
 Once you register with Mailtrap, we automatically create an **account** and a **user profile** for you.**Users** belong to accounts (organisations). Each user and user profile is defined by their email address and may belong to multiple accounts. You use the same credentials to access all your Mailtrap accounts.
 

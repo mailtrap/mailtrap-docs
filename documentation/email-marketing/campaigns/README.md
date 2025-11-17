@@ -1,9 +1,10 @@
 ---
 title: Campaign Management
 description: Create, schedule, and manage email marketing campaigns
+icon: list-check
 ---
 
-# 📢 Campaign Management
+# Campaign Management
 
 Build and manage successful email marketing campaigns with Mailtrap's comprehensive campaign management tools. From creation to scheduling to analysis, we provide everything you need.
 

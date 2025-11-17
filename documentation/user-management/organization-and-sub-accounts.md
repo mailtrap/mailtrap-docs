@@ -4,9 +4,10 @@ description: >-
   Manage complex setups with Mailtrap Organization & Sub‑Accounts. Learn about
   centralized billing, isolated workspaces, permissions, and how to create and
   migrate sub-accounts.
+icon: sitemap
 ---
 
-# 🏢 Organization & Sub-Accounts
+# Organization & Sub-Accounts
 
 ### Overview
 

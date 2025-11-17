@@ -3,9 +3,10 @@ title: Mailtrap Documentation
 description: >-
   Complete email infrastructure for developers. Send production emails, test in
   sandbox, and run email campaigns - all in one platform.
+icon: house
 ---
 
-# 🏠 Documentation
+# Documentation
 
 Build, test, and send emails with confidence using Mailtrap's comprehensive email platform designed for developers and teams.
 

@@ -1,9 +1,10 @@
 ---
 title: Statistics
 description: View and analyze email campaign performance metrics and analytics
+icon: chart-simple-horizontal
 ---
 
-# 📈 Statistics
+# Statistics
 
 Mailtrap provides analytics for all the emails you send.
 

@@ -1,9 +1,10 @@
 ---
 title: Email Marketing FAQs
 description: Frequently asked questions about Mailtrap Email Marketing
+icon: question
 ---
 
-# 💬 FAQs
+# FAQs
 
 Find quick answers to common questions about Mailtrap Email Marketing, including campaign creation, contact management, analytics, and more.
 
