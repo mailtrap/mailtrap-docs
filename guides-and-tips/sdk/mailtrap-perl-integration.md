@@ -17,7 +17,7 @@ To integrate SMTP with your Perl app, navigate to the **Integrations** tab, choo
 SMTP integration is compatible with any Perl framework or library that sends emails via SMTP.
 {% endhint %}
 
-![SMTP integration settings and code samples for Perl](../../../.gitbook/assets/mailtrap-perl-smtp-integration.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-perl-smtp-integration.png" alt="SMTP integration settings and code samples for Perl" width="563"></div>
 
 Read more about SMTP integration in the [SMTP Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
@@ -27,6 +27,6 @@ To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and 
 
 For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-![API integration settings with credentials and code samples](../../../.gitbook/assets/mailtrap-perl-api-integration.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-perl-api-integration.png" alt="API integration settings with credentials and code samples" width="563"></div>
 
 Read more about API integration in the [API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

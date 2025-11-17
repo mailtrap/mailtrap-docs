@@ -81,47 +81,55 @@ To obtain the **Account ID**, go to **Settings** → **Account Settings** → **
 
 ### Integrate N8N with Mailtrap
 
-#### Step 1. Select Mailtrap
+{% stepper %}
+{% step %}
+#### Select Mailtrap
 
-* When you open your N8N dashboard, click on the left card 'Start from scratch'.
+When you open your N8N dashboard, click on the left card 'Start from scratch'.
 
-![N8N workflows overview page with cards to create new workflows from scratch or use AI agent example](../.gitbook/assets/mailtrap-and-n8n-integration-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-7.png" alt="N8N workflows overview page with cards to create new workflows from scratch or use AI agent example" width="563"></div>
 
-* Then, click on the 'Add first step…'.
+Then, click on the 'Add first step…'.
 
-![N8N workflow canvas with add node button highlighted in the center of empty workflow](../.gitbook/assets/mailtrap-and-n8n-integration-8.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-8.png" alt="N8N workflow canvas with add node button highlighted in the center of empty workflow" width="563"></div>
 
-* On the right-side menu, type 'Mailtrap' in the search bar, click on it, and select which actions you want to automate (e.g., sending an email, creating/updating contacts, etc.).
+On the right-side menu, type 'Mailtrap' in the search bar, click on it, and select which actions you want to automate (e.g., sending an email, creating/updating contacts, etc.).
 
-![N8N node selection panel showing Mailtrap triggers and available contact-related actions in list format](../.gitbook/assets/mailtrap-and-n8n-integration-9.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-9.png" alt="N8N node selection panel showing Mailtrap triggers and available contact-related actions in list format" width="563"></div>
 
 Here's an example workflow I created for the purposes of this demo:
 
-![N8N workflow showing trigger connected to five sequential Mailtrap contact management nodes including get lists, create, update, and delete operations](../.gitbook/assets/mailtrap-and-n8n-integration-10.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-10.png" alt="N8N workflow showing trigger connected to five sequential Mailtrap contact management nodes including get lists, create, update, and delete operations" width="563"></div>
+{% endstep %}
 
-#### Step 2. Enter your Mailtrap credentials
+{% step %}
+#### Enter your Mailtrap credentials
 
-* In the parameters window, click on 'Select Credential' and '+ Create new credential' to add the credentials we obtained in the previous chapter.
+In the parameters window, click on 'Select Credential' and '+ Create new credential' to add the credentials we obtained in the previous chapter.
 
-![Mailtrap node parameters showing Create Contact operation with dropdown for credential selection and fields for account ID and email](../.gitbook/assets/mailtrap-and-n8n-integration-11.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-11.png" alt="Mailtrap node parameters showing Create Contact operation with dropdown for credential selection and fields for account ID and email" width="563"></div>
 
-* In the credentials setting, simply add the API Token and Mailtrap Host.
+In the credentials setting, simply add the API Token and Mailtrap Host.
 
-![Mailtrap API Token credential dialog with fields for API token and mailing host configuration showing send.api.mailtrap.io](../.gitbook/assets/mailtrap-and-n8n-integration-12.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-12.png" alt="Mailtrap API Token credential dialog with fields for API token and mailing host configuration showing send.api.mailtrap.io" width="563"></div>
 
 **Important**: Keep in mind that I've added my Sending credentials (send.api.mailtrap.io).
 
-* Then, back in the Parameters window, add the account ID.
+Then, back in the Parameters window, add the account ID.
 
-![Mailtrap node parameters panel configured for Get Contact Lists operation with account ID value entered in the field](../.gitbook/assets/mailtrap-and-n8n-integration-13.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-13.png" alt="Mailtrap node parameters panel configured for Get Contact Lists operation with account ID value entered in the field" width="563"></div>
+{% endstep %}
 
-#### Step 3. Test the integration
+{% step %}
+#### Test the integration
 
-* Lastly, simply click on 'Test step' to test the integration:
+Lastly, simply click on 'Test step' to test the integration:
 
-![N8N workflow execution results showing three contact records with IDs and names successfully retrieved from Mailtrap](../.gitbook/assets/mailtrap-and-n8n-integration-14.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-14.png" alt="N8N workflow execution results showing three contact records with IDs and names successfully retrieved from Mailtrap" width="563"></div>
 
 Now, every time a new user logs in and updates their name, they will get a confirmation email via Mailtrap and their information will be logged in my Mailtrap Contacts page. There, I can group them into lists, segment them accordingly, and use Fields to personalize my email campaigns further.
+{% endstep %}
+{% endstepper %}
 
 ## Next Steps
 

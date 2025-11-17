@@ -11,59 +11,68 @@ With Mailtrap SMTP, you can move beyond Supabase's limit of [2 emails per hour](
 
 In this guide, I'll show you how to obtain the Mailtrap SMTP credentials and update them in Supabase.
 
-## Step 1: Obtain your sending credentials
+{% stepper %}
+{% step %}
+#### Obtain your sending credentials
 
 If you haven't already, you'll need to verify your domain before we start. You can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) as a guide.
 
 With a verified domain in place:
 
-* Go to **Sending Domains** and select your domain.
+Go to **Sending Domains** and select your domain.
 
-![Mailtrap Sending Domains interface showing verified domain with status indicator and Add Domain button](../.gitbook/assets/supabase-and-mailtrap-integration-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-1.png" alt="Mailtrap Sending Domains interface showing verified domain with status indicator and Add Domain button" width="563"></div>
 
-* Click on **Integration**, select **Transactional Stream**, and click **Integrate**.
+Click on **Integration**, select **Transactional Stream**, and click **Integrate**.
 
-![Mailtrap domain integration settings page displaying Transactional Stream and Bulk Stream options](../.gitbook/assets/supabase-and-mailtrap-integration-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-2.png" alt="Mailtrap domain integration settings page displaying Transactional Stream and Bulk Stream options" width="563"></div>
 
-* Under the **SMTP** tab, you can find your sending credentials, which include **Host**, **Port**, **Username**, and **Password**.
+Under the **SMTP** tab, you can find your sending credentials, which include **Host**, **Port**, **Username**, and **Password**.
 
-![Mailtrap SMTP credentials panel showing host address, port number, username, password, and authentication methods](../.gitbook/assets/supabase-and-mailtrap-integration-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-3.png" alt="Mailtrap SMTP credentials panel showing host address, port number, username, password, and authentication methods" width="563"></div>
+{% endstep %}
 
-## Step 2: Update the SMTP server in Supabase
+{% step %}
+#### Update the SMTP server in Supabase
 
-* Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and select your project.
+Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and select your project.
 
-![Supabase projects dashboard displaying organization name and project card with navigation arrow](../.gitbook/assets/supabase-and-mailtrap-integration-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-4.png" alt="Supabase projects dashboard displaying organization name and project card with navigation arrow" width="563"></div>
 
-* Click on **Authentication** → **SMTP settings**.
+Click on **Authentication** → **SMTP settings**.
 
-![Supabase project settings page showing left sidebar with Configuration section and Authentication option highlighted](../.gitbook/assets/supabase-and-mailtrap-integration-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-5.png" alt="Supabase project settings page showing left sidebar with Configuration section and Authentication option highlighted" width="563"></div>
 
-* Click on **Emails** → **SMTP Settings** and enable the **Enable Custom SMTP** toggle.
-* Update **Host**, **Port**, **Username**, and **Password** with your Mailtrap credentials, then click **Save changes**.
+Click on **Emails** → **SMTP Settings** and enable the **Enable Custom SMTP** toggle. Update **Host**, **Port**, **Username**, and **Password** with your Mailtrap credentials, then click **Save changes**.
 
-![Supabase custom SMTP configuration form with Mailtrap credentials filled in all required fields](../.gitbook/assets/supabase-and-mailtrap-integration-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-6.png" alt="Supabase custom SMTP configuration form with Mailtrap credentials filled in all required fields" width="563"></div>
+{% endstep %}
 
-## Step 3: Create a new account in your app
+{% step %}
+#### Create a new account in your app
 
-* Open your app/project and try to create an account.
+Open your app/project and try to create an account.
 
-![Developer debug panel showing account creation form with email address field and password fields](../.gitbook/assets/supabase-and-mailtrap-integration-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-7.png" alt="Developer debug panel showing account creation form with email address field and password fields" width="563"></div>
 
-* Alternatively, you can simulate new user registration by clicking **Add user** in Supabase.
+Alternatively, you can simulate new user registration by clicking **Add user** in Supabase.
 
-![Supabase authentication users table displaying newly created user with email authentication method](../.gitbook/assets/supabase-and-mailtrap-integration-8.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-8.png" alt="Supabase authentication users table displaying newly created user with email authentication method" width="563"></div>
+{% endstep %}
 
-## Step 4: Monitor your email performance
+{% step %}
+#### Monitor your email performance
 
 Once you send emails from your Supabase project, they should arrive in both your recipient's inbox and your **Mailtrap Email Logs**. There, you can see useful information such as delivery time, opens/clicks, email HTML source, [spam analysis](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox/deliverability-tests), and more.
 
-![Mailtrap email details page showing confirmation email delivery status with complete metadata](../.gitbook/assets/supabase-and-mailtrap-integration-9.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/supabase-and-mailtrap-integration-9.png" alt="Mailtrap email details page showing confirmation email delivery status with complete metadata" width="563"></div>
 
 You can read more about **Mailtrap Email Logs** in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
 
 Additionally, you'll be able to see all important stats regarding your sent emails, such as opens, clicks, bounces, and more.
 
-![Mailtrap analytics dashboard showing email delivery statistics and performance metrics by mailbox provider](<../.gitbook/assets/send-email-with-v0-5 (1).png>)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-v0-5 (1).png" alt="Mailtrap analytics dashboard showing email delivery statistics and performance metrics by mailbox provider" width="563"></div>
 
 For more information on **Mailtrap Analytics**, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
+{% endstep %}
+{% endstepper %}

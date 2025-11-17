@@ -15,13 +15,19 @@ This guide walks you through configuring SAML-based Single Sign-On (SSO) between
 
 ### Access Apps Section
 
-1. Go to **Apps** in the Google Admin console
+{% stepper %}
+{% step %}
+#### Go to Apps in the Google Admin console
 
-![Google Admin console home page with left navigation menu showing Apps section](../.gitbook/assets/setup-sso-with-google-workspace-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-1.png" alt="Google Admin console home page with left navigation menu showing Apps section" width="563"></div>
+{% endstep %}
 
-2. Navigate to **Web and mobile apps**
+{% step %}
+#### Navigate to Web and mobile apps
 
-![Google Admin Apps dashboard showing Workspace Additional services and Web mobile apps options](../.gitbook/assets/setup-sso-with-google-workspace-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-2.png" alt="Google Admin Apps dashboard showing Workspace Additional services and Web mobile apps options" width="563"></div>
+{% endstep %}
+{% endstepper %}
 
 ### Create Custom SAML App
 
@@ -43,7 +49,7 @@ Click the **Add app** dropdown button to see available app options.
 
 Select **Add custom SAML app** from the dropdown menu.
 
-![Web and mobile apps page with Add app dropdown showing custom SAML app option](../.gitbook/assets/setup-sso-with-google-workspace-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-3.png" alt="Web and mobile apps page with Add app dropdown showing custom SAML app option" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -55,7 +61,7 @@ Google will provide you with the following SAML configuration details. Copy thes
 * **Entity ID**
 * **Certificate**
 
-![Google SAML configuration page showing SSO URL Entity ID and Certificate fields](../.gitbook/assets/setup-sso-with-google-workspace-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-4.png" alt="Google SAML configuration page showing SSO URL Entity ID and Certificate fields" width="563"></div>
 
 ### Configure Service Provider Details
 
@@ -64,19 +70,19 @@ Provide the following SAML Provider details to Google from Mailtrap:
 * **ACS URL** ← Assertion Consumer Service URL from Mailtrap
 * **Entity ID** ← Entity ID from Mailtrap
 
-![Google SAML service provider details form with required ACS URL and Entity ID fields](../.gitbook/assets/setup-sso-with-google-workspace-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-5.png" alt="Google SAML service provider details form with required ACS URL and Entity ID fields" width="563"></div>
 
 ### Verify Application
 
 After configuration, your SAML app will appear in the Web and mobile apps list:
 
-![Web and mobile apps list showing configured SAML sandbox MT application with certificate expiration](../.gitbook/assets/setup-sso-with-google-workspace-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-6.png" alt="Web and mobile apps list showing configured SAML sandbox MT application with certificate expiration" width="563"></div>
 
 ### Review Configuration
 
 You can review the service provider details and configure attribute mapping:
 
-![SAML sandbox MT app overview showing service provider details and attribute mapping configuration](../.gitbook/assets/setup-sso-with-google-workspace-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-7.png" alt="SAML sandbox MT app overview showing service provider details and attribute mapping configuration" width="563"></div>
 
 ### Enable the Application
 
@@ -100,7 +106,7 @@ Select **ON for everyone** to enable the app for all users, or choose specific o
 
 Click **Save** to apply the changes and enable the application.
 
-![SAML sandbox MT service status page with ON for everyone option selected](../.gitbook/assets/setup-sso-with-google-workspace-8.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-8.png" alt="SAML sandbox MT service status page with ON for everyone option selected" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -114,24 +120,36 @@ In the following example, we assign the roles depending on the **Type** of emplo
 
 #### Configure Attribute Mapping in Google
 
-1. Navigate to your SAML app details
-2. Click **SAML attribute mapping**
+{% stepper %}
+{% step %}
+#### Navigate to your SAML app details
 
-![Google app details showing service provider details and SAML attribute mapping link](../.gitbook/assets/setup-sso-with-google-workspace-9.png)
+Click **SAML attribute mapping**.
 
-3. Map the Google Directory attribute to the App attribute:
-   * **Google Directory attributes**: Employee Details > Type
-   * **App attributes**: Type
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-9.png" alt="Google app details showing service provider details and SAML attribute mapping link" width="563"></div>
+{% endstep %}
 
-![SAML attribute mapping page showing Google Directory Type field mapped to App Type attribute](../.gitbook/assets/setup-sso-with-google-workspace-10.png)
+{% step %}
+#### Map the Google Directory attribute to the App attribute
 
-4. Click **Save**
+* **Google Directory attributes**: Employee Details > Type
+* **App attributes**: Type
+
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-10.png" alt="SAML attribute mapping page showing Google Directory Type field mapped to App Type attribute" width="563"></div>
+{% endstep %}
+
+{% step %}
+#### Click Save
+
+Save your attribute mapping configuration.
+{% endstep %}
+{% endstepper %}
 
 #### Set Employee Type in Google Directory
 
 In the Google Directory user profile, set the **Type of employee** field (e.g., "Admin", "Viewer"):
 
-![Google Directory employee information form showing Type of employee field set to Admin](../.gitbook/assets/setup-sso-with-google-workspace-11.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-11.png" alt="Google Directory employee information form showing Type of employee field set to Admin" width="563"></div>
 
 #### Configure Role Mapping in Mailtrap
 
@@ -139,6 +157,6 @@ In Mailtrap SSO settings, configure the SAML Role Mapping:
 
 * Map the **Type** attribute to the appropriate Mailtrap roles (Admin, Viewer)
 
-![Mailtrap SAML Role Mapping configuration with Admin and Viewer roles mapped to Type attribute](../.gitbook/assets/setup-sso-with-google-workspace-12.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-google-workspace-12.png" alt="Mailtrap SAML Role Mapping configuration with Admin and Viewer roles mapped to Type attribute" width="563"></div>
 
 Your Google Workspace SSO configuration with role mapping is now complete.

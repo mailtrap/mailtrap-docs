@@ -17,7 +17,7 @@ To integrate SMTP with your Scala app, navigate to the **Integrations** tab and 
 You'll have to use Play-Mailer configuration, as Scala doesn't have built-in support for SMTP sending.
 {% endhint %}
 
-![Mailtrap SMTP integration for Scala with Play-Mailer configuration](../../../.gitbook/assets/mailtrap-scala-integration-smtp.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-scala-integration-smtp.png" alt="Mailtrap SMTP integration for Scala with Play-Mailer configuration" width="563"></div>
 
 Read more about SMTP integration in the [SMTP Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
@@ -26,7 +26,5 @@ Read more about SMTP integration in the [SMTP Integration guide](https://app.git
 To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and API Token into the configuration file of a Scala framework or library that supports HTTP requests.
 
 For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
-
-![Mailtrap RESTful API integration for Scala](../../../.gitbook/assets/mailtrap-scala-integration-api.png)
 
 Read more about API integration in the [API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
