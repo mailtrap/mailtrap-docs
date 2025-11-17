@@ -11,37 +11,11 @@ Welcome to Mailtrap Guides & Tips! This section provides detailed, step-by-step 
 
 ## Official SDKs
 
-Integrate Mailtrap seamlessly with our official SDKs for popular programming languages:
+Get started quickly with our official SDKs for your favorite programming language.
 
-{% content-ref url="sdk/mailtrap-nodejs-integration.md" %}
-[mailtrap-nodejs-integration.md](sdk/mailtrap-nodejs-integration.md)
-{% endcontent-ref %}
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong><i class="fa-node-js">:node-js:</i> Node.js</strong></td><td>Official Node.js SDK for Mailtrap</td><td><a href="sdk/mailtrap-nodejs-integration.md">mailtrap-nodejs-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-php">:php:</i> PHP</strong></td><td>Official PHP SDK for Mailtrap</td><td><a href="sdk/mailtrap-php-integration.md">mailtrap-php-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-gem">:gem:</i> Ruby</strong></td><td>Official Ruby SDK for Mailtrap</td><td><a href="sdk/mailtrap-ruby-integration.md">mailtrap-ruby-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-microsoft">:microsoft:</i> .NET</strong></td><td>Official .NET SDK for Mailtrap</td><td><a href="sdk/mailtrap-dotnet-integration.md">mailtrap-dotnet-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-java">:java:</i> Java</strong></td><td>Official Java SDK for Mailtrap</td><td><a href="sdk/mailtrap-java-integration.md">mailtrap-java-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-python">:python:</i> Python</strong></td><td>Official Python SDK for Mailtrap</td><td><a href="sdk/mailtrap-python-integration.md">mailtrap-python-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-laravel">:laravel:</i> Laravel</strong></td><td>Laravel integration with Mailtrap PHP SDK</td><td><a href="sdk/mailtrap-php-integration.md">mailtrap-php-integration.md</a></td><td></td></tr><tr><td><strong><i class="fa-symfony">:symfony:</i> Symfony</strong></td><td>Symfony integration with Mailtrap PHP SDK</td><td><a href="sdk/mailtrap-php-integration.md">mailtrap-php-integration.md</a></td><td></td></tr></tbody></table>
 
-{% content-ref url="sdk/mailtrap-php-integration.md" %}
-[mailtrap-php-integration.md](sdk/mailtrap-php-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="sdk/mailtrap-python-integration.md" %}
-[mailtrap-python-integration.md](sdk/mailtrap-python-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="sdk/mailtrap-ruby-integration.md" %}
-[mailtrap-ruby-integration.md](sdk/mailtrap-ruby-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="sdk/mailtrap-java-integration.md" %}
-[mailtrap-java-integration.md](sdk/mailtrap-java-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="sdk/mailtrap-dotnet-integration.md" %}
-[mailtrap-dotnet-integration.md](sdk/mailtrap-dotnet-integration.md)
-{% endcontent-ref %}
-
-{% content-ref url="sdk/mailtrap-elixir-integration.md" %}
-[mailtrap-elixir-integration.md](sdk/mailtrap-elixir-integration.md)
-{% endcontent-ref %}
-
-Browse all SDK integration guides in the navigation menu for additional languages including Go, Scala, Perl, and C#/C++.
+Browse all SDK integration guides in the navigation menu for additional languages including Go, Elixir, Scala, and Perl.
 
 ## DNS Setup Guides
 
