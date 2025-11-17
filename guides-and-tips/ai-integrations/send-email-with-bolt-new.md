@@ -5,6 +5,8 @@ description: Step-by-step guide to integrate Mailtrap with Bolt.new to send tran
 
 # Overview
 
+<i class="fa-bolt">:bolt:</i>
+
 [Mailtrap](https://mailtrap.io/) is an email-sending solution for developer and product teams. It is focused on fast delivery and high inboxing rates for transactional and promotional emails, providing a highly customizable API and 24/7 technical support.
 
 This integration allows you to:

@@ -7,6 +7,8 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 
 # Overview
 
+<i class="fa-code">:code:</i>
+
 With the Cursor and Mailtrap integration, you can now send emails from Cursor using Model Context Protocol. In this guide, you'll learn how to set it all up and start sending emails in three steps.
 
 ## Prerequisites

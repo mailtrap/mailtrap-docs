@@ -3,6 +3,10 @@ title: Mailtrap PHP integration
 description: Integrate Mailtrap with PHP applications using SDK, SMTP, or RESTful API for reliable email sending
 ---
 
+# Overview
+
+<i class="fa-php">:php:</i>
+
 Mailtrap can be integrated with PHP apps and projects for email sending.
 
 # Email API/SMTP for PHP
@@ -17,11 +21,13 @@ Additionally, you can watch the [course released by Symfony Casts](https://symfo
 
 To integrate SMTP with your PHP app, navigate to the **Integrations** tab, choose the desired PHP framework, and copy-paste the credentials or ready-made code snippets.
 
-Note that SMTP integration is compatible with any PHP framework or library that sends emails via SMTP.
+{% hint style="info" %}
+SMTP integration is compatible with any PHP framework or library that sends emails via SMTP.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/mailtrap-php-smtp-integration.png" alt="Mailtrap SMTP integration interface showing credentials and PHP framework code samples including CakePHP, CodeIgniter, FuelPHP, Laravel, PHPMailer, Symfony, WordPress, and Zend Framework"><figcaption><p>SMTP Integration for PHP</p></figcaption></figure>
+![Mailtrap SMTP integration interface showing credentials and PHP framework code samples including CakePHP, CodeIgniter, FuelPHP, Laravel, PHPMailer, Symfony, WordPress, and Zend Framework](../.gitbook/assets/mailtrap-php-smtp-integration.png)
 
-Read more about SMTP integration [here](https://help.mailtrap.io/article/122-mailtrap-email-sending-smtp-integration).
+Read more about SMTP integration [here](../../documentation/sending/smtp-sending/smtp-integration.md).
 
 ## RESTful API integration
 
@@ -29,6 +35,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any PHP framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<figure><img src="../.gitbook/assets/mailtrap-php-api-integration.png" alt="Mailtrap API integration interface displaying API credentials and PHP code sample using Symfony components for sending emails via RESTful API"><figcaption><p>API Integration for PHP</p></figcaption></figure>
+![Mailtrap API integration interface displaying API credentials and PHP code sample using Symfony components for sending emails via RESTful API](../.gitbook/assets/mailtrap-php-api-integration.png)
 
-Read more about API integration [here](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).
+Read more about API integration [here](../../documentation/sending/api-sending/api-integration.md).

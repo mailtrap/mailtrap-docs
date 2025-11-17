@@ -7,6 +7,8 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 
 # Overview
 
+<i class="fa-robot">:robot:</i>
+
 With the Claude and Mailtrap integration, you can now send emails from Claude AI using the Mailtrap MCP (Model Context Protocol) server. This enables seamless email sending through simple natural language prompts.
 
 ## Prerequisites
@@ -15,7 +17,9 @@ With the Claude and Mailtrap integration, you can now send emails from Claude AI
 - Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 - If you haven't already done so, install the [Claude Desktop app](https://claude.ai/download). But if you have, make sure it's updated and uses the latest version.
 
-## Step 1. Add Mailtrap MCP to Claude
+{% stepper %}
+{% step %}
+## Add Mailtrap MCP to Claude
 
 In Claude settings, go to the Developer tab, click on Edit Config, and open the claude_desktop_config.json file.
 
@@ -44,8 +48,10 @@ Then, in the claude_desktop_config.json copy/paste the following configuration:
 }
 ```
 {% endcode %}
+{% endstep %}
 
-## Step 2. Add Mailtrap API credentials
+{% step %}
+## Add Mailtrap API credentials
 
 Open your Mailtrap account and navigate to Sending Domains → Integration → API.
 
@@ -55,8 +61,10 @@ Once in the Integration/API page, update the following values in your claude_des
 - **DEFAULT_FROM_EMAIL** – Make sure the email's domain matches your own domain from the Sending Domains tab in Mailtrap.
 
 ![Mailtrap account showing sending domain name and API token in the Integration tab](../.gitbook/assets/send-email-with-claude-2.png)
+{% endstep %}
 
-## Step 3. Send emails with a prompt
+{% step %}
+## Send emails with a prompt
 
 Open a new chat and make sure the MCP tool is specified.
 
@@ -81,6 +89,8 @@ Then, it should successfully send a new email and provide you with the propertie
 And here it is in the [Email Logs](https://help.mailtrap.io/article/71-email-logs) tab in the Mailtrap dashboard.
 
 ![Mailtrap Email Logs displaying delivered email with Hi John subject and delivery metadata](../.gitbook/assets/send-email-with-claude-7.png)
+{% endstep %}
+{% endstepper %}
 
 # Next steps
 

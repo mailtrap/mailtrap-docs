@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-flask">:flask:</i>
+
 To integrate Mailtrap and send emails via Phoenix, simply copy/paste the following script into your configuration:
 
 {% code title="Phoenix configuration" %}

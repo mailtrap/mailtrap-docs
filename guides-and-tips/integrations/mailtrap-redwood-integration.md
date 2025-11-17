@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-tree">:tree:</i>
+
 To integrate Mailtrap and send emails via Redwood, simply copy/paste the following script into your configuration:
 
 {% code title="Redwood API handler" %}

@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-fire">:fire:</i>
+
 This guide shows you how to integrate Mailtrap with Hono and send emails using the Email API.
 
 ## Send emails using Hono and Mailtrap

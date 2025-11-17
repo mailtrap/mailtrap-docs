@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-download">:download:</i>
+
 ## Send emails using Wget and Mailtrap
 
 To integrate Mailtrap and send emails via Wget, copy the following script into your terminal:

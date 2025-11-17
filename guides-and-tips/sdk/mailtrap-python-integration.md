@@ -3,6 +3,10 @@ title: Mailtrap Python Integration
 description: Learn how to integrate Mailtrap with Python apps and projects for email sending using SDK, SMTP, and RESTful API.
 ---
 
+# Overview
+
+<i class="fa-python">:python:</i>
+
 Mailtrap can be integrated with Python apps and projects for email sending purposes.
 
 # Email API/SMTP for Python
@@ -15,11 +19,13 @@ You can integrate Mailtrap into your Python project or app using the [official S
 
 To integrate SMTP with your Python app, navigate to the **Integrations** tab, choose the desired Python framework, and copy-paste the credentials or ready-made code snippets.
 
-Note that SMTP integration is compatible with any Python framework or library that sends emails using SMTP.
+{% hint style="info" %}
+SMTP integration is compatible with any Python framework or library that sends emails using SMTP.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/mailtrap-python-smtp-integration.png" alt="Mailtrap SMTP integration settings for Python showing credentials and code samples with Django, Flask-Mail, and Python standard library options"><figcaption><p>SMTP integration for Python</p></figcaption></figure>
+![SMTP integration for Python](/guides-and-tips/.gitbook/assets/mailtrap-python-smtp-integration.png)
 
-Read more about SMTP integration in the [SMTP Integration guide](https://help.mailtrap.io/article/122-mailtrap-email-sending-smtp-integration).
+Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](../../documentation/sending/smtp-sending/smtp-integration.md) article.
 
 ## RESTful API Integration
 
@@ -27,6 +33,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any Python framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<figure><img src="../.gitbook/assets/mailtrap-python-api-integration.png" alt="Mailtrap API integration code sample for Python showing how to send emails using the Mailtrap Python package"><figcaption><p>API integration for Python</p></figcaption></figure>
+![API integration for Python](/guides-and-tips/.gitbook/assets/mailtrap-python-api-integration.png)
 
-Read more about API integration in the [API Integration guide](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).
+Read more about API integration in the [Email API/SMTP - API Integration](../../documentation/sending/api-sending/api-integration.md) article.

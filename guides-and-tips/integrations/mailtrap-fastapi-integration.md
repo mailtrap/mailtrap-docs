@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-python">:python:</i>
+
 This guide shows you how to integrate Mailtrap with FastAPI and send emails using the Email API.
 
 ## Send emails using FastAPI and Mailtrap

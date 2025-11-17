@@ -5,6 +5,8 @@ description: Learn how to configure SAML 2.0 single sign-on (SSO) with Mailtrap 
 
 # Overview
 
+<i class="fa-key">:key:</i>
+
 You can use any Identity Provider that supports the [SAML 2.0](https://en.wikipedia.org/wiki/SAML_2.0) protocol in order to authenticate users via single sign-on (SSO) on Mailtrap.
 
 Mailtrap automatically creates users using just-in-time provisioning when a user logs in with Mailtrap SSO.

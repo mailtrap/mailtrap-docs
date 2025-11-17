@@ -5,25 +5,38 @@ description: Step-by-step guide to configure SAML-based Single Sign-On between J
 
 # Overview
 
+<i class="fa-cloud">:cloud:</i>
+
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between JumpCloud and Mailtrap.
 
 # On JumpCloud Side
 
-## Create SAML Application
+{% stepper %}
+{% step %}
+## Navigate to SSO and Add Application
 
-1. Navigate to **SSO** in JumpCloud
-2. Click the **+** button to add new application
+Navigate to **SSO** in JumpCloud and click the **+** button to add new application.
 
 ![JumpCloud SSO applications page with plus button to add new application highlighted](../.gitbook/assets/setup-sso-with-jumpcloud-1.png)
+{% endstep %}
 
-3. Search for **SAML** and choose **Custom SAML App**
+{% step %}
+## Select Custom SAML App
+
+Search for **SAML** and choose **Custom SAML App**.
 
 ![JumpCloud application search showing Custom SAML App option with configure button](../.gitbook/assets/setup-sso-with-jumpcloud-2.png)
+{% endstep %}
 
-4. Specify the application name and proceed to the **SSO** tab
+{% step %}
+## Name the Application
+
+Specify the application name and proceed to the **SSO** tab.
 
 ![JumpCloud new application general info tab showing display label and description fields](../.gitbook/assets/setup-sso-with-jumpcloud-3.png)
+{% endstep %}
 
+{% step %}
 ## Configure SAML Settings
 
 Provide the following SAML Provider details to JumpCloud from Mailtrap:
@@ -38,25 +51,31 @@ Additional SAML settings:
 - **SAMLSubject NameID** should be `email`
 - **SAMLSubject NameID Format** leave default value
 - **Signature Algorithm** leave default value
+{% endstep %}
 
+{% step %}
 ## Configure User Attributes (Optional)
 
 If you want to use role mapping, specify attributes for role mapping:
 
 ![JumpCloud user attributes configuration showing service provider and JumpCloud attribute name mapping](../.gitbook/assets/setup-sso-with-jumpcloud-5.png)
+{% endstep %}
 
+{% step %}
 ## Activate and Download Certificate
 
-1. Click **Activate**
-2. Click **Save** after successful activation
-3. Download the certificate from the **IDP Certificate Valid** section
+Click **Activate**, then click **Save** after successful activation. Download the certificate from the **IDP Certificate Valid** section.
 
 ![JumpCloud SAML application status showing integration active with certificate download option](../.gitbook/assets/setup-sso-with-jumpcloud-6.png)
+{% endstep %}
+{% endstepper %}
 
 # On Mailtrap Side
 
 After configuration is ready on JumpCloud side, set up the configuration on Mailtrap side.
 
+{% stepper %}
+{% step %}
 ## Configure Identity Provider Details
 
 Provide the following to Mailtrap from JumpCloud:
@@ -66,10 +85,13 @@ Provide the following to Mailtrap from JumpCloud:
 - **X509 Certificate** ← Value from downloaded certificate
 
 ![Split view showing Mailtrap SSO configuration fields mapped from JumpCloud settings](../.gitbook/assets/setup-sso-with-jumpcloud-7.png)
+{% endstep %}
 
+{% step %}
 ## Save Configuration
 
-1. Click **Save** in Mailtrap SSO configuration
-2. (Optional) For role mapping, configure additional settings as described in the [SSO Guide](sso-guide.md#step-5-role-mapping)
+Click **Save** in Mailtrap SSO configuration. For role mapping, configure additional settings as described in the [SSO Guide](sso-guide.md#step-5-role-mapping).
 
 Your SAML configuration is now complete.
+{% endstep %}
+{% endstepper %}

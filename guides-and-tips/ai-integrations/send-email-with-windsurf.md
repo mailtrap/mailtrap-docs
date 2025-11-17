@@ -5,6 +5,8 @@ description: Learn how to integrate Mailtrap with Windsurf to send emails direct
 
 # Overview
 
+<i class="fa-wind">:wind:</i>
+
 With the Windsurf Mailtrap integration, you can send emails directly from Windsurf using the Cascade AI assistant and simple prompts.
 
 Mailtrap is an email-sending solution for developer and product teams focused on fast delivery and high inboxing rates for transactional and promo emails. It provides a highly customizable API and 24/7 technical support.

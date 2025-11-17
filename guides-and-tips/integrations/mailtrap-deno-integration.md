@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-code">:code:</i>
+
 This guide shows you how to integrate Mailtrap with Deno and send emails using the Email API.
 
 ## Send emails using Deno and Mailtrap
