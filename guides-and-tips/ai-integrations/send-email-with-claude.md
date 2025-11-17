@@ -21,7 +21,7 @@ With the Claude and Mailtrap integration, you can now send emails from Claude AI
 
 {% stepper %}
 {% step %}
-#### Add Mailtrap MCP to Claude
+**Add Mailtrap MCP to Claude**
 
 In Claude settings, go to the Developer tab, click on Edit Config, and open the claude\_desktop\_config.json file.
 
@@ -53,7 +53,7 @@ Then, in the claude\_desktop\_config.json copy/paste the following configuration
 {% endstep %}
 
 {% step %}
-#### Add Mailtrap API credentials
+**Add Mailtrap API credentials**
 
 Open your Mailtrap account and navigate to Sending Domains → Integration → API.
 
@@ -62,11 +62,11 @@ Once in the Integration/API page, update the following values in your claude\_de
 * **MAILTRAP\_API\_TOKEN** – Used to authenticate API requests, which you can copy/paste from the credentials tab.
 * **DEFAULT\_FROM\_EMAIL** – Make sure the email's domain matches your own domain from the Sending Domains tab in Mailtrap.
 
-![Mailtrap account showing sending domain name and API token in the Integration tab](../.gitbook/assets/send-email-with-claude-2.png)
+![Mailtrap account showing sending domain name and API token in the Integration tab](<../.gitbook/assets/send-email-with-claude-2 (1).png>)
 {% endstep %}
 
 {% step %}
-#### Send emails with a prompt
+**Send emails with a prompt**
 
 Open a new chat and make sure the MCP tool is specified.
 
