@@ -179,6 +179,7 @@ When creating or editing documentation:
 ## Content guidelines
 
 - Do not use emojis in main content
+- Do not add any content and section if you are not asked to, ask is there is a need a provide a preview before adding it 
 - Use Font Awesome icons for consistency
 -- https://fontawesome.com/search
 -- Representation in Markdown: <i class="fa-github">:github:</i>
