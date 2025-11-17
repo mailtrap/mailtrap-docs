@@ -12,7 +12,7 @@ Email Sandbox is a safe testing environment that captures all your test emails, 
 
 ## What is Email Sandbox?
 
-Email Sandbox acts as a fake SMTP server that traps all emails sent from your application. Instead of delivering to actual recipients, emails are captured in a secure inbox where you can:
+Email Sandbox acts as a **fake SMTP** server that traps all emails sent from your application. Instead of delivering to actual recipients, emails are captured in a secure inbox where you can:
 
 * Preview how emails look across different clients
 * Test email workflows without risk
@@ -22,26 +22,26 @@ Email Sandbox acts as a fake SMTP server that traps all emails sent from your ap
 
 ## Key Features
 
-### 🧪 Safe Testing Environment
+### Safe Testing Environment
 
 * **Zero Risk**: Emails never reach real recipients
 * **Multiple Sandboxes**: Separate environments for different projects
 * **Email Address per Sandbox**: Unique inbound email addresses for each sandbox
 * **Team Collaboration**: Share sandboxes with team members
 
-### 📧 Email Analysis Tools
+### Email Analysis Tools
 
 * **HTML/Text Preview**: See exactly how emails render
 * **Spam Score Analysis**: Predict spam filter behavior
 * **Email Headers**: Inspect all technical details
 * **Attachment Support**: Test file attachments
 
-### 🔍 Advanced Testing
+### Advanced Testing
 
 * **Bounce Emulation**: Test bounce handling
 * **API & SDKs**: Full programmatic access with official SDKs
 
-### 🤝 Collaboration Features
+### Collaboration Features
 
 * **Shared Sandboxes**: Team-wide access
 * **Email Forwarding**: Share specific test cases
@@ -109,25 +109,25 @@ Access your sandbox to preview, test, and share all captured emails (both sent a
 
 {% stepper %}
 {% step %}
-#### Create a Sandbox
+**Create a Sandbox**
 
 Log in and create your first sandbox. Name it based on your project or environment.
 {% endstep %}
 
 {% step %}
-#### Configure Your App
+**Configure Your App**
 
 Update your application's SMTP settings with sandbox credentials.
 {% endstep %}
 
 {% step %}
-#### Send Test Email
+**Send Test Email**
 
 Send a test email from your application to verify the connection.
 {% endstep %}
 
 {% step %}
-#### Analyze Results
+**Analyze Results**
 
 Review the captured email in your sandbox inbox.
 {% endstep %}
@@ -253,7 +253,7 @@ Pre-configured for popular frameworks:
 
 {% columns %}
 {% column %}
-#### Setup Guides
+**Setup Guides**
 
 * [Application Integration](how-to-integrate-email-sandbox-with-your-application.md)
 * [Sandbox API](sandbox-api-integration.md)
@@ -261,7 +261,7 @@ Pre-configured for popular frameworks:
 {% endcolumn %}
 
 {% column %}
-#### Testing Tools
+**Testing Tools**
 
 * [Email Inspector](inspect-your-email-template.md)
 * [HTML Check](html-check.md)

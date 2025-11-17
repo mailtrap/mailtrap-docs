@@ -12,8 +12,9 @@ Lists are static groups of contacts that help you organize your audience for tar
 
 {% hint style="info" %}
 **Lists vs. Segments**
-- **Lists**: Static groups that you manually manage
-- **Segments**: Dynamic groups that update automatically based on criteria
+
+* **Lists**: Static groups that you manually manage
+* **Segments**: Dynamic groups that update automatically based on criteria
 
 Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for criteria-based targeting (e.g., "Active in last 30 days").
 {% endhint %}
@@ -24,19 +25,22 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 
 {% stepper %}
 {% step %}
-## Navigate to Lists
+### Navigate to Lists
+
 Go to **Contacts** → **Lists** in your dashboard.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-lists-create-button.png" alt="Create List button in the Lists interface" width="563"></div>
 {% endstep %}
 
 {% step %}
-## Create New List
+### Create New List
+
 Click **Create List** to open the creation dialog.
 {% endstep %}
 
 {% step %}
-## Name Your List
+### Name Your List
+
 Enter a descriptive name for your list.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-lists-create-form.png" alt="Form to enter new list name" width="375"></div>
@@ -47,7 +51,8 @@ List names must be unique. You cannot create duplicate list names.
 {% endstep %}
 
 {% step %}
-## Save List
+### Save List
+
 Click **Create** to save your new list.
 
 Your list is now ready to receive contacts.
@@ -75,26 +80,29 @@ Access all your lists from **Contacts** → **Lists**:
 {% tabs %}
 {% tab title="View Contacts" %}
 **See all contacts in a list**
-- Click on list name
-- View contact count
-- Filter within list
-- Export list members
+
+* Click on list name
+* View contact count
+* Filter within list
+* Export list members
 {% endtab %}
 
 {% tab title="Rename List" %}
 **Change list name**
-- Click rename icon
-- Enter new name
-- Ensure uniqueness
-- Save changes
+
+* Click rename icon
+* Enter new name
+* Ensure uniqueness
+* Save changes
 {% endtab %}
 
 {% tab title="Delete List" %}
 **Remove list permanently**
-- Click delete icon
-- Confirm deletion
-- Contacts remain in database
-- Only list association removed
+
+* Click delete icon
+* Confirm deletion
+* Contacts remain in database
+* Only list association removed
 
 {% hint style="info" %}
 Deleting a list doesn't delete the contacts, only their association with that list.
@@ -103,10 +111,11 @@ Deleting a list doesn't delete the contacts, only their association with that li
 
 {% tab title="Merge Lists" %}
 **Combine multiple lists**
-- Select source lists
-- Choose destination
-- Remove duplicates
-- Preserve all contacts
+
+* Select source lists
+* Choose destination
+* Remove duplicates
+* Preserve all contacts
 {% endtab %}
 {% endtabs %}
 
@@ -117,13 +126,15 @@ Deleting a list doesn't delete the contacts, only their association with that li
 {% tabs %}
 {% tab title="During Import" %}
 Add contacts to lists while uploading CSV files:
-- Select existing lists
-- Create new lists on the fly
-- Add to multiple lists at once
+
+* Select existing lists
+* Create new lists on the fly
+* Add to multiple lists at once
 {% endtab %}
 
 {% tab title="Individual Add" %}
 Add single contacts from contact details:
+
 1. Open contact profile
 2. Click "Add to Lists"
 3. Select target lists
@@ -132,6 +143,7 @@ Add single contacts from contact details:
 
 {% tab title="Bulk Add" %}
 Add multiple contacts at once:
+
 1. Select contacts in grid
 2. Choose "Add to Lists"
 3. Pick destination lists
@@ -140,6 +152,7 @@ Add multiple contacts at once:
 
 {% tab title="API Integration" %}
 Programmatically add contacts:
+
 ```javascript
 {
   "email": "user@example.com",
@@ -153,58 +166,11 @@ Programmatically add contacts:
 
 ### Strategic List Categories
 
-{% expand title="Engagement-Based Lists" %}
-**Organize by interaction level:**
-- Active Subscribers (opened in 30 days)
-- Inactive Users (no opens in 90 days)
-- VIP Customers (high engagement)
-- New Subscribers (joined this month)
-- Re-engagement Targets
-{% endexpand %}
-
-{% expand title="Source-Based Lists" %}
-**Track contact origin:**
-- Website Signups
-- Event Attendees
-- Webinar Registrants
-- Trade Show Leads
-- Partner Referrals
-- Social Media Followers
-{% endexpand %}
-
-{% expand title="Lifecycle Stage Lists" %}
-**Customer journey tracking:**
-- Prospects
-- Leads
-- Trial Users
-- Paying Customers
-- Churned Customers
-- Win-back Targets
-{% endexpand %}
-
-{% expand title="Geographic Lists" %}
-**Location-based organization:**
-- North America
-- Europe/EMEA
-- Asia-Pacific
-- Country-specific
-- City/Region targeting
-- Timezone groups
-{% endexpand %}
-
-{% expand title="Product/Interest Lists" %}
-**Preference-based groups:**
-- Product A Users
-- Feature Beta Testers
-- Industry Segments
-- Content Preferences
-- Purchase History
-{% endexpand %}
-
 ## List Best Practices
 
 {% hint style="success" %}
 **Effective List Management**
+
 1. **Naming Convention**: Use clear, consistent names (e.g., "2024-Q1-Newsletter")
 2. **Regular Maintenance**: Review and clean lists quarterly
 3. **Documentation**: Note list purpose and criteria
@@ -218,20 +184,23 @@ Programmatically add contacts:
 
 {% stepper %}
 {% step %}
-## Create Onboarding Lists
-- Day 1 Welcome
-- Day 3 Follow-up
-- Week 1 Check-in
-- Day 30 Milestone
+### Create Onboarding Lists
+
+* Day 1 Welcome
+* Day 3 Follow-up
+* Week 1 Check-in
+* Day 30 Milestone
 {% endstep %}
 
 {% step %}
-## Automate Movement
+### Automate Movement
+
 Use API or integrations to move contacts through lists based on timeline.
 {% endstep %}
 
 {% step %}
-## Track Progress
+### Track Progress
+
 Monitor engagement at each stage to optimize onboarding.
 {% endstep %}
 {% endstepper %}
@@ -252,11 +221,12 @@ Main List: Newsletter Subscribers (10,000)
 ### Suppression Lists
 
 Create lists for contacts to exclude:
-- Competitors
-- Internal emails
-- Bounced addresses
-- Complaint/spam reporters
-- Do not contact
+
+* Competitors
+* Internal emails
+* Bounced addresses
+* Complaint/spam reporters
+* Do not contact
 
 ## List Performance Metrics
 
@@ -265,33 +235,41 @@ Create lists for contacts to exclude:
 {% tabs %}
 {% tab title="Growth Rate" %}
 **Track list expansion**
+
 ```
 Monthly Growth = (New - Removed) / Total × 100
 ```
+
 Healthy growth: 2-5% monthly
 {% endtab %}
 
 {% tab title="Engagement Score" %}
 **Measure list quality**
+
 ```
 Engagement = (Opens + Clicks) / Sent × 100
 ```
+
 Good engagement: >25% open rate
 {% endtab %}
 
 {% tab title="Churn Rate" %}
 **Monitor list health**
+
 ```
 Churn = Unsubscribes / Total × 100
 ```
+
 Acceptable churn: <2% per campaign
 {% endtab %}
 
 {% tab title="List Overlap" %}
 **Identify redundancy**
+
 ```
 Overlap = Shared Contacts / Smaller List × 100
 ```
+
 Consider merging if >70% overlap
 {% endtab %}
 {% endtabs %}
@@ -333,9 +311,10 @@ List: "Premium Customers"
 
 {% hint style="info" %}
 **Technical Specifications**
-- **Lists per account**: Unlimited
-- **Contacts per list**: No hard limit (recommend <50,000)
-- **List name length**: 100 characters
-- **Bulk operations**: 1,000 contacts at once
-- **API rate limits**: 100 requests/minute
+
+* **Lists per account**: Unlimited
+* **Contacts per list**: No hard limit (recommend <50,000)
+* **List name length**: 100 characters
+* **Bulk operations**: 1,000 contacts at once
+* **API rate limits**: 100 requests/minute
 {% endhint %}

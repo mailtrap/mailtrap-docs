@@ -11,8 +11,8 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 ## Before You Begin
 
 {% hint style="warning" %}
-**Preparation Checklist**
-Before uploading contacts, ensure you have:
+**Preparation Checklist** Before uploading contacts, ensure you have:
+
 1. Created all necessary custom fields
 2. Cleaned your contact list (removed duplicates, invalid emails)
 3. Obtained explicit consent from all recipients
@@ -24,53 +24,62 @@ Before uploading contacts, ensure you have:
 {% tabs %}
 {% tab title="CSV Upload" %}
 **Best for:**
-- One-time migrations
-- Periodic bulk updates
-- Offline contact management
+
+* One-time migrations
+* Periodic bulk updates
+* Offline contact management
 
 **Pros:**
-- Simple and straightforward
-- No technical knowledge required
-- Visual field mapping
+
+* Simple and straightforward
+* No technical knowledge required
+* Visual field mapping
 
 **File requirements:**
-- UTF-8 encoding
-- Comma-separated values
-- Header row with field names
+
+* UTF-8 encoding
+* Comma-separated values
+* Header row with field names
 {% endtab %}
 
 {% tab title="API Integration" %}
 **Best for:**
-- Real-time synchronization
-- Automated workflows
-- Dynamic contact updates
+
+* Real-time synchronization
+* Automated workflows
+* Dynamic contact updates
 
 **Pros:**
-- Automatic updates
-- No manual intervention
-- Programmatic control
+
+* Automatic updates
+* No manual intervention
+* Programmatic control
 
 **Requirements:**
-- API key
-- Development resources
-- Integration setup
+
+* API key
+* Development resources
+* Integration setup
 {% endtab %}
 
 {% tab title="Third-party Tools" %}
 **Best for:**
-- Connecting existing tools
-- No-code automation
-- Multi-platform workflows
+
+* Connecting existing tools
+* No-code automation
+* Multi-platform workflows
 
 **Available integrations:**
-- Zapier
-- Make.com
-- n8n
+
+* Zapier
+* Make.com
+* n8n
 
 **Setup:**
-- Connect accounts
-- Configure triggers
-- Map fields
+
+* Connect accounts
+* Configure triggers
+* Map fields
 {% endtab %}
 {% endtabs %}
 
@@ -78,9 +87,10 @@ Before uploading contacts, ensure you have:
 
 {% stepper %}
 {% step %}
-## Prepare Your CSV File
+### Prepare Your CSV File
 
-### Download the Template
+#### Download the Template
+
 Navigate to **Contacts** and click **Import Contacts**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-import-button.png" alt="Import Contacts button in the contacts interface" width="563"></div>
@@ -89,11 +99,13 @@ Download our CSV template by clicking **Download CSV Template**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-download-template.png" alt="Download CSV Template button for importing contacts" width="563"></div>
 
-### Format Your Data
+#### Format Your Data
+
 Structure your CSV with:
-- **Email column** (required)
-- **Custom field columns** matching your created fields
-- **One contact per row**
+
+* **Email column** (required)
+* **Custom field columns** matching your created fields
+* **One contact per row**
 
 {% code title="contacts.csv" %}
 ```csv
@@ -105,7 +117,7 @@ jane@example.com,Jane,Smith,Tech Inc,2024-01-20
 {% endstep %}
 
 {% step %}
-## Upload Your File
+### Upload Your File
 
 Click **Browse files** or drag and drop your CSV file into the upload area.
 
@@ -117,12 +129,13 @@ Click **Import File** to proceed.
 {% endstep %}
 
 {% step %}
-## Map Your Fields
+### Map Your Fields
 
 Assign CSV columns to your Mailtrap fields:
-- Match column headers to custom fields
-- Preview data mapping
-- Verify field assignments
+
+* Match column headers to custom fields
+* Preview data mapping
+* Verify field assignments
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-field-mapping.png" alt="Field mapping interface to assign CSV columns to contact fields" width="563"></div>
 
@@ -130,52 +143,53 @@ Click **Confirm Mapping** when ready.
 
 {% hint style="info" %}
 **Mapping Tips**
-- Field names are case-insensitive
-- Unmapped columns will be ignored
-- Email field is automatically mapped if column is named "email"
+
+* Field names are case-insensitive
+* Unmapped columns will be ignored
+* Email field is automatically mapped if column is named "email"
 {% endhint %}
 {% endstep %}
 
 {% step %}
-## Assign to Lists
+### Assign to Lists
 
 Choose which lists should include these contacts:
 
-### Add to Existing Lists
+#### Add to Existing Lists
+
 Select one or more lists from the dropdown and click **Continue**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-add-to-list.png" alt="Interface to add contacts to existing lists" width="563"></div>
 
-### Create New List
+#### Create New List
+
 Click **Create New List**, enter a name, and click **Create**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-create-new-list.png" alt="Form to create a new contact list" width="375"></div>
 
 {% hint style="success" %}
-**Multiple Lists**
-You can add contacts to multiple lists simultaneously for better segmentation.
+**Multiple Lists** You can add contacts to multiple lists simultaneously for better segmentation.
 {% endhint %}
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-multiple-lists.png" alt="Interface showing contacts being added to multiple lists" width="563"></div>
 {% endstep %}
 
 {% step %}
-## Confirm Consent
+### Confirm Consent
 
 Check the consent verification box to confirm you have permission to email these contacts.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-confirm-consent.png" alt="Consent confirmation checkbox before importing contacts" width="563"></div>
 
 {% hint style="danger" %}
-**Legal Requirement**
-You cannot proceed without confirming consent. Ensure you have explicit permission from all contacts before importing.
+**Legal Requirement** You cannot proceed without confirming consent. Ensure you have explicit permission from all contacts before importing.
 {% endhint %}
 
 Click **Confirm Import** to complete the process.
 {% endstep %}
 
 {% step %}
-## Import Confirmation
+### Import Confirmation
 
 You'll receive a success notification once the import is complete.
 
@@ -266,22 +280,26 @@ For complete API documentation, see [Contacts API Reference](../../../api-docs/c
 
 {% stepper %}
 {% step %}
-## Connect Mailtrap
+### Connect Mailtrap
+
 Add Mailtrap as an action in your Zap.
 {% endstep %}
 
 {% step %}
-## Configure Trigger
+### Configure Trigger
+
 Set up your trigger app (CRM, form, spreadsheet).
 {% endstep %}
 
 {% step %}
-## Map Fields
+### Map Fields
+
 Match trigger data to Mailtrap contact fields.
 {% endstep %}
 
 {% step %}
-## Test & Activate
+### Test & Activate
+
 Run a test and activate your Zap.
 {% endstep %}
 {% endstepper %}
@@ -313,6 +331,7 @@ Create automated workflows that sync contacts from multiple sources:
 
 {% hint style="success" %}
 **Data Quality Guidelines**
+
 1. **Validate emails**: Remove invalid or malformed addresses
 2. **Remove duplicates**: Clean your list before importing
 3. **Standardize formats**: Use consistent date and text formats
@@ -322,29 +341,13 @@ Create automated workflows that sync contacts from multiple sources:
 
 ## Handling Import Errors
 
-{% expand title="Common Import Issues" %}
-### Invalid File Format
-- Ensure CSV is UTF-8 encoded
-- Check for special characters
-- Verify comma separation
-
-### Field Mapping Errors
-- Field names must match exactly
-- Check for extra spaces
-- Verify field types match data
-
-### Duplicate Contacts
-- Existing emails will be updated
-- New fields will be added
-- List assignments will be merged
-{% endexpand %}
-
 ## Import Limits
 
 {% hint style="info" %}
 **Upload Specifications**
-- **File size**: Up to 10MB per CSV
-- **Contacts per import**: Up to 50,000
-- **Import frequency**: No limit
-- **Processing time**: 1-5 minutes for large files
+
+* **File size**: Up to 10MB per CSV
+* **Contacts per import**: Up to 50,000
+* **Import frequency**: No limit
+* **Processing time**: 1-5 minutes for large files
 {% endhint %}

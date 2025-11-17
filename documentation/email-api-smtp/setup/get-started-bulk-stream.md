@@ -85,7 +85,7 @@ await bulkClient.send({
 
 {% stepper %}
 {% step %}
-### Verify Your Sending Domain
+#### Verify Your Sending Domain
 
 To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -99,9 +99,9 @@ Check our [Sending Domain Setup Guide](../sending-domain-setup.md) for detailed 
 {% endstep %}
 
 {% step %}
-### Integrate Your Application
+#### Integrate Your Application
 
-#### For SMTP Integration
+**For SMTP Integration**
 
 To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 
@@ -113,7 +113,7 @@ To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 
 See our [SMTP Integration Guide](../smtp-integration.md) for detailed setup instructions.
 
-#### For API Integration
+**For API Integration**
 
 To send via Bulk Stream API, use the bulk endpoint:
 
@@ -263,7 +263,7 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 
 ## Related Resources
 
-* [**📚 Email Deliverability Guide**](broken-reference) - Essential reading for bulk senders
+* [**📚 Email Deliverability Guide**](broken-reference/) - Essential reading for bulk senders
 * [Sending Domain Setup](../sending-domain-setup.md)
 * [Email Templates](../email-templates/)
 * [Suppressions List](../suppressions-list.md)

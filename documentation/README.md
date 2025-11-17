@@ -12,7 +12,7 @@ Build, test, and send emails with confidence using Mailtrap's comprehensive emai
 
 {% columns %}
 {% column %}
-### Get Started in 5 Minutes
+#### Get Started in 5 Minutes
 
 Setting up Mailtrap should be the easiest part of your email journey. With clear endpoints, copy-paste-ready examples, and instant authentication, you'll send your first email in minutes—not hours.
 
@@ -54,7 +54,7 @@ Discover the full range of features and capabilities across our email platform.
 
 {% columns %}
 {% column width="33%" %}
-#### Email API/SMTP
+**Email API/SMTP**
 
 * [Send emails via API](email-api-smtp/send-emails-via-api.md)
 * [SMTP integration](email-api-smtp/smtp-integration.md)
@@ -64,7 +64,7 @@ Discover the full range of features and capabilities across our email platform.
 {% endcolumn %}
 
 {% column width="33%" %}
-#### Email Sandbox
+**Email Sandbox**
 
 * [Email testing](email-sandbox/email-testing.md)
 * [HTML preview](email-sandbox/html-preview.md)
@@ -74,7 +74,7 @@ Discover the full range of features and capabilities across our email platform.
 {% endcolumn %}
 
 {% column width="33%" %}
-#### Email Marketing
+**Email Marketing**
 
 * [Campaign builder](email-marketing/campaigns.md)
 * [Contact management](email-marketing/contacts.md)
@@ -94,7 +94,7 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 
 {% columns %}
 {% column %}
-#### Documentation
+**Documentation**
 
 * [API Reference](https://api-docs.mailtrap.io/)
 * [Email API/SMTP Features](email-api-smtp/)
@@ -105,7 +105,7 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 {% endcolumn %}
 
 {% column %}
-#### Support & Community
+**Support & Community**
 
 * [FAQs](faqs/)
 * [Troubleshooting](troubleshooting/)
@@ -122,4 +122,4 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 **New to Mailtrap?** Start with our [Email Sandbox](getting-started/email-sandbox.md) to test your emails in a safe environment, then move to [Email API/SMTP](getting-started/email-api-smtp.md) for production sending.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>🚀 Start Free Trial</strong></td><td>Get started with Mailtrap's free plan. No credit card required. Test emails, send to 100 contacts, and explore all features.</td><td><a href="https://mailtrap.io/signup">Sign up free</a></td><td></td></tr><tr><td><strong>💬 Talk to Sales</strong></td><td>Need a custom plan or have enterprise requirements? Our team is ready to help you find the perfect solution.</td><td><a href="https://mailtrap.io/contact-sales">Contact sales</a></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>🚀 Start with a Free plan</strong></td><td>Get started with Mailtrap's free plan. No credit card required. Test emails, send to 100 contacts, and explore all features.</td><td><a href="https://mailtrap.io/signup">Sign up free</a></td><td></td></tr><tr><td><strong>💬 Talk to Sales</strong></td><td>Need a custom plan or have enterprise requirements? Our team is ready to help you find the perfect solution.</td><td><a href="https://mailtrap.io/contact-sales">Contact sales</a></td><td></td></tr></tbody></table>

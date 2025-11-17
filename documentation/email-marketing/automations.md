@@ -21,9 +21,10 @@ Use [Integrations](https://mailtrap.io/integrations) to add contacts into Mailtr
 **Greet new contacts, set expectations, and share first-week tips**
 
 How to set it up:
-- Trigger: Contact created
-- Add Send email steps with Time delays
-- Optionally: Conditional split by plan or locale
+
+* Trigger: Contact created
+* Add Send email steps with Time delays
+* Optionally: Conditional split by plan or locale
 
 Perfect for onboarding new subscribers and making a great first impression.
 {% endtab %}
@@ -32,9 +33,10 @@ Perfect for onboarding new subscribers and making a great first impression.
 **Nudge users when a field changes (e.g., trial started, role/plan updated)**
 
 How to set it up:
-- Trigger: Contact field updated
-- Send email with next steps
-- Add to list "Onboarding" for later messages
+
+* Trigger: Contact field updated
+* Send email with next steps
+* Add to list "Onboarding" for later messages
 
 Ideal for guiding users through product adoption milestones.
 {% endtab %}
@@ -43,9 +45,10 @@ Ideal for guiding users through product adoption milestones.
 **Deliver targeted content as people enter key lists**
 
 How to set it up:
-- Trigger: Contact added to list (or removed from list)
-- Send email
-- Add/Remove from lists to manage follow-ups
+
+* Trigger: Contact added to list (or removed from list)
+* Send email
+* Add/Remove from lists to manage follow-ups
 
 Great for webinar registrants, new customers, or list cleanup workflows.
 {% endtab %}
@@ -54,9 +57,10 @@ Great for webinar registrants, new customers, or list cleanup workflows.
 **React to product or billing events**
 
 How to set it up:
-- Trigger: API event received
-- Send email
-- Optionally: Update contact field and Conditional split based on event data
+
+* Trigger: API event received
+* Send email
+* Optionally: Update contact field and Conditional split based on event data
 
 Excellent for purchase confirmations, payment failures, or milestone celebrations.
 {% endtab %}
@@ -70,11 +74,11 @@ Excellent for purchase confirmations, payment failures, or milestone celebration
 {% tab title="Triggers" %}
 **Entry points for your automation**
 
-- **Contact created** - Starts when a new contact is added
-- **Contact field updated** - Fires when specific field changes
-- **Contact added to list** - Activates on list addition
-- **Contact removed from list** - Triggers on list removal
-- **Contact custom event** - API event received
+* **Contact created** - Starts when a new contact is added
+* **Contact field updated** - Fires when specific field changes
+* **Contact added to list** - Activates on list addition
+* **Contact removed from list** - Triggers on list removal
+* **Contact custom event** - API event received
 
 {% hint style="info" %}
 Each contact can only enter the same automation once every 24 hours.
@@ -84,18 +88,18 @@ Each contact can only enter the same automation once every 24 hours.
 {% tab title="Actions" %}
 **Operations to perform on contacts**
 
-- **Send email** - Deliver personalized messages
-- **Update Contact Field** - Modify contact properties
-- **Unsubscribe Contact** - Remove from all marketing
-- **Add to List(s)** - Assign to one or more lists
-- **Remove from List(s)** - Remove from specific lists
+* **Send email** - Deliver personalized messages
+* **Update Contact Field** - Modify contact properties
+* **Unsubscribe Contact** - Remove from all marketing
+* **Add to List(s)** - Assign to one or more lists
+* **Remove from List(s)** - Remove from specific lists
 {% endtab %}
 
 {% tab title="Rules" %}
 **Control flow and timing**
 
-- **Time delay** - Wait before next step
-- **Conditional Split** - Branch based on criteria
+* **Time delay** - Wait before next step
+* **Conditional Split** - Branch based on criteria
 {% endtab %}
 {% endtabs %}
 
@@ -128,11 +132,12 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 
 {% hint style="info" %}
 **Automation Limits**
-- Limited number of automation runs based on your plan
-- Each contact can go through the same automation once in 24 hours
-- Check your limits in [Billing Dashboard](https://mailtrap.io/billing/dashboard)
-- Look for "Automations run count"
-- Feature is currently included in your plans (may change later)
+
+* Limited number of automation runs based on your plan
+* Each contact can go through the same automation once in 24 hours
+* Check your limits in [Billing Dashboard](https://mailtrap.io/billing/dashboard)
+* Look for "Automations run count"
+* Feature is currently included in your plans (may change later)
 {% endhint %}
 
 <div align="left"><img src="../.gitbook/assets/marketing-automation-runs-limit.png" alt="Billing dashboard showing automation runs limit counter" width="563"></div>
@@ -143,7 +148,7 @@ To get started, navigate to the tab in your Mailtrap account or go to [https://m
 
 {% stepper %}
 {% step %}
-## Create New Automation
+### Create New Automation
 
 Define the name for your automation.
 
@@ -153,7 +158,7 @@ Choose a descriptive name that indicates the automation's purpose.
 {% endstep %}
 
 {% step %}
-## Set Up Entry Trigger
+### Set Up Entry Trigger
 
 Select when the automation should start.
 
@@ -169,7 +174,7 @@ Now that you've set up the trigger, you can start adding steps to your automatio
 
 {% stepper %}
 {% step %}
-## Add an Action
+### Add an Action
 
 Click the "Add Step" button to add your first action.
 
@@ -181,7 +186,7 @@ Select "Send Email" as your first action.
 {% endstep %}
 
 {% step %}
-## Configure the Email
+### Configure the Email
 
 Set up your email content and settings.
 
@@ -197,7 +202,7 @@ To create a more sophisticated sequence, you can add time delays and further act
 
 {% stepper %}
 {% step %}
-## Add a Time Delay
+### Add a Time Delay
 
 Insert waiting periods between actions.
 
@@ -207,7 +212,7 @@ Configure the delay duration (minutes, hours, days, or weeks).
 {% endstep %}
 
 {% step %}
-## Add Another Email
+### Add Another Email
 
 Continue building your sequence with additional messages or actions.
 
@@ -225,10 +230,11 @@ Once you've built your automation sequence, it's time to activate it.
 
 {% hint style="success" %}
 **Before Activating**
-- Test with a small group first
-- Review all email content
-- Verify trigger conditions
-- Check time delays
+
+* Test with a small group first
+* Review all email content
+* Verify trigger conditions
+* Check time delays
 {% endhint %}
 
 ### Pausing and Disabling
@@ -240,17 +246,19 @@ You can pause or disable your automation at any time.
 {% tabs %}
 {% tab title="Pause Automation" %}
 **Temporary suspension**
-- No new contacts can enter automation
-- Contacts currently in automation continue the flow
-- Use when making minor adjustments
+
+* No new contacts can enter automation
+* Contacts currently in automation continue the flow
+* Use when making minor adjustments
 {% endtab %}
 
 {% tab title="Disable Automation" %}
 **Complete shutdown**
-- No new contacts can enter automation
-- All contacts currently in automation will complete their current step
-- Then removed from the flow
-- Use for major changes or discontinuation
+
+* No new contacts can enter automation
+* All contacts currently in automation will complete their current step
+* Then removed from the flow
+* Use for major changes or discontinuation
 {% endtab %}
 {% endtabs %}
 
@@ -263,16 +271,17 @@ You can track the performance of your automation by clicking on the Reports tab 
 ### Available Metrics
 
 **Engagement Metrics**
-- Open rate per email
-- Click rate per email
-- Number of step completions
-- Delivery rate
 
+* Open rate per email
+* Click rate per email
+* Number of step completions
+* Delivery rate
 
 ## Best Practices
 
 {% hint style="success" %}
 **Automation Tips**
+
 1. **Start Simple**: Begin with basic welcome series before complex flows
 2. **Test Thoroughly**: Use test contacts before going live
 3. **Monitor Performance**: Check reports weekly for optimization opportunities
@@ -298,11 +307,11 @@ A multi-step onboarding sequence for new contacts:
 {% endtab %}
 
 {% tab title="Implementation Tips" %}
-- Personalize with first name and signup source
-- Include clear CTAs in each email
-- Track engagement for segmentation
-- Consider time zones for optimal delivery
-- Test subject lines for best open rates
+* Personalize with first name and signup source
+* Include clear CTAs in each email
+* Track engagement for segmentation
+* Consider time zones for optimal delivery
+* Test subject lines for best open rates
 {% endtab %}
 {% endtabs %}
 
@@ -321,11 +330,11 @@ Win back inactive subscribers with targeted messaging:
 {% endtab %}
 
 {% tab title="Best Practices" %}
-- Use compelling subject lines ("We miss you!")
-- Offer exclusive incentives
-- Show what they're missing
-- Make unsubscribe easy
-- Clean list after campaign
+* Use compelling subject lines ("We miss you!")
+* Offer exclusive incentives
+* Show what they're missing
+* Make unsubscribe easy
+* Clean list after campaign
 {% endtab %}
 {% endtabs %}
 
@@ -333,9 +342,7 @@ Win back inactive subscribers with targeted messaging:
 
 Maximize customer value after purchase:
 
-{% tabs %}
-{% tab title="Flow Overview" %}
-1. **Trigger**: API event "purchase_completed"
+1. **Trigger**: API event "purchase\_completed"
 2. **Email 1**: Order confirmation
 3. **Delay**: 1 hour
 4. **Email 2**: Thank you + getting started
@@ -343,5 +350,4 @@ Maximize customer value after purchase:
 6. **Email 3**: Tips and tricks
 7. **Delay**: 7 days
 8. **Email 4**: Review request
-9. **Action**: Update field "customer_status" to "active"
-{% endtab %}
+9. **Action**: Update field "customer\_status" to "active"

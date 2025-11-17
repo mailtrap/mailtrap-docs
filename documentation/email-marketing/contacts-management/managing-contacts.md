@@ -19,9 +19,10 @@ Navigate to **Contacts** → **All contacts** to access your complete contact da
 ### Quick Search
 
 Use the search bar to quickly find contacts by:
-- Email address
-- Name (if custom field exists)
-- Any custom field value
+
+* Email address
+* Name (if custom field exists)
+* Any custom field value
 
 ### Advanced Filtering
 
@@ -29,25 +30,30 @@ Build complex filters using multiple criteria:
 
 {% stepper %}
 {% step %}
-## Select Filter Type
+### Select Filter Type
+
 Choose from:
-- Subscription Status
-- Email
-- Lists
-- Custom Fields
+
+* Subscription Status
+* Email
+* Lists
+* Custom Fields
 {% endstep %}
 
 {% step %}
-## Set Conditions
+### Set Conditions
+
 Define your filter logic:
-- **Is** / **Is not**
-- **Contains** / **Does not contain**
-- **Greater than** / **Less than** (for numbers)
-- **Before** / **After** (for dates)
+
+* **Is** / **Is not**
+* **Contains** / **Does not contain**
+* **Greater than** / **Less than** (for numbers)
+* **Before** / **After** (for dates)
 {% endstep %}
 
 {% step %}
-## Apply Filter
+### Apply Filter
+
 Click **Search** to view filtered results.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-filter-search.png" alt="Contact filtering interface with subscription status filter" width="563"></div>
@@ -61,6 +67,7 @@ Click **Search** to view filtered results.
 ```
 Subscription Status → Is → Subscribed
 ```
+
 Find all contacts who can receive campaigns.
 {% endtab %}
 
@@ -69,6 +76,7 @@ Find all contacts who can receive campaigns.
 Signup Date → After → [Last 30 days]
 AND Subscription Status → Is → Subscribed
 ```
+
 Identify new subscribers for welcome campaigns.
 {% endtab %}
 
@@ -77,6 +85,7 @@ Identify new subscribers for welcome campaigns.
 Customer Tier → Is → VIP
 OR Total Purchases → Greater than → 1000
 ```
+
 Target high-value customers.
 {% endtab %}
 
@@ -85,6 +94,7 @@ Target high-value customers.
 Last Activity → Before → [90 days ago]
 AND Subscription Status → Is → Subscribed
 ```
+
 Re-engage dormant subscribers.
 {% endtab %}
 {% endtabs %}
@@ -100,10 +110,11 @@ Click on any contact to view their details and perform individual actions:
 {% tabs %}
 {% tab title="Edit Details" %}
 **Update contact information**
-- Modify custom field values
-- Update email address
-- Change list assignments
-- Add notes or tags
+
+* Modify custom field values
+* Update email address
+* Change list assignments
+* Add notes or tags
 
 {% hint style="info" %}
 Changes are saved automatically and reflected immediately in campaigns.
@@ -112,18 +123,20 @@ Changes are saved automatically and reflected immediately in campaigns.
 
 {% tab title="Manage Lists" %}
 **Add or remove from lists**
-- Add to multiple lists
-- Remove from specific lists
-- View all assigned lists
-- Check list membership history
+
+* Add to multiple lists
+* Remove from specific lists
+* View all assigned lists
+* Check list membership history
 {% endtab %}
 
 {% tab title="Unsubscribe" %}
 **Remove from all marketing**
-- Marks contact as unsubscribed
-- Removes from all active campaigns
-- Preserves contact data
-- Cannot be reversed manually
+
+* Marks contact as unsubscribed
+* Removes from all active campaigns
+* Preserves contact data
+* Cannot be reversed manually
 
 {% hint style="warning" %}
 Unsubscribed contacts must re-subscribe themselves to receive emails again.
@@ -132,10 +145,11 @@ Unsubscribed contacts must re-subscribe themselves to receive emails again.
 
 {% tab title="Delete" %}
 **Permanently remove contact**
-- Deletes all contact data
-- Removes from all lists
-- Cannot be undone
-- Frees up contact quota
+
+* Deletes all contact data
+* Removes from all lists
+* Cannot be undone
+* Frees up contact quota
 
 {% hint style="danger" %}
 Deletion is permanent. Export contact data before deleting if needed.
@@ -151,9 +165,10 @@ Perform actions on multiple contacts simultaneously for efficient management.
 
 {% hint style="info" %}
 **Selection Methods**
-- Click checkboxes for individual contacts
-- Use "Select All" for current page
-- Apply filters first to target specific groups
+
+* Click checkboxes for individual contacts
+* Use "Select All" for current page
+* Apply filters first to target specific groups
 {% endhint %}
 
 ### Bulk Actions Available
@@ -162,21 +177,24 @@ Perform actions on multiple contacts simultaneously for efficient management.
 
 {% stepper %}
 {% step %}
-## Select Contacts
+### Select Contacts
+
 Check the contacts you want to add to lists.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-bulk-add-to-lists.png" alt="Bulk action to add selected contacts to lists" width="563"></div>
 {% endstep %}
 
 {% step %}
-## Choose Lists
+### Choose Lists
+
 Select one or more destination lists.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-select-lists.png" alt="List selection dialog for adding contacts" width="375"></div>
 {% endstep %}
 
 {% step %}
-## Confirm Action
+### Confirm Action
+
 Click **Add To Lists** to complete the operation.
 {% endstep %}
 {% endstepper %}
@@ -185,7 +203,8 @@ Click **Add To Lists** to complete the operation.
 
 {% stepper %}
 {% step %}
-## Select Contacts
+### Select Contacts
+
 Mark contacts to remove from lists.
 
 Click **More Actions** → **Remove from lists**.
@@ -194,14 +213,16 @@ Click **More Actions** → **Remove from lists**.
 {% endstep %}
 
 {% step %}
-## Choose Lists
+### Choose Lists
+
 Select which lists to remove contacts from.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-remove-from-lists.png" alt="List selection dialog for removing contacts" width="375"></div>
 {% endstep %}
 
 {% step %}
-## Confirm Removal
+### Confirm Removal
+
 Click **Remove** to process the action.
 {% endstep %}
 {% endstepper %}
@@ -210,7 +231,8 @@ Click **Remove** to process the action.
 
 {% stepper %}
 {% step %}
-## Select Contacts
+### Select Contacts
+
 Choose contacts to unsubscribe.
 
 Click **More Actions** → **Unsubscribe**.
@@ -219,14 +241,16 @@ Click **More Actions** → **Unsubscribe**.
 {% endstep %}
 
 {% step %}
-## Confirm Action
+### Confirm Action
+
 Type 'unsubscribe' to confirm.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-unsubscribe-confirm.png" alt="Confirmation dialog to unsubscribe contacts" width="375"></div>
 {% endstep %}
 
 {% step %}
-## Process Unsubscribe
+### Process Unsubscribe
+
 Click **Unsubscribe** to complete.
 
 {% hint style="warning" %}
@@ -239,7 +263,8 @@ This action cannot be undone. Contacts must re-subscribe themselves.
 
 {% stepper %}
 {% step %}
-## Select for Export
+### Select for Export
+
 Choose contacts to export.
 
 Click **More Actions** → **Export**.
@@ -248,14 +273,16 @@ Click **More Actions** → **Export**.
 {% endstep %}
 
 {% step %}
-## Confirm Export
+### Confirm Export
+
 Click **Confirm Export**.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-export-confirm.png" alt="Confirmation dialog to export contacts" width="375"></div>
 {% endstep %}
 
 {% step %}
-## Download File
+### Download File
+
 Check your email for the download link.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-export-email.png" alt="Email notification with download link for exported contacts" width="563"></div>
@@ -270,7 +297,8 @@ Export includes all contact fields and list memberships.
 
 {% stepper %}
 {% step %}
-## Select for Deletion
+### Select for Deletion
+
 Choose contacts to delete.
 
 Click **More Actions** → **Delete**.
@@ -279,14 +307,16 @@ Click **More Actions** → **Delete**.
 {% endstep %}
 
 {% step %}
-## Confirm Deletion
+### Confirm Deletion
+
 Type 'delete' to confirm.
 
 <div align="left"><img src="../../.gitbook/assets/marketing-contacts-delete-confirm.png" alt="Confirmation dialog to delete contacts with warning" width="375"></div>
 {% endstep %}
 
 {% step %}
-## Process Deletion
+### Process Deletion
+
 Click **Delete** to permanently remove contacts.
 
 {% hint style="danger" %}
@@ -302,34 +332,38 @@ This action cannot be undone. All contact data will be permanently deleted.
 {% tabs %}
 {% tab title="Subscribed" %}
 **Active and engaged**
-- Can receive marketing emails
-- Counted in campaign recipients
-- Full access to all features
-- Default status for new imports
+
+* Can receive marketing emails
+* Counted in campaign recipients
+* Full access to all features
+* Default status for new imports
 {% endtab %}
 
 {% tab title="Unsubscribed" %}
 **Opted out**
-- Cannot receive marketing emails
-- Excluded from all campaigns
-- Status preserved for compliance
-- Can only be changed by contact
+
+* Cannot receive marketing emails
+* Excluded from all campaigns
+* Status preserved for compliance
+* Can only be changed by contact
 {% endtab %}
 
 {% tab title="Pending" %}
 **Awaiting confirmation**
-- Double opt-in required
-- Confirmation email sent
-- Cannot receive campaigns yet
-- Expires after set period
+
+* Double opt-in required
+* Confirmation email sent
+* Cannot receive campaigns yet
+* Expires after set period
 {% endtab %}
 
 {% tab title="Bounced" %}
 **Invalid or unreachable**
-- Email address is invalid
-- Automatically marked by system
-- Excluded from future sends
-- Requires manual review
+
+* Email address is invalid
+* Automatically marked by system
+* Excluded from future sends
+* Requires manual review
 {% endtab %}
 {% endtabs %}
 
@@ -337,6 +371,7 @@ This action cannot be undone. All contact data will be permanently deleted.
 
 {% hint style="success" %}
 **Contact Management Tips**
+
 1. **Regular Cleaning**: Remove bounced and inactive contacts monthly
 2. **List Hygiene**: Audit lists quarterly for relevance
 3. **Segmentation**: Use filters to create targeted segments
@@ -348,47 +383,6 @@ This action cannot be undone. All contact data will be permanently deleted.
 
 ### GDPR Requirements
 
-{% expand title="Data Protection Guidelines" %}
-- **Right to Access**: Export contact data upon request
-- **Right to Deletion**: Remove all personal data when requested
-- **Data Minimization**: Only collect necessary information
-- **Purpose Limitation**: Use data only for stated purposes
-- **Storage Limitation**: Delete data when no longer needed
-{% endexpand %}
-
 ### CAN-SPAM Compliance
 
-{% expand title="Email Marketing Rules" %}
-- **Unsubscribe Mechanism**: Honor requests within 10 days
-- **Sender Information**: Include valid physical address
-- **Subject Lines**: No misleading information
-- **Commercial Content**: Clear identification as advertisement
-- **Third-party Data**: Verify consent before importing
-{% endexpand %}
-
 ## Troubleshooting
-
-{% expand title="Contact not receiving emails?" %}
-Check:
-- Subscription status is "Subscribed"
-- Email address is valid (no typos)
-- Not in suppression list
-- Domain authentication is configured
-- Check spam folder
-{% endexpand %}
-
-{% expand title="Can't edit contact fields?" %}
-Possible reasons:
-- Insufficient permissions
-- Contact is being processed
-- Field is system-managed
-- Browser cache issues (try refreshing)
-{% endexpand %}
-
-{% expand title="Bulk action failed?" %}
-Try:
-- Selecting fewer contacts (max 1000 at once)
-- Checking for locked contacts
-- Verifying list permissions
-- Refreshing and retrying
-{% endexpand %}

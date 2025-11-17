@@ -21,7 +21,7 @@ Email Marketing by Mailtrap provides everything you need to run successful email
 
 ## Key Features
 
-### 📧 Campaign Creation
+### Campaign Creation
 
 * **Drag & Drop Editor**: No coding required
 * **HTML Editor**: Full control for developers
@@ -29,25 +29,25 @@ Email Marketing by Mailtrap provides everything you need to run successful email
 * **Responsive Design**: Mobile-optimized emails
 * **Personalization**: Dynamic content insertion
 
-### 👥 Audience Management
+### Audience Management
 
 * **Contact Import**: CSV, API
 * **List Segmentation**: Target specific groups
 * **Custom Fields**: Store any subscriber data
 * **Suppression Management**: Automatic unsubscribe handling
 
-### 🚀 Campaign Automation
+### Campaign Automation
 
 * **Welcome Series**: Onboard new subscribers
 * **Drip Campaigns**: Nurture leads over time
 * **Behavioral Triggers**: Action-based emails
 
-### 📊 Analytics & Insights
+### Analytics & Insights
 
 * **Real-Time Stats**: Track campaign performance
 * **Engagement Metrics**: Opens, clicks, conversions
 * **Audience Insights**: Subscriber behavior analysis
-* **Export Reports**: CSV&#x20;
+* **Export Reports**: CSV
 
 ## Use Cases
 
@@ -110,25 +110,25 @@ Monitor real-time analytics and optimize future campaigns.
 
 {% stepper %}
 {% step %}
-#### Verify Your Domain
+**Verify Your Domain**
 
 Add and verify your sending domain for authentication.
 {% endstep %}
 
 {% step %}
-#### Import Contacts
+**Import Contacts**
 
 Upload your subscriber list via CSV or API.
 {% endstep %}
 
 {% step %}
-#### Create Campaign
+**Create Campaign**
 
 Design your email using templates or the editor.
 {% endstep %}
 
 {% step %}
-#### Send or Schedule
+**Send or Schedule**
 
 Launch your campaign immediately or schedule it.
 {% endstep %}
@@ -213,7 +213,7 @@ Ready-to-use designs:
 
 {% columns %}
 {% column %}
-#### Setup & Configuration
+**Setup & Configuration**
 
 * [Campaign Creation](copy-of-email-marketing.md)
 * [Campaign Scheduling](campaign-scheduling.md)
@@ -222,22 +222,22 @@ Ready-to-use designs:
 {% endcolumn %}
 
 {% column %}
-#### Audience & Analytics
+**Audience & Analytics**
 
 * [Contact Management](contacts.md)
-* [List Segmentation](broken-reference)
+* [List Segmentation](broken-reference/)
 * [Campaign Statistics](statistics.md)
-* [Reports & Analytics](broken-reference)
+* [Reports & Analytics](broken-reference/)
 {% endcolumn %}
 {% endcolumns %}
 
 ## Support & Resources
 
 * 📚 [Campaign Guide](campaigns/)
-* 👥 [Audience Management](broken-reference)
-* 📊 [Analytics Guide](broken-reference)
+* 👥 [Audience Management](broken-reference/)
+* 📊 [Analytics Guide](broken-reference/)
 * 💬 [FAQs](faqs.md)
-* 🔧 [Troubleshooting](broken-reference)
+* 🔧 [Troubleshooting](broken-reference/)
 
 ## Next Steps
 

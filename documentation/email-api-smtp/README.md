@@ -21,28 +21,29 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 
 ## Key Features
 
-### 🚀 Reliable Delivery
+### &#x20;Reliable Delivery
 
 * **Enterprise-grade infrastructure**: Built for reliability and scale
 * **Automatic Failover**: Redundant systems ensure delivery
 * **Smart Routing**: Optimal rules selection for each email depending on recipient MX
 
-### 📊 Analytics & Monitoring
+### Analytics & Monitoring
 
 * **Real-Time Analytics**: Track opens, clicks, bounces instantly
 * **Detailed Email Logs**: Full visibility into email journey
 * **Custom Categories**: Organize and analyze by type/templates/etc
 * **Webhook Events**: Real-time notifications for email events
 
-### 🛡️ Deliverability Tools
+### Deliverability + Support
 
+* **Deliverability and Support teams:** helps with migration, monitoring and all questions you might have
 * [**Complete Deliverability Guide**](https://mailtrap.io/email-deliverability-guide/): Best practices for optimal inbox placement
 * **Domain Authentication**: SPF, DKIM, DMARC setup
 * **Dedicated IP + Warmup**: Gradual reputation building
 * **Suppressions Management**: Automatic bounce handling
 * **Feedback Loops**: ISP complaint processing
 
-### ⚡ Developer-Friendly
+### Developer-Friendly
 
 * **Official SDKs**: Node.js, PHP, Python, Ruby, and more
 * **RESTful API**: Simple JSON-based communication
@@ -139,7 +140,7 @@ Mailtrap separates email traffic for optimal deliverability:
 
 {% columns %}
 {% column %}
-#### Setup & Configuration
+**Setup & Configuration**
 
 * [Sending Domain Setup](sending-domain-setup.md)
 * [API Integration](api-integration.md)
@@ -148,9 +149,9 @@ Mailtrap separates email traffic for optimal deliverability:
 {% endcolumn %}
 
 {% column %}
-#### Essential Features
+**Essential Features**
 
-* [📚 Deliverability Guide](broken-reference)
+* [📚 Deliverability Guide](broken-reference/)
 * [Email Templates](email-templates/)
 * [Analytics & Reports](statistics/)
 * [Deliverability Features](deliverability/)
@@ -192,7 +193,7 @@ Need help getting started or have questions?
 
 ## Next Steps
 
-1. [**Read the Deliverability Guide**](broken-reference) - Essential best practices for inbox placement
+1. [**Read the Deliverability Guide**](broken-reference/) - Essential best practices for inbox placement
 2. [**Set up your domain**](sending-domain-setup.md) - Authenticate your sending domain
 3. [**Choose integration method**](api-integration.md) - API or SMTP
 4. [**Create templates**](email-templates/) - Design reusable emails
