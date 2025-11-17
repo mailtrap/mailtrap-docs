@@ -283,17 +283,58 @@ You can track the performance of your automation by clicking on the Reports tab 
 
 ## Common Automation Workflows
 
-{% expand title="Welcome Series Template" %}
+### Welcome Series Template
+
+A multi-step onboarding sequence for new contacts:
+
+{% tabs %}
+{% tab title="Flow Overview" %}
 1. **Trigger**: Contact created
 2. **Email 1**: Welcome message (immediate)
 3. **Delay**: 2 days
 4. **Email 2**: Getting started guide
 5. **Delay**: 3 days
 6. **Email 3**: Feature highlights
-{% endexpand %}
+{% endtab %}
 
+{% tab title="Implementation Tips" %}
+- Personalize with first name and signup source
+- Include clear CTAs in each email
+- Track engagement for segmentation
+- Consider time zones for optimal delivery
+- Test subject lines for best open rates
+{% endtab %}
+{% endtabs %}
 
-{% expand title="Post-Purchase Flow" %}
+### Re-engagement Campaign
+
+Win back inactive subscribers with targeted messaging:
+
+{% tabs %}
+{% tab title="Flow Overview" %}
+1. **Trigger**: Contact added to "Inactive" list
+2. **Email 1**: We miss you + special offer
+3. **Delay**: 3 days
+4. **Email 2**: Last chance offer
+5. **Delay**: 7 days
+6. **Action**: Unsubscribe contact
+{% endtab %}
+
+{% tab title="Best Practices" %}
+- Use compelling subject lines ("We miss you!")
+- Offer exclusive incentives
+- Show what they're missing
+- Make unsubscribe easy
+- Clean list after campaign
+{% endtab %}
+{% endtabs %}
+
+### Post-Purchase Flow
+
+Maximize customer value after purchase:
+
+{% tabs %}
+{% tab title="Flow Overview" %}
 1. **Trigger**: API event "purchase_completed"
 2. **Email 1**: Order confirmation
 3. **Delay**: 1 hour
@@ -303,4 +344,4 @@ You can track the performance of your automation by clicking on the Reports tab 
 7. **Delay**: 7 days
 8. **Email 4**: Review request
 9. **Action**: Update field "customer_status" to "active"
-{% endexpand %}
+{% endtab %}
