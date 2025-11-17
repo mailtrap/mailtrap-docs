@@ -18,7 +18,10 @@ Before you start, ensure the following:
 - [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
 - Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
 - Install or update [Windsurf](https://windsurf.com/) to the latest version
-## Step 1. Add Mailtrap MCP to Windsurf
+
+{% stepper %}
+{% step %}
+## Add Mailtrap MCP to Windsurf
 
 To add the Mailtrap MCP server to Windsurf:
 
@@ -49,8 +52,10 @@ This will open the mcp.config.json file. Add the following code snippet:
 }
 ```
 {% endcode %}
+{% endstep %}
 
-## Step 2. Add Mailtrap API credentials
+{% step %}
+## Add Mailtrap API credentials
 
 Replace the following values in your mcp.config.json file:
 
@@ -64,8 +69,10 @@ Find these credentials in your Mailtrap account by navigating to **Sending Domai
 {% hint style="info" %}
 Although you shouldn't face any issues, reload Windsurf to ensure everything is set up correctly.
 {% endhint %}
+{% endstep %}
 
-## Step 3. Send emails with a prompt
+{% step %}
+## Send emails with a prompt
 
 To send an email:
 
@@ -83,6 +90,8 @@ Send an email to john.doe@example.com with the subject 'Hi John!' and a message 
 Cascade will process your request and confirm the email was sent:
 
 ![Windsurf Cascade chat interface confirming that the email to John was sent successfully with message ID](../.gitbook/assets/send-email-with-windsurf-5.png)
+{% endstep %}
+{% endstepper %}
 
 ### Verify in Gmail
 

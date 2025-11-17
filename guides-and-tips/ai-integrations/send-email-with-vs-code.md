@@ -18,7 +18,10 @@ Before you start, ensure the following:
 - [Set up your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) — this takes approximately 5 minutes
 - Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
 - Install or update [Visual Studio Code](https://code.visualstudio.com/) to the latest version
-## Step 1. Add Mailtrap MCP to VS Code
+
+{% stepper %}
+{% step %}
+## Add Mailtrap MCP to VS Code
 
 To add Mailtrap MCP to VS Code, you can use the [quick install link](https://insiders.vscode.dev/redirect/mcp/install?name=mailtrap&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-mailtrap%22%5D%2C%22env%22%3A%7B%22MAILTRAP_API_TOKEN%22%3A%22%24%7Binput%3AmailtrapApiToken%7D%22%2C%22DEFAULT_FROM_EMAIL%22%3A%22%24%7Binput%3AsenderEmail%7D%22%2C%22MAILTRAP_ACCOUNT_ID%22%3A%22%24%7Binput%3AmailtrapAccountId%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapApiToken%22%2C%22description%22%3A%22Mailtrap+API+Token%22%2C%22password%22%3Atrue%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22senderEmail%22%2C%22description%22%3A%22Sender+Email+Address%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapAccountId%22%2C%22description%22%3A%22Mailtrap+Account+ID%22%7D%5D) or follow these steps:
 
@@ -57,8 +60,10 @@ In your settings.json file, add the following code snippet:
 {% hint style="warning" %}
 Make sure to restart your MCP server after changing the "env" section.
 {% endhint %}
+{% endstep %}
 
-## Step 2. Add Mailtrap API credentials
+{% step %}
+## Add Mailtrap API credentials
 
 Replace the following values in your settings.json file:
 
@@ -72,8 +77,10 @@ Find these credentials in your Mailtrap account by navigating to **Sending Domai
 {% hint style="info" %}
 Although you shouldn't face any issues, reload VS Code to ensure everything is set up correctly.
 {% endhint %}
+{% endstep %}
 
-## Step 3. Send emails with a prompt
+{% step %}
+## Send emails with a prompt
 
 To send an email:
 
@@ -104,3 +111,5 @@ The email will be sent successfully, and Copilot will confirm the action:
 Verify the email in your Mailtrap dashboard by checking the [Email Logs](https://help.mailtrap.io/article/71-email-logs) tab:
 
 ![Mailtrap Email Logs tab showing the Hi John email with delivery details and email status](../.gitbook/assets/send-email-with-vs-code-7.png)
+{% endstep %}
+{% endstepper %}

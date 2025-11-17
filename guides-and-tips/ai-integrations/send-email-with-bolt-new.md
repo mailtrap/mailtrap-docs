@@ -103,7 +103,10 @@ We used Bolt.new to create a simple landing page with a lead-capture form. This 
 This guide is referential to help you understand Mailtrap integration. Remember, your experience with Bolt.new might differ because it's non-deterministic and constantly evolving. Make sure to store all sensitive information with Supabase, not in code. Also, adjust Supabase project SMTP settings to Mailtrap—see our [Supabase and Mailtrap integration guide](https://help.mailtrap.io/article/165-supabase-and-mailtrap-integration) to avoid their hourly email sending limit.
 {% endhint %}
 
-### Step 1: Connect Bolt and Supabase
+{% stepper %}
+{% step %}
+
+## Connect Bolt and Supabase
 
 The integration is straightforward since Bolt has it pre-built. Here's what to do:
 
@@ -117,7 +120,11 @@ The integration is straightforward since Bolt has it pre-built. Here's what to d
 
 ![Bolt.new Supabase connection progress window showing completed database migration steps with checkmarks](../.gitbook/assets/bolt-new-img-2.png)
 
-### Step 2: Landing page creation
+{% endstep %}
+
+{% step %}
+
+## Create landing page
 
 Here is the prompt for creating a landing page that creates a new Mailtrap contact with each form submission and emails you a notification:
 
@@ -172,7 +179,11 @@ If Bolt encounters bugs, it will list them and attempt to fix them when you clic
 
 ![Bolt.new error panel displaying terminal errors with Hide problems option](../.gitbook/assets/bolt-new-img-4.png)
 
-### Step 3: Use the landing page form to send emails
+{% endstep %}
+
+{% step %}
+
+## Test the form to send emails
 
 In Bolt Preview, navigate to the contact form, fill it out, and click submit.
 
@@ -183,6 +194,9 @@ Once you submit the form, you should see a confirmation message.
 If there are any errors in sending, Bolt will attempt to fix it when prompted. Keep an eye on the message thread—it's helpful to check Edge Functions ([Supabase context](https://supabase.com/docs/guides/functions)) error logs and paste them into Bolt.
 
 If everything runs successfully, you'll see a new contact under Mailtrap Contacts, and you'll receive the form notification in your inbox.
+
+{% endstep %}
+{% endstepper %}
 
 ## Troubleshooting for Bolt.new
 
