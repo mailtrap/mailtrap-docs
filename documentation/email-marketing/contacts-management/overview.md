@@ -123,25 +123,3 @@ You must have explicit consent from recipients before adding them to marketing c
 **Subscription Management**
 Once a contact unsubscribes, they cannot be manually resubscribed. They must sign up for your list again to receive marketing emails.
 {% endhint %}
-
-## Next Steps
-
-<table data-view="cards">
-<thead>
-<tr><th></th><th></th></tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Create Custom Fields</strong><br>Set up fields for personalization</td>
-<td><a href="fields.md">Get Started →</a></td>
-</tr>
-<tr>
-<td><strong>Upload Your First Contacts</strong><br>Import your existing contact list</td>
-<td><a href="uploading-contacts.md">Import Now →</a></td>
-</tr>
-<tr>
-<td><strong>Explore Lists</strong><br>Organize contacts for targeted campaigns</td>
-<td><a href="lists.md">Learn More →</a></td>
-</tr>
-</tbody>
-</table>
