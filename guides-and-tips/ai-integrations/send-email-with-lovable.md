@@ -1,13 +1,11 @@
 ---
-title: Lovable and Mailtrap Integration
+title: <i class="fa-heart">:heart:</i> Lovable and Mailtrap Integration
 description: Step-by-step guide on how to integrate Mailtrap with your Lovable application to send transactional emails and manage contacts.
 ---
 
 Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
 
 # Overview
-
-<i class="fa-heart">:heart:</i>
 
 This integration guide demonstrates how to integrate Mailtrap with your Lovable application to enable email sending and contact management capabilities.
 

@@ -1,11 +1,9 @@
 ---
-title: Setup SSO with OneLogin
+title: <i class="fa-shield-halved">:shield-halved:</i> Setup SSO with OneLogin
 description: Learn how to configure Single Sign-On (SSO) integration between Mailtrap and OneLogin using SAML.
 ---
 
 # Overview
-
-<i class="fa-shield-halved">:shield-halved:</i>
 
 This guide walks you through setting up Single Sign-On (SSO) between Mailtrap and OneLogin using a SAML custom connector.
 

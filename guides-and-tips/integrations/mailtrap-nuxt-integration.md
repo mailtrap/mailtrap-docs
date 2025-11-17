@@ -1,16 +1,18 @@
 ---
-title: Mailtrap Nuxt integration
+title: <i class="fa-vuejs">:vuejs:</i> Mailtrap Nuxt integration
 description: Learn how to send emails in Nuxt applications using Mailtrap's Email API.
 ---
+
+# Overview
+
+This guide shows you how to integrate Mailtrap with Nuxt and send emails using the Email API.
 
 Before we start, you'll need to:
 
 - [Verify your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
 - [Create and save an API key](https://help.mailtrap.io/article/103-api-tokens)
 
-# Overview
-
-<i class="fa-vuejs">:vuejs:</i>
+## Send emails using Nuxt and Mailtrap
 
 To integrate Mailtrap and send emails via Nuxt, simply copy/paste the following script into your configuration:
 

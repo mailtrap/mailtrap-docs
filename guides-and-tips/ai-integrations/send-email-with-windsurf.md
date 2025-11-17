@@ -1,11 +1,9 @@
 ---
-title: Windsurf and Mailtrap Integration
+title: <i class="fa-wind">:wind:</i> Windsurf and Mailtrap Integration
 description: Learn how to integrate Mailtrap with Windsurf to send emails directly from the editor using Cascade and the Mailtrap MCP server.
 ---
 
 # Overview
-
-<i class="fa-wind">:wind:</i>
 
 With the Windsurf Mailtrap integration, you can send emails directly from Windsurf using the Cascade AI assistant and simple prompts.
 

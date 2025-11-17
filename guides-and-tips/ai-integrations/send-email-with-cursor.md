@@ -1,13 +1,11 @@
 ---
-title: Cursor and Mailtrap Integration
+title: <i class="fa-code">:code:</i> Cursor and Mailtrap Integration
 description: Integrate Mailtrap with the Cursor code editor to send transactional and promotional emails directly from your AI-powered development environment.
 ---
 
 Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
 
 # Overview
-
-<i class="fa-code">:code:</i>
 
 With the Cursor and Mailtrap integration, you can now send emails from Cursor using Model Context Protocol. In this guide, you'll learn how to set it all up and start sending emails in three steps.
 

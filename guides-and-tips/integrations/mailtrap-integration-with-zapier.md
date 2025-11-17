@@ -1,11 +1,9 @@
 ---
-title: Zapier Integration
+title: <i class="fa-bolt">:bolt:</i> Zapier Integration
 description: Automate email sending by connecting Mailtrap to over 7,000 applications using Zapier without writing any code.
 ---
 
 # Overview
-
-<i class="fa-bolt">:bolt:</i>
 
 Using the Mailtrap integration with Zapier, you can automate email sending by connecting Mailtrap to over 7,000 other applications without any coding. This guide shows you how to set up the integration, create automations, and manage your connections.
 

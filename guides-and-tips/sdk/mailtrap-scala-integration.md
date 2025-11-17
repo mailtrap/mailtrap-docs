@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Scala Integration
+title: <i class="fa-code">:code:</i> Mailtrap Scala Integration
 description: Learn how to integrate Mailtrap with Scala apps and projects for email sending using SMTP and RESTful API methods.
 ---
 
 # Overview
-
-<i class="fa-code">:code:</i>
 
 Mailtrap can be integrated with Scala apps and projects for email sending.
 

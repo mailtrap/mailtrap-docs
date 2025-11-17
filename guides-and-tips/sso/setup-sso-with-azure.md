@@ -1,11 +1,9 @@
 ---
-title: Setup SSO with Azure (Microsoft Entra)
+title: <i class="fa-microsoft">:microsoft:</i> Setup SSO with Azure (Microsoft Entra)
 description: Step-by-step guide to configure SAML-based Single Sign-On between Azure Active Directory and Mailtrap with role mapping support.
 ---
 
 # Overview
-
-<i class="fa-microsoft">:microsoft:</i>
 
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between Azure Active Directory (Microsoft Entra) and Mailtrap.
 

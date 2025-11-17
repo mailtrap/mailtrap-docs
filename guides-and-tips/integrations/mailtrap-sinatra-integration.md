@@ -1,16 +1,16 @@
 ---
-title: Mailtrap Sinatra Integration
+title: <i class="fa-gem">:gem:</i> Mailtrap Sinatra Integration
 description: Learn how to integrate Mailtrap with Sinatra applications to send emails using the Email API.
 ---
+
+# Overview
+
+This guide shows you how to integrate Mailtrap with Sinatra and send emails using the Email API.
 
 Before we start, you'll need to:
 
 - [Verify your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
 - [Create and save an API key](https://help.mailtrap.io/article/103-api-tokens)
-
-# Overview
-
-<i class="fa-gem">:gem:</i>
 
 ## Send emails using Sinatra and Mailtrap
 

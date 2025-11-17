@@ -1,11 +1,9 @@
 ---
-title: Setup SSO with JumpCloud
+title: <i class="fa-cloud">:cloud:</i> Setup SSO with JumpCloud
 description: Step-by-step guide to configure SAML-based Single Sign-On between JumpCloud and Mailtrap with role mapping support.
 ---
 
 # Overview
-
-<i class="fa-cloud">:cloud:</i>
 
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between JumpCloud and Mailtrap.
 

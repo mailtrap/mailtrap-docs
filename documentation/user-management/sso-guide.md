@@ -1,11 +1,16 @@
 ---
 title: SSO Guide
 description: Learn how to configure SAML 2.0 single sign-on (SSO) with Mailtrap using any Identity Provider that supports the SAML 2.0 protocol.
+icon: key
 ---
 
-# Overview
+# SSO Guide
 
-<i class="fa-key">:key:</i>
+Need help setting up SSO with your specific Identity Provider? Check out our detailed step-by-step guides:
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Azure (Microsoft Entra)</td><td><a href="../../guides-and-tips/sso/setup-sso-with-azure.md">setup-sso-with-azure.md</a></td></tr><tr><td>Okta</td><td><a href="../../guides-and-tips/sso/setup-sso-with-okta.md">setup-sso-with-okta.md</a></td></tr><tr><td>Google Workspace</td><td><a href="../../guides-and-tips/sso/setup-sso-with-google-workspace.md">setup-sso-with-google-workspace.md</a></td></tr><tr><td>OneLogin</td><td><a href="../../guides-and-tips/sso/setup-sso-with-onelogin.md">setup-sso-with-onelogin.md</a></td></tr><tr><td>JumpCloud</td><td><a href="../../guides-and-tips/sso/setup-sso-with-jumpcloud.md">setup-sso-with-jumpcloud.md</a></td></tr></tbody></table>
+
+# Overview
 
 You can use any Identity Provider that supports the [SAML 2.0](https://en.wikipedia.org/wiki/SAML_2.0) protocol in order to authenticate users via single sign-on (SSO) on Mailtrap.
 
@@ -23,7 +28,7 @@ Only the Account Owner has access to enable/disable SAML on an account.
 
 To enable the SAML configuration for the Mailtrap account - go to **Settings** > **Account settings** > **SSO** or [open the SSO tab](https://mailtrap.io/account-management?current_tab=sso) and add/edit the SAML configuration.
 
-![SSO domains table showing active and pending domains with TXT record verification](../.gitbook/assets/sso-guide-1.png)
+<figure><img src="../.gitbook/assets/sso-guide-1.png" alt="SSO domains table showing active and pending domains with TXT record verification"><figcaption><p>SSO domains table</p></figcaption></figure>
 
 ## Step 1: Add and verify the domain
 
@@ -37,11 +42,11 @@ To enable the SAML configuration for the Mailtrap account - go to **Settings** >
 
 1. Choose whether you want to enforce SSO sign-in for users provisioned by SSO. When enabled, users whose sign-in is provisioned by SSO won't be able to sign in using any method except SSO.
 
-![SSO enforcement toggle enabled for designated SSO-active domains highlighted](../.gitbook/assets/sso-guide-2.png)
+<figure><img src="../.gitbook/assets/sso-guide-2.png" alt="SSO enforcement toggle enabled for designated SSO-active domains highlighted"><figcaption><p>SSO enforcement settings</p></figcaption></figure>
 
 2. Choose whether you want to create a separate free account for users provisioned by SSO. When enabled, new users won't get a separate account. When disabled, each new user will also get a separate account in addition to the one they get via SSO. Applies to newly provisioned users only.
 
-![Toggle enabled to prevent creating separate Free accounts for SSO users](../.gitbook/assets/sso-guide-3.png)
+<figure><img src="../.gitbook/assets/sso-guide-3.png" alt="Toggle enabled to prevent creating separate Free accounts for SSO users"><figcaption><p>Separate account settings</p></figcaption></figure>
 
 ## Step 3: Mailtrap → Identity Provider
 
@@ -62,7 +67,7 @@ To enable the SAML configuration for the Mailtrap account - go to **Settings** >
 
 ## Step 5: Role mapping
 
-![SAML Role Mapping table with Admin and Viewer role attribute configurations](../.gitbook/assets/sso-guide-4.png)
+<figure><img src="../.gitbook/assets/sso-guide-4.png" alt="SAML Role Mapping table with Admin and Viewer role attribute configurations"><figcaption><p>SAML Role Mapping</p></figcaption></figure>
 
 By default, users created in Mailtrap via SSO have roles with empty permission, so users cannot View or Edit any projects or sandboxes. In this case, you can assign permissions manually within Mailtrap User Management.
 

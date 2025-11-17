@@ -1,11 +1,9 @@
 ---
-title: VS Code and Mailtrap Integration
+title: <i class="fa-code">:code:</i> VS Code and Mailtrap Integration
 description: Learn how to integrate Mailtrap with VS Code using the Mailtrap MCP server to send emails directly from the editor with simple AI prompts.
 ---
 
 # Overview
-
-<i class="fa-code">:code:</i>
 
 With the VS Code Mailtrap integration, you can send emails directly from Visual Studio Code using simple AI prompts powered by GitHub Copilot.
 

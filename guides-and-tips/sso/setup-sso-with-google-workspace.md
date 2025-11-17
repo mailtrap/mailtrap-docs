@@ -1,11 +1,9 @@
 ---
-title: Setup SSO with Google Workspace
+title: <i class="fa-google">:google:</i> Setup SSO with Google Workspace
 description: Step-by-step guide to configure SAML-based Single Sign-On between Google Workspace and Mailtrap with role mapping support.
 ---
 
 # Overview
-
-<i class="fa-google">:google:</i>
 
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between Google Workspace and Mailtrap.
 

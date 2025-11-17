@@ -1,11 +1,9 @@
 ---
-title: Mailtrap C#, C/C++ integration
+title: <i class="fa-code">:code:</i> Mailtrap C#, C/C++ integration
 description: Learn how to integrate Mailtrap with C# and C/C++ applications using SMTP and RESTful API for email sending.
 ---
 
 # Overview
-
-<i class="fa-code">:code:</i>
 
 Mailtrap can be integrated with C# and C/C++ apps and projects for email sending.
 

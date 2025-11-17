@@ -1,11 +1,9 @@
 ---
-title: Mailtrap Go Integration
+title: <i class="fa-code">:code:</i> Mailtrap Go Integration
 description: Learn how to integrate Mailtrap with Go applications using SMTP and RESTful API for email sending.
 ---
 
 # Overview
-
-<i class="fa-code">:code:</i>
 
 Mailtrap can be integrated with Go apps and projects for email sending.
 

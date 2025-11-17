@@ -1,11 +1,9 @@
 ---
-title: N8N Integration
+title: <i class="fa-diagram-project">:diagram-project:</i> N8N Integration
 description: Seamlessly integrate Mailtrap into your N8N workflows to automate email sending and contact management tasks without coding.
 ---
 
 # Overview
-
-<i class="fa-diagram-project">:diagram-project:</i>
 
 Mailtrap can be integrated into N8N workflows to automate email sending and contact management. This guide shows you how to install the Mailtrap node, obtain API credentials, and configure N8N to work with Mailtrap.
 

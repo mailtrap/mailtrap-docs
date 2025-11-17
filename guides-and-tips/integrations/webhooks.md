@@ -1,7 +1,9 @@
 ---
-title: Webhooks
+title: <i class="fa-webhook">:webhook:</i> Webhooks
 description: Set up webhooks to receive real-time notifications about email deliverability events and account activities within your Mailtrap account.
 ---
+
+# Overview
 
 Webhooks allow you to receive all information about your deliverability and activities within your account almost in real-time.
 
@@ -29,10 +31,6 @@ The event data you receive includes:
 {% hint style="info" %}
 To find out more about the sending event specifics, check the [Statuses and Events article](https://help.mailtrap.io/article/87-statuses-and-events).
 {% endhint %}
-
-# Overview
-
-<i class="fa-webhook">:webhook:</i>
 
 ## How to set up webhooks
 

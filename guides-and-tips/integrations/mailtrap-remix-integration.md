@@ -1,16 +1,16 @@
 ---
-title: Mailtrap Remix integration
+title: <i class="fa-react">:react:</i> Mailtrap Remix integration
 description: Learn how to integrate Mailtrap with Remix to send emails from your application using the Email API.
 ---
+
+# Overview
+
+This guide shows you how to integrate Mailtrap with Remix and send emails using the Email API.
 
 Before we start, you'll need to:
 
 - [Verify your sending domain](https://help.mailtrap.io/article/69-sending-domain-setup)
 - [Create and save an API key](https://help.mailtrap.io/article/103-api-tokens)
-
-# Overview
-
-<i class="fa-react">:react:</i>
 
 ## Send emails using Remix and Mailtrap
 

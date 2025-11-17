@@ -1,11 +1,9 @@
 ---
-title: V0 and Mailtrap Integration
+title: <i class="fa-wand-magic-sparkles">:wand-magic-sparkles:</i> V0 and Mailtrap Integration
 description: Learn how to integrate Mailtrap with V0 to send emails through a contact form using AI-generated components and the Mailtrap API.
 ---
 
 # Overview
-
-<i class="fa-wand-magic-sparkles">:wand-magic-sparkles:</i>
 
 Mailtrap is an email-sending solution for developer and product teams focused on fast delivery and high inboxing rates for transactional and promo emails. It provides a highly customizable API and 24/7 technical support.
 

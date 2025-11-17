@@ -1,11 +1,9 @@
 ---
-title: Mailtrap .NET integration
+title: <i class="fa-windows">:windows:</i> Mailtrap .NET integration
 description: Learn how to integrate Mailtrap with .NET apps and projects for email sending using SMTP or RESTful API.
 ---
 
 # Overview
-
-<i class="fa-windows">:windows:</i>
 
 Mailtrap can be integrated with .NET apps and projects for email sending.
 
