@@ -2,6 +2,20 @@
 
 * [README](README.md)
 
+## SDK
+
+* [PHP Integration](sdk/mailtrap-php-integration.md)
+* [Node.js Integration](sdk/mailtrap-nodejs-integration.md)
+* [Python Integration](sdk/mailtrap-python-integration.md)
+* [Ruby Integration](sdk/mailtrap-ruby-integration.md)
+* [Java Integration](sdk/mailtrap-java-integration.md)
+* [Go Integration](sdk/mailtrap-go-integration.md)
+* [.NET Integration](sdk/mailtrap-dotnet-integration.md)
+* [C#/C++ Integration](sdk/mailtrap-csharp-cpp-integration.md)
+* [Elixir Integration](sdk/mailtrap-elixir-integration.md)
+* [Scala Integration](sdk/mailtrap-scala-integration.md)
+* [Perl Integration](sdk/mailtrap-perl-integration.md)
+
 ## Integrations
 
 * [Webhooks](integrations/webhooks.md)
@@ -22,19 +36,15 @@
 * [AWS Lambda Integration](integrations/mailtrap-aws-lambda-integration.md)
 * [Nuxt Integration](integrations/mailtrap-nuxt-integration.md)
 
-## SDK
+## DNS Setup
 
-* [PHP Integration](sdk/mailtrap-php-integration.md)
-* [Node.js Integration](sdk/mailtrap-nodejs-integration.md)
-* [Python Integration](sdk/mailtrap-python-integration.md)
-* [Ruby Integration](sdk/mailtrap-ruby-integration.md)
-* [Java Integration](sdk/mailtrap-java-integration.md)
-* [Go Integration](sdk/mailtrap-go-integration.md)
-* [.NET Integration](sdk/mailtrap-dotnet-integration.md)
-* [C#/C++ Integration](sdk/mailtrap-csharp-cpp-integration.md)
-* [Elixir Integration](sdk/mailtrap-elixir-integration.md)
-* [Scala Integration](sdk/mailtrap-scala-integration.md)
-* [Perl Integration](sdk/mailtrap-perl-integration.md)
+* [AWS Route 53](dns-setup/aws-route-53.md)
+* [Cloudflare](dns-setup/cloudflare.md)
+* [DigitalOcean](dns-setup/digitalocean.md)
+* [GoDaddy](dns-setup/godaddy.md)
+* [Google Cloud DNS](dns-setup/google-cloud-dns.md)
+* [Google Domains](dns-setup/google-domains.md)
+* [Namecheap](dns-setup/namecheap.md)
 
 ## AI-Powered Integrations
 
@@ -55,13 +65,3 @@
 * [Setup SSO with Google Workspace](sso/setup-sso-with-google-workspace.md)
 * [Setup SSO with OneLogin](sso/setup-sso-with-onelogin.md)
 * [Setup SSO with JumpCloud](sso/setup-sso-with-jumpcloud.md)
-
-## DNS Setup
-
-* [AWS Route 53](dns-setup/aws-route-53.md)
-* [Cloudflare](dns-setup/cloudflare.md)
-* [DigitalOcean](dns-setup/digitalocean.md)
-* [GoDaddy](dns-setup/godaddy.md)
-* [Google Cloud DNS](dns-setup/google-cloud-dns.md)
-* [Google Domains](dns-setup/google-domains.md)
-* [Namecheap](dns-setup/namecheap.md)
