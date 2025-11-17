@@ -11,7 +11,6 @@
 * [Java Integration](sdk/mailtrap-java-integration.md)
 * [Go Integration](sdk/mailtrap-go-integration.md)
 * [.NET Integration](sdk/mailtrap-dotnet-integration.md)
-* [C#/C++ Integration](sdk/mailtrap-csharp-cpp-integration.md)
 * [Elixir Integration](sdk/mailtrap-elixir-integration.md)
 * [Scala Integration](sdk/mailtrap-scala-integration.md)
 * [Perl Integration](sdk/mailtrap-perl-integration.md)
@@ -20,8 +19,10 @@
 
 * [Webhooks](integrations/webhooks.md)
 * [Supabase Integration](integrations/supabase-and-mailtrap-integration.md)
+* [Sync Contacts with Supabase](integrations/supabase-contacts-integration.md)
 * [N8N Integration](integrations/mailtrap-and-n8n-integration.md)
 * [Zapier Integration](integrations/mailtrap-integration-with-zapier.md)
+* [Make.com Integration](integrations/mailtrap-make-integration.md)
 * [cURL Integration](integrations/mailtrap-curl-integration.md)
 * [Wget Integration](integrations/mailtrap-wget-integration.md)
 * [FastAPI Integration](integrations/mailtrap-fastapi-integration.md)

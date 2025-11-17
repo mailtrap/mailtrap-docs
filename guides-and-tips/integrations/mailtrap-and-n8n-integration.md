@@ -7,6 +7,8 @@ description: >-
 
 # N8N Integration
 
+<a href="https://n8n.io/integrations/mailtrap/" class="button primary">View on N8N Marketplace</a>
+
 ## Overview
 
 Mailtrap can be integrated into N8N workflows to automate email sending and contact management. This guide shows you how to install the Mailtrap node, obtain API credentials, and configure N8N to work with Mailtrap.
