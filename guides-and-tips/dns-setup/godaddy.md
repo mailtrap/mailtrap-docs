@@ -31,7 +31,7 @@ This guide assumes that your domain is either registered with GoDaddy and uses i
 
 {% stepper %}
 {% step %}
-### Locate your domain
+#### Locate your domain
 
 Go to GoDaddy and locate the domain you've added to Mailtrap.
 
@@ -39,7 +39,7 @@ Go to GoDaddy and locate the domain you've added to Mailtrap.
 {% endstep %}
 
 {% step %}
-### Open DNS settings
+#### Open DNS settings
 
 Open the DNS settings and click Add New Record.
 
@@ -47,7 +47,7 @@ Open the DNS settings and click Add New Record.
 {% endstep %}
 
 {% step %}
-### View Mailtrap DNS records
+#### View Mailtrap DNS records
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to GoDaddy. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in GoDaddy.
 
@@ -65,7 +65,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-### Copy DNS record values from Mailtrap
+#### Copy DNS record values from Mailtrap
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
@@ -73,7 +73,7 @@ Copy the Name and Value for each record one by one. You can do this by hovering 
 {% endstep %}
 
 {% step %}
-### Paste values into GoDaddy
+#### Paste values into GoDaddy
 
 And paste them into GoDaddy.
 
@@ -81,7 +81,7 @@ And paste them into GoDaddy.
 {% endstep %}
 
 {% step %}
-### Set TTL and save
+#### Set TTL and save
 
 Use the default value for TTL.
 
@@ -89,7 +89,7 @@ Click Save after adding each record in GoDaddy.
 {% endstep %}
 
 {% step %}
-### Add all DNS records
+#### Add all DNS records
 
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to GoDaddy.
 
@@ -97,7 +97,7 @@ Repeat the process of copying and pasting for each record until you've added all
 {% endstep %}
 
 {% step %}
-### Verify DNS records in Mailtrap
+#### Verify DNS records in Mailtrap
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -105,7 +105,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 {% endstep %}
 
 {% step %}
-### Confirm verification status
+#### Confirm verification status
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 

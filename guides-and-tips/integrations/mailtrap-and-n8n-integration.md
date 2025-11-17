@@ -45,7 +45,7 @@ Whether you want to only create contacts or send/test emails via Mailtrap and N8
 
 {% stepper %}
 {% step %}
-### Navigate to API Tokens
+#### Navigate to API Tokens
 
 Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and click on **Add Token**.
 
@@ -53,7 +53,7 @@ Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and cl
 {% endstep %}
 
 {% step %}
-### Create a new API token
+#### Create a new API token
 
 Enter the desired name, click on **Add Token**, tick the desired permission checkboxes, and hit **Save**.
 
@@ -61,7 +61,7 @@ Enter the desired name, click on **Add Token**, tick the desired permission chec
 {% endstep %}
 
 {% step %}
-### Copy and save the token
+#### Copy and save the token
 
 Copy the token and save it in a secure place.
 
@@ -69,7 +69,7 @@ Copy the token and save it in a secure place.
 {% endstep %}
 
 {% step %}
-### Obtain the Account ID
+#### Obtain the Account ID
 
 To obtain the **Account ID**, go to **Settings** → **Account Settings** → **Account Details**.
 

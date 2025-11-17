@@ -27,19 +27,19 @@ This guide walks you through configuring SAML-based Single Sign-On (SSO) between
 
 {% stepper %}
 {% step %}
-### Go to Web and mobile apps
+#### Go to Web and mobile apps
 
 Navigate to the **Web and mobile apps** section in Google Admin.
 {% endstep %}
 
 {% step %}
-### Click Add app dropdown
+#### Click Add app dropdown
 
 Click the **Add app** dropdown button to see available app options.
 {% endstep %}
 
 {% step %}
-### Select Add custom SAML app
+#### Select Add custom SAML app
 
 Select **Add custom SAML app** from the dropdown menu.
 
@@ -84,19 +84,19 @@ Turn on the SAML app for your users:
 
 {% stepper %}
 {% step %}
-### Navigate to Service Status
+#### Navigate to Service Status
 
 Go to the **Service Status** section for your SAML app.
 {% endstep %}
 
 {% step %}
-### Select ON for everyone
+#### Select ON for everyone
 
 Select **ON for everyone** to enable the app for all users, or choose specific organizational units if you want to limit access.
 {% endstep %}
 
 {% step %}
-### Click Save
+#### Click Save
 
 Click **Save** to apply the changes and enable the application.
 

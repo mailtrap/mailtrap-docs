@@ -21,7 +21,7 @@ With the Cursor and Mailtrap integration, you can now send emails from Cursor us
 
 {% stepper %}
 {% step %}
-### Add Mailtrap MCP to Cursor
+#### Add Mailtrap MCP to Cursor
 
 To add Mailtrap MCP to Cursor, you can use the [quick install link](https://cursor.com/en/install-mcp?name=mailtrap\&config=eyJjb21tYW5kIjoibnB4IC15IG1jcC1tYWlsdHJhcCIsImVudiI6eyJNQUlMVFJBUF9BUElfVE9LRU4iOiJ5b3VyX21haWx0cmFwX2FwaV90b2tlbiIsIkRFRkFVTFRfRlJPTV9FTUFJTCI6InlvdXJfc2VuZGVyQGV4YW1wbGUuY29tIiwiTUFJTFRSQVBfQUNDT1VOVF9JRCI6InlvdXJfYWNjb3VudF9pZCJ9fQ%3D%3D) or in your Cursor editor, navigate to Settings → Cursor Settings.
 
@@ -82,7 +82,7 @@ Note: In case you're using asdf to manage Node.js, you must use an absolute path
 {% endstep %}
 
 {% step %}
-### Add Mailtrap API credentials
+#### Add Mailtrap API credentials
 
 Open your Mailtrap account and navigate to Sending Domains → Integration → API.
 
@@ -101,7 +101,7 @@ And that's it! Hit save, reload, and you can start sending emails via Cursor wit
 {% endstep %}
 
 {% step %}
-### Send emails with a prompt
+#### Send emails with a prompt
 
 First, toggle the AI Pane, located in the upper-right corner of the Cursor editor.
 

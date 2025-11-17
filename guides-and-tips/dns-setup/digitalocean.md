@@ -31,7 +31,7 @@ This guide assumes that your domain is either registered and managed with Digita
 
 {% stepper %}
 {% step %}
-### Access Networking and select domain
+#### Access Networking and select domain
 
 Choose Networking in the main menu of the control panel and click the domain you've added to Mailtrap.
 
@@ -43,7 +43,7 @@ You'll see the Create new record heading.
 {% endstep %}
 
 {% step %}
-### View Mailtrap DNS records
+#### View Mailtrap DNS records
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to DigitalOcean. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
@@ -51,7 +51,7 @@ Return to Mailtrap. On the Domain Verification page, you'll see the DNS records 
 {% endstep %}
 
 {% step %}
-### Select DNS record type
+#### Select DNS record type
 
 Check the type next to each record in Mailtrap and choose a relevant one in DigitalOcean (CNAME or TXT). Mailtrap has four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
@@ -65,7 +65,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-### Copy DNS record values from Mailtrap
+#### Copy DNS record values from Mailtrap
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
@@ -73,7 +73,7 @@ Copy the Name and Value for each record one by one. You can do this by hovering 
 {% endstep %}
 
 {% step %}
-### Paste values into DigitalOcean
+#### Paste values into DigitalOcean
 
 And paste them into DigitalOcean. Remember that DigitalOcean refers to the Name field as Hostname for all record types. For CNAME type records, it refers to the Value field as Is an Alias of.
 
@@ -83,7 +83,7 @@ And paste them into DigitalOcean. Remember that DigitalOcean refers to the Name 
 {% endstep %}
 
 {% step %}
-### Set TTL and create record
+#### Set TTL and create record
 
 Use the default value for TTL.
 
@@ -91,7 +91,7 @@ Click Create Record after adding each record in DigitalOcean.
 {% endstep %}
 
 {% step %}
-### Add all DNS records
+#### Add all DNS records
 
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to DigitalOcean.
 
@@ -99,7 +99,7 @@ Repeat the process of copying and pasting for each record until you've added all
 {% endstep %}
 
 {% step %}
-### Verify DNS records in Mailtrap
+#### Verify DNS records in Mailtrap
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -107,7 +107,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 {% endstep %}
 
 {% step %}
-### Confirm verification status
+#### Confirm verification status
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 

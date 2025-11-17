@@ -15,13 +15,13 @@ Using the Mailtrap integration with Zapier, you can automate email sending by co
 
 {% stepper %}
 {% step %}
-### Log in to Zapier
+#### Log in to Zapier
 
 Log in to your [Zapier account](https://zapier.com/sign-up) or create a new account.
 {% endstep %}
 
 {% step %}
-### Navigate to Apps
+#### Navigate to Apps
 
 Navigate to **Apps** in the left-hand side menu.
 
@@ -29,7 +29,7 @@ Navigate to **Apps** in the left-hand side menu.
 {% endstep %}
 
 {% step %}
-### Add connection
+#### Add connection
 
 Click **Add connection**.
 
@@ -37,7 +37,7 @@ Click **Add connection**.
 {% endstep %}
 
 {% step %}
-### Search for Mailtrap
+#### Search for Mailtrap
 
 Type _Mailtrap_ in the **App name** search bar.
 
@@ -45,7 +45,7 @@ Type _Mailtrap_ in the **App name** search bar.
 {% endstep %}
 
 {% step %}
-### Enter API key
+#### Enter API key
 
 Enter your Mailtrap API key to allow Zapier to access your account. Note: This should be the token for the domain you've added and verified in Mailtrap. You'll find it in the **Settings** → **API Tokens** menu.
 
@@ -63,7 +63,7 @@ A Zap is a workflow connecting multiple apps that consists of a trigger (an even
 
 {% stepper %}
 {% step %}
-### Describe your workflow
+#### Describe your workflow
 
 Describe the workflow you want to create to Copilot.
 
@@ -71,7 +71,7 @@ Describe the workflow you want to create to Copilot.
 {% endstep %}
 
 {% step %}
-### Add steps from Copilot
+#### Add steps from Copilot
 
 Add some or all the steps created by Copilot to the Zap or continue to prompt the chatbot to add or replace steps.
 
@@ -79,7 +79,7 @@ Add some or all the steps created by Copilot to the Zap or continue to prompt th
 {% endstep %}
 
 {% step %}
-### Configure email fields
+#### Configure email fields
 
 Configure the required fields for sending an email. The from email should contain the same sending domain you added and verified in Mailtrap.
 
@@ -87,7 +87,7 @@ Configure the required fields for sending an email. The from email should contai
 {% endstep %}
 
 {% step %}
-### Send test email
+#### Send test email
 
 Send a test email to Mailtrap (optional).
 
@@ -95,7 +95,7 @@ Send a test email to Mailtrap (optional).
 {% endstep %}
 
 {% step %}
-### Publish the Zap
+#### Publish the Zap
 
 Publish the Zap.
 {% endstep %}
@@ -105,7 +105,7 @@ Publish the Zap.
 
 {% stepper %}
 {% step %}
-### Select trigger event
+#### Select trigger event
 
 Select an event (trigger) to start your Zap.
 
@@ -117,7 +117,7 @@ Zapier's app directory contains 7,000+ apps with triggers and actions available 
 {% endstep %}
 
 {% step %}
-### Select Mailtrap action
+#### Select Mailtrap action
 
 Select **Mailtrap** as the action for your Zap to run.
 
@@ -125,7 +125,7 @@ Select **Mailtrap** as the action for your Zap to run.
 {% endstep %}
 
 {% step %}
-### Select Send Email event
+#### Select Send Email event
 
 Select **Send Email** as the action event.
 
@@ -133,7 +133,7 @@ Select **Send Email** as the action event.
 {% endstep %}
 
 {% step %}
-### Configure email fields
+#### Configure email fields
 
 Configure the required fields for sending an email.
 
@@ -141,7 +141,7 @@ Configure the required fields for sending an email.
 {% endstep %}
 
 {% step %}
-### Send test email
+#### Send test email
 
 Send a test email to Mailtrap (optional).
 
@@ -149,7 +149,7 @@ Send a test email to Mailtrap (optional).
 {% endstep %}
 
 {% step %}
-### Publish the Zap
+#### Publish the Zap
 
 Publish the Zap.
 {% endstep %}
@@ -159,7 +159,7 @@ Publish the Zap.
 
 {% stepper %}
 {% step %}
-### Navigate to Apps
+#### Navigate to Apps
 
 Navigate to **Apps** in the left-hand side menu.
 
@@ -167,7 +167,7 @@ Navigate to **Apps** in the left-hand side menu.
 {% endstep %}
 
 {% step %}
-### Open Mailtrap connection
+#### Open Mailtrap connection
 
 Click on your Mailtrap connection.
 
@@ -175,7 +175,7 @@ Click on your Mailtrap connection.
 {% endstep %}
 
 {% step %}
-### Delete connection
+#### Delete connection
 
 Click the three-dot menu and then **Delete** in the dropdown menu. Using the same menu, you can edit the connection name, reconnect, test the connection, and view Zaps created using the connection.
 

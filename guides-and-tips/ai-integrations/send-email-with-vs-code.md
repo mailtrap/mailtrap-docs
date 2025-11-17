@@ -23,7 +23,7 @@ Before you start, ensure the following:
 
 {% stepper %}
 {% step %}
-### Add Mailtrap MCP to VS Code
+#### Add Mailtrap MCP to VS Code
 
 To add Mailtrap MCP to VS Code, you can use the [quick install link](https://insiders.vscode.dev/redirect/mcp/install?name=mailtrap\&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-mailtrap%22%5D%2C%22env%22%3A%7B%22MAILTRAP_API_TOKEN%22%3A%22%24%7Binput%3AmailtrapApiToken%7D%22%2C%22DEFAULT_FROM_EMAIL%22%3A%22%24%7Binput%3AsenderEmail%7D%22%2C%22MAILTRAP_ACCOUNT_ID%22%3A%22%24%7Binput%3AmailtrapAccountId%7D%22%7D%7D\&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapApiToken%22%2C%22description%22%3A%22Mailtrap+API+Token%22%2C%22password%22%3Atrue%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22senderEmail%22%2C%22description%22%3A%22Sender+Email+Address%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapAccountId%22%2C%22description%22%3A%22Mailtrap+Account+ID%22%7D%5D) or follow these steps:
 
@@ -65,7 +65,7 @@ Make sure to restart your MCP server after changing the "env" section.
 {% endstep %}
 
 {% step %}
-### Add Mailtrap API credentials
+#### Add Mailtrap API credentials
 
 Replace the following values in your settings.json file:
 
@@ -82,7 +82,7 @@ Although you shouldn't face any issues, reload VS Code to ensure everything is s
 {% endstep %}
 
 {% step %}
-### Send emails with a prompt
+#### Send emails with a prompt
 
 To send an email:
 

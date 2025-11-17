@@ -31,7 +31,7 @@ This guide assumes that your domain is either registered and managed with AWS Ro
 
 {% stepper %}
 {% step %}
-### Access AWS Route 53
+#### Access AWS Route 53
 
 Go to the AWS Management Console, type Route 53 in the search bar, and click on it.
 
@@ -39,7 +39,7 @@ Go to the AWS Management Console, type Route 53 in the search bar, and click on 
 {% endstep %}
 
 {% step %}
-### Navigate to Hosted Zones
+#### Navigate to Hosted Zones
 
 Navigate to Hosted Zone settings for the domain you've added to Mailtrap.
 
@@ -47,7 +47,7 @@ Navigate to Hosted Zone settings for the domain you've added to Mailtrap.
 {% endstep %}
 
 {% step %}
-### Select Your Domain
+#### Select Your Domain
 
 Click the domain you've added to Mailtrap.
 
@@ -55,7 +55,7 @@ Click the domain you've added to Mailtrap.
 {% endstep %}
 
 {% step %}
-### Create DNS Record
+#### Create DNS Record
 
 Click Create record button.
 
@@ -63,7 +63,7 @@ Click Create record button.
 {% endstep %}
 
 {% step %}
-### Get DNS Records from Mailtrap
+#### Get DNS Records from Mailtrap
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to AWS Route 53. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
@@ -79,7 +79,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-### Copy DNS Record Values
+#### Copy DNS Record Values
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
@@ -87,7 +87,7 @@ Copy the Name and Value for each record one by one. You can do this by hovering 
 {% endstep %}
 
 {% step %}
-### Paste Records into AWS Route 53
+#### Paste Records into AWS Route 53
 
 Paste the Name and Value into AWS Route 53. The namings of the records are the same in AWS Route 53 as in Mailtrap.
 
@@ -97,7 +97,7 @@ Use the default value for TTL as indicated in Mailtrap. Click Add another record
 {% endstep %}
 
 {% step %}
-### Create All Records
+#### Create All Records
 
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to AWS Route 53. Click Create Records.
 
@@ -105,7 +105,7 @@ Repeat the process of copying and pasting for each record until you've added all
 {% endstep %}
 
 {% step %}
-### Verify DNS Records in Mailtrap
+#### Verify DNS Records in Mailtrap
 
 Return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -113,7 +113,7 @@ Return to Mailtrap. Some records may be verified immediately, while some may tak
 {% endstep %}
 
 {% step %}
-### Confirm Verification Complete
+#### Confirm Verification Complete
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 

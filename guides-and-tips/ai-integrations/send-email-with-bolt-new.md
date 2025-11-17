@@ -110,7 +110,7 @@ This guide is referential to help you understand Mailtrap integration. Remember,
 
 {% stepper %}
 {% step %}
-### Connect Bolt and Supabase
+#### Connect Bolt and Supabase
 
 The integration is straightforward since Bolt has it pre-built. Here's what to do:
 
@@ -126,7 +126,7 @@ The integration is straightforward since Bolt has it pre-built. Here's what to d
 {% endstep %}
 
 {% step %}
-### Create landing page
+#### Create landing page
 
 Here is the prompt for creating a landing page that creates a new Mailtrap contact with each form submission and emails you a notification:
 
@@ -183,7 +183,7 @@ If Bolt encounters bugs, it will list them and attempt to fix them when you clic
 {% endstep %}
 
 {% step %}
-### Test the form to send emails
+#### Test the form to send emails
 
 In Bolt Preview, navigate to the contact form, fill it out, and click submit.
 

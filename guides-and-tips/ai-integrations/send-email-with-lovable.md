@@ -97,7 +97,7 @@ In this example, we'll use Lovable to create a demo landing page with a form to 
 
 {% stepper %}
 {% step %}
-### Connect to Supabase
+#### Connect to Supabase
 
 Lovable uses Supabase (built-in integration) to manage authentication, database, and backend.
 
@@ -113,7 +113,7 @@ Note: For more information on integrating Supabase, follow the [official Lovable
 {% endstep %}
 
 {% step %}
-### Create a landing page
+#### Create a landing page
 
 The landing form we'll create will have the following functionality: each form submission will create a contact in Mailtrap, and you'll get an email notification about each submission.
 
@@ -137,7 +137,7 @@ Lastly, apply proposed changes so the database table can be created:
 {% endstep %}
 
 {% step %}
-### Send emails via form
+#### Send emails via form
 
 We got a landing page with a form, so let's test it.
 

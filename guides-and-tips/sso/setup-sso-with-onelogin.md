@@ -15,7 +15,7 @@ This guide walks you through setting up Single Sign-On (SSO) between Mailtrap an
 
 {% stepper %}
 {% step %}
-### Navigate to Applications
+#### Navigate to Applications
 
 Access the Applications section in your OneLogin admin console.
 
@@ -23,7 +23,7 @@ Access the Applications section in your OneLogin admin console.
 {% endstep %}
 
 {% step %}
-### Search for SAML Custom Connector
+#### Search for SAML Custom Connector
 
 Look for "SAML custom connector" in the applications catalog.
 
@@ -33,7 +33,7 @@ Look for "SAML custom connector" in the applications catalog.
 {% endstep %}
 
 {% step %}
-### Open SAML Custom Connector Configuration
+#### Open SAML Custom Connector Configuration
 
 Open the SAML custom connector configuration screen.
 
@@ -41,7 +41,7 @@ Open the SAML custom connector configuration screen.
 {% endstep %}
 
 {% step %}
-### Enter SSO Data from Mailtrap
+#### Enter SSO Data from Mailtrap
 
 Configure the SAML connector with the SSO details provided by Mailtrap.
 

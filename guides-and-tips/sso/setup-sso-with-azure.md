@@ -17,7 +17,7 @@ This guide walks you through configuring SAML-based Single Sign-On (SSO) between
 
 {% stepper %}
 {% step %}
-### Open Enterprise Applications
+#### Open Enterprise Applications
 
 Open your Azure Active Directory and select **Enterprise applications**
 
@@ -25,25 +25,25 @@ Open your Azure Active Directory and select **Enterprise applications**
 {% endstep %}
 
 {% step %}
-### Add New Application
+#### Add New Application
 
 Add new application by clicking the **+ New application** button
 {% endstep %}
 
 {% step %}
-### Create Custom Application
+#### Create Custom Application
 
 Choose **+ Create your own application**
 {% endstep %}
 
 {% step %}
-### Name Your Application
+#### Name Your Application
 
 Enter the name of the application (e.g., "Mailtrap")
 {% endstep %}
 
 {% step %}
-### Select Non-Gallery Integration
+#### Select Non-Gallery Integration
 
 Select **Integrate any other application you don't find in the gallery (Non-gallery)**
 
@@ -57,7 +57,7 @@ After the application has been created, you can set up single sign-on:
 
 {% stepper %}
 {% step %}
-### Choose Set Up Single Sign-On
+#### Choose Set Up Single Sign-On
 
 Choose **Set up single sign-on** in the **Getting Started** section
 
@@ -65,7 +65,7 @@ Choose **Set up single sign-on** in the **Getting Started** section
 {% endstep %}
 
 {% step %}
-### Select SAML Mode
+#### Select SAML Mode
 
 For **Single Sign-on** mode, select **SAML** based Sign-on
 
@@ -118,19 +118,19 @@ With SAML configuration complete, you need to add users or groups to your applic
 
 {% stepper %}
 {% step %}
-### Navigate to Users and Groups
+#### Navigate to Users and Groups
 
 Click **Users and groups** on the left sidebar
 {% endstep %}
 
 {% step %}
-### Add Users
+#### Add Users
 
 Click on **+ Add User → Users and Groups**
 {% endstep %}
 
 {% step %}
-### Select Users
+#### Select Users
 
 Select all users you want to add to the application and click **Select**
 {% endstep %}

@@ -31,7 +31,7 @@ This guide assumes that your domain is either registered with Namecheap and uses
 
 {% stepper %}
 {% step %}
-### Locate and manage domain
+#### Locate and manage domain
 
 Go to Namecheap, locate the domain you've added to Mailtrap on the dashboard, and click Manage.
 
@@ -39,7 +39,7 @@ Go to Namecheap, locate the domain you've added to Mailtrap on the dashboard, an
 {% endstep %}
 
 {% step %}
-### Navigate to Advanced DNS
+#### Navigate to Advanced DNS
 
 Navigate to the Advanced DNS tab.
 
@@ -47,7 +47,7 @@ Navigate to the Advanced DNS tab.
 {% endstep %}
 
 {% step %}
-### Add new record
+#### Add new record
 
 Click Add New Record.
 
@@ -55,7 +55,7 @@ Click Add New Record.
 {% endstep %}
 
 {% step %}
-### View Mailtrap DNS records
+#### View Mailtrap DNS records
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Namecheap. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
@@ -71,7 +71,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-### Copy DNS record values from Mailtrap
+#### Copy DNS record values from Mailtrap
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
@@ -79,7 +79,7 @@ Copy the Name and Value for each record one by one. You can do this by hovering 
 {% endstep %}
 
 {% step %}
-### Paste values into Namecheap
+#### Paste values into Namecheap
 
 And paste them into Namecheap. Remember that Namecheap refers to the Name field as Host.
 
@@ -87,7 +87,7 @@ And paste them into Namecheap. Remember that Namecheap refers to the Name field 
 {% endstep %}
 
 {% step %}
-### Set TTL
+#### Set TTL
 
 Use the default value for TTL.
 
@@ -95,7 +95,7 @@ Use the default value for TTL.
 {% endstep %}
 
 {% step %}
-### Add all DNS records
+#### Add all DNS records
 
 Repeat the process of copying, pasting, and clicking Add New Record for each record until you've added all the Mailtrap DNS records to Namecheap. Click Save All Changes.
 
@@ -103,7 +103,7 @@ Repeat the process of copying, pasting, and clicking Add New Record for each rec
 {% endstep %}
 
 {% step %}
-### Verify DNS records in Mailtrap
+#### Verify DNS records in Mailtrap
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
@@ -111,7 +111,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 {% endstep %}
 
 {% step %}
-### Confirm verification status
+#### Confirm verification status
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
