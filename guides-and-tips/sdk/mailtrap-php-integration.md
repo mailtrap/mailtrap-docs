@@ -6,31 +6,33 @@ description: >-
 icon: php
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-php" class="button primary">Mailtrap PHP SDK on GitHub</a>
-
 # PHP Integration
 
-## Overview
+<a href="https://github.com/mailtrap/mailtrap-php" class="button primary">Mailtrap PHP SDK on GitHub</a>
+
+## PHP Integration
+
+### Overview
 
 Mailtrap can be integrated with PHP apps and projects for email sending.
 
-## Email API/SMTP for PHP
+### Email API/SMTP for PHP
 
-### SDK integration
+#### SDK integration
 
 The [Mailtrap PHP SDK](https://github.com/mailtrap/mailtrap-php) is a modern, type-safe library for sending transactional and bulk emails from PHP applications. The SDK supports:
 
-- Transactional email sending
-- Batch email sending
-- Template management
-- Contact management
-- Sandbox testing
-- Account management
-- Dedicated Laravel and Symfony bridges
+* Transactional email sending
+* Batch email sending
+* Dedicated <i class="fa-laravel">:laravel:</i> [**Laravel**](https://github.com/mailtrap/mailtrap-php/tree/feature/improve-examples/src/bridge/laravel) and <i class="fa-symfony">:symfony:</i> [**Symfony**](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Symfony) bridges
+* Template management
+* Contact management
+* Sandbox testing
+* Account management
 
 Additionally, you can watch the [course released by Symfony Casts](https://symfonycasts.com/screencast/mailtrap) for a step-by-step integration walkthrough.
 
-## Installation
+### Installation
 
 Install the SDK using Composer:
 
@@ -40,7 +42,7 @@ composer require railsware/mailtrap-php
 ```
 {% endcode %}
 
-## Minimal Example
+### Minimal Example
 
 Here's a minimal example to send your first email:
 
@@ -82,7 +84,7 @@ try {
 Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
 {% endhint %}
 
-### SMTP integration
+#### SMTP integration
 
 To integrate SMTP with your PHP app, navigate to the **Integrations** tab, choose the desired PHP framework, and copy-paste the credentials or ready-made code snippets.
 
@@ -94,7 +96,7 @@ SMTP integration is compatible with any PHP framework or library that sends emai
 
 Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
-### RESTful API integration
+#### RESTful API integration
 
 To integrate Mailtrap using RESTful API, use the configuration available among **Code samples** under the API section.
 
