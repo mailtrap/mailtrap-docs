@@ -31,7 +31,7 @@ Whether you want to only create contacts or update them via Mailtrap x Supabase,
 
 {% stepper %}
 {% step %}
-### Access API Tokens
+#### Access API Tokens
 
 Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and click on **Add Token**.
 
@@ -39,7 +39,7 @@ Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and cl
 {% endstep %}
 
 {% step %}
-### Configure Token Permissions
+#### Configure Token Permissions
 
 Enter the desired name, click on **Add Token**, tick the desired permission checkboxes, and hit **Save**.
 
@@ -47,7 +47,7 @@ Enter the desired name, click on **Add Token**, tick the desired permission chec
 {% endstep %}
 
 {% step %}
-### Copy and Store Token
+#### Copy and Store Token
 
 Copy the token and save it in a secure place.
 
@@ -69,7 +69,7 @@ First, let's create an Edge Function containing our Mailtrap API token.
 
 {% stepper %}
 {% step %}
-### Open Edge Functions
+#### Open Edge Functions
 
 Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and go to **Edge Functions**.
 
@@ -77,7 +77,7 @@ Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) 
 {% endstep %}
 
 {% step %}
-### Deploy New Function
+#### Deploy New Function
 
 Click on **Deploy a new Function** in the upper-right corner and select **Via Editor**.
 
@@ -85,7 +85,7 @@ Click on **Deploy a new Function** in the upper-right corner and select **Via Ed
 {% endstep %}
 
 {% step %}
-### Add Function Code
+#### Add Function Code
 
 Inside the function editor, you should see the default serverless function template.
 
@@ -132,7 +132,7 @@ Then, click on **Deploy Function**.
 {% endstep %}
 
 {% step %}
-### Verify Deployment
+#### Verify Deployment
 
 Supabase will build and deploy the Edge Function.
 
@@ -146,7 +146,7 @@ Next, we will create a [Supabase Webhook](https://supabase.com/docs/guides/datab
 
 {% stepper %}
 {% step %}
-### Navigate to Database Webhooks
+#### Navigate to Database Webhooks
 
 Open your Supabase Dashboard, go to **Database Webhooks**, and click on **Create a new hook**.
 
@@ -154,7 +154,7 @@ Open your Supabase Dashboard, go to **Database Webhooks**, and click on **Create
 {% endstep %}
 
 {% step %}
-### Configure Basic Settings
+#### Configure Basic Settings
 
 Configure the following:
 
@@ -166,7 +166,7 @@ Configure the following:
 {% endstep %}
 
 {% step %}
-### Configure Webhook Type
+#### Configure Webhook Type
 
 Configure the following:
 
@@ -179,7 +179,7 @@ Configure the following:
 {% endstep %}
 
 {% step %}
-### Set HTTP Headers
+#### Set HTTP Headers
 
 Set HTTP headers for Auth:
 
@@ -208,7 +208,7 @@ Again, we start by creating an Edge Function and adding Mailtrap API token to it
 
 {% stepper %}
 {% step %}
-### Open Edge Functions
+#### Open Edge Functions
 
 Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and go to **Edge Functions**.
 
@@ -216,7 +216,7 @@ Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) 
 {% endstep %}
 
 {% step %}
-### Deploy New Function
+#### Deploy New Function
 
 Click on **Deploy a new function** in the upper-right corner and select **Via Editor**.
 
@@ -224,7 +224,7 @@ Click on **Deploy a new function** in the upper-right corner and select **Via Ed
 {% endstep %}
 
 {% step %}
-### Add Function Code
+#### Add Function Code
 
 Inside the function editor, you should see the default serverless function template.
 
@@ -298,7 +298,7 @@ And, of course, click on **Deploy updates/Deploy function**.
 
 {% stepper %}
 {% step %}
-### Create Webhook
+#### Create Webhook
 
 If you don't already have a webhook for updating contacts, open your Supabase Dashboard, go to **Database Webhooks**, and click on **Create a new hook**.
 
@@ -312,7 +312,7 @@ Navigate to **Integrations** → **Webhooks** and configure the following:
 {% endstep %}
 
 {% step %}
-### Configure Webhook Settings
+#### Configure Webhook Settings
 
 Configure the following:
 
@@ -333,7 +333,7 @@ Finally, let's test our webhook configuration. For this example, I'll use a demo
 
 {% stepper %}
 {% step %}
-### Create Test Account
+#### Create Test Account
 
 First, create an account as if you were a new user.
 
@@ -341,7 +341,7 @@ First, create an account as if you were a new user.
 {% endstep %}
 
 {% step %}
-### Verify in Supabase
+#### Verify in Supabase
 
 A new user should appear in the **Users** page within your Supabase Project.
 
@@ -349,7 +349,7 @@ A new user should appear in the **Users** page within your Supabase Project.
 {% endstep %}
 
 {% step %}
-### Verify in Mailtrap
+#### Verify in Mailtrap
 
 At the same time, a new user also appears in your Mailtrap Contacts page.
 
@@ -357,7 +357,7 @@ At the same time, a new user also appears in your Mailtrap Contacts page.
 {% endstep %}
 
 {% step %}
-### Check Initial Data
+#### Check Initial Data
 
 Since the demo app only requires email and password upon registration, that's all the info the webhook sends to the Mailtrap Contacts page initially.
 
@@ -365,7 +365,7 @@ Since the demo app only requires email and password upon registration, that's al
 {% endstep %}
 
 {% step %}
-### Update Profile
+#### Update Profile
 
 If you go to your demo app and update the profile name...
 
@@ -373,7 +373,7 @@ If you go to your demo app and update the profile name...
 {% endstep %}
 
 {% step %}
-### Verify Update in Supabase
+#### Verify Update in Supabase
 
 It should get updated in your Supabase Project...
 
@@ -381,7 +381,7 @@ It should get updated in your Supabase Project...
 {% endstep %}
 
 {% step %}
-### Verify Update in Mailtrap
+#### Verify Update in Mailtrap
 
 And the Mailtrap Contacts Page, so everything works as intended!
 
