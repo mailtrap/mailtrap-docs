@@ -180,6 +180,8 @@ When creating or editing documentation:
 
 - Do not use emojis in main content
 - Do not add any content and section if you are not asked to, ask is there is a need a provide a preview before adding it 
-- Use Font Awesome icons for consistency
--- https://fontawesome.com/search
--- Representation in Markdown: <i class="fa-github">:github:</i>
+
+## Cross links between spaces (folders)
+
+- If we want from @documentation link to @guides-and-tips our links should look like this: https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup/aws-route-53 . This is a link example from @documentation/sending-domain-setup.md to @guides-and-tips/dns-setup/aws-route-53.md . A link vise versa will look like this: https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup 
+- If makes sense and use page links as a separate blocks
