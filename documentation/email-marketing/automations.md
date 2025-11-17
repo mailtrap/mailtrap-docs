@@ -262,23 +262,12 @@ You can track the performance of your automation by clicking on the Reports tab 
 
 ### Available Metrics
 
-{% columns %}
-{% column %}
 **Engagement Metrics**
-- Open rates per email
-- Click rates per email
-- Conversion tracking
-- Unsubscribe rates
-{% endcolumn %}
+- Open rate per email
+- Click rate per email
+- Number of step completions
+- Delivery rate
 
-{% column %}
-**Flow Metrics**
-- Contacts at each step
-- Drop-off points
-- Completion rates
-- Average time to complete
-{% endcolumn %}
-{% endcolumns %}
 
 ## Best Practices
 
