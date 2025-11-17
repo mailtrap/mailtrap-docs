@@ -3,6 +3,10 @@ title: Mailtrap Scala Integration
 description: Learn how to integrate Mailtrap with Scala apps and projects for email sending using SMTP and RESTful API methods.
 ---
 
+# Overview
+
+<i class="fa-code">:code:</i>
+
 Mailtrap can be integrated with Scala apps and projects for email sending.
 
 # Email API/SMTP for Scala
@@ -11,13 +15,13 @@ Mailtrap can be integrated with Scala apps and projects for email sending.
 
 To integrate SMTP with your Scala app, navigate to the **Integrations** tab and copy-paste the credentials or ready-made code snippets.
 
-Note that you'll have to use Play-Mailer configuration, as Scala doesn't have built-in support for SMTP sending.
+{% hint style="info" %}
+You'll have to use Play-Mailer configuration, as Scala doesn't have built-in support for SMTP sending.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/mailtrap-scala-integration-smtp.png" alt="Mailtrap SMTP integration interface showing credentials and Play-Mailer code snippet for Scala configuration"><figcaption><p>Mailtrap SMTP integration for Scala with Play-Mailer configuration</p></figcaption></figure>
+![Mailtrap SMTP integration for Scala with Play-Mailer configuration](../../../.gitbook/assets/mailtrap-scala-integration-smtp.png)
 
-Read more about SMTP integration {% content-ref url="../../documentation/email-api-smtp/integrations/smtp-integration.md" %}
-[smtp-integration.md](../../documentation/email-api-smtp/integrations/smtp-integration.md)
-{% endcontent-ref %}
+Read more about SMTP integration in the [SMTP Integration guide](../../documentation/email-api-smtp/smtp-integration.md).
 
 ## RESTful integration
 
@@ -25,8 +29,6 @@ To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and 
 
 For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<figure><img src="../.gitbook/assets/mailtrap-scala-integration-api.png" alt="Mailtrap API integration interface showing cURL code sample with endpoint and authentication token"><figcaption><p>Mailtrap RESTful API integration for Scala</p></figcaption></figure>
+![Mailtrap RESTful API integration for Scala](../../../.gitbook/assets/mailtrap-scala-integration-api.png)
 
-Read more about API integration {% content-ref url="../../documentation/email-api-smtp/integrations/api-integration.md" %}
-[api-integration.md](../../documentation/email-api-smtp/integrations/api-integration.md)
-{% endcontent-ref %}
+Read more about API integration in the [API Integration guide](../../documentation/email-api-smtp/api-integration.md).

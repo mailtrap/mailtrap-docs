@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-react">:react:</i>
+
 ## Send emails using Remix and Mailtrap
 
 To integrate Mailtrap and send emails via Remix, copy the following script into your configuration:

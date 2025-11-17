@@ -5,6 +5,8 @@ description: Seamlessly integrate Mailtrap into your N8N workflows to automate e
 
 # Overview
 
+<i class="fa-diagram-project">:diagram-project:</i>
+
 Mailtrap can be integrated into N8N workflows to automate email sending and contact management. This guide shows you how to install the Mailtrap node, obtain API credentials, and configure N8N to work with Mailtrap.
 
 In this article, you'll learn how to:
@@ -39,21 +41,39 @@ Next, simply [create a free N8N account](https://app.n8n.cloud/register):
 
 Whether you want to only create contacts or send/test emails via Mailtrap and N8N, you'll first need a Mailtrap API token and Mailtrap Account ID. To obtain one, follow these steps:
 
-- Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and click on **Add Token**.
+{% stepper %}
+{% step %}
+## Navigate to API Tokens
+
+Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and click on **Add Token**.
 
 ![Mailtrap API Tokens page displaying list of existing tokens with their names, creators, access levels, and token values](../.gitbook/assets/mailtrap-and-n8n-integration-3.png)
+{% endstep %}
 
-- Enter the desired name, click on **Add Token**, tick the desired permission checkboxes, and hit **Save**.
+{% step %}
+## Create a new API token
+
+Enter the desired name, click on **Add Token**, tick the desired permission checkboxes, and hit **Save**.
 
 ![Mailtrap Add API Token dialog with permissions table showing different access levels for account features and domain-specific actions](../.gitbook/assets/mailtrap-and-n8n-integration-4.png)
+{% endstep %}
 
-- Copy the token and save it in a secure place.
+{% step %}
+## Copy and save the token
+
+Copy the token and save it in a secure place.
 
 ![Mailtrap Edit API Token page with copy button and reset button for managing the API token](../.gitbook/assets/mailtrap-and-n8n-integration-5.png)
+{% endstep %}
 
-- Lastly, to obtain the **Account ID**, go to **Settings** → **Account Settings** → **Account Details**.
+{% step %}
+## Obtain the Account ID
+
+To obtain the **Account ID**, go to **Settings** → **Account Settings** → **Account Details**.
 
 ![Mailtrap Account Settings page showing account details tab with account name, owner email, and account ID information](../.gitbook/assets/mailtrap-and-n8n-integration-6.png)
+{% endstep %}
+{% endstepper %}
 
 ## Integrate N8N with Mailtrap
 

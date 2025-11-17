@@ -5,6 +5,8 @@ description: Learn how to integrate Mailtrap with AWS Lambda functions to send e
 
 # Overview
 
+<i class="fa-aws">:aws:</i>
+
 This guide explains how to integrate Mailtrap with AWS Lambda functions to send emails programmatically using the Mailtrap Email API.
 
 ## Prerequisites

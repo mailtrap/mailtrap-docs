@@ -3,6 +3,10 @@ title: Mailtrap Elixir Integration
 description: Learn how to integrate Mailtrap with your Elixir applications using SDK, SMTP, or RESTful API for email sending
 ---
 
+# Overview
+
+<i class="fa-flask">:flask:</i>
+
 Mailtrap can be integrated with Elixir apps and projects for email sending.
 
 # Email API/SMTP for Elixir
@@ -15,16 +19,18 @@ You can integrate Mailtrap into your Elixir project or application using the [of
 
 To integrate SMTP with your Elixir app, navigate to the Integrations tab and copy-paste the credentials.
 
-Note that SMTP integration is compatible with any Elixir framework or library that sends emails via SMTP.
+{% hint style="info" %}
+SMTP integration is compatible with any Elixir framework or library that sends emails via SMTP.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/mailtrap-elixir-integration-smtp-credentials.png" alt="Mailtrap SMTP credentials and code samples for Elixir integration showing host, port, username, password, and authentication settings with curl code example"><figcaption><p>SMTP credentials for Elixir integration</p></figcaption></figure>
+![SMTP credentials for Elixir integration](../../../.gitbook/assets/mailtrap-elixir-integration-smtp-credentials.png)
 
-Read more about SMTP integration in the [SMTP Integration guide](https://help.mailtrap.io/article/122-mailtrap-email-sending-smtp-integration).
+Read more about SMTP integration in the [SMTP Integration guide](../../documentation/email-api-smtp/smtp-integration.md).
 
 ## RESTful API integration
 
 To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and API Token into the configuration file of the Elixir framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<figure><img src="../.gitbook/assets/mailtrap-elixir-integration-api-credentials.png" alt="Mailtrap API credentials for Elixir showing API host, token, and code samples with curl example for sending emails via HTTP request"><figcaption><p>API credentials for Elixir integration</p></figcaption></figure>
+![API credentials for Elixir integration](../../../.gitbook/assets/mailtrap-elixir-integration-api-credentials.png)
 
-Read more about API integration in the [API Integration guide](https://help.mailtrap.io/article/121-mailtrap-email-sending-api-integration).
+Read more about API integration in the [API Integration guide](../../documentation/email-api-smtp/api-integration.md).

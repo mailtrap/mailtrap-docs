@@ -5,6 +5,8 @@ description: Step-by-step guide to configure SAML-based Single Sign-On between G
 
 # Overview
 
+<i class="fa-google">:google:</i>
+
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between Google Workspace and Mailtrap.
 
 # On Google Admin Side
@@ -21,11 +23,27 @@ This guide walks you through configuring SAML-based Single Sign-On (SSO) between
 
 ## Create Custom SAML App
 
-1. Go to **Web and mobile apps**
-2. Click **Add app** dropdown
-3. Select **Add custom SAML app**
+{% stepper %}
+{% step %}
+## Go to Web and mobile apps
+
+Navigate to the **Web and mobile apps** section in Google Admin.
+{% endstep %}
+
+{% step %}
+## Click Add app dropdown
+
+Click the **Add app** dropdown button to see available app options.
+{% endstep %}
+
+{% step %}
+## Select Add custom SAML app
+
+Select **Add custom SAML app** from the dropdown menu.
 
 ![Web and mobile apps page with Add app dropdown showing custom SAML app option](../.gitbook/assets/setup-sso-with-google-workspace-3.png)
+{% endstep %}
+{% endstepper %}
 
 ## Copy Google Identity Provider Details
 
@@ -62,11 +80,27 @@ You can review the service provider details and configure attribute mapping:
 
 Turn on the SAML app for your users:
 
-1. Navigate to **Service Status**
-2. Select **ON for everyone** (or choose specific organizational units)
-3. Click **Save**
+{% stepper %}
+{% step %}
+## Navigate to Service Status
+
+Go to the **Service Status** section for your SAML app.
+{% endstep %}
+
+{% step %}
+## Select ON for everyone
+
+Select **ON for everyone** to enable the app for all users, or choose specific organizational units if you want to limit access.
+{% endstep %}
+
+{% step %}
+## Click Save
+
+Click **Save** to apply the changes and enable the application.
 
 ![SAML sandbox MT service status page with ON for everyone option selected](../.gitbook/assets/setup-sso-with-google-workspace-8.png)
+{% endstep %}
+{% endstepper %}
 
 # Permissions
 

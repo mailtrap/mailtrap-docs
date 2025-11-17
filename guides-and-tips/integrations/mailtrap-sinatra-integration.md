@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-gem">:gem:</i>
+
 ## Send emails using Sinatra and Mailtrap
 
 To integrate Mailtrap and send emails via Sinatra, copy the following script into your configuration:

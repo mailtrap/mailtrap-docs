@@ -5,6 +5,8 @@ description: Learn how to integrate Mailtrap with VS Code using the Mailtrap MCP
 
 # Overview
 
+<i class="fa-code">:code:</i>
+
 With the VS Code Mailtrap integration, you can send emails directly from Visual Studio Code using simple AI prompts powered by GitHub Copilot.
 
 Mailtrap is an email-sending solution for developer and product teams focused on fast delivery and high inboxing rates for transactional and promo emails. It provides a highly customizable API and 24/7 technical support.

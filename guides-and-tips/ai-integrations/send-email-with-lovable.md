@@ -7,6 +7,8 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 
 # Overview
 
+<i class="fa-heart">:heart:</i>
+
 This integration guide demonstrates how to integrate Mailtrap with your Lovable application to enable email sending and contact management capabilities.
 
 ## Integration features

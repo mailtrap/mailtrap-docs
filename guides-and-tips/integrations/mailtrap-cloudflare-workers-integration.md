@@ -5,6 +5,8 @@ description: Learn how to integrate Mailtrap with Cloudflare Workers to send ema
 
 # Overview
 
+<i class="fa-cloud">:cloud:</i>
+
 This guide explains how to integrate Mailtrap with Cloudflare Workers to send emails programmatically using the Mailtrap Email API.
 
 ## Prerequisites

@@ -32,6 +32,8 @@ To find out more about the sending event specifics, check the [Statuses and Even
 
 # Overview
 
+<i class="fa-webhook">:webhook:</i>
+
 ## How to set up webhooks
 
 - Navigate to **Settings** → **Webhooks** and click the **Create New Webhook** button.

@@ -5,36 +5,73 @@ description: Step-by-step guide to configure SAML-based Single Sign-On between A
 
 # Overview
 
+<i class="fa-microsoft">:microsoft:</i>
+
 This guide walks you through configuring SAML-based Single Sign-On (SSO) between Azure Active Directory (Microsoft Entra) and Mailtrap.
 
 # Configure Single Sign-On with Azure
 
 ## Create Enterprise Application
 
-1. Open your Azure Active Directory and select **Enterprise applications**
-2. Add new application by clicking the **+ New application** button
+{% stepper %}
+{% step %}
+## Open Enterprise Applications
+
+Open your Azure Active Directory and select **Enterprise applications**
 
 ![Azure Active Directory Enterprise applications page with New application button highlighted](../.gitbook/assets/setup-sso-with-azure-1.png)
+{% endstep %}
 
-3. Choose **+ Create your own application**
-4. Enter the name of the application (e.g., "Mailtrap")
-5. Select **Integrate any other application you don't find in the gallery (Non-gallery)**
+{% step %}
+## Add New Application
+
+Add new application by clicking the **+ New application** button
+{% endstep %}
+
+{% step %}
+## Create Custom Application
+
+Choose **+ Create your own application**
+{% endstep %}
+
+{% step %}
+## Name Your Application
+
+Enter the name of the application (e.g., "Mailtrap")
+{% endstep %}
+
+{% step %}
+## Select Non-Gallery Integration
+
+Select **Integrate any other application you don't find in the gallery (Non-gallery)**
 
 ![Azure Browse gallery showing create your own application dialog with Mailtrap name and non-gallery option selected](../.gitbook/assets/setup-sso-with-azure-2.png)
+{% endstep %}
+{% endstepper %}
 
 ## Set Up Single Sign-On
 
 After the application has been created, you can set up single sign-on:
 
-1. Choose **Set up single sign-on** in the **Getting Started** section
+{% stepper %}
+{% step %}
+## Choose Set Up Single Sign-On
+
+Choose **Set up single sign-on** in the **Getting Started** section
 
 ![Mailtrap application overview page in Azure showing Set up single sign-on option in Getting Started section](../.gitbook/assets/setup-sso-with-azure-3.png)
+{% endstep %}
 
-2. For **Single Sign-on** mode, select **SAML** based Sign-on
+{% step %}
+## Select SAML Mode
+
+For **Single Sign-on** mode, select **SAML** based Sign-on
 
 ![Azure single sign-on method selection page with SAML option highlighted](../.gitbook/assets/setup-sso-with-azure-4.png)
 
 Follow the steps on the SSO with SAML screen. Azure AD has a detailed [configuration guide](https://docs.microsoft.com/en-gb/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) at the top of the page for further guidance.
+{% endstep %}
+{% endstepper %}
 
 ## Basic SAML Configuration
 
@@ -77,9 +114,25 @@ Now you can save your SAML configuration on Mailtrap.
 
 With SAML configuration complete, you need to add users or groups to your application in Azure:
 
-1. Click **Users and groups** on the left sidebar
-2. Click on **+ Add User → Users and Groups**
-3. Select all users you want to add to the application and click **Select**
+{% stepper %}
+{% step %}
+## Navigate to Users and Groups
+
+Click **Users and groups** on the left sidebar
+{% endstep %}
+
+{% step %}
+## Add Users
+
+Click on **+ Add User → Users and Groups**
+{% endstep %}
+
+{% step %}
+## Select Users
+
+Select all users you want to add to the application and click **Select**
+{% endstep %}
+{% endstepper %}
 
 # Permissions
 

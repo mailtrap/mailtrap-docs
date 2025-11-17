@@ -10,6 +10,8 @@ Before we start, you'll need to:
 
 # Overview
 
+<i class="fa-vuejs">:vuejs:</i>
+
 To integrate Mailtrap and send emails via Nuxt, simply copy/paste the following script into your configuration:
 
 {% code title="Nuxt event handler" %}

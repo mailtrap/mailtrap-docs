@@ -9,6 +9,8 @@ In this guide, I'll show you how to obtain the Mailtrap SMTP credentials and upd
 
 # Overview
 
+<i class="fa-database">:database:</i>
+
 ## Step 1: Obtain your sending credentials
 
 If you haven't already, you'll need to verify your domain before we start. You can use our [step-by-step article](https://help.mailtrap.io/article/69-sending-domain-setup) as a guide.
