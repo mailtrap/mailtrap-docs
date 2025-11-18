@@ -2,6 +2,20 @@
 title: Email Sandbox
 description: Learn how to inspect and debug emails with Mailtrap Email Sandbox
 icon: spider-black-widow
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Email Sandbox
@@ -74,4 +88,3 @@ That allows you to organize all testing-related workflows among different people
 * [HTML Check](../email-sandbox/html-check.md)
 * [Automatic Forwarding](../email-sandbox/automatic-email-forwarding.md) and [Manual Forwarding](../email-sandbox/manual-email-forwarding.md) to view emails in real sandboxes
 * [Test Bcc and email headers](../email-sandbox/checking-email-headers-and-bcc.md)
-
