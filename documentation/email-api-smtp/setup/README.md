@@ -1,7 +1,23 @@
 ---
 title: Setup & Configuration
-description: Get started with Email API/SMTP setup and configuration
+description: >-
+  Set up and configure Mailtrap email API and SMTP service and start sending
+  emails in minutes.
 icon: gear
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Setup & Configuration
