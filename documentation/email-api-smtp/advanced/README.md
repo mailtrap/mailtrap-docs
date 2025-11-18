@@ -1,7 +1,23 @@
 ---
 title: Advanced Features
-description: Powerful features for advanced email sending scenarios
+description: >-
+  Learn what features for advanced email sending scenarios Mailtrap Email
+  API/SMTP provides.
 icon: scale-balanced
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Advanced Features
@@ -29,4 +45,3 @@ Have sensitive links that shouldn't be tracked? Learn how to exclude specific UR
 ### [Auto BCC](auto-bcc.md)
 
 Automatically send blind carbon copies of all emails to a specified address for compliance and monitoring purposes.
-
