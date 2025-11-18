@@ -1,9 +1,23 @@
 ---
 title: Bulk Stream
 description: >-
-  Send marketing and promotional emails through a dedicated stream with built-in
-  compliance features
+  Integrate Mailtrap Bulk Stream via API or SMTP. Get credentials, use SDKs or
+  code samples, and send promotional emails with built-in compliance features.
 icon: envelopes-bulk
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Bulk Stream
@@ -85,7 +99,7 @@ await bulkClient.send({
 
 {% stepper %}
 {% step %}
-#### Verify Your Sending Domain
+**Verify Your Sending Domain**
 
 To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -99,7 +113,7 @@ Check our [Sending Domain Setup Guide](../sending-domain-setup.md) for detailed 
 {% endstep %}
 
 {% step %}
-#### Integrate Your Application
+**Integrate Your Application**
 
 **For SMTP Integration**
 
@@ -270,3 +284,4 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 * [Email Categories](../statistics/email-categories.md)
 * [IP Warmup](../deliverability/ip-warmup.md)
 * [Google's Email Sender Guidelines](https://support.google.com/mail/answer/81126)
+
