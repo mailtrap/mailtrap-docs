@@ -4,6 +4,20 @@ description: >-
   Create and send Mailtrap email templates with drag-and-drop builder or HTML
   editor, add Handlebars variables, and integrate via API or SMTP.
 icon: palette
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Email Templates

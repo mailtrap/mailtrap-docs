@@ -2,8 +2,22 @@
 title: Editing and Customizing Templates
 description: >-
   Learn how to edit and customize email templates using Details, Drag & Drop
-  Editor, Code Editor, and test your templates before sending.
+  Editor, Code Editor, and test your templates.
 icon: pen
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Editing and Customizing
@@ -92,3 +106,4 @@ Important Notes:
 * [Handlebars Guide](handlebars-guide.md) - Learn how to use Handlebars syntax to add dynamic content
 * [Integration](integration.md) - Integrate templates with Email API/SMTP
 * [Debugging](debugging.md) - Test templates with Email Sandbox
+
