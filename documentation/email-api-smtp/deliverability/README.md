@@ -1,7 +1,23 @@
 ---
 title: Deliverability Features
-description: Tools and features to ensure your emails reach the inbox
+description: >-
+  Learn about email deliverability features and tools Mailtrap provides to
+  guarantee high inbox placement rates of your emails.
 icon: truck-bolt
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Deliverability Features
@@ -10,7 +26,7 @@ Maximize your email deliverability with Mailtrap's comprehensive suite of delive
 
 ## 📚 Essential Guide
 
-### [Email Deliverability Guide](broken-reference)
+### [Email Deliverability Guide](broken-reference/)
 
 **Start here!** Our comprehensive guide covers everything you need to know about achieving optimal deliverability:
 
@@ -37,4 +53,3 @@ Understand why emails bounce with detailed categorization. Differentiate between
 ### [Feedback Loops](../feedback-loops.md)
 
 Receive notifications when recipients mark your emails as spam. Automatically suppress these contacts to maintain deliverability.
-
