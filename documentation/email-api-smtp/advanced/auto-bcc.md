@@ -2,8 +2,22 @@
 title: Auto BCC
 description: >-
   Automatically add BCC recipients to all emails sent from your domain with
-  custom headers support
+  custom headers support.
 icon: note
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Auto BCC
