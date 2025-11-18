@@ -1,9 +1,23 @@
 ---
 title: Email API/SMTP Overview
 description: >-
-  Send transactional and bulk emails reliably with Mailtrap's Email API and SMTP
-  service
+  Overview of Mailtrap Email API and SMTP service: key features, use cases, and
+  target audience.
 icon: memo-circle-check
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Overview
@@ -21,7 +35,7 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 
 ## Key Features
 
-### &#x20;Reliable Delivery
+### Reliable Delivery
 
 * **Enterprise-grade infrastructure**: Built for reliability and scale
 * **Automatic Failover**: Redundant systems ensure delivery
