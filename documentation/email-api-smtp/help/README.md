@@ -1,7 +1,21 @@
 ---
 title: Help & Support
-description: Get help with Email API/SMTP issues and find answers to common questions
+description: Get help with Email API/SMTP issues and find answers to common questions.
 icon: question
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Help & Support
@@ -79,3 +93,4 @@ Please have the following information ready:
 2. Check the [SMTP integration guide](../smtp-integration.md)
 3. Test with [Email Sandbox](../../email-sandbox/) first
 4. Use our [API reference](https://api-docs.mailtrap.io/) for detailed endpoints
+
