@@ -4,6 +4,20 @@ description: >-
   Complete guide to using Handlebars templating language with Mailtrap Email
   Templates, including syntax examples, helpers, and practical use cases.
 icon: font-case
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Handlebars Guide
