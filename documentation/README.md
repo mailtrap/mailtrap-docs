@@ -97,30 +97,6 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">dns-setup</a></td></tr></tbody></table>
 
-## Popular Resources
-
-{% columns %}
-{% column %}
-**Documentation**
-
-* [API Reference](https://api-docs.mailtrap.io/)
-* [Email API/SMTP Features](email-api-smtp/README.md)
-* [Email Sandbox Features](email-sandbox/README.md)
-* [Email Marketing Features](email-marketing/README.md)
-* [Account Management](user-management/README.md)
-* [Billing & Pricing](account-and-billing/README.md)
-{% endcolumn %}
-
-{% column %}
-**Support & Community**
-
-* [FAQs](faqs/README.md)
-* [Troubleshooting](troubleshooting/README.md)
-* [Status Page](https://status.mailtrap.io/)
-* [Blog & Updates](https://mailtrap.io/blog/)
-* [Contact Support](https://mailtrap.io/support/)
-{% endcolumn %}
-{% endcolumns %}
 
 ## Ready to Get Started?
 
