@@ -51,11 +51,11 @@ By default, we created an sandbox for you and called it "My Sandbox". The Edit b
 
 Once inside "My Sandbox", copy the credentials from the "Integration" tab to your clipboard.
 
-<figure><img src="../.gitbook/assets/getting-started-sandbox-smtp-credentials.png" alt="Integration tab showing SMTP credentials including host, port, username, password and auth settings"><figcaption><p>SMTP credentials in Integration tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started-sandbox-smtp-credentials.png" alt="Integration tab showing SMTP credentials including host, port, username, password and auth settings" width="563"><figcaption><p>SMTP credentials in Integration tab</p></figcaption></figure>
 
 Or, use one of the pre-made code snippets for major programming languages and frameworks:
 
-<figure><img src="../.gitbook/assets/getting-started-sandbox-code-samples.png" alt="Code Samples section with PHP framework dropdown showing CakePHP, Laravel, Symfony and other options"><figcaption><p>Code samples for different frameworks</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started-sandbox-code-samples.png" alt="Code Samples section with PHP framework dropdown showing CakePHP, Laravel, Symfony and other options" width="563"><figcaption><p>Code samples for different frameworks</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -63,11 +63,11 @@ Or, use one of the pre-made code snippets for major programming languages and fr
 
 After sending the first test email, you can immediately find it in your Mailtrap sandbox.
 
-<figure><img src="../.gitbook/assets/getting-started-test-email-received.png" alt="Test email displayed in Mailtrap sandbox inbox"><figcaption><p>Test email in sandbox inbox</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started-test-email-received.png" alt="Test email displayed in Mailtrap sandbox inbox" width="563"><figcaption><p>Test email in sandbox inbox</p></figcaption></figure>
 
 Click on the email, and proceed to inspect and debug it by selecting the HTML Check tab.
 
-<figure><img src="../.gitbook/assets/getting-started-html-check-results.png" alt="HTML Check tab showing email validation results"><figcaption><p>HTML Check results</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started-html-check-results.png" alt="HTML Check tab showing email validation results" width="563"><figcaption><p>HTML Check results</p></figcaption></figure>
 
 Lastly, you can automate the QA flow with [API](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) if you need it.
 {% endstep %}
