@@ -24,7 +24,8 @@ Setting up Mailtrap should be the easiest part of your email journey. With clear
 
 No guesswork, no complexity—just your first successful email, fast.
 
-[Get started](getting-started/email-api-smtp.md) [API reference](https://api-docs.mailtrap.io/)
+[Get started](getting-started/email-api-smtp.md)
+[API reference](https://api-docs.mailtrap.io/)
 {% endcolumn %}
 
 {% column %}
@@ -94,7 +95,7 @@ Discover the full range of features and capabilities across our email platform.
 
 Learn how to integrate Mailtrap with your favorite tools and migrate from other services.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-repeat">:repeat:</i> <strong>Switching Guides</strong></td><td><strong>Migrate to Mailtrap</strong></td><td>Step-by-step guides for migrating from SendGrid, Mailgun, AWS SES, and other email services.</td><td><a href="../guides-and-tips/switching-guides/">switching-guides</a></td></tr><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Django, WordPress, and more popular frameworks.</td><td><a href="../guides-and-tips/integrations/">integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="../guides-and-tips/dns-setup-guides/">dns-setup-guides</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Django, WordPress, and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">dns-setup</a></td></tr></tbody></table>
 
 ## Popular Resources
 
