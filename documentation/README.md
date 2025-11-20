@@ -53,7 +53,7 @@ await client.send({
 
 Choose your product and get up and running quickly with our step-by-step guides.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-paper-plane">:paper-plane:</i> <strong>Email API/SMTP</strong></td><td><strong>Send Production Emails</strong></td><td>Deliver transactional emails reliably with our API or SMTP service. Get detailed analytics and ensure high deliverability.</td><td><a href="getting-started/email-api-smtp.md">email-api-smtp.md</a></td><td></td></tr><tr><td><i class="fa-spider">:spider:</i> <strong>Email Sandbox</strong></td><td><strong>Test Before Sending</strong></td><td>Catch and inspect emails in a safe testing environment. Preview, analyze, and debug emails before they reach real inboxes.</td><td><a href="getting-started/email-sandbox.md">email-sandbox.md</a></td><td></td></tr><tr><td><i class="fa-headset">:headset:</i> <strong>Email Marketing</strong></td><td><strong>Run Email Campaigns</strong></td><td>Design, send, and track marketing campaigns. Manage subscribers and analyze campaign performance.</td><td><a href="email-marketing/campaigns.md">campaigns.md</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-paper-plane">:paper-plane:</i> <strong>Email API/SMTP</strong></td><td><strong>Send Production Emails</strong></td><td>Deliver transactional emails reliably with our API or SMTP service. Get detailed analytics and ensure high deliverability.</td><td><a href="getting-started/email-api-smtp.md">email-api-smtp.md</a></td><td></td></tr><tr><td><i class="fa-spider">:spider:</i> <strong>Email Sandbox</strong></td><td><strong>Test Before Sending</strong></td><td>Catch and inspect emails in a safe testing environment. Preview, analyze, and debug emails before they reach real inboxes.</td><td><a href="getting-started/email-sandbox.md">email-sandbox.md</a></td><td></td></tr><tr><td><i class="fa-headset">:headset:</i> <strong>Email Marketing</strong></td><td><strong>Run Email Campaigns</strong></td><td>Design, send, and track marketing campaigns. Manage subscribers and analyze campaign performance.</td><td><a href="getting-started/email-marketing.md">email-marketing.md</a></td><td></td></tr></tbody></table>
 
 ## Explore Features
 
@@ -63,31 +63,31 @@ Discover the full range of features and capabilities across our email platform.
 {% column width="33%" %}
 <i class="fa-paper-plane">:paper-plane:</i> **Email API/SMTP**
 
-* [Send emails via API](email-api-smtp/send-emails-via-api.md)
-* [SMTP integration](email-api-smtp/smtp-integration.md)
-* [Email templates](email-api-smtp/templates.md)
-* [Email logs & analytics](email-api-smtp/email-logs.md)
+* [API Integration](email-api-smtp/api-integration.md)
+* [SMTP Integration](email-api-smtp/smtp-integration.md)
+* [Email Templates](email-api-smtp/email-templates/README.md)
+* [Email Logs](email-api-smtp/statistics/email-logs.md)
 * [Webhooks](email-api-smtp/webhooks.md)
 {% endcolumn %}
 
 {% column width="33%" %}
 <i class="fa-spider-black-widow">:spider-black-widow:</i> **Email Sandbox**
 
-* [Email testing](email-sandbox/email-testing.md)
-* [HTML preview](email-sandbox/html-preview.md)
-* [Spam analysis](email-sandbox/spam-analysis.md)
-* [API testing](email-sandbox/api-testing.md)
-* [Team collaboration](email-sandbox/sharing-sandboxes.md)
+* [Email Template Inspector](email-sandbox/inspect-your-email-template.md)
+* [HTML Check](email-sandbox/html-check.md)
+* [Deliverability Tests](email-sandbox/deliverability-tests.md)
+* [Sandbox API](email-sandbox/sandbox-api-integration.md)
+* [Team Collaboration](email-sandbox/sharing-sandboxes.md)
 {% endcolumn %}
 
 {% column width="33%" %}
 <i class="fa-headset">:headset:</i> **Email Marketing**
 
-* [Campaign builder](email-marketing/campaigns.md)
-* [Contact management](email-marketing/contacts.md)
-* [Email designer](email-marketing/email-designer.md)
-* [Campaign analytics](email-marketing/campaign-analytics.md)
-* [List segmentation](email-marketing/segmentation.md)
+* [Campaign Management](email-marketing/campaigns/README.md)
+* [Contacts Management](email-marketing/contacts-management/overview.md)
+* [Email Templates](email-marketing/email-templates.md)
+* [Statistics](email-marketing/statistics.md)
+* [Segments](email-marketing/contacts-management/segments.md)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -95,7 +95,7 @@ Discover the full range of features and capabilities across our email platform.
 
 Learn how to integrate Mailtrap with your favorite tools and migrate from other services.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Django, WordPress, and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">dns-setup</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">dns-setup</a></td></tr></tbody></table>
 
 ## Popular Resources
 
@@ -104,18 +104,18 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 **Documentation**
 
 * [API Reference](https://api-docs.mailtrap.io/)
-* [Email API/SMTP Features](email-api-smtp/)
-* [Email Sandbox Features](email-sandbox/)
-* [Email Marketing Features](email-marketing/)
-* [Account Management](account-and-permissions/)
-* [Billing & Pricing](billing/)
+* [Email API/SMTP Features](email-api-smtp/README.md)
+* [Email Sandbox Features](email-sandbox/README.md)
+* [Email Marketing Features](email-marketing/README.md)
+* [Account Management](user-management/README.md)
+* [Billing & Pricing](account-and-billing/README.md)
 {% endcolumn %}
 
 {% column %}
 **Support & Community**
 
-* [FAQs](faqs/)
-* [Troubleshooting](troubleshooting/)
+* [FAQs](faqs/README.md)
+* [Troubleshooting](troubleshooting/README.md)
 * [Status Page](https://status.mailtrap.io/)
 * [Blog & Updates](https://mailtrap.io/blog/)
 * [Contact Support](https://mailtrap.io/support/)
