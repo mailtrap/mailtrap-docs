@@ -24,8 +24,7 @@ Setting up Mailtrap should be the easiest part of your email journey. With clear
 
 No guesswork, no complexity—just your first successful email, fast.
 
-[Get started](getting-started/email-api-smtp.md)
-[API reference](https://api-docs.mailtrap.io/)
+[Get started](getting-started/email-api-smtp.md) [API reference](https://api-docs.mailtrap.io/)
 {% endcolumn %}
 
 {% column %}
@@ -65,7 +64,7 @@ Discover the full range of features and capabilities across our email platform.
 
 * [API Integration](email-api-smtp/api-integration.md)
 * [SMTP Integration](email-api-smtp/smtp-integration.md)
-* [Email Templates](email-api-smtp/email-templates/README.md)
+* [Email Templates](email-api-smtp/email-templates/)
 * [Email Logs](email-api-smtp/statistics/email-logs.md)
 * [Webhooks](email-api-smtp/webhooks.md)
 {% endcolumn %}
@@ -83,7 +82,7 @@ Discover the full range of features and capabilities across our email platform.
 {% column width="33%" %}
 <i class="fa-headset">:headset:</i> **Email Marketing**
 
-* [Campaign Management](email-marketing/campaigns/README.md)
+* [Campaign Management](email-marketing/campaigns/)
 * [Contacts Management](email-marketing/contacts-management/overview.md)
 * [Email Templates](email-marketing/email-templates.md)
 * [Statistics](email-marketing/statistics.md)
@@ -95,8 +94,7 @@ Discover the full range of features and capabilities across our email platform.
 
 Learn how to integrate Mailtrap with your favorite tools and migrate from other services.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">dns-setup</a></td></tr></tbody></table>
-
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">Integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">DNS Setup</a></td></tr></tbody></table>
 
 ## Ready to Get Started?
 
@@ -104,4 +102,4 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 **New to Mailtrap?** Start with our [Email Sandbox](getting-started/email-sandbox.md) to test your emails in a safe environment, then move to [Email API/SMTP](getting-started/email-api-smtp.md) for production sending.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-rocket-launch">:rocket-launch:</i> <strong>Start with a Free plan</strong></td><td>Get started with Mailtrap's free plan. No credit card required. Test emails, send up to 4000 emails/m, and explore all features.</td><td><a href="https://mailtrap.io/signup">Sign up free</a></td><td></td></tr><tr><td><i class="fa-message">:message:</i> <strong>Talk to Sales</strong></td><td>Need a custom plan or have enterprise requirements? Our team is ready to help you find the perfect solution.</td><td><a href="https://mailtrap.io/talk-to-sales/">Contact sales</a></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-rocket-launch">:rocket-launch:</i> <strong>Start with a Free plan</strong></td><td>Get started with Mailtrap's free plan. No credit card required. Test emails, send up to 4000 emails/m, and explore all features.</td><td><a href="https://mailtrap.io/register/signup">Sign up free</a></td><td></td></tr><tr><td><i class="fa-message">:message:</i> <strong>Talk to Sales</strong></td><td>Need a custom plan or have enterprise requirements? Our team is ready to help you find the perfect solution.</td><td><a href="https://mailtrap.io/talk-to-sales/">Contact sales</a></td><td></td></tr></tbody></table>
