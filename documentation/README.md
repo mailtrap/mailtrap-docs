@@ -8,7 +8,7 @@ icon: house
 
 # Documentation
 
-Build, test, and send emails with confidence using Mailtrap's comprehensive email platform designed for developers and teams.
+Build, test, and send emails with confidence using Mailtrap's comprehensive email platform designed for developers and product teams.
 
 ## Official SDKs
 
@@ -127,4 +127,4 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 **New to Mailtrap?** Start with our [Email Sandbox](getting-started/email-sandbox.md) to test your emails in a safe environment, then move to [Email API/SMTP](getting-started/email-api-smtp.md) for production sending.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-rocket-launch">:rocket-launch:</i> <strong>Start with a Free plan</strong></td><td>Get started with Mailtrap's free plan. No credit card required. Test emails, send up to 4000 emails/m, and explore all features.</td><td><a href="https://mailtrap.io/signup">Sign up free</a></td><td></td></tr><tr><td><i class="fa-message">:message:</i> <strong>Talk to Sales</strong></td><td>Need a custom plan or have enterprise requirements? Our team is ready to help you find the perfect solution.</td><td><a href="https://mailtrap.io/contact-sales">Contact sales</a></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-rocket-launch">:rocket-launch:</i> <strong>Start with a Free plan</strong></td><td>Get started with Mailtrap's free plan. No credit card required. Test emails, send up to 4000 emails/m, and explore all features.</td><td><a href="https://mailtrap.io/signup">Sign up free</a></td><td></td></tr><tr><td><i class="fa-message">:message:</i> <strong>Talk to Sales</strong></td><td>Need a custom plan or have enterprise requirements? Our team is ready to help you find the perfect solution.</td><td><a href="https://mailtrap.io/talk-to-sales/">Contact sales</a></td><td></td></tr></tbody></table>
