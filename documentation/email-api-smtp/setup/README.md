@@ -24,7 +24,7 @@ layout:
 
 Complete guide to setting up and configuring Mailtrap Email API/SMTP for your application. Follow these steps to start sending emails in production.
 
-## Quick Start Checklist
+### Quick Start Checklist
 
 Get up and running with this essential setup checklist:
 
@@ -34,27 +34,13 @@ Get up and running with this essential setup checklist:
 * [ ] Configure authentication
 * [ ] Send test email
 
-## Configuration Steps
+### Configuration Steps
 
-### [Sending Domain Setup](../sending-domain-setup.md)
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sending Domain Setup</strong><br><br>The foundation of email delivery. Verify your domain ownership and configure authentication records (SPF, DKIM, DMARC) for optimal deliverability.</td><td><a href="../sending-domain-setup.md">sending-domain-setup.md</a></td></tr><tr><td><strong>API Integration</strong><br><br>Modern RESTful API for programmatic email sending. Best for new applications and microservices architecture.</td><td><a href="../api-integration.md">api-integration.md</a></td></tr><tr><td><strong>SMTP Integration</strong><br><br>Traditional SMTP protocol for universal compatibility. Works with any email library or legacy system.</td><td><a href="../smtp-integration.md">smtp-integration.md</a></td></tr><tr><td><strong>Dedicated IP</strong><br><br>Gradually build your sending reputation. Essential for high-volume senders and dedicated IPs.</td><td><a href="../deliverability/ip-warmup.md">ip-warmup.md</a></td></tr></tbody></table>
 
-The foundation of email delivery. Verify your domain ownership and configure authentication records (SPF, DKIM, DMARC) for optimal deliverability.
+### Choose Your Integration Method
 
-### [API Integration](../api-integration.md)
-
-Modern RESTful API for programmatic email sending. Best for new applications and microservices architecture.
-
-### [SMTP Integration](../smtp-integration.md)
-
-Traditional SMTP protocol for universal compatibility. Works with any email library or legacy system.
-
-### [IP Warmup](../deliverability/ip-warmup.md)
-
-Gradually build your sending reputation. Essential for high-volume senders and dedicated IPs.
-
-## Choose Your Integration Method
-
-### When to Use API
+#### When to Use API
 
 **Best for:**
 
@@ -86,7 +72,7 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
   }'
 ```
 
-### When to Use SMTP
+#### When to Use SMTP
 
 **Best for:**
 

@@ -30,19 +30,19 @@ Before sending your email templates to production, it's important to test them i
 {% step %}
 Navigate to Templates in the menu on the left.
 
-<figure><img src="../../.gitbook/assets/template-menu-nav (1).png" alt="Mailtrap sidebar with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
+<figure><img src="broken-reference" alt="Mailtrap sidebar with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Click the template you want to call using the API.
 
-<figure><img src="../../.gitbook/assets/template-list-view (1).png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template to debug</p></figcaption></figure>
+<figure><img src="broken-reference" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template to debug</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Open the Integration tab.
 
-<figure><img src="../../.gitbook/assets/template-integration-tab (1).png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
+<figure><img src="broken-reference" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}

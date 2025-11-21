@@ -48,11 +48,11 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 
 To add a domain you own, go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
-<figure><img src="../.gitbook/assets/bulk-add-domain-name (1).png" alt="Add Domain form in Mailtrap with domain input field" width="563"><figcaption><p>Add Domain form</p></figcaption></figure>
+<figure><img src="broken-reference" alt="Add Domain form in Mailtrap with domain input field" width="563"><figcaption><p>Add Domain form</p></figcaption></figure>
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<figure><img src="../.gitbook/assets/bulk-dns-records-verification (1).png" alt="DNS records table showing domain verification requirements" width="563"><figcaption><p>DNS records for domain verification</p></figcaption></figure>
+<figure><img src="broken-reference" alt="DNS records table showing domain verification requirements" width="563"><figcaption><p>DNS records for domain verification</p></figcaption></figure>
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}

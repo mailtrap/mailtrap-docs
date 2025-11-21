@@ -26,25 +26,25 @@ layout:
 
 Each template must have a name, subject, category, and assigned domain. The subject also supports variables.
 
-<figure><img src="../../.gitbook/assets/template-details-view.png" alt="Template Details page showing domain, name, subject, and category fields in a bordered section"><figcaption><p>Template details section</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-details-view.png" alt="Template Details page showing domain, name, subject, and category fields in a bordered section" width="563"><figcaption><p>Template details section</p></figcaption></figure></div>
 
 ### Drag & Drop Editor
 
 The drag-and-drop editor allows you to design templates without any coding.
 
-<figure><img src="../../.gitbook/assets/template-drag-drop-interface.png" alt="Drag and Drop Editor interface showing template preview in center with blocks and content options on right sidebar"><figcaption><p>Drag and Drop Editor</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-drag-drop-interface.png" alt="Drag and Drop Editor interface showing template preview in center with blocks and content options on right sidebar" width="563"><figcaption><p>Drag and Drop Editor</p></figcaption></figure></div>
 
 ### Code Editor
 
 Code Editor allows you to edit the HTML or Text content, depending on the emails you want to send.
 
-<figure><img src="../../.gitbook/assets/template-html-code-editor (1).png" alt="HTML Code Editor showing template code with HTML and Text tabs, Upload image button highlighted"><figcaption><p>HTML Code Editor</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 The editor supports Find and Replace options, and you can use Cmd+F or Win+F as a hotkey to reveal a quick search bar.
 
 If your template has an error, Handlebars cannot render it. You'll see an error message in the Preview tab, and the RAW code with an error will be highlighted in the Editor.
 
-<figure><img src="../../.gitbook/assets/marketing-templates-error (1).png" alt="Code Editor showing error message in preview and highlighted error in HTML code"><figcaption><p>Template error highlighting</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 You can't save a template with errors, either. Remember that we don't validate HTML.
 
@@ -54,31 +54,31 @@ You can't save a template with errors, either. Remember that we don't validate H
 {% step %}
 Click Upload image in the upper right corner of the Code Editor.
 
-<figure><img src="../../.gitbook/assets/template-upload-image-button.png" alt="Code Editor with Upload image button highlighted in upper right corner"><figcaption><p>Upload image button in Code Editor</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-upload-image-button.png" alt="Code Editor with Upload image button highlighted in upper right corner" width="375"><figcaption><p>Upload image button in Code Editor</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Hit the Upload New button in the following menu and choose an image from your local drive (Supported formats are JPG, PNG, and GIF, and the maximum file size is 2 MB).
 
-<figure><img src="../../.gitbook/assets/template-images-library.png" alt="Images library page showing Upload New button highlighted in top right"><figcaption><p>Images library with Upload New button</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-images-library.png" alt="Images library page showing Upload New button highlighted in top right" width="563"><figcaption><p>Images library with Upload New button</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Once the image is uploaded, you will receive a confirmation notification. If the file format is unsupported or the image is too big, you will receive the corresponding error message.
 
-<figure><img src="../../.gitbook/assets/template-image-upload-success.png" alt="Success notification showing Image successfully uploaded message in green banner"><figcaption><p>Image upload success notification</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-image-upload-success.png" alt="Success notification showing Image successfully uploaded message in green banner" width="563"><figcaption><p>Image upload success notification</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the Copy URL button to copy the image URL to your clipboard, then click Template to return to the editing menu.
 
-<figure><img src="../../.gitbook/assets/template-copy-url-button.png" alt="Images library showing uploaded images with Copy URL button highlighted"><figcaption><p>Copy URL button for uploaded images</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-copy-url-button.png" alt="Images library showing uploaded images with Copy URL button highlighted" width="563"><figcaption><p>Copy URL button for uploaded images</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Proceed to add the image to the template body under the `<img>` tag. You can preview it in the template as soon as the asset is added.
 
-<figure><img src="../../.gitbook/assets/template-image-in-code.png" alt="HTML code showing image URL inserted in img src attribute with highlighted code"><figcaption><p>Image URL added to template HTML</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-image-in-code.png" alt="HTML code showing image URL inserted in img src attribute with highlighted code" width="375"><figcaption><p>Image URL added to template HTML</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -86,7 +86,7 @@ Proceed to add the image to the template body under the `<img>` tag. You can pre
 
 Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
 
-<figure><img src="../../.gitbook/assets/template-test-data-variables.png" alt="Test Data tab showing template variables with test values and preview"><figcaption><p>Test Data tab with template variables</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-test-data-variables.png" alt="Test Data tab showing template variables with test values and preview" width="563"><figcaption><p>Test Data tab with template variables</p></figcaption></figure></div>
 
 By default, as a value, we put a variable name and add the "Test\_" prefix.
 
@@ -94,7 +94,7 @@ By default, as a value, we put a variable name and add the "Test\_" prefix.
 
 If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the Send Test button.
 
-<figure><img src="../../.gitbook/assets/template-send-test-button.png" alt="Template editor showing Send Test button highlighted in top right"><figcaption><p>Send Test button</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-send-test-button.png" alt="Template editor showing Send Test button highlighted in top right" width="563"><figcaption><p>Send Test button</p></figcaption></figure></div>
 
 Important Notes:
 
@@ -106,4 +106,3 @@ Important Notes:
 * [Handlebars Guide](handlebars-guide.md) - Learn how to use Handlebars syntax to add dynamic content
 * [Integration](integration.md) - Integrate templates with Email API/SMTP
 * [Debugging](debugging.md) - Test templates with Email Sandbox
-

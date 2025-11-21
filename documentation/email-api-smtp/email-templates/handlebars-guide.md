@@ -435,14 +435,10 @@ In the quick tutorial below, we assume you've activated both Mailtrap Email Sand
 {% stepper %}
 {% step %}
 Navigate to Email Sending > Email Templates in the menu on the left.
-
-<figure><img src="../../.gitbook/assets/template-menu-nav (1).png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Navigate to Templates</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Select your email template and click the Integration tab.
-
-<figure><img src="../../.gitbook/assets/template-integration-tab (1).png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -466,9 +462,3 @@ Run the template test and check the associated inbox to preview the template und
 * Your `inbox_id` is in the Inbox URL.
 
 For more details on template debugging, see [Debugging](debugging.md).
-
-### Next steps
-
-* [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to edit templates
-* [Integration](integration.md) - Integrate templates with Email API/SMTP
-* [Debugging](debugging.md) - Test templates with Email Sandbox

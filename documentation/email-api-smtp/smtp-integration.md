@@ -76,7 +76,7 @@ Alternatively, choose the programming language or framework from the menu under 
 
 Complete your email-sending script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-email-logs-delivered (1).png" alt="Email Logs showing delivered email with status and statistics" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

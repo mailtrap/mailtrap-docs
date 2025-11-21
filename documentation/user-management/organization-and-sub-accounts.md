@@ -7,7 +7,9 @@ description: >-
 icon: sitemap
 ---
 
-## Overview
+# Organization & Sub-Accounts
+
+### Overview
 
 The Organization & Sub-Accounts structure is designed to help you manage complex setups involving multiple teams, clients, environments, or products - all under a single Organization.
 
@@ -41,7 +43,7 @@ The Organization & Sub‑Accounts feature is available only on Business and Ente
 If your account is currently using Braintree as the payment gateway, you'll need to migrate to Stripe in order to enable and use the Organization & Sub‑Accounts feature.
 {% endhint %}
 
-## When to use Organization & Sub-accounts
+### When to use Organization & Sub-accounts
 
 Use Organization & Sub‑accounts to:
 
@@ -51,32 +53,36 @@ Use Organization & Sub‑accounts to:
 * Prevent issues in one sub‑account affecting others.
 * Keep email stats, templates, or sender configurations isolated.
 
-## Creating a sub-account
+### Creating a sub-account
 
 {% stepper %}
 {% step %}
-## Access Organization Settings
+### Access Organization Settings
+
 Go to the left-side menu and select Organization. This will open the Organization panel.
 
 <div align="left"><img src="../.gitbook/assets/org-organization-details.png" alt="Mailtrap Organization page showing Organization Details tab with name, owner email, and organization ID" width="563"></div>
 {% endstep %}
 
 {% step %}
-## Navigate to Sub-accounts
+### Navigate to Sub-accounts
+
 Click Sub-accounts menu item and Create Sub-Account button.
 
 <div align="left"><img src="../.gitbook/assets/org-create-subaccount-button.png" alt="Organization page with Create sub-account button highlighted" width="563"></div>
 {% endstep %}
 
 {% step %}
-## Enter Sub-account Name
+### Enter Sub-account Name
+
 Enter the sub-account name and click Create.
 
 <div align="left"><img src="../.gitbook/assets/org-subaccount-name-input.png" alt="Create sub-account dialog with name input field and Create button" width="563"></div>
 {% endstep %}
 
 {% step %}
-## Configure Account Settings
+### Configure Account Settings
+
 You will be automatically redirected to the new account settings page, where you can manage other account settings.
 
 <div align="left"><img src="../.gitbook/assets/org-account-settings-created.png" alt="Account Settings page for newly created sub-account showing account name and owner details" width="563"></div>
@@ -95,7 +101,7 @@ Switch between your organizations and sub‑accounts from the left-side menu any
 
 <div align="left"><img src="../.gitbook/assets/org-account-switcher-menu.png" alt="User menu dropdown showing organization accounts and sub-accounts with account switcher" width="375"></div>
 
-## Migrating an already existing account
+### Migrating an already existing account
 
 If you have multiple Mailtrap accounts and want to merge them under a single Organization (without re-authenticating domains or losing data), our Support Team can help make the process smooth. You can transfer any account, including free ones. The only requirement is that the **destination Organization** is on a subscription plan that includes **Organization & Sub-accounts**.
 
@@ -125,11 +131,11 @@ After both sides approve:
 * The account will now use the **subscription and usage limits of the Destination Organization**.
 * Usage counters will reset, since the account is now part of a new shared plan.
 
-## Permissions & user management
+### Permissions & user management
 
 The Organization & Sub‑Accounts structure offers flexible and secure user access controls, so you can easily tailor permissions based on team roles, client needs, or project scope.
 
-### Types of access
+#### Types of access
 
 There are two levels of user access:
 
@@ -147,7 +153,6 @@ A user with organization-level permissions will always have access to all organi
 
 * Billing Admin - Full access to billing.
 * Billing Viewer - View-only access to billing.
-
 * _Account-level access_
 
 If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](user-management.md).
@@ -158,7 +163,7 @@ If a user only needs access to selected sub‑accounts, you can invite them to t
 Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
 {% endhint %}
 
-### Viewing current users
+#### Viewing current users
 
 You can easily check who has access to your account.
 
@@ -174,19 +179,19 @@ If you are an Organization Owner or Organization Admin, you can edit organizatio
 
 <div align="left"><img src="../.gitbook/assets/org-user-management-tab.png" alt="User Management page showing Organization users tab with list of members and their permissions" width="563"></div>
 
-## API tokens
+### API tokens
 
 API tokens in Mailtrap are account–level. That means each sub‑account has its own isolated set of tokens used for authentication when interacting with Mailtrap's API or SMTP services. Also, an organization has its own tokens to create and list their sub-accounts.
 
-### Key Points
+#### Key Points
 
 * Isolated by design: Tokens are unique to each sub‑account and cannot be used to access resources from other sub‑accounts or the entire Organization.
 * Scoped access: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
 * Management via UI: Tokens can currently be created, viewed, and revoked via the API Tokens section inside each sub‑account.
 
-## FAQ
+### FAQ
 
-### Users and Permissions
+#### Users and Permissions
 
 <details>
 
@@ -212,7 +217,7 @@ Yes, just invite them to each sub‑account and assign the right role. You can a
 
 </details>
 
-### Organization and Sub-Account Management
+#### Organization and Sub-Account Management
 
 <details>
 
@@ -254,7 +259,7 @@ Submit a support request to update the organization owner.
 
 </details>
 
-### Quotas and Stats
+#### Quotas and Stats
 
 <details>
 
@@ -272,7 +277,7 @@ Quotas apply at the Organization level, but stats are tracked separately for eac
 
 </details>
 
-### General
+#### General
 
 <details>
 

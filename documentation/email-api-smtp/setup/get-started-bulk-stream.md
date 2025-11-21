@@ -103,11 +103,11 @@ await bulkClient.send({
 
 To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-add-domain-name (1).png" alt="Add Domain Name dialog with domain input field and Add button" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-dns-records-verification (1).png" alt="DNS records verification page showing DKIM, SPF, and DMARC records to add" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Check our [Sending Domain Setup Guide](../sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}
@@ -284,4 +284,3 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 * [Email Categories](../statistics/email-categories.md)
 * [IP Warmup](../deliverability/ip-warmup.md)
 * [Google's Email Sender Guidelines](https://support.google.com/mail/answer/81126)
-

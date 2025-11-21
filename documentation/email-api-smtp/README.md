@@ -35,38 +35,38 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 
 ## Key Features
 
-### Reliable Delivery
+#### Reliable Delivery
 
-* **Enterprise-grade infrastructure**: Built for reliability and scale
-* **Automatic Failover**: Redundant systems ensure delivery
-* **Smart Routing**: Optimal rules selection for each email depending on recipient MX
+* Enterprise-grade infrastructure: Built for reliability and scale
+* Automatic Failover: Redundant systems ensure delivery
+* Smart Routing: Optimal rules selection for each email depending on recipient MX
 
-### Analytics & Monitoring
+#### Analytics & Monitoring
 
-* **Real-Time Analytics**: Track opens, clicks, bounces instantly
-* **Detailed Email Logs**: Full visibility into email journey
-* **Custom Categories**: Organize and analyze by type/templates/etc
-* **Webhook Events**: Real-time notifications for email events
+* Real-Time Analytics: Track opens, clicks, bounces instantly
+* Detailed Email Logs: Full visibility into email journey
+* Custom Categories: Organize and analyze by type/templates/etc
+* Webhook Events: Real-time notifications for email events
 
-### Deliverability + Support
+#### Deliverability + Support
 
-* **Deliverability and Support teams:** helps with migration, monitoring and all questions you might have
-* [**Complete Deliverability Guide**](https://mailtrap.io/email-deliverability-guide/): Best practices for optimal inbox placement
-* **Domain Authentication**: SPF, DKIM, DMARC setup
-* **Dedicated IP + Warmup**: Gradual reputation building
-* **Suppressions Management**: Automatic bounce handling
-* **Feedback Loops**: ISP complaint processing
+* Deliverability and Support teams: helps with migration, monitoring and all questions you might have
+* [Complete Deliverability Guide](https://mailtrap.io/email-deliverability-guide/): Best practices for optimal inbox placement
+* Domain Authentication: SPF, DKIM, DMARC setup
+* Dedicated IP + Warmup: Gradual reputation building
+* Suppressions Management: Automatic bounce handling
+* Feedback Loops: ISP complaint processing
 
-### Developer-Friendly
+#### Developer-Friendly
 
-* **Official SDKs**: Node.js, PHP, Python, Ruby, and more
-* **RESTful API**: Simple JSON-based communication
-* **SMTP Integration**: Works with existing email libraries
-* **Sandbox Testing**: Test before production
+* Official SDKs: Node.js, PHP, Python, Ruby, and more
+* RESTful API: Simple JSON-based communication
+* SMTP Integration: Works with existing email libraries
+* Sandbox Testing: Test before production
 
 ## Use Cases
 
-### Transactional Emails
+#### Transactional Emails
 
 Perfect for critical user communications:
 
@@ -76,7 +76,7 @@ Perfect for critical user communications:
 * System notifications and updates
 * Two-factor authentication codes
 
-### Bulk Emails
+#### Bulk Emails
 
 Dedicated infrastructure for marketing:
 
@@ -88,7 +88,9 @@ Dedicated infrastructure for marketing:
 
 ## Quick Start Guide
 
-### 1. Choose Your Integration Method
+{% stepper %}
+{% step %}
+**Choose Your Integration Method**
 
 {% tabs %}
 {% tab title="API" %}
@@ -132,14 +134,20 @@ await client.send({
 ```
 {% endtab %}
 {% endtabs %}
+{% endstep %}
 
-### 2. Verify Your Domain
+{% step %}
+**Verify Your Domain**
 
 Add DNS records to authenticate your sending domain and improve deliverability.
+{% endstep %}
 
-### 3. Start Sending
+{% step %}
+**Start Sending**
 
 Begin with transactional emails, then expand to bulk campaigns as needed.
+{% endstep %}
+{% endstepper %}
 
 ## Two Streams Architecture
 
@@ -175,21 +183,21 @@ Mailtrap separates email traffic for optimal deliverability:
 
 ## Why Choose Mailtrap?
 
-### For Developers
+:white\_check\_mark: **For Developers**
 
 * Clean, well-documented APIs
 * Multiple integration options
 * Comprehensive SDKs
 * Sandbox environment for testing
 
-### For Businesses
+:white\_check\_mark: **For Businesses**
 
 * High deliverability rates
 * Detailed analytics and reporting
 * Scalable infrastructure
 * Enterprise-grade reliability
 
-### For Teams
+:white\_check\_mark: **For Teams**
 
 * Multi-user access control
 * Shared resources and templates
@@ -200,15 +208,32 @@ Mailtrap separates email traffic for optimal deliverability:
 
 Need help getting started or have questions?
 
-* 📚 [API Reference](https://api-docs.mailtrap.io/)
-* 💬 [FAQs](faqs.md)
-* 🔧 [Troubleshooting](troubleshooting/)
-* 📧 [Contact Support](mailto:support@mailtrap.io)
+<a href="https://api-docs.mailtrap.io/" class="button primary" data-icon="books">API Reference</a>  <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a>  <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a>  <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
 ## Next Steps
 
-1. [**Read the Deliverability Guide**](broken-reference/) - Essential best practices for inbox placement
-2. [**Set up your domain**](sending-domain-setup.md) - Authenticate your sending domain
-3. [**Choose integration method**](api-integration.md) - API or SMTP
-4. [**Create templates**](email-templates/) - Design reusable emails
-5. [**Monitor performance**](statistics/) - Track your email metrics
+{% stepper %}
+{% step %}
+#### [setup](setup/ "mention")
+
+_Authenticate your sending domain_
+{% endstep %}
+
+{% step %}
+#### [api-integration.md](api-integration.md "mention")
+
+_Choose integration method - API or SMTP_
+{% endstep %}
+
+{% step %}
+#### [email-templates](email-templates/ "mention")
+
+_Design reusable emails_
+{% endstep %}
+
+{% step %}
+#### [statistics](statistics/ "mention")
+
+_Track your email metrics_
+{% endstep %}
+{% endstepper %}
