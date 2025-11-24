@@ -153,10 +153,10 @@ Begin with transactional emails, then expand to bulk campaigns as needed.
 
 Mailtrap separates email traffic for optimal deliverability:
 
-| Stream            | Purpose               | Features                                    |
-| ----------------- | --------------------- | ------------------------------------------- |
-| **Transactional** | Triggered user emails | High priority, immediate delivery           |
-| **Bulk**          | Marketing campaigns   | Built-in compliance, unsubscribe management |
+| Stream                                       | Purpose               | Features                                    |
+| -------------------------------------------- | --------------------- | ------------------------------------------- |
+| **Transactional**                            | Triggered user emails | High priority, immediate delivery           |
+| [**Bulk**](setup/get-started-bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management |
 
 ## Getting Started
 
@@ -173,31 +173,32 @@ Mailtrap separates email traffic for optimal deliverability:
 {% column %}
 **Essential Features**
 
-* [📚 Deliverability Guide](broken-reference/)
+* [Deliverability Guide](https://mailtrap.io/email-deliverability-guide/)
 * [Email Templates](email-templates/)
 * [Analytics & Reports](statistics/)
 * [Deliverability Features](deliverability/)
-* [Bulk Stream](setup/get-started-bulk-stream.md)
+
+
 {% endcolumn %}
 {% endcolumns %}
 
 ## Why Choose Mailtrap?
 
-:white\_check\_mark: **For Developers**
+**For Developers**
 
 * Clean, well-documented APIs
 * Multiple integration options
 * Comprehensive SDKs
 * Sandbox environment for testing
 
-:white\_check\_mark: **For Businesses**
+**For Businesses**
 
 * High deliverability rates
 * Detailed analytics and reporting
 * Scalable infrastructure
 * Enterprise-grade reliability
 
-:white\_check\_mark: **For Teams**
+**For Teams**
 
 * Multi-user access control
 * Shared resources and templates
