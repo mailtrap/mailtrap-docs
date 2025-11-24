@@ -32,19 +32,19 @@ Once you've created and customized your email template, you can integrate it wit
 {% step %}
 Navigate to Templates in the menu on the left.
 
-<figure><img src="broken-reference" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Templates in navigation menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-menu-nav.png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Templates in navigation menu</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Click the template you want to call using the API.
 
-<figure><img src="broken-reference" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template from list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-list-view.png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template from list</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Open the Integration tab.
 
-<figure><img src="broken-reference" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -56,9 +56,9 @@ With Email API/SMTP toggled on, click Integrate under Transactional Stream or Bu
 {% step %}
 Copy the necessary credentials such as Host, API Token, and Template UUID.
 
-<figure><img src="broken-reference" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/api-integration-credentials-transactional.png" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure>
 
-<figure><img src="broken-reference" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/api-integration-credentials-bulk.png" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
