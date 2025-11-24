@@ -185,3 +185,8 @@ When creating or editing documentation:
 
 - If we want from @documentation link to @guides-and-tips our links should look like this: https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup/aws-route-53 . This is a link example from @documentation/sending-domain-setup.md to @guides-and-tips/dns-setup/aws-route-53.md . A link vise versa will look like this: https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup 
 - If makes sense and use page links as a separate blocks
+
+## OpenAPI
+- Never change base URL in Open API specs
+- Base url to be https://send.api.mailtrap.io/ for transactional emails, https://bulk.api.mailtrap.io/api/send for bulk emails, and https://mailtrap.io for the rest
+- Use Prism.js language tags for code snippets and OpenApi specs (lang)
