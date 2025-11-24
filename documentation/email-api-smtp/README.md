@@ -153,10 +153,10 @@ Begin with transactional emails, then expand to bulk campaigns as needed.
 
 Mailtrap separates email traffic for optimal deliverability:
 
-| Stream                                       | Purpose               | Features                                    |
-| -------------------------------------------- | --------------------- | ------------------------------------------- |
-| **Transactional**                            | Triggered user emails | High priority, immediate delivery           |
-| [**Bulk**](setup/get-started-bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management |
+| Stream                                       | Purpose               | Features                                                              |
+| -------------------------------------------- | --------------------- | --------------------------------------------------------------------- |
+| **Transactional**                            | Triggered user emails | High priority, immediate delivery                                     |
+| [**Bulk**](setup/get-started-bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management, separate suppresion list |
 
 ## Getting Started
 
