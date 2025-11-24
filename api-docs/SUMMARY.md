@@ -2,7 +2,7 @@
 
 * [API Reference](README.md)
 
-## Email API/SMTP
+## Email API
 
 * [Overview](email-api/overview.md)
 * ```yaml
