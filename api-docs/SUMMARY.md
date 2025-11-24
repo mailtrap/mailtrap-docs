@@ -25,7 +25,7 @@
   type: builtin:openapi
   props:
     models: true
-    downloadLink: false
+    downloadLink: true
   dependencies:
     spec:
       ref:
@@ -40,7 +40,7 @@
   type: builtin:openapi
   props:
     models: true
-    downloadLink: false
+    downloadLink: true
   dependencies:
     spec:
       ref:
@@ -53,7 +53,7 @@
   type: builtin:openapi
   props:
     models: true
-    downloadLink: false
+    downloadLink: true
   dependencies:
     spec:
       ref:
@@ -67,8 +67,8 @@
 * ```yaml
   type: builtin:openapi
   props:
-    models: false
-    downloadLink: false
+    models: true
+    downloadLink: true
   dependencies:
     spec:
       ref:
@@ -83,7 +83,7 @@
   type: builtin:openapi
   props:
     models: true
-    downloadLink: false
+    downloadLink: true
   dependencies:
     spec:
       ref:
