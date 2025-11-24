@@ -48,7 +48,9 @@
         spec: contacts
   ```
 
-* [Email Templates](templates/overview.md)
+## Email Templates
+
+* [Overview](templates/overview.md)
 * ```yaml
   type: builtin:openapi
   props:
