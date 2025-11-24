@@ -3,6 +3,7 @@ title: Template Integration - Email API/SMTP
 description: >-
   Learn how to integrate Mailtrap email templates with Email API/SMTP using
   Transactional or Bulk streams.
+icon: link
 layout:
   width: default
   title:
@@ -31,33 +32,33 @@ Once you've created and customized your email template, you can integrate it wit
 {% step %}
 Navigate to Templates in the menu on the left.
 
-<figure><img src="../../.gitbook/assets/template-menu-nav.png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow"><figcaption><p>Templates in navigation menu</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-menu-nav.png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow" width="375"><figcaption><p>Templates in navigation menu</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the template you want to call using the API.
 
-<figure><img src="../../.gitbook/assets/template-list-view.png" alt="Templates list showing Newsletter template highlighted by red arrow"><figcaption><p>Select template from list</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-list-view.png" alt="Templates list showing Newsletter template highlighted by red arrow" width="563"><figcaption><p>Select template from list</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Open the Integration tab.
 
-<figure><img src="../../.gitbook/assets/template-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow"><figcaption><p>Open Integration tab</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow" width="563"><figcaption><p>Open Integration tab</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 With Email API/SMTP toggled on, click Integrate under Transactional Stream or Bulk Stream.
 
-<figure><img src="../../.gitbook/assets/template-stream-options.png" alt="Integration page showing Transactional Stream and Bulk Stream options with Integrate buttons highlighted by red arrows"><figcaption><p>Choose stream type and click Integrate</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-stream-options.png" alt="Integration page showing Transactional Stream and Bulk Stream options with Integrate buttons highlighted by red arrows" width="375"><figcaption><p>Choose stream type and click Integrate</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Copy the necessary credentials such as Host, API Token, and Template UUID.
 
-<figure><img src="../../.gitbook/assets/api-integration-credentials-transactional.png" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/api-integration-credentials-transactional.png" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID" width="375"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/api-integration-credentials-bulk.png" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/api-integration-credentials-bulk.png" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID" width="375"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -70,8 +71,3 @@ Paste the code into your project and customize it if needed. Then, run the code 
 For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api) and go to Email Sending API → Emails → Send email (including template) for transactional stream and Bulk Sending API → Emails → Send email (including template) for bulk stream. Under Body, click the dropdown menu, and choose `EmailFromTemplate`.
 {% endstep %}
 {% endstepper %}
-
-### Next steps
-
-* [Debugging](debugging.md) - Test your template integration with Email Sandbox
-* [Handlebars Guide](handlebars-guide.md) - Learn about using variables and dynamic content in templates

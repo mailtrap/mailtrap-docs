@@ -3,6 +3,7 @@ description: >-
   Analyze email performance by mailbox providers like Gmail, Outlook, and Yahoo.
   Filter by domain and category, track metrics, and identify deliverability
   issues.
+icon: mailbox
 layout:
   width: default
   title:
@@ -83,7 +84,7 @@ To immediately understand email deliverability, the table features colors that s
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/mailbox-providers-green-status.png" alt="Mailbox Providers table row with green status indicator showing good performance" width="563"></div>
 
-* Green - good results - exceed what we perceive as a satisfactory value for a particular data point.
+* <mark style="background-color:$success;">Green</mark> - good results - exceed what we perceive as a satisfactory value for a particular data point.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/mailbox-providers-yellow-status.png" alt="Mailbox Providers table row with yellow status indicator showing borderline performance" width="563"></div>
 

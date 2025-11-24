@@ -4,6 +4,7 @@ description: >-
   Understand Mailtrap email logs: search and filter sent emails by status,
   events, and provider. View event history, previews, HTML source, and spam
   analysis.
+icon: file-pen
 layout:
   width: default
   title:
@@ -26,7 +27,7 @@ It’s a place to view all the emails sent from your account, along with corresp
 
 #### How to use filters in Email Logs
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-tabs.png" alt="Email Logs page with quick filter tabs for Bounces, Spam, Google, Workspace, Outlook, Office 365, and Yahoo" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-tabs.png" alt="" width="375"></div>
 
 These filters are a quick way to find:
 
@@ -42,7 +43,7 @@ These filters are a quick way to find:
 When an email is sent, Mailtrap doesn't yet know which Mailbox Provider (e.g., Google, Outlook, Hotmail, etc.) it sent a message to. It's only able to determine this when it receives a response from the recipient's Mailbox Provider, which may sometimes take a few minutes.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-date-picker.png" alt="Date range picker for Email Logs showing calendar with selected date range" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-date-picker.png" alt="" width="375"></div>
 
 The number of days Mailtrap stores email logs depends on your [billing plan](https://mailtrap.io/pricing/).
 

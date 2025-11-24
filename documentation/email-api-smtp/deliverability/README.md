@@ -24,9 +24,9 @@ layout:
 
 Maximize your email deliverability with Mailtrap's comprehensive suite of deliverability tools. These features help you maintain a good sender reputation, manage bounces effectively, and ensure your emails reach their intended recipients.
 
-## 📚 Essential Guide
+### 📚 Essential Guide
 
-### [Email Deliverability Guide](broken-reference/)
+#### [Email Deliverability Guide](broken-reference/)
 
 **Start here!** Our comprehensive guide covers everything you need to know about achieving optimal deliverability:
 
@@ -40,16 +40,6 @@ Maximize your email deliverability with Mailtrap's comprehensive suite of delive
 **Recommended**: Read the Email Deliverability Guide first to understand best practices before configuring individual features.
 {% endhint %}
 
-## Key Features
+### Key Features
 
-### [Suppressions List](../suppressions-list.md)
-
-Automatically manage unsubscribed users and prevent sending to invalid email addresses. Keep your lists clean and maintain good sender reputation.
-
-### [Bounce Categorization](../bounce-categorization.md)
-
-Understand why emails bounce with detailed categorization. Differentiate between soft and hard bounces to take appropriate action.
-
-### [Feedback Loops](../feedback-loops.md)
-
-Receive notifications when recipients mark your emails as spam. Automatically suppress these contacts to maintain deliverability.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Suppressions List</strong></td><td><em>Automatically manage unsubscribed users and prevent sending to invalid email addresses. Keep your lists clean and maintain good sender reputation.</em></td><td><a href="../suppressions-list.md">suppressions-list.md</a></td></tr><tr><td><strong>Bounce Categorization</strong></td><td><em>Understand why emails bounce with detailed categorization. Differentiate between soft and hard bounces to take appropriate action.</em></td><td><a href="../bounce-categorization.md">bounce-categorization.md</a></td></tr><tr><td><strong>Feedback Loops</strong></td><td><em>Receive notifications when recipients mark your emails as spam. Automatically suppress these contacts to maintain deliverability.</em></td><td><a href="../feedback-loops.md">feedback-loops.md</a></td></tr></tbody></table>

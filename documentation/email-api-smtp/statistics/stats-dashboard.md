@@ -4,6 +4,7 @@ description: >-
   Understand Mailtrap stats dashboard: delivery, open, click, bounce, and spam
   rates. Learn about domain filtering, warning thresholds, and metric
   calculations.
+icon: chart-line-up
 layout:
   width: default
   title:
@@ -24,7 +25,7 @@ layout:
 
 Mailtrap provides analytics for all the emails you send.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/marketing-campaign-statistics.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-campaign-statistics.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs" width="563"></div>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -36,13 +37,13 @@ On the statistics dashboards, you can see the following metrics:
 
 **Navigating around the statistics dashboards**
 
-In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
+In that Stats tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview page with domain selector dropdown showing multiple domains" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-domain-selector.png" alt="" width="226"></div>
 
 By default, the stats are shown for the last week + today.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-mailbox-providers-overview.png" alt="Stats Overview showing mailbox provider breakdown with delivery rates, open rates, click rates, bounce rates, and spam complaints for providers like Google Workspace, Office 365, and Others" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-mailbox-providers-overview.png" alt="" width="563"></div>
 
 **Thresholds**
 
@@ -55,7 +56,7 @@ The thresholds are based on our extensive cross-industry research and, at this p
   * 0.08%-0.1% is a warning level (yellow)
   * \>0.1% is a critical level (red)
 
-**Terminology**
+#### **Terminology**
 
 **Delivered**
 
@@ -80,7 +81,7 @@ Unique open rate refers to the percentage of emails that were opened at least on
 
 Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/stats-tracking-settings.png" alt="Tracking Settings page with toggles for Track Opened Emails and Track Clicks"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-tracking-settings.png" alt="Tracking Settings page with toggles for Track Opened Emails and Track Clicks" width="563"></div>
 
 **Click rate**
 
@@ -90,7 +91,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-click-events-history.png" alt="Event History displaying Click and Open events with timestamps" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-click-events-history.png" alt="" width="292"></div>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 
