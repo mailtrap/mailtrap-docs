@@ -1,7 +1,6 @@
 ---
 title: Webhooks API Overview
 description: Receive real-time notifications about email events
-icon: webhook
 ---
 
 # Webhooks API Overview

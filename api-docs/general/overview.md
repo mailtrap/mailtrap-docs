@@ -1,7 +1,6 @@
 ---
 title: General API Overview
 description: Manage accounts, users, permissions, and billing
-icon: cog
 ---
 
 # General API Overview

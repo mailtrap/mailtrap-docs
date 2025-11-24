@@ -1,7 +1,6 @@
 ---
 title: Email Templates Overview
 description: Create and manage reusable email templates for consistent branding
-icon: file-code
 ---
 
 # Email Templates Overview

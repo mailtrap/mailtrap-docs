@@ -1,7 +1,6 @@
 ---
 title: Email API/SMTP Overview
 description: Send transactional and bulk emails through Mailtrap's reliable infrastructure
-icon: envelope
 ---
 
 # Email API/SMTP Overview
@@ -92,6 +91,20 @@ dotnet add package Mailtrap
 Here's a minimal example to send your first email:
 
 {% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -X POST https://send.api.mailtrap.io/api/send \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "from": {"email": "sender@yourdomain.com"},
+    "to": [{"email": "recipient@example.com"}],
+    "subject": "Hello from Mailtrap",
+    "text": "Welcome to Mailtrap Email API!"
+  }'
+```
+{% endtab %}
+
 {% tab title="Node.js" %}
 ```typescript
 import { MailtrapClient } from "mailtrap";
@@ -160,6 +173,49 @@ mail = Mailtrap::Mail.from_content(
 )
 
 client.send(mail)
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+import io.mailtrap.api.sendingemails.SendingEmails;
+import io.mailtrap.config.MailtrapConfig;
+import io.mailtrap.factory.MailtrapClientFactory;
+import io.mailtrap.model.request.emails.Address;
+import io.mailtrap.model.request.emails.MailtrapMail;
+
+var config = new MailtrapConfig.Builder()
+    .token("YOUR_API_KEY")
+    .build();
+
+var client = MailtrapClientFactory.createMailtrapClient(config);
+
+var mail = new MailtrapMail.Builder()
+    .from(new Address("sender@yourdomain.com"))
+    .to(List.of(new Address("recipient@example.com")))
+    .subject("Hello from Mailtrap")
+    .text("Welcome to Mailtrap Email API!")
+    .build();
+
+client.sendingApi().emails().send(mail);
+```
+{% endtab %}
+
+{% tab title="C#" %}
+```csharp
+using Mailtrap;
+
+var client = new MailtrapClient("YOUR_API_KEY");
+
+var mail = new SendEmailRequest
+{
+    From = new EmailAddress { Email = "sender@yourdomain.com" },
+    To = new[] { new EmailAddress { Email = "recipient@example.com" } },
+    Subject = "Hello from Mailtrap",
+    Text = "Welcome to Mailtrap Email API!"
+};
+
+await client.SendAsync(mail);
 ```
 {% endtab %}
 {% endtabs %}

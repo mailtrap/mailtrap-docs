@@ -1,7 +1,6 @@
 ---
 title: Contacts API Overview
 description: Manage email contacts and lists for targeted campaigns
-icon: address-book
 ---
 
 # Contacts API Overview

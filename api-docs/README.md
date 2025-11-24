@@ -1,7 +1,6 @@
 ---
 title: Mailtrap API Reference
 description: Complete API documentation for Mailtrap email infrastructure
-icon: code
 ---
 
 # Mailtrap API Reference

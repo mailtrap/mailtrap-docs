@@ -1,7 +1,6 @@
 ---
 title: Email Sandbox Overview
 description: Test email sending in a safe environment before going to production
-icon: flask
 ---
 
 # Email Sandbox Overview
