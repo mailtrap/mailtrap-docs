@@ -1,21 +1,69 @@
 # Table of contents
 
-* [Developer Platform API](README.md)
+* [API Reference](README.md)
 
-## Email API
+## Email API/SMTP
 
-* [Page 1](email-api/page-1.md)
+* [Overview](email-api/overview.md)
 * ```yaml
   type: builtin:openapi
   props:
-    models: false
-    downloadLink: false
+    models: true
+    downloadLink: true
+    expandOperations: false
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: mailtrap-transactional
+        spec: email-api
   ```
+
+## Email Sandbox
+
+* [Overview](sandbox/overview.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: sandbox
+  ```
+
+## Email Marketing
+
+* [Contacts API](contacts/overview.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: contacts
+  ```
+
+* [Email Templates](templates/overview.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: email-templates
+  ```
+
+## Account Management
+
+* [General API](general/overview.md)
 * ```yaml
   type: builtin:openapi
   props:
@@ -25,5 +73,20 @@
     spec:
       ref:
         kind: openapi
-        spec: mailtrap-bulk
+        spec: general
+  ```
+
+## Webhooks
+
+* [Webhooks API](webhooks/overview.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: webhooks
   ```
