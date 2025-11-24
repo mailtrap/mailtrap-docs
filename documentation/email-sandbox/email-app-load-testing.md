@@ -3,7 +3,6 @@ title: Email app load testing
 description: >-
   Test your email application at scale using the Sandbox Enterprise plan with up
   to 150 emails per 10 seconds across 300 sandboxes
-icon: bolt-lightning
 ---
 
 # Load Testing

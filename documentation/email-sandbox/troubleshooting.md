@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting - Email Sandbox
 description: Common issues and solutions for Mailtrap Email Sandbox
-icon: wrench
 ---
 
 # Troubleshooting

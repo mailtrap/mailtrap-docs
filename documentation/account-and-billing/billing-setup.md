@@ -4,7 +4,6 @@ description: >-
   Manage your Mailtrap billing details, payment methods, and invoices. Learn how
   to add or change your credit card, view payment history, and set up billing
   information.
-icon: gears
 ---
 
 # Billing Setup

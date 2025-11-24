@@ -4,7 +4,6 @@ description: >-
   Manage user roles and permissions in your Mailtrap account. Learn about
   account owners, admins, viewers, domain permissions, template access, and
   billing roles.
-icon: users-rectangle
 ---
 
 ## Overview

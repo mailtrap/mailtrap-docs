@@ -3,7 +3,6 @@ title: Searching messages
 description: >-
   Search for emails in your sandbox by subject, recipient address, or recipient
   name
-icon: magnifying-glass
 ---
 
 # Searching Messages

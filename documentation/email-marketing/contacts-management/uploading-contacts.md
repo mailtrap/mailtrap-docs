@@ -1,7 +1,6 @@
 ---
 title: Uploading Contacts
 description: Import contacts via CSV, API, or third-party integrations
-icon: upload
 ---
 
 # Uploading Contacts

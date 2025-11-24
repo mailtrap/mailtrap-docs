@@ -4,7 +4,6 @@ description: >-
   Understand Mailtrap email logs: search and filter sent emails by status,
   events, and provider. View event history, previews, HTML source, and spam
   analysis.
-icon: file-pen
 layout:
   width: default
   title:

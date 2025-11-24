@@ -4,7 +4,6 @@ description: >-
   Understand Mailtrap email categories: organize email types like welcome,
   onboarding, or billing. Track performance, analyze metrics, and compare
   categories.
-icon: tag
 layout:
   width: default
   title:

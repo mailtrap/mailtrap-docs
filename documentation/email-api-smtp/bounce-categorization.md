@@ -4,7 +4,6 @@ description: >-
   Understand how Mailtrap categorizes email bounces based on MX server
   responses, including bounce types, descriptions, and automatic suppression
   rules.
-icon: turn-down-left
 layout:
   width: default
   title:

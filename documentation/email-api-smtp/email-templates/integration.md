@@ -3,7 +3,6 @@ title: Template Integration - Email API/SMTP
 description: >-
   Learn how to integrate Mailtrap email templates with Email API/SMTP using
   Transactional or Bulk streams.
-icon: link
 layout:
   width: default
   title:

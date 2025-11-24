@@ -3,7 +3,6 @@ description: >-
   Analyze email performance by mailbox providers like Gmail, Outlook, and Yahoo.
   Filter by domain and category, track metrics, and identify deliverability
   issues.
-icon: mailbox
 layout:
   width: default
   title:

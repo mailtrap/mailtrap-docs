@@ -1,7 +1,6 @@
 ---
 title: Lists
 description: Organize contacts into targeted groups for effective email campaigns
-icon: list
 ---
 
 # Lists

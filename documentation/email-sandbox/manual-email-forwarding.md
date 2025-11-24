@@ -3,7 +3,6 @@ title: Manual email forwarding
 description: >-
   Forward individual emails from sandbox to any inbox for testing in different
   clients or notifying colleagues
-icon: arrow-turn-down-right
 ---
 
 # Manual Forwarding

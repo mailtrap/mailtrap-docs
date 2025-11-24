@@ -1,7 +1,6 @@
 ---
 title: Email Templates
 description: Design, edit, and host HTML email templates and reference them via API
-icon: palette
 ---
 
 # Email Templates

@@ -3,7 +3,6 @@ title: SSO Guide
 description: >-
   Learn how to configure SAML 2.0 single sign-on (SSO) with Mailtrap using any
   Identity Provider that supports the SAML 2.0 protocol.
-icon: key
 ---
 
 # SSO Guide

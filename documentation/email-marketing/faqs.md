@@ -1,7 +1,6 @@
 ---
 title: Email Marketing FAQs
 description: Frequently asked questions about Mailtrap Email Marketing
-icon: question
 ---
 
 # FAQs

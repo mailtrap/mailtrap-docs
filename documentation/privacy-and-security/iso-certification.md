@@ -3,7 +3,6 @@ title: ISO Certification
 description: >-
   Learn about Mailtrap's ISO/IEC 27001:2022 certification and information
   security standards
-icon: file-certificate
 ---
 
 # ISO Certification

@@ -2,7 +2,6 @@
 description: >-
   Learn Mailtrap email sending limits: hourly, daily, connection, and email
   size. Understand what happens when limits are reached and how to upgrade.
-icon: triangle-exclamation
 layout:
   width: default
   title:

@@ -3,7 +3,6 @@ title: Sending Domain Setup
 description: >-
   Set up your sending domain in Mailtrap. Add DNS records, verify
   SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
-icon: globe
 layout:
   width: default
   title:

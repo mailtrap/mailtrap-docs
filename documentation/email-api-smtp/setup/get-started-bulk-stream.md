@@ -3,7 +3,6 @@ title: Bulk Stream
 description: >-
   Integrate Mailtrap Bulk Stream via API or SMTP. Get credentials, use SDKs or
   code samples, and send promotional emails with built-in compliance features.
-icon: envelopes-bulk
 layout:
   width: default
   title:

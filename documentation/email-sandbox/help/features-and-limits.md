@@ -1,7 +1,6 @@
 ---
 title: Features and limits
 description: All Mailtrap features and possible limits explained
-icon: list-radio
 ---
 
 # Features and Limits

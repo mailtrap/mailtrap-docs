@@ -3,7 +3,6 @@ title: Custom Fields
 description: >-
   Create and manage custom fields to store additional contact information for
   personalization
-icon: table-columns
 ---
 
 # Custom Fields

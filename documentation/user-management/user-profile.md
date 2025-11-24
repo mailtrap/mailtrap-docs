@@ -4,7 +4,6 @@ description: >-
   Manage your Mailtrap user profile and account settings. Learn how to update
   your profile, delete your user account, create new accounts, and leave
   existing accounts.
-icon: user
 ---
 
 # User Profile

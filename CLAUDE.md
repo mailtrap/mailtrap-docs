@@ -187,6 +187,6 @@ When creating or editing documentation:
 - If makes sense and use page links as a separate blocks
 
 ## OpenAPI
-- Never change base URL in Open API specs
+- Never change base URL in Open API specs, a correct base URL has to be displayed
 - Base url to be https://send.api.mailtrap.io/ for transactional emails, https://bulk.api.mailtrap.io/api/send for bulk emails, and https://mailtrap.io for the rest
 - Use Prism.js language tags for code snippets and OpenApi specs (lang)

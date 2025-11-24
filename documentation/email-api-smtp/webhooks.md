@@ -3,7 +3,6 @@ title: Webhooks
 description: >-
   Set up webhooks to receive real-time notifications about email deliverability
   events and account activities within your Mailtrap account.
-icon: webhook
 layout:
   width: default
   title:

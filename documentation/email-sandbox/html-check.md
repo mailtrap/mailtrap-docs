@@ -3,7 +3,6 @@ title: HTML Check
 description: >-
   Learn how HTML Check scans your email for problematic elements and provides
   market support scores
-icon: square-check
 ---
 
 # HTML Check

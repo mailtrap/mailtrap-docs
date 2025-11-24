@@ -4,7 +4,6 @@ description: >-
   Manage your Mailtrap user profile settings, including email address, password,
   OAuth providers, and account access. Learn how to delete your profile or
   switch between accounts.
-icon: head-side
 ---
 
 # My Profile

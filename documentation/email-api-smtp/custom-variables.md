@@ -3,7 +3,6 @@ title: Custom Variables
 description: >-
   Add unique data to your emails with custom variables. Track user IDs, inbox
   IDs, and other metadata via Email Logs using X-MT-Custom-Variables header.
-icon: square-root-variable
 layout:
   width: default
   title:

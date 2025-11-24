@@ -3,7 +3,6 @@ title: Automations
 description: >-
   Create automated email sequences to engage your contacts with triggers,
   actions, and rules
-icon: robot
 ---
 
 # Automations

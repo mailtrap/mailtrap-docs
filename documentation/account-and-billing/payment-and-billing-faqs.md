@@ -4,7 +4,6 @@ description: >-
   Common questions about Mailtrap pricing, payments, invoices, subscriptions,
   and billing. Find answers to questions about plans, upgrades, refunds, and
   payment methods.
-icon: question
 ---
 
 ## How does Mailtrap pricing work?

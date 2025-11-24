@@ -4,7 +4,6 @@ description: >-
   Understand Mailtrap stats dashboard: delivery, open, click, bounce, and spam
   rates. Learn about domain filtering, warning thresholds, and metric
   calculations.
-icon: chart-line-up
 layout:
   width: default
   title:

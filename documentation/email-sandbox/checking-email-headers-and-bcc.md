@@ -1,7 +1,6 @@
 ---
 title: Checking email headers and Bcc
 description: Learn how to verify email headers including Subject, From, To, and Bcc fields
-icon: memo
 ---
 
 # Email Headers and Bcc
