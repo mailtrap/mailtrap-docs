@@ -1,96 +1,227 @@
 ---
 title: Email Templates Overview
 description: Create and manage reusable email templates for consistent branding
-icon: memo-circle-check
 ---
 
 # Overview
 
 Email Templates allow you to create reusable email designs with dynamic content. Maintain consistent branding, reduce errors, and speed up email creation with centralized template management.
 
-## Benefits of Email Templates
+## Create a Template
 
-{% columns %}
-{% column %}
-### Consistent Branding
-Ensure all emails follow your brand guidelines with centralized templates.
-{% endcolumn %}
+Create templates using the Mailtrap UI or via API.
 
-{% column %}
-### Dynamic Content
-Use variables to personalize emails while maintaining consistent structure.
-{% endcolumn %}
+For step-by-step instructions on creating templates in the Mailtrap interface, see [Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/email-templates).
 
-{% column %}
-### Easy Updates
-Update templates in one place to apply changes across all emails.
-{% endcolumn %}
-{% endcolumns %}
+## Save Template via API
 
-## Getting Started
+Store your template using the API:
 
-{% stepper %}
-{% step %}
-### Create a Template
-
-Design your email template with placeholders for dynamic content:
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    .header { background: #007bff; color: white; padding: 20px; }
-    .content { padding: 20px; font-family: Arial, sans-serif; }
-    .button { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-  </style>
-</head>
-<body>
-  <div class="header">
-    <h1>Welcome, {{user_name}}!</h1>
-  </div>
-  <div class="content">
-    <p>Thank you for joining {{company_name}}.</p>
-    <p>Your account is ready. Get started by exploring our features:</p>
-    <a href="{{dashboard_url}}" class="button">Go to Dashboard</a>
-  </div>
-</body>
-</html>
+{% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -X POST "https://mailtrap.io/api/accounts/{account_id}/email_templates" \
+  -H "Api-Token: YOUR_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "email_template": {
+      "name": "Welcome Email",
+      "subject": "Welcome to {{company_name}}, {{user_name}}!",
+      "category": "Onboarding",
+      "body_html": "<html><body><h1>Welcome {{user_name}}!</h1></body></html>",
+      "body_text": "Welcome {{user_name}}!"
+    }
+  }'
 ```
-{% endstep %}
+{% endtab %}
 
-{% step %}
-### Save Template via API
-
-Store your template in Mailtrap:
-
+{% tab title="Node.js" %}
 ```javascript
-const response = await fetch('https://mailtrap.io/api/accounts/{account_id}/templates', {
+const response = await fetch('https://mailtrap.io/api/accounts/{account_id}/email_templates', {
   method: 'POST',
   headers: {
     'Api-Token': 'YOUR_API_TOKEN',
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    name: 'Welcome Email',
-    subject: 'Welcome to {{company_name}}, {{user_name}}!',
-    html: htmlContent,
-    text: textContent,
-    category: 'Onboarding'
+    email_template: {
+      name: 'Welcome Email',
+      subject: 'Welcome to {{company_name}}, {{user_name}}!',
+      category: 'Onboarding',
+      body_html: '<html><body><h1>Welcome {{user_name}}!</h1></body></html>',
+      body_text: 'Welcome {{user_name}}!'
+    }
   })
 });
 
 const template = await response.json();
 // Returns: { uuid: 'abc-123-def', name: 'Welcome Email', ... }
 ```
-{% endstep %}
+{% endtab %}
 
-{% step %}
-### Send Email Using Template
+{% tab title="PHP" %}
+```php
+$curl = curl_init();
+
+curl_setopt_array($curl, [
+    CURLOPT_URL => "https://mailtrap.io/api/accounts/{account_id}/email_templates",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST => true,
+    CURLOPT_HTTPHEADER => [
+        "Api-Token: YOUR_API_TOKEN",
+        "Content-Type: application/json"
+    ],
+    CURLOPT_POSTFIELDS => json_encode([
+        "email_template" => [
+            "name" => "Welcome Email",
+            "subject" => "Welcome to {{company_name}}, {{user_name}}!",
+            "category" => "Onboarding",
+            "body_html" => "<html><body><h1>Welcome {{user_name}}!</h1></body></html>",
+            "body_text" => "Welcome {{user_name}}!"
+        ]
+    ])
+]);
+
+$response = curl_exec($curl);
+curl_close($curl);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import requests
+
+response = requests.post(
+    "https://mailtrap.io/api/accounts/{account_id}/email_templates",
+    headers={
+        "Api-Token": "YOUR_API_TOKEN",
+        "Content-Type": "application/json"
+    },
+    json={
+        "email_template": {
+            "name": "Welcome Email",
+            "subject": "Welcome to {{company_name}}, {{user_name}}!",
+            "category": "Onboarding",
+            "body_html": "<html><body><h1>Welcome {{user_name}}!</h1></body></html>",
+            "body_text": "Welcome {{user_name}}!"
+        }
+    }
+)
+
+template = response.json()
+```
+{% endtab %}
+
+{% tab title="Ruby" %}
+```ruby
+require 'net/http'
+require 'json'
+require 'uri'
+
+uri = URI("https://mailtrap.io/api/accounts/{account_id}/email_templates")
+http = Net::HTTP.new(uri.host, uri.port)
+http.use_ssl = true
+
+request = Net::HTTP::Post.new(uri)
+request["Api-Token"] = "YOUR_API_TOKEN"
+request["Content-Type"] = "application/json"
+request.body = {
+  email_template: {
+    name: "Welcome Email",
+    subject: "Welcome to {{company_name}}, {{user_name}}!",
+    category: "Onboarding",
+    body_html: "<html><body><h1>Welcome {{user_name}}!</h1></body></html>",
+    body_text: "Welcome {{user_name}}!"
+  }
+}.to_json
+
+response = http.request(request)
+```
+{% endtab %}
+
+{% tab title=".NET" %}
+```csharp
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+
+var client = new HttpClient();
+client.DefaultRequestHeaders.Add("Api-Token", "YOUR_API_TOKEN");
+
+var content = new StringContent(
+    JsonSerializer.Serialize(new {
+        email_template = new {
+            name = "Welcome Email",
+            subject = "Welcome to {{company_name}}, {{user_name}}!",
+            category = "Onboarding",
+            body_html = "<html><body><h1>Welcome {{user_name}}!</h1></body></html>",
+            body_text = "Welcome {{user_name}}!"
+        }
+    }),
+    Encoding.UTF8,
+    "application/json"
+);
+
+var response = await client.PostAsync(
+    "https://mailtrap.io/api/accounts/{account_id}/email_templates",
+    content
+);
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+import java.net.http.*;
+import java.net.URI;
+
+HttpClient client = HttpClient.newHttpClient();
+
+String json = """
+    {
+      "email_template": {
+        "name": "Welcome Email",
+        "subject": "Welcome to {{company_name}}, {{user_name}}!",
+        "category": "Onboarding",
+        "body_html": "<html><body><h1>Welcome {{user_name}}!</h1></body></html>",
+        "body_text": "Welcome {{user_name}}!"
+      }
+    }
+    """;
+
+HttpRequest request = HttpRequest.newBuilder()
+    .uri(URI.create("https://mailtrap.io/api/accounts/{account_id}/email_templates"))
+    .header("Api-Token", "YOUR_API_TOKEN")
+    .header("Content-Type", "application/json")
+    .POST(HttpRequest.BodyPublishers.ofString(json))
+    .build();
+
+HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+```
+{% endtab %}
+{% endtabs %}
+
+## Send Email Using Template
 
 Use the template UUID to send personalized emails:
 
 {% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -X POST "https://send.api.mailtrap.io/api/send" \
+  -H "Authorization: Bearer YOUR_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "from": {"email": "noreply@example.com"},
+    "to": [{"email": "user@example.com"}],
+    "template_uuid": "abc-123-def",
+    "template_variables": {
+      "user_name": "John Doe",
+      "company_name": "Acme Corp"
+    }
+  }'
+```
+{% endtab %}
+
 {% tab title="Node.js" %}
 ```javascript
 import { MailtrapClient } from "mailtrap";
@@ -102,32 +233,12 @@ const client = new MailtrapClient({
 await client.send({
   from: { email: "noreply@example.com" },
   to: [{ email: "user@example.com" }],
-  template_uuid: 'abc-123-def',
+  template_uuid: "abc-123-def",
   template_variables: {
-    user_name: 'John Doe',
-    company_name: 'Acme Corp',
-    dashboard_url: 'https://app.example.com/dashboard'
+    user_name: "John Doe",
+    company_name: "Acme Corp"
   }
 });
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```python
-import mailtrap as mt
-
-client = mt.MailtrapClient(token="YOUR_API_KEY")
-
-client.send(mt.Mail(
-    sender=mt.Address(email="noreply@example.com"),
-    to=[mt.Address(email="user@example.com")],
-    template_uuid="abc-123-def",
-    template_variables={
-        "user_name": "John Doe",
-        "company_name": "Acme Corp",
-        "dashboard_url": "https://app.example.com/dashboard"
-    }
-))
 ```
 {% endtab %}
 
@@ -147,11 +258,28 @@ $email = (new MailtrapEmail())
     ->templateUuid('abc-123-def')
     ->templateVariables([
         'user_name' => 'John Doe',
-        'company_name' => 'Acme Corp',
-        'dashboard_url' => 'https://app.example.com/dashboard'
+        'company_name' => 'Acme Corp'
     ]);
 
 $mailtrap->send($email);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import mailtrap as mt
+
+client = mt.MailtrapClient(token="YOUR_API_KEY")
+
+client.send(mt.Mail(
+    sender=mt.Address(email="noreply@example.com"),
+    to=[mt.Address(email="user@example.com")],
+    template_uuid="abc-123-def",
+    template_variables={
+        "user_name": "John Doe",
+        "company_name": "Acme Corp"
+    }
+))
 ```
 {% endtab %}
 
@@ -167,305 +295,66 @@ mail = Mailtrap::Mail.from_template(
   template_uuid: 'abc-123-def',
   template_variables: {
     user_name: 'John Doe',
-    company_name: 'Acme Corp',
-    dashboard_url: 'https://app.example.com/dashboard'
+    company_name: 'Acme Corp'
   }
 )
 
 client.send(mail)
 ```
 {% endtab %}
+
+{% tab title=".NET" %}
+```csharp
+using Mailtrap;
+
+var client = new MailtrapClient("YOUR_API_KEY");
+
+await client.SendAsync(new MailtrapMessage
+{
+    From = new MailtrapAddress { Email = "noreply@example.com" },
+    To = new[] { new MailtrapAddress { Email = "user@example.com" } },
+    TemplateUuid = "abc-123-def",
+    TemplateVariables = new Dictionary<string, object>
+    {
+        { "user_name", "John Doe" },
+        { "company_name", "Acme Corp" }
+    }
+});
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+import io.mailtrap.api.MailtrapClient;
+import io.mailtrap.model.*;
+
+MailtrapClient client = new MailtrapClient("YOUR_API_KEY");
+
+Email email = Email.builder()
+    .from(new Address("noreply@example.com"))
+    .to(List.of(new Address("user@example.com")))
+    .templateUuid("abc-123-def")
+    .templateVariables(Map.of(
+        "user_name", "John Doe",
+        "company_name", "Acme Corp"
+    ))
+    .build();
+
+client.send(email);
+```
+{% endtab %}
 {% endtabs %}
-{% endstep %}
-{% endstepper %}
 
 ## Template Variables
 
-### Basic Variables
+Templates support Handlebars syntax for dynamic content including variables, conditionals, and loops.
 
-Use double curly braces for simple text replacement:
+For complete syntax reference and examples, see [Handlebars Guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates/handlebars-guide).
 
-```html
-<p>Hello {{first_name}} {{last_name}}!</p>
-<p>Your order #{{order_number}} has been confirmed.</p>
-```
+## Testing Templates
 
-### Nested Objects
+You can test your templates using Email Sandbox before sending to production.
 
-Access nested properties with dot notation:
-
-```html
-<p>Shipping to: {{address.street}}, {{address.city}}, {{address.country}}</p>
-<p>Total: ${{order.total}}</p>
-```
-
-### Conditionals
-
-Show content based on variable values:
-
-```html
-{{#if premium_user}}
-  <p>Thank you for being a Premium member!</p>
-{{else}}
-  <p>Upgrade to Premium for exclusive benefits.</p>
-{{/if}}
-```
-
-### Loops
-
-Iterate over arrays:
-
-```html
-<ul>
-{{#each items}}
-  <li>{{this.name}} - ${{this.price}}</li>
-{{/each}}
-</ul>
-```
-
-## Template Categories
-
-Organize templates by use case:
-
-{% tabs %}
-{% tab title="Transactional" %}
-**Account & Security**
-- Welcome emails
-- Password reset
-- Email verification
-- 2FA codes
-- Account updates
-{% endtab %}
-
-{% tab title="Notifications" %}
-**System & Activity**
-- Order confirmations
-- Shipping updates
-- Payment receipts
-- Activity alerts
-- System notifications
-{% endtab %}
-
-{% tab title="Marketing" %}
-**Campaigns & Engagement**
-- Newsletters
-- Promotions
-- Product updates
-- Event invitations
-- Re-engagement
-{% endtab %}
-
-{% tab title="Lifecycle" %}
-**User Journey**
-- Onboarding series
-- Trial expiration
-- Renewal reminders
-- Win-back campaigns
-- Surveys
-{% endtab %}
-{% endtabs %}
-
-## Template Management
-
-### List All Templates
-
-```javascript
-const response = await fetch(
-  'https://mailtrap.io/api/accounts/{account_id}/templates',
-  {
-    headers: { 'Api-Token': 'YOUR_API_TOKEN' }
-  }
-);
-
-const templates = await response.json();
-// Returns array of template objects
-```
-
-### Update Template
-
-```javascript
-await fetch(
-  `https://mailtrap.io/api/accounts/{account_id}/templates/${templateId}`,
-  {
-    method: 'PUT',
-    headers: {
-      'Api-Token': 'YOUR_API_TOKEN',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      name: 'Updated Welcome Email',
-      html: updatedHtml,
-      text: updatedText
-    })
-  }
-);
-```
-
-### Delete Template
-
-```javascript
-await fetch(
-  `https://mailtrap.io/api/accounts/{account_id}/templates/${templateId}`,
-  {
-    method: 'DELETE',
-    headers: { 'Api-Token': 'YOUR_API_TOKEN' }
-  }
-);
-```
-
-## Best Practices
-
-### Template Design
-
-{% hint style="success" %}
-**Mobile-First**: Design templates that work well on mobile devices (60% of emails are opened on mobile).
-{% endhint %}
-
-1. **Single Column Layout**: Best for mobile readability
-2. **Large CTAs**: Minimum 44x44 pixels for touch targets
-3. **Web Fonts Fallback**: Include system font fallbacks
-4. **Alt Text**: Always include for images
-5. **Preheader Text**: Optimize preview text
-
-### Variable Naming
-
-Use consistent, descriptive variable names:
-
-```javascript
-// Good
-template_variables: {
-  user_first_name: 'John',
-  order_total_amount: 99.99,
-  shipping_tracking_number: 'ABC123'
-}
-
-// Avoid
-template_variables: {
-  name: 'John',      // Too generic
-  amt: 99.99,        // Unclear abbreviation
-  track: 'ABC123'    // Ambiguous
-}
-```
-
-### Testing Templates
-
-{% hint style="info" %}
-Always test templates with different variable values and email clients.
-{% endhint %}
-
-```javascript
-// Test with various data scenarios
-const testCases = [
-  { user_name: 'John', items: ['Item1', 'Item2'] },    // Normal case
-  { user_name: 'A very long name here', items: [] },   // Edge cases
-  { user_name: '', items: null }                        // Missing data
-];
-
-for (const testData of testCases) {
-  await sendTestEmail(template, testData);
-}
-```
-
-## Template Examples
-
-### Welcome Email
-
-```html
-<div style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;">
-  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; text-align: center; color: white;">
-    <h1 style="margin: 0;">Welcome to {{company_name}}!</h1>
-  </div>
-
-  <div style="padding: 40px; background: #f7f7f7;">
-    <h2>Hi {{user_name}},</h2>
-    <p>We're thrilled to have you on board! Your account is all set up and ready to go.</p>
-
-    <div style="background: white; padding: 20px; border-radius: 8px; margin: 20px 0;">
-      <h3>Get Started:</h3>
-      <ol>
-        <li>Complete your profile</li>
-        <li>Explore our features</li>
-        <li>Connect with the community</li>
-      </ol>
-    </div>
-
-    <div style="text-align: center; margin: 30px 0;">
-      <a href="{{activation_url}}" style="display: inline-block; padding: 15px 30px; background: #667eea; color: white; text-decoration: none; border-radius: 5px;">
-        Activate Account
-      </a>
-    </div>
-
-    <p style="color: #666; font-size: 14px;">
-      If you have any questions, reply to this email or visit our
-      <a href="{{help_url}}">Help Center</a>.
-    </p>
-  </div>
-</div>
-```
-
-### Order Confirmation
-
-```html
-<div style="max-width: 600px; margin: 0 auto;">
-  <h2>Order Confirmed!</h2>
-  <p>Hi {{customer_name}}, your order #{{order_number}} has been received.</p>
-
-  <table style="width: 100%; border-collapse: collapse;">
-    <thead>
-      <tr style="background: #f0f0f0;">
-        <th style="padding: 10px; text-align: left;">Item</th>
-        <th style="padding: 10px; text-align: right;">Quantity</th>
-        <th style="padding: 10px; text-align: right;">Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{#each items}}
-      <tr>
-        <td style="padding: 10px; border-bottom: 1px solid #eee;">{{this.name}}</td>
-        <td style="padding: 10px; border-bottom: 1px solid #eee; text-align: right;">{{this.quantity}}</td>
-        <td style="padding: 10px; border-bottom: 1px solid #eee; text-align: right;">${{this.price}}</td>
-      </tr>
-      {{/each}}
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="2" style="padding: 10px; text-align: right;"><strong>Total:</strong></td>
-        <td style="padding: 10px; text-align: right;"><strong>${{order_total}}</strong></td>
-      </tr>
-    </tfoot>
-  </table>
-
-  <div style="margin-top: 30px; padding: 20px; background: #f9f9f9; border-radius: 5px;">
-    <h3>Shipping Address:</h3>
-    <p>{{shipping_address}}</p>
-    <p>Estimated delivery: {{delivery_date}}</p>
-  </div>
-</div>
-```
-
-## Version Control
-
-{% hint style="warning" %}
-Always version your templates when making significant changes.
-{% endhint %}
-
-```javascript
-// Maintain template versions
-const templateVersions = {
-  'welcome_v1': 'abc-123',  // Original
-  'welcome_v2': 'def-456',  // Updated design
-  'welcome_v3': 'ghi-789'   // Current version
-};
-
-// Gradual rollout
-const useNewTemplate = Math.random() < 0.1; // 10% get new version
-const templateId = useNewTemplate ?
-  templateVersions.welcome_v3 :
-  templateVersions.welcome_v2;
-```
-
-## Next Steps
-
-{% hint style="success" %}
-Start creating powerful, reusable email templates! Check out the API reference below for detailed endpoints and examples.
-{% endhint %}
+For detailed instructions on template debugging, see:
+- [Email Sandbox API Overview](../sandbox/overview.md)
+- [Debugging with Sandbox](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates/debugging)

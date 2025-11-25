@@ -17,7 +17,7 @@
         kind: openapi
         spec: email-api
   ```
-* [Templates](templates/overview.md)
+* [Email Templates](templates/overview.md)
 * ```yaml
   type: builtin:openapi
   props:

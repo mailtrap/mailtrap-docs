@@ -1,7 +1,7 @@
 ---
 title: Email API Overview
 description: Send transactional and bulk emails through Mailtrap's reliable infrastructure
-icon: memo-circle-check
+icon: envelope
 ---
 
 # Overview
