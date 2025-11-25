@@ -253,7 +253,7 @@ Optimized for high-volume marketing campaigns:
 **Endpoint:** `https://bulk.api.mailtrap.io/api/send`
 
 {% hint style="info" %}
-Learn more about [Bulk Stream](https://docs.mailtrap.io/docs/mailtrap-docs/m/email-api-smtp/setup/get-started-bulk-stream) and when to use it for your marketing emails.
+Learn more about [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/get-started-bulk-stream) and when to use it for your marketing emails.
 {% endhint %}
 
 ### Batch Sending
@@ -268,7 +268,7 @@ Send up to 500 emails in a single API call:
 **Endpoint:** `https://send.api.mailtrap.io/api/batch` or `https://bulk.api.mailtrap.io/api/batch`
 
 {% hint style="info" %}
-Use `send.api.mailtrap.io` for transactional batch emails or `bulk.api.mailtrap.io` for marketing batch emails, depending on your [stream](https://docs.mailtrap.io/docs/mailtrap-docs/m/email-api-smtp/setup/get-started-bulk-stream).
+Use `send.api.mailtrap.io` for transactional batch emails or `bulk.api.mailtrap.io` for marketing batch emails, depending on your [stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/get-started-bulk-stream).
 {% endhint %}
 
 **Limits:** 500 messages per call, 50 MB total payload
