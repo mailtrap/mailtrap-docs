@@ -17,6 +17,18 @@
         kind: openapi
         spec: email-api
   ```
+* [Templates](templates/overview.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: true
+      downloadLink: true
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: email-templates
+    ```
 
 ## Email Sandbox
 
@@ -46,21 +58,6 @@
       ref:
         kind: openapi
         spec: contacts
-  ```
-
-## Email Templates
-
-* [Overview](templates/overview.md)
-* ```yaml
-  type: builtin:openapi
-  props:
-    models: true
-    downloadLink: true
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: email-templates
   ```
 
 ## Account Management

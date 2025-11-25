@@ -1,9 +1,10 @@
 ---
 title: Email Sandbox API Overview
 description: Test email sending in a safe environment before going to production
+icon: memo-circle-check
 ---
 
-# Email Sandbox API Overview
+# Overview
 
 Mailtrap Email Sandbox provides a safe testing environment for email development. Capture and inspect emails without sending them to real recipients, perfect for development, staging, and QA environments.
 

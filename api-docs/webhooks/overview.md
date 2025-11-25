@@ -1,9 +1,10 @@
 ---
 title: Webhooks API Overview
 description: Receive real-time notifications about email events
+icon: memo-circle-check
 ---
 
-# Webhooks API Overview
+# Overview
 
 Webhooks allow you to receive real-time notifications about email events directly to your server. Instead of polling for updates, Mailtrap will push event data to your endpoint as soon as events occur.
 
@@ -31,7 +32,6 @@ app.post('/webhooks/mailtrap', (req, res) => {
 2. Click "Add Webhook"
 3. Enter your endpoint URL
 4. Select events to receive
-5. Choose payload format (JSON or Form Data)
 {% endstep %}
 
 {% step %}
@@ -67,57 +67,16 @@ switch(event.type) {
 
 ## Supported Events
 
-### Email Delivery Events
-
-{% columns %}
-{% column %}
-**Delivery**
-Email successfully delivered to recipient's mailbox.
-{% endcolumn %}
-
-{% column %}
-**Bounce**
-Permanent delivery failure (e.g., invalid email address).
-{% endcolumn %}
-
-{% column %}
-**Soft Bounce**
-Temporary delivery failure (e.g., mailbox full).
-{% endcolumn %}
-{% endcolumns %}
-
-### Engagement Events
-
-{% columns %}
-{% column %}
-**Open**
-Recipient opened the email.
-{% endcolumn %}
-
-{% column %}
-**Click**
-Recipient clicked a link in the email.
-{% endcolumn %}
-
-{% column %}
-**Unsubscribe**
-Recipient unsubscribed from emails.
-{% endcolumn %}
-{% endcolumns %}
-
-### Compliance Events
-
-{% columns %}
-{% column %}
-**Spam Report**
-Recipient marked email as spam.
-{% endcolumn %}
-
-{% column %}
-**Suspension**
-Email address added to suppression list.
-{% endcolumn %}
-{% endcolumns %}
+| Event | Description |
+|-------|-------------|
+| `delivery` | Email successfully delivered to recipient's mailbox |
+| `bounce` | Permanent delivery failure (e.g., invalid email address) |
+| `soft_bounce` | Temporary delivery failure (e.g., mailbox full) |
+| `open` | Recipient opened the email |
+| `click` | Recipient clicked a link in the email |
+| `unsubscribe` | Recipient unsubscribed from emails |
+| `spam` | Recipient marked email as spam |
+| `suspension` | Email address added to suppression list |
 
 ## Webhook Security
 
@@ -128,17 +87,12 @@ Always verify webhook authenticity to prevent unauthorized requests.
 ### Best Practices
 
 1. **Use HTTPS Only**: Always use HTTPS endpoints for security
-2. **Verify Signatures**: Check `X-Mailtrap-Signature` header
-3. **Whitelist IPs**: Only accept webhooks from Mailtrap IP addresses
-4. **Implement Idempotency**: Use `event_id` to prevent duplicate processing
-5. **Async Processing**: Process webhooks asynchronously to avoid timeouts
-6. **Error Handling**: Implement proper error handling and retries
+2. **Use Basic Authentication**: Configure your endpoint with Basic Auth credentials to verify requests
+3. **Implement Idempotency**: Use `event_id` to prevent duplicate processing
+4. **Async Processing**: Process webhooks asynchronously to avoid timeouts
+5. **Error Handling**: Implement proper error handling and retries
 
-## Payload Formats
-
-### JSON Format
-
-Most common format for modern applications:
+## Payload Format
 
 ```json
 {
@@ -152,14 +106,6 @@ Most common format for modern applications:
     }
   ]
 }
-```
-
-### Form Data Format
-
-Legacy format for compatibility with older systems:
-
-```
-event=delivery&email=recipient@example.com&message_id=abc-123
 ```
 
 ## Event Data
@@ -241,32 +187,3 @@ ngrok http 3000
 - [Webhook.site](https://webhook.site) - Test webhook payloads
 - [RequestBin](https://requestbin.com) - Inspect webhook requests
 - [Postman](https://www.postman.com) - Test and mock webhooks
-
-## Troubleshooting
-
-### Common Issues
-
-{% expand title="Webhook not receiving events" %}
-- Verify endpoint URL is correct and accessible
-- Check firewall rules allow Mailtrap IPs
-- Ensure HTTPS certificate is valid
-- Confirm webhook is enabled in settings
-{% endexpand %}
-
-{% expand title="Getting 401 Unauthorized" %}
-- Verify signature validation logic
-- Check API credentials are correct
-- Ensure timestamp validation window is appropriate
-{% endexpand %}
-
-{% expand title="Duplicate events received" %}
-- Implement idempotency using `event_id`
-- Store processed event IDs in cache/database
-- Return 200 immediately, process async
-{% endexpand %}
-
-## Next Steps
-
-{% hint style="success" %}
-Ready to implement webhooks? Check out the full API reference below for detailed specifications and code examples.
-{% endhint %}

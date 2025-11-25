@@ -1,9 +1,10 @@
 ---
 title: Email Templates Overview
 description: Create and manage reusable email templates for consistent branding
+icon: memo-circle-check
 ---
 
-# Email Templates Overview
+# Overview
 
 Email Templates allow you to create reusable email designs with dynamic content. Maintain consistent branding, reduce errors, and speed up email creation with centralized template management.
 

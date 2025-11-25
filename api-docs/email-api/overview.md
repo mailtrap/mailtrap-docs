@@ -1,9 +1,10 @@
 ---
 title: Email API Overview
 description: Send transactional and bulk emails through Mailtrap's reliable infrastructure
+icon: memo-circle-check
 ---
 
-# Email API Overview
+# Overview
 
 Mailtrap's Email API provides a powerful and reliable way to send transactional and bulk emails through our infrastructure. Whether you're sending order confirmations, password resets, or marketing campaigns, our API has you covered.
 

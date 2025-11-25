@@ -1,9 +1,10 @@
 ---
 title: Contacts API Overview
 description: Manage email contacts and lists for targeted campaigns
+icon: memo-circle-check
 ---
 
-# Contacts API Overview
+# Overview
 
 The Contacts API enables you to manage email contacts, create targeted lists, and organize your audience for email marketing campaigns. Build and maintain your subscriber base with powerful segmentation and field management.
 
