@@ -17,7 +17,6 @@
         kind: openapi
         spec: email-api
   ```
-* [Email Templates](templates/overview.md)
 
 ## Email Sandbox
 
