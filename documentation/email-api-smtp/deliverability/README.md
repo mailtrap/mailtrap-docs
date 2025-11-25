@@ -24,7 +24,7 @@ layout:
 
 Maximize your email deliverability with Mailtrap's comprehensive suite of deliverability tools. These features help you maintain a good sender reputation, manage bounces effectively, and ensure your emails reach their intended recipients.
 
-### 📚 Essential Guide
+### Essential Guide
 
 #### [Email Deliverability Guide](broken-reference/)
 

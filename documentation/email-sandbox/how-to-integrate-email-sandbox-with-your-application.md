@@ -5,7 +5,7 @@ description: >-
   code samples
 ---
 
-# 🔌 Application Integration
+# Application Integration
 
 ### #1- Copy SMTP credentials
 

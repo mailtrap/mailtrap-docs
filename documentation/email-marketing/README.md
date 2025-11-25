@@ -233,11 +233,11 @@ Ready-to-use designs:
 
 ## Support & Resources
 
-* 📚 [Campaign Guide](campaigns/)
-* 👥 [Audience Management](broken-reference/)
-* 📊 [Analytics Guide](broken-reference/)
-* 💬 [FAQs](faqs.md)
-* 🔧 [Troubleshooting](broken-reference/)
+* [Campaign Guide](campaigns/)
+* [Audience Management](broken-reference/)
+* [Analytics Guide](broken-reference/)
+* [FAQs](faqs.md)
+* [Troubleshooting](broken-reference/)
 
 ## Next Steps
 

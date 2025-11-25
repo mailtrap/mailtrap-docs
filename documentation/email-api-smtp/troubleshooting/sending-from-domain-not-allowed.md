@@ -81,8 +81,8 @@ If the compliance check hasn't passed:
 
 Ensure your application sends emails from an address that matches your verified domain:
 
-* ✅ Correct: `noreply@yourdomain.com` (if `yourdomain.com` is verified)
-* ❌ Incorrect: `noreply@otherdomain.com` (if `otherdomain.com` is not verified)
+* **Correct:** `noreply@yourdomain.com` (if `yourdomain.com` is verified)
+* **Incorrect:** `noreply@otherdomain.com` (if `otherdomain.com` is not verified)
 {% endstep %}
 {% endstepper %}
 

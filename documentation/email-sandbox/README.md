@@ -272,10 +272,10 @@ Pre-configured for popular frameworks:
 
 ## Support & Resources
 
-* 📚 [Features and Limits](help/features-and-limits.md)
-* 📖 [Sandbox Glossary](help/sandbox-glossary.md)
-* 💬 [FAQs](faqs.md)
-* 🔧 [Troubleshooting](troubleshooting.md)
+* [Features and Limits](help/features-and-limits.md)
+* [Sandbox Glossary](help/sandbox-glossary.md)
+* [FAQs](faqs.md)
+* [Troubleshooting](troubleshooting.md)
 
 ## Next Steps
 

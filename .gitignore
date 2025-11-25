@@ -12,3 +12,6 @@ Thumbs.db
 # Migration scripts and temp files
 migration_from_helpscout/
 openapi/
+
+# Temporary check files
+API_OPERATIONS_CHECK.md

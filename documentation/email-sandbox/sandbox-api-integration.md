@@ -5,7 +5,7 @@ description: >-
   sandboxes programmatically
 ---
 
-# 🔗 Sandbox API
+# Sandbox API
 
 ### How the API works
 
