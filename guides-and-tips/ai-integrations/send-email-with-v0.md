@@ -28,13 +28,13 @@ Before you start, ensure the following:
 
 {% stepper %}
 {% step %}
-#### Create a landing page/contact form
+**Create a landing page/contact form**
 
 Log in to your v0 account and use a prompt like the following one to create a simple project with basic fields: | create a basic contact form with 'full name' and 'email address' 'message' fields as well as a 'send message' button. keep in mind that i'll connect it with mailtrap so i can send emails. to connect mailtrap and send emails, I'll use my mailtrap email and mailtrap API key |
 {% endstep %}
 
 {% step %}
-#### Add your Mailtrap credentials
+**Add your Mailtrap credentials**
 
 After a minute or two, V0 will generate your project. You'll need to insert your Mailtrap credentials:
 
@@ -46,29 +46,29 @@ After a minute or two, V0 will generate your project. You'll need to insert your
 {% endstep %}
 
 {% step %}
-#### Start sending emails
+**Start sending emails**
 
 Once you add your credentials, try filling out the form and clicking the Send Message button.
 
 ![V0 contact form preview with sample data filled in showing John Doe submission](../.gitbook/assets/send-email-with-v0-2.png)
 
-#### Verify in Gmail
+**Verify in Gmail**
 
 Here is the email received in Gmail:
 
 ![Gmail inbox displaying the received contact form submission email with sender, name, email, and message details](../.gitbook/assets/send-email-with-v0-3.png)
 
-#### Check Mailtrap Email Logs
+**Check Mailtrap Email Logs**
 
 You can view the email in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs):
 
 ![Mailtrap Email Logs showing detailed email delivery information including timestamp, delivery status, and API key used](../.gitbook/assets/send-email-with-v0-4.png)
 
-#### Review Email Analytics
+**Review Email Analytics**
 
 You can also view important statistics about your sent emails such as opens, clicks, bounces, and more:
 
-![Mailtrap Stats Overview dashboard displaying delivery rates, open rates, click rates, and email performance metrics](<../.gitbook/assets/send-email-with-v0-5 (1).png>)
+![Mailtrap Stats Overview dashboard displaying delivery rates, open rates, click rates, and email performance metrics](/broken/files/z2yJ6Lbt4tfatpuooR97)
 
 For more information on Mailtrap analytics, [view the analytics guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
 {% endstep %}

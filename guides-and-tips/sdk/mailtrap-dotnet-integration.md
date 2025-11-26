@@ -93,7 +93,7 @@ To integrate SMTP with your .NET app, navigate to the Integrations tab, choose C
 SMTP integration is compatible with any .NET programming language or library that sends emails via SMTP.
 {% endhint %}
 
-![Mailtrap SMTP integration settings showing credentials and C# code sample for sending emails using System.Net.Mail library](<../.gitbook/assets/mailtrap-csharp-smtp-integration (1).png>)
+![Mailtrap SMTP integration settings showing credentials and C# code sample for sending emails using System.Net.Mail library](/broken/files/PL1dVy1ZtstjBC6xsVeg)
 
 Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
@@ -103,6 +103,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any .NET programming language or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-![Mailtrap API integration showing code sample for sending emails via RESTful API using C# and HttpClient with API token authentication](<../.gitbook/assets/mailtrap-csharp-api-integration (1).png>)
+![Mailtrap API integration showing code sample for sending emails via RESTful API using C# and HttpClient with API token authentication](/broken/files/bbZRXtpZyxerG4n876vV)
 
 Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

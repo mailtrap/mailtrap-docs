@@ -23,7 +23,7 @@ Before you start, ensure the following:
 
 {% stepper %}
 {% step %}
-#### Add Mailtrap MCP to Windsurf
+**Add Mailtrap MCP to Windsurf**
 
 To add the Mailtrap MCP server to Windsurf:
 
@@ -57,7 +57,7 @@ This will open the mcp.config.json file. Add the following code snippet:
 {% endstep %}
 
 {% step %}
-#### Add Mailtrap API credentials
+**Add Mailtrap API credentials**
 
 Replace the following values in your mcp.config.json file:
 
@@ -66,7 +66,7 @@ Replace the following values in your mcp.config.json file:
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](<../.gitbook/assets/send-email-with-claude-2 (1).png>)
+![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](/broken/files/mY24i2MjbraA3t0hyezT)
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload Windsurf to ensure everything is set up correctly.
@@ -74,7 +74,7 @@ Although you shouldn't face any issues, reload Windsurf to ensure everything is 
 {% endstep %}
 
 {% step %}
-#### Send emails with a prompt
+**Send emails with a prompt**
 
 To send an email:
 

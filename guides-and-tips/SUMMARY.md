@@ -18,8 +18,9 @@
 ## Integrations
 
 * [Webhooks](integrations/webhooks.md)
-* [Supabase Integration](integrations/supabase-and-mailtrap-integration.md)
-* [Sync Contacts with Supabase](integrations/supabase-contacts-integration.md)
+* [Supabase](integrations/supabase-and-mailtrap/README.md)
+  * [Supabase Transactional Emails Integration](integrations/supabase-and-mailtrap/supabase-and-mailtrap-integration.md)
+  * [Sync Contacts with Supabase](integrations/supabase-and-mailtrap/supabase-contacts-integration.md)
 * [N8N Integration](integrations/mailtrap-and-n8n-integration.md)
 * [Zapier Integration](integrations/mailtrap-integration-with-zapier.md)
 * [Make.com Integration](integrations/mailtrap-make-integration.md)
@@ -49,7 +50,6 @@
 
 ## AI-Powered Integrations
 
-* [Supabase and Mailtrap](ai-integrations/supabase-and-mailtrap.md)
 * [Lovable and Mailtrap](ai-integrations/send-email-with-lovable.md)
 * [Bolt.new and Mailtrap](ai-integrations/send-email-with-bolt-new.md)
 * [VS Code and Mailtrap](ai-integrations/send-email-with-vs-code.md)
