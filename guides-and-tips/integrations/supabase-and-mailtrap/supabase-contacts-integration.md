@@ -22,7 +22,7 @@ In this guide, you'll learn how to:
 * Demo and test the integration
 
 {% hint style="info" %}
-You can read more about Contacts in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/contacts).
+You can read more about Contacts in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/overview).
 {% endhint %}
 
 ## Generate a Mailtrap API token
