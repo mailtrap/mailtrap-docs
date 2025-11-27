@@ -92,7 +92,7 @@ To integrate SMTP with your PHP app, navigate to the **Integrations** tab, choos
 SMTP integration is compatible with any PHP framework or library that sends emails via SMTP.
 {% endhint %}
 
-![Mailtrap SMTP integration interface showing credentials and PHP framework code samples including CakePHP, CodeIgniter, FuelPHP, Laravel, PHPMailer, Symfony, WordPress, and Zend Framework](../.gitbook/assets/mailtrap-php-smtp-integration.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-php-smtp-integration.png" alt="" width="563"></div>
 
 Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
@@ -102,6 +102,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any PHP framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-![Mailtrap API integration interface displaying API credentials and PHP code sample using Symfony components for sending emails via RESTful API](../.gitbook/assets/mailtrap-php-api-integration.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-php-api-integration.png" alt="" width="563"></div>
 
 Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

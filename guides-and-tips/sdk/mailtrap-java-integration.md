@@ -6,29 +6,31 @@ description: >-
 icon: java
 ---
 
-<a href="https://github.com/mailtrap/mailtrap-java" class="button primary">Mailtrap Java SDK on GitHub</a>
-
 # Java Integration
 
-## Overview
+<a href="https://github.com/mailtrap/mailtrap-java" class="button primary">Mailtrap Java SDK on GitHub</a>
+
+## Java Integration
+
+### Overview
 
 Mailtrap can be integrated with Java apps and projects for email sending with SDK, SMTP, and RESTful API.
 
-## Email API/SMTP for Java
+### Email API/SMTP for Java
 
-### SDK integration
+#### SDK integration
 
 The [Mailtrap Java SDK](https://github.com/mailtrap/mailtrap-java) is a robust, enterprise-ready library for sending transactional and bulk emails from Java applications. The SDK supports:
 
-- Transactional email sending
-- Batch email sending
-- Template management
-- Contact management
-- Sandbox testing
-- Account management
-- Thread-safe operations
+* Transactional email sending
+* Batch email sending
+* Template management
+* Contact management
+* Sandbox testing
+* Account management
+* Thread-safe operations
 
-## Installation
+### Installation
 
 Add the SDK to your project using your preferred build tool:
 
@@ -62,7 +64,7 @@ implementation("com.mailtrap:mailtrap-java:1.0.0")
 {% endtab %}
 {% endtabs %}
 
-## Minimal Example
+### Minimal Example
 
 Here's a minimal example to send your first email:
 
@@ -99,7 +101,7 @@ public class SendEmail {
 Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
 {% endhint %}
 
-### SMTP integration
+#### SMTP integration
 
 To integrate SMTP with your Java app, navigate to the Integrations tab and copy-paste the credentials or ready-made code snippet into your configuration.
 
@@ -107,16 +109,16 @@ To integrate SMTP with your Java app, navigate to the Integrations tab and copy-
 SMTP integration is compatible with any Java framework or library that sends emails via SMTP.
 {% endhint %}
 
-![SMTP integration for Java](../.gitbook/assets/mailtrap-java-smtp-integration.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-java-smtp-integration.png" alt="SMTP integration for Java"></div>
 
 Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration) article.
 
-### RESTful API integration
+#### RESTful API integration
 
 To integrate Mailtrap using RESTful API, use the configuration available among Code samples under the API section.
 
 API integration can be used with any Java framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-![API integration for Java](../.gitbook/assets/mailtrap-java-api-integration.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-java-api-integration.png" alt="API integration for Java"></div>
 
 Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration) article.
