@@ -21,7 +21,7 @@ And you can associate a different email address with your account manually, in c
 
 **Important Note:**
 
-The tokens under **User settings** work only with Mailtrap Email API v1 and will be deprecated in the future. [Click here](../account-and-organization/api-tokens.md) to learn more about Email API tokens v2 and how to manage them.
+The tokens under **User settings** work only with Mailtrap Email API v1 and will be deprecated in the future. [Click here](../account-and-organization/privacy-and-security/api-tokens.md) to learn more about Email API tokens v2 and how to manage them.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/user-profile-settings.png" alt="Mailtrap User Settings page showing profile information, OAuth providers, and API tokens" width="188"></div>
 
