@@ -1,22 +1,24 @@
 ---
 title: <i class="fa-react">:react:</i> Mailtrap Remix integration
-description: Learn how to integrate Mailtrap with Remix to send emails from your application using the Email API.
+description: >-
+  Learn how to integrate Mailtrap with Remix to send emails from your
+  application using the Email API.
 ---
 
-# Overview
+# Remix Integration
 
 This guide shows you how to integrate Mailtrap with Remix and send emails using the Email API.
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 ## Send emails using Remix and Mailtrap
 
 To integrate Mailtrap and send emails via Remix, copy the following script into your configuration:
 
-{% code title="remix-server.js" language="javascript" %}
+{% code title="remix-server.js" %}
 ```javascript
 import { json } from '@remix-run/node';
 import { MailtrapClient } from 'mailtrap';
@@ -47,9 +49,9 @@ export const loader = async () => {
 
 Once you copy the script, make sure to:
 
-- Insert your Mailtrap API token in the `token:` field
-- Enter your email address in the `from:` field
-- Enter your recipient's email address in the `to:` field
+* Insert your Mailtrap API token in the `token:` field
+* Enter your email address in the `from:` field
+* Enter your recipient's email address in the `to:` field
 
 {% hint style="info" %}
 To learn more about API integration, see [Mailtrap Email Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

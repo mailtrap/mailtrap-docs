@@ -1,20 +1,24 @@
 ---
 title: <i class="fa-aws">:aws:</i> Mailtrap AWS Lambda Integration
-description: Learn how to integrate Mailtrap with AWS Lambda functions to send emails using the Mailtrap Email API.
+description: >-
+  Learn how to integrate Mailtrap with AWS Lambda functions to send emails using
+  the Mailtrap Email API.
 ---
 
-# Overview
+# AWS Lambda Integration
+
+## Overview
 
 This guide explains how to integrate Mailtrap with AWS Lambda functions to send emails programmatically using the Mailtrap Email API.
 
-## Prerequisites
+### Prerequisites
 
 Before you start, make sure you have:
 
-- [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
-# Send emails using AWS Lambda and Mailtrap
+## Send emails using AWS Lambda and Mailtrap
 
 To integrate Mailtrap and send emails via AWS Lambda, copy and paste the following script into your Lambda function:
 
@@ -73,14 +77,14 @@ export const handler = async (event) => {
 ```
 {% endcode %}
 
-## Configuration
+### Configuration
 
 Once you copy the script, update the following fields with your information:
 
-- Replace `YOUR-MAILTRAP-API-KEY-HERE` in the `MAILTRAP_API_KEY` constant with your actual API token
-- Replace `YOUR-EMAIL-HERE` with your verified sender email
-- Replace `RECIPIENT-EMAIL-HERE` with the recipient's email address
+* Replace `YOUR-MAILTRAP-API-KEY-HERE` in the `MAILTRAP_API_KEY` constant with your actual API token
+* Replace `YOUR-EMAIL-HERE` with your verified sender email
+* Replace `RECIPIENT-EMAIL-HERE` with the recipient's email address
 
-## Learn more
+### Learn more
 
 For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

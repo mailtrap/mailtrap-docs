@@ -3,20 +3,20 @@ title: <i class="fa-code">:code:</i> Mailtrap Deno integration
 description: Learn how to integrate Mailtrap with Deno to send emails using the Email API.
 ---
 
-# Overview
+# Deno Integration
 
 This guide shows you how to integrate Mailtrap with Deno and send emails using the Email API.
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 ## Send emails using Deno and Mailtrap
 
 To integrate Mailtrap and send emails via Deno, simply copy/paste the following script into your configuration:
 
-{% code title="deno-example.ts" language="typescript" %}
+{% code title="deno-example.ts" %}
 ```typescript
 import { serve } from 'https://deno.land/std@0.190.0/http/server.ts';
 

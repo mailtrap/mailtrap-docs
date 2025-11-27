@@ -3,20 +3,20 @@ title: <i class="fa-fire">:fire:</i> Mailtrap Hono integration
 description: Learn how to integrate Mailtrap with Hono to send emails using the Email API.
 ---
 
-# Overview
+# Hono Integration
 
 This guide shows you how to integrate Mailtrap with Hono and send emails using the Email API.
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 ## Send emails using Hono and Mailtrap
 
 To integrate Mailtrap and send emails via Hono, simply copy/paste the following script into your configuration:
 
-{% code title="hono-example.ts" language="typescript" %}
+{% code title="hono-example.ts" %}
 ```typescript
 import { Hono } from 'hono';
 import { MailtrapClient } from 'mailtrap';

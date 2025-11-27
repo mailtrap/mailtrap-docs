@@ -18,7 +18,7 @@ Before you start, ensure you have:
 
 {% stepper %}
 {% step %}
-#### Find your Mailtrap API key
+**Find your Mailtrap API key**
 
 In your Mailtrap dashboard, navigate to **Settings → API Tokens**. You can view all active tokens, their creators, and access levels.
 
@@ -28,11 +28,11 @@ If you don't already have an API key, click **Add Token** and assign the desired
 
 ![Mailtrap Add API Token dialog with permissions table showing admin and viewer access settings](../.gitbook/assets/vercel-img-2.png)
 
-Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens).
+Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens).
 {% endstep %}
 
 {% step %}
-#### Add your key to Vercel
+**Add your key to Vercel**
 
 Open your Vercel dashboard and go to the **Settings** for the project where you want to add Mailtrap:
 
@@ -48,7 +48,7 @@ Since Vercel environment variables only become available after you redeploy your
 {% endstep %}
 
 {% step %}
-#### Reference the key in your code
+**Reference the key in your code**
 
 Reference the Mailtrap API key in your code so your application can use it when making requests. Add the Mailtrap API key and the Mailtrap URL `https://send.api.mailtrap.io/api/send` to your code.
 

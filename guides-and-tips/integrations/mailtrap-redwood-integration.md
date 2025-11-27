@@ -3,14 +3,14 @@ title: <i class="fa-tree">:tree:</i> Mailtrap Redwood integration
 description: Learn how to send emails in Redwood applications using Mailtrap's Email API.
 ---
 
-# Overview
+# Redwood Integration
 
 This guide shows you how to integrate Mailtrap with Redwood and send emails using the Email API.
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 ## Send emails using Redwood and Mailtrap
 

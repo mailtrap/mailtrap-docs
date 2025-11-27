@@ -1,22 +1,24 @@
 ---
 title: <i class="fa-python">:python:</i> Mailtrap FastAPI Integration
-description: Learn how to integrate Mailtrap with FastAPI to send emails using the Email API.
+description: >-
+  Learn how to integrate Mailtrap with FastAPI to send emails using the Email
+  API.
 ---
 
-# Overview
+# FastAPI Integration
 
 This guide shows you how to integrate Mailtrap with FastAPI and send emails using the Email API.
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 ## Send emails using FastAPI and Mailtrap
 
 To integrate Mailtrap and send emails via FastAPI, simply copy/paste the following script into your configuration:
 
-{% code title="fastapi-example.py" language="python" %}
+{% code title="fastapi-example.py" %}
 ```python
 import mailtrap as mt
 from typing import Dict

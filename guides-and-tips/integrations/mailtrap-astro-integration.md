@@ -1,20 +1,24 @@
 ---
 title: <i class="fa-rocket">:rocket:</i> Mailtrap Astro integration
-description: Learn how to send emails in Astro using Mailtrap's Email API with step-by-step setup instructions.
+description: >-
+  Learn how to send emails in Astro using Mailtrap's Email API with step-by-step
+  setup instructions.
 ---
 
-# Overview
+# Astro Integration
+
+## Overview
 
 This guide explains how to integrate Mailtrap with your Astro project to send emails programmatically using the Mailtrap Email API.
 
-## Prerequisites
+### Prerequisites
 
 Before you start, make sure you have:
 
-- [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
-# Send emails using Astro and Mailtrap
+## Send emails using Astro and Mailtrap
 
 To integrate Mailtrap and send emails via Astro, copy and paste the following script into your configuration:
 
@@ -55,14 +59,14 @@ export const server = {
 ```
 {% endcode %}
 
-## Configuration
+### Configuration
 
 Once you copy the script, update the following fields with your information:
 
-- Replace `YOUR-MAILTRAP-API-KEY-HERE` with your actual Mailtrap API token in the `token:` field
-- Replace `YOUR-EMAIL-HERE` with your verified sender email
-- Replace `RECIPIENT-EMAIL-HERE` with the recipient's email address
+* Replace `YOUR-MAILTRAP-API-KEY-HERE` with your actual Mailtrap API token in the `token:` field
+* Replace `YOUR-EMAIL-HERE` with your verified sender email
+* Replace `RECIPIENT-EMAIL-HERE` with the recipient's email address
 
-## Learn more
+### Learn more
 
 For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).

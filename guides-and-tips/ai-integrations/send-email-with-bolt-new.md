@@ -23,7 +23,7 @@ Make sure to adjust the prompts to your specific needs—this is an exemplary tu
 Before you begin, ensure you have:
 
 * A verified sending domain in Mailtrap (see how to [verify a sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup))
-* An Admin API token with access to your domain, Contacts, and Email API (see how to [create an API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens))
+* An Admin API token with access to your domain, Contacts, and Email API (see how to [create an API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens))
 * Your **Account ID** (go to Mailtrap Settings, then select Account Settings)
 * (Optional) **Custom fields** for storing extra contact data (see [creating custom fields](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/contacts-management/overview))
 * (Optional) **List IDs** for assigning contacts to lists (see Managing lists)
@@ -110,7 +110,7 @@ This guide is referential to help you understand Mailtrap integration. Remember,
 
 {% stepper %}
 {% step %}
-#### Connect Bolt and Supabase
+**Connect Bolt and Supabase**
 
 The integration is straightforward since Bolt has it pre-built. Here's what to do:
 
@@ -126,7 +126,7 @@ The integration is straightforward since Bolt has it pre-built. Here's what to d
 {% endstep %}
 
 {% step %}
-#### Create landing page
+**Create landing page**
 
 Here is the prompt for creating a landing page that creates a new Mailtrap contact with each form submission and emails you a notification:
 
@@ -183,7 +183,7 @@ If Bolt encounters bugs, it will list them and attempt to fix them when you clic
 {% endstep %}
 
 {% step %}
-#### Test the form to send emails
+**Test the form to send emails**
 
 In Bolt Preview, navigate to the contact form, fill it out, and click submit.
 

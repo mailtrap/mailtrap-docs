@@ -1,20 +1,24 @@
 ---
 title: <i class="fa-terminal">:terminal:</i> Mailtrap cURL Integration
-description: Send emails using cURL with Mailtrap through SMTP integration or API endpoints with code samples and configuration options.
+description: >-
+  Send emails using cURL with Mailtrap through SMTP integration or API endpoints
+  with code samples and configuration options.
 ---
 
-# Overview
+# cURL Integration
+
+## Overview
 
 Mailtrap can be integrated with cURL for email sending via SMTP or API methods. This guide shows you how to configure and send emails using cURL with Mailtrap.
 
 Before we start, you'll need to:
 
-- [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
-- [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+* [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
-## Send emails using cURL and Mailtrap
+### Send emails using cURL and Mailtrap
 
-### SMTP integration
+#### SMTP integration
 
 To integrate Mailtrap via SMTP, go to the **Integration** tab and copy/paste either the credentials or the pre-made code snippets into your configuration.
 
@@ -22,7 +26,7 @@ To integrate Mailtrap via SMTP, go to the **Integration** tab and copy/paste eit
 
 You can get more information on SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
 
-### API integration
+#### API integration
 
 To integrate Mailtrap and send emails via cURL, use the configuration available among **Code samples** under the API section.
 
@@ -32,6 +36,6 @@ Once you copy the script, make sure to insert your Mailtrap API token in the `Au
 
 **Note**: To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
 
-# Next Steps
+## Next Steps
 
 After setting up cURL integration, you can send test emails and monitor delivery through your Mailtrap dashboard to ensure proper configuration.

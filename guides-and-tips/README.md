@@ -21,31 +21,15 @@ Browse all SDK integration guides in the navigation menu for additional language
 
 Learn how to add and verify Mailtrap DNS records with various DNS providers:
 
-{% content-ref url="dns-setup/aws-route-53.md" %}
-[aws-route-53.md](dns-setup/aws-route-53.md)
-{% endcontent-ref %}
-
-{% content-ref url="dns-setup/cloudflare.md" %}
-[cloudflare.md](dns-setup/cloudflare.md)
-{% endcontent-ref %}
-
-{% content-ref url="dns-setup/godaddy.md" %}
-[godaddy.md](dns-setup/godaddy.md)
-{% endcontent-ref %}
-
-{% content-ref url="dns-setup/google-cloud-dns.md" %}
-[google-cloud-dns.md](dns-setup/google-cloud-dns.md)
-{% endcontent-ref %}
-
-{% content-ref url="dns-setup/namecheap.md" %}
-[namecheap.md](dns-setup/namecheap.md)
-{% endcontent-ref %}
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="dns-setup/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="dns-setup/cloudflare.md">cloudflare.md</a></td></tr><tr><td>GoDaddy</td><td><a href="dns-setup/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="dns-setup/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Namecheap</td><td><a href="dns-setup/namecheap.md">namecheap.md</a></td></tr></tbody></table>
 
 Browse all DNS setup guides in the navigation menu to find instructions for your specific DNS provider.
 
 ## Third-Party Integrations
 
 Step-by-step integration guides for connecting Mailtrap with popular platforms and services:
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Webhooks</td><td></td><td><a href=".gitbook/assets/Screenshot (2).png">Screenshot (2).png</a></td></tr><tr><td>Supabase</td><td><a href="integrations/supabase-and-mailtrap/">supabase-and-mailtrap</a></td><td><a href=".gitbook/assets/Screenshot (4).png">Screenshot (4).png</a></td></tr><tr><td>N8N</td><td></td><td><a href=".gitbook/assets/Screenshot (5).png">Screenshot (5).png</a></td></tr><tr><td>Zapier</td><td></td><td></td></tr><tr><td>FastAPI</td><td></td><td></td></tr><tr><td>AWS Lambda</td><td></td><td></td></tr></tbody></table>
 
 {% content-ref url="integrations/webhooks.md" %}
 [webhooks.md](integrations/webhooks.md)
