@@ -26,22 +26,4 @@ Take your email sending to the next level with Mailtrap's advanced features. The
 
 ## Features Overview
 
-### [Bulk Stream](../setup/get-started-bulk-stream.md)
-
-Send high-volume marketing and promotional emails efficiently with our dedicated bulk stream. Separate your transactional and bulk email traffic for better deliverability.
-
-### [Custom Variables](../custom-variables.md)
-
-Add custom metadata to your emails for advanced tracking and segmentation. Pass through data that helps you analyze email performance in your own systems.
-
-### [Sending Limits](../setup/sending-limits.md)
-
-Understand and manage your account's sending limits. Learn about rate limiting, daily quotas, and how to increase your limits as your needs grow.
-
-### [Excluding Links from Tracking](../excluding-specific-links-from-tracking.md)
-
-Have sensitive links that shouldn't be tracked? Learn how to exclude specific URLs from click tracking while maintaining analytics for other links.
-
-### [Auto BCC](auto-bcc.md)
-
-Automatically send blind carbon copies of all emails to a specified address for compliance and monitoring purposes.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Custom Variables</strong></td><td><em>Add custom metadata to your emails for advanced tracking and segmentation. Pass through data that helps you analyze email performance in your own systems.</em></td><td><a href="../custom-variables.md">custom-variables.md</a></td></tr><tr><td><strong>Excluding Links from Tracking</strong></td><td>Have sensitive links that shouldn't be tracked? Learn how to exclude specific URLs from click tracking while maintaining analytics for other links.</td><td><a href="../excluding-specific-links-from-tracking.md">excluding-specific-links-from-tracking.md</a></td></tr><tr><td><strong>Auto BCC</strong></td><td>Automatically send blind carbon copies of all emails to a specified address for compliance and monitoring purposes.</td><td><a href="auto-bcc.md">auto-bcc.md</a></td></tr><tr><td><strong>Webhooks</strong></td><td><em>Webhooks allow you to receive all information about your deliverability and activities within your account almost in real-time.</em></td><td><a href="../webhooks.md">webhooks.md</a></td></tr></tbody></table>

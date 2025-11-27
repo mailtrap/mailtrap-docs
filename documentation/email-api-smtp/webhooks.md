@@ -3,6 +3,7 @@ title: Webhooks
 description: >-
   Set up webhooks to receive real-time notifications about email deliverability
   events and account activities within your Mailtrap account.
+icon: webhook
 layout:
   width: default
   title:
@@ -54,19 +55,19 @@ To find out more about the sending event specifics, check the [Statuses and Even
 
 * Navigate to **Settings** → **Webhooks** and click the **Create New Webhook** button.
 
-![Mailtrap webhooks dashboard showing Settings menu, Webhooks option, and Create New Webhook button](../.gitbook/assets/webhooks-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-1.png" alt="" width="563"></div>
 
 * Enter a valid **Webhook URL**. Use a password and username as an extra security layer with basic authorization to prevent others from sending information to that endpoint. You can also use a token as a query parameter.
 
-![Add new webhook form showing webhook URL input field with example URL](../.gitbook/assets/webhooks-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-2.png" alt="" width="375"></div>
 
 * Choose the **Payload format** (JSON or JSON Lines).
 
-![Webhook payload format selection interface with JSON and JSON Lines radio button options](../.gitbook/assets/webhooks-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-3.png" alt="" width="375"></div>
 
 * Select the webhooks area (Activity Log or Email Sending).
 
-![Webhook area selection showing Activity Log and Email Sending radio button options with descriptions](../.gitbook/assets/webhooks-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-4.png" alt="" width="375"></div>
 
 **If you choose Activity Log**, you will receive events related to all activities within your account that are supported by the Activity Log.
 
