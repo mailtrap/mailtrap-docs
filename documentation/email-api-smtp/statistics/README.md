@@ -2,7 +2,6 @@
 description: >-
   Learn what statistics Mailtrap provides: Stats dashboard, Email logs, Email
   categories, Mailbox providers.
-icon: chart-simple-horizontal
 layout:
   width: default
   title:

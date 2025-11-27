@@ -1,7 +1,6 @@
 ---
 title: Setup & Integration
 description: Get Email Sandbox configured and integrated with your application
-icon: gear
 ---
 
 # Setup & Configuration
@@ -10,35 +9,25 @@ Get started with Email Sandbox quickly and easily. This section covers everythin
 
 ## Integration Options
 
-### [Application Integration](../how-to-integrate-email-sandbox-with-your-application.md)
-
-Step-by-step guide to integrate Email Sandbox with your application. Learn how to configure SMTP settings, use API endpoints, and route test emails to your sandbox.
-
-### [Sandbox API](../sandbox-api-integration.md)
-
-Programmatically manage your sandboxes and emails using our comprehensive API. Automate testing workflows and integrate with your CI/CD pipeline.
-
-### [Email Address per Sandbox](../email-address-per-sandbox.md)
-
-Each sandbox gets a unique email address. Learn how to use sandbox-specific addresses for organizing and isolating test scenarios.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Application Integration</strong></td><td><em>Step-by-step guide to integrate Email Sandbox with your application. Learn how to configure SMTP settings, use API endpoints, and route test emails to your sandbox.</em></td><td><a href="../how-to-integrate-email-sandbox-with-your-application.md">how-to-integrate-email-sandbox-with-your-application.md</a></td></tr><tr><td><strong>Sandbox API</strong></td><td><em>Programmatically manage your sandboxes and emails using our comprehensive API. Automate testing workflows and integrate with your CI/CD pipeline.</em></td><td><a href="../sandbox-api-integration.md">sandbox-api-integration.md</a></td></tr><tr><td><strong>Email Address per Sandbox</strong></td><td><em>Each sandbox gets a unique email address. Learn how to use sandbox-specific addresses for organizing and isolating test scenarios.</em></td><td><a href="../email-address-per-sandbox.md">email-address-per-sandbox.md</a></td></tr></tbody></table>
 
 ## Quick Start
 
-### 1. Create Your First Sandbox
+#### 1. Create Your First Sandbox
 
 * Log in to your Mailtrap account
 * Navigate to Email Sandbox
 * Click "Create New Sandbox"
 * Name your sandbox (e.g., "Development", "Staging", "QA")
 
-### 2. Get Your Credentials
+#### 2. Get Your Credentials
 
 * SMTP Host: `sandbox.smtp.mailtrap.io`
 * SMTP Port: `2525` (or `25`, `465`, `587`)
 * Username: Your sandbox username
 * Password: Your sandbox password
 
-### 3. Configure Your Application
+#### 3. Configure Your Application
 
 ```javascript
 // Example Node.js configuration
@@ -54,7 +43,7 @@ const transporter = nodemailer.createTransport({
 });
 ```
 
-### 4. Send Test Email
+#### 4. Send Test Email
 
 ```javascript
 await transporter.sendMail({
@@ -67,14 +56,14 @@ await transporter.sendMail({
 
 ## Integration Methods
 
-### SMTP Integration
+#### SMTP Integration
 
 * Universal compatibility with any SMTP client
 * No code changes required
 * Perfect for legacy applications
 * Supports all major frameworks and languages
 
-### API Integration
+#### API Integration
 
 * Full programmatic control
 * Retrieve and analyze emails via API

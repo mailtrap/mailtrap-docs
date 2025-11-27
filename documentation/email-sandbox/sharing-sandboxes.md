@@ -1,6 +1,7 @@
 ---
 title: Sharing sandboxes
 description: Share individual sandboxes with team members for collaborative email testing
+icon: handshake-simple
 ---
 
 # Sharing Sandboxes
@@ -9,7 +10,7 @@ description: Share individual sandboxes with team members for collaborative emai
 
 The best practice is to create separate sandboxes for different environments: development, test, or staging. Each sandbox is defined by SMTP credentials (your username and password). If necessary, you can reset them at any time.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-credentials.png" alt="Sandbox settings showing SMTP credentials and reset options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-credentials.png" alt="Sandbox settings showing SMTP credentials and reset options" width="563"></div>
 
 ### How to share your sandboxes with others
 
@@ -34,7 +35,7 @@ You can invite anyone, even if they don't have a Mailtrap account yet.
 3. Enter the email address of your team member.
 4. Choose the invitee's permission level (e.g. Sandbox Viewer or Admin)
 
-<div align="left"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-access-rights.png" alt="Access Rights tab showing interface to add team members and assign permissions" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-access-rights.png" alt="Access Rights tab showing interface to add team members and assign permissions"></div>
 
 Once you click the **Add** button, the email invitation will be sent to the specified email address. The recipient should accept the email invitation.
 
@@ -42,7 +43,7 @@ But if a person is already in your account the sandbox will immediately become v
 
 Alternatively, you can use the **User Management** feature. Select it and click the **Add Member** button. Type the user's email address and tick the box under the permission level for an sandbox you'd like to share.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-user-management.png" alt="User Management interface showing member addition and permission assignment for multiple sandboxes" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-user-management.png" alt="" width="375"></div>
 
 And yes, you can share multiple sandboxes at the same time. To finalize sharing, hit Send Invite and you're good to go.
 

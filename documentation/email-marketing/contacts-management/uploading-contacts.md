@@ -1,6 +1,7 @@
 ---
 title: Uploading Contacts
 description: Import contacts via CSV, API, or third-party integrations
+icon: upload
 ---
 
 # Uploading Contacts
@@ -86,17 +87,17 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 
 {% stepper %}
 {% step %}
-#### Prepare Your CSV File
+**Prepare Your CSV File**
 
 **Download the Template**
 
 Navigate to **Contacts** and click **Import Contacts**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-import-button.png" alt="Import Contacts button in the contacts interface" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-import-button.png" alt="Import Contacts button in the contacts interface" width="563"></div>
 
 Download our CSV template by clicking **Download CSV Template**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-download-template.png" alt="Download CSV Template button for importing contacts" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-download-template.png" alt="Download CSV Template button for importing contacts" width="563"></div>
 
 **Format Your Data**
 
@@ -116,19 +117,19 @@ jane@example.com,Jane,Smith,Tech Inc,2024-01-20
 {% endstep %}
 
 {% step %}
-#### Upload Your File
+**Upload Your File**
 
 Click **Browse files** or drag and drop your CSV file into the upload area.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-upload-csv.png" alt="File upload area to import contacts CSV file" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-upload-csv.png" alt="File upload area to import contacts CSV file" width="563"></div>
 
 Click **Import File** to proceed.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-import-file.png" alt="Import File button to proceed with contact upload" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-import-file.png" alt="Import File button to proceed with contact upload" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Map Your Fields
+**Map Your Fields**
 
 Assign CSV columns to your Mailtrap fields:
 
@@ -136,7 +137,7 @@ Assign CSV columns to your Mailtrap fields:
 * Preview data mapping
 * Verify field assignments
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-field-mapping.png" alt="Field mapping interface to assign CSV columns to contact fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-field-mapping.png" alt="Field mapping interface to assign CSV columns to contact fields" width="563"></div>
 
 Click **Confirm Mapping** when ready.
 
@@ -150,7 +151,7 @@ Click **Confirm Mapping** when ready.
 {% endstep %}
 
 {% step %}
-#### Assign to Lists
+**Assign to Lists**
 
 Choose which lists should include these contacts:
 
@@ -158,27 +159,27 @@ Choose which lists should include these contacts:
 
 Select one or more lists from the dropdown and click **Continue**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-add-to-list.png" alt="Interface to add contacts to existing lists" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-add-to-list.png" alt="Interface to add contacts to existing lists" width="563"></div>
 
 **Create New List**
 
 Click **Create New List**, enter a name, and click **Create**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-create-new-list.png" alt="Form to create a new contact list" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-create-new-list.png" alt="Form to create a new contact list" width="563"></div>
 
 {% hint style="success" %}
 **Multiple Lists** You can add contacts to multiple lists simultaneously for better segmentation.
 {% endhint %}
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-multiple-lists.png" alt="Interface showing contacts being added to multiple lists" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-multiple-lists.png" alt="Interface showing contacts being added to multiple lists" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Confirm Consent
+**Confirm Consent**
 
 Check the consent verification box to confirm you have permission to email these contacts.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-confirm-consent.png" alt="Consent confirmation checkbox before importing contacts" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-confirm-consent.png" alt="Consent confirmation checkbox before importing contacts" width="563"></div>
 
 {% hint style="danger" %}
 **Legal Requirement** You cannot proceed without confirming consent. Ensure you have explicit permission from all contacts before importing.
@@ -188,11 +189,11 @@ Click **Confirm Import** to complete the process.
 {% endstep %}
 
 {% step %}
-#### Import Confirmation
+**Import Confirmation**
 
 You'll receive a success notification once the import is complete.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-import-success.png" alt="Success notification after contacts are imported" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-import-success.png" alt="Success notification after contacts are imported" width="563"></div>
 
 Your contacts are now available under **Contacts** and in their assigned **Lists**.
 {% endstep %}
@@ -279,25 +280,25 @@ For complete API documentation, see [Contacts API Reference](../../../api-docs/c
 
 {% stepper %}
 {% step %}
-#### Connect Mailtrap
+**Connect Mailtrap**
 
 Add Mailtrap as an action in your Zap.
 {% endstep %}
 
 {% step %}
-#### Configure Trigger
+**Configure Trigger**
 
 Set up your trigger app (CRM, form, spreadsheet).
 {% endstep %}
 
 {% step %}
-#### Map Fields
+**Map Fields**
 
 Match trigger data to Mailtrap contact fields.
 {% endstep %}
 
 {% step %}
-#### Test & Activate
+**Test & Activate**
 
 Run a test and activate your Zap.
 {% endstep %}

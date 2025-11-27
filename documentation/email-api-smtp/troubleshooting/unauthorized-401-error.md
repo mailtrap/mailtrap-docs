@@ -3,6 +3,7 @@ title: Unauthorized Error (401 Code)
 description: >-
   How to fix "Unauthorised" (401) authentication errors in Mailtrap Email
   API/SMTP.
+icon: lock
 layout:
   width: default
   title:
@@ -47,7 +48,7 @@ Check your [API tokens](https://mailtrap.io/api-tokens) and verify the token has
 
 Make sure you're using the correct SMTP/API credentials provided in the Integration tab of your domain.
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-credentials-both-streams.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/troubleshoot-sending-credentials-both-streams.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure></div>
 
 ### How to Fix
 
@@ -92,7 +93,7 @@ Use the cURL code example to test if the error persists:
 3. Go to **Code Samples > cURL**
 4. Copy and run the cURL command
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-code-samples.png" alt="Code Samples section in Mailtrap showing cURL integration example"><figcaption><p>Code Samples section with cURL example</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/troubleshoot-sending-code-samples.png" alt="Code Samples section in Mailtrap showing cURL integration example" width="563"><figcaption><p>Code Samples section with cURL example</p></figcaption></figure></div>
 
 If the cURL test succeeds but your application fails, the issue is with your application's configuration.
 {% endstep %}

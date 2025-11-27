@@ -1,13 +1,14 @@
 ---
 title: Email Templates
 description: Design, edit, and host HTML email templates and reference them via API
+icon: palette
 ---
 
 # Email Templates
 
 Email Templates allow you to design, edit, and host HTML email templates.
 
-<div align="left"><img src="../.gitbook/assets/template-list-view.png" alt="Email Templates overview showing template management interface" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-list-view.png" alt="Email Templates overview showing template management interface" width="563"></div>
 
 Email Templates support Variables, and Mailtrap uses Handlebars as a template engine. You variable should match the \{{merge\_tag\}} in your contact Fields.
 
@@ -19,13 +20,13 @@ You can put `{{name}}` into your template and as your contact has a field named 
 {% step %}
 **Navigate to the Templates menu**
 
-<div align="left"><img src="../.gitbook/assets/template-menu-nav.png" alt="Templates menu in the left navigation" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-menu-nav.png" alt="Templates menu in the left navigation" width="375"></div>
 {% endstep %}
 
 {% step %}
 **Click the Create New Template button**
 
-<div align="left"><img src="../.gitbook/assets/template-list-create-button.png" alt="Create New Template button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-list-create-button.png" alt="Create New Template button" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -33,7 +34,7 @@ You can put `{{name}}` into your template and as your contact has a field named 
 
 Click the drop-down menu to select one of your domains, enter the Template name, Subject, and Category, and click **Continue**.
 
-<div align="left"><img src="../.gitbook/assets/template-details-form.png" alt="Form to create new template with domain, name, subject, and category fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-details-form.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -41,7 +42,7 @@ Click the drop-down menu to select one of your domains, enter the Template name,
 
 Choose the **Drag & Drop Editor** to build the template without coding, or select **HTML Editor** if you prefer to write/modify the code.
 
-<div align="left"><img src="../.gitbook/assets/template-design-selection.png" alt="Editor selection showing Drag and Drop and HTML editor options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-design-selection.png" alt="Editor selection showing Drag and Drop and HTML editor options" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -49,14 +50,12 @@ Choose the **Drag & Drop Editor** to build the template without coding, or selec
 
 Create/modify the design and click **Finish**.
 
-<div align="left"><img src="../.gitbook/assets/template-drag-drop-editor.png" alt="Template editor with Finish button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-drag-drop-editor.png" alt="Template editor with Finish button" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
 {% hint style="info" %}
 The main Templates menu features all your saved templates. To quickly access a saved template, just click on it within the main menu.
-
-<img src="../.gitbook/assets/template-final-list.png" alt="List of all saved email templates" data-size="original">
 {% endhint %}
 
 ## Editing and Customizing Templates
@@ -65,7 +64,7 @@ The main Templates menu features all your saved templates. To quickly access a s
 
 Each template must have a name, subject, category, and assigned domain. The subject also supports variables.
 
-<div align="left"><img src="../.gitbook/assets/template-details-view.png" alt="Template details page showing name, subject, category, and domain fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-details-view.png" alt="Template details page showing name, subject, category, and domain fields" width="563"></div>
 
 ### Available Editors
 
@@ -73,13 +72,13 @@ Each template must have a name, subject, category, and assigned domain. The subj
 {% tab title="Drag & Drop Editor" %}
 The drag-and-drop editor allows you to design templates without any coding.
 
-<div align="left"><img src="../.gitbook/assets/template-drag-drop-interface.png" alt="Drag and drop template editor interface" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-drag-drop-interface.png" alt="Drag and drop template editor interface" width="563"></div>
 {% endtab %}
 
 {% tab title="Code Editor" %}
 Code Editor allows you to edit the HTML or Text content, depending on the emails you want to send.
 
-<div align="left"><img src="../.gitbook/assets/template-html-code-editor.png" alt="Code editor interface for HTML and text content" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-html-code-editor.png" alt="Code editor interface for HTML and text content" width="563"></div>
 
 The editor supports Find and Replace options, and you can use **Cmd+F** or **Win+F** as a hotkey to reveal a quick search bar.
 
@@ -88,10 +87,10 @@ The editor supports Find and Replace options, and you can use **Cmd+F** or **Win
 
 If your template has an error, Handlebars cannot render it. You'll see an error message in the Preview tab, and the RAW code with an error will be highlighted in the Editor.
 
-<img src="../.gitbook/assets/marketing-templates-error.png" alt="Template error message showing highlighted error in code editor" data-size="original">
-
 You can't save a template with errors. Note that we don't validate HTML—only Handlebars syntax is validated.
 {% endhint %}
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/marketing-templates-error.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endtab %}
 {% endtabs %}
 
@@ -103,7 +102,7 @@ You can't save a template with errors. Note that we don't validate HTML—only H
 
 Click **Upload image** in the upper right corner of the Code Editor.
 
-<div align="left"><img src="../.gitbook/assets/template-upload-image-button.png" alt="Upload image button in code editor" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-upload-image-button.png" alt="Upload image button in code editor" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -126,7 +125,7 @@ Hit the **Upload New** button in the following menu and choose an image from you
 
 Once the image is uploaded, you will receive a confirmation notification. If the file format is unsupported or the image is too big, you will receive the corresponding error message.
 
-<div align="left"><img src="../.gitbook/assets/template-image-upload-success.png" alt="Success notification after image upload" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-image-upload-success.png" alt="Success notification after image upload" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -134,7 +133,7 @@ Once the image is uploaded, you will receive a confirmation notification. If the
 
 Click the **Copy URL** button to copy the image URL to your clipboard, then click **Template** to return to the editing menu.
 
-<div align="left"><img src="../.gitbook/assets/template-copy-url-button.png" alt="Copy URL button to copy image URL to clipboard" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-copy-url-button.png" alt="Copy URL button to copy image URL to clipboard" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -142,7 +141,7 @@ Click the **Copy URL** button to copy the image URL to your clipboard, then clic
 
 Proceed to add the image to the template body under the `<img>` tag. You can preview it in the template as soon as the asset is added.
 
-<div align="left"><img src="../.gitbook/assets/template-image-in-code.png" alt="Template preview showing added image" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-image-in-code.png" alt="Template preview showing added image" width="375"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -150,7 +149,7 @@ Proceed to add the image to the template body under the `<img>` tag. You can pre
 
 Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
 
-<div align="left"><img src="../.gitbook/assets/template-test-data-variables.png" alt="Test Data tab showing template variables" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-test-data-variables.png" alt="Test Data tab showing template variables" width="563"></div>
 
 {% hint style="info" %}
 By default, as a value, we put a variable name and add the "Test\_" prefix.
@@ -160,7 +159,7 @@ By default, as a value, we put a variable name and add the "Test\_" prefix.
 
 If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the **Send Test** button.
 
-<div align="left"><img src="../.gitbook/assets/template-send-test-button.png" alt="Send Test button to send test email" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-send-test-button.png" alt="Send Test button to send test email" width="563"></div>
 
 {% hint style="warning" %}
 **Test Email Requirements**

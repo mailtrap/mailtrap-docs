@@ -139,7 +139,7 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 * Feature is currently included in your plans (may change later)
 {% endhint %}
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-runs-limit.png" alt="Billing dashboard showing automation runs limit counter" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Creating Your First Automation
 
@@ -147,21 +147,21 @@ To get started, navigate to the tab in your Mailtrap account or go to [https://m
 
 {% stepper %}
 {% step %}
-#### Create New Automation
+**Create New Automation**
 
 Define the name for your automation.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-create-name.png" alt="Dialog to enter automation name" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Choose a descriptive name that indicates the automation's purpose.
 {% endstep %}
 
 {% step %}
-#### Set Up Entry Trigger
+**Set Up Entry Trigger**
 
 Select when the automation should start.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-trigger-setup.png" alt="Interface showing automation trigger selection options" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 For this example, we'll use the "Contact created" trigger. This means the automation will start whenever a new contact is added. After selecting the trigger type, click "Save".
 {% endstep %}
@@ -173,23 +173,23 @@ Now that you've set up the trigger, you can start adding steps to your automatio
 
 {% stepper %}
 {% step %}
-#### Add an Action
+**Add an Action**
 
 Click the "Add Step" button to add your first action.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-add-action.png" alt="Button to add a new action to the automation sequence" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (26).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-send-email-action.png" alt="Action selection menu showing Send Email option" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Select "Send Email" as your first action.
 {% endstep %}
 
 {% step %}
-#### Configure the Email
+**Configure the Email**
 
 Set up your email content and settings.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-configure-email.png" alt="Email configuration interface with subject and content fields" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (28).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Add your subject line, choose a template, and personalize with merge tags.
 {% endstep %}
@@ -201,17 +201,17 @@ To create a more sophisticated sequence, you can add time delays and further act
 
 {% stepper %}
 {% step %}
-#### Add a Time Delay
+**Add a Time Delay**
 
 Insert waiting periods between actions.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-time-delay.png" alt="Time delay configuration showing options for delay duration" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Configure the delay duration (minutes, hours, days, or weeks).
 {% endstep %}
 
 {% step %}
-#### Add Another Email
+**Add Another Email**
 
 Continue building your sequence with additional messages or actions.
 
@@ -225,7 +225,7 @@ Once you've built your automation sequence, it's time to activate it.
 
 ### Activate Automation
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-activate.png" alt="Button to activate the automation" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (30).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 **Before Activating**
@@ -240,7 +240,7 @@ Once you've built your automation sequence, it's time to activate it.
 
 You can pause or disable your automation at any time.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-pause-disable.png" alt="Menu showing pause and disable automation options" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (31).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% tabs %}
 {% tab title="Pause Automation" %}
@@ -265,7 +265,7 @@ You can pause or disable your automation at any time.
 
 You can track the performance of your automation by clicking on the Reports tab within the automation builder.
 
-<div align="left"><img src="../.gitbook/assets/marketing-automation-reports.png" alt="Automation reports dashboard showing performance metrics for each step" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (32).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Available Metrics
 

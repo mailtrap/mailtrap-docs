@@ -3,7 +3,6 @@ title: Setup & Configuration
 description: >-
   Set up and configure Mailtrap email API and SMTP service and start sending
   emails in minutes.
-icon: gear
 layout:
   width: default
   title:

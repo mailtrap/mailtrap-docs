@@ -3,6 +3,7 @@ title: Automatic email forwarding
 description: >-
   Forward emails from the sandbox to any inbox automatically for testing in
   different clients and notifying colleagues
+icon: forward
 ---
 
 # Automatic Forwarding
@@ -23,7 +24,7 @@ The email confirmation will be sent to this email address(es) for verification. 
 
 In the **Auto Forward** tab, you will also find the list of email addresses for forwarding and their statuses:
 
-<div align="left"><img src="../.gitbook/assets/sandbox-auto-forward-email-addresses.png" alt="Auto Forward tab showing email addresses with Active and Pending statuses" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-auto-forward-email-addresses.png" alt="Auto Forward tab showing email addresses with Active and Pending statuses"></div>
 
 * _Active_ means that its owner has confirmed that they agree to receive emails.
 * _Pending_ means that the owner hasn't confirmed that they agree to receive emails.
@@ -40,7 +41,7 @@ To set auto-forwarding to a domain, you need to add a TXT record to verify your 
 4. Copy the authentication key from the _Value_ column and paste it to your TXT record.
 5. Once completed, get back and click the **Verify** button for this domain. The status should change to _Active_. The system will forward messages to any email address which matches "\*@domain" in the "To" or "Cc" email headers.To remove a forward rule, use the action buttons in the three-dots menu next to the domain.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-auto-forward-domain-verification.png" alt="Domain verification table showing TXT record values for domain forwarding setup" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-auto-forward-domain-verification.png" alt="Domain verification table showing TXT record values for domain forwarding setup" width="563"></div>
 
 ### "From" header in forwarded emails
 

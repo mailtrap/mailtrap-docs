@@ -3,6 +3,7 @@ title: From Header Domain Mismatch
 description: >-
   How to fix "From: Header does not match the sender's domain" error in Mailtrap
   Email API/SMTP.
+icon: envelope
 layout:
   width: default
   title:

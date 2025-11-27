@@ -4,6 +4,7 @@ description: >-
   Mailtrap offers free plans and discounts for non-profit organizations and
   open-source initiatives. Learn how to activate non-profit benefits for your
   account.
+icon: osi
 ---
 
 # Non-Profit and Open-Source

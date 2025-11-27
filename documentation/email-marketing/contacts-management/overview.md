@@ -3,7 +3,6 @@ title: Contacts Management Overview
 description: >-
   Upload, store, and organize your contacts in email lists to send targeted
   campaigns
-icon: user-magnifying-glass
 ---
 
 # Contacts Management
@@ -23,71 +22,37 @@ Mailtrap Contacts allows you to upload and store your contacts on the Mailtrap p
 
 ## Getting Started
 
-{% columns %}
-{% column %}
-<i class="fa-solid">:solid:</i>**Custom Fields**
-
-Define custom variables like name, date of birth, or location to personalize your campaigns.
-
-[Learn about Fields →](fields.md)
-{% endcolumn %}
-
-{% column %}
-<i class="fa-solid">:solid:</i>**Import Contacts**
-
-Bulk import contacts from spreadsheets, sync via API, or use our integrations.
-
-[Upload Contacts →](uploading-contacts.md)
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-<i class="fa-solid">:solid:</i>**Manage Contacts**
-
-Filter, search, edit, and perform bulk actions on your contact database.
-
-[Manage Contacts →](managing-contacts.md)
-{% endcolumn %}
-
-{% column %}
-<i class="fa-solid">:solid:</i>**Lists & Segments**
-
-Create dynamic segments for targeted messaging based on contact fields or contacts engagement.
-
-[Lists →](lists.md) | [Segments →](segments.md)
-{% endcolumn %}
-{% endcolumns %}
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Custom Fields</strong></td><td><em>Define custom variables like name, date of birth, or location to personalize your campaigns.</em></td><td><a href="fields.md">fields.md</a></td></tr><tr><td><strong>Import Contacts</strong></td><td><em>Bulk import contacts from spreadsheets, sync via API, or use our integrations.</em></td><td><a href="uploading-contacts.md">uploading-contacts.md</a></td></tr><tr><td><strong>Manage Contacts</strong></td><td><em>Filter, search, edit, and perform bulk actions on your contact database.</em></td><td><a href="managing-contacts.md">managing-contacts.md</a></td></tr><tr><td><strong>Lists</strong></td><td><em>Static groups of contacts that help you organize your audience for targeted email campaigns</em></td><td><a href="lists.md">lists.md</a></td></tr><tr><td><strong>Segments</strong></td><td><em>Dynamic groups of contacts that automatically update based on criteria you define</em></td><td><a href="segments.md">segments.md</a></td></tr></tbody></table>
 
 ## Contact Management Workflow
 
 {% stepper %}
 {% step %}
-#### Define Custom Fields
+**Define Custom Fields**
 
 Set up custom fields to store additional contact information for personalization.
 {% endstep %}
 
 {% step %}
-#### Import Your Contacts
+**Import Your Contacts**
 
 Upload contacts via CSV, API integration, or third-party tools like Zapier.
 {% endstep %}
 
 {% step %}
-#### Organize into Lists
+**Organize into Lists**
 
 Group contacts into relevant lists based on your marketing strategy.
 {% endstep %}
 
 {% step %}
-#### Create Segments
+**Create Segments**
 
 Build dynamic segments that automatically update based on contact properties.
 {% endstep %}
 
 {% step %}
-#### Launch Campaigns
+**Launch Campaigns**
 
 Use your organized contacts to send targeted email marketing campaigns.
 {% endstep %}

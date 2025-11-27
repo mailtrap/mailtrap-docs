@@ -3,7 +3,6 @@ title: Advanced Features
 description: >-
   Learn what features for advanced email sending scenarios Mailtrap Email
   API/SMTP provides.
-icon: scale-balanced
 layout:
   width: default
   title:

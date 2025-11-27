@@ -4,6 +4,7 @@ description: >-
   Manage Mailtrap suppression lists. View, add, remove, or import suppressed
   emails from hard bounces, unsubscribes, and spam complaints via CSV or
   manually.
+icon: ban
 layout:
   width: default
   title:

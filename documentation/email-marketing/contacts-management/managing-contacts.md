@@ -1,6 +1,7 @@
 ---
 title: Managing Contacts
 description: Search, filter, edit, and perform bulk operations on your contact database
+icon: users-gear
 ---
 
 # Managing Contacts
@@ -11,7 +12,7 @@ Efficiently manage your contact database with powerful search, filtering, and bu
 
 Navigate to **Contacts** → **All contacts** to access your complete contact database.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-details-view.png" alt="Contact details page showing subscription status and associated fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-details-view.png" alt="Contact details page showing subscription status and associated fields" width="563"></div>
 
 ## Searching and Filtering
 
@@ -29,7 +30,7 @@ Build complex filters using multiple criteria:
 
 {% stepper %}
 {% step %}
-#### Select Filter Type
+**Select Filter Type**
 
 Choose from:
 
@@ -40,7 +41,7 @@ Choose from:
 {% endstep %}
 
 {% step %}
-#### Set Conditions
+**Set Conditions**
 
 Define your filter logic:
 
@@ -51,11 +52,11 @@ Define your filter logic:
 {% endstep %}
 
 {% step %}
-#### Apply Filter
+**Apply Filter**
 
 Click **Search** to view filtered results.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-filter-search.png" alt="Contact filtering interface with subscription status filter" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-filter-search.png" alt="Contact filtering interface with subscription status filter" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -102,7 +103,7 @@ Re-engage dormant subscribers.
 
 Click on any contact to view their details and perform individual actions:
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-actions-menu.png" alt="Contact actions menu with delete, unsubscribe, and edit options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-actions-menu.png" alt="Contact actions menu with delete, unsubscribe, and edit options" width="563"></div>
 
 ### Available Actions
 
@@ -176,23 +177,23 @@ Perform actions on multiple contacts simultaneously for efficient management.
 
 {% stepper %}
 {% step %}
-#### Select Contacts
+**Select Contacts**
 
 Check the contacts you want to add to lists.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-bulk-add-to-lists.png" alt="Bulk action to add selected contacts to lists" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-bulk-add-to-lists.png" alt="Bulk action to add selected contacts to lists" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Choose Lists
+**Choose Lists**
 
 Select one or more destination lists.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-select-lists.png" alt="List selection dialog for adding contacts" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-select-lists.png" alt="List selection dialog for adding contacts" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Confirm Action
+**Confirm Action**
 
 Click **Add To Lists** to complete the operation.
 {% endstep %}
@@ -202,25 +203,25 @@ Click **Add To Lists** to complete the operation.
 
 {% stepper %}
 {% step %}
-#### Select Contacts
+**Select Contacts**
 
 Mark contacts to remove from lists.
 
 Click **More Actions** → **Remove from lists**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-bulk-remove.png" alt="Bulk action menu showing Remove from lists option" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-bulk-remove.png" alt="Bulk action menu showing Remove from lists option" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Choose Lists
+**Choose Lists**
 
 Select which lists to remove contacts from.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-remove-from-lists.png" alt="List selection dialog for removing contacts" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-remove-from-lists.png" alt="List selection dialog for removing contacts" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Confirm Removal
+**Confirm Removal**
 
 Click **Remove** to process the action.
 {% endstep %}
@@ -230,25 +231,25 @@ Click **Remove** to process the action.
 
 {% stepper %}
 {% step %}
-#### Select Contacts
+**Select Contacts**
 
 Choose contacts to unsubscribe.
 
 Click **More Actions** → **Unsubscribe**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-bulk-unsubscribe.png" alt="Bulk action menu showing Unsubscribe option" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-bulk-unsubscribe.png" alt="Bulk action menu showing Unsubscribe option" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Confirm Action
+**Confirm Action**
 
 Type 'unsubscribe' to confirm.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-unsubscribe-confirm.png" alt="Confirmation dialog to unsubscribe contacts" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-unsubscribe-confirm.png" alt="Confirmation dialog to unsubscribe contacts" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Process Unsubscribe
+**Process Unsubscribe**
 
 Click **Unsubscribe** to complete.
 
@@ -262,29 +263,29 @@ This action cannot be undone. Contacts must re-subscribe themselves.
 
 {% stepper %}
 {% step %}
-#### Select for Export
+**Select for Export**
 
 Choose contacts to export.
 
 Click **More Actions** → **Export**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-export.png" alt="Bulk action menu showing Export option" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-export.png" alt="Bulk action menu showing Export option" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Confirm Export
+**Confirm Export**
 
 Click **Confirm Export**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-export-confirm.png" alt="Confirmation dialog to export contacts" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-export-confirm.png" alt="Confirmation dialog to export contacts" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Download File
+**Download File**
 
 Check your email for the download link.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-export-email.png" alt="Email notification with download link for exported contacts" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-export-email.png" alt="Email notification with download link for exported contacts" width="563"></div>
 
 {% hint style="info" %}
 Export includes all contact fields and list memberships.
@@ -296,25 +297,25 @@ Export includes all contact fields and list memberships.
 
 {% stepper %}
 {% step %}
-#### Select for Deletion
+**Select for Deletion**
 
 Choose contacts to delete.
 
 Click **More Actions** → **Delete**.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-bulk-delete.png" alt="Bulk action menu showing Delete option" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-bulk-delete.png" alt="Bulk action menu showing Delete option" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Confirm Deletion
+**Confirm Deletion**
 
 Type 'delete' to confirm.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-contacts-delete-confirm.png" alt="Confirmation dialog to delete contacts with warning" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-delete-confirm.png" alt="Confirmation dialog to delete contacts with warning" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Process Deletion
+**Process Deletion**
 
 Click **Delete** to permanently remove contacts.
 
@@ -377,11 +378,3 @@ This action cannot be undone. All contact data will be permanently deleted.
 4. **Export Backups**: Regular exports for data safety
 5. **Consent Tracking**: Document how consent was obtained
 {% endhint %}
-
-## Compliance Considerations
-
-### GDPR Requirements
-
-### CAN-SPAM Compliance
-
-## Troubleshooting

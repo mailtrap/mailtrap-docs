@@ -1,7 +1,6 @@
 ---
 title: Help & Support
 description: Get help with Email Sandbox issues and find answers to common questions
-icon: question
 ---
 
 # Help & Support
@@ -10,13 +9,7 @@ Find answers to common questions and troubleshoot issues with Email Sandbox. Our
 
 ## Resources
 
-### [Frequently Asked Questions](../faqs.md)
-
-Browse our comprehensive FAQ section for quick answers to common questions about Email Sandbox setup, integration, testing features, and best practices.
-
-### [Troubleshooting Guide](../troubleshooting.md)
-
-Step-by-step solutions for common issues including connection problems, email capture issues, and configuration errors.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Frequently Asked Questions</strong></td><td><em>Browse our comprehensive FAQ section for quick answers to common questions about Email Sandbox setup, integration, testing features, and best practices.</em></td><td><a href="../faqs.md">faqs.md</a></td></tr><tr><td><strong>Troubleshooting</strong></td><td><em>Step-by-step solutions for common issues including connection problems, email capture issues, and configuration errors.</em></td><td><a href="../troubleshooting.md">troubleshooting.md</a></td></tr></tbody></table>
 
 ## Common Issues & Solutions
 

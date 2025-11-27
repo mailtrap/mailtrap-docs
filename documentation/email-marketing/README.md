@@ -3,7 +3,6 @@ title: Email Marketing Overview
 description: >-
   Create, send, and analyze email marketing campaigns with Mailtrap's
   comprehensive marketing platform
-icon: memo-circle-check
 ---
 
 # Overview

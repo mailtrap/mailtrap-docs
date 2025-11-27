@@ -4,6 +4,7 @@ description: >-
   Manage complex setups with Mailtrap Organization & Sub‑Accounts. Learn about
   centralized billing, isolated workspaces, permissions, and how to create and
   migrate sub-accounts.
+icon: sitemap
 ---
 
 # Organization & Sub-Accounts
@@ -56,35 +57,35 @@ Use Organization & Sub‑accounts to:
 
 {% stepper %}
 {% step %}
-### Access Organization Settings
+#### Access Organization Settings
 
 Go to the left-side menu and select Organization. This will open the Organization panel.
 
-<div align="left"><img src="../.gitbook/assets/org-organization-details.png" alt="Mailtrap Organization page showing Organization Details tab with name, owner email, and organization ID" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-organization-details.png" alt="Mailtrap Organization page showing Organization Details tab with name, owner email, and organization ID" width="375"></div>
 {% endstep %}
 
 {% step %}
-### Navigate to Sub-accounts
+#### Navigate to Sub-accounts
 
 Click Sub-accounts menu item and Create Sub-Account button.
 
-<div align="left"><img src="../.gitbook/assets/org-create-subaccount-button.png" alt="Organization page with Create sub-account button highlighted" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-create-subaccount-button.png" alt="Organization page with Create sub-account button highlighted" width="563"></div>
 {% endstep %}
 
 {% step %}
-### Enter Sub-account Name
+#### Enter Sub-account Name
 
 Enter the sub-account name and click Create.
 
-<div align="left"><img src="../.gitbook/assets/org-subaccount-name-input.png" alt="Create sub-account dialog with name input field and Create button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-subaccount-name-input.png" alt="" width="188"></div>
 {% endstep %}
 
 {% step %}
-### Configure Account Settings
+#### Configure Account Settings
 
 You will be automatically redirected to the new account settings page, where you can manage other account settings.
 
-<div align="left"><img src="../.gitbook/assets/org-account-settings-created.png" alt="Account Settings page for newly created sub-account showing account name and owner details" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-account-settings-created.png" alt="Account Settings page for newly created sub-account showing account name and owner details" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -98,7 +99,7 @@ Sub‑accounts can be created through the user interface or through the API as w
 
 Switch between your organizations and sub‑accounts from the left-side menu anytime.
 
-<div align="left"><img src="../.gitbook/assets/org-account-switcher-menu.png" alt="User menu dropdown showing organization accounts and sub-accounts with account switcher" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-account-switcher-menu.png" alt="" width="184"></div>
 
 ### Migrating an already existing account
 
@@ -156,7 +157,7 @@ A user with organization-level permissions will always have access to all organi
 
 If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](user-management.md).
 
-<div align="left"><img src="../.gitbook/assets/org-edit-user-permissions.png" alt="Edit User dialog showing Organization Permissions and Account Permissions with admin and viewer role options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-edit-user-permissions.png" alt="" width="375"></div>
 
 {% hint style="info" %}
 Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
@@ -176,7 +177,7 @@ All users with Organization-level access also have access to your account, and t
 
 If you are an Organization Owner or Organization Admin, you can edit organization-level users (e.g., invite, remove, or change roles). If you don't have admin rights, you will still see the full list of org-level users, but only in view-only mode.
 
-<div align="left"><img src="../.gitbook/assets/org-user-management-tab.png" alt="User Management page showing Organization users tab with list of members and their permissions" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-user-management-tab.png" alt="User Management page showing Organization users tab with list of members and their permissions" width="563"></div>
 
 ### API tokens
 

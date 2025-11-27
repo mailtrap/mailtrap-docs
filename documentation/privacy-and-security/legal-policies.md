@@ -3,6 +3,7 @@ title: Legal Policies
 description: >-
   Access Mailtrap's privacy policy, data processing addendum, and other legal
   documents
+icon: scale-balanced
 ---
 
 # Legal Policies

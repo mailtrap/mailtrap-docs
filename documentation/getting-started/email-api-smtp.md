@@ -1,7 +1,6 @@
 ---
 title: Email API/SMTP
 description: Learn how to send your application emails with Mailtrap Email API/SMTP
-icon: paper-plane
 layout:
   width: default
   title:

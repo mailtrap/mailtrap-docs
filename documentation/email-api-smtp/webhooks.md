@@ -82,11 +82,11 @@ To find out more about the sending event specifics, check the [Statuses and Even
 * Choose the **domain** you want to receive events' data for
 * Select one or more [event types](statuses-and-events.md) by ticking the corresponding checkbox.
 
-![Email Sending webhook configuration showing stream dropdown, domain dropdown, and event type checkboxes with multiple options](../.gitbook/assets/webhooks-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-5.png" alt="" width="375"></div>
 
 * Click the **Run Test** button to test the webhook setup. The code represents a dummy payload of the webhook structure and how to read it correctly. If your endpoint responds with a 200 code, you'll see a confirmation in the app. All other response codes show an error during a test.
 
-![Webhook test interface displaying payload example code and Run Test button for testing webhook configuration](../.gitbook/assets/webhooks-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-6.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 One popular way to test webhooks outside your system is [Webhook.site](https://webhook.site/#!/view/d24cebd2-99cc-46f3-8685-c779017f39a0), but don't use it for production.
@@ -94,7 +94,7 @@ One popular way to test webhooks outside your system is [Webhook.site](https://w
 
 * If the tests are successful, click the **Save** button. All information will be sent to your webhook endpoint.
 
-![Webhook configuration page with Save and Cancel buttons at the bottom](../.gitbook/assets/webhooks-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-7.png" alt="Webhook configuration page with Save and Cancel buttons at the bottom" width="563"></div>
 
 {% hint style="info" %}
 To edit, pause, or delete an active webhook, go back to the Webhooks tab and select the webhook you want to change.
@@ -125,8 +125,8 @@ All stats are built on the events, and you get most event information from the M
 
 If your endpoint is down and doesn't respond with 200 OK, we'll retry multiple times. The scheduling logic is as follows:
 
-* **Retry** — 40 retries every 5 minutes. The webhook will be considered failed if we don't receive 200 OK with all retries. If the webhook fails, we'll pause it and notify you by email. You'll need to check its settings and resume it manually.
-* **Timeout** — 30 seconds. If your endpoint doesn't respond within that time, the webhook event batch will go to the retry schedule.
+* **Retry** - 40 retries every 5 minutes. The webhook will be considered failed if we don't receive 200 OK with all retries. If the webhook fails, we'll pause it and notify you by email. You'll need to check its settings and resume it manually.
+* **Timeout** - 30 seconds. If your endpoint doesn't respond within that time, the webhook event batch will go to the retry schedule.
 
 ### Batches
 

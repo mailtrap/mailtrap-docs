@@ -3,6 +3,7 @@ title: SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001
 description: >-
   How to fix SSL errors when using custom domains for click tracking in Mailtrap
   Email API/SMTP.
+icon: certificate
 layout:
   width: default
   title:
@@ -23,7 +24,7 @@ layout:
 
 When using a custom domain for click tracking, you may encounter `SSL_ERROR_NO_CYPHER_OVERLAP` or `Error 1001` error.
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-ssl-error.png" alt="Browser showing SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001 when accessing custom tracking domain"><figcaption><p>SSL error when accessing custom domain for click tracking</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/troubleshoot-sending-ssl-error.png" alt="Browser showing SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001 when accessing custom tracking domain" width="563"><figcaption><p>SSL error when accessing custom domain for click tracking</p></figcaption></figure>
 
 ### Understanding Custom Domain Click Tracking
 
@@ -87,17 +88,9 @@ If you don't need to restrict which CAs can issue certificates for your domain, 
 
 ### How to Add CAA Records
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-caa-records-form.png" alt="DNS provider interface showing CAA record configuration form with Type, Name, TTL, Flag, Tag, and Domain fields"><figcaption><p>CAA record configuration form</p></figcaption></figure>
-
 **CAA Record Configuration**
 
-| Field  | Value                                                         | Description                                                                                                 |
-| ------ | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Name   | blank or `@`, depending on your provider                      |                                                                                                             |
-| TTL    | 1 hour or any other appropriate TTL                           | Controls how long the record is valid.                                                                      |
-| Flag   | 0                                                             | `0` means that no flags have been set. Please read your DNS provider's documentation for specific behavior. |
-| Tag    | issue                                                         | Allows the CA to issue certificates for this domain and its subdomains (e.g., mt-link subdomain).           |
-| Domain | `pki.goog; cansignhttpexchanges=yes` **OR** `letsencrypt.org` | Google Trust Services needs the additional parameter `cansignhttpexchanges=yes`.                            |
+<table><thead><tr><th width="148.625">Field</th><th width="318.66015625">Value</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>blank or <code>@</code>, depending on your provider</td><td></td></tr><tr><td>TTL</td><td>1 hour or any other appropriate TTL</td><td>Controls how long the record is valid.</td></tr><tr><td>Flag</td><td>0</td><td><code>0</code> means that no flags have been set. Please read your DNS provider's documentation for specific behavior.</td></tr><tr><td>Tag</td><td>issue</td><td>Allows the CA to issue certificates for this domain and its subdomains (e.g., mt-link subdomain).</td></tr><tr><td>Domain</td><td><code>pki.goog; cansignhttpexchanges=yes</code> <strong>OR</strong> <code>letsencrypt.org</code></td><td>Google Trust Services needs the additional parameter <code>cansignhttpexchanges=yes</code>.</td></tr></tbody></table>
 
 {% hint style="info" %}
 You'll need to create **two separate CAA records**: one for Google Trust Services and one for Let's Encrypt.
@@ -125,7 +118,7 @@ Run the `dig CAA example.com` command again to confirm the new records are in pl
 
 Once propagated, you should be able to access your mt-link subdomain without SSL errors:
 
-<figure><img src="../../.gitbook/assets/troubleshoot-sending-ssl-resolved.png" alt="Browser showing successful secure connection to mt-link.mailtrap.io verified by Google Trust Services LLC"><figcaption><p>Successful SSL connection after CAA records configuration</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -145,9 +138,3 @@ If you're still experiencing SSL errors after updating CAA records:
 * Verify the records are correctly formatted (check for typos)
 * Contact your DNS provider for CAA record support
 * Reach out to Mailtrap support at [support@mailtrap.io](mailto:support@mailtrap.io)
-
-### Related Articles
-
-* [Sending Domain Setup](../sending-domain-setup.md)
-* [Email API/SMTP FAQs](../faqs.md)
-

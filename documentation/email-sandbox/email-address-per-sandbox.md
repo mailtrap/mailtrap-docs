@@ -13,7 +13,7 @@ Starting from the [Basic](https://mailtrap.io/pricing/) billing plan, each of yo
 
 The email address is enabled for you by default. To, disable, edit and reset the email address for this sandbox, go to the three-dots(more)menu.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-email-address-tab.png" alt="Email Address tab showing customizable sandbox email address with alias and technical hash" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-email-address-tab.png" alt="Email Address tab showing customizable sandbox email address with alias and technical hash" width="563"></div>
 
 As you can see from the screenshot, the sandbox address consists of two parts:
 

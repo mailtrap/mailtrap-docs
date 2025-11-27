@@ -3,7 +3,6 @@ title: Deliverability Features
 description: >-
   Learn about email deliverability features and tools Mailtrap provides to
   guarantee high inbox placement rates of your emails.
-icon: truck-bolt
 layout:
   width: default
   title:

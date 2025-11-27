@@ -43,7 +43,7 @@ This way, you can test and verify the following scenarios:
 
 First, you need to get a token. You can find it under Settings, API Tokens.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-api-tokens-settings.png" alt="Settings page showing API Tokens section for generating authentication tokens" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-api-tokens-settings.png" alt="" width="123"></div>
 
 To learn more about managing your tokens, please [check this guide](../account-and-organization/api-tokens.md). Then, there are a couple ways to send authenticated HTTP requests:
 

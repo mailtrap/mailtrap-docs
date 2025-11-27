@@ -1,24 +1,11 @@
 ---
 title: Help & Support
 description: Get help with Email Marketing issues and find answers to common questions
-icon: question
 ---
 
 # Help & Support
 
 Find answers to common questions and troubleshoot issues with Email Marketing. Get help with campaign creation, contact management, analytics, and more.
-
-## Resources
-
-### [Frequently Asked Questions](../faqs.md)
-
-Quick answers to common questions about Email Marketing campaigns, contact management, templates, and analytics.
-
-### [Troubleshooting Guide](broken-reference)
-
-Step-by-step solutions for campaign issues, delivery problems, and configuration errors.
-
-## Common Issues & Solutions
 
 ### Campaign Creation Issues
 
@@ -124,17 +111,6 @@ jane@example.com,Jane,Smith,Value2
 **Support Channels**:
 
 * **Email**: support@mailtrap.io
-* **Live Chat**: Business hours (9 AM - 6 PM EST)
-* **Phone**: Enterprise customers only
-
-### Priority Support
-
-Available for Business and Enterprise plans:
-
-* Response within 4 hours
-* Dedicated support rep
-* Screen sharing sessions
-* Custom training available
 
 ## Quick Solutions
 
@@ -281,9 +257,9 @@ WHERE campaign_id = 'YOUR_CAMPAIGN_ID';
 
 ### Advanced Topics
 
-* [Segmentation Strategies](broken-reference)
+* [Segmentation Strategies](broken-reference/)
 * [Automation Workflows](../automations.md)
-* [Analytics Deep Dive](broken-reference)
+* [Analytics Deep Dive](broken-reference/)
 * [Template Optimization](../email-templates.md)
 
 ### Webinars & Training

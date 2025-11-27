@@ -3,7 +3,6 @@ title: Email API/SMTP Overview
 description: >-
   Overview of Mailtrap Email API and SMTP service: key features, use cases, and
   target audience.
-icon: memo-circle-check
 layout:
   width: default
   title:

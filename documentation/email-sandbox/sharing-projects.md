@@ -1,6 +1,7 @@
 ---
 title: Sharing projects
 description: Organize and share projects to collaborate with team members on email testing
+icon: folder-open
 ---
 
 # Sharing Projects
@@ -17,11 +18,11 @@ You can share any of the projects in your account. Users that receive access to 
 
 To share a project including all of its sandboxes, you have three options - use the three vertical dots next to My Project under Sandboxes. Also, you can share a link from Project Team Members, or utilize the User Management feature.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-sharing-projects-menu.png" alt="Three dots menu next to project showing sharing options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-menu.png" alt="Three dots menu next to project showing sharing options" width="563"></div>
 
-<div align="left"><img src="../.gitbook/assets/sandbox-sharing-projects-team-members.png" alt="Project Team Members dialog for adding and managing project collaborators" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-team-members.png" alt="Project Team Members dialog for adding and managing project collaborators" width="563"></div>
 
-<div align="left"><img src="../.gitbook/assets/sandbox-sharing-projects-user-management.png" alt="User Management interface showing account-wide user permissions and project access" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-user-management.png" alt="" width="375"></div>
 
 It doesn't matter which option you choose. New users will be visible in the Sandbox Team Members, Project Team Members tab and in the User Management list. But to share a project, you need to be one of the following:
 

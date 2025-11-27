@@ -3,6 +3,7 @@ title: Manual email forwarding
 description: >-
   Forward individual emails from sandbox to any inbox for testing in different
   clients or notifying colleagues
+icon: arrow-turn-down-right
 ---
 
 # Manual Forwarding
@@ -30,7 +31,7 @@ In the **Manual Forward** tab, you will also find the list of email addresses fo
 
 Click the three-dot menu icon next to the email address to resend confirmation, or to remove this email address.
 
-<div align="left"><img src="../.gitbook/assets/sandbox-manual-forward-addresses.png" alt="Manual Forward tab showing email addresses list with Active and Pending statuses" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-manual-forward-addresses.png" alt="Manual Forward tab showing email addresses list with Active and Pending statuses" width="563"></div>
 
 ### "From" header in forwarded emails
 

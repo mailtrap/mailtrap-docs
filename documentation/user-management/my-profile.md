@@ -4,6 +4,7 @@ description: >-
   Manage your Mailtrap user profile settings, including email address, password,
   OAuth providers, and account access. Learn how to delete your profile or
   switch between accounts.
+icon: head-side
 ---
 
 # My Profile
@@ -14,7 +15,7 @@ To manage **User settings**, select your user name or email in the upper right c
 
 By default, the account name is either the owner's email address or name, if the latter was provided by OAuth.
 
-<div align="left"><img src="../.gitbook/assets/user-my-profile-menu.png" alt="Mailtrap user menu dropdown showing My Profile option and list of accounts" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/user-my-profile-menu.png" alt="Mailtrap user menu dropdown showing My Profile option and list of accounts" width="563"></div>
 
 When you delete your user, all your data is deleted. Check your [rights to be forgotten](https://mailtrap.io/privacy/#39-Data-Retention).If you own account(s) and delete your user profile, all the account data, including projects, sandboxes, and team mate accesses will be deleted. This action is irreversible. If you need this data in the future, consider downgrading to the Free plan instead of terminating your subscription.If you don't own any account, deleting your user profile results in losing access to Mailtrap as well as all your user data, such as email, billing plan, account accesses, linked OAuth providers, etc.And within the **User settings** menu, you can see which account(s) you belong to and your level of access for each.
 

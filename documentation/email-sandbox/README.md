@@ -3,7 +3,6 @@ title: Email Sandbox Overview
 description: >-
   Test and preview emails safely in a sandbox environment before sending to
   production
-icon: memo-circle-check
 ---
 
 # Overview

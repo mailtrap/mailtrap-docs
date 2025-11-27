@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting - Email Sandbox
 description: Common issues and solutions for Mailtrap Email Sandbox
+icon: wrench
 ---
 
 # Troubleshooting
@@ -62,7 +63,7 @@ To make sure our SMTP server is up and running, go to the [Status page](http://s
 {% endstep %}
 {% endstepper %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 If the issue persists after trying all these steps, please contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 {% endhint %}
 
@@ -143,7 +144,7 @@ If you still can't figure out why your emails aren't getting delivered to your s
 
 Email per sandbox is a premium feature available in the Basic, Team, Enterprise, or Business plans.
 
-<figure><img src="../.gitbook/assets/troubleshoot-sandbox-email-address-disabled.png" alt="Sandbox Email Address tab showing disabled status with upgrade message"><figcaption><p>Email address disabled - upgrade required</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/troubleshoot-sandbox-email-address-disabled.png" alt="Sandbox Email Address tab showing disabled status with upgrade message"><figcaption><p>Email address disabled - upgrade required</p></figcaption></figure></div>
 
 **Enabling After Upgrade**
 
@@ -161,7 +162,7 @@ Go to the **Email Address** tab in your sandbox.
 
 Click the three-dot menu to the right, and select **Enable**.
 
-<figure><img src="../.gitbook/assets/troubleshoot-sandbox-enable-email-address.png" alt="Email Address menu with Enable option highlighted"><figcaption><p>Enable email address option</p></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/troubleshoot-sandbox-enable-email-address.png" alt="Email Address menu with Enable option highlighted" width="375"><figcaption><p>Enable email address option</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -254,7 +255,7 @@ Log in to your dashboard, open your sandbox, and go to the **Integration** tab.
 
 Click the **Reset Credentials** button, and your details will be reset right away.
 
-<figure><img src="../.gitbook/assets/troubleshoot-sandbox-reset-credentials.png" alt="Integration tab with Reset Credentials button highlighted"><figcaption><p>Reset Credentials button in Integration tab</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/troubleshoot-sandbox-reset-credentials.png" alt="Integration tab with Reset Credentials button highlighted"><figcaption><p>Reset Credentials button in Integration tab</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

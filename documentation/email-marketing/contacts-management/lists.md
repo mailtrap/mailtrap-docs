@@ -1,6 +1,7 @@
 ---
 title: Lists
 description: Organize contacts into targeted groups for effective email campaigns
+icon: list
 ---
 
 # Lists
@@ -24,25 +25,25 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 
 {% stepper %}
 {% step %}
-#### Navigate to Lists
+**Navigate to Lists**
 
 Go to **Contacts** → **Lists** in your dashboard.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-lists-create-button.png" alt="Create List button in the Lists interface" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-create-button.png" alt="Create List button in the Lists interface" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Create New List
+**Create New List**
 
 Click **Create List** to open the creation dialog.
 {% endstep %}
 
 {% step %}
-#### Name Your List
+**Name Your List**
 
 Enter a descriptive name for your list.
 
-<div align="left"><img src="../../.gitbook/assets/marketing-lists-create-form.png" alt="Form to enter new list name" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-create-form.png" alt="Form to enter new list name" width="563"></div>
 
 {% hint style="warning" %}
 List names must be unique. You cannot create duplicate list names.
@@ -50,7 +51,7 @@ List names must be unique. You cannot create duplicate list names.
 {% endstep %}
 
 {% step %}
-#### Save List
+**Save List**
 
 Click **Create** to save your new list.
 
@@ -72,7 +73,7 @@ You can also create lists while importing contacts:
 
 Access all your lists from **Contacts** → **Lists**:
 
-<div align="left"><img src="../../.gitbook/assets/marketing-lists-manage.png" alt="Lists management page showing all created lists" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-manage.png" alt="Lists management page showing all created lists" width="563"></div>
 
 ### List Actions
 
@@ -161,10 +162,6 @@ Programmatically add contacts:
 {% endtab %}
 {% endtabs %}
 
-## Common List Types
-
-### Strategic List Categories
-
 ## List Best Practices
 
 {% hint style="success" %}
@@ -183,7 +180,7 @@ Programmatically add contacts:
 
 {% stepper %}
 {% step %}
-#### Create Onboarding Lists
+**Create Onboarding Lists**
 
 * Day 1 Welcome
 * Day 3 Follow-up
@@ -192,13 +189,13 @@ Programmatically add contacts:
 {% endstep %}
 
 {% step %}
-#### Automate Movement
+**Automate Movement**
 
 Use API or integrations to move contacts through lists based on timeline.
 {% endstep %}
 
 {% step %}
-#### Track Progress
+**Track Progress**
 
 Monitor engagement at each stage to optimize onboarding.
 {% endstep %}

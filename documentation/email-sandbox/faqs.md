@@ -1,6 +1,7 @@
 ---
 title: Email Sandbox - FAQs
 description: Frequently asked questions about Mailtrap Email Sandbox
+icon: question
 ---
 
 # FAQs

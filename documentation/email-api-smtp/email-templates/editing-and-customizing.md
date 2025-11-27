@@ -3,6 +3,7 @@ title: Editing and Customizing Templates
 description: >-
   Learn how to edit and customize email templates using Details, Drag & Drop
   Editor, Code Editor, and test your templates.
+icon: pen
 layout:
   width: default
   title:

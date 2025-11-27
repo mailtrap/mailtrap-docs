@@ -1,6 +1,7 @@
 ---
 title: Segments
 description: Create dynamic contact groups that automatically update based on criteria
+icon: filter
 ---
 
 # Segments
@@ -62,19 +63,19 @@ Example: A segment for "Active Users" automatically adds contacts who opened ema
 
 {% stepper %}
 {% step %}
-#### Navigate to Segments
+**Navigate to Segments**
 
 Go to **Contacts** → **Segments** in your dashboard.
 {% endstep %}
 
 {% step %}
-#### Click Create Segment
+**Click Create Segment**
 
 Select **Create Segment** to start building your dynamic group.
 {% endstep %}
 
 {% step %}
-#### Name Your Segment
+**Name Your Segment**
 
 Provide a descriptive name that clearly indicates the segment's purpose.
 
@@ -82,7 +83,7 @@ Example: "High-Value Customers - Last 90 Days"
 {% endstep %}
 
 {% step %}
-#### Define Conditions
+**Define Conditions**
 
 Set up rules using:
 
@@ -95,13 +96,13 @@ Use AND/OR logic to combine multiple conditions.
 {% endstep %}
 
 {% step %}
-#### Preview Results
+**Preview Results**
 
 Review the contacts that match your criteria before saving.
 {% endstep %}
 
 {% step %}
-#### Save and Activate
+**Save and Activate**
 
 Save your segment to start using it in campaigns.
 {% endstep %}

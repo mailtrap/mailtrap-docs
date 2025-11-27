@@ -1,7 +1,6 @@
 ---
 title: Email Sandbox
 description: Learn how to inspect and debug emails with Mailtrap Email Sandbox
-icon: spider-black-widow
 layout:
   width: default
   title:

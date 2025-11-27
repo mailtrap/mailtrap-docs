@@ -1,6 +1,7 @@
 ---
 title: Email API/SMTP - FAQs
 description: Frequently asked questions about Mailtrap Email API/SMTP.
+icon: question
 layout:
   width: default
   title:

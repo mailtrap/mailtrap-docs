@@ -3,6 +3,7 @@ title: Using Handlebars with Email Templates
 description: >-
   Complete guide to using Handlebars templating language with Mailtrap Email
   Templates, including syntax examples, helpers, and practical use cases.
+icon: font-case
 layout:
   width: default
   title:

@@ -1,7 +1,6 @@
 ---
 title: Email Marketing
 description: Learn how to set up and send email marketing campaigns with Mailtrap
-icon: headset
 layout:
   width: default
   title:
@@ -52,7 +51,7 @@ Choose a domain from the Select domain dropdown, then set the Campaign name, Sub
 {% step %}
 You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns. Read more about creating templates [here](../email-api-smtp/email-templates.md).
 
-<figure><img src="../.gitbook/assets/template-design-selection.png" alt="Template selection page with Drag & Drop and HTML editors" width="563"><figcaption><p>Template selection page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/template-design-selection.png" alt="Template selection page with Drag &#x26; Drop and HTML editors" width="563"><figcaption><p>Template selection page</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
