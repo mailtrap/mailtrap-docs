@@ -22,11 +22,11 @@ Before you start, ensure you have:
 
 In your Mailtrap dashboard, navigate to **Settings → API Tokens**. You can view all active tokens, their creators, and access levels.
 
-![Mailtrap Settings page displaying API Tokens section with table of active tokens and their permissions](../.gitbook/assets/vercel-img-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-1.png" alt="" width="563"></div>
 
 If you don't already have an API key, click **Add Token** and assign the desired permissions. For this integration, ensure you check the **API/SMTP** permissions.
 
-![Mailtrap Add API Token dialog with permissions table showing admin and viewer access settings](../.gitbook/assets/vercel-img-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-2.png" alt="" width="375"></div>
 
 Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens).
 {% endstep %}
@@ -36,11 +36,11 @@ Click **Save** and store your API key securely, as you won't be able to view it 
 
 Open your Vercel dashboard and go to the **Settings** for the project where you want to add Mailtrap:
 
-![Vercel project dashboard showing Settings option in the navigation menu](../.gitbook/assets/vercel-img-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-3.png" alt="" width="563"></div>
 
 In the **Environment Variables** section of Settings, locate the **Key** field and add `MAILTRAP_API_TOKEN` with your actual token value, then click **Save**.
 
-![Vercel Environment Variables settings page with MAILTRAP\_API\_TOKEN field highlighted and value input area](../.gitbook/assets/vercel-img-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-4.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 Since Vercel environment variables only become available after you redeploy your project, make sure to either push a new commit or click the **Deploy** button again in the Vercel dashboard.

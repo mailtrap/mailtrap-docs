@@ -25,7 +25,7 @@ With the Claude and Mailtrap integration, you can now send emails from Claude AI
 
 In Claude settings, go to the Developer tab, click on Edit Config, and open the claude\_desktop\_config.json file.
 
-![Claude Desktop settings displaying Developer tab and Model Context Protocol configuration options](../.gitbook/assets/send-email-with-claude-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-claude-1.png" alt="" width="375"></div>
 
 Tip: You can also open the claude\_desktop\_config.json file in the following locations:
 
@@ -62,7 +62,7 @@ Once in the Integration/API page, update the following values in your claude\_de
 * **MAILTRAP\_API\_TOKEN** – Used to authenticate API requests, which you can copy/paste from the credentials tab.
 * **DEFAULT\_FROM\_EMAIL** – Make sure the email's domain matches your own domain from the Sending Domains tab in Mailtrap.
 
-![Mailtrap account showing sending domain name and API token in the Integration tab](../.gitbook/assets/mailtrap-api-credentials.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -70,11 +70,11 @@ Once in the Integration/API page, update the following values in your claude\_de
 
 Open a new chat and make sure the MCP tool is specified.
 
-![Claude Desktop chat interface with greeting message and MCP tool availability indicator](../.gitbook/assets/send-email-with-claude-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-claude-3.png" alt="" width="375"></div>
 
 This will allow Claude Desktop to perform actions for us, for instance, email sending using Mailtrap MCP and send-email.
 
-![Modal dialog displaying available MCP tools including send-email integration from Mailtrap server](../.gitbook/assets/send-email-with-claude-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-claude-4.png" alt="" width="375"></div>
 
 To send a plain-text email, you can use a prompt like the one below, but you can also experiment with your own prompts:
 
@@ -82,15 +82,15 @@ Send an email to john.doe@example.com with the subject 'Hi John!' and a message 
 
 If Claude asks you to verify the usage of Mailtrap MCP, click Allow for this chat.
 
-![Claude permission dialog requesting user approval to use Mailtrap MCP integration with Allow for this chat option](../.gitbook/assets/send-email-with-claude-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-claude-5.png" alt="" width="375"></div>
 
 Then, it should successfully send a new email and provide you with the properties the email was sent with in the response.
 
-![Claude Desktop showing successful email delivery response with request parameters and generated message content](<../.gitbook/assets/mailtrap-api-credentials (1).png>)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="" width="375"></div>
 
 And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
 
-![Mailtrap Email Logs displaying delivered email with Hi John subject and delivery metadata](../.gitbook/assets/send-email-with-claude-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-claude-7.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 

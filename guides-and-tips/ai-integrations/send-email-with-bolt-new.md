@@ -116,13 +116,13 @@ The integration is straightforward since Bolt has it pre-built. Here's what to d
 
 * Click the **Integrations** button at the top right and select **Supabase**
 
-![Bolt.new Integrations dropdown menu showing Supabase, Stripe, and GitHub options](../.gitbook/assets/bolt-new-img-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bolt-new-img-1.png" alt="" width="172"></div>
 
 * Follow the wizard—it will handle everything for you
 * Pay close attention to selecting the Supabase project related to this task
 * Once complete, Bolt will confirm the connection
 
-![Bolt.new Supabase connection progress window showing completed database migration steps with checkmarks](../.gitbook/assets/bolt-new-img-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bolt-new-img-2.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -173,13 +173,13 @@ Plan step-by-step, verify results after each step. Verify all steps work before 
 
 After pasting the prompt and hitting Enter, Bolt will take a few minutes to engineer everything for you.
 
-![Bolt.new preview showing a landing page with email deliverability consultation form and benefits sections](../.gitbook/assets/bolt-new-img-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bolt-new-img-3.png" alt="" width="563"></div>
 
 Typically, Bolt will ask you to apply necessary changes for your software to run, review its flow, and apply the changes.
 
 If Bolt encounters bugs, it will list them and attempt to fix them when you click the associated button.
 
-![Bolt.new error panel displaying terminal errors with Hide problems option](../.gitbook/assets/bolt-new-img-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bolt-new-img-4.png" alt="error panel displaying terminal errors with Hide problems option" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -187,7 +187,7 @@ If Bolt encounters bugs, it will list them and attempt to fix them when you clic
 
 In Bolt Preview, navigate to the contact form, fill it out, and click submit.
 
-![Email deliverability consultation form with Full Name, Email Address, and Message fields](../.gitbook/assets/bolt-new-img-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/bolt-new-img-5.png" alt="" width="375"></div>
 
 Once you submit the form, you should see a confirmation message.
 

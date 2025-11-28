@@ -42,7 +42,7 @@ After a minute or two, V0 will generate your project. You'll need to insert your
 * Mailtrap from email
 * To email (optional for notifications)
 
-![V0 interface showing contact form creation with environment variable configuration for Mailtrap credentials](../.gitbook/assets/send-email-with-v0-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-v0-1.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -50,25 +50,25 @@ After a minute or two, V0 will generate your project. You'll need to insert your
 
 Once you add your credentials, try filling out the form and clicking the Send Message button.
 
-![V0 contact form preview with sample data filled in showing John Doe submission](../.gitbook/assets/send-email-with-v0-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-v0-2.png" alt="" width="563"></div>
 
 **Verify in Gmail**
 
 Here is the email received in Gmail:
 
-![Gmail inbox displaying the received contact form submission email with sender, name, email, and message details](../.gitbook/assets/send-email-with-v0-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-v0-3.png" alt="" width="563"></div>
 
 **Check Mailtrap Email Logs**
 
 You can view the email in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs):
 
-![Mailtrap Email Logs showing detailed email delivery information including timestamp, delivery status, and API key used](../.gitbook/assets/send-email-with-v0-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-v0-4.png" alt="" width="375"></div>
 
 **Review Email Analytics**
 
 You can also view important statistics about your sent emails such as opens, clicks, bounces, and more:
 
-![Mailtrap Stats Overview dashboard displaying delivery rates, open rates, click rates, and email performance metrics](<../.gitbook/assets/send-email-with-v0-5 (1).png>)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-v0-5 (1).png" alt="" width="563"></div>
 
 For more information on Mailtrap analytics, [view the analytics guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
 {% endstep %}

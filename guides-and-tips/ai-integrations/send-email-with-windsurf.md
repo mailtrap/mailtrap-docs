@@ -30,11 +30,11 @@ To add the Mailtrap MCP server to Windsurf:
 1. Open Windsurf
 2. Navigate to **Settings → Windsurf Settings**
 
-![Windsurf application menu showing Settings and Windsurf Settings options highlighted](../.gitbook/assets/send-email-with-windsurf-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-1.png" alt="" width="375"></div>
 
 3. On the Windsurf Settings page, click the **Manage MCPs** button
 
-![Windsurf Settings page displaying the Cascade MCP Servers configuration section with Manage MCPs button](../.gitbook/assets/send-email-with-windsurf-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-2.png" alt="" width="563"></div>
 
 This will open the mcp.config.json file. Add the following code snippet:
 
@@ -66,7 +66,7 @@ Replace the following values in your mcp.config.json file:
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](<../.gitbook/assets/mailtrap-api-credentials (1).png>)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="" width="375"></div>
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload Windsurf to ensure everything is set up correctly.
@@ -81,7 +81,7 @@ To send an email:
 1. Open the **Cascade** sidebar in the upper-right corner
 2. Make sure the **Mailtrap MCP server** is enabled under **Customizations**
 
-![Windsurf Manage MCP servers interface showing Mailtrap with the send-email tool enabled](../.gitbook/assets/send-email-with-windsurf-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-4.png" alt="" width="563"></div>
 
 3. Use this prompt (or create your own):
 
@@ -91,7 +91,7 @@ Send an email to john.doe@example.com with the subject 'Hi John!' and a message 
 
 Cascade will process your request and confirm the email was sent:
 
-![Windsurf Cascade chat interface confirming that the email to John was sent successfully with message ID](../.gitbook/assets/send-email-with-windsurf-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-5.png" alt="" width="375"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -99,10 +99,10 @@ Cascade will process your request and confirm the email was sent:
 
 The email will arrive in your inbox:
 
-![Gmail mobile inbox showing the received Hi John email with greeting message and sender details](../.gitbook/assets/send-email-with-windsurf-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-6.png" alt="" width="375"></div>
 
 ### Check Mailtrap Email Logs
 
 You can also verify the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab of your Mailtrap dashboard:
 
-![Mailtrap Email Logs showing the Hi John email with delivery details and email status information](../.gitbook/assets/send-email-with-windsurf-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-7.png" alt="" width="375"></div>

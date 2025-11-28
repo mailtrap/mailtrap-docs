@@ -32,7 +32,7 @@ To add Mailtrap MCP to VS Code, you can use the [quick install link](https://ins
 3. Tick the **Chat > MCP: Enabled** option
 4. Click **Edit in settings.json**
 
-![VS Code settings showing MCP configuration panel with enabled discovery and integration options highlighted](../.gitbook/assets/send-email-with-vs-code-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-1.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 You can also open the settings.json file by typing **Preferences: Open User Settings (JSON)** in the Command Palette.
@@ -74,7 +74,7 @@ Replace the following values in your settings.json file:
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](<../.gitbook/assets/mailtrap-api-credentials (1).png>)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="" width="375"></div>
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload VS Code to ensure everything is set up correctly.
@@ -89,12 +89,12 @@ To send an email:
 1. Open the **AI Pane** in the upper-right corner of VS Code
 2. Make sure **Agent mode** is selected (this allows VS Code to perform actions)
 
-![VS Code Copilot interface showing agent mode with options to edit files and attach context](../.gitbook/assets/send-email-with-vs-code-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-3.png" alt="" width="375"></div>
 
 3. Open the list of available tools and select **Mailtrap**
 4. If you see similar MCPs from other editors (like Cursor), uncheck them
 
-![VS Code tools selection popup showing available MCP servers with Mailtrap send-email tool selected](../.gitbook/assets/send-email-with-vs-code-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-4.png" alt="VS Code tools selection popup showing available MCP servers with Mailtrap send-email tool selected" width="563"></div>
 
 5. Use this prompt (or create your own):
 
@@ -104,14 +104,14 @@ Send an email to john.doe@example.com with the subject 'Hi John!' and a message 
 
 VS Code will identify the correct MCP server and suggest running the send-email tool. Click **Continue** to proceed.
 
-![GitHub Copilot confirmation dialog showing the send-email request with JSON parameters for sending to John](../.gitbook/assets/send-email-with-vs-code-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-5.png" alt="" width="375"></div>
 
 The email will be sent successfully, and Copilot will confirm the action:
 
-![GitHub Copilot success message confirming that the email to John was sent successfully](../.gitbook/assets/send-email-with-vs-code-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-6.png" alt="GitHub Copilot success message confirming that the email to John was sent successfully" width="563"></div>
 
 Verify the email in your Mailtrap dashboard by checking the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab:
 
-![Mailtrap Email Logs tab showing the Hi John email with delivery details and email status](../.gitbook/assets/send-email-with-vs-code-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-7.png" alt="Mailtrap Email Logs tab showing the Hi John email with delivery details and email status" width="563"></div>
 {% endstep %}
 {% endstepper %}

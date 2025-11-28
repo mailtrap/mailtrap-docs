@@ -17,37 +17,37 @@ This guide walks you through configuring SAML-based Single Sign-On (SSO) between
 
 {% stepper %}
 {% step %}
-#### Open Enterprise Applications
+**Open Enterprise Applications**
 
 Open your Azure Active Directory and select **Enterprise applications**
 
-![Azure Active Directory Enterprise applications page with New application button highlighted](../.gitbook/assets/setup-sso-with-azure-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-1.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-#### Add New Application
+**Add New Application**
 
 Add new application by clicking the **+ New application** button
 {% endstep %}
 
 {% step %}
-#### Create Custom Application
+**Create Custom Application**
 
 Choose **+ Create your own application**
 {% endstep %}
 
 {% step %}
-#### Name Your Application
+**Name Your Application**
 
 Enter the name of the application (e.g., "Mailtrap")
 {% endstep %}
 
 {% step %}
-#### Select Non-Gallery Integration
+**Select Non-Gallery Integration**
 
 Select **Integrate any other application you don't find in the gallery (Non-gallery)**
 
-![Azure Browse gallery showing create your own application dialog with Mailtrap name and non-gallery option selected](../.gitbook/assets/setup-sso-with-azure-2.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-2.png" alt="Azure Browse gallery showing create your own application dialog with Mailtrap name and non-gallery option selected" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -57,19 +57,19 @@ After the application has been created, you can set up single sign-on:
 
 {% stepper %}
 {% step %}
-#### Choose Set Up Single Sign-On
+**Choose Set Up Single Sign-On**
 
 Choose **Set up single sign-on** in the **Getting Started** section
 
-![Mailtrap application overview page in Azure showing Set up single sign-on option in Getting Started section](../.gitbook/assets/setup-sso-with-azure-3.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-3.png" alt="Mailtrap application overview page in Azure showing Set up single sign-on option in Getting Started section"></div>
 {% endstep %}
 
 {% step %}
-#### Select SAML Mode
+**Select SAML Mode**
 
 For **Single Sign-on** mode, select **SAML** based Sign-on
 
-![Azure single sign-on method selection page with SAML option highlighted](../.gitbook/assets/setup-sso-with-azure-4.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-4.png" alt="Azure single sign-on method selection page with SAML option highlighted"></div>
 
 Follow the steps on the SSO with SAML screen. Azure AD has a detailed [configuration guide](https://docs.microsoft.com/en-gb/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) at the top of the page for further guidance.
 {% endstep %}
@@ -83,7 +83,7 @@ Click edit in the dropdown menu and provide the following SAML Provider details 
 * **Assertion Consumer Service URL** → Reply URL (Assertion Consumer Service URL)
 * **Single Logout Service URL** → Logout URL
 
-![Split view showing Mailtrap Service Provider details on left and Azure Basic SAML Configuration on right with field mapping](../.gitbook/assets/setup-sso-with-azure-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-5.png" alt="" width="563"></div>
 
 ### User Attributes and Claims
 
@@ -91,14 +91,29 @@ In the User Identifier field, enter **user.mail**.
 
 ### SAML Signing Certificate
 
-1. Click **Edit** and choose **SHA-1** Signing Algorithm
-2. Click **Save**
+{% stepper %}
+{% step %}
+Click **Edit** and choose **SHA-1** Signing Algorithm
+{% endstep %}
 
-![Azure SAML signing configuration showing Signing Option set to Sign SAML assertion and Signing Algorithm set to SHA-1](../.gitbook/assets/setup-sso-with-azure-6.png)
+{% step %}
+Click **Save**
 
-3. Download **Certificate (Base64)**
-4. Open it in any text editor and copy its content
-5. Paste the certificate content into the Mailtrap **X509 Certificate** field
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-6.png" alt="" width="375"></div>
+{% endstep %}
+
+{% step %}
+Download **Certificate (Base64)**
+{% endstep %}
+
+{% step %}
+Open it in any text editor and copy its content
+{% endstep %}
+
+{% step %}
+Paste the certificate content into the Mailtrap **X509 Certificate** field
+{% endstep %}
+{% endstepper %}
 
 ### Identity Provider Details
 
@@ -108,7 +123,7 @@ Provide the following to Mailtrap from Azure:
 * **Single Sign-on URL** → Login URL
 * **Optional: Single Logout Service (SLO) URL** → Logout URL
 
-![Split view showing Azure SAML signing certificate section and Mailtrap Identity Provider Details configuration fields](../.gitbook/assets/setup-sso-with-azure-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-7.png" alt="" width="563"></div>
 
 Now you can save your SAML configuration on Mailtrap.
 
@@ -118,19 +133,19 @@ With SAML configuration complete, you need to add users or groups to your applic
 
 {% stepper %}
 {% step %}
-#### Navigate to Users and Groups
+**Navigate to Users and Groups**
 
 Click **Users and groups** on the left sidebar
 {% endstep %}
 
 {% step %}
-#### Add Users
+**Add Users**
 
 Click on **+ Add User → Users and Groups**
 {% endstep %}
 
 {% step %}
-#### Select Users
+**Select Users**
 
 Select all users you want to add to the application and click **Select**
 {% endstep %}
@@ -144,21 +159,21 @@ By default, we create users with no permissions. If you want the user to be auto
 
 In the following example, we assign the roles depending on the **title** attribute value:
 
-![Mailtrap SAML Role Mapping interface showing Admin and Viewer roles mapped to title attribute](../.gitbook/assets/setup-sso-with-azure-8.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-8.png" alt="" width="375"></div>
 
 ### Configure Attributes in Azure
 
 1. Navigate to **Attributes & Claims**
 
-![Azure Attributes and Claims page showing default user attribute mappings including givenname surname and emailaddress](../.gitbook/assets/setup-sso-with-azure-9.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-9.png" alt="" width="563"></div>
 
 2. Click **Add new claim**
 
-![Azure Attributes and Claims page with Add new claim button highlighted](../.gitbook/assets/setup-sso-with-azure-10.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-10.png" alt="" width="375"></div>
 
 3. Add the **title** claim with the appropriate source attribute (e.g., **user.jobtitle**)
 
-![Azure Manage claim dialog showing title claim configuration with user.jobtitle as source attribute](../.gitbook/assets/setup-sso-with-azure-11.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-11.png" alt="" width="375"></div>
 
 4. Click **Save**
 

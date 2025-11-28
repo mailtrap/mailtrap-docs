@@ -15,38 +15,38 @@ This guide walks you through setting up Single Sign-On (SSO) between Mailtrap an
 
 {% stepper %}
 {% step %}
-#### Navigate to Applications
+**Navigate to Applications**
 
 Access the Applications section in your OneLogin admin console.
 
-![Navigate to Applications in OneLogin admin console](../.gitbook/assets/setup-sso-with-onelogin-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-onelogin-1.png" alt="Navigate to Applications in OneLogin admin console" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Search for SAML Custom Connector
+**Search for SAML Custom Connector**
 
 Look for "SAML custom connector" in the applications catalog.
 
-![Search for SAML custom connector](../.gitbook/assets/setup-sso-with-onelogin-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-onelogin-2.png" alt="Search for SAML custom connector" width="563"></div>
 
-![Select SAML custom connector](../.gitbook/assets/setup-sso-with-onelogin-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-onelogin-3.png" alt="Select SAML custom connector" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Open SAML Custom Connector Configuration
+**Open SAML Custom Connector Configuration**
 
 Open the SAML custom connector configuration screen.
 
-![SAML custom connector configuration screen](../.gitbook/assets/setup-sso-with-onelogin-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-onelogin-4.png" alt="SAML custom connector configuration screen" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Enter SSO Data from Mailtrap
+**Enter SSO Data from Mailtrap**
 
 Configure the SAML connector with the SSO details provided by Mailtrap.
 
-![Enter SSO configuration data from Mailtrap](../.gitbook/assets/setup-sso-with-onelogin-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-onelogin-5.png" alt="Enter SSO configuration data from Mailtrap" width="563"></div>
 
-![Complete SAML configuration with Mailtrap details](../.gitbook/assets/setup-sso-with-onelogin-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-onelogin-6.png" alt="Complete SAML configuration with Mailtrap details" width="563"></div>
 {% endstep %}
 {% endstepper %}

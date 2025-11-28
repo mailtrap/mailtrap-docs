@@ -13,27 +13,27 @@ This guide walks you through setting up SSO integration between Okta and Mailtra
 
 {% stepper %}
 {% step %}
-#### Navigate to Applications and create integration
+**Navigate to Applications and create integration**
 
 Navigate to Applications and click **Create App Integration**.
 
-![Okta Create App Integration screen showing Web platform and SAML 2.0 selection](../.gitbook/assets/setup-sso-with-okta-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-1.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-#### Select Web Platform and SAML 2.0
+**Select Web Platform and SAML 2.0**
 
 Select the Web Platform and SAML 2.0 as the Sign on method.
 {% endstep %}
 
 {% step %}
-#### Enter app name
+**Enter app name**
 
 Enter app name and click on Next.
 {% endstep %}
 
 {% step %}
-#### Configure SAML Provider details
+**Configure SAML Provider details**
 
 Provide the following SAML Provider details to Okta from Mailtrap:
 
@@ -42,17 +42,17 @@ Provide the following SAML Provider details to Okta from Mailtrap:
 * **Name ID format** should be set to `EmailAddress`
 * **Application username** should be set to `email`
 
-![Okta SAML settings configuration screen](../.gitbook/assets/setup-sso-with-okta-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-2.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Add attribute mapping (Optional)
+**Add attribute mapping (Optional)**
 
 To apply role mapping please add used for mapping attribute in **Attribute Statements (optional)**
 {% endstep %}
 
 {% step %}
-#### Complete setup
+**Complete setup**
 
 Click **Next** and **Finish**.
 {% endstep %}
@@ -64,19 +64,19 @@ After configuration is ready on Okta side, next step would be to setup configura
 
 In Okta, you will see info that "**SAML 2.0** is not configured until you complete the setup instructions"
 
-![Okta showing SAML 2.0 setup incomplete message](../.gitbook/assets/setup-sso-with-okta-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-3.png" alt="" width="375"></div>
 
 {% stepper %}
 {% step %}
-#### View Setup Instructions
+**View Setup Instructions**
 
 Click **"View Setup Instructions"**
 
-![Okta setup instructions showing Identity Provider details](../.gitbook/assets/setup-sso-with-okta-4.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-4.png" alt="Okta setup instructions showing Identity Provider details"></div>
 {% endstep %}
 
 {% step %}
-#### Provide Okta details to Mailtrap
+**Provide Okta details to Mailtrap**
 
 Provide the following to Mailtrap from Okta:
 
@@ -86,13 +86,13 @@ Provide the following to Mailtrap from Okta:
 {% endstep %}
 
 {% step %}
-#### Save configuration
+**Save configuration**
 
 Click Save in Mailtrap SSO configuration.
 {% endstep %}
 
 {% step %}
-#### Configure Role mapping (Optional)
+**Configure Role mapping (Optional)**
 
 For Role mapping there is additional configuration, please find more details in the SSO Guide Step 4: Role mapping section
 {% endstep %}
@@ -104,11 +104,11 @@ There are different ways how you can configure your Okta to provide needed `attr
 
 Mailtrap allows you to configure role attributes mapping (it's name and value). So you can configure will Mailtrap receive a role name from Okta or `true|false` as a value.
 
-![Okta attribute configuration showing boolean values](../.gitbook/assets/setup-sso-with-okta-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-5.png" alt="Okta attribute configuration showing boolean values" width="375"></div>
 
 Example of receiving boolean values in Attribute value
 
-![Okta attribute configuration showing role name values](../.gitbook/assets/setup-sso-with-okta-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-6.png" alt="Okta attribute configuration showing role name values" width="563"></div>
 
 Example with Role name in Attribute value
 
@@ -120,12 +120,12 @@ There are several ways to do it in Okta. The best way is to consult with your te
    * "MT Admin Group"
    * "MT Viewer Group"
 
-![Okta groups list showing MT Admin and Viewer groups](../.gitbook/assets/setup-sso-with-okta-7.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-7.png" alt="Okta groups list showing MT Admin and Viewer groups" width="375"></div>
 
 2. Add users to groups
 3. Update Okta application SAML attributes mapping
 
-![Okta SAML attribute mapping configuration](../.gitbook/assets/setup-sso-with-okta-8.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-8.png" alt="Okta SAML attribute mapping configuration" width="375"></div>
 
 4. Update attribute statements to return new SAML attributes:
    * `isMailtrapAdmin` with value `isMemberOfGroupName("MT Admin Group")`
@@ -133,11 +133,11 @@ There are several ways to do it in Okta. The best way is to consult with your te
      * `isMemberOfGroup` accepts group id. Group id can be taken from URL when visiting group page
    * More about Okta expressions language [here](https://developer.okta.com/docs/reference/okta-expression-language/)
 
-![Okta attribute statements configuration](../.gitbook/assets/setup-sso-with-okta-9.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-9.png" alt="Okta attribute statements configuration" width="375"></div>
 
 5. Add SAML attributes mapping in Mailtrap with same attribute names
 
-![Mailtrap SSO role mapping configuration](../.gitbook/assets/setup-sso-with-okta-10.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-10.png" alt="Mailtrap SSO role mapping configuration" width="563"></div>
 
 ## Debugging Okta integration
 
