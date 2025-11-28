@@ -23,7 +23,7 @@ layout:
 
 To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
 
-<a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to DigitalOcean.
+<a href="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/sending-domain-setup" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to DigitalOcean.
 
 {% hint style="info" %}
 This guide assumes that your domain is either registered and managed with DigitalOcean or registered elsewhere but points to DigitalOcean.
