@@ -95,7 +95,7 @@ Click Create Record after adding each record in DigitalOcean.
 
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to DigitalOcean.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/digitalocean-all-records-added.png" alt="DigitalOcean DNS records list showing all Mailtrap records added" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/digitalocean-all-records-added.png" alt="DigitalOcean DNS records list showing all Mailtrap records added" width="375"></div>
 {% endstep %}
 
 {% step %}

@@ -25,11 +25,11 @@ Go to **Sending Domains** and select your domain.
 
 Click on **Integration**, select **Transactional Stream**, and click **Integrate**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-2.png" alt="Mailtrap domain integration settings page displaying Transactional Stream and Bulk Stream options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-2.png" alt="" width="375"></div>
 
 Under the **SMTP** tab, you can find your sending credentials, which include **Host**, **Port**, **Username**, and **Password**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-3.png" alt="Mailtrap SMTP credentials panel showing host address, port number, username, password, and authentication methods" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-3.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -37,15 +37,15 @@ Under the **SMTP** tab, you can find your sending credentials, which include **H
 
 Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and select your project.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-4.png" alt="Supabase projects dashboard displaying organization name and project card with navigation arrow" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-4.png" alt="" width="375"></div>
 
 Click on **Authentication** → **SMTP settings**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-5.png" alt="Supabase project settings page showing left sidebar with Configuration section and Authentication option highlighted" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-5.png" alt="" width="563"></div>
 
 Click on **Emails** → **SMTP Settings** and enable the **Enable Custom SMTP** toggle. Update **Host**, **Port**, **Username**, and **Password** with your Mailtrap credentials, then click **Save changes**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-6.png" alt="Supabase custom SMTP configuration form with Mailtrap credentials filled in all required fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-6.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -53,7 +53,7 @@ Click on **Emails** → **SMTP Settings** and enable the **Enable Custom SMTP** 
 
 Open your app/project and try to create an account.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-7.png" alt="Developer debug panel showing account creation form with email address field and password fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-7.png" alt="" width="563"></div>
 
 Alternatively, you can simulate new user registration by clicking **Add user** in Supabase.
 
@@ -70,8 +70,6 @@ Once you send emails from your Supabase project, they should arrive in both your
 You can read more about **Mailtrap Email Logs** in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
 
 Additionally, you'll be able to see all important stats regarding your sent emails, such as opens, clicks, bounces, and more.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-stats-overview.png" alt="Mailtrap analytics dashboard showing email delivery statistics and performance metrics by mailbox provider" width="563"></div>
 
 For more information on **Mailtrap Analytics**, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
 {% endstep %}

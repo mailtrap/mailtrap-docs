@@ -97,23 +97,25 @@ In this example, we'll use Lovable to create a demo landing page with a form to 
 
 {% stepper %}
 {% step %}
-#### Connect to Supabase
+**Connect to Supabase**
 
 Lovable uses Supabase (built-in integration) to manage authentication, database, and backend.
 
 To connect your Lovable project to your Supabase account, click on the Supabase icon in the upper-right corner of a new project. This will open the following window, where you need to enter a project name, password, and choose the region closest to your recipients.
 
-![Supabase project creation dialog with organization name and database password input fields](../.gitbook/assets/send-email-with-lovable-1.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 After clicking on **Create new project**, Lovable will confirm that you have successfully connected your app to Supabase.
 
-![Lovable interface displaying welcome screen with Supabase connection confirmation and features listed](../.gitbook/assets/send-email-with-lovable-2.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-Note: For more information on integrating Supabase, follow the [official Lovable guide](https://docs.lovable.dev/integrations/supabase).
+{% hint style="success" %}
+&#x20;For more information on integrating Supabase, follow the [official Lovable guide](https://docs.lovable.dev/integrations/supabase).
+{% endhint %}
 {% endstep %}
 
 {% step %}
-#### Create a landing page
+**Create a landing page**
 
 The landing form we'll create will have the following functionality: each form submission will create a contact in Mailtrap, and you'll get an email notification about each submission.
 
@@ -121,47 +123,47 @@ We'll use a prompt like this:
 
 Simply copy/paste the prompt in Lovable and hit enter.
 
-![Lovable interface displaying Supabase connection confirmation with account features and login options](../.gitbook/assets/send-email-with-lovable-3.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (2).png" alt="" width="179"><figcaption></figcaption></figure></div>
 
 Lovable will prepare an implementation plan and show it to you. As you verify it, you can proceed with its implementation.
 
-![Lovable chat interface showing implementation plan and API key setup instructions with Mailtrap options](../.gitbook/assets/send-email-with-lovable-4.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt="" width="176"><figcaption></figcaption></figure></div>
 
 Next, you need to add your credentials:
 
-![Add API Keys dialog box with input fields for Mailtrap API key and email addresses](../.gitbook/assets/send-email-with-lovable-5.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Lastly, apply proposed changes so the database table can be created:
 
-![Lovable interface displaying SQL and HTTPS configuration code for database setup](../.gitbook/assets/send-email-with-lovable-6.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-#### Send emails via form
+**Send emails via form**
 
 We got a landing page with a form, so let's test it.
 
-![Deliverability consultation landing page with form fields and Lovable Edge Functions editor displayed side-by-side](../.gitbook/assets/send-email-with-lovable-7.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Upon submitting the form, you should see the following message, but keep in mind that it's OK if it doesn't work perfectly from the start.
 
-![Success message confirming form submission with notification to user about email confirmation](../.gitbook/assets/send-email-with-lovable-8.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 In case you do encounter any issues, check the Edge Functions log errors, pass it to Lovable, and ask it to fix them.
 
-![Lovable code editor showing Supabase Edge Function with form validation and email submission logic](../.gitbook/assets/send-email-with-lovable-9.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (13).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 After a few iterations of fixes by passing logs from the Edge Function and examples of Mailtrap NodeJS SDK, you should see the contact in your Mailtrap Contacts.
 
-![Lovable inbox displaying received email notification with deliverability lead subject](../.gitbook/assets/send-email-with-lovable-10.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 And here it is in the Gmail inbox, which was set in `MAILTRAP_MY_EMAIL`.
 
-![Email client preview showing deliverability consultation lead details and message content](../.gitbook/assets/send-email-with-lovable-11.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 And here it is in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
 
-![Mailtrap Email Logs dashboard showing delivered email with subject, timestamp, and delivery metadata](../.gitbook/assets/send-email-with-lovable-12.png)
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Note: Your Secrets in Supabase will look like:
 

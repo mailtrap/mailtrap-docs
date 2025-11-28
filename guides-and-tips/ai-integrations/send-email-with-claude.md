@@ -86,7 +86,7 @@ If Claude asks you to verify the usage of Mailtrap MCP, click Allow for this cha
 
 Then, it should successfully send a new email and provide you with the properties the email was sent with in the response.
 
-![Claude Desktop showing successful email delivery response with request parameters and generated message content](../.gitbook/assets/send-email-with-claude-6.png)
+![Claude Desktop showing successful email delivery response with request parameters and generated message content](<../.gitbook/assets/mailtrap-api-credentials (1).png>)
 
 And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
 

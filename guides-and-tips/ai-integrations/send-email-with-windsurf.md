@@ -66,7 +66,7 @@ Replace the following values in your mcp.config.json file:
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](../.gitbook/assets/mailtrap-api-credentials.png)
+![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](<../.gitbook/assets/mailtrap-api-credentials (1).png>)
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload Windsurf to ensure everything is set up correctly.

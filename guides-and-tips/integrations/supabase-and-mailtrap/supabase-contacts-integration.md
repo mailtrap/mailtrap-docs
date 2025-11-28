@@ -35,7 +35,7 @@ Whether you want to only create contacts or update them via Mailtrap x Supabase,
 
 Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and click on **Add Token**.
 
-![Mailtrap Settings page showing API Tokens section with Add Token button highlighted](../../.gitbook/assets/supabase-contacts-integration-1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-1.png" alt="Mailtrap Settings page showing API Tokens section with Add Token button highlighted"></div>
 {% endstep %}
 
 {% step %}
@@ -43,7 +43,7 @@ Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and cl
 
 Enter the desired name, click on **Add Token**, tick the desired permission checkboxes, and hit **Save**.
 
-![Mailtrap API Token creation dialog with name field and permission checkboxes](../../.gitbook/assets/supabase-contacts-integration-2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-2.png" alt="Mailtrap API Token creation dialog with name field and permission checkboxes"></div>
 {% endstep %}
 
 {% step %}
@@ -51,7 +51,7 @@ Enter the desired name, click on **Add Token**, tick the desired permission chec
 
 Copy the token and save it in a secure place.
 
-![Mailtrap API Token display showing generated token ready to copy](../../.gitbook/assets/supabase-contacts-integration-3.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-3.png" alt="Mailtrap API Token display showing generated token ready to copy" width="375"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -73,7 +73,7 @@ First, let's create an Edge Function containing our Mailtrap API token.
 
 Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and go to **Edge Functions**.
 
-![Supabase project dashboard with Edge Functions navigation highlighted in sidebar](../../.gitbook/assets/supabase-contacts-integration-4.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-4.png" alt="Supabase project dashboard with Edge Functions navigation highlighted in sidebar"></div>
 {% endstep %}
 
 {% step %}
@@ -81,7 +81,7 @@ Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) 
 
 Click on **Deploy a new Function** in the upper-right corner and select **Via Editor**.
 
-![Supabase Edge Functions page showing Deploy a new Function button with dropdown menu](../../.gitbook/assets/supabase-contacts-integration-5.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-5.png" alt="Supabase Edge Functions page showing Deploy a new Function button with dropdown menu"></div>
 {% endstep %}
 
 {% step %}
@@ -89,7 +89,7 @@ Click on **Deploy a new Function** in the upper-right corner and select **Via Ed
 
 Inside the function editor, you should see the default serverless function template.
 
-![Supabase Edge Function editor showing default function template code](../../.gitbook/assets/supabase-contacts-integration-6.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-6.png" alt="Supabase Edge Function editor showing default function template code"></div>
 
 Replace it with the following code snippet that will send user data to Contacts:
 
@@ -128,7 +128,7 @@ Replace the variable `list_ids:` value (4292 in this example) with the ID of the
 
 Then, click on **Deploy Function**.
 
-![Supabase Edge Function editor with Deploy Function button highlighted](../../.gitbook/assets/supabase-contacts-integration-7.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-7.png" alt="Supabase Edge Function editor with Deploy Function button highlighted"></div>
 {% endstep %}
 
 {% step %}
@@ -136,7 +136,7 @@ Then, click on **Deploy Function**.
 
 Supabase will build and deploy the Edge Function.
 
-![Supabase Edge Function deployment progress showing build and deploy status](../../.gitbook/assets/supabase-contacts-integration-8.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-8.png" alt="Supabase Edge Function deployment progress showing build and deploy status"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -150,7 +150,7 @@ Next, we will create a [Supabase Webhook](https://supabase.com/docs/guides/datab
 
 Open your Supabase Dashboard, go to **Database Webhooks**, and click on **Create a new hook**.
 
-![Supabase Database page with Webhooks section and Create a new hook button](../../.gitbook/assets/supabase-contacts-integration-9.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-9.png" alt="Supabase Database page with Webhooks section and Create a new hook button"></div>
 {% endstep %}
 
 {% step %}
@@ -162,7 +162,7 @@ Configure the following:
 * **Table**: users
 * **Events**: ✅ Insert
 
-![Supabase webhook configuration form showing name, table, and Insert event checkbox](../../.gitbook/assets/supabase-contacts-integration-10.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-10.png" alt="Supabase webhook configuration form showing name, table, and Insert event checkbox"></div>
 {% endstep %}
 
 {% step %}
@@ -175,7 +175,7 @@ Configure the following:
 * Select the previously created function **create-contact**
 * Set the desired timeout (e.g., 5000)
 
-![Supabase webhook configuration showing Edge Functions type, POST method, and function selection](../../.gitbook/assets/supabase-contacts-integration-11.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-11.png" alt="Supabase webhook configuration showing Edge Functions type, POST method, and function selection"></div>
 {% endstep %}
 
 {% step %}
@@ -188,7 +188,7 @@ Set HTTP headers for Auth:
 
 Click **Create webhook** to activate it.
 
-![Supabase webhook HTTP headers configuration with Content-type and Authorization fields](../../.gitbook/assets/supabase-contacts-integration-12.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-12.png" alt="Supabase webhook HTTP headers configuration with Content-type and Authorization fields"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -212,7 +212,7 @@ Again, we start by creating an Edge Function and adding Mailtrap API token to it
 
 Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and go to **Edge Functions**.
 
-![Supabase project dashboard with Edge Functions navigation highlighted in sidebar](../../.gitbook/assets/supabase-contacts-integration-4.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-4.png" alt="Supabase project dashboard with Edge Functions navigation highlighted in sidebar"></div>
 {% endstep %}
 
 {% step %}
@@ -220,7 +220,7 @@ Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) 
 
 Click on **Deploy a new function** in the upper-right corner and select **Via Editor**.
 
-![Supabase Edge Functions page showing Deploy a new function button with dropdown menu](../../.gitbook/assets/supabase-contacts-integration-5.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-5.png" alt="Supabase Edge Functions page showing Deploy a new function button with dropdown menu"></div>
 {% endstep %}
 
 {% step %}
@@ -228,7 +228,7 @@ Click on **Deploy a new function** in the upper-right corner and select **Via Ed
 
 Inside the function editor, you should see the default serverless function template.
 
-![Supabase Edge Function editor showing default function template code](../../.gitbook/assets/supabase-contacts-integration-6.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-6.png" alt="Supabase Edge Function editor showing default function template code"></div>
 
 Replace it with the following code snippet, which will:
 
@@ -290,7 +290,7 @@ Deno.serve(handler);
 
 And, of course, click on **Deploy updates/Deploy function**.
 
-![Supabase Edge Function editor with Deploy function button highlighted](../../.gitbook/assets/supabase-contacts-integration-16.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-16.png" alt="Supabase Edge Function editor with Deploy function button highlighted"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -308,7 +308,7 @@ Navigate to **Integrations** → **Webhooks** and configure the following:
 * **Table**: profiles
 * **Events**: ✅ Update
 
-![Supabase webhook configuration form showing name set to update\_contact, table set to profiles, and Update event checkbox](../../.gitbook/assets/supabase-contacts-integration-17.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-17.png" alt="Supabase webhook configuration form showing name set to update_contact, table set to profiles, and Update event checkbox"></div>
 {% endstep %}
 
 {% step %}
@@ -323,7 +323,7 @@ Configure the following:
   * **Content-Type**: application/json
   * **Authorization**: Bearer \[your-token]
 
-![Supabase webhook configuration showing HTTP Request type, POST method, Edge Function selection, and HTTP headers](../../.gitbook/assets/supabase-contacts-integration-18.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-18.png" alt="Supabase webhook configuration showing HTTP Request type, POST method, Edge Function selection, and HTTP headers"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -337,7 +337,7 @@ Finally, let's test our webhook configuration. For this example, I'll use a demo
 
 First, create an account as if you were a new user.
 
-![Demo app account creation form showing email and password fields with Create Account button](../../.gitbook/assets/supabase-contacts-integration-19.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-19.png" alt="" width="145"></div>
 {% endstep %}
 
 {% step %}
@@ -345,7 +345,7 @@ First, create an account as if you were a new user.
 
 A new user should appear in the **Users** page within your Supabase Project.
 
-![Supabase Authentication Users page showing newly created user in table](../../.gitbook/assets/supabase-contacts-integration-20.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-20.png" alt="Supabase Authentication Users page showing newly created user in table"></div>
 {% endstep %}
 
 {% step %}
@@ -353,7 +353,7 @@ A new user should appear in the **Users** page within your Supabase Project.
 
 At the same time, a new user also appears in your Mailtrap Contacts page.
 
-![Mailtrap Contacts page showing newly synced contact with email address](../../.gitbook/assets/supabase-contacts-integration-21.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-21.png" alt="Mailtrap Contacts page showing newly synced contact with email address"></div>
 {% endstep %}
 
 {% step %}
@@ -361,7 +361,7 @@ At the same time, a new user also appears in your Mailtrap Contacts page.
 
 Since the demo app only requires email and password upon registration, that's all the info the webhook sends to the Mailtrap Contacts page initially.
 
-![Mailtrap contact detail showing only email field populated](../../.gitbook/assets/supabase-contacts-integration-22.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-22.png" alt="Mailtrap contact detail showing only email field populated"></div>
 {% endstep %}
 
 {% step %}
@@ -369,7 +369,7 @@ Since the demo app only requires email and password upon registration, that's al
 
 If you go to your demo app and update the profile name...
 
-![Demo app profile update form showing full name field being edited](../../.gitbook/assets/supabase-contacts-integration-23.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-23.png" alt="" width="146"></div>
 {% endstep %}
 
 {% step %}
@@ -377,7 +377,7 @@ If you go to your demo app and update the profile name...
 
 It should get updated in your Supabase Project...
 
-![Supabase profiles table showing updated full\_name field](../../.gitbook/assets/supabase-contacts-integration-24.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-24.png" alt="Supabase profiles table showing updated full_name field"></div>
 {% endstep %}
 
 {% step %}
@@ -385,7 +385,7 @@ It should get updated in your Supabase Project...
 
 And the Mailtrap Contacts Page, so everything works as intended!
 
-![Mailtrap Contacts page showing updated contact with name field now populated](../../.gitbook/assets/supabase-contacts-integration-25.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/supabase-contacts-integration-25.png" alt="Mailtrap Contacts page showing updated contact with name field now populated"></div>
 
 Now, every time a new user logs in and updates their name, their information will be logged in your Mailtrap Contacts page. There, you can group them into lists, segment them accordingly, and use Fields to personalize your email campaigns further.
 {% endstep %}

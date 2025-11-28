@@ -29,7 +29,7 @@ Just search for "Mailtrap" in the nodes.
 
 To install Mailtrap node, you can simply type in `n8n-nodes-mailtrap` under 'Enter npm package name' in Community Nodes, just like so:
 
-![N8N community nodes settings page with install dialog showing n8n-nodes-mailtrap package name and checkbox confirmation](../.gitbook/assets/mailtrap-and-n8n-integration-1.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-1.png" alt="" width="563"></div>
 
 Or, you can run use npm to install the node manually:
 
@@ -39,7 +39,7 @@ npm install n8n-nodes-mailtrap
 
 Next, simply [create a free N8N account](https://app.n8n.cloud/register):
 
-![N8N owner account setup form with fields for email, first name, last name, and password](../.gitbook/assets/mailtrap-and-n8n-integration-2.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-2.png" alt="" width="320"></div>
 
 ### Obtain Mailtrap API credentials
 
@@ -47,35 +47,35 @@ Whether you want to only create contacts or send/test emails via Mailtrap and N8
 
 {% stepper %}
 {% step %}
-#### Navigate to API Tokens
+**Navigate to API Tokens**
 
 Go to **Settings** on the left side-bar menu, navigate to **API Tokens**, and click on **Add Token**.
 
-![Mailtrap API Tokens page displaying list of existing tokens with their names, creators, access levels, and token values](../.gitbook/assets/mailtrap-and-n8n-integration-3.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-3.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Create a new API token
+**Create a new API token**
 
 Enter the desired name, click on **Add Token**, tick the desired permission checkboxes, and hit **Save**.
 
-![Mailtrap Add API Token dialog with permissions table showing different access levels for account features and domain-specific actions](../.gitbook/assets/mailtrap-and-n8n-integration-4.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-4.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Copy and save the token
+**Copy and save the token**
 
 Copy the token and save it in a secure place.
 
-![Mailtrap Edit API Token page with copy button and reset button for managing the API token](../.gitbook/assets/mailtrap-and-n8n-integration-5.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-5.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Obtain the Account ID
+**Obtain the Account ID**
 
 To obtain the **Account ID**, go to **Settings** → **Account Settings** → **Account Details**.
 
-![Mailtrap Account Settings page showing account details tab with account name, owner email, and account ID information](../.gitbook/assets/mailtrap-and-n8n-integration-6.png)
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-6.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -83,7 +83,7 @@ To obtain the **Account ID**, go to **Settings** → **Account Settings** → **
 
 {% stepper %}
 {% step %}
-#### Select Mailtrap
+**Select Mailtrap**
 
 When you open your N8N dashboard, click on the left card 'Start from scratch'.
 
@@ -103,29 +103,29 @@ Here's an example workflow I created for the purposes of this demo:
 {% endstep %}
 
 {% step %}
-#### Enter your Mailtrap credentials
+**Enter your Mailtrap credentials**
 
 In the parameters window, click on 'Select Credential' and '+ Create new credential' to add the credentials we obtained in the previous chapter.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-11.png" alt="Mailtrap node parameters showing Create Contact operation with dropdown for credential selection and fields for account ID and email" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-11.png" alt="" width="563"></div>
 
 In the credentials setting, simply add the API Token and Mailtrap Host.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-12.png" alt="Mailtrap API Token credential dialog with fields for API token and mailing host configuration showing send.api.mailtrap.io" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-12.png" alt="" width="563"></div>
 
 **Important**: Keep in mind that I've added my Sending credentials (send.api.mailtrap.io).
 
 Then, back in the Parameters window, add the account ID.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-13.png" alt="Mailtrap node parameters panel configured for Get Contact Lists operation with account ID value entered in the field" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-13.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-#### Test the integration
+**Test the integration**
 
 Lastly, simply click on 'Test step' to test the integration:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-14.png" alt="N8N workflow execution results showing three contact records with IDs and names successfully retrieved from Mailtrap" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-14.png" alt="" width="563"></div>
 
 Now, every time a new user logs in and updates their name, they will get a confirmation email via Mailtrap and their information will be logged in my Mailtrap Contacts page. There, I can group them into lists, segment them accordingly, and use Fields to personalize my email campaigns further.
 {% endstep %}

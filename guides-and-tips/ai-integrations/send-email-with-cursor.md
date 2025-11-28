@@ -91,7 +91,7 @@ Once in the Integration/API page, update the following values in your mcp.json f
 * **MAILTRAP\_API\_TOKEN** – Used to authenticate API requests, which you can copy/paste from the credentials tab.
 * **DEFAULT\_FROM\_EMAIL** – Make sure the email's domain matches your own domain from the Sending Domains tab in Mailtrap.
 
-![Mailtrap account Integration tab showing sending domain name and API token](../.gitbook/assets/mailtrap-api-credentials.png)
+![Mailtrap account Integration tab showing sending domain name and API token](<../.gitbook/assets/mailtrap-api-credentials (1).png>)
 
 For example, here's what your mcp.json file should ultimately look like:
 

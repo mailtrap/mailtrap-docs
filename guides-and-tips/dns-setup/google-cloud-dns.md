@@ -97,7 +97,7 @@ Use the default value for TTL.
 
 Click Create after adding each record in Google Cloud DNS.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-9.png" alt="Google Cloud DNS Create button after filling record details" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-9.png" alt="Google Cloud DNS Create button after filling record details" width="375"></div>
 {% endstep %}
 
 {% step %}

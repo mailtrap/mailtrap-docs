@@ -3,7 +3,6 @@ title: Webhooks
 description: >-
   Set up webhooks to receive real-time notifications about email deliverability
   events.
-icon: webhook
 ---
 
 # Webhooks
