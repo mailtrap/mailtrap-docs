@@ -47,7 +47,7 @@ You'll see the Create new record heading.
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to DigitalOcean. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/hVheLNLmpxS0kS7GWMez" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-mailtrap-dns-records.png" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -55,7 +55,7 @@ Return to Mailtrap. On the Domain Verification page, you'll see the DNS records 
 
 Check the type next to each record in Mailtrap and choose a relevant one in DigitalOcean (CNAME or TXT). Mailtrap has four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="/broken/files/6mXJ16ceww3nMW806HY6" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/namecheap-dns-types-categories.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/digitalocean-record-type-selector.png" alt="DigitalOcean DNS record type selector dropdown" width="563"><figcaption><p>DNS record types in DigitalOcean</p></figcaption></figure></div>
 
@@ -103,7 +103,7 @@ Repeat the process of copying and pasting for each record until you've added all
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/MASfLRVj4oWvJNXE8Ypz" alt="Mailtrap Re-check DNS Records button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-recheck-dns-records.png" alt="Mailtrap Re-check DNS Records button" width="563"></div>
 {% endstep %}
 
 {% step %}

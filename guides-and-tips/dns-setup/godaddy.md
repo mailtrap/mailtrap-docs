@@ -51,11 +51,11 @@ Open the DNS settings and click Add New Record.
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to GoDaddy. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The namings of these records in Mailtrap are the same as in GoDaddy.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/fiYl1ZJ9OCjgHM2LrzU1" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-4.png" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in GoDaddy. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="/broken/files/cLmrwhW5nOZy386rTrO1" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="/broken/files/UJioPF6X1tjxHDo5PuwN" alt="GoDaddy DNS record type selector dropdown" width="375"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure></div>
 
@@ -69,7 +69,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/Mv0qIawmE1olUJiUumyB" alt="Copying DNS record values from Mailtrap" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-6.png" alt="Copying DNS record values from Mailtrap" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -101,7 +101,7 @@ Repeat the process of copying and pasting for each record until you've added all
 
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/mFyY7GNbSf413mw2noBJ" alt="Mailtrap Re-check DNS Records button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-11.png" alt="Mailtrap Re-check DNS Records button" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -109,7 +109,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/TJZdcCJqMgy7tQBf8XVx" alt="Mailtrap showing all DNS records verified with green status indicators" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-12.png" alt="Mailtrap showing all DNS records verified with green status indicators" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
