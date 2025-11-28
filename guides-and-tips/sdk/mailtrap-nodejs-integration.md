@@ -83,7 +83,7 @@ You'll have to use Nodemailer, as Node.js doesn't have built-in support for SMTP
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-nodejs-smtp-integration.png" alt="SMTP Integration for Node.js"></div>
 
-Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration) article.
+Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
 
 #### RESTful API integration
 
@@ -93,4 +93,4 @@ API integration can be used with any Node.js framework or library that supports 
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-nodejs-api-integration.png" alt="API Integration for Node.js"></div>
 
-Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration) article.
+Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.

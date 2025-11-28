@@ -86,7 +86,7 @@ SMTP integration is compatible with any Elixir framework or library that sends e
 
 ![SMTP credentials for Elixir integration](../.gitbook/assets/mailtrap-elixir-integration-smtp-credentials.png)
 
-Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration) article.
+Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
 
 ## RESTful API integration
 
@@ -94,4 +94,4 @@ To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and 
 
 ![API credentials for Elixir integration](../.gitbook/assets/mailtrap-elixir-integration-api-credentials.png)
 
-Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration) article.
+Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.

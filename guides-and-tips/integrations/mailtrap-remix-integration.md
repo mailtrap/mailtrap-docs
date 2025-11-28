@@ -54,5 +54,5 @@ Once you copy the script, make sure to:
 * Enter your recipient's email address in the `to:` field
 
 {% hint style="info" %}
-To learn more about API integration, see [Mailtrap Email Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
+To learn more about API integration, see [Mailtrap Email Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
 {% endhint %}

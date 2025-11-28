@@ -93,7 +93,7 @@ SMTP integration is compatible with any Ruby framework or library that sends ema
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-ruby-smtp-integration.png" alt="SMTP integration for Ruby"></div>
 
-Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration) article.
+Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
 
 #### RESTful API integration
 
@@ -103,4 +103,4 @@ API integration can be used with any Ruby framework or library that supports HTT
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-ruby-api-integration.png" alt="API integration for Ruby"></div>
 
-Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration) article.
+Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.

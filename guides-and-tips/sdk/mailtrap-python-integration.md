@@ -80,7 +80,7 @@ SMTP integration is compatible with any Python framework or library that sends e
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-python-smtp-integration.png" alt="SMTP integration for Python"></div>
 
-Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration) article.
+Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
 
 #### RESTful API Integration
 
@@ -90,4 +90,4 @@ API integration can be used with any Python framework or library that supports H
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-python-api-integration.png" alt="API integration for Python"></div>
 
-Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration) article.
+Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.

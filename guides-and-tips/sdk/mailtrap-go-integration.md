@@ -19,7 +19,7 @@ SMTP integration is compatible with any Go framework or library that sends email
 
 ![Mailtrap SMTP integration credentials and code samples for Go](../.gitbook/assets/mailtrap-go-smtp-integration.png)
 
-Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/smtp-integration).
+Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
 
 ## RESTful API integration
 
@@ -29,4 +29,4 @@ API integration can be used with any Go framework or library that supports HTTP 
 
 ![Mailtrap API integration code samples for Go showing package imports and main function](../.gitbook/assets/mailtrap-go-api-integration.png)
 
-Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
+Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
