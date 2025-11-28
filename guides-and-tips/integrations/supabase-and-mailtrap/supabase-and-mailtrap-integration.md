@@ -71,7 +71,7 @@ You can read more about **Mailtrap Email Logs** in our [dedicated article](https
 
 Additionally, you'll be able to see all important stats regarding your sent emails, such as opens, clicks, bounces, and more.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/z2yJ6Lbt4tfatpuooR97" alt="Mailtrap analytics dashboard showing email delivery statistics and performance metrics by mailbox provider" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-stats-overview.png" alt="Mailtrap analytics dashboard showing email delivery statistics and performance metrics by mailbox provider" width="563"></div>
 
 For more information on **Mailtrap Analytics**, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
 {% endstep %}

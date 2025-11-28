@@ -74,7 +74,7 @@ Replace the following values in your settings.json file:
 
 Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
 
-![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](/broken/files/mY24i2MjbraA3t0hyezT)
+![Mailtrap dashboard showing sending domains page with API credentials and token configuration highlighted](../.gitbook/assets/mailtrap-api-credentials.png)
 
 {% hint style="info" %}
 Although you shouldn't face any issues, reload VS Code to ensure everything is set up correctly.

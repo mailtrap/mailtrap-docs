@@ -68,7 +68,7 @@ You can view the email in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3
 
 You can also view important statistics about your sent emails such as opens, clicks, bounces, and more:
 
-![Mailtrap Stats Overview dashboard displaying delivery rates, open rates, click rates, and email performance metrics](/broken/files/z2yJ6Lbt4tfatpuooR97)
+![Mailtrap Stats Overview dashboard displaying delivery rates, open rates, click rates, and email performance metrics](../.gitbook/assets/mailtrap-stats-overview.png)
 
 For more information on Mailtrap analytics, [view the analytics guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/stats-dashboard).
 {% endstep %}

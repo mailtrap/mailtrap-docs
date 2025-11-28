@@ -35,7 +35,7 @@ This guide assumes that your domain is either registered with GoDaddy and uses i
 
 Go to GoDaddy and locate the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/HoY4cLZRPqh6nVQWwa0y" alt="GoDaddy domain list with Manage button" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/godaddy-domain-list.png" alt="GoDaddy domain list with Manage button" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -43,7 +43,7 @@ Go to GoDaddy and locate the domain you've added to Mailtrap.
 
 Open the DNS settings and click Add New Record.
 
-<div align="left" data-with-frame="true"><img src="/broken/files/bzTqJAVLGn71SvCGQ799" alt="GoDaddy DNS settings page with Add New Record button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/godaddy-dns-settings.png" alt="GoDaddy DNS settings page with Add New Record button" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -57,7 +57,7 @@ Make sure you check the type next to each record in Mailtrap and choose a releva
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="/broken/files/UJioPF6X1tjxHDo5PuwN" alt="GoDaddy DNS record type selector dropdown" width="375"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/godaddy-dns-type-selector.png" alt="GoDaddy DNS record type selector dropdown" width="375"><figcaption><p>DNS record types in GoDaddy</p></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
