@@ -122,5 +122,5 @@ If you add all the required DNS records correctly, the Status of DNS records wil
 {% endstepper %}
 
 {% hint style="info" %}
-_If you have additional questions,_ [_consult AWS documentation_](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html) _or contact us at_ [_support@mailtrap.io_](mailto:support@mailtrap.io)
+If you have additional questions, [consult AWS documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html) or contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 {% endhint %}
