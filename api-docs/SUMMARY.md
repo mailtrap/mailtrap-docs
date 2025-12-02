@@ -108,7 +108,6 @@
 
 ## Webhooks
 
-* [Webhooks API](webhooks/overview.md)
 * ```yaml
   type: builtin:openapi
   props:
