@@ -103,7 +103,7 @@ composer require railsware/mailtrap-php
 {% endtab %}
 
 {% tab title="Ruby" %}
-```ruby
+```bash
 gem install mailtrap
 ```
 {% endtab %}
@@ -119,8 +119,19 @@ gem install mailtrap
 {% endtab %}
 
 {% tab title=".NET" %}
+The .NET SDK is available via [GitHub Packages](https://github.com/mailtrap/mailtrap-dotnet). First, add the GitHub source:
+
 ```bash
-dotnet add package Mailtrap
+dotnet nuget add source https://nuget.pkg.github.com/mailtrap/index.json \
+  --name github-mailtrap \
+  --username GITHUB_USERNAME \
+  --password GITHUB_PAT
+```
+
+Then install the package:
+
+```bash
+dotnet add package Mailtrap -s github-mailtrap
 ```
 {% endtab %}
 {% endtabs %}
@@ -129,6 +140,8 @@ dotnet add package Mailtrap
 {% step %}
 ### Send First Email
 
+{% tabs %}
+{% tab title="Node.js" %}
 ```javascript
 import { MailtrapClient } from "mailtrap";
 
@@ -143,6 +156,109 @@ await client.send({
   text: "Welcome to Mailtrap!"
 });
 ```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import mailtrap as mt
+
+client = mt.MailtrapClient(token="YOUR_API_KEY")
+
+mail = mt.Mail(
+    sender=mt.Address(email="sender@example.com"),
+    to=[mt.Address(email="recipient@example.com")],
+    subject="Hello World",
+    text="Welcome to Mailtrap!"
+)
+
+client.send(mail)
+```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+use Mailtrap\MailtrapClient;
+use Mailtrap\Mime\MailtrapEmail;
+use Symfony\Component\Mime\Address;
+
+$mailtrap = MailtrapClient::initSendingEmails(
+    apiKey: $_ENV['MAILTRAP_API_KEY']
+);
+
+$email = (new MailtrapEmail())
+    ->from(new Address('sender@example.com'))
+    ->to(new Address('recipient@example.com'))
+    ->subject('Hello World')
+    ->text('Welcome to Mailtrap!');
+
+$response = $mailtrap->send($email);
+```
+{% endtab %}
+
+{% tab title="Ruby" %}
+```ruby
+require 'mailtrap'
+
+client = Mailtrap::Client.new(api_key: 'YOUR_API_KEY')
+
+mail = Mailtrap::Mail.from_content(
+  from: { email: 'sender@example.com' },
+  to: [{ email: 'recipient@example.com' }],
+  subject: 'Hello World',
+  text: 'Welcome to Mailtrap!'
+)
+
+client.send(mail)
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```java
+import io.mailtrap.config.MailtrapConfig;
+import io.mailtrap.factory.MailtrapClientFactory;
+import io.mailtrap.model.Address;
+import io.mailtrap.model.MailtrapMail;
+import java.util.List;
+
+var config = new MailtrapConfig.Builder()
+    .token("YOUR_API_KEY")
+    .build();
+
+var client = MailtrapClientFactory
+    .createMailtrapClient(config);
+
+var mail = MailtrapMail.builder()
+    .from(new Address("sender@example.com"))
+    .to(List.of(new Address("recipient@example.com")))
+    .subject("Hello World")
+    .text("Welcome to Mailtrap!")
+    .build();
+
+client.sendingApi().emails().send(mail);
+```
+{% endtab %}
+
+{% tab title=".NET" %}
+```csharp
+using Mailtrap;
+using Mailtrap.Emails.Requests;
+
+var apiToken = "YOUR_API_KEY";
+using var factory = new MailtrapClientFactory(apiToken);
+var client = factory.CreateClient();
+
+var request = SendEmailRequest
+    .Create()
+    .From("sender@example.com")
+    .To("recipient@example.com")
+    .Subject("Hello World")
+    .Text("Welcome to Mailtrap!");
+
+await client.Email().Send(request);
+```
+{% endtab %}
+{% endtabs %}
 {% endstep %}
 {% endstepper %}
 
