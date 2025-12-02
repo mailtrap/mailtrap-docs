@@ -73,6 +73,13 @@ gem install mailtrap
 {% endtab %}
 
 {% tab title=".NET" %}
+Add GitHub Packages source to `nuget.config`:
+```xml
+<packageSources>
+  <add key="github" value="https://nuget.pkg.github.com/railsware/index.json" />
+</packageSources>
+```
+Then install:
 ```bash
 dotnet add package Mailtrap
 ```
