@@ -1,107 +1,49 @@
 ---
-title: General API Overview
+title: General API
 description: Manage accounts, users, permissions, and billing
 icon: memo-circle-check
 ---
 
-# Overview
+# General API
 
-The General API provides endpoints for managing your Mailtrap account, including user management, permissions, billing, and account settings. Control access, monitor usage, and manage your organization's email infrastructure.
+Manage your Mailtrap account, users, permissions, and billing settings.
 
-## Account Management
+## Capabilities
 
-### Account Structure
+| Feature | Description |
+|---------|-------------|
+| **Accounts** | Get account information and settings |
+| **Users** | Invite, manage, and remove team members |
+| **Permissions** | Control access levels and roles |
 
-{% columns %}
-{% column %}
-### Organization
-Top-level entity that contains all resources and billing.
-{% endcolumn %}
+## Base URL
 
-{% column %}
-### Users
-Team members with specific roles and permissions.
-{% endcolumn %}
-
-{% column %}
-### API Tokens
-Programmatic access with scoped permissions.
-{% endcolumn %}
-{% endcolumns %}
-
-## User Management
-
-{% stepper %}
-{% step %}
-### Invite Team Members
-
-Add users to your organization:
-
-```javascript
-const response = await fetch(
-  'https://mailtrap.io/api/accounts/{account_id}/users',
-  {
-    method: 'POST',
-    headers: {
-      'Api-Token': 'YOUR_API_TOKEN',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      email: 'colleague@company.com'
-    })
-  }
-);
 ```
-{% endstep %}
-
-{% step %}
-### Manage Roles
-
-Assign predefined roles:
-
-**Account Owner**
-- Full account control
-- Billing management
-- User management
-- Transfer ownership
-
-**Account Admin**
-- Same as Owner, except delete account and transfer ownership
-
-**Account Viewer**
-- Read-only access to all entities
-- View projects, sandboxes, billing
-{% endstep %}
-{% endstepper %}
-
-## Account Access
-
-### List Account Accesses
-
-View all users and their access levels:
-
-```javascript
-const response = await fetch(
-  'https://mailtrap.io/api/accounts/{account_id}/account_accesses',
-  {
-    headers: { 'Api-Token': 'YOUR_API_TOKEN' }
-  }
-);
-
-const accesses = await response.json();
-// Returns array of user access objects
+https://mailtrap.io/api/accounts/{account_id}
 ```
 
-### Revoke Access
+## Authentication
 
-Remove user from account:
+Include your API token in the request header:
 
-```javascript
-await fetch(
-  `https://mailtrap.io/api/accounts/{account_id}/account_accesses/${accessId}`,
-  {
-    method: 'DELETE',
-    headers: { 'Api-Token': 'YOUR_API_TOKEN' }
-  }
-);
 ```
+Api-Token: YOUR_API_TOKEN
+```
+
+Or use Bearer authentication:
+
+```
+Authorization: Bearer YOUR_API_TOKEN
+```
+
+## Available Endpoints
+
+- `GET /accounts` - List all accounts
+- `GET /accounts/{id}` - Get account details
+- `GET /account_accesses` - List user accesses
+- `DELETE /account_accesses/{id}` - Remove user access
+- `GET /permissions` - List available permissions
+
+{% hint style="info" %}
+See the full API reference below for detailed request/response schemas and examples.
+{% endhint %}
