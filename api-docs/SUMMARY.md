@@ -12,8 +12,8 @@
 * ```yaml
   type: builtin:openapi
   props:
-    models: true
-    downloadLink: true
+    models: false
+    downloadLink: false
     expandOperations: false
   dependencies:
     spec:
@@ -24,8 +24,8 @@
 * ```yaml
   type: builtin:openapi
   props:
-    models: true
-    downloadLink: true
+    models: false
+    downloadLink: false
     expandOperations: false
   dependencies:
     spec:
@@ -36,8 +36,8 @@
 * ```yaml
   type: builtin:openapi
   props:
-    models: true
-    downloadLink: true
+    models: false
+    downloadLink: false
     expandOperations: false
   dependencies:
     spec:
