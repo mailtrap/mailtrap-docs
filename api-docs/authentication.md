@@ -40,3 +40,4 @@ Here is the description of common server responses:
 | `403` | Forbidden | Access denied |
 | `404` | Not Found | Resource was not found |
 | `422` | Unprocessable Entity | Requested data contain invalid values |
+| `429` | Too Many Requests | Rate limit exceeded. Reduce request frequency and retry later |
