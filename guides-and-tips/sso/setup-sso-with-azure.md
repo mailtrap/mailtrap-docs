@@ -163,18 +163,36 @@ In the following example, we assign the roles depending on the **title** attribu
 
 ### Configure Attributes in Azure
 
-1. Navigate to **Attributes & Claims**
+{% stepper %}
+{% step %}
+**Navigate to Attributes & Claims**
+
+Navigate to **Attributes & Claims**
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-9.png" alt="" width="563"></div>
+{% endstep %}
 
-2. Click **Add new claim**
+{% step %}
+**Add New Claim**
+
+Click **Add new claim**
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-10.png" alt="" width="375"></div>
+{% endstep %}
 
-3. Add the **title** claim with the appropriate source attribute (e.g., **user.jobtitle**)
+{% step %}
+**Configure Title Claim**
+
+Add the **title** claim with the appropriate source attribute (e.g., **user.jobtitle**)
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-11.png" alt="" width="375"></div>
+{% endstep %}
 
-4. Click **Save**
+{% step %}
+**Save Configuration**
+
+Click **Save**
+{% endstep %}
+{% endstepper %}
 
 Your Azure SSO configuration with role mapping is now complete.

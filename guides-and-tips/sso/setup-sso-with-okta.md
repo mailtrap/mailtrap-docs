@@ -116,28 +116,53 @@ There are several ways to do it in Okta. The best way is to consult with your te
 
 ### Map Okta group names to Mailtrap permissions
 
-1. Create groups in Okta
-   * "MT Admin Group"
-   * "MT Viewer Group"
+{% stepper %}
+{% step %}
+**Create Groups in Okta**
+
+Create groups in Okta:
+
+* "MT Admin Group"
+* "MT Viewer Group"
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-7.png" alt="Okta groups list showing MT Admin and Viewer groups" width="375"></div>
+{% endstep %}
 
-2. Add users to groups
-3. Update Okta application SAML attributes mapping
+{% step %}
+**Add Users to Groups**
+
+Add users to groups
+{% endstep %}
+
+{% step %}
+**Update SAML Attributes Mapping**
+
+Update Okta application SAML attributes mapping
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-8.png" alt="Okta SAML attribute mapping configuration" width="375"></div>
+{% endstep %}
 
-4. Update attribute statements to return new SAML attributes:
-   * `isMailtrapAdmin` with value `isMemberOfGroupName("MT Admin Group")`
-   * `isMailtrapViewer` with value `isMemberOfGroup("00ggiqham4LuYTBPL5d7")`
-     * `isMemberOfGroup` accepts group id. Group id can be taken from URL when visiting group page
-   * More about Okta expressions language [here](https://developer.okta.com/docs/reference/okta-expression-language/)
+{% step %}
+**Update Attribute Statements**
+
+Update attribute statements to return new SAML attributes:
+
+* `isMailtrapAdmin` with value `isMemberOfGroupName("MT Admin Group")`
+* `isMailtrapViewer` with value `isMemberOfGroup("00ggiqham4LuYTBPL5d7")`
+  * `isMemberOfGroup` accepts group id. Group id can be taken from URL when visiting group page
+* More about Okta expressions language [here](https://developer.okta.com/docs/reference/okta-expression-language/)
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-9.png" alt="Okta attribute statements configuration" width="375"></div>
+{% endstep %}
 
-5. Add SAML attributes mapping in Mailtrap with same attribute names
+{% step %}
+**Add SAML Attributes Mapping in Mailtrap**
+
+Add SAML attributes mapping in Mailtrap with same attribute names
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-okta-10.png" alt="Mailtrap SSO role mapping configuration" width="563"></div>
+{% endstep %}
+{% endstepper %}
 
 ## Debugging Okta integration
 
