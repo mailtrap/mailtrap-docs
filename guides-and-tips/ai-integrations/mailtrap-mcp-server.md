@@ -23,7 +23,11 @@ Mailtrap MCP server is implemented as a Node.js command line utility, so please 
 
 <a href="https://cursor.com/en-US/install-mcp?name=mailtrap&config=eyJlbnYiOnsiTUFJTFRSQVBfQVBJX1RPS0VOIjoieW91cl9tYWlsdHJhcF9hcGlfdG9rZW4iLCJERUZBVUxUX0ZST01fRU1BSUwiOiJ5b3VyX3NlbmRlckBleGFtcGxlLmNvbSIsIk1BSUxUUkFQX0FDQ09VTlRfSUQiOiJ5b3VyX2FjY291bnRfaWQiLCJNQUlMVFJBUF9URVNUX0lOQk9YX0lEIjoieW91cl90ZXN0X2luYm94X2lkIn0sImNvbW1hbmQiOiJucHggLXkgbWNwLW1haWx0cmFwIn0%3D" class="button primary">Install in Cursor</a> <a href="https://insiders.vscode.dev/redirect/mcp/install?name=mailtrap&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-mailtrap%22%5D%2C%22env%22%3A%7B%22MAILTRAP_API_TOKEN%22%3A%22%24%7Binput%3AmailtrapApiToken%7D%22%2C%22DEFAULT_FROM_EMAIL%22%3A%22%24%7Binput%3AsenderEmail%7D%22%2C%22MAILTRAP_ACCOUNT_ID%22%3A%22%24%7Binput%3AmailtrapAccountId%7D%22%2C%22MAILTRAP_TEST_INBOX_ID%22%3A%22%24%7Binput%3AmailtrapTestInboxId%7D%22%7D%7D&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapApiToken%22%2C%22description%22%3A%22Mailtrap+API+Token%22%2C%22password%22%3Atrue%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22senderEmail%22%2C%22description%22%3A%22Sender+Email+Address%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapAccountId%22%2C%22description%22%3A%22Mailtrap+Account+ID%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapTestInboxId%22%2C%22description%22%3A%22Mailtrap+Test+Inbox+ID+%28optional%29%22%7D%5D" class="button primary">Install in VS Code</a>
 
-For Claude Desktop, manual configuration, and available tools documentation, visit the official GitHub repository.
+For Claude Desktop, Mailtrap is available as a Desktop extension in the Connectors catalog. Open Claude Desktop settings, go to **Connectors**, select **Desktop extensions**, and search for "Mailtrap".
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/claude-desktop-mailtrap-connector.png" alt="Claude Desktop Connectors catalog showing Mailtrap - Send Emails extension" width="563"><figcaption><p>Mailtrap in Claude Desktop Connectors</p></figcaption></figure></div>
+
+For manual configuration and available tools documentation, visit the official GitHub repository.
 
 <a href="https://github.com/mailtrap/mailtrap-mcp" class="button secondary">View on GitHub</a>
 
