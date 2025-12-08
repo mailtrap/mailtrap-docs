@@ -29,7 +29,7 @@ For Claude Desktop, Mailtrap is available as a Desktop extension in the Connecto
 
 For manual configuration and available tools documentation, visit the official GitHub repository.
 
-<a href="https://github.com/mailtrap/mailtrap-mcp" class="button secondary">View on GitHub</a>
+<a href="https://github.com/mailtrap/mailtrap-mcp" class="button primary">View on GitHub</a>
 
 ## Where to find your credentials
 
