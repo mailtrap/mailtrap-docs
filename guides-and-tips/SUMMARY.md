@@ -37,6 +37,9 @@
 * [Sinatra Integration](integrations/mailtrap-sinatra-integration.md)
 * [AWS Lambda Integration](integrations/mailtrap-aws-lambda-integration.md)
 * [Nuxt Integration](integrations/mailtrap-nuxt-integration.md)
+* [cPanel SMTP Relay](integrations/mailtrap-cpanel-integration.md)
+* [Retool Integration](integrations/mailtrap-retool-integration.md)
+* [Replit Integration](integrations/mailtrap-replit-integration.md)
 
 ## DNS Setup
 
@@ -58,6 +61,12 @@
 * [Claude and Mailtrap](ai-integrations/send-email-with-claude.md)
 * [Vercel and Mailtrap](ai-integrations/send-email-in-vercel.md)
 * [Windsurf and Mailtrap](ai-integrations/send-email-with-windsurf.md)
+* [Mailtrap MCP Server](ai-integrations/mailtrap-mcp-server.md)
+* [Reflex Build and Mailtrap](ai-integrations/send-email-with-reflex-build.md)
+* [Anything and Mailtrap](ai-integrations/send-email-with-anything.md)
+* [Leap.new and Mailtrap](ai-integrations/send-email-with-leap-new.md)
+* [Gemini and Mailtrap](ai-integrations/send-email-with-gemini.md)
+* [ChatGPT and Mailtrap](ai-integrations/send-email-with-chatgpt.md)
 
 ## SSO
 
