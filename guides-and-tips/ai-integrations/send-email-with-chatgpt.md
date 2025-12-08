@@ -51,15 +51,19 @@ Use the Connectors feature under GPT Settings to link your GitHub repositories t
 
 ## Step-by-step setup guide
 
-### Step 1: Prepare Mailtrap
+{% stepper %}
+{% step %}
+## Prepare Mailtrap
 
 1. Verify your sending domain in Mailtrap.
 2. Create an Admin API token with `production_send` and `contacts_write` scopes.
 3. Locate your Account ID in Settings > Account Settings.
 4. (Optional) Create Lists if you plan to organize contacts.
 5. (Optional) Create Custom Fields for storing metadata like `plan` or `signup_source`.
+{% endstep %}
 
-### Step 2: Create/open your GPT project
+{% step %}
+## Create/open your GPT project
 
 Here we're assuming you already have a GPT-powered project within an IDE like Cursor or Replit. If so, simply open the project.
 
@@ -79,8 +83,10 @@ pip install mailtrap
 ```
 {% endtab %}
 {% endtabs %}
+{% endstep %}
 
-### Step 3: Send emails with Node.js and Python
+{% step %}
+## Send emails with Node.js and Python
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -126,8 +132,10 @@ print("Email sent successfully!")
 ```
 {% endtab %}
 {% endtabs %}
+{% endstep %}
 
-### Step 4: Create/update a contact in Mailtrap
+{% step %}
+## Create/update a contact in Mailtrap
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -176,8 +184,10 @@ At the moment a direct Contacts API is under development for the official Python
 {% endhint %}
 {% endtab %}
 {% endtabs %}
+{% endstep %}
 
-### Step 5: Run and verify
+{% step %}
+## Run and verify
 
 1. Set your environment variables in GPT's environment:
 
@@ -204,6 +214,8 @@ python main.py
 
 3. Check the recipient inbox to ensure the email landed where it's supposed to.
 4. Go to Mailtrap Contacts to verify new or updated contact.
+{% endstep %}
+{% endstepper %}
 
 ## Troubleshooting GPT-powered environments
 

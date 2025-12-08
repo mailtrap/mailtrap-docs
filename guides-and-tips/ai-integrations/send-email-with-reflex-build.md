@@ -14,15 +14,19 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 - A Reflex Build account and a project
 - A Mailtrap account for sending emails
 
-## Step 1: Create a landing page/contact form
+{% stepper %}
+{% step %}
+## Create a landing page/contact form
 
 Log in to your Reflex Build account and use a prompt like the following one to create a simple project with basic fields:
 
 {% hint style="info" %}
 create me a simple contact form with email, name, and message fields, and a send button
 {% endhint %}
+{% endstep %}
 
-## Step 2: Add your Mailtrap credentials
+{% step %}
+## Add your Mailtrap credentials
 
 After a minute or two, Reflex Build will generate your project. Once it's done, you need to insert your Mailtrap credentials.
 
@@ -32,13 +36,13 @@ To do this, open **Settings** in the sidebar, navigate to **Secrets**, and click
 
 You need to add the following two variables:
 
-### MAILTRAP_API_TOKEN
+**MAILTRAP_API_TOKEN**
 
-This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens), which you can create at any time in your account dashboard.
+This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens), which you can create at any time in your account dashboard.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/reflex-build-api-token-secret.png" alt="Reflex Build secret configuration showing MAILTRAP_API_TOKEN variable" width="450"><figcaption><p>API Token secret</p></figcaption></figure></div>
 
-### MAILTRAP_FROM_EMAIL
+**MAILTRAP_FROM_EMAIL**
 
 This is the email address with the verified Mailtrap sending domain you've added after creating an account.
 
@@ -57,11 +61,15 @@ If you haven't already, make sure to let AI know you want the messages to be sen
 
 "I want the message to be sent to the address inputted in the email field, meaning the to field should use the email from the form data"
 {% endhint %}
+{% endstep %}
 
-## Step 3: Start sending emails
+{% step %}
+## Start sending emails
 
 Finally, to test your configuration, fill out the form and hit the **Send** button. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/reflex-build-email-received.png" alt="Gmail inbox showing received email from Reflex Build contact form" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
 
 You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
+{% endstep %}
+{% endstepper %}

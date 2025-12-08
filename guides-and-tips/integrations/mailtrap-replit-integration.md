@@ -52,13 +52,17 @@ To complete the project, Replit asks you to provide MAILTRAP_ACCOUNT_ID token an
 
 ## Step-by-step setup
 
-### Step 1: Set up Mailtrap
+{% stepper %}
+{% step %}
+## Set up Mailtrap
 
 1. Verify your sending domain in Mailtrap.
 2. Create an admin API token and keep it secure.
 3. Note your FROM_ADDRESS (must use the verified domain).
+{% endstep %}
 
-### Step 2: Create/open your Replit project
+{% step %}
+## Create/open your Replit project
 
 **With Replit Agent** - Use one of the prompts above. Replit does it all, you just need to add the credentials.
 
@@ -85,8 +89,10 @@ Add secrets in Replit (use the Secrets panel):
 ```
 MAILTRAP_API_TOKEN = <your_admin_api_token>
 ```
+{% endstep %}
 
-### Step 3: Send a production email
+{% step %}
+## Send a production email
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -124,11 +130,15 @@ print("Production email sent.")
 ```
 {% endtab %}
 {% endtabs %}
+{% endstep %}
 
-### Step 4: Run and verify
+{% step %}
+## Run and verify
 
 1. Click **Run** in Replit. (Note: Most of the time, the AI IDE does it for you.)
 2. Check the recipient's inbox.
+{% endstep %}
+{% endstepper %}
 
 ## Troubleshooting
 

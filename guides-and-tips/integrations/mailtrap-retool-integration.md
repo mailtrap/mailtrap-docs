@@ -14,7 +14,9 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 - A Retool account and a project
 - A Mailtrap account for sending emails
 
-## Step 1: Create a REST API resource (Mailtrap)
+{% stepper %}
+{% step %}
+## Create a REST API resource (Mailtrap)
 
 Open Retool and go to the **Resources** tab. Once there, click on **Create new** > **Resource**.
 
@@ -28,7 +30,7 @@ Then, configure the resource:
 
 - Enter your desired resource name
 - Add the Mailtrap root URL: `https://send.api.mailtrap.io/`
-- Choose **Bearer** for authentication and add your [Mailtrap API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/api-tokens)
+- Choose **Bearer** for authentication and add your [Mailtrap API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 {% hint style="info" %}
 This URL lets you use other endpoints later on depending on your use case (i.e., create contacts). If you plan on sending mass emails, the root URL should be `https://bulk.api.mailtrap.io/`
@@ -37,8 +39,10 @@ This URL lets you use other endpoints later on depending on your use case (i.e.,
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/retool-rest-api-config.png" alt="Retool REST API resource configuration with Mailtrap URL and Bearer authentication" width="563"><figcaption><p>REST API resource configuration</p></figcaption></figure></div>
 
 Once you insert the required details, click **Save changes** and go back to your project.
+{% endstep %}
 
-## Step 2: Configure a query
+{% step %}
+## Configure a query
 
 As the next step, add a query to the Query Library. Queries stored here can be reused across any of your Retool apps.
 
@@ -75,8 +79,10 @@ This is just an example body for sending emails from a simple form. Feel free to
 Here's what your new query should look like:
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/retool-query-config.png" alt="Retool Query editor showing POST request configuration with Mailtrap API endpoint and JSON body" width="563"><figcaption><p>Query configuration</p></figcaption></figure></div>
+{% endstep %}
 
-## Step 3: Test the integration
+{% step %}
+## Test the integration
 
 Finally, to test your configuration, click on the **Test** button in the upper-right corner of the Query editor. You should see the following response:
 
@@ -89,6 +95,8 @@ Here it is in the Gmail inbox:
 And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard:
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/retool-email-logs.png" alt="Mailtrap Email Logs showing sent email details from Retool" width="563"><figcaption><p>Email in Mailtrap Email Logs</p></figcaption></figure></div>
+{% endstep %}
+{% endstepper %}
 
 {% hint style="success" %}
 If you plan on collecting email addresses for a list, you can connect your Retool project with [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) and store your addresses in the Mailtrap dashboard automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/0a35b03ff78c5-contacts-api).
