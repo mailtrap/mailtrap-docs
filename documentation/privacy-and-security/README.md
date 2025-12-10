@@ -2,7 +2,7 @@
 title: Security & Privacy
 description: >-
   Learn about Mailtrap's security measures, compliance standards, and data
-  protection policies
+  protection policies.
 ---
 
 # Security & Privacy
