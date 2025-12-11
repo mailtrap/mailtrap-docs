@@ -46,7 +46,7 @@ Click _Add Domain_
 
 Type in the domain from which you want to send emails and click Add. Remember that you should be the domain owner with access to its DNS records/have someone with access to DNS records.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 After this step, you’ll see the Domain Verification page.
 {% endstep %}
@@ -81,7 +81,7 @@ Tip: If you've provided this information before, you won't be asked to fill it i
 
 You can switch between personal and business information only once, meaning that you cannot change it after the form is submitted.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

@@ -118,7 +118,7 @@ Run the `dig CAA example.com` command again to confirm the new records are in pl
 
 Once propagated, you should be able to access your mt-link subdomain without SSL errors:
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2) (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

@@ -36,7 +36,7 @@ Go to the Sending Domains tab and choose the domain you want to send emails from
 
 Navigate to the Integration tab for your selected domain.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
