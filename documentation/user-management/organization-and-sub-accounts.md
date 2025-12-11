@@ -91,7 +91,7 @@ Sub‑accounts can be created through the user interface or through the API as w
 
 Switch between your organizations and sub‑accounts from the left-side menu anytime.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Migrating an already existing account
 
