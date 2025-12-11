@@ -1,9 +1,11 @@
 ---
 title: Gemini and Mailtrap Integration
-description: Send emails from a verified domain and manage contacts with custom fields using Gemini and Mailtrap Email API.
+description: >-
+  Send emails from a verified domain and manage contacts with custom fields
+  using Gemini and Mailtrap Email API.
 ---
 
-# Overview
+# Gemini and Mailtrap
 
 This guide shows you how to send emails from a verified domain and manage contacts with custom fields and optional List IDs with Gemini and Mailtrap Email API.
 
@@ -11,13 +13,13 @@ This guide shows you how to send emails from a verified domain and manage contac
 
 Before you start, make sure you have:
 
-- Verified sending domain in Mailtrap
-- Admin API token with access to your domain, Contacts, and Production Email API
-- Account ID (Go to Settings, then Account Settings in Mailtrap dashboard)
-- Optional List IDs if you want to store contacts in specific lists
-- Custom fields created in Mailtrap if you want to store extra metadata
-- Node.js or Python installed in your Gemini project environment
-- Ability to set environment variables in your Gemini hosting setup (via .env files or runtime configuration)
+* Verified sending domain in Mailtrap
+* Admin API token with access to your domain, Contacts, and Production Email API
+* Account ID (Go to Settings, then Account Settings in Mailtrap dashboard)
+* Optional List IDs if you want to store contacts in specific lists
+* Custom fields created in Mailtrap if you want to store extra metadata
+* Node.js or Python installed in your Gemini project environment
+* Ability to set environment variables in your Gemini hosting setup (via .env files or runtime configuration)
 
 ## Ready-made prompts for Gemini integration
 
@@ -25,20 +27,20 @@ You can use the following prompts to instruct Gemini to integrate the service fo
 
 ### Email sending
 
-| Prompt |
-|--------|
+| Prompt                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Create a Node.js app that uses the Mailtrap SDK to send an email via the Email API from a verified domain. Store credentials in environment variables. |
 
 ### Email sending + HTML template
 
-| Prompt |
-|--------|
+| Prompt                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------- |
 | Generate a Python script using the Mailtrap SDK that sends a production email with HTML content and template variables. |
 
 ### Full integration
 
-| Prompt |
-|--------|
+| Prompt                                                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Build a Node.js app that sends a production email, then creates or updates a contact in Mailtrap Contacts with custom fields and optional List ID. |
 
 {% hint style="info" %}
@@ -49,7 +51,7 @@ Gemini provides you with accurate, safe flows, and the code. However, it uses pl
 
 {% stepper %}
 {% step %}
-## Prepare Mailtrap
+### Prepare Mailtrap
 
 1. Verify your sending domain in Mailtrap.
 2. Create an Admin API token with `production_send` and `contacts_write` scopes.
@@ -59,7 +61,7 @@ Gemini provides you with accurate, safe flows, and the code. However, it uses pl
 {% endstep %}
 
 {% step %}
-## Create/open your Gemini project
+### Create/open your Gemini project
 
 Here we're assuming you already have a Gemini-powered project within an IDE like Cursor or Replit. If so, simply open the project.
 
@@ -82,7 +84,7 @@ pip install mailtrap
 {% endstep %}
 
 {% step %}
-## Send emails with Node.js and Python
+### Send emails with Node.js and Python
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -131,7 +133,7 @@ print("Email sent successfully!")
 {% endstep %}
 
 {% step %}
-## Create/update a contact in Mailtrap
+### Create/update a contact in Mailtrap
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -183,7 +185,7 @@ At the moment a direct Contacts API is under development for the official Python
 {% endstep %}
 
 {% step %}
-## Run and verify
+### Run and verify
 
 1. Set your environment variables in Gemini's environment:
 
@@ -215,13 +217,13 @@ python main.py
 
 ## Troubleshooting Gemini-powered environments
 
-- **Environment variables not loading** – Gemini environments may require .env loading via `dotenv` in Node.js or `python-dotenv` in Python.
-- **Port access restrictions** – Some Gemini hosting providers block SMTP - so use only HTTPS Email API as explained in this article.
-- **Missing dependencies** – Always run `npm install` or `pip install` after Gemini regenerates files to ensure all Mailtrap SDK dependencies are installed.
-- **CORS or cross-domain errors** – If calling Mailtrap from a Gemini web client, route requests through your backend to keep API token secure.
+* **Environment variables not loading** – Gemini environments may require .env loading via `dotenv` in Node.js or `python-dotenv` in Python.
+* **Port access restrictions** – Some Gemini hosting providers block SMTP - so use only HTTPS Email API as explained in this article.
+* **Missing dependencies** – Always run `npm install` or `pip install` after Gemini regenerates files to ensure all Mailtrap SDK dependencies are installed.
+* **CORS or cross-domain errors** – If calling Mailtrap from a Gemini web client, route requests through your backend to keep API token secure.
 
 ## Next steps
 
-- Use [Mailtrap Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) to send branded Gemini-generated emails with variables.
-- [Add automation triggers](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/automations) in Mailtrap to send follow-ups to new contacts.
-- Track open and click rates with Mailtrap Email Tracking.
+* Use [Mailtrap Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) to send branded Gemini-generated emails with variables.
+* [Add automation triggers](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/automations) in Mailtrap to send follow-ups to new contacts.
+* Track open and click rates with Mailtrap Email Tracking.

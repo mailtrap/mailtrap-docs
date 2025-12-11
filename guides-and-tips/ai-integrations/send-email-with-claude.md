@@ -62,7 +62,7 @@ Once in the Integration/API page, update the following values in your claude\_de
 * **MAILTRAP\_API\_TOKEN** – Used to authenticate API requests, which you can copy/paste from the credentials tab.
 * **DEFAULT\_FROM\_EMAIL** – Make sure the email's domain matches your own domain from the Sending Domains tab in Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}

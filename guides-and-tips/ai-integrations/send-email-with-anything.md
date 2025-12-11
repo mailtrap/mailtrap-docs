@@ -1,9 +1,11 @@
 ---
 title: Anything and Mailtrap Integration
-description: Step-by-step guide on how to integrate Mailtrap with your Anything application to send emails.
+description: >-
+  Step-by-step guide on how to integrate Mailtrap with your Anything application
+  to send emails.
 ---
 
-# Overview
+# Anything and Mailtrap
 
 This guide shows you how to integrate Mailtrap with your Anything application to send emails.
 
@@ -11,12 +13,12 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 
 ## Prerequisites
 
-- An Anything account and a project
-- A Mailtrap account for sending emails
+* An Anything account and a project
+* A Mailtrap account for sending emails
 
 {% stepper %}
 {% step %}
-## Create a landing page/contact form
+### Create a landing page/contact form
 
 Log in to your Anything account and use a prompt like the following one to create a simple project with basic fields:
 
@@ -26,7 +28,7 @@ create me a simple contact form with email, name, and message fields, and a send
 {% endstep %}
 
 {% step %}
-## Add your Mailtrap credentials
+### Add your Mailtrap credentials
 
 After a minute or two, Anything will generate your project. Once it's done, you need to insert your Mailtrap credentials.
 
@@ -36,13 +38,13 @@ To do this, open **Project Settings** in the sidebar, navigate to **Secrets**, a
 
 You need to add the following two secrets:
 
-**MAILTRAP_API_TOKEN**
+**MAILTRAP\_API\_TOKEN**
 
 This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens), which you can create at any time in your account dashboard.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-api-token-secret.png" alt="Anything secret configuration showing MAILTRAP_API_TOKEN secret" width="450"><figcaption><p>API Token secret</p></figcaption></figure></div>
 
-**MAILTRAP_FROM_EMAIL**
+**MAILTRAP\_FROM\_EMAIL**
 
 This is the email address with the verified Mailtrap sending domain you've added after creating an account.
 
@@ -51,7 +53,7 @@ This is the email address with the verified Mailtrap sending domain you've added
 Once you're done adding the secrets, simply tell the Anything AI that you're done with a prompt like this one:
 
 {% hint style="info" %}
-I've added the MAILTRAP_API_TOKEN and MAILTRAP_FROM_EMAIL secrets
+I've added the MAILTRAP\_API\_TOKEN and MAILTRAP\_FROM\_EMAIL secrets
 {% endhint %}
 
 The AI will then go over Mailtrap Email API documentation, connect it to your project, and confirm once it's done.
@@ -64,7 +66,7 @@ If you haven't already, make sure to let AI know you want the messages to be sen
 {% endstep %}
 
 {% step %}
-## Start sending emails
+### Start sending emails
 
 Finally, to test your configuration, fill out the form and hit the **Send** button. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
 

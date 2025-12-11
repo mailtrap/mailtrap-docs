@@ -1,9 +1,11 @@
 ---
 title: Retool and Mailtrap Integration
-description: Step-by-step guide on how to integrate Mailtrap with your Retool application to send emails via REST API.
+description: >-
+  Step-by-step guide on how to integrate Mailtrap with your Retool application
+  to send emails via REST API.
 ---
 
-# Overview
+# Retool Integration
 
 This guide shows you how to integrate Mailtrap with your Retool application to send emails.
 
@@ -11,12 +13,12 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 
 ## Prerequisites
 
-- A Retool account and a project
-- A Mailtrap account for sending emails
+* A Retool account and a project
+* A Mailtrap account for sending emails
 
 {% stepper %}
 {% step %}
-## Create a REST API resource (Mailtrap)
+### Create a REST API resource (Mailtrap)
 
 Open Retool and go to the **Resources** tab. Once there, click on **Create new** > **Resource**.
 
@@ -28,9 +30,9 @@ On the next page, select **REST API**.
 
 Then, configure the resource:
 
-- Enter your desired resource name
-- Add the Mailtrap root URL: `https://send.api.mailtrap.io/`
-- Choose **Bearer** for authentication and add your [Mailtrap API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
+* Enter your desired resource name
+* Add the Mailtrap root URL: `https://send.api.mailtrap.io/`
+* Choose **Bearer** for authentication and add your [Mailtrap API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
 
 {% hint style="info" %}
 This URL lets you use other endpoints later on depending on your use case (i.e., create contacts). If you plan on sending mass emails, the root URL should be `https://bulk.api.mailtrap.io/`
@@ -42,7 +44,7 @@ Once you insert the required details, click **Save changes** and go back to your
 {% endstep %}
 
 {% step %}
-## Configure a query
+### Configure a query
 
 As the next step, add a query to the Query Library. Queries stored here can be reused across any of your Retool apps.
 
@@ -50,10 +52,10 @@ In this example, we'll create a query that sends an email with fixed content def
 
 Create a new **Query** and:
 
-- Select the resource you created that connects the Mailtrap email API
-- Choose **POST** and add the API endpoint: `api/send`
-- Add a **Content-Type** header with `application/json` as value
-- Choose **RAW** as the Body type and use the following code snippet:
+* Select the resource you created that connects the Mailtrap email API
+* Choose **POST** and add the API endpoint: `api/send`
+* Add a **Content-Type** header with `application/json` as value
+* Choose **RAW** as the Body type and use the following code snippet:
 
 {% code title="Request Body" %}
 ```json
@@ -82,7 +84,7 @@ Here's what your new query should look like:
 {% endstep %}
 
 {% step %}
-## Test the integration
+### Test the integration
 
 Finally, to test your configuration, click on the **Test** button in the upper-right corner of the Query editor. You should see the following response:
 

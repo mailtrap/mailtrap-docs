@@ -1,9 +1,11 @@
 ---
 title: Leap.new and Mailtrap Integration
-description: Step-by-step guide on how to integrate Mailtrap with your Leap.new application to send emails.
+description: >-
+  Step-by-step guide on how to integrate Mailtrap with your Leap.new application
+  to send emails.
 ---
 
-# Overview
+# Leap.new and Mailtrap
 
 This guide shows you how to integrate Mailtrap with your Leap.new application to send emails.
 
@@ -11,12 +13,12 @@ Mailtrap is an email-sending solution for developer and product teams. Focused o
 
 ## Prerequisites
 
-- A Leap.new account and a project
-- A Mailtrap account for sending emails
+* A Leap.new account and a project
+* A Mailtrap account for sending emails
 
 {% stepper %}
 {% step %}
-## Create a landing page/contact form
+### Create a landing page/contact form
 
 Log in to your Leap.new account and use a prompt like the following one to create a simple project with basic fields:
 
@@ -26,7 +28,7 @@ create me a simple contact form with email, name, and message fields, and a send
 {% endstep %}
 
 {% step %}
-## Add your Mailtrap credentials
+### Add your Mailtrap credentials
 
 After a minute or two, Leap.new will generate your project. Once it's done, you need to insert your Mailtrap credentials.
 
@@ -34,15 +36,15 @@ To do this, open **Settings** and navigate to **Secrets**, and click on the **Ad
 
 Once there, use the **New secret** button to add the following two variables:
 
-- `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens), which you can create at any time in your account dashboard.
-- `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you've added after creating an account.
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens), which you can create at any time in your account dashboard.
+* `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you've added after creating an account.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-secrets-settings.png" alt="Leap.new Settings showing Secrets configuration with MAILTRAP variables" width="563"><figcaption><p>Leap.new Secrets settings</p></figcaption></figure></div>
 
 Once you're done adding the variables, simply tell the Leap.new AI that you're done with a prompt like this one:
 
 {% hint style="info" %}
-I've added the MAILTRAP_API_TOKEN and MAILTRAP_FROM_EMAIL secrets
+I've added the MAILTRAP\_API\_TOKEN and MAILTRAP\_FROM\_EMAIL secrets
 {% endhint %}
 
 The AI will then go over Mailtrap Email API documentation, connect it to your project, and confirm once it's done.
@@ -55,7 +57,7 @@ If you haven't already, make sure to let AI know you want the messages to be sen
 {% endstep %}
 
 {% step %}
-## Start sending emails
+### Start sending emails
 
 Finally, to test your configuration, fill out the form and hit the **Send** button. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
 
