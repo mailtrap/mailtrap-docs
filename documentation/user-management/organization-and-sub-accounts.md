@@ -15,7 +15,7 @@ The **Organization & Sub-Accounts** structure is designed to help you manage com
 
 Each **sub-account** functions as a fully isolated workspace with its own set of projects, sending domains, email templates, stats, credentials (SMTP/API), and even team members. This separation ensures that data, permissions, and sending behavior in one sub‑account will never affect the others.
 
-At the same time, your Organization acts as the central hub:
+At the same time, your **Organization** acts as the central hub:
 
 * **Centralized billing** lets you keep all sub‑accounts under one subscription plan and one invoice.
 * **Shared quota pools** apply across all sub‑accounts using Email API/SMTP, Email Campaigns or Email Sandbox, making it easy to allocate resources flexibly.
@@ -57,35 +57,27 @@ Use Organization & Sub‑accounts to:
 
 {% stepper %}
 {% step %}
-**Access Organization Settings**
+Go to the left-side menu and select **Organization**. This will open the **Organization** panel.
 
-Go to the left-side menu and select Organization. This will open the Organization panel.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-organization-details.png" alt="Mailtrap Organization page showing Organization Details tab with name, owner email, and organization ID" width="375"></div>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Navigate to Sub-accounts**
+Click **Sub-accounts** menu item and **Create Sub-Account** button.
 
-Click Sub-accounts menu item and Create Sub-Account button.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-create-subaccount-button.png" alt="Organization page with Create sub-account button highlighted" width="563"></div>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Enter Sub-account Name**
+Enter the sub-account name and click **Create**.
 
-Enter the sub-account name and click Create.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-subaccount-name-input.png" alt="" width="188"></div>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Configure Account Settings**
-
 You will be automatically redirected to the new account settings page, where you can manage other account settings.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-account-settings-created.png" alt="Account Settings page for newly created sub-account showing account name and owner details" width="563"></div>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -99,7 +91,7 @@ Sub‑accounts can be created through the user interface or through the API as w
 
 Switch between your organizations and sub‑accounts from the left-side menu anytime.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-account-switcher-menu.png" alt="" width="184"></div>
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ### Migrating an already existing account
 
@@ -139,25 +131,26 @@ The Organization & Sub‑Accounts structure offers flexible and secure user acce
 
 There are two levels of user access:
 
-* _Organization-level access_
+**1.&#x20;**_**Organization-level access**_
 
-Users with this access-level can see and manage all current and future sub-accounts within the Organization. This is ideal for admins, finance, or central teams that need a global overview. You can assign roles such as:
+Users with this access-level can see and manage **all current and future sub-accounts** within the Organization. This is ideal for admins, finance, or central teams that need a global overview. You can assign roles such as:
 
-* Org Owner – The highest-level role within Organization structure. This role is automatically assigned to the person who created the Organization and comes with full, unrestricted access.
-* Org Admin – Full access to organization settings and billing, as well as admin access to all sub‑accounts.
-* Org Viewer – View-only access to organization settings and billing, as well as view access to all sub‑accounts.
+* **Org Owner** – The highest-level role within Organization structure. This role is automatically assigned to the person who created the Organization and comes with full, unrestricted access.
+* **Org Admin** – Full access to organization settings and billing, as well as admin access to all sub‑accounts.
+* **Org Viewer** – View-only access to organization settings and billing, as well as view access to all sub‑accounts.
 
 {% hint style="info" %}
 A user with organization-level permissions will always have access to all organization-related pages in the Mailtrap UI, regardless of which sub‑account they are currently logged into.
 {% endhint %}
 
-* Billing Admin - Full access to billing.
-* Billing Viewer - View-only access to billing.
-* _Account-level access_
+* **Billing Admin** - Full access to billing.
+* **Billing Viewer** - View-only access to billing.
+
+**2.&#x20;**_**Account-level access**_
 
 If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](user-management.md).
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-edit-user-permissions.png" alt="" width="375"></div>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
@@ -167,17 +160,17 @@ Users can be invited with a single email address to both Organization and select
 
 You can easily check who has access to your account.
 
-* Account users:
+* **Account users**:
 
-Go to the Settings → User Management tab to see a list of all users with account-level access. Permissions can be updated at any time from this panel - you can change access rights or remove users with just a few clicks.
+Go to the **Settings** → **User Management** tab to see a list of all users with account-level access. Permissions can be updated at any time from this panel - you can change access rights or remove users with just a few clicks.
 
-* Organization-level users:
+* **Organization-level users**:
 
-All users with Organization-level access also have access to your account, and they are listed in a separate "Organization" tab. These users automatically have access to all current and future sub‑accounts.
+All users with Organization-level access also have access to your account, and they are listed in a separate **"Organization"** tab. These users automatically have access to all current and future sub‑accounts.
 
 If you are an Organization Owner or Organization Admin, you can edit organization-level users (e.g., invite, remove, or change roles). If you don't have admin rights, you will still see the full list of org-level users, but only in view-only mode.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/org-user-management-tab.png" alt="User Management page showing Organization users tab with list of members and their permissions" width="563"></div>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 ### API tokens
 
@@ -185,9 +178,9 @@ API tokens in Mailtrap are account–level. That means each sub‑account has it
 
 #### Key Points
 
-* Isolated by design: Tokens are unique to each sub‑account and cannot be used to access resources from other sub‑accounts or the entire Organization.
-* Scoped access: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
-* Management via UI: Tokens can currently be created, viewed, and revoked via the API Tokens section inside each sub‑account.
+* **Isolated by design**: Tokens are unique to each sub‑account and cannot be used to access resources from other sub‑accounts or the entire Organization.
+* **Scoped access**: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
+* **Management via UI**: Tokens can currently be created, viewed, and revoked via the API Tokens section inside each sub‑account.
 
 ### FAQ
 

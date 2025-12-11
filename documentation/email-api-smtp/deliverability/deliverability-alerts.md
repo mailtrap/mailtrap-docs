@@ -1,9 +1,12 @@
 ---
 title: Deliverability Alerts
-description: Get weekly health status reports and critical alerts for your email deliverability metrics including opens, clicks, bounces, unsubscribes, and spam complaints.
+description: >-
+  Get weekly health status reports and critical alerts for your email
+  deliverability metrics including opens, clicks, bounces, unsubscribes, and
+  spam complaints.
 ---
 
-# Overview
+# Deliverability Alerts
 
 Deliverability Alerts help you monitor your email performance by providing automated notifications about your sending metrics.
 
@@ -17,11 +20,11 @@ You can toggle off the alerts, however, we recommend keeping them enabled becaus
 
 Health Status Weekly alerts are sent out on Mondays and provide a detailed preview of the following stats:
 
-- Opened
-- Clicks
-- Bounces
-- Unsubscribes
-- Spam
+* Opened
+* Clicks
+* Bounces
+* Unsubscribes
+* Spam
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/deliverability-alerts-weekly-stats.png" alt="Weekly stats table showing email metrics with color-coded status indicators for All good, Attention required, and Critical" width="563"><figcaption><p>Health Status Weekly stats</p></figcaption></figure></div>
 
@@ -33,7 +36,7 @@ Each Slack channel has a unique email address. You can leverage that to route Ma
 
 {% stepper %}
 {% step %}
-## Open Channel Integrations
+### Open Channel Integrations
 
 Click the channel name in the header and select **Integrations**.
 
@@ -41,7 +44,7 @@ Click the channel name in the header and select **Integrations**.
 {% endstep %}
 
 {% step %}
-## Get Email Address
+### Get Email Address
 
 Click **Send emails to this channel**, then the **Get Email Address** button.
 
@@ -49,7 +52,7 @@ Click **Send emails to this channel**, then the **Get Email Address** button.
 {% endstep %}
 
 {% step %}
-## Add Email to Mailtrap
+### Add Email to Mailtrap
 
 Navigate to the Deliverability Alerts page in Mailtrap, and paste the Slack email address into the field under **Who receives notifications?**
 
@@ -57,7 +60,7 @@ Navigate to the Deliverability Alerts page in Mailtrap, and paste the Slack emai
 {% endstep %}
 
 {% step %}
-## Save Settings
+### Save Settings
 
 Click **Save** and all alerts will be routed to the Slack channel instead of your email.
 {% endstep %}
