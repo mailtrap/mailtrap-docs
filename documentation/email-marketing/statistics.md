@@ -7,7 +7,7 @@ description: View and analyze email campaign performance metrics and analytics
 
 Mailtrap provides analytics for all the emails you send.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/marketing-campaign-statistics.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs" width="563"><figcaption><p>Statistics overview dashboard</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -21,7 +21,7 @@ On the statistics dashboards, you can see the following metrics:
 
 In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains" width="339"><figcaption><p>Domain selector in Stats Overview</p></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains" width="339"><figcaption></figcaption></figure></div>
 
 By default, the stats are shown for the last week + today.
 
@@ -42,7 +42,7 @@ The thresholds are based on our extensive cross-industry research and, at this p
 
 #### Delivered
 
-Delivered refers to the percentage of emails that were accepted by the recipient's mailbox providers compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](../email-api-smtp/statistics/email-logs.md).
+Delivered refers to the percentage of emails that were accepted by the recipient's mailbox prqoviders compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](../email-api-smtp/statistics/email-logs.md).
 
 **Note:** "**Delivered**" status doesn’t mean that a message went straight into the recipient’s Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
 
@@ -71,7 +71,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-click-events-history.png" alt="Event History tab showing Click events with timestamps" width="292"><figcaption><p>Click events in Event History</p></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-click-events-history.png" alt="Event History tab showing Click events with timestamps" width="292"><figcaption></figcaption></figure></div>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 
@@ -85,10 +85,10 @@ Bounce rate refers to the percentage of emails dispatched from Mailtrap that wer
 
 Emails may bounce for different reasons, most commonly:
 
-* Invalid email address.
+* Invalid email address
 * Rejection by the recipient’s mailbox because email is deemed spam, phishing, etc.
-* The security policy of a mailbox provider that rejects emails from all or some domains.
-* Permanent connection issue.
+* The security policy of a mailbox provider that rejects emails from all or some domains
+* Permanent connection issue
 
 The term bounce used in Mailtrap is also known as a hard bounce. This is different from a soft bounce - another event present in Mailtrap that refers to a temporary delivery problem.
 

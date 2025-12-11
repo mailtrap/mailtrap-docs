@@ -81,7 +81,7 @@ Tip: If you've provided this information before, you won't be asked to fill it i
 
 You can switch between personal and business information only once, meaning that you cannot change it after the form is submitted.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

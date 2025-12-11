@@ -25,7 +25,7 @@ icon: users-rectangle
 * **View Email Content** permission is available for all sending domains. It enables Account Owners, Account Admins, and Domain Admins to grant Viewers access to view email bodies in Email Logs. They can provide View Email Content permission for one domain and limit it for another. By default, Account Owners, Account Admins, and Domain Admins have the right to view email bodies, while Viewers don’t.
   *   If the user doesn’t have the permission to view email content, they will see the following message in Email Logs:
 
-      <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Email Campaign Admin** can create, edit, delete, and send email campaigns, as well as view reports.
 * **Email Campaign Viewer** can only view email campaigns and campaign reports.
 * **Project Admin** can rename and delete a project, fully manage all its sandboxes (add new or delete existing ones), and add or remove project team members. They cannot add new projects in the account.
@@ -36,7 +36,7 @@ icon: users-rectangle
 * **Billing Viewer** can only see the credit card on file and details of the current subscription. They can also opt out of receiving invoices to their email address.
   * **Note**: If the Organization & Sub-Accounts feature is enabled, the Billing roles will be visible on a [user management page](https://mailtrap.io/user-management).
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you remove a user on the User Management page, they immediately lose access to your account, but stay in the system as Mailtrap users.
 
