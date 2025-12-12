@@ -101,7 +101,7 @@
   * [User Management](account-and-organization/management/users.md)
   * [User Profile](account-and-organization/management/user-profile.md)
   * [My Profile](account-and-organization/management/my-profile.md)
-  * [SSO Guide](account-and-organization/management/sso-guide.md)
+  * [SSO Guide](account-and-organization/management/sso.md)
 * [Billing & Plans](account-and-organization/billing/README.md)
   * [Billing Setup](account-and-organization/billing/billing-setup.md)
   * [Payment Issues](account-and-organization/billing/payment-issues.md)
