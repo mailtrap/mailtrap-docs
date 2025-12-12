@@ -1,18 +1,16 @@
 ---
 title: Troubleshooting - Email Sandbox
-description: Common issues and solutions for Mailtrap Email Sandbox
+description: Common issues and solutions for Email Sandbox
 icon: wrench
 ---
 
 # Troubleshooting
 
-This page covers common issues you might encounter when using Mailtrap Email Sandbox and their solutions.
+This page covers common issues you might encounter when using Email Sandbox and their solutions.
 
 ### Connection errors
 
 If you can't connect to the Sandbox SMTP server and receive errors like **Connection cannot be established** or **Connection timed out**, follow these troubleshooting steps:
-
-**Testing your connection**
 
 {% stepper %}
 {% step %}
@@ -185,7 +183,7 @@ If any of these headers haven't been specified (for example, an email doesn't ha
 
 If you are on the Business plan or higher ([view plans](https://mailtrap.io/pricing/)), you will also see the **BCC** header in this tab (if specified for the message).
 
-On lower plans, no BCC field will appear even if it was included with a message.
+On lower plans, no BCC field will appear even if it was included in a message.
 
 ### Team members limit reached
 
@@ -219,7 +217,7 @@ If a particular email is not forwarded:
 3. Ensure your forwarding rule status is **Active**
 4. Confirm the email address or domain has been verified
 
-Learn more: [Automatic Email Forwarding](automatic-email-forwarding.md)
+**Furher reading**: [Automatic Email Forwarding](automatic-email-forwarding.md)
 
 ### Suspicious emails in sandbox
 
