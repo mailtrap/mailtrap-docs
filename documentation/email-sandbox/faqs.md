@@ -51,7 +51,7 @@ Sandbox renders emails in the same way browsers do, which means no additional st
 
 Email Sandbox is compatible with web email clients and renders HTML as-is, without external CSS styles.
 
-Sandbox provides [HTML checks](testing/html.md) and demonstrates potential errors that different email clients may experience when rendering an HTML email. You can also get a preview of test emails for different devices (e.g., mobile, tablet, desktop).
+Sandbox provides [HTML checks](html-check.md) and demonstrates potential errors that different email clients may experience when rendering an HTML email. You can also get a preview of test emails for different devices (e.g., mobile, tablet, desktop).
 
 You can also forward emails to Outlook, Thunderbird, etc., and use these desktop clients to view them.
 
