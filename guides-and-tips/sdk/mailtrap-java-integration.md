@@ -111,7 +111,7 @@ SMTP integration is compatible with any Java framework or library that sends ema
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-java-smtp-integration.png" alt=""></div>
 
-For more information, read the [SMTP Integration article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
+For more information, read the [SMTP Integration article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
 
 #### RESTful API integration
 
