@@ -18,9 +18,9 @@
 ## Integrations
 
 * [Webhooks](integrations/webhooks.md)
-* [Supabase](integrations/supabase-and-mailtrap/README.md)
-  * [Supabase Transactional Emails Integration](integrations/supabase-and-mailtrap/supabase-and-mailtrap-integration.md)
-  * [Sync Contacts with Supabase](integrations/supabase-and-mailtrap/supabase-contacts-integration.md)
+* [Supabase](integrations/supabase/README.md)
+  * [Supabase Transactional Emails Integration](integrations/supabase/supabase-and-mailtrap-integration.md)
+  * [Sync Contacts with Supabase](integrations/supabase/supabase-contacts-integration.md)
 * [N8N Integration](integrations/mailtrap-and-n8n-integration.md)
 * [Zapier Integration](integrations/mailtrap-integration-with-zapier.md)
 * [Make.com Integration](integrations/mailtrap-make-integration.md)
