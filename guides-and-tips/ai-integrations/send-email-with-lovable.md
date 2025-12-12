@@ -32,7 +32,7 @@ This integration is built to:
   * Lovable to create contact forms and generate your logic.
   * Supabase to securely store API keys.
   * Mailtrap to send emails and manage contacts.
-* Add and [verify your email sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) since Mailtrap allows you to send emails only from a verified domain.
+* Add and [verify your email sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
 * Make sure your [API Token](https://mailtrap.io/api-tokens) has admin access level to that domain and contacts.
 * Create [Custom fields](https://mailtrap.io/contacts/fields) in Mailtrap in advance if your form has more inputs and you want to save their content in Mailtrap. You might also need a List ID.
 * Provide your Account ID as it's required for creating a contact in Mailtrap. You can find it [here](https://mailtrap.io/account-management).
@@ -110,7 +110,7 @@ After clicking on **Create new project**, Lovable will confirm that you have suc
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
-&#x20;For more information on integrating Supabase, follow the [official Lovable guide](https://docs.lovable.dev/integrations/supabase).
+For more information on integrating Supabase, follow the [official Lovable guide](https://docs.lovable.dev/integrations/supabase).
 {% endhint %}
 {% endstep %}
 

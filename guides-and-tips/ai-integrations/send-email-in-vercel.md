@@ -14,7 +14,7 @@ description: >-
 Before you start, ensure you have:
 
 * A [Vercel account](https://vercel.com/) with a project where you'll add your Mailtrap API key
-* A verified sending domain in Mailtrap (setup takes approximately 5 minutes—see our [sending domain setup guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) for instructions)
+* A verified sending domain in Mailtrap (setup takes approximately 5 minutes—see our [sending domain setup guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) for instructions)
 
 {% stepper %}
 {% step %}

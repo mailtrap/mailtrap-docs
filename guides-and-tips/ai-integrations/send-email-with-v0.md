@@ -23,7 +23,7 @@ Your prompts must be adjusted to your needs. These prompts are created based on 
 
 Before you start, ensure the following:
 
-* Add and [verify your email sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) — Mailtrap allows you to send emails only from a verified domain
+* Add and [verify your email sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) — Mailtrap allows you to send emails only from a verified domain
 * Make sure your [API Token](https://mailtrap.io/api-tokens) has admin access level to that domain and contacts
 
 {% stepper %}

@@ -15,7 +15,7 @@ In this guide, I'll show you how to obtain the Mailtrap SMTP credentials and upd
 {% step %}
 **Obtain your sending credentials**
 
-If you haven't already, you'll need to verify your domain before we start. You can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain-setup) as a guide.
+If you haven't already, you'll need to verify your domain before we start. You can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) as a guide.
 
 With a verified domain in place:
 

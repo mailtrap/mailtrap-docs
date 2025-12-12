@@ -4,16 +4,16 @@
 
 ## SDK
 
-* [PHP Integration](sdk/mailtrap-php-integration.md)
-* [Node.js Integration](sdk/mailtrap-nodejs-integration.md)
-* [Python Integration](sdk/mailtrap-python-integration.md)
-* [Ruby Integration](sdk/mailtrap-ruby-integration.md)
-* [Java Integration](sdk/mailtrap-java-integration.md)
-* [.NET Integration](sdk/mailtrap-dotnet-integration.md)
-* [Go Integration](sdk/mailtrap-go-integration.md)
-* [Elixir Integration](sdk/mailtrap-elixir-integration.md)
-* [Scala Integration](sdk/mailtrap-scala-integration.md)
-* [Perl Integration](sdk/mailtrap-perl-integration.md)
+* [PHP Integration](sdk/php-integration.md)
+* [Node.js Integration](sdk/nodejs-integration.md)
+* [Python Integration](sdk/python-integration.md)
+* [Ruby Integration](sdk/ruby-integration.md)
+* [Java Integration](sdk/java-integration.md)
+* [.NET Integration](sdk/dotnet-integration.md)
+* [Go Integration](sdk/go-integration.md)
+* [Elixir Integration](sdk/elixir-integration.md)
+* [Scala Integration](sdk/scala-integration.md)
+* [Perl Integration](sdk/perl-integration.md)
 
 ## Integrations
 
