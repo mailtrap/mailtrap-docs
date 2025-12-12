@@ -67,7 +67,7 @@ except Exception as e:
 {% endcode %}
 
 {% hint style="info" %}
-Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+Get your API token from your Mailtrap account under **Settings → API Tokens**.
 {% endhint %}
 
 #### SMTP Integration
@@ -78,9 +78,9 @@ To integrate SMTP with your Python app, navigate to the **Integrations** tab, ch
 SMTP integration is compatible with any Python framework or library that sends emails using SMTP.
 {% endhint %}
 
-<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-python-smtp-integration.png" alt="SMTP integration for Python"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-python-smtp-integration.png" alt=""></div>
 
-Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
+For more information read the [SMTP Integration article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
 
 #### RESTful API Integration
 
@@ -88,6 +88,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any Python framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-python-api-integration.png" alt="API integration for Python"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-python-api-integration.png" alt=""></div>
 
-Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.
+Read more about API integration in the [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
