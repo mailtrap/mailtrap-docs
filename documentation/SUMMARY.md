@@ -54,7 +54,7 @@
 
 * [Overview](email-sandbox/overview.md)
 * [Setup & Configuration](email-sandbox/setup/README.md)
-  * [Application Integration](email-sandbox/how-to-integrate-email-sandbox-with-your-application.md)
+  * [Sandbox SMTP Integration](email-sandbox/setup/sandbox-smtp-integration.md)
   * [Sandbox API](email-sandbox/sandbox-api-integration.md)
   * [Email Address per Sandbox](email-sandbox/email-address-per-sandbox.md)
 * [Testing Features](email-sandbox/testing/README.md)
@@ -96,7 +96,7 @@
 
 ## Account & Organization
 
-* [User Management and Organizations](user-management/README.md)
+* [User Management](user-management/README.md)
   * [Organization & Sub-Accounts](user-management/organization-and-sub-accounts.md)
   * [User Management](account-and-organization/user-management/overview.md)
   * [User Profile](user-management/user-profile.md)
