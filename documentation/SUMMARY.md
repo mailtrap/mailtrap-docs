@@ -86,7 +86,7 @@
 * [Automations](email-marketing/automations.md)
 * [Contacts Management](email-marketing/overview-1/README.md)
   * [Custom Fields](email-marketing/contacts-management/custom-fields.md)
-  * [Uploading Contacts](email-marketing/overview-1/uploading-contacts.md)
+  * [Import Contacts](email-marketing/contacts-management/import-contacts.md)
   * [Managing Contacts](email-marketing/overview-1/managing-contacts.md)
   * [Lists](email-marketing/overview-1/lists.md)
   * [Segments](email-marketing/overview-1/segments.md)
