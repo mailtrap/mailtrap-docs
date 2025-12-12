@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-code">:code:</i> Mailtrap Perl Integration
 description: >-
   Learn how to integrate Mailtrap with Perl apps and projects for email sending
   using SMTP and RESTful API.

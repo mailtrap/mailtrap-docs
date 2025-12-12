@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-code">:code:</i> Mailtrap Go Integration
 description: >-
   Learn how to integrate Mailtrap with Go applications using SMTP and RESTful
   API for email sending.

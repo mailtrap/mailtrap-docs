@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-gem">:gem:</i> Mailtrap Ruby integration
 description: >-
   Integrate Mailtrap with Ruby apps and projects for email sending using SDK,
   SMTP, or RESTful API

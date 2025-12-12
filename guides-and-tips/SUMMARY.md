@@ -4,16 +4,16 @@
 
 ## SDK
 
-* [PHP Integration](sdk/php.md)
-* [Node.js Integration](sdk/nodejs.md)
-* [Python Integration](sdk/python.md)
-* [Ruby Integration](sdk/ruby.md)
-* [Java Integration](sdk/java.md)
-* [.NET Integration](sdk/dotnet.md)
-* [Go Integration](sdk/go.md)
-* [Elixir Integration](sdk/elixir.md)
-* [Scala Integration](sdk/scala.md)
-* [Perl Integration](sdk/perl.md)
+* [PHP Integration](sdk/php-integration.md)
+* [Node.js Integration](sdk/nodejs-integration.md)
+* [Python Integration](sdk/python-integration.md)
+* [Ruby Integration](sdk/ruby-integration.md)
+* [Java Integration](sdk/java-integration.md)
+* [.NET Integration](sdk/dotnet-integration.md)
+* [Go Integration](sdk/go-integration.md)
+* [Elixir Integration](sdk/elixir-integration.md)
+* [Scala Integration](sdk/scala-integration.md)
+* [Perl Integration](sdk/perl-integration.md)
 
 ## Integrations
 
@@ -70,8 +70,8 @@
 
 ## SSO
 
-* [Setup SSO with Azure (Microsoft Entra)](sso/setup-sso-with-azure.md)
-* [Setup SSO with Okta](sso/setup-sso-with-okta.md)
-* [Setup SSO with Google Workspace](sso/setup-sso-with-google-workspace.md)
-* [Setup SSO with OneLogin](sso/setup-sso-with-onelogin.md)
-* [Setup SSO with JumpCloud](sso/setup-sso-with-jumpcloud.md)
+* [Setup SSO with Azure (Microsoft Entra)](sso/azure.md)
+* [Setup SSO with Okta](sso/okta.md)
+* [Setup SSO with Google Workspace](sso/google-workspace.md)
+* [Setup SSO with OneLogin](sso/onelogin.md)
+* [Setup SSO with JumpCloud](sso/jumpcloud.md)

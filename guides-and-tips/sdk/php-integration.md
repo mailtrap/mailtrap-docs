@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-php">:php:</i> Mailtrap PHP integration
 description: >-
   Integrate Mailtrap with PHP applications using SDK, SMTP, or RESTful API for
   reliable email sending

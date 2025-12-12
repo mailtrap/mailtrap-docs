@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-windows">:windows:</i> Mailtrap .NET integration
 description: >-
   Learn how to integrate Mailtrap with .NET apps and projects for email sending
   using SDK, SMTP, or RESTful API.

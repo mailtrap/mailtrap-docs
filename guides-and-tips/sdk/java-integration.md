@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-java">:java:</i> Mailtrap Java Integration
 description: >-
   Learn how to integrate Mailtrap with Java applications using SDK, SMTP, or
   RESTful API for email sending.
