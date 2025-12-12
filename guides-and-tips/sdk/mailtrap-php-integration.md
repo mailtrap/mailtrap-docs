@@ -81,7 +81,7 @@ try {
 {% endcode %}
 
 {% hint style="info" %}
-Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+Get your API token from your Mailtrap account under **Settings → API Tokens**.
 {% endhint %}
 
 #### SMTP integration
