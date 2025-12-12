@@ -29,7 +29,7 @@ The [Mailtrap .NET SDK](https://github.com/mailtrap/mailtrap-dotnet) is a modern
 * Sandbox testing
 * Account management
 * Async/await pattern support
-* Compatible with .NET 6+, .NET Core, and .NET Framework
+* .NET 6+, .NET Core, and .NET Framework
 
 ### Installation
 
@@ -82,7 +82,7 @@ catch (Exception ex)
 {% endcode %}
 
 {% hint style="info" %}
-Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+Get your API token from your Mailtrap account under **Settings → API Tokens**.
 {% endhint %}
 
 #### SMTP integration
@@ -93,7 +93,7 @@ To integrate SMTP with your .NET app, navigate to the Integrations tab, choose C
 SMTP integration is compatible with any .NET programming language or library that sends emails via SMTP.
 {% endhint %}
 
-<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-csharp-smtp-integration.png" alt="Mailtrap SMTP integration settings showing credentials and C# code sample for sending emails using System.Net.Mail library"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-csharp-smtp-integration.png" alt=""></div>
 
 Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
 
@@ -103,6 +103,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any .NET programming language or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-csharp-api-integration.png" alt="Mailtrap API integration showing code sample for sending emails via RESTful API using C# and HttpClient with API token authentication"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-csharp-api-integration.png" alt=""></div>
 
 Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
