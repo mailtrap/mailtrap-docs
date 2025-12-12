@@ -1,5 +1,4 @@
 ---
-title: Sync Contacts with Supabase
 description: >-
   Seamlessly sync your Supabase user base with Mailtrap to update email lists,
   create segments, launch personalized campaigns, and measure effectiveness.

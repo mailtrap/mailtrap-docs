@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-database">:database:</i> Supabase Integration with Mailtrap
 description: >-
   Learn how to integrate Mailtrap SMTP with Supabase to bypass email rate limits
   and send production-ready emails with comprehensive analytics.

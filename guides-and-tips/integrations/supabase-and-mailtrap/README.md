@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-database">:database:</i> Supabase and Mailtrap Integration
 description: >-
   Comprehensive guide to integrate Mailtrap with Supabase for email sending and
   contact management with flexible email options.
@@ -25,8 +24,8 @@ Use Mailtrap's SMTP settings to send emails directly through your Supabase proje
 
 See the Mailtrap SMTP and Supabase integration guide for detailed setup instructions.
 
-{% content-ref url="supabase-and-mailtrap-integration.md" %}
-[supabase-and-mailtrap-integration.md](supabase-and-mailtrap-integration.md)
+{% content-ref url="../supabase/transactional-emails.md" %}
+[transactional-emails.md](../supabase/transactional-emails.md)
 {% endcontent-ref %}
 
 ### Mailtrap Contacts Management + Supabase
@@ -42,8 +41,8 @@ Sync your Supabase user database with Mailtrap's Contacts feature to manage reci
 
 See the Mailtrap Contacts and Supabase integration guide for detailed setup instructions.
 
-{% content-ref url="supabase-contacts-integration.md" %}
-[supabase-contacts-integration.md](supabase-contacts-integration.md)
+{% content-ref url="../supabase/contacts-management.md" %}
+[contacts-management.md](../supabase/contacts-management.md)
 {% endcontent-ref %}
 
 ## Which Integration Should You Choose?
