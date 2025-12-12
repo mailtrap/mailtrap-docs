@@ -8,7 +8,7 @@ icon: palette
 
 Email Templates allow you to design, edit, and host HTML email templates.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 By storing the template on Mailtrap and calling it via API, you can easily change the template code without committing to your codebase.&#x20;
 
@@ -22,13 +22,13 @@ You can put `{{name}}` into your template and as your contact has a field named 
 {% step %}
 Navigate to the **Templates** menu
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-menu-nav.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-menu-nav.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
 Click the **Create New Template** button
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-list-create-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-list-create-button.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -36,7 +36,7 @@ Click the **Create New Template** button
 
 Click the drop-down menu to select one of your domains, enter the Template name, Subject, and Category, and click **Continue**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-details-form.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-details-form.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -44,7 +44,7 @@ Click the drop-down menu to select one of your domains, enter the Template name,
 
 Choose the **Drag & Drop Editor** to build the template without coding, or select **HTML Editor** if you prefer to write/modify the code.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-design-selection.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-design-selection.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ Choose the **Drag & Drop Editor** to build the template without coding, or selec
 
 Create/modify the design and click **Finish**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-drag-drop-editor.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-drag-drop-editor.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -66,7 +66,7 @@ The main Templates menu features all your saved templates. To quickly access a s
 
 Each template must have a name, subject, category, and assigned domain. The subject also supports variables.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-details-view.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-details-view.png" alt="" width="563"></div>
 
 ### Available Editors
 
@@ -74,13 +74,13 @@ Each template must have a name, subject, category, and assigned domain. The subj
 {% tab title="Drag & Drop Editor" %}
 The drag-and-drop editor allows you to design templates without any coding.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-drag-drop-interface.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-drag-drop-interface.png" alt="" width="563"></div>
 {% endtab %}
 
 {% tab title="Code Editor" %}
 Code Editor allows you to edit the HTML or Text content, depending on the emails you want to send.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-html-code-editor.png" alt="Code editor interface for HTML and text content" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-html-code-editor.png" alt="Code editor interface for HTML and text content" width="563"></div>
 
 The editor supports Find and Replace options, and you can use **Cmd+F** or **Win+F** as a hotkey to reveal a quick search bar.
 
@@ -92,7 +92,7 @@ If your template has an error, Handlebars cannot render it. You'll see an error 
 You can't save a template with errors. Note that we don't validate HTML—only Handlebars syntax is validated.
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/marketing-templates-error.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/marketing-templates-error.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endtab %}
 {% endtabs %}
 
@@ -104,7 +104,7 @@ You can't save a template with errors. Note that we don't validate HTML—only H
 
 Click **Upload image** in the upper right corner of the Code Editor.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-upload-image-button.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-upload-image-button.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -119,7 +119,7 @@ Hit the **Upload New** button in the following menu and choose an image from you
 * Maximum file size: 2 MB
 {% endhint %}
 
-<div align="left"><img src="../.gitbook/assets/template-images-library.png" alt="" width="375"></div>
+<div align="left"><img src="../../.gitbook/assets/template-images-library.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
@@ -127,7 +127,7 @@ Hit the **Upload New** button in the following menu and choose an image from you
 
 Once the image is uploaded, you will receive a confirmation notification. If the file format is unsupported or the image is too big, you will receive the corresponding error message.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-image-upload-success.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-image-upload-success.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -135,7 +135,7 @@ Once the image is uploaded, you will receive a confirmation notification. If the
 
 Click the **Copy URL** button to copy the image URL to your clipboard, then click **Template** to return to the editing menu.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-copy-url-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-copy-url-button.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -143,7 +143,7 @@ Click the **Copy URL** button to copy the image URL to your clipboard, then clic
 
 Proceed to add the image to the template body under the `<img>` tag. You can preview it in the template as soon as the asset is added.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-image-in-code.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-image-in-code.png" alt="" width="375"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -151,7 +151,7 @@ Proceed to add the image to the template body under the `<img>` tag. You can pre
 
 Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-test-data-variables.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-test-data-variables.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 By default, as a value, we put a variable name and add the "Test\_" prefix.
@@ -161,7 +161,7 @@ By default, as a value, we put a variable name and add the "Test\_" prefix.
 
 If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the **Send Test** button.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-send-test-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/template-send-test-button.png" alt="" width="563"></div>
 
 {% hint style="warning" %}
 **Test Email Requirements**

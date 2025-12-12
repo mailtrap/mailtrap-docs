@@ -82,11 +82,11 @@ Discover the full range of features and capabilities across our email platform.
 {% column width="33%" %}
 <i class="fa-headset">:headset:</i> **Email Marketing**
 
-* [Campaign Management](email-marketing/campaigns/)
-* [Contacts Management](email-marketing/overview-1/)
-* [Email Templates](email-marketing/email-templates.md)
+* [Campaign Management](email-marketing/campaign-management/)
+* [Contacts Management](email-marketing/contacts-management/)
+* [Email Templates](email-marketing/campaign-management/email-templates.md)
 * [Statistics](email-marketing/statistics.md)
-* [Segments](email-marketing/overview-1/segments.md)
+* [Segments](email-marketing/contacts-management/segments.md)
 {% endcolumn %}
 {% endcolumns %}
 
