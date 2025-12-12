@@ -96,7 +96,7 @@
 
 ## Account & Organization
 
-* [User Management](user-management/README.md)
+* [User Management & Organizations](user-management/README.md)
   * [Organization & Sub-Accounts](user-management/organization-and-sub-accounts.md)
   * [User Management](account-and-organization/user-management/overview.md)
   * [User Profile](user-management/user-profile.md)
