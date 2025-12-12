@@ -41,7 +41,7 @@
   * [Auto BCC](email-api-smtp/advanced/auto-bcc.md)
   * [Webhooks](email-api-smtp/webhooks.md)
 * [Help & Support](email-api-smtp/help/README.md)
-  * [Sending Glossary](email-api-smtp/help/sending-glossary.md)
+  * [Sending Glossary](email-api-smtp/help/glossary.md)
   * [FAQs](email-api-smtp/faqs.md)
   * [Troubleshooting](email-api-smtp/troubleshooting/README.md)
     * [401 Unauthorized Error](email-api-smtp/troubleshooting/unauthorized-401-error.md)
