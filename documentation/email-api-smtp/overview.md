@@ -152,10 +152,10 @@ Begin with transactional emails, then expand to bulk campaigns as needed.
 
 Mailtrap separates email traffic for optimal deliverability:
 
-| Stream                                       | Purpose               | Features                                                              |
-| -------------------------------------------- | --------------------- | --------------------------------------------------------------------- |
-| **Transactional**                            | Triggered user emails | High priority, immediate delivery                                     |
-| [**Bulk**](setup/get-started-bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management, separate suppresion list |
+| Stream                           | Purpose               | Features                                                              |
+| -------------------------------- | --------------------- | --------------------------------------------------------------------- |
+| **Transactional**                | Triggered user emails | High priority, immediate delivery                                     |
+| [**Bulk**](setup/bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management, separate suppresion list |
 
 ## Getting Started
 
@@ -176,8 +176,6 @@ Mailtrap separates email traffic for optimal deliverability:
 * [Email Templates](email-templates/)
 * [Analytics & Reports](statistics/)
 * [Deliverability Features](deliverability/)
-
-
 {% endcolumn %}
 {% endcolumns %}
 
@@ -208,31 +206,31 @@ Mailtrap separates email traffic for optimal deliverability:
 
 Need help getting started or have questions?
 
-<a href="https://api-docs.mailtrap.io/" class="button primary" data-icon="books">API Reference</a>  <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a>  <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a>  <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
+<a href="https://api-docs.mailtrap.io/" class="button primary" data-icon="books">API Reference</a> <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
 ## Next Steps
 
 {% stepper %}
 {% step %}
-#### [setup](setup/ "mention")
+[setup](setup/ "mention")
 
 _Authenticate your sending domain_
 {% endstep %}
 
 {% step %}
-#### [api-integration.md](api-integration.md "mention")
+[api-integration.md](api-integration.md "mention")
 
 _Choose integration method - API or SMTP_
 {% endstep %}
 
 {% step %}
-#### [email-templates](email-templates/ "mention")
+[email-templates](email-templates/ "mention")
 
 _Design reusable emails_
 {% endstep %}
 
 {% step %}
-#### [statistics](statistics/ "mention")
+[statistics](statistics/ "mention")
 
 _Track your email metrics_
 {% endstep %}

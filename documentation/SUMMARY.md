@@ -15,7 +15,7 @@
   * [Sending Domain Setup](email-api-smtp/sending-domain-setup.md)
   * [API Integration](email-api-smtp/api-integration.md)
   * [SMTP Integration](email-api-smtp/smtp-integration.md)
-  * [Bulk Stream](email-api-smtp/setup/get-started-bulk-stream.md)
+  * [Bulk Stream](email-api-smtp/setup/bulk-stream.md)
   * [Sending Limits](email-api-smtp/setup/sending-limits.md)
 * [Email Templates](email-api-smtp/email-templates/README.md)
   * [Editing and Customizing](email-api-smtp/email-templates/editing-and-customizing.md)
