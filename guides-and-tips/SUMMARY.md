@@ -4,16 +4,16 @@
 
 ## SDK
 
-* [PHP Integration](sdk/php-integration.md)
-* [Node.js Integration](sdk/nodejs-integration.md)
-* [Python Integration](sdk/python-integration.md)
-* [Ruby Integration](sdk/ruby-integration.md)
-* [Java Integration](sdk/java-integration.md)
-* [.NET Integration](sdk/dotnet-integration.md)
-* [Go Integration](sdk/go-integration.md)
-* [Elixir Integration](sdk/elixir-integration.md)
-* [Scala Integration](sdk/scala-integration.md)
-* [Perl Integration](sdk/perl-integration.md)
+* [PHP Integration](sdk/php.md)
+* [Node.js Integration](sdk/nodejs.md)
+* [Python Integration](sdk/python.md)
+* [Ruby Integration](sdk/ruby.md)
+* [Java Integration](sdk/java.md)
+* [.NET Integration](sdk/dotnet.md)
+* [Go Integration](sdk/go.md)
+* [Elixir Integration](sdk/elixir.md)
+* [Scala Integration](sdk/scala.md)
+* [Perl Integration](sdk/perl.md)
 
 ## Integrations
 
