@@ -113,5 +113,5 @@
   * [API Tokens](account-and-organization/privacy-and-security/api-tokens.md)
   * [Activity Log](privacy-and-security/activity-log.md)
   * [GDPR Compliance](privacy-and-security/gdpr-compliance.md)
-  * [ISO Certification](privacy-and-security/iso-certification.md)
+  * [ISO and SOC 2 Type II](privacy-and-security/security-certifications.md)
   * [Legal Policies](privacy-and-security/legal-policies.md)
