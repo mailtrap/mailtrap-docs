@@ -15,7 +15,7 @@ Every sandbox has a unique email address that can be customized (the "email per 
 * A **customizable alias, which you can edit manually**. You can use any combination of numbers and Latin symbols. For example, your company name or the name of the current sandbox with an identifying number. Sandboxes support dynamic aliased addresses. For example, mailtrap-load-test-12ab34+1@inbox.mailtrap.io and mailtrap-load-test-12ab34+2@inbox.mailtrap.io will both be accepted and delivered to the same sandbox.
 * **Technical hash, which cannot be changed**. It consists of 6 symbols and acts as our internal sandbox identifier. Using this feature, you can use an infinite number of address combinations, and can imitate sending emails to a large number of users (with unique email addresses). The sandbox name changes are applied instantly, meaning that you don't have to pause your email testing and wait until a new alias becomes valid.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-load-testing-email-address-customization.png" alt="Email address customization interface showing alias and hash components for load testing" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-load-testing-email-address-customization.png" alt="Email address customization interface showing alias and hash components for load testing" width="563"></div>
 
 {% hint style="success" %}
 _Also, note that if you try to send a message to a custom sandbox address that doesn't exist, you will get the "554 5.5.1 Error: no sandbox for this email" message._
@@ -23,7 +23,7 @@ _Also, note that if you try to send a message to a custom sandbox address that d
 
 By default, the sandbox email address is disabled for security reasons. To activate it, go to the **Email Address** tab and open the three dots menu next to the **Copy** button. Click **Enable**. In this menu, you will also find the **Edit** and **Reset Address** buttons.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-enable-email-address.png" alt="Three dots menu displaying Enable, Edit, and Reset Address options for sandbox email" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-enable-email-address.png" alt="Three dots menu displaying Enable, Edit, and Reset Address options for sandbox email" width="563"></div>
 
 ### Load testing use case
 

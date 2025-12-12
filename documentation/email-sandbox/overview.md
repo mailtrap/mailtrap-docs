@@ -265,7 +265,7 @@ Pre-configured for popular frameworks:
 * [Email Inspector](inspect-your-email-template.md)
 * [HTML Check](html-check.md)
 * [Deliverability Tests](testing/deliverability.md)
-* [Bounce Emulator](bounce-emulator.md)
+* [Bounce Emulator](testing/bounce-rate.md)
 {% endcolumn %}
 {% endcolumns %}
 
