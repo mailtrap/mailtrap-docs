@@ -215,8 +215,8 @@ Ready-to-use designs:
 **Setup & Configuration**
 
 * [Campaign Creation](copy-of-email-marketing.md)
-* [Campaign Scheduling](campaign-management/campaign-scheduling.md)
-* [Email Templates](campaign-management/email-templates.md)
+* [Campaign Scheduling](campaign-management/scheduling.md)
+* [Email Templates](email-templates.md)
 * [Automations](automations.md)
 {% endcolumn %}
 
@@ -232,7 +232,7 @@ Ready-to-use designs:
 
 ## Support & Resources
 
-* [Campaign Guide](campaign-management/)
+* [Campaign Guide](campaigns/)
 * [Audience Management](broken-reference/)
 * [Analytics Guide](broken-reference/)
 * [FAQs](faqs.md)

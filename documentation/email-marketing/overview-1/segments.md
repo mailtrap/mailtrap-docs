@@ -1,5 +1,4 @@
 ---
-title: Segments
 description: Create dynamic contact groups that automatically update based on criteria
 icon: filter
 ---

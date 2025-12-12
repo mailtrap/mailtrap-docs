@@ -260,7 +260,7 @@ WHERE campaign_id = 'YOUR_CAMPAIGN_ID';
 * [Segmentation Strategies](broken-reference/)
 * [Automation Workflows](../automations.md)
 * [Analytics Deep Dive](broken-reference/)
-* [Template Optimization](../campaign-management/email-templates.md)
+* [Template Optimization](../email-templates.md)
 
 ### Webinars & Training
 

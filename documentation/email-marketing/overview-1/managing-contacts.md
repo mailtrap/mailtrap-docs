@@ -1,5 +1,4 @@
 ---
-title: Managing Contacts
 description: Search, filter, edit, and perform bulk operations on your contact database
 icon: users-gear
 ---
