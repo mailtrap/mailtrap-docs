@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-react">:react:</i> Mailtrap Remix integration
 description: >-
   Learn how to integrate Mailtrap with Remix to send emails from your
   application using the Email API.

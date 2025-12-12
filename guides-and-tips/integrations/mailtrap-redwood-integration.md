@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-tree">:tree:</i> Mailtrap Redwood integration
 description: Learn how to send emails in Redwood applications using Mailtrap's Email API.
 ---
 

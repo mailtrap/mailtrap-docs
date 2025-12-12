@@ -1,9 +1,10 @@
 ---
-title: How to Configure Mailtrap as SMTP Relay in cPanel
-description: Configure Mailtrap Email Sending as an SMTP relay (Smarthost) in cPanel using Exim mail server configuration.
+description: >-
+  Configure Mailtrap Email Sending as an SMTP relay (Smarthost) in cPanel using
+  Exim mail server configuration.
 ---
 
-# Overview
+# cPanel SMTP Relay
 
 You can use Mailtrap Email Sending as an SMTP relay (Smarthost) in cPanel.
 

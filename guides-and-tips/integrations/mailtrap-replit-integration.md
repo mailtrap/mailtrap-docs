@@ -1,5 +1,4 @@
 ---
-title: Mailtrap and Replit Integration
 description: >-
   Set up production email sending in a Replit project using the Mailtrap Email
   API with official SDKs (Node.js or Python).

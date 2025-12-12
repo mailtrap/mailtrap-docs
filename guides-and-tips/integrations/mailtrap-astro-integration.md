@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-rocket">:rocket:</i> Mailtrap Astro integration
 description: >-
   Learn how to send emails in Astro using Mailtrap's Email API with step-by-step
   setup instructions.

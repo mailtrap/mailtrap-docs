@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-code">:code:</i> Mailtrap Deno integration
 description: Learn how to integrate Mailtrap with Deno to send emails using the Email API.
 ---
 

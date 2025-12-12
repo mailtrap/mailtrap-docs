@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-diagram-project">:diagram-project:</i> N8N Integration
 description: >-
   Seamlessly integrate Mailtrap into your N8N workflows to automate email
   sending and contact management tasks without coding.

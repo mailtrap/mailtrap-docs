@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-download">:download:</i> Mailtrap Wget integration
 description: >-
   Learn how to integrate Mailtrap with Wget to send emails via the command line
   using the Email API.

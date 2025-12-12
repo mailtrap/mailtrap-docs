@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-cloud">:cloud:</i> Mailtrap Cloudflare Workers Integration
 description: >-
   Learn how to integrate Mailtrap with Cloudflare Workers to send emails using
   the Mailtrap Email API.

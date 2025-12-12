@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-bolt">:bolt:</i> Zapier Integration
 description: >-
   Automate email sending by connecting Mailtrap to over 7,000 applications using
   Zapier without writing any code.

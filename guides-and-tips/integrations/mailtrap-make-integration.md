@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-puzzle-piece">:puzzle-piece:</i> Make.com Integration
 description: >-
   Automate email workflows by connecting Mailtrap to thousands of applications
   using Make.com (formerly Integromat) without writing any code.

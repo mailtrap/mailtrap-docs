@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-aws">:aws:</i> Mailtrap AWS Lambda Integration
 description: >-
   Learn how to integrate Mailtrap with AWS Lambda functions to send emails using
   the Mailtrap Email API.

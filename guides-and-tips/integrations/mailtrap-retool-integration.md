@@ -1,5 +1,4 @@
 ---
-title: Retool and Mailtrap Integration
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your Retool application
   to send emails via REST API.

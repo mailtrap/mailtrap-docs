@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-fire">:fire:</i> Mailtrap Hono integration
 description: Learn how to integrate Mailtrap with Hono to send emails using the Email API.
 ---
 

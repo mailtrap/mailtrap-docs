@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-flask">:flask:</i> Mailtrap Phoenix Integration
 description: Learn how to integrate Mailtrap with Phoenix applications to send emails.
 ---
 

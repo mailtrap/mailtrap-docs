@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-gem">:gem:</i> Mailtrap Sinatra Integration
 description: >-
   Learn how to integrate Mailtrap with Sinatra applications to send emails using
   the Email API.

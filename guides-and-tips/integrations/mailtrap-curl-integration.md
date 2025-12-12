@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-terminal">:terminal:</i> Mailtrap cURL Integration
 description: >-
   Send emails using cURL with Mailtrap through SMTP integration or API endpoints
   with code samples and configuration options.

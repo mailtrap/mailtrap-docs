@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-vuejs">:vuejs:</i> Mailtrap Nuxt integration
 description: Learn how to send emails in Nuxt applications using Mailtrap's Email API.
 ---
 

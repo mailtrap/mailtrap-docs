@@ -1,5 +1,4 @@
 ---
-title: <i class="fa-python">:python:</i> Mailtrap FastAPI Integration
 description: >-
   Learn how to integrate Mailtrap with FastAPI to send emails using the Email
   API.
