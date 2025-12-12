@@ -8,14 +8,14 @@
 
 * [Overview](email-api/overview.md)
 
-### Sending
+## Sending
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
     expandOperations: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -23,11 +23,11 @@
         spec: email-sending-transactional
   ```
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
     expandOperations: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -35,11 +35,11 @@
         spec: email-sending-bulk
   ```
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
     expandOperations: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -47,14 +47,14 @@
         spec: email-batch
   ```
 
-### Management
+## Management
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
     expandOperations: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -66,10 +66,10 @@
 
 * [Overview](sandbox/overview.md)
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -81,10 +81,10 @@
 
 * [Contacts API](contacts/overview.md)
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -96,10 +96,10 @@
 
 * [General API](general/overview.md)
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -110,10 +110,10 @@
 ## Webhooks
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
