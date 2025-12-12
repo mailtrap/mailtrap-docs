@@ -75,7 +75,7 @@
   * [FAQs](email-sandbox/faqs.md)
   * [Troubleshooting](email-sandbox/troubleshooting.md)
   * [Features and Limits](email-sandbox/help/features-and-limits.md)
-  * [Sandbox Glossary](email-sandbox/help/sandbox-glossary.md)
+  * [Sandbox Glossary](email-sandbox/help/glossary.md)
 
 ## Email Marketing
 
