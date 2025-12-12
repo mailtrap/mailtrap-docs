@@ -12,7 +12,7 @@
 
 * [Overview](email-api-smtp/overview.md)
 * [Setup & Configuration](email-api-smtp/setup/README.md)
-  * [Sending Domain Setup](email-api-smtp/sending-domain-setup.md)
+  * [Sending Domain Setup](email-api-smtp/setup/sending-domain.md)
   * [API Integration](email-api-smtp/api-integration.md)
   * [SMTP Integration](email-api-smtp/smtp-integration.md)
   * [Bulk Stream](email-api-smtp/setup/bulk-stream.md)

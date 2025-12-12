@@ -163,7 +163,7 @@ Mailtrap separates email traffic for optimal deliverability:
 {% column %}
 **Setup & Configuration**
 
-* [Sending Domain Setup](sending-domain-setup.md)
+* [Sending Domain Setup](setup/sending-domain.md)
 * [API Integration](api-integration.md)
 * [SMTP Integration](smtp-integration.md)
 * [IP Warmup](deliverability/ip-warmup.md)

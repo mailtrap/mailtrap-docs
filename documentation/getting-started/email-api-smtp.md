@@ -53,7 +53,7 @@ Then, add the DNS records Mailtrap provides to your domain provider.
 
 <figure><img src="../.gitbook/assets/sending-domains-dns-records-to-add.png" alt="DNS records table showing domain verification requirements" width="563"><figcaption><p>DNS records for domain verification</p></figcaption></figure>
 
-Check our [Sending Domain Setup Guide](../email-api-smtp/sending-domain-setup.md) for detailed instructions on adding and verifying your domain.
+Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}
 
 {% step %}
@@ -75,9 +75,9 @@ To send emails via Mailtrap Email API, follow the steps [in this article](../ema
 
 ### What else you can do with Mailtrap Email API/SMTP
 
-* [Set up Tracking Settings](../email-api-smtp/sending-domain-setup.md#optional-tracking-settings-ffi49)
-* [Set up Unsubscribe Settings](../email-api-smtp/sending-domain-setup.md#unsubscribe-settings-ekyqh)
-* [Set up Webhooks](../email-api-smtp/sending-domain-setup.md#optional-webhooks-4hmes)
+* [Set up Tracking Settings](../email-api-smtp/setup/sending-domain.md#optional-tracking-settings-ffi49)
+* [Set up Unsubscribe Settings](../email-api-smtp/setup/sending-domain.md#unsubscribe-settings-ekyqh)
+* [Set up Webhooks](../email-api-smtp/setup/sending-domain.md#optional-webhooks-4hmes)
 * [Set up Email Categories](../email-api-smtp/statistics/email-categories.md)
 * [Add or import Suppressions](../email-api-smtp/suppressions-list.md)
 * [Create templates](../email-api-smtp/email-templates.md)
