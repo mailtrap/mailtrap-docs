@@ -93,7 +93,7 @@ If your messages aren't appearing in your sandbox, follow these troubleshooting 
 
 {% stepper %}
 {% step %}
-**Verify your** [**SMTP integration**](setup/sandbox-smtp.md) **is correct**
+**Verify your** [**SMTP integration**](setup/sandbox-smtp-integration.md) **is correct**
 
 1. Go to your sandbox **Integration** tab
 2. Compare hostname, username, and password with those in your app
@@ -253,7 +253,7 @@ We don't store information about the server or IP address that sent messages. As
 
 #### Related articles
 
-* [How to integrate Email Sandbox with your application](setup/sandbox-smtp.md)
+* [How to integrate Email Sandbox with your application](setup/sandbox-smtp-integration.md)
 * [Features and Limits](help/features-and-limits.md)
 * [Automatic Email Forwarding](automatic-email-forwarding.md)
 * [Email Sandbox FAQs](faqs.md)

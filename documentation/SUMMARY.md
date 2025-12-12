@@ -54,8 +54,8 @@
 
 * [Overview](email-sandbox/overview.md)
 * [Setup & Configuration](email-sandbox/setup/README.md)
-  * [Sandbox SMTP](email-sandbox/setup/sandbox-smtp.md)
-  * [Sandbox API](email-sandbox/sandbox-api-integration.md)
+  * [Sandbox SMTP Integration](email-sandbox/setup/sandbox-smtp-integration.md)
+  * [Sandbox API Integration](email-sandbox/sandbox-api-integration.md)
   * [Email Address per Sandbox](email-sandbox/email-address-per-sandbox.md)
 * [Testing Features](email-sandbox/testing/README.md)
   * [Email Template Inspector](email-sandbox/inspect-your-email-template.md)

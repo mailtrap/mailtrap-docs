@@ -254,7 +254,7 @@ Pre-configured for popular frameworks:
 {% column %}
 **Setup Guides**
 
-* [Application Integration](setup/sandbox-smtp.md)
+* [Application Integration](setup/sandbox-smtp-integration.md)
 * [Sandbox API](sandbox-api-integration.md)
 * [Email Address Setup](email-address-per-sandbox.md)
 {% endcolumn %}
@@ -279,6 +279,6 @@ Pre-configured for popular frameworks:
 ## Next Steps
 
 1. [**Create your first sandbox**](setup/) - Get started in minutes
-2. [**Integrate with your app**](setup/sandbox-smtp.md) - Configure SMTP settings
+2. [**Integrate with your app**](setup/sandbox-smtp-integration.md) - Configure SMTP settings
 3. [**Test email templates**](inspect-your-email-template.md) - Validate your emails
 4. [**Share with team**](sharing-sandboxes.md) - Collaborate on testing

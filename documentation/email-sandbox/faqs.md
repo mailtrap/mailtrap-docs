@@ -16,7 +16,7 @@ This page covers frequently asked questions about Email Sandbox. For technical i
 
 The integration is very simple and you can complete it in just a couple of minutes using SMTP credentials or code samples for over 20 frameworks.
 
-**See our step-by-step guide**: [How to integrate Email Sandbox with your application](setup/sandbox-smtp.md).
+**See our step-by-step guide**: [How to integrate Email Sandbox with your application](setup/sandbox-smtp-integration.md).
 
 </details>
 
