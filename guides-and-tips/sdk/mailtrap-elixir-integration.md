@@ -77,7 +77,7 @@ end
 {% endcode %}
 
 {% hint style="info" %}
-Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+Get your API token from your Mailtrap account under **Settings → API Tokens**.
 {% endhint %}
 
 ### SMTP integration
@@ -88,7 +88,7 @@ To integrate SMTP with your Elixir app, navigate to the Integrations tab and cop
 SMTP integration is compatible with any Elixir framework or library that sends emails via SMTP.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-elixir-integration-smtp-credentials.png" alt="SMTP credentials for Elixir integration" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-elixir-integration-smtp-credentials.png" alt="" width="563"></div>
 
 Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
 
@@ -96,6 +96,6 @@ Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](http
 
 To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and API Token into the configuration file of the Elixir framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-elixir-integration-api-credentials.png" alt="API credentials for Elixir integration" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-elixir-integration-api-credentials.png" alt="" width="563"></div>
 
 Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.

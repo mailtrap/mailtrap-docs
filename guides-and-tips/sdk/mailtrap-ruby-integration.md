@@ -80,7 +80,7 @@ puts response
 {% endcode %}
 
 {% hint style="info" %}
-Get your API token from the Mailtrap dashboard under **Settings → API Tokens**.
+Get your API token from your Mailtrap account under **Settings → API Tokens**.
 {% endhint %}
 
 #### SMTP integration
@@ -91,7 +91,7 @@ To integrate SMTP with your Ruby app, navigate to the **Integrations** tab, choo
 SMTP integration is compatible with any Ruby framework or library that sends emails via SMTP.
 {% endhint %}
 
-<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-ruby-smtp-integration.png" alt="SMTP integration for Ruby"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-ruby-smtp-integration.png" alt=""></div>
 
 Read more about SMTP integration in the [Email API/SMTP - SMTP Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration) article.
 
@@ -101,6 +101,6 @@ To integrate Mailtrap using RESTful API, use the configuration available among *
 
 API integration can be used with any Ruby framework or library that supports HTTP requests. For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-ruby-api-integration.png" alt="API integration for Ruby"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-ruby-api-integration.png" alt=""></div>
 
 Read more about API integration in the [Email API/SMTP - API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) article.
