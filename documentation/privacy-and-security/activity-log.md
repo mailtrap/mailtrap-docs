@@ -1,6 +1,7 @@
 ---
 title: Activity Log
 description: Track user activities and actions in your Mailtrap account for security, transparency, and user management purposes.
+icon: clock-rotate-left
 ---
 
 # Overview
