@@ -21,6 +21,6 @@ When you delete your user, all your data is deleted. Check your [rights to be fo
 
 * **Owner** means you have the highest account access - can delete accounts, transfer ownership and manage team mates.
 * **Admin** means that you have rights to fully manage all or some account entities (projects, sandboxes). You can, for example, delete them and provide access for team mates.
-* **Viewer** access gives you read-only rights to some or all account entities. [See User Management](user-management.md) to learn more about permissions.
+* **Viewer** access gives you read-only rights to some or all account entities. [See User Management](../account-and-organization/user-management/overview.md) to learn more about permissions.
 
 Clicking gear icon near the account name will bring you to the [Account settings](https://mailtrap.io/account-management). Depending your access level, you'll be able to rename or delete an account, transfer its ownership, or leave it.

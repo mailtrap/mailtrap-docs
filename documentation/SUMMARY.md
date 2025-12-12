@@ -10,7 +10,7 @@
 
 ## Email API/SMTP
 
-* [Overview](email-api-smtp/README.md)
+* [Overview](email-api-smtp/overview.md)
 * [Setup & Configuration](email-api-smtp/setup/README.md)
   * [Sending Domain Setup](email-api-smtp/sending-domain-setup.md)
   * [API Integration](email-api-smtp/api-integration.md)
@@ -52,7 +52,7 @@
 
 ## Email Sandbox
 
-* [Overview](email-sandbox/README.md)
+* [Overview](email-sandbox/overview.md)
 * [Setup & Configuration](email-sandbox/setup/README.md)
   * [Application Integration](email-sandbox/how-to-integrate-email-sandbox-with-your-application.md)
   * [Sandbox API](email-sandbox/sandbox-api-integration.md)
@@ -79,17 +79,17 @@
 
 ## Email Marketing
 
-* [Overview](email-marketing/README.md)
+* [Overview](email-marketing/overview.md)
 * [Campaign Management](email-marketing/campaigns/README.md)
   * [Campaign Scheduling](email-marketing/campaign-scheduling.md)
   * [Email Templates](email-marketing/email-templates.md)
 * [Automations](email-marketing/automations.md)
-* [Contacts Management](email-marketing/contacts-management/overview.md)
-  * [Custom Fields](email-marketing/contacts-management/fields.md)
-  * [Uploading Contacts](email-marketing/contacts-management/uploading-contacts.md)
-  * [Managing Contacts](email-marketing/contacts-management/managing-contacts.md)
-  * [Lists](email-marketing/contacts-management/lists.md)
-  * [Segments](email-marketing/contacts-management/segments.md)
+* [Contacts Management](email-marketing/overview-1/README.md)
+  * [Custom Fields](email-marketing/overview-1/fields.md)
+  * [Uploading Contacts](email-marketing/overview-1/uploading-contacts.md)
+  * [Managing Contacts](email-marketing/overview-1/managing-contacts.md)
+  * [Lists](email-marketing/overview-1/lists.md)
+  * [Segments](email-marketing/overview-1/segments.md)
 * [Statistics](email-marketing/statistics.md)
 * [Help & Support](email-marketing/help/README.md)
   * [FAQs](email-marketing/faqs.md)
@@ -98,17 +98,17 @@
 
 * [User Management](user-management/README.md)
   * [Organization & Sub-Accounts](user-management/organization-and-sub-accounts.md)
-  * [User Management](user-management/user-management.md)
+  * [User Management](account-and-organization/user-management/overview.md)
   * [User Profile](user-management/user-profile.md)
   * [My Profile](user-management/my-profile.md)
   * [SSO Guide](user-management/sso-guide.md)
   * [Activity Log](user-management/activity-log.md)
-* [Billing & Plans](account-and-billing/README.md)
-  * [Billing Setup](account-and-billing/billing-setup.md)
-  * [Payment Issues](account-and-billing/payment-issues.md)
-  * [Payment and Billing FAQs](account-and-billing/payment-and-billing-faqs.md)
-  * [Non-Profit and Open-Source](account-and-billing/supporting-non-profit-and-open-source-projects.md)
-  * [Suspensions and Bans](account-and-billing/suspensions-and-bans.md)
+* [Billing & Plans](account-and-organization/billing/README.md)
+  * [Billing Setup](account-and-organization/billing/billing-setup.md)
+  * [Payment Issues](account-and-organization/billing/payment-issues.md)
+  * [Payment and Billing FAQs](account-and-organization/billing/payment-and-billing-faqs.md)
+  * [Non-Profit and Open-Source](account-and-organization/billing/non-profit-and-open-source.md)
+  * [Suspensions and Bans](account-and-organization/billing/suspensions-and-bans.md)
 * [Security & Privacy](privacy-and-security/README.md)
   * [Two-Factor Authentication](account-and-billing/2fa.md)
   * [API Tokens](account-and-organization/privacy-and-security/api-tokens.md)

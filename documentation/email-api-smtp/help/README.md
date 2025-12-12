@@ -84,5 +84,5 @@ Please have the following information ready:
 
 1. Review the [API integration guide](../api-integration.md)
 2. Check the [SMTP integration guide](../smtp-integration.md)
-3. Test with [Email Sandbox](../../email-sandbox/) first
+3. Test with [Email Sandbox](../../email-sandbox/overview.md) first
 4. Use our [API reference](https://api-docs.mailtrap.io/) for detailed endpoints

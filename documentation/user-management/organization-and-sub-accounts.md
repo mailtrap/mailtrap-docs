@@ -148,7 +148,7 @@ A user with organization-level permissions will always have access to all organi
 
 **2.&#x20;**_**Account-level access**_
 
-If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](user-management.md).
+If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](../account-and-organization/user-management/overview.md).
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
