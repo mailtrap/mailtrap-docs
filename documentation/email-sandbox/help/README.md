@@ -11,9 +11,9 @@ Find answers to common questions and troubleshoot issues with Email Sandbox. Our
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Frequently Asked Questions</strong></td><td><em>Browse our comprehensive FAQ section for quick answers to common questions about Email Sandbox setup, integration, testing features, and best practices.</em></td><td><a href="../faqs.md">faqs.md</a></td></tr><tr><td><strong>Troubleshooting</strong></td><td><em>Step-by-step solutions for common issues including connection problems, email capture issues, and configuration errors.</em></td><td><a href="../troubleshooting.md">troubleshooting.md</a></td></tr></tbody></table>
 
-## Common Issues & Solutions
+## Common issues & solutions
 
-### Connection Issues
+### Connection issues
 
 #### Can't connect to Sandbox SMTP
 
@@ -34,7 +34,7 @@ telnet sandbox.smtp.mailtrap.io 2525
 4. **Review email size**: Maximum 5MB including attachments
 5. **API rate limits**: Check if hitting rate limits
 
-### Configuration Problems
+### Configuration problems
 
 #### Framework integration not working
 
@@ -55,7 +55,7 @@ Solution:
 * Don't use email address as username
 * Regenerate credentials if needed
 
-### Testing Issues
+### Testing issues
 
 #### HTML not rendering correctly
 
@@ -71,23 +71,23 @@ Solution:
 * Ensure proper encoding (base64)
 * Test with different file types
 
-## Getting Help
+## Getting help
 
-### Self-Service Resources
+### Self-service resources
 
-1. **Search Documentation**: Use the search bar above
+1. **Search documentation**: Use the search bar above
 2. **Check FAQs**: [Frequently Asked Questions](../faqs.md)
-3. **Review Troubleshooting**: [Common issues](../troubleshooting.md)
-4. **API Reference**: [API Documentation](https://api-docs.mailtrap.io/)
+3. **Review troubleshooting**: [Common issues](../troubleshooting.md)
+4. **API reference**: [API Documentation](https://api-docs.mailtrap.io/)
 
-### Contact Support
+### Contact support
 
 If you can't find the answer you need:
 
 * **Email**: support@mailtrap.io
 * **Status Page**: [status.mailtrap.io](https://status.mailtrap.io)
 
-### Before Contacting Support
+### Before contacting support
 
 Please have the following information ready:
 
@@ -98,9 +98,9 @@ Please have the following information ready:
 * Framework/language you're using
 * Code snippets (if applicable)
 
-## Quick Solutions
+## Quick solutions
 
-### Email Capture Issues
+### Email capture issues
 
 | Problem            | Solution                             |
 | ------------------ | ------------------------------------ |
@@ -109,7 +109,7 @@ Please have the following information ready:
 | Missing emails     | Check inbox limits and filters       |
 | Partial content    | Verify email size < 5MB              |
 
-### API Issues
+### API issues
 
 | Error Code | Meaning      | Solution                 |
 | ---------- | ------------ | ------------------------ |
@@ -119,7 +119,7 @@ Please have the following information ready:
 | 429        | Rate limited | Implement backoff        |
 | 500        | Server error | Retry or contact support |
 
-### SMTP Errors
+### SMTP errors
 
 | Error                 | Cause               | Fix                               |
 | --------------------- | ------------------- | --------------------------------- |
@@ -128,9 +128,9 @@ Please have the following information ready:
 | Message rejected      | Size limit exceeded | Keep under 5MB                    |
 | Timeout               | Network issue       | Check firewall/proxy              |
 
-## Debugging Tools
+## Debugging tools
 
-### Connection Testing
+### Connection testing
 
 ```bash
 # Test SMTP connection
@@ -140,7 +140,7 @@ openssl s_client -connect sandbox.smtp.mailtrap.io:2525 -starttls smtp
 curl -v telnet://sandbox.smtp.mailtrap.io:2525
 ```
 
-### Email Testing
+### Email testing
 
 ```python
 # Python test script
@@ -161,9 +161,9 @@ def test_sandbox():
 test_sandbox()
 ```
 
-## Best Practices
+## Best practices
 
-### Optimal Configuration
+### Optimal configuration
 
 * Use port 2525 for best compatibility
 * Enable STARTTLS for security
@@ -171,7 +171,7 @@ test_sandbox()
 * Implement retry logic
 * Use connection pooling
 
-### Testing Strategy
+### Testing strategy
 
 * Create separate sandboxes per environment
 * Clear sandboxes regularly
@@ -179,7 +179,7 @@ test_sandbox()
 * Tag emails with test IDs
 * Automate common tests
 
-### Team Collaboration
+### Team collaboration
 
 * Share sandboxes appropriately
 * Document sandbox purposes
@@ -187,9 +187,9 @@ test_sandbox()
 * Regular permission audits
 * Communicate test schedules
 
-## Frequently Requested Features
+## Frequently requested features
 
-### Coming Soon
+### Coming soon
 
 * GraphQL API
 * Advanced search filters
@@ -197,7 +197,7 @@ test_sandbox()
 * Browser extension
 * Mobile app
 
-### Recently Added
+### Recently added
 
 * Dark mode support
 * Webhook events
@@ -205,25 +205,25 @@ test_sandbox()
 * Load testing support
 * API v2 endpoints
 
-## Community Resources
+## Community resources
 
-### Tutorials & Guides
+### Tutorials & guides
 
-* [Getting Started Video](https://www.youtube.com/watch?v=example)
-* [Blog Tutorials](https://mailtrap.io/blog/tag/sandbox/)
-* [Integration Examples](https://github.com/railsware/mailtrap-examples)
+* [Getting started video](https://www.youtube.com/watch?v=example)
+* [Blog tutorials](https://mailtrap.io/blog/tag/sandbox/)
+* [Integration examples](https://github.com/railsware/mailtrap-examples)
 
-### Developer Resources
+### Developer resources
 
-* [API Client Libraries](https://github.com/railsware)
-* [Postman Collection](https://www.postman.com/mailtrap)
-* [Code Snippets](https://mailtrap.io/blog/test-emails-in-dev/)
+* [API client libraries](https://github.com/railsware)
+* [Postman collection](https://www.postman.com/mailtrap)
+* [Code snippets](https://mailtrap.io/blog/test-emails-in-dev/)
 
-## Feedback & Suggestions
+## Feedback & suggestions
 
 We value your feedback! Help us improve Email Sandbox:
 
-* **Feature Requests**: Send ideas to feedback@mailtrap.io
-* **Bug Reports**: Include reproduction steps
+* **Feature requests**: Send ideas to feedback@mailtrap.io
+* **Bug reports**: Include reproduction steps
 * **Documentation**: Suggest improvements
 * **Community**: Join discussions on GitHub
