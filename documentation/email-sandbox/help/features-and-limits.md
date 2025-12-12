@@ -30,11 +30,11 @@ Mailtrap users who you can interact with by inviting them to your account and sh
 
 ### Max emails per sandbox
 
-The total number of emails you can store in each of your sandboxes at once. The exact number depends on your billing plan.When the limit is reached, Mailtrap uses the FIFO model for automatic sandbox cleanup (oldest messages first).
+The total number of emails you can store in each of your sandboxes at once. The exact number depends on your billing plan. When the limit is reached, Mailtrap uses the FIFO model for automatic sandbox cleanup (oldest messages first).
 
 ### Sandbox API
 
-Sandbox API allows developers to run integration or load tests, as well as receive messages or email lists via API . To learn how to use the Email Sandbox API, refer to the [Email Sandbox API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-sandbox-api).
+Sandbox API allows developers to run integration or load tests, as well as receive messages or email lists via API. To learn how to use the Email Sandbox API, refer to the [Email Sandbox API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-sandbox-api).
 
 ### Email address per sandbox
 
