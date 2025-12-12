@@ -75,7 +75,7 @@ Yes, Mailtrap has a free plan. You can send up to 3,500 emails or test 50 emails
 
 ### Do you have any ongoing promotions?
 
-We don't currently have any ongoing promotions, but we do have discounts for non-profits and educational institutions. [See below](payment-and-billing-faqs.md#do-you-offer-discounts-for-nonprofit-open-source-organizations) for more information.
+We don't currently have any ongoing promotions, but we do have discounts for non-profits and educational institutions. [See below](faqs.md#do-you-offer-discounts-for-nonprofit-open-source-organizations) for more information.
 
 Additionally, you can get 20% off if you opt for an annual subscription.
 
@@ -105,7 +105,7 @@ To view your invoices, go to Billing → Dashboard and scroll down to Payment Hi
 
 <div align="left"><img src="../../.gitbook/assets/billing-payment-history-get-invoice.png" alt="Mailtrap Payment History section showing list of transactions with Get Invoice buttons" width="563"></div>
 
-Invoice notifications are sent by email after each payment. [See below](payment-and-billing-faqs.md#how-can-i-get-an-invoice) for more information.
+Invoice notifications are sent by email after each payment. [See below](faqs.md#how-can-i-get-an-invoice) for more information.
 
 ### How can I get an invoice?
 
