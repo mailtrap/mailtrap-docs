@@ -10,18 +10,18 @@ icon: handshake-simple
 
 The best practice is to create separate sandboxes for different environments: development, test, or staging. Each sandbox is defined by SMTP credentials (your username and password). If necessary, you can reset them at any time.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-credentials.png" alt="Sandbox settings showing SMTP credentials and reset options" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-credentials.png" alt="" width="563"></div>
 
 ### How to share your sandboxes with others
 
-For effortless collaboration with your colleagues or customers, you can share data of your choice with them: separate sandboxes or whole projects (to learn how to share projects, check this article - [Sharing projects](sharing-projects.md)).
+For effortless collaboration with your colleagues or customers, you can share data of your choice with them: separate sandboxes or whole projects. To learn how to share projects, read our [dedicated article](sharing-projects.md).
 
 There are two ways to share your sandbox:
 
 1. Invite users directly to sandbox
 2. Share sandbox via User Management
 
-To share an sandbox, you need to be one of the following:
+To share a sandbox, you need to be one of the following:
 
 1. Sandbox, project, or account admin
 2. Account owner

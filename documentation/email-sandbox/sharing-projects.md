@@ -1,6 +1,6 @@
 ---
 title: Sharing projects
-description: Organize and share projects to collaborate with team members on email testing
+description: Organize and share projects to collaborate with team members on email testing.
 icon: folder-open
 ---
 
@@ -8,19 +8,25 @@ icon: folder-open
 
 ### How to organize projects
 
-All incoming emails in Sandbox are organized into sandboxes - the folders that are grouped into projects. Usually, projects are used to separate companies, environments, or (surprisingly) projects.
+All incoming emails in Sandbox are organized into sandboxes, the folders that are grouped into projects. Usually, projects are used to separate companies, environments, or (surprisingly) projects.
 
 ### How to share your projects
 
 Sharing options are available starting from the Team plan.
 
-You can share any of the projects in your account. Users that receive access to your project also receive access to all of its sandboxes and can manage or view their content. To learn how to share a specific sandbox, check the [Sharing sandboxes](sharing-sandboxes.md) article.
+You can share any of the projects in your account. Users that receive access to your project also receive access to all of its sandboxes and can manage or view their content. To learn how to share a specific sandbox, check out the [Sharing sandboxes](sharing-sandboxes.md) article.
 
-To share a project including all of its sandboxes, you have three options - use the three vertical dots next to My Project under Sandboxes. Also, you can share a link from Project Team Members, or utilize the User Management feature.
+To share a project including all of its sandboxes, you have three options:&#x20;
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-menu.png" alt="Three dots menu next to project showing sharing options" width="563"></div>
+* Use the three vertical dots next to My Project under Sandboxes
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-team-members.png" alt="Project Team Members dialog for adding and managing project collaborators" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-menu.png" alt="" width="563"></div>
+
+* Share a link from Project Team Members
+
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-team-members.png" alt="" width="563"></div>
+
+* Utilize the User Management feature
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-projects-user-management.png" alt="" width="375"></div>
 
@@ -29,7 +35,7 @@ It doesn't matter which option you choose. New users will be visible in the Sand
 * Project or account admin
 * Account owner
 
-### Important Notes
+### Important notes
 
 The User Management section is visible to Account Admins and the Account owner.
 
