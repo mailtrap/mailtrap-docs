@@ -9,8 +9,8 @@ icon: users-rectangle
 
 # User Management
 
-* **Account Owner** is a person who has registered an account or to whom [it has been transferred](../../user-management/my-profile.md). Account Owner can rename an account, delete it, transfer ownership, manage all projects and sandboxes, and add/edit/invite team members. Nobody can alter the permissions of an Account Owner.
-  * **Note**: If the [Organization & Sub-Accounts](../../user-management/organization-and-sub-accounts.md) feature is enabled, this role will be called **Organization Owner**.
+* **Account Owner** is a person who has registered an account or to whom [it has been transferred](my-profile.md). Account Owner can rename an account, delete it, transfer ownership, manage all projects and sandboxes, and add/edit/invite team members. Nobody can alter the permissions of an Account Owner.
+  * **Note**: If the [Organization & Sub-Accounts](organization-and-sub-accounts.md) feature is enabled, this role will be called **Organization Owner**.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 

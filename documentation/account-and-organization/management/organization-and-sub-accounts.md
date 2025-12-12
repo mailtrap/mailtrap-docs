@@ -59,25 +59,25 @@ Use Organization & Sub‑accounts to:
 {% step %}
 Go to the left-side menu and select **Organization**. This will open the **Organization** panel.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Click **Sub-accounts** menu item and **Create Sub-Account** button.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Enter the sub-account name and click **Create**.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 You will be automatically redirected to the new account settings page, where you can manage other account settings.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -91,7 +91,7 @@ Sub‑accounts can be created through the user interface or through the API as w
 
 Switch between your organizations and sub‑accounts from the left-side menu anytime.
 
-<div align="center"><figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Migrating an already existing account
 
@@ -148,9 +148,9 @@ A user with organization-level permissions will always have access to all organi
 
 **2.&#x20;**_**Account-level access**_
 
-If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](../account-and-organization/user-management/overview.md).
+If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](users.md).
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
@@ -170,7 +170,7 @@ All users with Organization-level access also have access to your account, and t
 
 If you are an Organization Owner or Organization Admin, you can edit organization-level users (e.g., invite, remove, or change roles). If you don't have admin rights, you will still see the full list of org-level users, but only in view-only mode.
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 ### API tokens
 

@@ -96,12 +96,12 @@
 
 ## Account & Organization
 
-* [User Management & Organizations](user-management/README.md)
-  * [Organization & Sub-Accounts](user-management/organization-and-sub-accounts.md)
-  * [User Management](account-and-organization/user-management/overview.md)
-  * [User Profile](user-management/user-profile.md)
-  * [My Profile](user-management/my-profile.md)
-  * [SSO Guide](user-management/sso-guide.md)
+* [User Management & Organizations](account-and-organization/management/README.md)
+  * [Organization & Sub-Accounts](account-and-organization/management/organization-and-sub-accounts.md)
+  * [User Management](account-and-organization/management/users.md)
+  * [User Profile](account-and-organization/management/user-profile.md)
+  * [My Profile](account-and-organization/management/my-profile.md)
+  * [SSO Guide](account-and-organization/management/sso-guide.md)
 * [Billing & Plans](account-and-organization/billing/README.md)
   * [Billing Setup](account-and-organization/billing/billing-setup.md)
   * [Payment Issues](account-and-organization/billing/payment-issues.md)
