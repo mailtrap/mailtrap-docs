@@ -72,8 +72,8 @@ Discover the full range of features and capabilities across our email platform.
 {% column width="33%" %}
 <i class="fa-spider-black-widow">:spider-black-widow:</i> **Email Sandbox**
 
-* [Email Template Inspector](email-sandbox/inspect-your-email-template.md)
-* [HTML Check](email-sandbox/html-check.md)
+* [Email Template Inspector](email-sandbox/testing/email-template.md)
+* [HTML Check](email-sandbox/testing/html.md)
 * [Deliverability Tests](email-sandbox/deliverability-tests.md)
 * [Sandbox API](email-sandbox/sandbox-api-integration.md)
 * [Team Collaboration](email-sandbox/sharing-sandboxes.md)

@@ -12,13 +12,13 @@ icon: square-check
 
 The report is available in the **HTML Check** tab:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-report.png" alt="HTML Check tab displaying market support score and problematic HTML elements" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-report.png" alt="HTML Check tab displaying market support score and problematic HTML elements" width="563"></div>
 
 The higher your market support score, the better for your email!
 
 ### Understanding the Market Support score
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-market-support-score.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-market-support-score.png" alt="" width="375"></div>
 
 Each HTML email template consists of dozens, if not hundreds, of HTML/CSS rules. The support for them varies across email clients and even across versions of particular clients. It's not uncommon that, for example, Apple Mail supports a rule for iOS 11.0+ (but doesn't for an older version) and only has partial support for the macOS app.
 
@@ -42,7 +42,7 @@ For example, if you were to select only Apple Mail and Yahoo! Mail but unchecked
 
 As usual, the weight on the Market Support result is proportional to the popularity of each client.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-filtering-options.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-filtering-options.png" alt="" width="375"></div>
 
 Filtering is particularly beneficial if you know that the vast majority of your users are, for example, on mobile or use only Outlook to view your emails. You can get a more focused market support result this way.
 
@@ -52,7 +52,7 @@ Note that at least one category (Web/Mobile/Desktop) and at least one email clie
 
 You may also view the support for the entire family of popular email clients, such as Gmail (iOS, Android apps, desktop, mobile webmail, etc.). Simply hover over the respective name, and the green (fully supported), orange (partially supported), and red (not supported) numbers will appear.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-email-client-support.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-email-client-support.png" alt="" width="375"></div>
 
 To understand how these are calculated, let's look at an example. We want to view the results for Gmail only, which across all three categories has ten different versions of its email client (as an example). Our email has three HTML/CSS rules:
 
@@ -80,7 +80,7 @@ We collect the data on support for particular rules from [Caniemail.com](https:/
 
 Almost always, at least a few errors will appear. These will look as follows:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-element-errors.png" alt="List of problematic HTML elements with line numbers and client support issues" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-element-errors.png" alt="List of problematic HTML elements with line numbers and client support issues" width="563"></div>
 
 Each will display:
 
@@ -91,11 +91,11 @@ Each will display:
 
 To the right of each element, you can see the numbers (\[1], \[2], etc.). Click on any of them, and the "show more" section will expand, explaining what the issue is and which client/version it applies to.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-element-details.png" alt="Expanded element details showing specific client version compatibility information" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-element-details.png" alt="Expanded element details showing specific client version compatibility information" width="563"></div>
 
 Clicking on the line number will take you to the **HTML Source** tab where you can view your email's entire HTML.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-html-check-source-view.png" alt="HTML Source tab displaying full email HTML code with highlighted problematic lines" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-html-check-source-view.png" alt="HTML Source tab displaying full email HTML code with highlighted problematic lines" width="563"></div>
 
 This also demonstrates the alternative way of using HTML Check. You can use the **HTML Source** tab from the start and inspect the code, line by line. Each problematic line will be highlighted with an orange or a red circle, with an exclamation mark inside of it.
 
