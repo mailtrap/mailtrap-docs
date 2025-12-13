@@ -13,69 +13,47 @@ This guide walks you through configuring SAML-based Single Sign-On (SSO) between
 
 ## Configure Single Sign-On with Azure
 
-### Create Enterprise Application
+### Create an Enterprise application
 
 {% stepper %}
 {% step %}
-**Open Enterprise Applications**
-
 Open your Azure Active Directory and select **Enterprise applications**
+{% endstep %}
+
+{% step %}
+Add a new application by clicking the **+ New application** button
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-1.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Add New Application**
+Choose **+ Create your own application**, enter the name of the application (e.g., "Mailtrap"), and select **Integrate any other application you don't find in the gallery (Non-gallery)**
 
-Add new application by clicking the **+ New application** button
-{% endstep %}
-
-{% step %}
-**Create Custom Application**
-
-Choose **+ Create your own application**
-{% endstep %}
-
-{% step %}
-**Name Your Application**
-
-Enter the name of the application (e.g., "Mailtrap")
-{% endstep %}
-
-{% step %}
-**Select Non-Gallery Integration**
-
-Select **Integrate any other application you don't find in the gallery (Non-gallery)**
-
-<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-2.png" alt="Azure Browse gallery showing create your own application dialog with Mailtrap name and non-gallery option selected" width="563"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-2.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
-### Set Up Single Sign-On
+### Set up Single Sign-On
 
 After the application has been created, you can set up single sign-on:
 
 {% stepper %}
 {% step %}
-**Choose Set Up Single Sign-On**
-
 Choose **Set up single sign-on** in the **Getting Started** section
 
-<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-3.png" alt="Mailtrap application overview page in Azure showing Set up single sign-on option in Getting Started section"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-3.png" alt=""></div>
 {% endstep %}
 
 {% step %}
-**Select SAML Mode**
-
 For **Single Sign-on** mode, select **SAML** based Sign-on
 
-<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-4.png" alt="Azure single sign-on method selection page with SAML option highlighted"></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-4.png" alt=""></div>
 
 Follow the steps on the SSO with SAML screen. Azure AD has a detailed [configuration guide](https://docs.microsoft.com/en-gb/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications) at the top of the page for further guidance.
 {% endstep %}
 {% endstepper %}
 
-### Basic SAML Configuration
+### Basic SAML configuration
 
 Click edit in the dropdown menu and provide the following SAML Provider details to your Azure from Mailtrap:
 
@@ -85,11 +63,11 @@ Click edit in the dropdown menu and provide the following SAML Provider details 
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-5.png" alt="" width="563"></div>
 
-### User Attributes and Claims
+### User attributes and claims
 
 In the User Identifier field, enter **user.mail**.
 
-### SAML Signing Certificate
+### SAML signing certificate
 
 {% stepper %}
 {% step %}
@@ -115,7 +93,7 @@ Paste the certificate content into the Mailtrap **X509 Certificate** field
 {% endstep %}
 {% endstepper %}
 
-### Identity Provider Details
+### Identity provider details
 
 Provide the following to Mailtrap from Azure:
 
@@ -133,20 +111,14 @@ With SAML configuration complete, you need to add users or groups to your applic
 
 {% stepper %}
 {% step %}
-**Navigate to Users and Groups**
-
 Click **Users and groups** on the left sidebar
 {% endstep %}
 
 {% step %}
-**Add Users**
-
 Click on **+ Add User → Users and Groups**
 {% endstep %}
 
 {% step %}
-**Select Users**
-
 Select all users you want to add to the application and click **Select**
 {% endstep %}
 {% endstepper %}
@@ -155,42 +127,34 @@ Select all users you want to add to the application and click **Select**
 
 By default, we create users with no permissions. If you want the user to be automatically assigned to Account Admin or Account Viewer role, you need to set up the role mapping.
 
-### Configure Role Mapping in Mailtrap
+### Configure role mapping in Mailtrap
 
 In the following example, we assign the roles depending on the **title** attribute value:
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-8.png" alt="" width="375"></div>
 
-### Configure Attributes in Azure
+### Configure attributes in Azure
 
 {% stepper %}
 {% step %}
-**Navigate to Attributes & Claims**
-
 Navigate to **Attributes & Claims**
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-9.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Add New Claim**
-
 Click **Add new claim**
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-10.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Configure Title Claim**
-
 Add the **title** claim with the appropriate source attribute (e.g., **user.jobtitle**)
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/setup-sso-with-azure-11.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Save Configuration**
-
 Click **Save**
 {% endstep %}
 {% endstepper %}
