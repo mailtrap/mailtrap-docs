@@ -23,7 +23,7 @@ layout:
 
 Complete guide to setting up and configuring Mailtrap Email API/SMTP for your application. Follow these steps to start sending emails in production.
 
-### Quick Start Checklist
+### Quick start checklist
 
 Get up and running with this essential setup checklist:
 
@@ -31,15 +31,15 @@ Get up and running with this essential setup checklist:
 * [ ] Verify your sending domain
 * [ ] Choose integration method (API or SMTP)
 * [ ] Configure authentication
-* [ ] Send test email
+* [ ] Send your first email
 
-### Configuration Steps
+### Configuration steps
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sending Domain Setup</strong><br><br>The foundation of email delivery. Verify your domain ownership and configure authentication records (SPF, DKIM, DMARC) for optimal deliverability.</td><td><a href="sending-domain.md">sending-domain.md</a></td></tr><tr><td><strong>API Integration</strong><br><br>Modern RESTful API for programmatic email sending. Best for new applications and microservices architecture.</td><td><a href="../api-integration.md">api-integration.md</a></td></tr><tr><td><strong>SMTP Integration</strong><br><br>Traditional SMTP protocol for universal compatibility. Works with any email library or legacy system.</td><td><a href="../smtp-integration.md">smtp-integration.md</a></td></tr><tr><td><strong>Dedicated IP</strong><br><br>Gradually build your sending reputation. Essential for high-volume senders and dedicated IPs.</td><td><a href="../deliverability/ip-warmup.md">ip-warmup.md</a></td></tr></tbody></table>
 
-### Choose Your Integration Method
+### Choose your integration method
 
-#### When to Use API
+#### When to use API
 
 **Best for:**
 
@@ -71,7 +71,7 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
   }'
 ```
 
-#### When to Use SMTP
+#### When to use SMTP
 
 **Best for:**
 
