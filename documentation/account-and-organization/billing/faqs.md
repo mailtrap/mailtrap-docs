@@ -21,32 +21,30 @@ When you exhaust your Email API/SMTP plan's monthly sending volume, any addition
 
 The overage limit is the same as the sending volume. For example, if your plan includes 10K emails/month, you'll be able to send 10K emails as overage.
 
-The overage bill is calculated and added to your invoice separately. For example, if you have a Basic 10K plan and you sent 12K emails during the month, your invoice will include:
+The overage bill is calculated and added to your invoice separately. For example, if you have a Basic 10K plan and you've sent 12K emails during the month, your invoice will include:
 
 * Basic 10K plan price;
 * Overage price for 2K additional emails.
 
-The price for every additional 1,000 emails varies depending on the plan. You can check detailed information on [our pricing page](https://mailtrap.io/pricing/).
+The price for every additional 1,000 emails varies depending on the plan. You can check detailed information on our [pricing page](https://mailtrap.io/pricing/).
 
 You'll get notified as you use 80%, 90%, and 100% of your overage limit. Once your overage limit is used up, further emails will be rejected.
 
 ### How is the overage calculated if I upgrade?
 
-When you upgrade, you're billed the prorated amount including the used overage (if any). If you have any overage on the newly upgraded plan before the next billing date, it is counted afresh according to your new plan's limits. The billing date remains the same.
+When you upgrade, you're billed the prorated amount, including the used overage (if any). If you have any overage on the newly upgraded plan before the next billing date, it is counted afresh according to your new plan's limits. The billing date remains the same.
 
 Let's take a look at an example:
 
-Say, your regular billing date is the 10th of the month. Your current billing cycle is July 10th - August 10th.
+* Say, your regular billing date is the 10th of the month. Your current billing cycle is July 10th —  August 10th.&#x20;
+* You switched from the Basic 10K plan to the Business 100K plan on August 1st. By August 1st, you had sent 12K emails (10K as part of your plan and 2K as overage). Then, you sent 110K emails from August 1st to August 10th.
 
-You switched from the Basic 10K plan to the Business 100K plan on August 1st. By August 1st, you had sent 12K emails (10K as part of your plan and 2K as overage). Then, you sent 110K emails from August 1st to August 10th.
+The following would have happened:
 
-The following happened:
+* When you upgraded to the Business 100K plan on August 1, you didn't buy a new package of emails. Instead, you purchased the difference (and paid the difference).
+* So, in our example, you purchased Business 100K - Basic 10K - 2K overage = 88K emails for the period of August 1st to August 10th.
 
-When you upgraded to the Business 100K plan on August 1, you didn't buy a new package of emails. Instead, you purchased the difference (and paid the difference).
-
-So, in our example, you purchased Business 100K - Basic 10K - 2K overage = 88K emails for the period of August 1st to August 10th.
-
-As a result, during the upgrade, you will be billed the pro-rated amount that includes
+As a result, during the upgrade, you would have been billed the pro-rated amount that includes
 
 * Unused time on the Basic 10K plan (between July 10th and August 1st), which will be deducted from the bill;
 * The remaining time on the Business 100K plan (between August 1st and August 10th), which will be added to the bill.
@@ -71,11 +69,11 @@ However, you can use a bank transfer for annual subscriptions. Please, [contact 
 
 ### Does Mailtrap have a free plan?
 
-Yes, Mailtrap has a free plan. You can send up to 3,500 emails or test 50 emails per month for free.
+Yes, Mailtrap has a free plan. You can send up to 4,000 emails or test 50 emails per month for free.
 
 ### Do you have any ongoing promotions?
 
-We don't currently have any ongoing promotions, but we do have discounts for non-profits and educational institutions. [See below](faqs.md#do-you-offer-discounts-for-nonprofit-open-source-organizations) for more information.
+We don't have any ongoing promotions currently, but we do have discounts for non-profits and educational institutions.
 
 Additionally, you can get 20% off if you opt for an annual subscription.
 
@@ -87,13 +85,13 @@ For us to activate a non-profit plan for you, please send us a document (a W-9 f
 
 ### Do you offer a yearly subscription?
 
-Yes, we do. You can get a 20% discount if you opt for an annual subscription. The price is available on our Pricing page.
+Yes, we do. You can get a 20% discount if you opt for an annual subscription. The price is available on our [pricing page](https://mailtrap.io/pricing/).
 
 ### How do I change my plan?
 
 The account owner, account admin, or billing owner can make changes to the plan.
 
-In your [Dashboard under Billing](https://mailtrap.io/billing/dashboard), you can view your current plans and upgrade to the needed plan by clicking the Upgrade button.
+In your [account under Billing](https://mailtrap.io/billing/dashboard), you can view your current plans and upgrade to the needed plan by clicking the Upgrade button.
 
 ### When will I be charged for the change to the subscription plan?
 
@@ -101,11 +99,11 @@ If you upgrade to a higher plan, we create a prorated transaction based on the p
 
 ### How do I view my invoices?
 
-To view your invoices, go to Billing → Dashboard and scroll down to Payment History. Next to each payment, you'll see the Get Invoice button that will open your invoice.
+To view your invoices, go to **Organization** → **Billing** and scroll down to **Payment History**. Next to each payment, you'll see the **Get invoice** button that will open your invoice.
 
-<div align="left"><img src="../../.gitbook/assets/billing-payment-history-get-invoice.png" alt="Mailtrap Payment History section showing list of transactions with Get Invoice buttons" width="563"></div>
+<div align="left"><img src="../../.gitbook/assets/billing-payment-history-get-invoice.png" alt="" width="563"></div>
 
-Invoice notifications are sent by email after each payment. [See below](faqs.md#how-can-i-get-an-invoice) for more information.
+Invoice notifications are sent by email after each payment.
 
 ### How can I get an invoice?
 
@@ -117,11 +115,11 @@ If the financial email address is not set up, you will receive invoices and bill
 
 Your invoice will include all your subscriptions and the overage. The overage amount will be $0.00 if you didn't send any emails outside your plan limits.
 
-<div align="left"><img src="../../.gitbook/assets/billing-invoice-subscriptions-overage.png" alt="Invoice showing subscription plan details and overage charges section" width="563"></div>
+<div align="left"><img src="../../.gitbook/assets/billing-invoice-subscriptions-overage.png" alt="" width="563"></div>
 
 You will also see your invoice number, receipt number, payment date, and payment method, as well as Railsware business address (Mailtrap is a product owned by Railsware Products Studio LLC) and EIN number.
 
-<div align="left"><img src="../../.gitbook/assets/billing-invoice-details.png" alt="Invoice header showing invoice number, receipt number, payment date, and company information" width="563"></div>
+<div align="left"><img src="../../.gitbook/assets/billing-invoice-details.png" alt="" width="563"></div>
 
 ### Can you change the details in my invoice?
 
@@ -137,7 +135,7 @@ However, if your billing flow requires it, feel free to send your purchase order
 
 For security reasons, we can't migrate payment credentials and billing plans between accounts. However, you can do the following to transfer your account (with its billing details) to a different owner:
 
-* Change your account email address in the [User Settings](https://mailtrap.io/settings/) of your Profile page;
+* Change your account email address in the [User Settings](https://mailtrap.io/profile-settings) of your Profile page;
 * Transfer your account ownership in the [Transfer Ownership](https://mailtrap.io/account-management?current_tab=transfer_ownership) tab of your account settings.
 
 ### Can I cancel my subscription at any time?
@@ -156,7 +154,7 @@ Your subscription will be switched to the free plan at the end of the billing cy
 
 Open Email Sandbox plans under Billing. At the bottom of the page, find _Want to cancel your subscription? Please, click here_. Press click here.
 
-<div align="left"><img src="../../.gitbook/assets/billing-cancel-sandbox-subscription.png" alt="Email Sandbox billing page with cancel subscription link highlighted at bottom" width="563"></div>
+<div align="left"><img src="../../.gitbook/assets/billing-cancel-sandbox-subscription.png" alt="" width="563"></div>
 
 Select the reason for downgrading and click Change Plan. The date of downgrade will be indicated on the same screen. Until then, you can keep the benefits of the current plan.
 
