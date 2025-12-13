@@ -29,7 +29,7 @@ Only the Account Owner has access to enable/disable SAML on an account.
 
 To enable the SAML configuration for the Mailtrap account - go to **Settings** > **Account settings** > **SSO** or [open the SSO tab](https://mailtrap.io/account-management?current_tab=sso) and add/edit the SAML configuration.
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-1.png" alt="SSO domains table showing active and pending domains with TXT record verification" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-1.png" alt="SSO domains table showing active and pending domains with TXT record verification" width="563"><figcaption></figcaption></figure></div>
 
 {% stepper %}
 {% step %}
@@ -47,11 +47,11 @@ To enable the SAML configuration for the Mailtrap account - go to **Settings** >
 
 * Choose whether you want to enforce SSO sign-in for users provisioned by SSO. When enabled, users whose sign-in is provisioned by SSO won't be able to sign in using any method except SSO.
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-2.png" alt="SSO enforcement toggle enabled for designated SSO-active domains highlighted" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-2.png" alt="SSO enforcement toggle enabled for designated SSO-active domains highlighted" width="563"><figcaption></figcaption></figure></div>
 
 * Choose whether you want to create a separate free account for users provisioned by SSO. When enabled, new users won't get a separate account. When disabled, each new user will also get a separate account in addition to the one they get via SSO. Applies to newly provisioned users only.
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-3.png" alt="Toggle enabled to prevent creating separate Free accounts for SSO users" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-3.png" alt="Toggle enabled to prevent creating separate Free accounts for SSO users" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -78,7 +78,7 @@ To enable the SAML configuration for the Mailtrap account - go to **Settings** >
 {% step %}
 **Role mapping**
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-4.png" alt="SAML Role Mapping table with Admin and Viewer role attribute configurations" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-4.png" alt="SAML Role Mapping table with Admin and Viewer role attribute configurations" width="375"><figcaption></figcaption></figure></div>
 
 By default, users created in Mailtrap via SSO have roles with empty permission, so users cannot View or Edit any projects or sandboxes. In this case, you can assign permissions manually within Mailtrap User Management.
 
