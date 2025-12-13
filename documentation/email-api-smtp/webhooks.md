@@ -53,52 +53,71 @@ To find out more about the sending event specifics, check the [Statuses and Even
 
 ## How to set up webhooks
 
-* Navigate to **Settings** → **Webhooks** and click the **Create New Webhook** button.
+{% stepper %}
+{% step %}
+Navigate to **Settings** → **Webhooks** and click the **Create New Webhook** button.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-1.png" alt="" width="563"></div>
+{% endstep %}
 
-* Enter a valid **Webhook URL**. Use a password and username as an extra security layer with basic authorization to prevent others from sending information to that endpoint. You can also use a token as a query parameter.
+{% step %}
+Enter a valid **Webhook URL**. Use a password and username as an extra security layer with basic authorization to prevent others from sending information to that endpoint. You can also use a token as a query parameter.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-2.png" alt="" width="375"></div>
+{% endstep %}
 
-* Choose the **Payload format** (JSON or JSON Lines).
+{% step %}
+Choose the **Payload format** (JSON or JSON Lines).
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-3.png" alt="" width="375"></div>
+{% endstep %}
 
-* Select the webhooks area (Activity Log or Email Sending).
+{% step %}
+Select the webhooks area (**Activity Log** or **Email Sending**).
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-4.png" alt="" width="375"></div>
+{% endstep %}
+{% endstepper %}
 
 **If you choose Activity Log**, you will receive events related to all activities within your account that are supported by the Activity Log.
 
 **If you choose Email Sending**, you'll also need to:
 
-* Choose the **Sending Stream** (Transactional or Bulk) for which you want to set up the webhooks.
+{% stepper %}
+{% step %}
+Choose the **Sending Stream** (Transactional or Bulk) for which you want to set up the webhooks.
 
 {% hint style="info" %}
-**Transactional Stream** is used to send non-promotional, triggered emails to one recipient at a time, while **Bulk Stream** is used to send promotional emails to multiple recipients at once.
+**Transactional Stream** is used to send user-triggered emails to one recipient at a time, while **Bulk Stream** is used to send promotional emails to multiple recipients at once.
 {% endhint %}
+{% endstep %}
 
-* Choose the **domain** you want to receive events' data for
-* Select one or more [event types](statuses-and-events.md) by ticking the corresponding checkbox.
+{% step %}
+Choose the **domain** you want to receive events' data for and select one or more [event types](statuses-and-events.md) by ticking the corresponding checkbox.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-5.png" alt="" width="375"></div>
+<div align="center" data-with-frame="true"><img src="../.gitbook/assets/webhooks-5.png" alt="" width="375"></div>
+{% endstep %}
 
-* Click the **Run Test** button to test the webhook setup. The code represents a dummy payload of the webhook structure and how to read it correctly. If your endpoint responds with a 200 code, you'll see a confirmation in the app. All other response codes show an error during a test.
+{% step %}
+Click the **Run Test** button to test the webhook setup. The code represents a dummy payload of the webhook structure and how to read it correctly. If your endpoint responds with a 200 code, you'll see a confirmation in the app. All other response codes show an error during a test.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-6.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 One popular way to test webhooks outside your system is [Webhook.site](https://webhook.site/#!/view/d24cebd2-99cc-46f3-8685-c779017f39a0), but don't use it for production.
 {% endhint %}
+{% endstep %}
 
-* If the tests are successful, click the **Save** button. All information will be sent to your webhook endpoint.
+{% step %}
+If the tests are successful, click the **Save** button. All information will be sent to your webhook endpoint.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-7.png" alt="Webhook configuration page with Save and Cancel buttons at the bottom" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-7.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 To edit, pause, or delete an active webhook, go back to the Webhooks tab and select the webhook you want to change.
 {% endhint %}
+{% endstep %}
+{% endstepper %}
 
 ## Activity log event structure
 
@@ -130,7 +149,7 @@ If your endpoint is down and doesn't respond with 200 OK, we'll retry multiple t
 
 ### Batches
 
-Webhooks are sent in batches—the information we send can be grouped within one object (a **JSON array**).
+Webhooks are sent in batches — the information we send can be grouped within one object (a **JSON array**).
 
 For example, Mailtrap groups up to 500 events and sends them as a batch. The benefit is that we don't need to make 500 requests to your endpoint, and there's less load on your side. This is very beneficial for high-volume senders.
 
