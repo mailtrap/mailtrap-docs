@@ -59,11 +59,11 @@ Click Add New Record.
 
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Namecheap. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-mailtrap-dns-records.png" alt="Mailtrap domain verification page showing required DNS records" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-mailtrap-dns-records.png" alt="" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in Namecheap. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and one TXT type record (DMARC).
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in Namecheap. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **two TXT type records** (SPF and DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/namecheap-dns-types-categories.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption><p>DNS Types and Categories in Mailtrap</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/namecheap-dns-types-categories.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -71,54 +71,42 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% endstep %}
 
 {% step %}
-**Copy DNS record values from Mailtrap**
+Copy the **Name** and **Value** for each record one by one. You can do this by hovering and clicking each record.
 
-Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-dns-records-copy.png" alt="Copying DNS record values from Mailtrap" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-dns-records-copy.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Paste values into Namecheap**
+And paste the values into Namecheap. Remember that Namecheap refers to the **Name** **field** as **Host**.
 
-And paste them into Namecheap. Remember that Namecheap refers to the Name field as Host.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-paste-host-value.png" alt="Namecheap DNS record form showing Host and Value fields" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-paste-host-value.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Set TTL**
+Use the **default** value for TTL.
 
-Use the default value for TTL.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-ttl-default.png" alt="Namecheap TTL field with default value" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-ttl-default.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Add all DNS records**
+Repeat the process of copying, pasting, and clicking **Add New Record** for each record until you've added all the Mailtrap DNS records to Namecheap. Click **Save All Changes**.
 
-Repeat the process of copying, pasting, and clicking Add New Record for each record until you've added all the Mailtrap DNS records to Namecheap. Click Save All Changes.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-save-all-changes.png" alt="Namecheap Save All Changes button" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-save-all-changes.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Verify DNS records in Mailtrap**
+Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-recheck-dns-records.png" alt="Mailtrap Re-check DNS Records button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-recheck-dns-records.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Confirm verification status**
+If you add all the required DNS records correctly, the Status of DNS records will change from **Missing** to **Verified**, and the red dots will turn green.
 
-If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-verified-dns-records.png" alt="Mailtrap showing all DNS records verified with green status indicators" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-verified-dns-records.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
 {% hint style="info" %}
-If you have additional questions, [consult Namecheap documentation](https://www.namecheap.com/support/knowledgebase/article.aspx/434/2237/how-do-i-set-up-host-records-for-a-domain/) or contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
+If you have additional questions, consult the official [Namecheap documentation](https://www.namecheap.com/support/knowledgebase/article.aspx/434/2237/how-do-i-set-up-host-records-for-a-domain/) or contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 {% endhint %}
