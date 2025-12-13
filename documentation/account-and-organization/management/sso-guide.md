@@ -27,7 +27,7 @@ SSO is available only for users on Enterprise plans.
 Only the Account Owner has access to enable/disable SAML on an account.
 {% endhint %}
 
-To enable the SAML configuration for the Mailtrap account - go to **Settings** > **Account settings** > **SSO** or [open the SSO tab](https://mailtrap.io/account-management?current_tab=sso) and add/edit the SAML configuration.
+To enable the SAML configuration for the Mailtrap account - go to **Settings** > **Account settings** > **SSO** to [open the SSO tab](https://mailtrap.io/account-management?current_tab=sso) and add/edit the SAML configuration.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sso-guide-1.png" alt="SSO domains table showing active and pending domains with TXT record verification" width="563"><figcaption></figcaption></figure></div>
 
