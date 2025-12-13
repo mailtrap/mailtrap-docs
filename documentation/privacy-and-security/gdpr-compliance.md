@@ -40,7 +40,7 @@ Our GDPR compliance measures have been audited as part of our ISO 27001 certific
 
 Currently, US–EU data sharing is regulated by the [EU–US Data Privacy Framework](https://www.dataprivacyframework.gov/Program-Overview). This framework, agreed upon in 2022 and declared adequate by the European Commission in 2023, governs data transfers between the EU and the US. Both “Railsware Products Studio LLC”, “Amazon”, and "Google" are listed in the [Data Privacy Framework registry](https://www.dataprivacyframework.gov/list).
 
-You can review the measures we take to ensure GDPR compliance here:
+You can review the measures we take to ensure GDPR compliance regarding:
 
-* Regarding users’ data – in our [Privacy Policy](https://mailtrap.io/privacy/).
-* Regarding data processed as part of our service – in our [Data Protection Agreement](https://mailtrap.io/dpa/).
+* Users’ data in our [Privacy Policy](https://mailtrap.io/privacy/).
+* Data processed as part of our service in our [Data Protection Agreement](https://mailtrap.io/dpa/).
