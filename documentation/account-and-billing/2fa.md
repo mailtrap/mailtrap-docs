@@ -12,17 +12,13 @@ icon: fingerprint
 
 {% stepper %}
 {% step %}
-**Navigate to Authentication Settings**
-
-Go to Account (top-right) → My profile → Authentication. Click on Enable 2FA under the Two-Factor Authentication (2FA) section.
+Go to **Account** (top-right) → **My profile** → **Authentication** and click on **Enable 2FA** under the **Two-Factor Authentication (2FA)** section.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-enable-button.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Scan QR Code or Enter Key**
-
-You will be taken to the 2FA setup page, where you can either:
+In the 2FA setup page, either:
 
 * Use the authenticator app of your choice to scan the QR code
 * Input the corresponding key if your authenticator app does not support QR scanning
@@ -31,21 +27,17 @@ You will be taken to the 2FA setup page, where you can either:
 {% endstep %}
 
 {% step %}
-**Verify Code**
-
-Whichever of the two options you choose, your authenticator app will provide a code. Enter this code in the verification window, then click on Verify Code.
+Whichever of the two options you choose, your authenticator app will provide a code. Enter this code in the verification window, then click on **Verify Code**.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-verify-code.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Save Recovery Codes**
-
 You will be provided with recovery codes you can use in case you lose access to your authenticator app. Make sure to save these codes in a secure location.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-recovery-codes.png" alt="" width="375"></div>
 
-Click on Finish Setup to complete the process. You will have successfully enabled 2FA for your Mailtrap account.
+Click on **Finish Setup** to complete the process. You will have successfully enabled 2FA for your Mailtrap account.
 {% endstep %}
 {% endstepper %}
 
@@ -53,15 +45,11 @@ Click on Finish Setup to complete the process. You will have successfully enable
 
 {% stepper %}
 {% step %}
-**Navigate to Authentication Settings**
-
-Navigate to Account (top-right) → My profile → Authentication.
+Navigate to **Account** (top-right) → **My profile** → **Authentication**.
 {% endstep %}
 
 {% step %}
-**Disable Two-Factor Authentication**
-
-Click on Disable under the Two-Factor Authentication section.
+Click on **Disable** under the **Two-Factor Authentication** section.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-disable-button.png" alt="" width="329"></div>
 
@@ -73,9 +61,9 @@ Disabling 2FA also resets the recovery codes. After setting it up again, the old
 
 ### Logging in via 2FA
 
-During login, if you have enabled 2FA, you will be redirected to the following screen upon entering the correct username/password combination:
+During login, if you have enabled the 2FA, you will be redirected to the following screen upon entering the correct username/password combination:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-login-screen.png" alt="Mailtrap login page showing two-factor authentication code input field" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-login-screen.png" alt="" width="375"></div>
 
 To successfully login, enter the code provided by your authenticator app.
 
@@ -108,23 +96,17 @@ As a Mailtrap account owner, you can enforce 2FA for all users linked to the acc
 
 {% stepper %}
 {% step %}
-**Navigate to Account Settings**
-
-Navigate to Settings → Account Settings → Two-Factor Authentication tab.
+Navigate to **Settings** → **Account Settings** → **Two-Factor Authentication** tab.
 {% endstep %}
 
 {% step %}
-**Enable 2FA Requirement**
-
-Tick the "Require 2FA for all users on this account" box.
+Tick the **Require 2FA for all users on this account** box.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-enforce-account-setting.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Set Grace Period (Optional)**
-
-After enforcing 2FA as an account owner, you can set a grace period during which users can skip setting up 2FA. Simply choose the date on the calendar until which you want the grace period to last and click on Save Date.
+After enforcing 2FA as an account owner, you can **set a grace period** during which users can skip setting up 2FA. Simply choose the date on the calendar until which you want the grace period to last and click on **Save Date**.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-grace-period-calendar.png" alt="" width="362"></div>
 {% endstep %}
@@ -136,25 +118,19 @@ To protect accounts with no 2FA enabled, Mailtrap will require email-based 2FA f
 
 {% stepper %}
 {% step %}
-**Enter Login Credentials**
-
 On a new device, enter the correct username/password combination.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-email-login-credentials.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Verification Code Request**
-
 A verification code is then requested in order to proceed with the login.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-email-verification-code.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Check Email for Verification Code**
-
-Check the inbox for the email address associated with your Mailtrap user. You should see an email from Mailtrap <[notifications@mailtrap.io](mailto:notifications@mailtrap.io)>, with the subject line "Verify your identity to proceed with the login."
+**Check the inbox** for the email address associated with your Mailtrap user. You should see an email from Mailtrap <[notifications@mailtrap.io](mailto:notifications@mailtrap.io)>, with the subject line "Verify your identity to proceed with the login."
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-email-inbox.png" alt="" width="312"></div>
 
@@ -167,9 +143,7 @@ Check the inbox for the email address associated with your Mailtrap user. You sh
 {% endstep %}
 
 {% step %}
-**Enter Verification Code**
-
-Copy the code and paste it into the "verification code" field, then click "Verify". Login should proceed as normal, and the device should be recognized on future logins.
+**Copy the code and paste it into the "verification code" field**, then click **Verify**. Login should proceed as normal, and the device should be recognized on future logins.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-email-verification-code.png" alt="" width="375"></div>
 {% endstep %}
@@ -178,7 +152,7 @@ Copy the code and paste it into the "verification code" field, then click "Verif
 **Cases when a new device might be detected:**
 
 * The same physical device but another browser
-* The same browser (e.g. Chrome) on a different physical device
+* The same browser on a different physical device
 * An updated version of the same browser on the same device
 * The same version of the same browser on the same device, after some time has passed
 
@@ -194,4 +168,4 @@ We released those features on Monday Oct 7, 2024 1:08 PM (UTC+3:00)
 
 #### 3. Can we disable the OTP sent via email?
 
-There's no way to disable the OTP sent via email. The only way to skip it is having 2FA enabled.
+There's no way to disable the OTP sent via email. The only way to skip it is to enable 2FA.
