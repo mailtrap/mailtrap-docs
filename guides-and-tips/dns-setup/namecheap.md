@@ -31,37 +31,29 @@ This guide assumes that your domain is either registered with Namecheap and uses
 
 {% stepper %}
 {% step %}
-**Locate and manage domain**
+Go to Namecheap, locate the domain you've added to Mailtrap on the dashboard, and click **Manage**.
 
-Go to Namecheap, locate the domain you've added to Mailtrap on the dashboard, and click Manage.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-domain-dashboard.png" alt="Namecheap dashboard showing domain list with Manage button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-domain-dashboard.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Navigate to Advanced DNS**
+Navigate to the **Advanced DNS** tab.
 
-Navigate to the Advanced DNS tab.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-advanced-dns-tab.png" alt="Namecheap Advanced DNS tab in domain settings" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-advanced-dns-tab.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Add new record**
+Click **Add New Record**.
 
-Click Add New Record.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-add-new-record-button.png" alt="Namecheap Add New Record button" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-add-new-record-button.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**View Mailtrap DNS records**
-
-Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to Namecheap. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
+On the Domain Verification page in Mailtrap, you'll see the DNS records you need to add to Namecheap. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/namecheap-mailtrap-dns-records.png" alt="" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in Namecheap. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **two TXT type records** (SPF and DMARC).
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in Namecheap. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/namecheap-dns-types-categories.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption></figcaption></figure></div>
 
