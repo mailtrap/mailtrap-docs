@@ -53,11 +53,11 @@ On the **Domain Verification page** in Mailtrap, you'll see the DNS records you 
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/cloudflare-mailtrap-dns-records.png" alt="" width="563"></div>
 
-Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
+Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-mailtrap-record-types.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption><p>DNS record types in Cloudflare</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
