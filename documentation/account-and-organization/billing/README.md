@@ -17,4 +17,4 @@ Manage your Mailtrap subscription, understand pricing plans, and handle billing-
 
 ## Account Status
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Suspensions and Bans</strong></td><td><em>Understand account suspension policies, common reasons for suspension, and how to resolve account issues.</em></td><td><a href="suspensions-and-bans.md">suspensions-and-bans.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Suspensions and Bans</strong></td><td><em>Understand account suspension policies, common reasons for suspension, and how to resolve account issues.</em></td><td><a href="../suspensions-and-bans.md">suspensions-and-bans.md</a></td></tr></tbody></table>

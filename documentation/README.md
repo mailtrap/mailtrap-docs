@@ -74,7 +74,7 @@ Discover the full range of features and capabilities across our email platform.
 
 * [Email Template Inspector](email-sandbox/inspect-your-email-template.md)
 * [HTML Check](email-sandbox/html-check.md)
-* [Deliverability Tests](email-sandbox/testing/deliverability.md)
+* [Deliverability Tests](email-sandbox/testing/spam-blacklist-reports.md)
 * [Sandbox API](email-sandbox/sandbox-api-integration.md)
 * [Team Collaboration](email-sandbox/sharing-sandboxes.md)
 {% endcolumn %}
