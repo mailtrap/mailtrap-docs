@@ -25,7 +25,7 @@ layout:
 
 Mailtrap provides analytics for all the emails you send.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 On the statistics dashboards, you can see the following metrics:
 
