@@ -105,7 +105,7 @@ Mailtrap Email Sending API supports:
 * attachments
 * [email templates](email-sandbox/email-marketing/email-templates.md)
 * [custom variables](custom-variables.md)
-* [email categories](statistics/email-categories.md)
+* [email categories](analytics/categories.md)
 
 {% hint style="info" %}
 If you need any help with API integration, please, contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).

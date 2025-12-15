@@ -48,7 +48,7 @@ The event data you receive includes:
 * And more
 
 {% hint style="info" %}
-To find out more about the sending event specifics, check the [Statuses and Events article](statuses-and-events.md).
+To find out more about the sending event specifics, check the [Statuses and Events article](analytics/statuses-and-events.md).
 {% endhint %}
 
 ## How to set up webhooks
@@ -93,7 +93,7 @@ Choose the **Sending Stream** (Transactional or Bulk) for which you want to set 
 {% endstep %}
 
 {% step %}
-Choose the **domain** you want to receive events' data for and select one or more [event types](statuses-and-events.md) by ticking the corresponding checkbox.
+Choose the **domain** you want to receive events' data for and select one or more [event types](analytics/statuses-and-events.md) by ticking the corresponding checkbox.
 
 <div align="center" data-with-frame="true"><img src="../.gitbook/assets/webhooks-5.png" alt="" width="375"></div>
 {% endstep %}

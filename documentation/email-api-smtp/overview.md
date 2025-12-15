@@ -174,7 +174,7 @@ Mailtrap separates email traffic for optimal deliverability:
 
 * [Deliverability Guide](https://mailtrap.io/email-deliverability-guide/)
 * [Email Templates](email-templates/)
-* [Analytics & Reports](statistics/)
+* [Analytics & Reports](analytics/)
 * [Deliverability Features](deliverability/)
 {% endcolumn %}
 {% endcolumns %}
@@ -230,7 +230,7 @@ _Design reusable emails_
 {% endstep %}
 
 {% step %}
-[statistics](statistics/ "mention")
+[analytics](analytics/ "mention")
 
 _Track your email metrics_
 {% endstep %}

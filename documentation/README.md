@@ -65,7 +65,7 @@ Discover the full range of features and capabilities across our email platform.
 * [API Integration](email-api-smtp/api-integration.md)
 * [SMTP Integration](email-api-smtp/smtp-integration.md)
 * [Email Templates](email-api-smtp/email-templates/)
-* [Email Logs](email-api-smtp/statistics/email-logs.md)
+* [Email Logs](email-api-smtp/analytics/logs.md)
 * [Webhooks](email-api-smtp/webhooks.md)
 {% endcolumn %}
 

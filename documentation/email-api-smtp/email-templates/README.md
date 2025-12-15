@@ -33,7 +33,7 @@ Email Templates support Variables, and Mailtrap uses Handlebars as a template en
 
 You can put \{{user\_name\}} into your template and pass "John" as the "user\_name" value via API.
 
-For a complete guide on using Handlebars with email templates, see [Handlebars Guide](handlebars-guide.md).
+For a complete guide on using Handlebars with email templates, see [Handlebars Guide](handlebars.md).
 
 ### Creating a template
 
@@ -86,6 +86,6 @@ You can delete a template. However, this action is irreversible, so be sure to c
 ### Next steps
 
 * [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to customize templates with the Drag & Drop or Code Editor
-* [Handlebars Guide](handlebars-guide.md) - Complete guide to using Handlebars syntax in templates
+* [Handlebars Guide](handlebars.md) - Complete guide to using Handlebars syntax in templates
 * [Integration](integration.md) - Integrate templates with Email API/SMTP
 * [Debugging](debugging.md) - Test templates with Email Sandbox

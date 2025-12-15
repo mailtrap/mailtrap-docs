@@ -281,6 +281,6 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 * [Sending Domain Setup](sending-domain.md)
 * [Email Templates](../email-templates/)
 * [Suppressions List](../suppressions-list.md)
-* [Email Categories](../statistics/email-categories.md)
+* [Email Categories](../analytics/categories.md)
 * [IP Warmup](../deliverability/ip-warmup.md)
 * [Google's Email Sender Guidelines](https://support.google.com/mail/answer/81126)

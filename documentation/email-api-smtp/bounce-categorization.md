@@ -23,7 +23,7 @@ layout:
 
 # Bounce Categorization
 
-Mailtrap categorizes [bounces](statistics/stats-dashboard.md) based on the responses from the recipients' MX servers.
+Mailtrap categorizes [bounces](analytics/dashboard.md) based on the responses from the recipients' MX servers.
 
 The table below lists these responses and their descriptions. It also contains information on whether these bounces cause automatic suppression.
 

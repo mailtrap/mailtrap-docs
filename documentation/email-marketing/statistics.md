@@ -42,7 +42,7 @@ The thresholds are based on our extensive cross-industry research and, at this p
 
 #### Delivered
 
-Delivered refers to the percentage of emails that were accepted by the recipient's mailbox prqoviders compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](../email-api-smtp/statistics/email-logs.md).
+Delivered refers to the percentage of emails that were accepted by the recipient's mailbox prqoviders compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](../email-api-smtp/analytics/logs.md).
 
 **Note:** "**Delivered**" status doesn’t mean that a message went straight into the recipient’s Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
 

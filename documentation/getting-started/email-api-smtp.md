@@ -78,6 +78,6 @@ To send emails via Mailtrap Email API, follow the steps [in this article](../ema
 * [Set up Tracking Settings](../email-api-smtp/setup/sending-domain.md#optional-tracking-settings-ffi49)
 * [Set up Unsubscribe Settings](../email-api-smtp/setup/sending-domain.md#unsubscribe-settings-ekyqh)
 * [Set up Webhooks](../email-api-smtp/setup/sending-domain.md#optional-webhooks-4hmes)
-* [Set up Email Categories](../email-api-smtp/statistics/email-categories.md)
+* [Set up Email Categories](../email-api-smtp/analytics/categories.md)
 * [Add or import Suppressions](../email-api-smtp/suppressions-list.md)
 * [Create templates](../email-api-smtp/email-templates.md)

@@ -31,11 +31,11 @@ As an email changes status, multiple **events** can occur. Events are one-time o
 
 For example, a certain email can have the status **Opted Out**. This indicates that the recipient marked your message as spam or unsubscribed from the list. The **Event History** tab for such an email may look like this:
 
-<div data-with-frame="true"><img src="../.gitbook/assets/statuses-event-history-example.png" alt="" width="375"></div>
+<div data-with-frame="true"><img src="../../.gitbook/assets/statuses-event-history-example.png" alt="" width="375"></div>
 
 The chart below showcases all the possible events and the relations between them.
 
-![](../.gitbook/assets/statuses-events-flow-diagram.png)
+![](../../.gitbook/assets/statuses-events-flow-diagram.png)
 
 Here’s a summary of all the possible events:
 
@@ -85,4 +85,4 @@ Some useful definitions:
 * **Mailtrap sending IP** — IP address of Mailtrap, used to send a message to the final recipient.
 * **Recipient IP** — IP address of a device or an email server where an email was opened. If a message is opened on devices using different IP addresses, multiple Recipient IPs will be recorded. If a message is not opened at all, no Recipient IP will be displayed.
 
-<a href="email-sandbox/sandbox-glossary.md" class="button primary">Find more definitions in Sending Glossary</a>
+<a href="../email-sandbox/sandbox-glossary.md" class="button primary">Find more definitions in Sending Glossary</a>

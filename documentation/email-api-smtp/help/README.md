@@ -75,7 +75,7 @@ Please have the following information ready:
 
 ### Emails not reaching inbox?
 
-1. Check [email logs](../statistics/email-logs.md) for delivery status
+1. Check [email logs](../analytics/logs.md) for delivery status
 2. Review [bounce categorization](../bounce-categorization.md) for issues
 3. Verify SPF, DKIM, and DMARC records
 4. Check if recipients are on [suppressions list](../suppressions-list.md)
