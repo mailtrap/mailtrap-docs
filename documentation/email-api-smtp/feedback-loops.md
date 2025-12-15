@@ -67,6 +67,6 @@ Our Deliverability Team can review aggregated data for Spam Rates for Gmail reci
 
 </details>
 
-While using our services, Mailtrap may get alerts from these FBLs if your recipients submit spam complaints. You'll see them in your [Stats](statistics/stats-dashboard.md) and may receive them via [Webhooks](setup/sending-domain.md#optional-webhooks-4hmes).
+While using our services, Mailtrap may get alerts from these FBLs if your recipients submit spam complaints. You'll see them in your [Stats](statistics/stats-dashboard.md) and may receive them via [Webhooks](setup/sending-domain/#optional-webhooks-4hmes).
 
 We also support the `CFBL-Address` header as per [RFC 9477](https://www.rfc-editor.org/rfc/rfc9477.html). However, it’s still experimental, and not all mailbox providers support it.

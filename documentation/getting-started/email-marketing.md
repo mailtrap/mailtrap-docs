@@ -19,7 +19,7 @@ layout:
 
 # Email Marketing
 
-Make sure you've added and [verified a domain](../email-api-smtp/setup/sending-domain.md), or you won't be able to send a campaign.
+Make sure you've added and [verified a domain](../email-api-smtp/setup/sending-domain/), or you won't be able to send a campaign.
 
 ### How to set up and send a campaign
 

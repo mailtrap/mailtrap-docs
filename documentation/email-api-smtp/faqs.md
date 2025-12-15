@@ -45,7 +45,7 @@ Learn more:
 
 * [API Integration](api-integration.md)
 * [SMTP Integration](smtp-integration.md)
-* [Sending Domain Setup](setup/sending-domain.md)
+* [Sending Domain Setup](setup/sending-domain/)
 
 If you have any questions, contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
 
@@ -79,7 +79,7 @@ If you verified mydomain.com, you can send emails only on behalf of your domain.
 
 No, you should use your domain without it.
 
-Please check our [Sending Domain Setup Guide](setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
+Please check our [Sending Domain Setup Guide](setup/sending-domain/) for detailed instructions on adding and verifying your domain.
 
 </details>
 

@@ -36,7 +36,7 @@ Each Slack channel has a unique email address. You can leverage that to route Ma
 
 {% stepper %}
 {% step %}
-### Open Channel Integrations
+#### Open Channel Integrations
 
 Click the channel name in the header and select **Integrations**.
 
@@ -44,7 +44,7 @@ Click the channel name in the header and select **Integrations**.
 {% endstep %}
 
 {% step %}
-### Get Email Address
+#### Get Email Address
 
 Click **Send emails to this channel**, then the **Get Email Address** button.
 
@@ -52,7 +52,7 @@ Click **Send emails to this channel**, then the **Get Email Address** button.
 {% endstep %}
 
 {% step %}
-### Add Email to Mailtrap
+#### Add Email to Mailtrap
 
 Navigate to the Deliverability Alerts page in Mailtrap, and paste the Slack email address into the field under **Who receives notifications?**
 
@@ -60,7 +60,7 @@ Navigate to the Deliverability Alerts page in Mailtrap, and paste the Slack emai
 {% endstep %}
 
 {% step %}
-### Save Settings
+#### Save Settings
 
 Click **Save** and all alerts will be routed to the Slack channel instead of your email.
 {% endstep %}

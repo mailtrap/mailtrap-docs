@@ -112,7 +112,7 @@ If you've verified all the above and still getting 401 errors:
 
 ### Related Articles
 
-* [Sending Domain Setup](../setup/sending-domain.md)
+* [Sending Domain Setup](../setup/sending-domain/)
 * [API Integration](../api-integration.md)
 * [SMTP Integration](../smtp-integration.md)
 * [Sending from Domain Not Allowed](sending-from-domain-not-allowed.md)
