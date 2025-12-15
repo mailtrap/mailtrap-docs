@@ -53,7 +53,7 @@ On the Domain Verification page in Mailtrap, you'll see the DNS records you need
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-cloud-dns-4.png" alt="" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Cloud DNS. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC). Ignore Google's SPF type record; it's deprecated.
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Cloud DNS. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (SPF and DMARC). Ignore Google's SPF type record; it's deprecated.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption></figcaption></figure></div>
 
