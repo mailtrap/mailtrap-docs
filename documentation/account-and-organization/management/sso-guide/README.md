@@ -9,7 +9,7 @@ icon: key
 
 Need help setting up SSO with your specific Identity Provider? Check out our detailed step-by-step guides:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Azure (Microsoft Entra)</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/sso/azure">Setup SSO with Azure (Microsoft Entra)</a></td></tr><tr><td>Okta</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/sso/okta">Setup SSO with Okta</a></td></tr><tr><td>Google Workspace</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/sso/google-workspace">Setup SSO with Google Workspace</a></td></tr><tr><td>OneLogin</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/sso/onelogin">Setup SSO with OneLogin</a></td></tr><tr><td>JumpCloud</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/sso/jumpcloud">Setup SSO with JumpCloud</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Azure (Microsoft Entra)</td><td><a href="azure-microsoft-entra.md">azure-microsoft-entra.md</a></td></tr><tr><td>Okta</td><td><a href="okta.md">okta.md</a></td></tr><tr><td>Google Workspace</td><td><a href="google-workspace.md">google-workspace.md</a></td></tr><tr><td>OneLogin</td><td><a href="onelogin.md">onelogin.md</a></td></tr><tr><td>JumpCloud</td><td><a href="jumpcloud.md">jumpcloud.md</a></td></tr></tbody></table>
 
 ## Overview
 
