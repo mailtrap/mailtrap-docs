@@ -2,82 +2,74 @@
 title: Automations
 description: >-
   Create automated email sequences to engage your contacts with triggers,
-  actions, and rules
+  actions, and rules.
 ---
 
 # Automations
 
-Automations feature allows you to create automated email sequences to engage your contacts.
+The Automations feature allows you to create automated email sequences to engage your contacts.
 
 Set up triggers, actions, and rules to automate your workflows.
 
-## Use Cases
+## Use cases
 
 Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/make), [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/zapier), or [N8N](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/n8n).
 
 {% tabs %}
 {% tab title="Welcome Series" %}
-**Greet new contacts, set expectations, and share first-week tips**
+**Use case**: Greet new contacts, set expectations, and share first-week tips. Perfect for onboarding new subscribers and making a great first impression.
 
-How to set it up:
+**How to set it up**:
 
-* Trigger: Contact created
-* Add Send email steps with Time delays
-* Optionally: Conditional split by plan or locale
-
-Perfect for onboarding new subscribers and making a great first impression.
+1. Trigger: Contact created
+2. Add Send email steps with Time delays
+3. Optionally: Conditional split by plan or locale
 {% endtab %}
 
 {% tab title="Onboarding Prompts" %}
-**Nudge users when a field changes (e.g., trial started, role/plan updated)**
+**Use case**: Nudge users when a field changes (e.g., trial started, role/plan updated). Ideal for guiding users through product adoption milestones.
 
-How to set it up:
+**How to set it up**:
 
-* Trigger: Contact field updated
-* Send email with next steps
-* Add to list "Onboarding" for later messages
-
-Ideal for guiding users through product adoption milestones.
+1. Trigger: Contact field updated
+2. Send email with next steps
+3. Add to list "Onboarding" for later messages
 {% endtab %}
 
 {% tab title="Segment-Based Campaigns" %}
-**Deliver targeted content as people enter key lists**
+**Use case**: Deliver targeted content as people enter key lists. Great for webinar registrants, new customers, or list cleanup workflows.
 
-How to set it up:
+**How to set it up**:
 
-* Trigger: Contact added to list (or removed from list)
-* Send email
-* Add/Remove from lists to manage follow-ups
-
-Great for webinar registrants, new customers, or list cleanup workflows.
+1. Trigger: Contact added to list (or removed from list)
+2. Send email
+3. Add/Remove from lists to manage follow-ups
 {% endtab %}
 
 {% tab title="Event-Driven Follow-ups" %}
-**React to product or billing events**
+**Use case**: React to product or billing events. Excellent for purchase confirmations, payment failures, or milestone celebrations.
 
-How to set it up:
+**How to set it up**:
 
-* Trigger: API event received
-* Send email
-* Optionally: Update contact field and Conditional split based on event data
-
-Excellent for purchase confirmations, payment failures, or milestone celebrations.
+1. Trigger: API event received
+2. Send email
+3. Optionally: Update contact field and Conditional split based on event data
 {% endtab %}
 {% endtabs %}
 
 ## Functionality
 
-### Available Components
+### Available components
 
 {% tabs %}
 {% tab title="Triggers" %}
-**Entry points for your automation**
+Entry points for your automation
 
-* **Contact created** - Starts when a new contact is added
-* **Contact field updated** - Fires when specific field changes
-* **Contact added to list** - Activates on list addition
-* **Contact removed from list** - Triggers on list removal
-* **Contact custom event** - API event received
+* **Contact created** — Starts when a new contact is added
+* **Contact field updated** — Fires when specific field changes
+* **Contact added to list** — Activates on list addition
+* **Contact removed from list** — Triggers on list removal
+* **Contact custom event** — API event received
 
 {% hint style="info" %}
 Each contact can only enter the same automation once every 24 hours.
@@ -85,20 +77,20 @@ Each contact can only enter the same automation once every 24 hours.
 {% endtab %}
 
 {% tab title="Actions" %}
-**Operations to perform on contacts**
+Operations to perform on contacts
 
-* **Send email** - Deliver personalized messages
-* **Update Contact Field** - Modify contact properties
-* **Unsubscribe Contact** - Remove from all marketing
-* **Add to List(s)** - Assign to one or more lists
-* **Remove from List(s)** - Remove from specific lists
+* **Send email** — Deliver personalized messages
+* **Update Contact Field** — Modify contact properties
+* **Unsubscribe Contact** — Remove from all marketing
+* **Add to List(s)** — Assign to one or more lists
+* **Remove from List(s)** — Remove from specific lists
 {% endtab %}
 
 {% tab title="Rules" %}
-**Control flow and timing**
+Control flow and timing
 
-* **Time delay** - Wait before next step
-* **Conditional Split** - Branch based on criteria
+* **Time delay** — Wait before next step
+* **Conditional Split** — Branch based on criteria
 {% endtab %}
 {% endtabs %}
 
@@ -129,26 +121,20 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 
 ## Limits
 
-{% hint style="info" %}
-**Automation Limits**
-
 * Limited number of automation runs based on your plan
 * Each contact can go through the same automation once in 24 hours
 * Check your limits in [Billing Dashboard](https://mailtrap.io/billing/dashboard)
 * Look for "Automations run count"
 * Feature is currently included in your plans (may change later)
-{% endhint %}
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-## Creating Your First Automation
+## Creating your first automation
 
 To get started, navigate to the tab in your Mailtrap account or go to [https://mailtrap.io/automations](https://mailtrap.io/automations).
 
 {% stepper %}
 {% step %}
-**Create New Automation**
-
 Define the name for your automation.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure></div>
@@ -157,9 +143,7 @@ Choose a descriptive name that indicates the automation's purpose.
 {% endstep %}
 
 {% step %}
-**Set Up Entry Trigger**
-
-Select when the automation should start.
+Set up an entry trigger and select when the automation should start.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -167,27 +151,25 @@ For this example, we'll use the "Contact created" trigger. This means the automa
 {% endstep %}
 {% endstepper %}
 
-## Building Your Automation Sequence
+## Building your automation sequence
 
 Now that you've set up the trigger, you can start adding steps to your automation.
 
 {% stepper %}
 {% step %}
-**Add an Action**
-
 Click the "Add Step" button to add your first action.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (26).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-Select "Send Email" as your first action.
 {% endstep %}
 
 {% step %}
-**Configure the Email**
+Select "Send Email" as your first action.
 
-Set up your email content and settings.
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure></div>
+{% endstep %}
+
+{% step %}
+Customize your email content and settings.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (28).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -195,14 +177,12 @@ Add your subject line, choose a template, and personalize with merge tags.
 {% endstep %}
 {% endstepper %}
 
-### Adding Delays and Additional Steps
+### Adding delays and additional steps
 
-To create a more sophisticated sequence, you can add time delays and further actions.
+To create a more complex sequence, you can add time delays and further actions.
 
 {% stepper %}
 {% step %}
-**Add a Time Delay**
-
 Insert waiting periods between actions.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure></div>
@@ -211,24 +191,20 @@ Configure the delay duration (minutes, hours, days, or weeks).
 {% endstep %}
 
 {% step %}
-**Add Another Email**
-
 Continue building your sequence with additional messages or actions.
 
 Repeat the process to add more emails, list assignments, or field updates.
 {% endstep %}
 {% endstepper %}
 
-## Automation Activation
+## Automation activation
 
 Once you've built your automation sequence, it's time to activate it.
-
-### Activate Automation
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (30).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
-**Before Activating**
+**Before activating**
 
 * Test with a small group first
 * Review all email content
@@ -236,7 +212,7 @@ Once you've built your automation sequence, it's time to activate it.
 * Check time delays
 {% endhint %}
 
-### Pausing and Disabling
+### Pausing and disabling
 
 You can pause or disable your automation at any time.
 
@@ -261,35 +237,29 @@ You can pause or disable your automation at any time.
 {% endtab %}
 {% endtabs %}
 
-## Stats - Monitoring Automation Performance
+## Stats — Monitoring automation performance
 
 You can track the performance of your automation by clicking on the Reports tab within the automation builder.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (32).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### Available Metrics
-
-**Engagement Metrics**
+### Available metrics
 
 * Open rate per email
 * Click rate per email
 * Number of step completions
 * Delivery rate
 
-## Best Practices
+## Best practices
 
-{% hint style="success" %}
-**Automation Tips**
+* **Start simple**: Begin with basic welcome series before complex flows.
+* **Test thoroughly**: Use test contacts before going live.
+* **Monitor performance**: Check reports weekly for optimization opportunities.
+* **Segment wisely**: Use conditional splits for personalization.
+* **Time delays**: Consider time zones and optimal send times.
+* **Exit strategies**: Plan how contacts leave the automation.
 
-1. **Start Simple**: Begin with basic welcome series before complex flows
-2. **Test Thoroughly**: Use test contacts before going live
-3. **Monitor Performance**: Check reports weekly for optimization opportunities
-4. **Segment Wisely**: Use conditional splits for personalization
-5. **Time Delays**: Consider time zones and optimal send times
-6. **Exit Strategies**: Plan how contacts leave the automation
-{% endhint %}
-
-## Common Automation Workflows
+## Common automation workflows
 
 ### Welcome Series Template
 
@@ -306,15 +276,15 @@ A multi-step onboarding sequence for new contacts:
 {% endtab %}
 
 {% tab title="Implementation Tips" %}
-* Personalize with first name and signup source
-* Include clear CTAs in each email
-* Track engagement for segmentation
-* Consider time zones for optimal delivery
-* Test subject lines for best open rates
+* Personalize with first name and signup source.
+* Include clear CTAs in each email.
+* Track engagement for segmentation.
+* Consider time zones for optimal delivery.
+* Test subject lines for best open rates.
 {% endtab %}
 {% endtabs %}
 
-### Re-engagement Campaign
+### Re-engagement campaign
 
 Win back inactive subscribers with targeted messaging:
 
@@ -329,15 +299,15 @@ Win back inactive subscribers with targeted messaging:
 {% endtab %}
 
 {% tab title="Best Practices" %}
-* Use compelling subject lines ("We miss you!")
-* Offer exclusive incentives
-* Show what they're missing
-* Make unsubscribe easy
-* Clean list after campaign
+* Use compelling subject lines ("We miss you!").
+* Offer exclusive incentives.
+* Show what they're missing.
+* Make unsubscribe easy.
+* Clean list after campaign.
 {% endtab %}
 {% endtabs %}
 
-### Post-Purchase Flow
+### Post-purchase flow
 
 Maximize customer value after purchase:
 
