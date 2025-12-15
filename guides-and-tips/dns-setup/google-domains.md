@@ -61,7 +61,7 @@ On the Domain Verification page in Mailtrap, you'll see the DNS records you need
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/google-domains-mailtrap-dns-records.png" alt="" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Domains. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **two TXT type records** (SPF and DMARC).
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in Google Domains. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/google-domains-dns-types.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption></figcaption></figure></div>
 
