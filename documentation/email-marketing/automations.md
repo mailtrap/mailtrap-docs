@@ -13,7 +13,7 @@ Set up triggers, actions, and rules to automate your workflows.
 
 ## Use Cases
 
-Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/mailtrap-make-integration), [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/mailtrap-integration-with-zapier), or [N8N](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/mailtrap-and-n8n-integration).
+Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/make), [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/zapier), or [N8N](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/n8n).
 
 {% tabs %}
 {% tab title="Welcome Series" %}

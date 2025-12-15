@@ -7,7 +7,7 @@ icon: palette
 
 Email Templates allow you to design, edit, and host HTML email templates.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 By storing the template on Mailtrap and calling it via API, you can easily change the template code without committing to your codebase.&#x20;
 

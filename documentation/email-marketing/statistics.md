@@ -7,7 +7,7 @@ description: View and analyze email campaign performance metrics and analytics
 
 Mailtrap provides analytics for all the emails you send.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 On the statistics dashboards, you can see the following metrics:
 

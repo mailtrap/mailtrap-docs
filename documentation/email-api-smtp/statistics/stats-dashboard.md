@@ -25,7 +25,7 @@ layout:
 
 Mailtrap provides analytics for all the emails you send.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-campaign-statistics.png" alt="Statistics dashboard showing delivery rate, open rate, click rate, bounce rate, spam rate with performance graphs" width="563"></div>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -35,9 +35,9 @@ On the statistics dashboards, you can see the following metrics:
 * Bounce rate
 * Spam complaints
 
-**Navigating around the statistics dashboards**
+### **Navigating around the statistics dashboards**
 
-In that Stats tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
+In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-domain-selector.png" alt="" width="226"></div>
 
@@ -45,7 +45,7 @@ By default, the stats are shown for the last week + today.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-mailbox-providers-overview.png" alt="" width="563"></div>
 
-**Thresholds**
+### **Thresholds**
 
 The thresholds are based on our extensive cross-industry research and, at this point, can’t be edited. The current values are:
 
@@ -56,9 +56,9 @@ The thresholds are based on our extensive cross-industry research and, at this p
   * 0.08%-0.1% is a warning level (yellow)
   * \>0.1% is a critical level (red)
 
-#### **Terminology**
+### **Terminology**
 
-**Delivered**
+#### **Delivered**
 
 Delivered refers to the percentage of emails that were accepted by the recipient’s mailbox providers compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs.](email-logs.md)
 
@@ -73,17 +73,17 @@ On top of that, an email can be rejected on the recipient’s end for various re
 * A message is considered spam, phishing, or other foul play.
 * A security policy on the recipient’s end dictates that a message should be declined.
 * A server timeout occurs (in such case, Mailtrap will retry the delivery 10 times until it eventually gives up).
-* Email authentications (SPF, DKIM, DMARC) fail.
+* Email authentication protocols (SPF, DKIM, DMARC) fail.
 
-**Unique open rate**
+#### **Unique open rate**
 
 Unique open rate refers to the percentage of emails that were opened at least once compared to all emails sent.
 
 Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-tracking-settings.png" alt="Tracking Settings page with toggles for Track Opened Emails and Track Clicks" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-tracking-settings.png" alt="" width="563"></div>
 
-**Click rate**
+#### **Click rate**
 
 Click rate refers to the percentage of emails that received at least one link click compared to all delivered emails.
 
@@ -99,7 +99,7 @@ However, the metrics such as **clicked** and **click rate** used in the statisti
 
 The **click rate** is basically clicked/delivered \* 100%.
 
-**Bounce rate**
+#### **Bounce rate**
 
 Bounce rate refers to the percentage of emails dispatched from Mailtrap that were rejected on the recipient’s end compared to all emails sent.
 
@@ -114,6 +114,6 @@ The term bounce used in Mailtrap is also known as a hard bounce. This is differe
 
 If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
 
-**Spam complaints**
+#### **Spam complaints**
 
 Spam complaints refer to the percentage of emails that are reported as spam by recipients, as compared to all emails that were delivered.

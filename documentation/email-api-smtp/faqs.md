@@ -177,7 +177,7 @@ For current pricing and to choose a plan that best fits your needs, visit our [p
 
 Right now, it's not possible, but there's a workaround.
 
-You can set up [Webhooks](webhooks.md) to automatically collect logs. And you can use a tool like [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/mailtrap-integration-with-zapier), for example, to create a spreadsheet from your webhooks.
+You can set up [Webhooks](webhooks.md) to automatically collect logs. And you can use a tool like [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/zapier), for example, to create a spreadsheet from your webhooks.
 
 </details>
 
