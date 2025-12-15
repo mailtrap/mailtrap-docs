@@ -41,16 +41,6 @@
 * [Retool Integration](integrations/mailtrap-retool-integration.md)
 * [Replit Integration](integrations/mailtrap-replit-integration.md)
 
-## DNS Setup
-
-* [AWS Route 53](dns-setup/aws-route-53.md)
-* [Cloudflare](dns-setup/cloudflare.md)
-* [DigitalOcean](dns-setup/digitalocean.md)
-* [GoDaddy](dns-setup/godaddy.md)
-* [Google Cloud DNS](dns-setup/google-cloud-dns.md)
-* [Google Domains](dns-setup/google-domains.md)
-* [Namecheap](dns-setup/namecheap.md)
-
 ## AI-Powered Integrations
 
 * [Lovable and Mailtrap](ai-powered-integrations/lovable.md)
@@ -67,11 +57,3 @@
 * [Leap.new and Mailtrap](ai-powered-integrations/leap-new.md)
 * [Gemini and Mailtrap](ai-powered-integrations/gemini.md)
 * [ChatGPT and Mailtrap](ai-powered-integrations/chatgpt.md)
-
-## SSO
-
-* [Setup SSO with Azure (Microsoft Entra)](sso/azure.md)
-* [Setup SSO with Okta](sso/okta.md)
-* [Setup SSO with Google Workspace](sso/google-workspace.md)
-* [Setup SSO with OneLogin](sso/onelogin.md)
-* [Setup SSO with JumpCloud](sso/jumpcloud.md)
