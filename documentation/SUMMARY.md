@@ -12,7 +12,7 @@
 
 * [Overview](email-api-smtp/overview.md)
 * [Setup & Configuration](email-api-smtp/setup/README.md)
-  * [Sending Domain Setup](email-api-smtp/setup/sending-domain/README.md)
+  * [Sending Domain Setup](email-api-smtp/setup/sending-domain.md)
     * [AWS Route 53](email-api-smtp/setup/sending-domain/aws-route-53.md)
     * [Cloudflare](email-api-smtp/setup/sending-domain/cloudflare.md)
     * [DigitalOcean](email-api-smtp/setup/sending-domain/digitalocean.md)

@@ -69,7 +69,7 @@ Please have the following information ready:
 ### Can't send emails?
 
 1. Verify your [API token](../../account-and-organization/privacy-and-security/api-tokens.md) is correct
-2. Check your [sending domain](../setup/sending-domain/) is verified
+2. Check your [sending domain](../setup/sending-domain.md) is verified
 3. Review your [sending limits](../setup/sending-limits.md)
 4. Confirm your [integration](../api-integration.md) is properly configured
 

@@ -158,7 +158,7 @@ If you've verified your domain and updated your configuration but still see this
 
 ### Related Articles
 
-* [Sending Domain Setup](../setup/sending-domain/)
+* [Sending Domain Setup](../setup/sending-domain.md)
 * [SMTP Integration](../smtp-integration.md)
 * [Sending from Domain Not Allowed](sending-from-domain-not-allowed.md)
 * [Unauthorized Error (401 Code)](unauthorized-401-error.md)

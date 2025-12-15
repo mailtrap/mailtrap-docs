@@ -2,13 +2,27 @@
 description: >-
   Verify your Mailtrap sending domain in Google Cloud DNS. Add DNS records for
   DKIM/DMARC verification, pass compliance, and start sending emails.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Google Cloud DNS
 
 To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
 
-<a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to Google Cloud DNS.
+<a href="../sending-domain.md" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to Google Cloud DNS.
 
 {% hint style="info" %}
 Note: This guide assumes that your domain is either registered and managed with Google Cloud DNS or registered elsewhere but points to Google Cloud DNS. It also assumes that you've already created and configured a managed zone for your domain.

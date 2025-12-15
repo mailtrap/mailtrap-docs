@@ -89,6 +89,6 @@ Ensure your application sends emails from an address that matches your verified 
 
 ### Related Articles
 
-* [Sending Domain Setup](../setup/sending-domain/)
+* [Sending Domain Setup](../setup/sending-domain.md)
 * [SMTP Integration](../smtp-integration.md)
 * [Unauthorized Error (401 Code)](unauthorized-401-error.md)

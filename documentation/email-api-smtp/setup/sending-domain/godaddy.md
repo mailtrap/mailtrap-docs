@@ -2,13 +2,27 @@
 description: >-
   Verify your Mailtrap sending domain in GoDaddy. Add DNS records for DKIM/DMARC
   verification, pass compliance, and start sending emails.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # GoDaddy
 
 To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
 
-<a href="./" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to GoDaddy.
+<a href="../sending-domain.md" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to GoDaddy.
 
 {% hint style="info" %}
 This guide assumes that your domain is either registered with GoDaddy and uses its nameservers or isn't registered with GoDaddy but uses its nameservers.
