@@ -2,7 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap with .NET apps and projects for email sending
   using SDK, SMTP, or RESTful API.
-icon: windows
 ---
 
 # .NET Integration

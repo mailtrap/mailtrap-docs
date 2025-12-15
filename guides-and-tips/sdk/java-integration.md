@@ -2,7 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap with Java applications using SDK, SMTP, or
   RESTful API for email sending.
-icon: java
 ---
 
 # Java Integration

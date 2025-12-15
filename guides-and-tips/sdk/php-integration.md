@@ -2,7 +2,6 @@
 description: >-
   Integrate Mailtrap with PHP applications using SDK, SMTP, or RESTful API for
   reliable email sending
-icon: php
 ---
 
 # PHP Integration

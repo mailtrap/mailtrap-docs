@@ -2,7 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap with Python apps and projects for email
   sending using SDK, SMTP, and RESTful API.
-icon: python
 ---
 
 # Python Integration
