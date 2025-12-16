@@ -2,10 +2,10 @@
 title: Sandbox API integration
 description: >-
   Learn how to use the Sandbox API to automate testing and manage email
-  sandboxes programmatically
+  sandboxes programmatically.
 ---
 
-# Sandbox API
+# Sandbox API Integration
 
 ### How the API works
 
@@ -22,14 +22,14 @@ Mailtrap supports the following HTTPs requests:
 
 Via the API, you can run the following commands:
 
-* **Sandbox**: create a new sandbox, reset the sandbox credentials and its email address; receive messages, clean one or all messages in the sandbox, mark all messages as read; manage users.
-* **Project**: Create a new project, update, and delete it; manage its users.
-* **Email forwarding**: manage forwarding messages to real email addresses (available starting from the Individual plan).
-* **Email content**: inspect the email body by getting raw HTML (you can also download it), text, and detailed info about the HTML part, including a list of possible errors; receive message attachments.
-* **Bcc and message headers**: receive message headers (Bcc is also included in this section, notwithstanding that it is not a regular message header). Bcc is available starting from the Team plan.
-* **Deliverability**: get a SPAM report and domain blacklisting details.
+* **Sandbox** — Create a new sandbox, reset the sandbox credentials and its email address; receive messages, clean one or all messages in the sandbox, mark all messages as read; manage users.
+* **Project** — Create a new project, update, and delete it; manage its users.
+* **Email forwarding** — Manage forwarding messages to real email addresses (available starting from the Individual plan).
+* **Email content** — Inspect the email body by getting raw HTML (you can also download it), text, and detailed info about the HTML part, including a list of possible errors; receive message attachments.
+* **Bcc and message headers** — Receive message headers (Bcc is also included in this section, notwithstanding that it is not a regular message header). Bcc is available starting from the Team plan.
+* **Deliverability** — Get a Spam report and domain blacklisting details.
 
-This way, you can test and verify the following scenarios:
+This way, you can test and verify if:
 
 * Email sending script works.
 * Email recipients are correct + Bcc testing (on the advanced plans).
@@ -41,13 +41,13 @@ This way, you can test and verify the following scenarios:
 
 ### How to get started with Sandbox API
 
-First, you need to get a token. You can find it under Settings, API Tokens.
+First, you need to get a token. You can find it under **Settings** > **`API Tokens`**.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-api-tokens-settings.png" alt="" width="123"></div>
 
 To learn more about managing your tokens, please [check this guide](../account-and-organization/privacy-and-security/api-tokens.md). Then, there are a couple ways to send authenticated HTTP requests:
 
-* Send a HTTP header `Api-Token: {api_token}` , where `{api_token}` is your API token
-* Send a HTTP header `Authorization: Bearer #{token}` , where `{api_token}` is your API token (more info: Token Access Authentication)
+* Send a HTTP header `Api-Token: {api_token}` , where `{api_token}` is your API token.
+* Send a HTTP header `Authorization: Bearer #{token}` , where `{api_token}` is your API token (more info: Token Access Authentication).
 
 Go to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api), check samples, and experiment in the console.
