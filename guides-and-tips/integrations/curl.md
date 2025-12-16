@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-Mailtrap can be integrated with cURL for email sending via SMTP or API methods. This guide shows you how to configure and send emails using cURL with Mailtrap.
+Mailtrap can be integrated with cURL for email sending via SMTP or email API.
 
 Before we start, you'll need to:
 
@@ -35,6 +35,6 @@ Once you copy the script, make sure to insert your Mailtrap API token in the `Au
 
 **Note**: To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
 
-## Next Steps
+## Next steps
 
 After setting up cURL integration, you can send test emails and monitor delivery through your Mailtrap dashboard to ensure proper configuration.
