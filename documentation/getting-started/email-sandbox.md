@@ -38,7 +38,7 @@ Learn how to inspect and debug emails with sandbox functionality.
 {% step %}
 **Navigate to Email Sandbox**
 
-Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking Sandboxes, then My Sandbox.
+Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking **Sandboxes**, then My **Sandbox**.
 
 <figure><img src="../.gitbook/assets/getting-started-sandbox-navigation.png" alt="Sandboxes page showing My Project with My Inbox sandbox highlighted"><figcaption></figcaption></figure>
 
@@ -46,7 +46,7 @@ Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking Sandboxes, t
 By default, we created an sandbox for you and called it "My Sandbox". The Edit button on the far right allows you to rename either a project or a sandbox.
 {% endhint %}
 
-Once inside "My Sandbox", copy the credentials from the "Integration" tab to your clipboard.
+Once inside My **Sandbox**, copy the credentials from the **Integration** tab to your clipboard.
 
 <figure><img src="../.gitbook/assets/getting-started-sandbox-smtp-credentials.png" alt="Integration tab showing SMTP credentials including host, port, username, password and auth settings" width="563"><figcaption></figcaption></figure>
 
@@ -74,7 +74,7 @@ Lastly, you can automate the QA flow with [API](https://api-docs.mailtrap.io/doc
 
 Mailtrap is a collaborative tool. Starting from the [Team Plan](https://mailtrap.io/billing/plans/testing), you can create different sandboxes and projects and share them with your colleagues.
 
-That allows you to organize all testing-related workflows among different people, from user management with different permissions to SSO.
+This allows you to organize all testing-related workflows among different people, from user management with different permissions to SSO.
 {% endstep %}
 {% endstepper %}
 
