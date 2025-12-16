@@ -4,7 +4,7 @@ description: >-
   using Make.com (formerly Integromat) without writing any code.
 ---
 
-# Make.com Integration
+# Make.com
 
 <a href="https://www.make.com/en/integrations/mailtrap" class="button primary">View on Make.com Marketplace</a>
 
@@ -30,7 +30,7 @@ Before you start, you'll need:
 * A [Make.com account](https://www.make.com/en/register)
 * A [Mailtrap account](https://mailtrap.io/register/signup)
 * [Verified sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) in Mailtrap
-* [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
+* [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
 
 ### Connecting Mailtrap to Make.com
 

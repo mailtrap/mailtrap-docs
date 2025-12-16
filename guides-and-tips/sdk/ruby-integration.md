@@ -4,11 +4,9 @@ description: >-
   SMTP, or RESTful API
 ---
 
-# Ruby Integration
+# Ruby
 
 <a href="https://github.com/mailtrap/mailtrap-ruby" class="button primary">Mailtrap Ruby SDK on GitHub</a>
-
-## Ruby Integration
 
 ### Overview
 

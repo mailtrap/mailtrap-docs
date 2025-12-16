@@ -5,7 +5,7 @@ description: >-
   to send transactional emails and manage contacts.
 ---
 
-# Lovable and Mailtrap
+# Lovable
 
 Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
 
@@ -161,7 +161,7 @@ And here it is in the Gmail inbox, which was set in `MAILTRAP_MY_EMAIL`.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-And here it is in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
+And here it is in the [Mailtrap Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs).
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure></div>
 

@@ -4,11 +4,9 @@ description: >-
   sending using SDK, SMTP, and RESTful API.
 ---
 
-# Python Integration
+# Python
 
 <a href="https://github.com/mailtrap/mailtrap-python" class="button primary">Mailtrap Python SDK on GitHub</a>
-
-## Python Integration
 
 ### Overview
 

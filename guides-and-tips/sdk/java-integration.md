@@ -4,11 +4,9 @@ description: >-
   RESTful API for email sending.
 ---
 
-# Java Integration
+# Java
 
 <a href="https://github.com/mailtrap/mailtrap-java" class="button primary">Mailtrap Java SDK on GitHub</a>
-
-## Java Integration
 
 ### Overview
 

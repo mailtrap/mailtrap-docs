@@ -4,11 +4,9 @@ description: >-
   reliable email sending
 ---
 
-# PHP Integration
+# PHP
 
 <a href="https://github.com/mailtrap/mailtrap-php" class="button primary">Mailtrap PHP SDK on GitHub</a>
-
-## PHP Integration
 
 ### Overview
 

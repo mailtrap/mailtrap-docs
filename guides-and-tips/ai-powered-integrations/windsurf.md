@@ -5,7 +5,7 @@ description: >-
   editor using Cascade and the Mailtrap MCP server.
 ---
 
-# Windsurf and Mailtrap
+# Windsurf
 
 With the Windsurf Mailtrap integration, you can send emails directly from Windsurf using the Cascade AI assistant and simple prompts.
 
@@ -103,6 +103,6 @@ The email will arrive in your inbox:
 
 ### Check Mailtrap Email Logs
 
-You can also verify the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab of your Mailtrap dashboard:
+You can also verify the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab of your Mailtrap dashboard:
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-windsurf-7.png" alt="" width="375"></div>

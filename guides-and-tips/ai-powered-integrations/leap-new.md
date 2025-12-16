@@ -5,7 +5,7 @@ description: >-
   to send emails.
 ---
 
-# Leap.new and Mailtrap
+# Leap.new
 
 This guide shows you how to integrate Mailtrap with your Leap.new application to send emails.
 
@@ -36,7 +36,7 @@ To do this, open **Settings** and navigate to **Secrets**, and click on the **Ad
 
 Once there, use the **New secret** button to add the following two variables:
 
-* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens), which you can create at any time in your account dashboard.
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens), which you can create at any time in your account dashboard.
 * `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you've added after creating an account.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-secrets-settings.png" alt="Leap.new Settings showing Secrets configuration with MAILTRAP variables" width="563"><figcaption><p>Leap.new Secrets settings</p></figcaption></figure></div>
@@ -63,7 +63,7 @@ Finally, to test your configuration, fill out the form and hit the **Send** butt
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-email-received.png" alt="Gmail inbox showing received email from Leap.new contact form" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
 
-You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
+You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-email-logs.png" alt="Mailtrap Email Logs showing the sent email details" width="563"><figcaption><p>Email in Mailtrap Email Logs</p></figcaption></figure></div>
 {% endstep %}

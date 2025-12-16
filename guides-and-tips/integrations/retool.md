@@ -4,7 +4,7 @@ description: >-
   to send emails via REST API.
 ---
 
-# Retool Integration
+# Retool
 
 This guide shows you how to integrate Mailtrap with your Retool application to send emails.
 
@@ -31,7 +31,7 @@ Then, configure the resource:
 
 * Enter your desired resource name
 * Add the Mailtrap root URL: `https://send.api.mailtrap.io/`
-* Choose **Bearer** for authentication and add your [Mailtrap API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
+* Choose **Bearer** for authentication and add your [Mailtrap API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
 
 {% hint style="info" %}
 This URL lets you use other endpoints later on depending on your use case (i.e., create contacts). If you plan on sending mass emails, the root URL should be `https://bulk.api.mailtrap.io/`
@@ -93,7 +93,7 @@ Here it is in the Gmail inbox:
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/retool-email-received.png" alt="Gmail inbox showing received email from Retool integration" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
 
-And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard:
+And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard:
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/retool-email-logs.png" alt="Mailtrap Email Logs showing sent email details from Retool" width="563"><figcaption><p>Email in Mailtrap Email Logs</p></figcaption></figure></div>
 {% endstep %}

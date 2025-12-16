@@ -5,7 +5,7 @@ description: >-
   emails directly from Claude using Model Context Protocol.
 ---
 
-# Claude and Mailtrap
+# Claude
 
 Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
 
@@ -88,7 +88,7 @@ Then, it should successfully send a new email and provide you with the propertie
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="" width="375"></div>
 
-And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
+And here it is in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-claude-7.png" alt="" width="563"></div>
 {% endstep %}

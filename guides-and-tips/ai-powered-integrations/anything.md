@@ -5,7 +5,7 @@ description: >-
   to send emails.
 ---
 
-# Anything and Mailtrap
+# Anything
 
 This guide shows you how to integrate Mailtrap with your Anything application to send emails.
 
@@ -40,7 +40,7 @@ You need to add the following two secrets:
 
 **MAILTRAP\_API\_TOKEN**
 
-This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens), which you can create at any time in your account dashboard.
+This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens), which you can create at any time in your account dashboard.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-api-token-secret.png" alt="Anything secret configuration showing MAILTRAP_API_TOKEN secret" width="450"><figcaption><p>API Token secret</p></figcaption></figure></div>
 
@@ -72,7 +72,7 @@ Finally, to test your configuration, fill out the form and hit the **Send** butt
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-email-received.png" alt="Gmail inbox showing received email from Anything contact form" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
 
-You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab in the Mailtrap dashboard.
+You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-email-logs.png" alt="Mailtrap Email Logs showing the sent email details" width="563"><figcaption><p>Email in Mailtrap Email Logs</p></figcaption></figure></div>
 {% endstep %}

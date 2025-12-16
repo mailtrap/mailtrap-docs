@@ -4,11 +4,9 @@ description: >-
   RESTful API for email sending.
 ---
 
-# Node.js Integration
+# Node.js
 
 <a href="https://github.com/mailtrap/mailtrap-nodejs" class="button primary">Mailtrap Node.js SDK on GitHub</a>
-
-## Node.js Integration
 
 ### Overview
 

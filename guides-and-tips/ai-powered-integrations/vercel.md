@@ -5,7 +5,7 @@ description: >-
   on Vercel to enable email sending capabilities.
 ---
 
-# Vercel and Mailtrap
+# Vercel
 
 [Mailtrap](https://mailtrap.io/) is an email-sending solution for developer and product teams. It is focused on fast delivery and high inboxing rates for transactional and promotional emails, providing a highly customizable API and 24/7 technical support.
 
@@ -28,7 +28,7 @@ If you don't already have an API key, click **Add Token** and assign the desired
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-2.png" alt="" width="375"></div>
 
-Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens).
+Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens).
 {% endstep %}
 
 {% step %}

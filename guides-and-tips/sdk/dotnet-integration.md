@@ -4,11 +4,9 @@ description: >-
   using SDK, SMTP, or RESTful API.
 ---
 
-# .NET Integration
+# .NET
 
 <a href="https://github.com/mailtrap/mailtrap-dotnet" class="button primary">Mailtrap .NET SDK on GitHub</a>
-
-## .NET Integration
 
 ### Overview
 

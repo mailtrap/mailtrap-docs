@@ -5,7 +5,7 @@ description: >-
   send emails directly from the editor with simple AI prompts.
 ---
 
-# VS Code and Mailtrap
+# VS Code
 
 With the VS Code Mailtrap integration, you can send emails directly from Visual Studio Code using simple AI prompts powered by GitHub Copilot.
 
@@ -110,7 +110,7 @@ The email will be sent successfully, and Copilot will confirm the action:
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-6.png" alt="GitHub Copilot success message confirming that the email to John was sent successfully" width="563"></div>
 
-Verify the email in your Mailtrap dashboard by checking the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs) tab:
+Verify the email in your Mailtrap dashboard by checking the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab:
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-7.png" alt="Mailtrap Email Logs tab showing the Hi John email with delivery details and email status" width="563"></div>
 {% endstep %}

@@ -5,7 +5,7 @@ description: >-
   emails and manage contacts using AI-powered development.
 ---
 
-# Bolt.new and Mailtrap
+# Bolt.new
 
 [Mailtrap](https://mailtrap.io/) is an email-sending solution for developer and product teams. It is focused on fast delivery and high inboxing rates for transactional and promotional emails, providing a highly customizable API and 24/7 technical support.
 
@@ -23,7 +23,7 @@ Make sure to adjust the prompts to your specific needs—this is an exemplary tu
 Before you begin, ensure you have:
 
 * A verified sending domain in Mailtrap (see how to [verify a sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain))
-* An Admin API token with access to your domain, Contacts, and Email API (see how to [create an API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens))
+* An Admin API token with access to your domain, Contacts, and Email API (see how to [create an API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens))
 * Your **Account ID** (go to Mailtrap Settings, then select Account Settings)
 * (Optional) **Custom fields** for storing extra contact data (see [creating custom fields](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing/contacts-management/overview))
 * (Optional) **List IDs** for assigning contacts to lists (see Managing lists)

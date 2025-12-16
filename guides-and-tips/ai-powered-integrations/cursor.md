@@ -5,7 +5,7 @@ description: >-
   promotional emails directly from your AI-powered development environment.
 ---
 
-# Cursor and Mailtrap
+# Cursor
 
 Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
 
@@ -123,7 +123,7 @@ Lastly, Cursor AI will notify you when it successfully delivers the email.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-8.png" alt="" width="375"></div>
 
-And here is the generated message in the Mailtrap [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/statistics/email-logs).
+And here is the generated message in the Mailtrap [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs).
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-9.png" alt="Mailtrap Email Logs dashboard showing delivered email with Hi John subject and metadata" width="563"></div>
 {% endstep %}

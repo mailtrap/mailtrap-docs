@@ -2,7 +2,7 @@
 description: Learn how to send emails in Astro using Mailtrap's Email API.
 ---
 
-# Astro Integration
+# Astro
 
 ## Overview
 
@@ -13,7 +13,7 @@ This guide explains how to integrate Mailtrap with your Astro project to send em
 Before you start, make sure you have:
 
 * [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/privacy-and-security/api-tokens)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
 
 ## Send emails using Astro and Mailtrap
 
