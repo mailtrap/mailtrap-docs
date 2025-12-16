@@ -16,39 +16,31 @@ Using the Mailtrap integration with Zapier, you can automate email sending by co
 
 {% stepper %}
 {% step %}
-**Log in to Zapier**
-
 Log in to your [Zapier account](https://zapier.com/sign-up) or create a new account.
 {% endstep %}
 
 {% step %}
-**Navigate to Apps**
-
 Navigate to **Apps** in the left-hand side menu.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-1.png" alt="Zapier dashboard with Apps menu item highlighted in left sidebar navigation" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-1.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Add connection**
-
 Click **Add connection**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-2.png" alt="Zapier Apps page with Add connection button highlighted in top right corner" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-2.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Search for Mailtrap**
-
 Type _Mailtrap_ in the **App name** search bar.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-3.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Enter API key**
+Enter your Mailtrap API key to allow Zapier to access your account.&#x20;
 
-Enter your Mailtrap API key to allow Zapier to access your account. Note: This should be the token for the domain you've added and verified in Mailtrap. You'll find it in the **Settings** → **API Tokens** menu.
+**Note**: This should be the token for the domain you've added and verified in Mailtrap. You'll find it in the **Settings** → **API Tokens** menu.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-4.png" alt="" width="375"></div>
 {% endstep %}
@@ -64,40 +56,30 @@ A Zap is a workflow connecting multiple apps that consists of a trigger (an even
 
 {% stepper %}
 {% step %}
-**Describe your workflow**
-
 Describe the workflow you want to create to Copilot.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-5.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
-**Add steps from Copilot**
-
 Add some or all the steps created by Copilot to the Zap or continue to prompt the chatbot to add or replace steps.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-6.png" alt="Zapier workflow builder showing copilot suggestion with trigger and action step configuration panels" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-6.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Configure email fields**
-
 Configure the required fields for sending an email. The from email should contain the same sending domain you added and verified in Mailtrap.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-7.png" alt="" width="188"></div>
 {% endstep %}
 
 {% step %}
-**Send test email**
-
 Send a test email to Mailtrap (optional).
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-8.png" alt="" width="188"></div>
 {% endstep %}
 
 {% step %}
-**Publish the Zap**
-
 Publish the Zap.
 {% endstep %}
 {% endstepper %}
@@ -106,8 +88,6 @@ Publish the Zap.
 
 {% stepper %}
 {% step %}
-**Select trigger event**
-
 Select an event (trigger) to start your Zap.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-9.png" alt="" width="375"></div>
@@ -118,38 +98,28 @@ Zapier's app directory contains 7,000+ apps with triggers and actions available 
 {% endstep %}
 
 {% step %}
-**Select Mailtrap action**
-
-Select **Mailtrap** as the action for your Zap to run. Seach for the Mailtrap.
+Search for and select **Mailtrap** as the action for your Zap to run.
 {% endstep %}
 
 {% step %}
-**Select Send Email event**
-
 Select **Send Email** as the action event.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-12.png" alt="" width="188"></div>
 {% endstep %}
 
 {% step %}
-**Configure email fields**
-
 Configure the required fields for sending an email.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-7.png" alt="" width="188"></div>
 {% endstep %}
 
 {% step %}
-**Send test email**
-
 Send a test email to Mailtrap (optional).
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-8.png" alt="" width="188"></div>
 {% endstep %}
 
 {% step %}
-**Publish the Zap**
-
 Publish the Zap.
 {% endstep %}
 {% endstepper %}
@@ -158,30 +128,24 @@ Publish the Zap.
 
 {% stepper %}
 {% step %}
-**Navigate to Apps**
-
 Navigate to **Apps** in the left-hand side menu.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-1.png" alt="Zapier dashboard with Apps menu item highlighted in left sidebar navigation" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-1.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Open Mailtrap connection**
-
 Click on your Mailtrap connection.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-16.png" alt="Zapier Apps page showing Mailtrap with one connection and one associated Zap" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-16.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-**Delete connection**
-
 Click the three-dot menu and then **Delete** in the dropdown menu. Using the same menu, you can edit the connection name, reconnect, test the connection, and view Zaps created using the connection.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-integration-with-zapier-17.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
-## Next Steps
+## Next steps
 
 After setting up your Mailtrap and Zapier integration, you can create unlimited Zaps to automate your email workflows and connect your favorite apps seamlessly.
