@@ -39,35 +39,35 @@ For a complete guide on using Handlebars with email templates, see [Handlebars G
 
 {% stepper %}
 {% step %}
-Navigate to the Templates menu
+Navigate to the **Templates** menu.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-Click the Create New Template button.
+Click the **Create New Template** button.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-Click the drop-down menu to select one of your domains, enter the Template name, Subject, and Category, and click Continue.
+Click the drop-down menu to select one of your domains, enter the **Template name**, **Subject**, and **Category**, and click **Continue**.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-Choose the Drag & Drop Editor to build the template without coding, or select HTML Editor if you prefer to write/modify the code.
+Choose the **Drag & Drop Editor** to build the template without coding, or select **HTML Editor** if you prefer to write/modify the code.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-Create/modify the design and click Finish.
+Create/modify the design and click **Finish**.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (18).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-The main Templates menu features all your saved templates. To quickly access a saved template, just click on it within the main menu.
+The main **Templates** menu features all your saved templates. To quickly access a saved template, just click on it within the main menu.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (19).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
