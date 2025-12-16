@@ -1,8 +1,8 @@
 ---
 title: Mailtrap MCP Server
 description: >-
-  Automate email workflows from AI IDEs like VS Code, Cursor, or Claude using
-  Mailtrap MCP Server with simple prompts.
+  Automate email workflows from AI IDEs like VS Code or send emails send emails
+  with simple prompts from AI assistants, such as Claude.
 ---
 
 # Mailtrap MCP Server
@@ -11,9 +11,9 @@ Mailtrap MCP Server lets you automate email workflows from your AI IDE (e.g., VS
 
 The MCP server provides tools for:
 
-* **Sending emails** – Send transactional emails through Mailtrap Email API
-* **Sandbox testing** – Send test emails to your sandbox inbox, retrieve and view messages
-* **Template management** – Create, list, update, and delete email templates
+* **Sending emails** – Send transactional emails through Mailtrap Email API.
+* **Sandbox testing** – Send test emails to your sandbox, retrieve and view messages.
+* **Template management** – Create, list, update, and delete email templates.
 
 {% embed url="https://www.youtube.com/watch?v=casBpY6nAmw" %}
 
@@ -27,7 +27,7 @@ Mailtrap MCP server is implemented as a Node.js command line utility, so please 
 
 For Claude Desktop, Mailtrap is available as a Desktop extension in the Connectors catalog. Open Claude Desktop settings, go to **Connectors**, select **Desktop extensions**, and search for "Mailtrap".
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/claude-desktop-mailtrap-connector.png" alt="Claude Desktop Connectors catalog showing Mailtrap - Send Emails extension" width="563"><figcaption><p>Mailtrap in Claude Desktop Connectors</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/claude-desktop-mailtrap-connector.png" alt="Claude Desktop Connectors catalog showing Mailtrap - Send Emails extension" width="563"><figcaption></figcaption></figure></div>
 
 For manual configuration and available tools documentation, visit the official GitHub repository.
 
@@ -37,9 +37,9 @@ For manual configuration and available tools documentation, visit the official G
 
 During installation, you'll need to provide your Mailtrap credentials:
 
-**API Token** – Navigate to **Sending Domains** > **Integration** > **API** in your Mailtrap account.
+**API Token** **and** **From email**– Navigate to **Sending Domains** > **Integration** > **API** in your Mailtrap account.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="Mailtrap Sending Domains Integration page showing API credentials with Host and Api Token fields" width="563"><figcaption><p>Mailtrap API credentials</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="Mailtrap Sending Domains Integration page showing API credentials with Host and Api Token fields" width="563"><figcaption></figcaption></figure></div>
 
 **Account ID** (for template management) – Go to **Settings** > **Account Settings**.
 
