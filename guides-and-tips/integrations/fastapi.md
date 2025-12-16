@@ -1,12 +1,10 @@
 ---
-description: >-
-  Learn how to integrate Mailtrap with FastAPI to send emails using the Email
-  API.
+description: Learn how to integrate Mailtrap with FastAPI to send emails via Email API.
 ---
 
 # FastAPI Integration
 
-This guide shows you how to integrate Mailtrap with FastAPI and send emails using the Email API.
+Mailtrap can be integrated with FastAPI apps and projects for email sending, find out how to do it.&#x20;
 
 Before we start, you'll need to:
 
