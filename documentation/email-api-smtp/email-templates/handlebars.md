@@ -32,18 +32,18 @@ The main benefit of using this syntax is that you don't have to update your code
 
 ### Supported Handlebars features
 
-Handlebars supports a bunch of features, not just the variable replacement. Mailtrap templates support the standard set of Helpers:
+Handlebars supports a bunch of features, not just the variable replacement. Mailtrap templates support the standard set of helpers:
 
-* **Basic Replacement**
+* **Basic replacement**
 * **Conditional statements**: `{{#if}}`, `{{#unless}}`, `{{#each}}`, and `{{#with}}`
 
 The following sections give you examples for each of the helpers including code blocks, mock JSON data, and HTML output.
 
-### Basic Replacement
+### Basic replacement
 
 The basic usage is just to render the values you pass. You can use objects and refer to variables like `{{object_name.variable}}`.
 
-If the variable is present in the data you pass – it won't be rendered.
+If the variable is present in the data you pass, it won't be rendered.
 
 If you want to do a replacement with HTML, use triple brackets `{{{value_with_html}}}`.
 
@@ -296,7 +296,7 @@ In the example below, the `{{else}}` clause only gets executed if there's no val
 <p>No user found</p>
 ```
 
-### Example: Order Confirmation Template
+### Example: Order confirmation template
 
 The following example contains the majority of Handlebars helpers explained above as well as mock JSON data, and HTML output.
 
@@ -428,35 +428,35 @@ The following example contains the majority of Handlebars helpers explained abov
 </html>
 ```
 
-### Testing Templates with Handlebars
+### Testing templates with Handlebars
 
-In the quick tutorial below, we assume you've activated both Mailtrap Email Sandbox and Email Sending.
+In the quick tutorial below, we assume you've activated both Email Sandbox and Email API/SMTP.
 
 {% stepper %}
 {% step %}
-Navigate to Email Sending > Email Templates in the menu on the left.
+Navigate to **Email API/SMTP** > **Email Templates** in the menu on the left.
 {% endstep %}
 
 {% step %}
-Select your email template and click the Integration tab.
+Select your email template and click the **Integration** tab.
 {% endstep %}
 
 {% step %}
-Copy the code under the Integration tab (cURL, or any other based on your preference).
+Copy the code under the **Integration** tab (cURL, or any other based on your preference).
 
-To test the template, you only need to change the Sending API endpoint ([send.api.mailtrap.io](http://send.api.mailtrap.io/)) to Testing API ([sandbox.api.mailtrap.io](http://sandbox.api.mailtrap.io/)) and add the `inbox_id` to the end of the endpoint URL.
+To test the template, you only need to change the Sending API endpoint ([send.api.mailtrap.io](http://send.api.mailtrap.io/)) to Sandbox API ([sandbox.api.mailtrap.io](http://sandbox.api.mailtrap.io/)) and add the `inbox_id` to the end of the endpoint URL.
 
-<figure><img src="../../.gitbook/assets/template-stream-options.png" alt="Integration page showing Transactional Stream and Bulk Stream options with Integrate buttons highlighted by red arrows"><figcaption><p>Copy integration code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-stream-options.png" alt="Integration page showing Transactional Stream and Bulk Stream options with Integrate buttons highlighted by red arrows"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Run the template test and check the associated inbox to preview the template under sandbox.
 
-<figure><img src="../../.gitbook/assets/template-test-email-received.png" alt="Email Testing sandbox showing received test email with template content"><figcaption><p>Test email received in sandbox</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template-test-email-received.png" alt="Email Testing sandbox showing received test email with template content"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-**Important Notes:**
+**Important notes:**
 
 * Pay attention that the `Authorization: Bearer` (API token) token is related to the Inbox you're targeting. You can check (and copy-paste) the token under Settings > API Tokens.
 * Your `inbox_id` is in the Inbox URL.
