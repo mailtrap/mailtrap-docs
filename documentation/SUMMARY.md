@@ -123,7 +123,7 @@
 * [Security & Privacy](privacy-and-security/README.md)
   * [Two-Factor Authentication](account-and-billing/2fa.md)
   * [API Tokens](account-and-organization/privacy-and-security/api-tokens.md)
-  * [Copy of API Tokens](account-and-organization/privacy-and-security/api-tokens-1.md)
+  * [API Tokens](account-and-organization/privacy-and-security/api-tokens-1.md)
   * [Activity Log](privacy-and-security/activity-log.md)
   * [GDPR Compliance](privacy-and-security/gdpr-compliance.md)
   * [ISO Certification](privacy-and-security/iso-certification.md)
