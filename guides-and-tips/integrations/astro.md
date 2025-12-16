@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn how to send emails in Astro using Mailtrap's Email API with step-by-step
-  setup instructions.
+description: Learn how to send emails in Astro using Mailtrap's Email API.
 ---
 
 # Astro Integration
