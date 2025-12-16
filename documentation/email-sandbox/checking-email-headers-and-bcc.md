@@ -1,5 +1,5 @@
 ---
-description: Learn how to verify email headers including Subject, From, To, and Bcc fields
+description: Learn how to verify email headers including Subject, From, To, and Bcc fields.
 icon: memo
 ---
 
