@@ -1,6 +1,6 @@
 ---
 title: Sharing sandboxes
-description: Share individual sandboxes with team members for collaborative email testing
+description: Share individual sandboxes with team members for collaborative email testing.
 icon: handshake-simple
 ---
 
@@ -35,17 +35,17 @@ You can invite anyone, even if they don't have a Mailtrap account yet.
 3. Enter the email address of your team member.
 4. Choose the invitee's permission level (e.g. Sandbox Viewer or Admin)
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-access-rights.png" alt="Access Rights tab showing interface to add team members and assign permissions"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-access-rights.png" alt=""></div>
 
 Once you click the **Add** button, the email invitation will be sent to the specified email address. The recipient should accept the email invitation.
 
-But if a person is already in your account the sandbox will immediately become visible to them.
+But if a person is already in your account, the sandbox will immediately become visible to them.
 
-Alternatively, you can use the **User Management** feature. Select it and click the **Add Member** button. Type the user's email address and tick the box under the permission level for an sandbox you'd like to share.
+Alternatively, you can use the **User Management** feature. Select it and click the **Add Member** button. Type the user's email address and tick the box under the permission level for a sandbox you'd like to share.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-sharing-sandboxes-user-management.png" alt="" width="375"></div>
 
-And yes, you can share multiple sandboxes at the same time. To finalize sharing, hit Send Invite and you're good to go.
+And yes, you can share multiple sandboxes at the same time. To finalize sharing, hit **Send Invite** and you're good to go.
 
 ### Sandboxes shared with you by others
 
