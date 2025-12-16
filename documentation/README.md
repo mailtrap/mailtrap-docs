@@ -18,11 +18,11 @@ Get started quickly with our official SDKs for your favorite programming languag
 
 {% columns %}
 {% column %}
-**Get Started in 5 Minutes**
+**Get started in 5 Minutes**
 
-Setting up Mailtrap should be the easiest part of your email journey. With clear endpoints, copy-paste-ready examples, and instant authentication, you'll send your first email in minutes—not hours.
+Setting up Mailtrap should be the easiest part of your email journey. With clear endpoints, copy-paste-ready examples, and instant authentication, you'll send your first email in minutes — not hours.
 
-No guesswork, no complexity—just your first successful email, fast.
+No guesswork, no complexity — just your first successful email, fast.
 
 [Get started](getting-started/email-api-smtp.md) [API reference](https://api-docs.mailtrap.io/)
 {% endcolumn %}
@@ -48,13 +48,13 @@ await client.send({
 {% endcolumn %}
 {% endcolumns %}
 
-## Quick Start Guides
+## Quick start guides
 
 Choose your product and get up and running quickly with our step-by-step guides.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-paper-plane">:paper-plane:</i> <strong>Email API/SMTP</strong></td><td><strong>Send Production Emails</strong></td><td>Deliver transactional emails reliably with our API or SMTP service. Get detailed analytics and ensure high deliverability.</td><td><a href="getting-started/email-api-smtp.md">email-api-smtp.md</a></td><td></td></tr><tr><td><i class="fa-spider">:spider:</i> <strong>Email Sandbox</strong></td><td><strong>Test Before Sending</strong></td><td>Catch and inspect emails in a safe testing environment. Preview, analyze, and debug emails before they reach real inboxes.</td><td><a href="getting-started/email-sandbox.md">email-sandbox.md</a></td><td></td></tr><tr><td><i class="fa-headset">:headset:</i> <strong>Email Marketing</strong></td><td><strong>Run Email Campaigns</strong></td><td>Design, send, and track marketing campaigns. Manage subscribers and analyze campaign performance.</td><td><a href="getting-started/email-marketing.md">email-marketing.md</a></td><td></td></tr></tbody></table>
 
-## Explore Features
+## Explore features
 
 Discover the full range of features and capabilities across our email platform.
 
@@ -90,13 +90,13 @@ Discover the full range of features and capabilities across our email platform.
 {% endcolumn %}
 {% endcolumns %}
 
-## Guides & Integrations
+## Guides & integrations
 
 Learn how to integrate Mailtrap with your favorite tools and migrate from other services.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">Integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/dns-setup">DNS Setup</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td><strong>Third-party Tools</strong></td><td>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">Integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td><strong>Domain Configuration</strong></td><td>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</td><td><a href="/broken/spaces/gkNigAKiqQtQub1GOdjY/pages/PYvvoNNkv0cO4n3dZeGg">Broken link</a></td></tr></tbody></table>
 
-## Ready to Get Started?
+## Ready to get started?
 
 {% hint style="info" %}
 **New to Mailtrap?** Start with our [Email Sandbox](getting-started/email-sandbox.md) to test your emails in a safe environment, then move to [Email API/SMTP](getting-started/email-api-smtp.md) for production sending.
