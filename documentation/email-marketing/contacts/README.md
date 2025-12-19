@@ -17,7 +17,7 @@ Mailtrap Contacts allows you to upload and store your contacts on the Mailtrap p
 
 ## Getting Started
 
-<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Overview</strong></td><td><em>Filter, search, edit, and perform bulk actions on your contact database.</em></td><td><a href="../contacts-management/overview.md">overview.md</a></td></tr><tr><td><strong>Custom Fields</strong></td><td><em>Define custom variables like name, date of birth, or location to personalize your campaigns.</em></td><td><a href="../contacts-management/custom-fields.md">custom-fields.md</a></td></tr><tr><td><strong>Import Contacts</strong></td><td><em>Bulk</em> <em>contacts import from spreadsheets, sync via API, or use our integrations.</em></td><td><a href="../contacts-management/import-contacts.md">import-contacts.md</a></td></tr><tr><td><strong>Lists</strong></td><td><em>Static groups of contacts that help you organize your audience for targeted email campaigns</em></td><td><a href="lists.md">lists.md</a></td></tr><tr><td><strong>Segments</strong></td><td><em>Dynamic groups of contacts that automatically update based on criteria you define</em></td><td><a href="segments.md">segments.md</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Overview</strong></td><td><em>Filter, search, edit, and perform bulk actions on your contact database.</em></td><td><a href="overview.md">overview.md</a></td></tr><tr><td><strong>Custom Fields</strong></td><td><em>Define custom variables like name, date of birth, or location to personalize your campaigns.</em></td><td><a href="custom-fields.md">custom-fields.md</a></td></tr><tr><td><strong>Import Contacts</strong></td><td><em>Bulk</em> <em>contacts import from spreadsheets, sync via API, or use our integrations.</em></td><td><a href="import-contacts.md">import-contacts.md</a></td></tr><tr><td><strong>Lists</strong></td><td><em>Static groups of contacts that help you organize your audience for targeted email campaigns</em></td><td><a href="lists.md">lists.md</a></td></tr><tr><td><strong>Segments</strong></td><td><em>Dynamic groups of contacts that automatically update based on criteria you define</em></td><td><a href="segments.md">segments.md</a></td></tr></tbody></table>
 
 ## Contact management workflow
 
@@ -90,13 +90,13 @@ Seamlessly integrate with your existing workflow.
 ## Important considerations
 
 {% hint style="warning" %}
-**Consent requirements:**&#x20;
+**Consent requirements:**
 
 You must have explicit consent from recipients before adding them to marketing campaigns. Mailtrap requires confirmation of consent during the import process.
 {% endhint %}
 
 {% hint style="info" %}
-**Subscription management:**&#x20;
+**Subscription management:**
 
 Once a contact unsubscribes, they cannot be manually resubscribed. They must sign up for your list again to receive marketing emails.
 {% endhint %}

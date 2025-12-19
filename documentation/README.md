@@ -83,10 +83,10 @@ Discover the full range of features and capabilities across our email platform.
 <i class="fa-headset">:headset:</i> **Email Marketing**
 
 * [Campaign Management](email-marketing/campaigns/)
-* [Contacts Management](email-marketing/overview-1/)
+* [Contacts Management](email-marketing/contacts/)
 * [Email Templates](email-marketing/email-templates.md)
 * [Statistics](email-marketing/statistics.md)
-* [Segments](email-marketing/overview-1/segments.md)
+* [Segments](email-marketing/contacts/segments.md)
 {% endcolumn %}
 {% endcolumns %}
 
