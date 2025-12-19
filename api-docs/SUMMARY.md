@@ -3,6 +3,7 @@
 * [API Reference](README.md)
 * [Authentication](authentication.md)
 * [Rate Limits](rate-limits.md)
+* [OpenAPI Specs](openapi-specs.md)
 
 ## Email API
 
