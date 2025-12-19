@@ -35,7 +35,7 @@ Clicking on the line number will take you to the **HTML Source** tab where you c
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-inspect-template-html-source.png" alt="" width="563"></div>
 
-To learn more about the HTML Check feature, refer to the [HTML Check article](../html-check.md).
+To learn more about the HTML Check feature, refer to the [HTML Check article](email-html.md).
 
 ### 3. Make sure that the HTML and TEXT versions of your message match
 

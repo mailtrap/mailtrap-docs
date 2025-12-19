@@ -73,7 +73,7 @@ Discover the full range of features and capabilities across our email platform.
 <i class="fa-spider-black-widow">:spider-black-widow:</i> **Email Sandbox**
 
 * [Email Template Inspector](email-sandbox/testing/email-template.md)
-* [HTML Check](email-sandbox/html-check.md)
+* [HTML Check](email-sandbox/testing/email-html.md)
 * [Deliverability Tests](email-sandbox/testing/spam-blacklist-reports.md)
 * [Sandbox API](email-sandbox/sandbox-api-integration.md)
 * [Team Collaboration](email-sandbox/sharing-sandboxes.md)

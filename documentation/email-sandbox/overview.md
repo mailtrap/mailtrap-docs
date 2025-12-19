@@ -263,7 +263,7 @@ Pre-configured for popular frameworks:
 **Testing Tools**
 
 * [Email Inspector](testing/email-template.md)
-* [HTML Check](html-check.md)
+* [HTML Check](testing/email-html.md)
 * [Deliverability Tests](testing/spam-blacklist-reports.md)
 * [Bounce Emulator](testing/bounce-rate.md)
 {% endcolumn %}
