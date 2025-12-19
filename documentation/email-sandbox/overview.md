@@ -262,7 +262,7 @@ Pre-configured for popular frameworks:
 {% column %}
 **Testing Tools**
 
-* [Email Inspector](inspect-your-email-template.md)
+* [Email Inspector](testing/email-template.md)
 * [HTML Check](html-check.md)
 * [Deliverability Tests](testing/spam-blacklist-reports.md)
 * [Bounce Emulator](testing/bounce-rate.md)
@@ -280,5 +280,5 @@ Pre-configured for popular frameworks:
 
 1. [**Create your first sandbox**](setup/) - Get started in minutes
 2. [**Integrate with your app**](setup/sandbox-smtp-integration.md) - Configure SMTP settings
-3. [**Test email templates**](inspect-your-email-template.md) - Validate your emails
+3. [**Test email templates**](testing/email-template.md) - Validate your emails
 4. [**Share with team**](sharing-sandboxes.md) - Collaborate on testing

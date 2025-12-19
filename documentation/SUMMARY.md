@@ -67,7 +67,7 @@
   * [API Tokens](email-sandbox/setup/api-tokens.md)
   * [Email Address per Sandbox](email-sandbox/email-address-per-sandbox.md)
 * [Testing Features](email-sandbox/testing/README.md)
-  * [Email Template Inspector](email-sandbox/inspect-your-email-template.md)
+  * [Email Template Inspector](email-sandbox/testing/email-template.md)
   * [HTML Check](email-sandbox/html-check.md)
   * [Email Headers and Bcc](email-sandbox/checking-email-headers-and-bcc.md)
   * [Spam & Blacklist reports](email-sandbox/testing/spam-blacklist-reports.md)
