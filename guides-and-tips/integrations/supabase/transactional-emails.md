@@ -124,7 +124,7 @@ You can also integrate Mailtrap SMTP with Supabase manually.&#x20;
 
 * Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and select your project.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-4.png" alt="" width="375"></div>
+<figure><img src="../../.gitbook/assets/supabase and mailtrap integration.png" alt=""><figcaption></figcaption></figure>
 
 * Click on **Authentication** → **SMTP settings**.
 
