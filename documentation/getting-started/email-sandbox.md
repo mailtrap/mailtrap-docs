@@ -84,4 +84,4 @@ This allows you to organize all testing-related workflows among different people
 * [HTML or RAW format preview](../email-sandbox/testing/email-template.md)
 * [HTML Check](../email-sandbox/html-check.md)
 * [Automatic Forwarding](../email-sandbox/automatic-email-forwarding.md) and [Manual Forwarding](../email-sandbox/manual-email-forwarding.md) to view emails in real sandboxes
-* [Test Bcc and email headers](../email-sandbox/checking-email-headers-and-bcc.md)
+* [Test Bcc and email headers](../email-sandbox/testing/email-headers-and-bcc.md)

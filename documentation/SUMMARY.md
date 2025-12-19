@@ -69,7 +69,7 @@
 * [Testing Features](email-sandbox/testing/README.md)
   * [Email Template Inspector](email-sandbox/testing/email-template.md)
   * [HTML Check](email-sandbox/html-check.md)
-  * [Email Headers and Bcc](email-sandbox/checking-email-headers-and-bcc.md)
+  * [Email Headers and Bcc](email-sandbox/testing/email-headers-and-bcc.md)
   * [Spam & Blacklist reports](email-sandbox/testing/spam-blacklist-reports.md)
   * [Bounce Emulator](email-sandbox/testing/bounce-rate.md)
   * [Load Testing](email-sandbox/testing/load-testing.md)

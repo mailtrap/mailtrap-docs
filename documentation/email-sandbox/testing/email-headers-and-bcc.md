@@ -10,7 +10,7 @@ icon: memo
 * **TO** (recipients) - To and Cc. When you send multiple emails and/or use "merge" functions, you should carefully check whether recipients are generated correctly.
 * **Bcc** - Blind copy, which is not a header, making it especially difficult to test. With Sandbox, you can check whether proper addresses are added (available starting from the [Team plan](https://mailtrap.io/pricing/)).
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-email-headers-bcc.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-email-headers-bcc.png" alt="" width="563"></div>
 
 You can perform all these checks in your Mailtrap sandbox. Open the message, and check the Subject, From, and To headers first. Then click **Show Headers** or go to the **Tech Info** tab directly. There, you will find the following information:
 
