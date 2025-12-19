@@ -17,18 +17,22 @@ Both plans are based on the plans' limits. For example, Email Sandbox plans give
 
 ### What happens if I hit the email limit in my plan?
 
-When you exhaust your Email API/SMTP plan's monthly sending volume, any additional emails you send are counted as overage and billed separately.
+When you exhaust your Email API/SMTP plan's monthly sending volume, any additional emails you send are counted as overage and billed separately.&#x20;
 
-The overage limit is the same as the sending volume. For example, if your plan includes 10K emails/month, you'll be able to send 10K emails as overage.
+Overage lets you send a limited number of extra emails beyond your plan’s monthly sending limit, giving you extra flexibility. Each plan sets a maximum on these additional emails since it's not intended to be used as an extended allowance.
 
-The overage bill is calculated and added to your invoice separately. For example, if you have a Basic 10K plan and you've sent 12K emails during the month, your invoice will include:
+The overage bill is calculated and added to your invoice separately. For example, if you have a Basic 10K plan and you sent 12K emails during the month, your invoice will include:
 
 * Basic 10K plan price;
-* Overage price for 2K additional emails.
+* Overage price for 2K additional emails.&#x20;
 
-The price for every additional 1,000 emails varies depending on the plan. You can check detailed information on our [pricing page](https://mailtrap.io/pricing/).
+The price for every additional 1,000 emails varies depending on the plan. You can check detailed information on [our pricing page](https://mailtrap.io/pricing/).&#x20;
 
-You'll get notified as you use 80%, 90%, and 100% of your overage limit. Once your overage limit is used up, further emails will be rejected.
+You’ll get notified via email as you use 80%, 90%, and 100% of your overage limit. Once your overage limit is used up, further emails will be rejected.&#x20;
+
+{% hint style="info" %}
+If you anticipate higher or recurring spikes in sending volume, consider upgrading to a higher plan or contact customer support for more information.
+{% endhint %}
 
 ### How is the overage calculated if I upgrade?
 
@@ -36,7 +40,7 @@ When you upgrade, you're billed the prorated amount, including the used overage 
 
 Let's take a look at an example:
 
-* Say, your regular billing date is the 10th of the month. Your current billing cycle is July 10th —  August 10th.&#x20;
+* Say, your regular billing date is the 10th of the month. Your current billing cycle is July 10th — August 10th.
 * You switched from the Basic 10K plan to the Business 100K plan on August 1st. By August 1st, you had sent 12K emails (10K as part of your plan and 2K as overage). Then, you sent 110K emails from August 1st to August 10th.
 
 The following would have happened:
