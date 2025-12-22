@@ -41,7 +41,7 @@ Sending automated emails via Supabase Edge Functions is not covered by this inte
 * Scroll to the **AI & Development** section (or search for "Supabase") and locate the **Supabase** card.
 * Click the **Integrate** button.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 12.49.46.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 12.49.46.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -49,11 +49,11 @@ Sending automated emails via Supabase Edge Functions is not covered by this inte
 
 * On the setup screen, click **Connect Supabase**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 12.50.24.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 12.50.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * Review the permissions for the access of your Supabase organizations and projects, and click **Authorize Mailtrap**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.08.34.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.08.34.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 **Write** and **Read** access is required to update configurations. Moreover, you can revoke the authorization at any time.
@@ -68,7 +68,7 @@ Once authorized, Mailtrap will load your available Supabase projects. Then, all 
 * Click the **Select a Supabase project** dropdown menu
 * Choose the specific project you wish to integrate (e.g., Test Integration).
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.12.29.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.12.29.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -77,7 +77,7 @@ Once authorized, Mailtrap will load your available Supabase projects. Then, all 
 * In the **Create an API token** section, use the dropdown menu to select the Mailtrap Domain you want to use for sending emails.
 * Click **Create Token**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.15.57.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.15.57.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 
 {% endstep %}
@@ -94,7 +94,7 @@ Define who the emails will appear to be coming from.
 
 You will see a confirmation message stating: "_Successfully configured Supabase SMTP_."
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.18.09.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.18.09.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -124,7 +124,7 @@ You can also integrate Mailtrap SMTP with Supabase manually.&#x20;
 
 * Open your Supabase [project dashboard](https://supabase.com/dashboard/projects) and select your project.
 
-<figure><img src="../../.gitbook/assets/supabase and mailtrap integration.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/supabase and mailtrap integration.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 * Click on **Authentication** → **SMTP settings**.
 
@@ -133,7 +133,7 @@ You can also integrate Mailtrap SMTP with Supabase manually.&#x20;
 * Click on **Emails** → **SMTP Settings** and enable the **Enable Custom SMTP** toggle. Update **Host**, **Port**, **Username**, and **Password** with your Mailtrap credentials, then click **Save changes**.
 * Update the **Sender details** and **SMTP provider settings** like in the screenshot below, and hit **Save changes**.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
 ### **Monitor your email performance**
 
