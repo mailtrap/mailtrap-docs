@@ -33,15 +33,9 @@ Install the SDK using NuGet Package Manager:
 
 {% code title=".NET CLI" %}
 ```bash
-dotnet add package Mailtrap
-```
-{% endcode %}
+dotnet nuget add source https://nuget.pkg.github.com/mailtrap/index.json --name github-mailtrap --username GITHUB_USERNAME --password GITHUB_PAT --store-password-in-clear-text
+dotnet add package Mailtrap -v 3.0.0 -s github-mailtrap
 
-Or using Package Manager Console:
-
-{% code title="Package Manager" %}
-```powershell
-Install-Package Mailtrap
 ```
 {% endcode %}
 
@@ -52,28 +46,36 @@ Here's a minimal example to send your first email:
 {% code title="Program.cs" %}
 ```csharp
 using Mailtrap;
-using Mailtrap.Models;
-
-var client = new MailtrapClient("your-api-token");
-
-var email = new Mail
-{
-    From = new Address("hello@example.com", "Mailtrap Test"),
-    To = new List<Address> { new Address("recipient@example.com") },
-    Subject = "Hello from Mailtrap!",
-    Text = "Welcome to Mailtrap Email Sending!",
-    Html = "<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>"
-};
+using Mailtrap.Emails.Requests;
+using Mailtrap.Emails.Responses;
 
 try
 {
-    var response = await client.SendAsync(email);
-    Console.WriteLine($"Email sent successfully: {response.MessageId}");
+    var apiToken = "<API-TOKEN>";
+    using var mailtrapClientFactory = new MailtrapClientFactory(apiToken);
+    IMailtrapClient mailtrapClient = mailtrapClientFactory.CreateClient();
+    SendEmailRequest request = SendEmailRequest
+        .Create()
+        .From("hello@demomailtrap.co", "Mailtrap Test")
+        .To("world@demomailtrap.co")
+        .Subject("You are awesome!")
+        .Text("Congrats for sending test email with Mailtrap!");
+    SendEmailResponse? response = await mailtrapClient
+        .Email()
+        .Send(request);
+}
+catch (MailtrapException mtex)
+{
+    // handle Mailtrap API specific exceptions
+}
+catch (OperationCanceledException ocex)
+{
+    // handle cancellation
 }
 catch (Exception ex)
 {
-    Console.WriteLine($"Error sending email: {ex.Message}");
-}
+    // handle other exceptions
+}  
 ```
 {% endcode %}
 
