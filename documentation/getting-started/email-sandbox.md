@@ -40,7 +40,7 @@ Learn how to inspect and debug emails with sandbox functionality.
 
 Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking **Sandboxes**, then My **Sandbox**.
 
-<figure><img src="../.gitbook/assets/getting-started-sandbox-navigation.png" alt="Sandboxes page showing My Project with My Inbox sandbox highlighted"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-sandbox-navigation.png" alt="Sandboxes page showing My Project with My Inbox sandbox highlighted"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 By default, we created an sandbox for you and called it "My Sandbox". The Edit button on the far right allows you to rename either a project or a sandbox.
@@ -48,11 +48,11 @@ By default, we created an sandbox for you and called it "My Sandbox". The Edit b
 
 Once inside My **Sandbox**, copy the credentials from the **Integration** tab to your clipboard.
 
-<figure><img src="../.gitbook/assets/getting-started-sandbox-smtp-credentials.png" alt="Integration tab showing SMTP credentials including host, port, username, password and auth settings" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-sandbox-smtp-credentials.png" alt="Integration tab showing SMTP credentials including host, port, username, password and auth settings" width="375"><figcaption></figcaption></figure></div>
 
 Or, use one of the pre-made code snippets for major programming languages and frameworks:
 
-<figure><img src="../.gitbook/assets/getting-started-sandbox-code-samples.png" alt="Code Samples section with PHP framework dropdown showing CakePHP, Laravel, Symfony and other options" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-sandbox-code-samples.png" alt="Code Samples section with PHP framework dropdown showing CakePHP, Laravel, Symfony and other options" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -60,11 +60,11 @@ Or, use one of the pre-made code snippets for major programming languages and fr
 
 After sending the first test email, you can immediately find it in your Mailtrap sandbox.
 
-<figure><img src="../.gitbook/assets/getting-started-test-email-received.png" alt="Test email displayed in Mailtrap sandbox inbox" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-test-email-received.png" alt="Test email displayed in Mailtrap sandbox inbox" width="563"><figcaption></figcaption></figure></div>
 
 Click on the email, and proceed to inspect and debug it by selecting the HTML Check tab.
 
-<figure><img src="../.gitbook/assets/getting-started-html-check-results.png" alt="HTML Check tab showing email validation results" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-html-check-results.png" alt="HTML Check tab showing email validation results" width="375"><figcaption></figcaption></figure></div>
 
 Lastly, you can automate the QA flow with [API](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) if you need it.
 {% endstep %}

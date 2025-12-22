@@ -47,11 +47,11 @@ Big-volume sender? [Contact us for onboarding assistance](https://mailtrap.io/ta
 
 To add a domain you own, go to the **Sending Domains** tab and click **Add Domain**. Type your domain name and confirm with the **Add** button.
 
-<figure><img src="../.gitbook/assets/sending-domains-add-domain-button.png" alt="Add Domain form in Mailtrap with domain input field" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/sending-domains-add-domain-button.png" alt="Add Domain form in Mailtrap with domain input field" width="375"><figcaption></figcaption></figure></div>
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<figure><img src="../.gitbook/assets/sending-domains-dns-records-to-add.png" alt="DNS records table showing domain verification requirements" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/sending-domains-dns-records-to-add.png" alt="DNS records table showing domain verification requirements" width="563"><figcaption></figcaption></figure></div>
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}
@@ -63,13 +63,13 @@ Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md
 
 To send emails via Mailtrap SMTP, follow the instructions [in this article](../email-api-smtp/smtp-integration.md).
 
-<figure><img src="../.gitbook/assets/getting-started-smtp-integration-credentials.png" alt="SMTP integration credentials and code samples" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-smtp-integration-credentials.png" alt="SMTP integration credentials and code samples" width="563"><figcaption></figcaption></figure></div>
 
 **Email API Integration**
 
 To send emails via Mailtrap Email API, follow the steps [in this article](../email-api-smtp/api-integration.md).
 
-<figure><img src="../.gitbook/assets/getting-started-api-integration-credentials.png" alt="Email API integration credentials and code samples" width="563"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/getting-started-api-integration-credentials.png" alt="Email API integration credentials and code samples" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
