@@ -35,7 +35,6 @@ Install the SDK using NuGet Package Manager:
 ```bash
 dotnet nuget add source https://nuget.pkg.github.com/mailtrap/index.json --name github-mailtrap --username GITHUB_USERNAME --password GITHUB_PAT --store-password-in-clear-text
 dotnet add package Mailtrap -v 3.0.0 -s github-mailtrap
-
 ```
 {% endcode %}
 
