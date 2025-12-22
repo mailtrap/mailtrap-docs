@@ -52,7 +52,7 @@ await client.send({
 
 Choose your product and get up and running quickly with our step-by-step guides.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-paper-plane">:paper-plane:</i> <strong>Email API/SMTP</strong></td><td><strong>Send Production Emails</strong></td><td>Deliver transactional emails reliably with our API or SMTP service. Get detailed analytics and ensure high deliverability.</td><td><a href="getting-started/email-api-smtp.md">email-api-smtp.md</a></td><td></td></tr><tr><td><i class="fa-spider">:spider:</i> <strong>Email Sandbox</strong></td><td><strong>Test Before Sending</strong></td><td>Catch and inspect emails in a safe testing environment. Preview, analyze, and debug emails before they reach real inboxes.</td><td><a href="getting-started/email-sandbox.md">email-sandbox.md</a></td><td></td></tr><tr><td><i class="fa-headset">:headset:</i> <strong>Email Marketing</strong></td><td><strong>Run Email Campaigns</strong></td><td>Design, send, and track marketing campaigns. Manage subscribers and analyze campaign performance.</td><td><a href="getting-started/email-marketing.md">email-marketing.md</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><i class="fa-paper-plane">:paper-plane:</i> <strong>Email API/SMTP</strong></td><td><strong>Send Production Emails</strong></td><td>Deliver transactional emails reliably with our API or SMTP service. Get detailed analytics and ensure high deliverability.</td><td><a href="getting-started/email-api-smtp.md">email-api-smtp.md</a></td><td></td></tr><tr><td><i class="fa-bug">:bug:</i> <strong>Email Sandbox</strong></td><td><strong>Test Before Sending</strong></td><td>Catch and inspect emails in a safe testing environment. Preview, analyze, and debug emails before they reach real inboxes.</td><td><a href="getting-started/email-sandbox.md">email-sandbox.md</a></td><td></td></tr><tr><td><i class="fa-headset">:headset:</i> <strong>Email Marketing</strong></td><td><strong>Run Email Campaigns</strong></td><td>Design, send, and track marketing campaigns. Manage subscribers and analyze campaign performance.</td><td><a href="getting-started/email-marketing.md">email-marketing.md</a></td><td></td></tr></tbody></table>
 
 ## Explore features
 
@@ -70,7 +70,7 @@ Discover the full range of features and capabilities across our email platform.
 {% endcolumn %}
 
 {% column width="33%" %}
-<i class="fa-spider-black-widow">:spider-black-widow:</i> **Email Sandbox**
+<i class="fa--bug">:bug:</i> **Email Sandbox**
 
 * [Email Template Inspector](email-sandbox/testing/email-template.md)
 * [HTML Check](email-sandbox/testing/email-html.md)
