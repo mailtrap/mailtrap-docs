@@ -1,9 +1,10 @@
 ---
 title: Mailtrap API Reference
 description: Complete API documentation for Mailtrap email infrastructure
+icon: code
 ---
 
-# Mailtrap API Reference
+# API Reference
 
 Welcome to the Mailtrap API documentation. Our APIs provide comprehensive access to email sending, testing, contact management, and account administration features.
 
@@ -11,59 +12,71 @@ Welcome to the Mailtrap API documentation. Our APIs provide comprehensive access
 
 {% columns %}
 {% column %}
-### [Email API/SMTP](email-api/overview.md)
+#### [Email API/SMTP](email-api/overview.md)
+
 Send transactional and bulk emails with reliable delivery.
-- Transactional emails
-- Bulk campaigns
-- Email templates
-- Domain management
+
+* Transactional emails
+* Bulk campaigns
+* Email templates
+* Domain management
 {% endcolumn %}
 
 {% column %}
-### [Email Sandbox](sandbox/overview.md)
+#### [Email Sandbox](sandbox/overview.md)
+
 Test emails safely in isolated environments.
-- Test inboxes
-- Email inspection
-- SMTP testing
-- API automation
+
+* Test inboxes
+* Email inspection
+* SMTP testing
+* API automation
 {% endcolumn %}
 
 {% column %}
-### [Email Marketing](contacts/overview.md)
+#### [Email Marketing](contacts/overview.md)
+
 Manage contacts and marketing campaigns.
-- Contact management
-- List segmentation
-- Import/export
-- Event tracking
+
+* Contact management
+* List segmentation
+* Import/export
+* Event tracking
 {% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
 {% column %}
-### [Webhooks](webhooks/overview.md)
+#### [Webhooks](/broken/pages/Wnk44SpM2LXtvsfzMeCR)
+
 Receive real-time event notifications.
-- Delivery events
-- Engagement tracking
-- Bounce handling
-- Custom processing
+
+* Delivery events
+* Engagement tracking
+* Bounce handling
+* Custom processing
 {% endcolumn %}
 
 {% column %}
-### [Email Templates](templates/overview.md)
+#### [Email Templates](https://github.com/railsware/mailtrap-gitbook/blob/main/api-docs/templates/overview.md)
+
 Create reusable email designs.
-- Dynamic content
-- Variable substitution
-- Version control
-- A/B testing
+
+* Dynamic content
+* Variable substitution
+* Version control
+* A/B testing
 {% endcolumn %}
 
 {% column %}
-### [Account Management](general/overview.md)
+#### [Account Management](general/overview.md)
+
 Control users and settings.
-- User permissions
-- Billing management
-- Security settings
-- Audit logs
+
+* User permissions
+* Billing management
+* Security settings
+* Audit logs
 {% endcolumn %}
 {% endcolumns %}
 
@@ -71,7 +84,7 @@ Control users and settings.
 
 {% stepper %}
 {% step %}
-### Get API Credentials
+#### Get API Credentials
 
 1. Sign up for a [Mailtrap account](https://mailtrap.io/signup)
 2. Navigate to [API Tokens](https://mailtrap.io/api-tokens)
@@ -79,7 +92,7 @@ Control users and settings.
 {% endstep %}
 
 {% step %}
-### Install SDK
+#### Install SDK
 
 Choose your preferred programming language:
 
@@ -138,23 +151,26 @@ dotnet add package Mailtrap -s github-mailtrap
 {% endstep %}
 
 {% step %}
-### Send First Email
+#### Send First Email
 
 {% tabs %}
 {% tab title="Node.js" %}
 ```javascript
 import { MailtrapClient } from "mailtrap";
 
-const client = new MailtrapClient({
-  token: process.env.MAILTRAP_API_KEY
+const mailtrap = new MailtrapClient({
+  token: process.env.MAILTRAP_API_KEY, // You can create your API key here https://mailtrap.io/api-tokens
 });
 
-await client.send({
-  from: { email: "sender@example.com" },
-  to: [{ email: "recipient@example.com" }],
-  subject: "Hello World",
-  text: "Welcome to Mailtrap!"
-});
+mailtrap
+  .send({
+    from: { name: "Mailtrap Test", email: "sender@example.com" },
+    to: [{ email: "recipient@example.com" }],
+    subject: "Hello from Mailtrap Node.js",
+    text: "Plain text body",
+  })
+  .then(console.log)
+  .catch(console.error);
 ```
 {% endtab %}
 
@@ -162,13 +178,16 @@ await client.send({
 ```python
 import mailtrap as mt
 
-client = mt.MailtrapClient(token="YOUR_API_KEY")
+API_TOKEN = "<YOUR_API_TOKEN>"  # your API key here https://mailtrap.io/api-tokens
 
+client = mt.MailtrapClient(token=API_TOKEN)
+
+# Create mail object
 mail = mt.Mail(
-    sender=mt.Address(email="sender@example.com"),
+    sender=mt.Address(email="sender@example.com", name="John Smith"),
     to=[mt.Address(email="recipient@example.com")],
-    subject="Hello World",
-    text="Welcome to Mailtrap!"
+    subject="You are awesome!",
+    text="Congrats for sending test email with Mailtrap!",
 )
 
 client.send(mail)
@@ -178,21 +197,28 @@ client.send(mail)
 {% tab title="PHP" %}
 ```php
 <?php
+
+use Mailtrap\Helper\ResponseHelper;
 use Mailtrap\MailtrapClient;
 use Mailtrap\Mime\MailtrapEmail;
 use Symfony\Component\Mime\Address;
 
+require __DIR__ . '/vendor/autoload.php';
+
 $mailtrap = MailtrapClient::initSendingEmails(
-    apiKey: $_ENV['MAILTRAP_API_KEY']
+    apiKey: getenv('MAILTRAP_API_KEY') // your API key here https://mailtrap.io/api-tokens
 );
 
 $email = (new MailtrapEmail())
     ->from(new Address('sender@example.com'))
     ->to(new Address('recipient@example.com'))
-    ->subject('Hello World')
-    ->text('Welcome to Mailtrap!');
+    ->subject('Hello from Mailtrap PHP')
+    ->text('Plain text body');
 
 $response = $mailtrap->send($email);
+
+// Access response body as array (helper optional)
+var_dump(ResponseHelper::toArray($response));
 ```
 {% endtab %}
 
@@ -200,62 +226,93 @@ $response = $mailtrap->send($email);
 ```ruby
 require 'mailtrap'
 
-client = Mailtrap::Client.new(api_key: 'YOUR_API_KEY')
-
+# Create mail object
 mail = Mailtrap::Mail.from_content(
-  from: { email: 'sender@example.com' },
-  to: [{ email: 'recipient@example.com' }],
-  subject: 'Hello World',
-  text: 'Welcome to Mailtrap!'
+  from: { email: 'mailtrap@example.com', name: 'Mailtrap Test' },
+  to: [
+    { email: 'your@email.com' }
+  ],
+  reply_to: { email: 'support@example.com', name: 'Mailtrap Reply-To' },
+  subject: 'You are awesome!',
+  text: 'Congrats for sending test email with Mailtrap!'
 )
 
+# Create client and send
+client = Mailtrap::Client.new(api_key: 'your-api-key')
 client.send(mail)
+
+# You can also pass the request parameters directly
+client.send(
+  from: { email: 'mailtrap@example.com', name: 'Mailtrap Test' },
+  to: [
+    { email: 'your@email.com' }
+  ],
+  subject: 'You are awesome!',
+  text: 'Congrats for sending test email with Mailtrap!'
+)
+
 ```
 {% endtab %}
 
 {% tab title="Java" %}
 ```java
+import io.mailtrap.client.MailtrapClient;
 import io.mailtrap.config.MailtrapConfig;
 import io.mailtrap.factory.MailtrapClientFactory;
-import io.mailtrap.model.Address;
-import io.mailtrap.model.MailtrapMail;
+import io.mailtrap.model.request.emails.Address;
+import io.mailtrap.model.request.emails.MailtrapMail;
+
 import java.util.List;
 
-var config = new MailtrapConfig.Builder()
-    .token("YOUR_API_KEY")
-    .build();
+public class MailtrapJavaSDKTest {
 
-var client = MailtrapClientFactory
-    .createMailtrapClient(config);
+    private static final String TOKEN = "<YOUR MAILTRAP TOKEN>";
+    private static final String SENDER_EMAIL = "sender@domain.com";
+    private static final String RECIPIENT_EMAIL = "recipient@domain.com";
 
-var mail = MailtrapMail.builder()
-    .from(new Address("sender@example.com"))
-    .to(List.of(new Address("recipient@example.com")))
-    .subject("Hello World")
-    .text("Welcome to Mailtrap!")
-    .build();
+    public static void main(String[] args) {
+        final MailtrapConfig config = new MailtrapConfig.Builder()
+            .token(TOKEN)
+            .build();
 
-client.sendingApi().emails().send(mail);
+        final MailtrapClient client = MailtrapClientFactory.createMailtrapClient(config);
+
+        final MailtrapMail mail = MailtrapMail.builder()
+            .from(new Address(SENDER_EMAIL))
+            .to(List.of(new Address(RECIPIENT_EMAIL)))
+            .subject("Hello from Mailtrap Sending!")
+            .text("Welcome to Mailtrap Sending!")
+            .build();
+
+        // Send an email using Mailtrap Sending API
+        try {
+            System.out.println(client.send(mail));
+        } catch (Exception e) {
+            System.out.println("Caught exception : " + e);
+        }
+    }
+}
 ```
 {% endtab %}
 
 {% tab title=".NET" %}
 ```csharp
 using Mailtrap;
+using Mailtrap.Emails.Models;
 using Mailtrap.Emails.Requests;
 
-var apiToken = "YOUR_API_KEY";
-using var factory = new MailtrapClientFactory(apiToken);
-var client = factory.CreateClient();
+using var mailtrapClientFactory = new MailtrapClientFactory("YOUR_API_TOKEN");
+var client = mailtrapClientFactory.CreateClient();
 
-var request = SendEmailRequest
-    .Create()
-    .From("sender@example.com")
-    .To("recipient@example.com")
-    .Subject("Hello World")
-    .Text("Welcome to Mailtrap!");
+var mail = new SendEmailRequest
+{
+      From = new EmailAddress("sender@yourdomain.com"),
+      To = new[] { new EmailAddress("recipient@example.com") },
+      Subject = "Hello from Mailtrap",
+      TextBody = "Welcome to Mailtrap Email API!"
+};
 
-await client.Email().Send(request);
+await client.Email().Send(mail);
 ```
 {% endtab %}
 {% endtabs %}
