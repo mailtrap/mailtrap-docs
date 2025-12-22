@@ -5,6 +5,20 @@ description: >-
   to add or change your credit card, view payment history, and set up billing
   information.
 icon: gears
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Billing Setup

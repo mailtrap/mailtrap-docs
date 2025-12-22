@@ -3,6 +3,20 @@ title: Security & Privacy
 description: >-
   Learn about Mailtrap's security measures, compliance standards, and data
   protection policies.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Security & Privacy

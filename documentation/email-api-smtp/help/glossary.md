@@ -5,6 +5,20 @@ description: >-
   including DNS records, email events, SMTP settings, and deliverability
   concepts.
 icon: book-open
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sending Glossary

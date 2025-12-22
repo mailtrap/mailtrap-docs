@@ -1,9 +1,23 @@
 ---
 description: Import contacts via CSV, API, or third-party integrations
 icon: upload
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# Uploading Contacts
+# Import Contacts
 
 Import your contacts into Mailtrap using CSV files, API integration, or third-party tools. This guide walks you through each method step by step.
 

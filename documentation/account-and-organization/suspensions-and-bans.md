@@ -3,6 +3,20 @@ title: Suspensions and Bans
 description: >-
   Understand Mailtrap account suspensions and bans. Learn the differences,
   reasons for enforcement, and how to clear suspensions or appeal bans.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Suspensions and Bans

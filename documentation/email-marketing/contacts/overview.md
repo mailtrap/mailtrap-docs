@@ -1,9 +1,23 @@
 ---
 description: Search, filter, edit, and perform bulk operations on your contact database
 icon: users-gear
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# Managing Contacts
+# Overview
 
 Efficiently manage your contact database with powerful search, filtering, and bulk operation capabilities. Keep your lists clean and up-to-date with comprehensive management tools.
 

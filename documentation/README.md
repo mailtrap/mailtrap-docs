@@ -4,6 +4,20 @@ description: >-
   Complete email infrastructure for developers. Send production emails, test in
   sandbox, and run email campaigns - all in one platform.
 icon: house
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Documentation
@@ -70,7 +84,7 @@ Discover the full range of features and capabilities across our email platform.
 {% endcolumn %}
 
 {% column width="33%" %}
-<i class="fa--bug">:bug:</i> **Email Sandbox**
+<i class="fa--bug">:-bug:</i> **Email Sandbox**
 
 * [Email Template Inspector](email-sandbox/testing/email-template.md)
 * [HTML Check](email-sandbox/testing/email-html.md)

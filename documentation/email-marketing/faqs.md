@@ -2,6 +2,20 @@
 title: Email Marketing FAQs
 description: Frequently asked questions about Mailtrap Email Marketing
 icon: question
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # FAQs

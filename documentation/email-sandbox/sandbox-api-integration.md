@@ -4,6 +4,20 @@ description: >-
   Learn how to use the Sandbox API to automate testing and manage email
   sandboxes programmatically.
 icon: plug
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sandbox API Integration

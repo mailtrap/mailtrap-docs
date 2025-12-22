@@ -4,6 +4,20 @@ description: >-
   Test your email application at scale using the Sandbox Enterprise plan with up
   to 150 emails per 10 seconds across 300 sandboxes
 icon: bolt-lightning
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Load Testing

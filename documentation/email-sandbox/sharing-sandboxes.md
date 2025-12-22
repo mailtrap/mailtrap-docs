@@ -2,6 +2,20 @@
 title: Sharing sandboxes
 description: Share individual sandboxes with team members for collaborative email testing.
 icon: handshake-simple
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sharing Sandboxes

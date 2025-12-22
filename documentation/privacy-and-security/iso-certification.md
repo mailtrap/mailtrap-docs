@@ -3,6 +3,20 @@ description: >-
   Learn about Mailtrap's ISO/IEC 27001:2022 certification and information
   security standards
 icon: file-certificate
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # ISO Certification

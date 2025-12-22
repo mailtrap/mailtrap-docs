@@ -4,6 +4,20 @@ description: >-
   Track user activities and actions in your Mailtrap account for security,
   transparency, and user management purposes.
 icon: clock-rotate-left
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Activity Log

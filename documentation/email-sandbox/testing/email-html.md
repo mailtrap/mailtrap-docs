@@ -3,6 +3,20 @@ description: >-
   Learn how HTML Check scans your email for problematic elements and provides
   market support scores.
 icon: square-check
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # HTML Check

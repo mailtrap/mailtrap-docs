@@ -5,6 +5,20 @@ description: >-
   open-source initiatives. Learn how to activate non-profit benefits for your
   account.
 icon: osi
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Non-Profit and Open-Source

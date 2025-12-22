@@ -2,6 +2,20 @@
 title: Features and limits
 description: All Mailtrap features and possible limits explained
 icon: list-radio
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Features and Limits

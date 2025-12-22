@@ -1,6 +1,20 @@
 ---
 title: Email Management
 description: Manage and organize emails in your sandbox effectively
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sandbox Management

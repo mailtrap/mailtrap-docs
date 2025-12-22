@@ -4,6 +4,20 @@ description: >-
   Search for emails in your sandbox by subject, recipient address, or recipient
   name
 icon: magnifying-glass
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Searching Messages

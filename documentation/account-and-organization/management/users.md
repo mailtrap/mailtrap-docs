@@ -5,6 +5,20 @@ description: >-
   account owners, admins, viewers, domain permissions, template access, and
   billing roles.
 icon: users-rectangle
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # User Roles & User Management

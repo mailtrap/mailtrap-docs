@@ -2,6 +2,20 @@
 title: Troubleshooting - Email Sandbox
 description: Common issues and solutions for Email Sandbox
 icon: wrench
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Troubleshooting
@@ -26,7 +40,7 @@ If Telnet shows that a connection can't be established with our server, you shou
 {% endstep %}
 
 {% step %}
-**Try alternative SMTP ports**&#x20;
+**Try alternative SMTP ports**
 
 Use another SMTP port, such as **2525**, **465**, or **25**.
 

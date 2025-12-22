@@ -2,6 +2,20 @@
 description: >-
   Upload, store, and organize your contacts in email lists to send targeted
   campaigns.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Contacts Management

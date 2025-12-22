@@ -4,6 +4,20 @@ description: >-
   Set up two-factor authentication (2FA) for your Mailtrap account to enhance
   security. Learn how to enable, disable, and recover your account with 2FA.
 icon: fingerprint
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Two-Factor Authentication

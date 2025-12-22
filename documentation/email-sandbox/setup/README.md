@@ -1,6 +1,20 @@
 ---
 title: Setup & Integration
 description: Get Email Sandbox configured and integrated with your application
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Setup & Configuration

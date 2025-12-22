@@ -2,6 +2,20 @@
 title: Sandbox Glossary
 description: Common terms and definitions for Email Sandbox features and protocols
 icon: book-open
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sandbox Glossary

@@ -5,6 +5,20 @@ description: >-
   deliverability metrics including opens, clicks, bounces, unsubscribes, and
   spam complaints.
 icon: bell-plus
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Deliverability Alerts

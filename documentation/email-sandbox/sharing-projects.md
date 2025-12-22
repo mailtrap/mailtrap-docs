@@ -2,6 +2,20 @@
 title: Sharing projects
 description: Organize and share projects to collaborate with team members on email testing.
 icon: folder-open
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sharing Projects
@@ -16,7 +30,7 @@ Sharing options are available starting from the Team plan.
 
 You can share any of the projects in your account. Users that receive access to your project also receive access to all of its sandboxes and can manage or view their content. To learn how to share a specific sandbox, check out the [Sharing sandboxes](sharing-sandboxes.md) article.
 
-To share a project including all of its sandboxes, you have three options:&#x20;
+To share a project including all of its sandboxes, you have three options:
 
 * Use the three vertical dots next to My Project under Sandboxes
 

@@ -3,6 +3,20 @@ title: Email Marketing Overview
 description: >-
   Create, send, and analyze email marketing campaigns with Mailtrap's
   comprehensive marketing platform
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Overview
