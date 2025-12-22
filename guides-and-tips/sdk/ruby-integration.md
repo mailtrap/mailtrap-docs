@@ -42,7 +42,19 @@ bundle install
 ```
 {% endcode %}
 
-### Minimal Example
+### Minimal Example Ruby on Rails (Actionmailer)
+
+{% code title="config/environments/production.rb" %}
+```ruby
+# place this code in config/environments/production.rb:
+config.action_mailer.delivery_method = :mailtrap
+
+# then set the MAILTRAP_API_KEY environment variable
+# using your hosting solution.
+```
+{% endcode %}
+
+### Minimal Example Ruby
 
 Here's a minimal example to send your first email:
 

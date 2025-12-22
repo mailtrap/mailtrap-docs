@@ -4,7 +4,7 @@ description: >-
   or RESTful API for email sending
 ---
 
-# Elixir Integration
+# Elixir
 
 <a href="https://github.com/mailtrap/mailtrap-elixir" class="button primary">Mailtrap Elixir SDK on GitHub</a>
 
@@ -24,6 +24,10 @@ The [Mailtrap Elixir SDK](https://github.com/mailtrap/mailtrap-elixir) brings fu
 * OTP-compliant design
 * Pattern matching for responses
 * Pipe-friendly API
+
+{% hint style="info" %}
+Check the repo for Bamboo adaptor examples.
+{% endhint %}
 
 ### Installation
 
@@ -53,25 +57,13 @@ Here's a minimal example to send your first email:
 
 {% code title="send_email.exs" %}
 ```elixir
-# Configure the client
-config = Mailtrap.Config.new(%{
-  api_token: "your-api-token"
-})
-
-# Create the email
-email = %{
-  from: %{email: "hello@example.com", name: "Mailtrap Test"},
-  to: [%{email: "recipient@example.com"}],
-  subject: "Hello from Mailtrap!",
-  text: "Welcome to Mailtrap Email Sending!",
-  html: "<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>"
-}
-
-# Send the email
-case Mailtrap.Email.send(config, email) do
-  {:ok, response} -> IO.inspect(response, label: "Success")
-  {:error, reason} -> IO.inspect(reason, label: "Error")
-end
+client = Mailtrap.Sending.client("PASTE TOKEN HERE")
+email = (%Mailtrap.Email{}
+  |> Mailtrap.Email.put_from({"From name", "from@example.com"})
+  |> Mailtrap.Email.put_to({"Recepient", "recepient@example.com"})
+  |> Mailtrap.Email.put_subject("Hi there")
+  |> Mailtrap.Email.put_text("General Kenobi"))
+Mailtrap.Sending.send(client, email)
 ```
 {% endcode %}
 

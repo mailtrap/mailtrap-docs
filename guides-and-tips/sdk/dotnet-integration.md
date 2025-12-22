@@ -46,36 +46,21 @@ Here's a minimal example to send your first email:
 {% code title="Program.cs" %}
 ```csharp
 using Mailtrap;
+using Mailtrap.Emails.Models;
 using Mailtrap.Emails.Requests;
-using Mailtrap.Emails.Responses;
 
-try
+using var mailtrapClientFactory = new MailtrapClientFactory("YOUR_API_KEY");
+var client = mailtrapClientFactory.CreateClient();
+
+var mail = new SendEmailRequest
 {
-    var apiToken = "<API-TOKEN>";
-    using var mailtrapClientFactory = new MailtrapClientFactory(apiToken);
-    IMailtrapClient mailtrapClient = mailtrapClientFactory.CreateClient();
-    SendEmailRequest request = SendEmailRequest
-        .Create()
-        .From("hello@demomailtrap.co", "Mailtrap Test")
-        .To("world@demomailtrap.co")
-        .Subject("You are awesome!")
-        .Text("Congrats for sending test email with Mailtrap!");
-    SendEmailResponse? response = await mailtrapClient
-        .Email()
-        .Send(request);
-}
-catch (MailtrapException mtex)
-{
-    // handle Mailtrap API specific exceptions
-}
-catch (OperationCanceledException ocex)
-{
-    // handle cancellation
-}
-catch (Exception ex)
-{
-    // handle other exceptions
-}  
+      From = new EmailAddress("sender@yourdomain.com"),
+      To = new[] { new EmailAddress("recipient@example.com") },
+      Subject = "Hello from Mailtrap",
+      TextBody = "Welcome to Mailtrap Email API!"
+};
+
+await client.Email().Send(mail);
 ```
 {% endcode %}
 

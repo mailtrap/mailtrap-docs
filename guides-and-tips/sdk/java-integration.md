@@ -66,27 +66,39 @@ Here's a minimal example to send your first email:
 
 {% code title="SendEmail.java" %}
 ```java
-import com.mailtrap.MailtrapClient;
-import com.mailtrap.model.Mail;
-import com.mailtrap.model.Address;
+import io.mailtrap.client.MailtrapClient;
+import io.mailtrap.config.MailtrapConfig;
+import io.mailtrap.factory.MailtrapClientFactory;
+import io.mailtrap.model.request.emails.Address;
+import io.mailtrap.model.request.emails.MailtrapMail;
 
-public class SendEmail {
+import java.util.List;
+
+public class MailtrapJavaSDKTest {
+
+    private static final String TOKEN = "<YOUR MAILTRAP TOKEN>";
+    private static final String SENDER_EMAIL = "sender@domain.com";
+    private static final String RECIPIENT_EMAIL = "recipient@domain.com";
+
     public static void main(String[] args) {
-        MailtrapClient client = new MailtrapClient("your-api-token");
-
-        Mail mail = Mail.builder()
-            .from(new Address("hello@example.com", "Mailtrap Test"))
-            .to(new Address("recipient@example.com"))
-            .subject("Hello from Mailtrap!")
-            .text("Welcome to Mailtrap Email Sending!")
-            .html("<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>")
+        final MailtrapConfig config = new MailtrapConfig.Builder()
+            .token(TOKEN)
             .build();
 
+        final MailtrapClient client = MailtrapClientFactory.createMailtrapClient(config);
+
+        final MailtrapMail mail = MailtrapMail.builder()
+            .from(new Address(SENDER_EMAIL))
+            .to(List.of(new Address(RECIPIENT_EMAIL)))
+            .subject("Hello from Mailtrap Sending!")
+            .text("Welcome to Mailtrap Sending!")
+            .build();
+
+        // Send an email using Mailtrap Sending API
         try {
-            var response = client.send(mail);
-            System.out.println("Email sent successfully: " + response);
+            System.out.println(client.send(mail));
         } catch (Exception e) {
-            System.err.println("Error sending email: " + e.getMessage());
+            System.out.println("Caught exception : " + e);
         }
     }
 }

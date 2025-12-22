@@ -42,23 +42,21 @@ Here's a minimal example to send your first email:
 
 {% code title="send_email.py" %}
 ```python
-from mailtrap import Mail, MailtrapClient
+import mailtrap as mt
 
-client = MailtrapClient(token="your-api-token")
+API_TOKEN = "<YOUR_API_TOKEN>"  # your API key here https://mailtrap.io/api-tokens
 
-mail = Mail(
-    sender={"email": "hello@example.com", "name": "Mailtrap Test"},
-    to=[{"email": "recipient@example.com"}],
-    subject="Hello from Mailtrap!",
-    text="Welcome to Mailtrap Email Sending!",
-    html="<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>"
+client = mt.MailtrapClient(token=API_TOKEN)
+
+# Create mail object
+mail = mt.Mail(
+    sender=mt.Address(email="sender@example.com", name="John Smith"),
+    to=[mt.Address(email="recipient@example.com")],
+    subject="You are awesome!",
+    text="Congrats for sending test email with Mailtrap!",
 )
 
-try:
-    response = client.send(mail)
-    print(response)
-except Exception as e:
-    print(f"Error: {e}")
+client.send(mail)
 ```
 {% endcode %}
 

@@ -48,20 +48,21 @@ Here's a minimal example to send your first email:
 
 {% code title="index.js" %}
 ```javascript
-const { MailtrapClient } = require("mailtrap");
+import { MailtrapClient } from "mailtrap";
 
-const client = new MailtrapClient({ token: "your-api-token" });
+const mailtrap = new MailtrapClient({
+  token: process.env.MAILTRAP_API_KEY, // You can create your API key here https://mailtrap.io/api-tokens
+});
 
-const sender = { name: "Mailtrap Test", email: "hello@example.com" };
-
-client.send({
-  from: sender,
-  to: [{ email: "recipient@example.com" }],
-  subject: "Hello from Mailtrap!",
-  text: "Welcome to Mailtrap Email Sending!",
-})
-.then(console.log)
-.catch(console.error);
+mailtrap
+  .send({
+    from: { name: "Mailtrap Test", email: "sender@example.com" },
+    to: [{ email: "recipient@example.com" }],
+    subject: "Hello from Mailtrap Node.js",
+    text: "Plain text body",
+  })
+  .then(console.log)
+  .catch(console.error);
 ```
 {% endcode %}
 

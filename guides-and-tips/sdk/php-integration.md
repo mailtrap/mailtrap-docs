@@ -46,33 +46,27 @@ Here's a minimal example to send your first email:
 ```php
 <?php
 
-require 'vendor/autoload.php';
-
-use Mailtrap\Config;
-use Mailtrap\EmailHeader\CategoryHeader;
 use Mailtrap\Helper\ResponseHelper;
 use Mailtrap\MailtrapClient;
+use Mailtrap\Mime\MailtrapEmail;
 use Symfony\Component\Mime\Address;
-use Symfony\Component\Mime\Email;
 
-$apiKey = 'your-api-token';
+require __DIR__ . '/vendor/autoload.php';
+
 $mailtrap = MailtrapClient::initSendingEmails(
-    apiKey: $apiKey
+    apiKey: getenv('MAILTRAP_API_KEY') // your API key here https://mailtrap.io/api-tokens
 );
 
-$email = (new Email())
-    ->from(new Address('hello@example.com', 'Mailtrap Test'))
+$email = (new MailtrapEmail())
+    ->from(new Address('sender@example.com'))
     ->to(new Address('recipient@example.com'))
-    ->subject('Hello from Mailtrap!')
-    ->text('Welcome to Mailtrap Email Sending!')
-    ->html('<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>');
+    ->subject('Hello from Mailtrap PHP')
+    ->text('Plain text body');
 
-try {
-    $response = $mailtrap->send($email);
-    var_dump(ResponseHelper::toArray($response));
-} catch (Exception $e) {
-    echo 'Error: ' . $e->getMessage();
-}
+$response = $mailtrap->send($email);
+
+// Access response body as array (helper optional)
+var_dump(ResponseHelper::toArray($response));
 ```
 {% endcode %}
 
