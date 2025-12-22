@@ -119,6 +119,10 @@ To edit, pause, or delete an active webhook, go back to the Webhooks tab and sel
 {% endstep %}
 {% endstepper %}
 
+{% hint style="warning" %}
+Mailtrap webhooks are delivered only on ports 443 (for HTTPS) or 80 (for HTTP). Please be sure to use these ports only.
+{% endhint %}
+
 ## Activity log event structure
 
 Activity log events include the following fields:
