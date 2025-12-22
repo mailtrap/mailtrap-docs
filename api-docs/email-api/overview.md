@@ -12,7 +12,7 @@ Mailtrap's Email API provides a powerful and reliable way to send transactional 
 
 {% stepper %}
 {% step %}
-### Verify Your Sending Domain
+#### Verify Your Sending Domain
 
 Before sending emails, you need to verify ownership of your sending domain:
 
@@ -27,7 +27,7 @@ Emails sent from unverified domains will be rejected.
 {% endstep %}
 
 {% step %}
-### Get Your API Key
+#### Get Your API Key
 
 Navigate to [API Tokens](https://mailtrap.io/api-tokens) in your Mailtrap account and generate a new API token with sending permissions.
 
@@ -37,7 +37,7 @@ Keep your API token secure and never expose it in client-side code.
 {% endstep %}
 
 {% step %}
-### Install SDK or Use API
+#### Install SDK or Use API
 
 Choose an SDK for your programming language or use the API directly with cURL:
 
@@ -74,12 +74,15 @@ gem install mailtrap
 
 {% tab title=".NET" %}
 Add GitHub Packages source to `nuget.config`:
+
 ```xml
 <packageSources>
   <add key="github" value="https://nuget.pkg.github.com/railsware/index.json" />
 </packageSources>
 ```
+
 Then install:
+
 ```bash
 dotnet add package Mailtrap
 ```
@@ -98,7 +101,7 @@ dotnet add package Mailtrap
 {% endstep %}
 
 {% step %}
-### Send Your First Email
+#### Send Your First Email
 
 Here's a minimal example to send your first email:
 
@@ -191,18 +194,21 @@ client.send(mail)
 {% tab title=".NET" %}
 ```csharp
 using Mailtrap;
+using Mailtrap.Emails.Models;
+using Mailtrap.Emails.Requests;
 
-var client = new MailtrapClient("YOUR_API_KEY");
+using var mailtrapClientFactory = new MailtrapClientFactory("YOUR_API_KEY");
+var client = mailtrapClientFactory.CreateClient();
 
 var mail = new SendEmailRequest
 {
-    From = new EmailAddress { Email = "sender@yourdomain.com" },
-    To = new[] { new EmailAddress { Email = "recipient@example.com" } },
-    Subject = "Hello from Mailtrap",
-    Text = "Welcome to Mailtrap Email API!"
+      From = new EmailAddress("sender@yourdomain.com"),
+      To = new[] { new EmailAddress("recipient@example.com") },
+      Subject = "Hello from Mailtrap",
+      TextBody = "Welcome to Mailtrap Email API!"
 };
 
-await client.SendAsync(mail);
+await client.Email().Send(mail);
 ```
 {% endtab %}
 
@@ -260,7 +266,7 @@ Optimized for high-volume marketing campaigns:
 **Endpoint:** `https://bulk.api.mailtrap.io/api/send`
 
 {% hint style="info" %}
-Learn more about [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/get-started-bulk-stream) and when to use it for your marketing emails.
+Learn more about [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/bulk-stream) and when to use it for your marketing emails.
 {% endhint %}
 
 ### Batch Sending
@@ -275,7 +281,7 @@ Send up to 500 emails in a single API call:
 **Endpoint:** `https://send.api.mailtrap.io/api/batch` or `https://bulk.api.mailtrap.io/api/batch`
 
 {% hint style="info" %}
-Use `send.api.mailtrap.io` for transactional batch emails or `bulk.api.mailtrap.io` for marketing batch emails, depending on your [stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/get-started-bulk-stream).
+Use `send.api.mailtrap.io` for transactional batch emails or `bulk.api.mailtrap.io` for marketing batch emails, depending on your [stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/bulk-stream).
 {% endhint %}
 
 **Limits:** 500 messages per call, 50 MB total payload
@@ -284,24 +290,27 @@ Use `send.api.mailtrap.io` for transactional batch emails or `bulk.api.mailtrap.
 
 {% columns %}
 {% column %}
-### Email Templates
+#### Email Templates
+
 Create reusable templates with variables for consistent branding and easy updates.
 
 [Manage Templates](https://mailtrap.io/email-templates)
 {% endcolumn %}
 
 {% column %}
-### Analytics & Tracking
+#### Analytics & Tracking
+
 Monitor delivery rates, opens, clicks, and bounces in real-time.
 
 [View Analytics](https://mailtrap.io/analytics)
 {% endcolumn %}
 
 {% column %}
-### Webhooks
+#### Webhooks
+
 Receive real-time notifications for email events like delivery, bounce, and opens.
 
-[Configure Webhooks](../webhooks/overview.md)
+[Configure Webhooks](https://github.com/railsware/mailtrap-gitbook/blob/main/api-docs/webhooks/overview.md)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -404,19 +413,21 @@ client.send(mail)
 {% tab title=".NET" %}
 ```csharp
 using Mailtrap;
+using Mailtrap.Emails.Models;
+using Mailtrap.Emails.Requests;
 
-// Switch to sandbox mode for testing
-var client = new MailtrapClient("YOUR_API_KEY", sandbox: true, testInboxId: 123456);
-
-var mail = new SendEmailRequest
-{
-    From = new EmailAddress { Email = "sender@yourdomain.com" },
-    To = new[] { new EmailAddress { Email = "recipient@example.com" } },
-    Subject = "Test Email",
-    Text = "This email will be captured in your Sandbox inbox."
-};
-
-await client.SendAsync(mail);
+using var mailtrapClientFactory = new MailtrapClientFactory("<API-TOKEN>");
+        var mailtrapClient = mailtrapClientFactory.CreateClient();
+        var mail = new SendEmailRequest
+        {
+            From = new EmailAddress("sender@yourdomain.com"),
+            To = new[] { new EmailAddress("recipient@example.com") },
+            Subject = "Hello from Mailtrap",
+            TextBody = "Welcome to Mailtrap Email API!"
+        };
+        await mailtrapClient
+            .Test(123456) // Sandbox ID
+            .Send(mail);
 ```
 {% endtab %}
 
