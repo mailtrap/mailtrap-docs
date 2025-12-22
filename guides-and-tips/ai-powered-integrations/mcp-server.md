@@ -27,7 +27,7 @@ Mailtrap MCP server is implemented as a Node.js command line utility, so please 
 
 For Claude Desktop, Mailtrap is available as a Desktop extension in the Connectors catalog. Open Claude Desktop settings, go to **Connectors**, select **Desktop extensions**, and search for "Mailtrap".
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/claude-desktop-mailtrap-connector.png" alt="Claude Desktop Connectors catalog showing Mailtrap - Send Emails extension" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/claude-desktop-mailtrap-connector.png" alt="Claude Desktop Connectors catalog showing Mailtrap - Send Emails extension" width="375"><figcaption></figcaption></figure></div>
 
 For manual configuration and available tools documentation, visit the official GitHub repository.
 
