@@ -107,7 +107,7 @@
 
 * [User Management & Organizations](account-and-organization/management/README.md)
   * [Organization & Sub-Accounts](account-and-organization/management/organization-and-sub-accounts.md)
-  * [User Management](account-and-organization/management/users.md)
+  * [User Roles & User Management](account-and-organization/management/users.md)
   * [User Profile](account-and-organization/management/user-profile.md)
   * [My Profile](account-and-organization/management/my-profile.md)
   * [SSO Guide](account-and-organization/management/sso/README.md)
