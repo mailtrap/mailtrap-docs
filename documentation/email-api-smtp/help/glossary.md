@@ -4,6 +4,7 @@ description: >-
   Definitions of key terms and phrases used in Mailtrap Email API/SMTP,
   including DNS records, email events, SMTP settings, and deliverability
   concepts.
+icon: book-open
 ---
 
 # Sending Glossary

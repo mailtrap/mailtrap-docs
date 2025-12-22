@@ -3,7 +3,6 @@ title: Unauthorized Error (401 Code)
 description: >-
   How to fix "Unauthorised" (401) authentication errors in Mailtrap Email
   API/SMTP.
-icon: lock
 layout:
   width: default
   title:

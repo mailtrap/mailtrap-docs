@@ -42,7 +42,7 @@ Add a new application by clicking the **+ New application** button
 {% step %}
 Choose **+ Create your own application**, enter the name of the application (e.g., "Mailtrap"), and select **Integrate any other application you don't find in the gallery (Non-gallery)**
 
-<div data-with-frame="true"><img src="../../../.gitbook/assets/setup-sso-with-azure-2.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/setup-sso-with-azure-2.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 

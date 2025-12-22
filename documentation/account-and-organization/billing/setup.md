@@ -13,7 +13,7 @@ icon: gears
 
 We accept major bank cards, and we send invoices for each transaction. To set or change your billing details, log in to your account, and go to the [Billing](https://mailtrap.io/billing/) section from the main menu. You can manage payment details on the Dashboard or directly from the [Payment method](https://mailtrap.io/billing/payment/) section. There, you can add or change your card details.
 
-<div align="left"><img src="../../.gitbook/assets/billing-payment-method.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-payment-method.png" alt="" width="563"></div>
 
 To see the list of transactions, go to the [Payment history](https://mailtrap.io/billing/transactions/) section in the Billing menu.
 
@@ -23,7 +23,7 @@ Please enter complete billing information for us to be able to send you proper i
 
 By default, we send invoices and billing notifications to your account email address. If you would like to receive them to another email address, please specify the address in the [Billing Settings](https://mailtrap.io/billing/settings/).
 
-<div align="left"><img src="../../.gitbook/assets/billing-settings.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-settings.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 _Please note that payment can be managed in the Mailtrap account only with the proper account owner credentials._

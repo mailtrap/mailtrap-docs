@@ -39,7 +39,7 @@ It’s perfectly fine to have a custom name for the API token, as it’s only fo
 {% step %}
 Click the **Save** button and preview the new token under the **API Tokens** main menu.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-16 at 16.20.39.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-16 at 16.20.39.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

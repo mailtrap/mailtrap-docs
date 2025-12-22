@@ -31,7 +31,7 @@ As an email changes status, multiple **events** can occur. Events are one-time o
 
 For example, a certain email can have the status **Opted Out**. This indicates that the recipient marked your message as spam or unsubscribed from the list. The **Event History** tab for such an email may look like this:
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/statuses-event-history-example.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/statuses-event-history-example.png" alt="" width="375"></div>
 
 The chart below showcases all the possible events and the relations between them.
 

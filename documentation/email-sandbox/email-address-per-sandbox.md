@@ -3,6 +3,7 @@ title: Email address per sandbox
 description: >-
   Use a dedicated customizable email address for each sandbox to send test
   messages without SMTP integration.
+icon: at
 ---
 
 # Email Address per Sandbox

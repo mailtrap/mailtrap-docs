@@ -3,6 +3,7 @@ title: Sandbox API integration
 description: >-
   Learn how to use the Sandbox API to automate testing and manage email
   sandboxes programmatically.
+icon: plug
 ---
 
 # Sandbox API Integration

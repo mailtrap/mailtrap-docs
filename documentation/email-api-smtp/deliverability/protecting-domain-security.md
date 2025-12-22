@@ -3,6 +3,7 @@ title: Protecting Your Domain Against Bots and Hackers
 description: >-
   Best practices to protect your sending domain from abuse, including securing
   web forms, implementing CAPTCHA, and hiding sensitive configuration files.
+icon: hands-holding-circle
 ---
 
 # Protecting Your Domain

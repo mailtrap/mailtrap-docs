@@ -105,7 +105,7 @@ If you upgrade to a higher plan, we create a prorated transaction based on the p
 
 To view your invoices, go to **Organization** → **Billing** and scroll down to **Payment History**. Next to each payment, you'll see the **Get invoice** button that will open your invoice.
 
-<div align="left"><img src="../../.gitbook/assets/billing-payment-history-get-invoice.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-payment-history-get-invoice.png" alt="" width="563"></div>
 
 Invoice notifications are sent by email after each payment.
 
@@ -119,11 +119,11 @@ If the financial email address is not set up, you will receive invoices and bill
 
 Your invoice will include all your subscriptions and the overage. The overage amount will be $0.00 if you didn't send any emails outside your plan limits.
 
-<div align="left"><img src="../../.gitbook/assets/billing-invoice-subscriptions-overage.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-invoice-subscriptions-overage.png" alt="" width="563"></div>
 
 You will also see your invoice number, receipt number, payment date, and payment method, as well as Railsware business address (Mailtrap is a product owned by Railsware Products Studio LLC) and EIN number.
 
-<div align="left"><img src="../../.gitbook/assets/billing-invoice-details.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-invoice-details.png" alt="" width="375"></div>
 
 ### Can you change the details in my invoice?
 
@@ -158,7 +158,7 @@ Your subscription will be switched to the free plan at the end of the billing cy
 
 Open Email Sandbox plans under Billing. At the bottom of the page, find _Want to cancel your subscription? Please, click here_. Press click here.
 
-<div align="left"><img src="../../.gitbook/assets/billing-cancel-sandbox-subscription.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-cancel-sandbox-subscription.png" alt="" width="563"></div>
 
 Select the reason for downgrading and click Change Plan. The date of downgrade will be indicated on the same screen. Until then, you can keep the benefits of the current plan.
 

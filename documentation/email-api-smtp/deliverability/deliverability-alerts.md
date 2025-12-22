@@ -4,6 +4,7 @@ description: >-
   Get weekly health status reports and critical alerts for your email
   deliverability metrics including opens, clicks, bounces, unsubscribes, and
   spam complaints.
+icon: bell-plus
 ---
 
 # Deliverability Alerts

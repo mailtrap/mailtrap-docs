@@ -7,7 +7,7 @@ description: View and analyze email campaign performance metrics and analytics
 
 Mailtrap provides analytics for all the emails you send.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -21,7 +21,7 @@ On the statistics dashboards, you can see the following metrics:
 
 In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains" width="339"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains" width="226"><figcaption></figcaption></figure></div>
 
 By default, the stats are shown for the last week + today.
 
@@ -71,7 +71,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-click-events-history.png" alt="Event History tab showing Click events with timestamps" width="292"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-click-events-history.png" alt="Event History tab showing Click events with timestamps" width="292"><figcaption></figcaption></figure></div>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 

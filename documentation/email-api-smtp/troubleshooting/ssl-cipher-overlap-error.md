@@ -3,7 +3,6 @@ title: SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001
 description: >-
   How to fix SSL errors when using custom domains for click tracking in Mailtrap
   Email API/SMTP.
-icon: certificate
 layout:
   width: default
   title:
