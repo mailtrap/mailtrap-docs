@@ -3,9 +3,23 @@ title: ChatGPT and Mailtrap Integration
 description: >-
   Send emails from a verified domain and manage contacts with custom fields
   using ChatGPT and Mailtrap Email API.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# ChatGPT and Mailtrap
+# ChatGPT
 
 This guide shows you how to send emails from a verified domain and manage contacts with custom fields and optional List IDs with ChatGPT and Mailtrap Email API.
 

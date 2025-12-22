@@ -2,9 +2,23 @@
 description: >-
   Learn how to integrate Mailtrap with Go applications using SMTP and RESTful
   API for email sending.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# Go Integration
+# Go
 
 ## Overview
 

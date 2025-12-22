@@ -2,9 +2,23 @@
 description: >-
   Learn how to integrate Mailtrap with Scala apps and projects for email sending
   using SMTP and RESTful API methods.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# Scala Integration
+# Scala
 
 ## Overview
 

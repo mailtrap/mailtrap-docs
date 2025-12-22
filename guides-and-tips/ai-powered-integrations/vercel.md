@@ -3,6 +3,20 @@ title: <i class="fa-server">:server:</i> Vercel and Mailtrap Integration
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your application hosted
   on Vercel to enable email sending capabilities.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Vercel

@@ -3,6 +3,20 @@ title: Guides & Tips
 description: >-
   Step-by-step guides for SDK integrations, DNS setup, third-party platform
   integrations, AI-powered tools, and SSO configuration
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Overview

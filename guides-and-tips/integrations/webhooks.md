@@ -3,6 +3,20 @@ title: Webhooks
 description: >-
   Set up webhooks to receive real-time notifications about email deliverability
   events.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Webhooks

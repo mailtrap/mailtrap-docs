@@ -2,6 +2,20 @@
 description: >-
   Configure Mailtrap Email Sending as an SMTP relay (Smarthost) in cPanel using
   Exim mail server configuration.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # cPanel SMTP Relay

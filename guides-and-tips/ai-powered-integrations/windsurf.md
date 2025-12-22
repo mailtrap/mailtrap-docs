@@ -3,6 +3,20 @@ title: <i class="fa-wind">:wind:</i> Windsurf and Mailtrap Integration
 description: >-
   Learn how to integrate Mailtrap with Windsurf to send emails directly from the
   editor using Cascade and the Mailtrap MCP server.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Windsurf

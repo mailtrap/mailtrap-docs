@@ -2,6 +2,20 @@
 description: >-
   Seamlessly sync your Supabase user base with Mailtrap to update email lists,
   create segments, launch personalized campaigns, and measure effectiveness.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Sync Contacts with Supabase
