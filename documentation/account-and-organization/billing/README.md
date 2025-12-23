@@ -27,8 +27,8 @@ Manage your Mailtrap subscription, understand pricing plans, and handle billing-
 
 ## Special Programs
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Non-Profit and Open-Source</strong></td><td><em>Learn about special pricing and support for non-profit organizations and open-source projects.</em></td><td><a href="non-profit-and-open-source.md">non-profit-and-open-source.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Non-Profit and Open-Source</strong></td><td>Learn about special pricing and support for non-profit organizations and open-source projects.</td><td><a href="non-profit-and-open-source.md">non-profit-and-open-source.md</a></td></tr></tbody></table>
 
 ## Account Status
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Suspensions and Bans</strong></td><td><em>Understand account suspension policies, common reasons for suspension, and how to resolve account issues.</em></td><td><a href="../suspensions-and-bans.md">suspensions-and-bans.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Suspensions and Bans</strong></td><td>Understand account suspension policies, common reasons for suspension, and how to resolve account issues.</td><td><a href="../suspensions-and-bans.md">suspensions-and-bans.md</a></td></tr></tbody></table>
