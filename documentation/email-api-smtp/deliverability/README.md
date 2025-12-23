@@ -25,7 +25,7 @@ Maximize your email deliverability with Mailtrap's comprehensive suite of delive
 
 ### Essential Guide
 
-#### [Email Deliverability Guide](broken-reference/)
+#### [Email Deliverability Guide](https://mailtrap.io/email-deliverability-guide/)
 
 **Start here!** Our comprehensive guide covers everything you need to know about achieving optimal deliverability:
 
