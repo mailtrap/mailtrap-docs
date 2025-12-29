@@ -124,7 +124,7 @@
 * [Suspensions and Bans](account-and-organization/suspensions-and-bans.md)
 * [Security & Privacy](privacy-and-security/README.md)
   * [Two-Factor Authentication](account-and-billing/2fa.md)
-  * [Activity Log](privacy-and-security/activity-log.md)
+  * [User activity logs](privacy-and-security/activity-log.md)
   * [GDPR Compliance](privacy-and-security/gdpr-compliance.md)
   * [ISO Certification](privacy-and-security/iso-certification.md)
   * [Legal Policies](privacy-and-security/legal-policies.md)

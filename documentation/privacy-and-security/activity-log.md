@@ -20,15 +20,15 @@ layout:
     visible: true
 ---
 
-# Activity Log
+# User activity logs
 
-Activity Log automatically tracks the activities and actions performed by users within your account. It's a stream of events, logging actions taken and indicating who performed them, which is used for security purposes.
+User Activity Log automatically tracks the activities and actions performed by users within your account. It's a stream of events, logging actions taken and indicating who performed them, which is used for security purposes.
 
 {% hint style="warning" %}
 This feature is available to Enterprise plan users only.
 {% endhint %}
 
-## How to view Activity Log
+## How to view User Activity Log
 
 To view the Activity Log:
 
@@ -43,7 +43,7 @@ Once you're on the Activity Log page, you'll be able to see the activities perfo
 Events start saving the moment you upgrade to Enterprise plan.
 {% endhint %}
 
-## Activity Log event examples
+## User Activity Log event examples
 
 In the Activity Log, you can see events such as:
 
@@ -54,7 +54,7 @@ In the Activity Log, you can see events such as:
 * Someone attempted to log in to the user John Doe using GitHub.
 * John Doe removed the webhook Logging from Transactional.
 
-## Why should you use the Activity Log?
+## Why should you use the User Activity Log?
 
 Some of the reasons you should use the Activity Log include:
 
@@ -62,7 +62,7 @@ Some of the reasons you should use the Activity Log include:
 * **Transparency** – See what's happening in your account in real time by having a transparent overview of actions performed by users.
 * **User management** – Monitor how your team members are interacting with Mailtrap services.
 
-## Using Activity Log with Mailtrap Webhooks
+## Using User Activity Log with Mailtrap Webhooks
 
 You can also pair the Activity Log with Mailtrap Webhooks and build an integration to monitor activities live.
 
