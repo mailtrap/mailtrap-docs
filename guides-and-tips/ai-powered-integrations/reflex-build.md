@@ -21,71 +21,47 @@ layout:
 
 # Reflex Build
 
-This guide shows you how to integrate Mailtrap with your Reflex Build application to send emails.
+Reflex Build is an AI-powered development tool that enables you to create full-stack web apps, dashboards, and components through natural language prompts. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Reflex projects.
 
-Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
+**Prerequisites**:&#x20;
 
-## Prerequisites
+* A Reflex Build account and a project.
+* A Mailtrap account for sending emails.
 
-* A Reflex Build account and a project
-* A Mailtrap account for sending emails
+### Step 1. Add your Mailtrap credentials
 
-{% stepper %}
-{% step %}
-### Create a landing page/contact form
+To add your Mailtrap credentials, open **Settings** in the sidebar, navigate to **Secrets**, and click on the **Add new variable** button.
 
-Log in to your Reflex Build account and use a prompt like the following one to create a simple project with basic fields:
+<figure><img src="../.gitbook/assets/reflex build 1.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-create me a simple contact form with email, name, and message fields, and a send button
-{% endhint %}
-{% endstep %}
+This way, you need to add the following two variables:
 
-{% step %}
-### Add your Mailtrap credentials
+* `MAILTRAP_API_TOKEN`&#x20;
 
-After a minute or two, Reflex Build will generate your project. Once it's done, you need to insert your Mailtrap credentials.
+This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time in your account under **Settings** → **API Tokens**. And here’s what the variable should look like:
 
-To do this, open **Settings** in the sidebar, navigate to **Secrets**, and click on the **Add new variable** button.
+<figure><img src="../.gitbook/assets/reflex build 2.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/reflex-build-secrets-settings.png" alt="Reflex Build Settings showing Secrets tab with Add new variable button highlighted" width="563"><figcaption><p>Reflex Build Secrets settings</p></figcaption></figure></div>
+* `MAILTRAP_FROM_EMAIL`&#x20;
 
-You need to add the following two variables:
+This is the email address with the verified Mailtrap sending domain you’ve added after creating an account. And here’s the variable:
 
-**MAILTRAP\_API\_TOKEN**
+<figure><img src="../.gitbook/assets/reflex build 3.png" alt=""><figcaption></figcaption></figure>
 
-This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens), which you can create at any time in your account dashboard.
+Once you’re done adding the variables, simply tell the Reflex Build AI that you’re done with a prompt like this one, for example:
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/reflex-build-api-token-secret.png" alt="Reflex Build secret configuration showing MAILTRAP_API_TOKEN variable" width="450"><figcaption><p>API Token secret</p></figcaption></figure></div>
+> Please use Mailtrap email api for sending, I've added the required environment variables
 
-**MAILTRAP\_FROM\_EMAIL**
+The AI will then go over [Mailtrap Email API documentation](https://docs.mailtrap.io/developers), connect it to your project, and confirm once it’s done.
 
-This is the email address with the verified Mailtrap sending domain you've added after creating an account.
+### Step 2. Start sending emails
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/reflex-build-from-email-secret.png" alt="Reflex Build secret configuration showing MAILTRAP_FROM_EMAIL variable" width="450"><figcaption><p>From Email secret</p></figcaption></figure></div>
+Finally, to test your configuration, try sending an email from your project. If you followed everything thus far, you should receive the email in your inbox in a few seconds. Here it is in a Gmail inbox I used as my `to` address:
 
-Once you're done adding the variables, simply tell the Reflex Build AI that you're done with a prompt like this one:
+<figure><img src="../.gitbook/assets/reflex build 4.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-I've added the MAILTRAP\_API\_TOKEN and MAILTRAP\_FROM\_EMAIL variables
-{% endhint %}
+And here it is in the Mailtrap [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-The AI will then go over Mailtrap Email API documentation, connect it to your project, and confirm once it's done.
+<figure><img src="../.gitbook/assets/reflex build 5.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-If you haven't already, make sure to let AI know you want the messages to be sent to the address inputted in the email field. For this, you can use a prompt such as:
-
-"I want the message to be sent to the address inputted in the email field, meaning the to field should use the email from the form data"
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Start sending emails
-
-Finally, to test your configuration, fill out the form and hit the **Send** button. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/reflex-build-email-received.png" alt="Gmail inbox showing received email from Reflex Build contact form" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
-
-You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard.
-{% endstep %}
-{% endstepper %}
+**Before you go**: If you plan on collecting email addresses for a list, you can connect your Reflex Build project with [Mailtrap Contacts](https://docs.mailtrap.io/email-marketing/contacts/overview) and store your addresses in the Mailtrap Lists automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://docs.mailtrap.io/developers/email-marketing/contacts-api).
