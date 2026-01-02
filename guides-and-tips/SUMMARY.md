@@ -57,3 +57,4 @@
 * [Leap.new](ai-powered-integrations/leap-new.md)
 * [Gemini](ai-powered-integrations/gemini.md)
 * [ChatGPT](ai-powered-integrations/chatgpt.md)
+* [Base44](ai-powered-integrations/base44.md)
