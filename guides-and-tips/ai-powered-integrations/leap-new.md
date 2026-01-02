@@ -21,68 +21,40 @@ layout:
 
 # Leap.new
 
-This guide shows you how to integrate Mailtrap with your Leap.new application to send emails.
+Leap.new is an AI developer agent that lets you build and deploy production-grade applications directly to your own cloud on AWS & GCP. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Leap.new projects.
 
-Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
+**Prerequisites**:&#x20;
 
-## Prerequisites
+* A Leap.new account and a project.
+* A Mailtrap account for sending emails.
 
-* A Leap.new account and a project
-* A Mailtrap account for sending emails
+### Step 1. Add your Mailtrap credentials
 
-{% stepper %}
-{% step %}
-### Create a landing page/contact form
+To add your Mailtrap credentials, open **Settings**, navigate to **Secrets**, and click on the **New secret** button.
 
-Log in to your Leap.new account and use a prompt like the following one to create a simple project with basic fields:
+<figure><img src="../.gitbook/assets/leap new 1.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-create me a simple contact form with email, name, and message fields, and a send button
-{% endhint %}
-{% endstep %}
+This way, you need to add the following two variables:
 
-{% step %}
-### Add your Mailtrap credentials
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time in your account.
+* `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you’ve added after creating an account.
 
-After a minute or two, Leap.new will generate your project. Once it's done, you need to insert your Mailtrap credentials.
+<figure><img src="../.gitbook/assets/leap new 2.png" alt=""><figcaption></figcaption></figure>
 
-To do this, open **Settings** and navigate to **Secrets**, and click on the **Add new variable** button.
+Once you’re done adding the variables, simply tell the Leap.new AI that you’re done with a prompt like this one, for example:
 
-Once there, use the **New secret** button to add the following two variables:
+> Please use Mailtrap email api for sending, I've added the required environment variables
 
-* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens), which you can create at any time in your account dashboard.
-* `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you've added after creating an account.
+The AI will then go over [Mailtrap Email API documentation](https://docs.mailtrap.io/developers), connect it to your project, and confirm once it’s done.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-secrets-settings.png" alt="Leap.new Settings showing Secrets configuration with MAILTRAP variables" width="563"><figcaption><p>Leap.new Secrets settings</p></figcaption></figure></div>
+### Step 2. Start sending emails
 
-Once you're done adding the variables, simply tell the Leap.new AI that you're done with a prompt like this one:
+Finally, to test your configuration, try sending an email from your project. If you followed everything thus far, you should receive the email in your inbox in a few seconds. Here it is in a Gmail inbox I used as my `to` address:
 
-{% hint style="info" %}
-I've added the MAILTRAP\_API\_TOKEN and MAILTRAP\_FROM\_EMAIL secrets
-{% endhint %}
+<figure><img src="../.gitbook/assets/leap new 3.png" alt=""><figcaption></figcaption></figure>
 
-The AI will then go over Mailtrap Email API documentation, connect it to your project, and confirm once it's done.
+And here it is in the Mailtrap [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
-{% hint style="warning" %}
-If you haven't already, make sure to let AI know you want the messages to be sent to the address inputted in the email field. For this, you can use a prompt such as:
+<figure><img src="../.gitbook/assets/Leap new 4.png" alt=""><figcaption></figcaption></figure>
 
-"I want the message to be sent to the address inputted in the email field, meaning the to field should use the email from the form data"
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Start sending emails
-
-Finally, to test your configuration, fill out the form and hit the **Send** button. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-email-received.png" alt="Gmail inbox showing received email from Leap.new contact form" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
-
-You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/leap-new-email-logs.png" alt="Mailtrap Email Logs showing the sent email details" width="563"><figcaption><p>Email in Mailtrap Email Logs</p></figcaption></figure></div>
-{% endstep %}
-{% endstepper %}
-
-{% hint style="success" %}
-If you plan on collecting email addresses for a list, you can connect your Leap.new project with [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) and store your addresses in the Mailtrap dashboard automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/0a35b03ff78c5-contacts-api).
-{% endhint %}
+**Before you go**: If you want to collect email addresses for a list, you can connect your Leap.new project with [Mailtrap Contacts](https://docs.mailtrap.io/email-marketing/contacts/overview) and store your addresses in the Mailtrap Lists automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://docs.mailtrap.io/developers/email-marketing/overview).
