@@ -23,7 +23,7 @@ layout:
 
 Reflex Build is an AI-powered development tool that enables you to create full-stack web apps, dashboards, and components through natural language prompts. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Reflex projects.
 
-**Prerequisites**:&#x20;
+Prerequisites:&#x20;
 
 * A Reflex Build account and a project.
 * A Mailtrap account for sending emails.
@@ -38,7 +38,7 @@ This way, you need to add the following two variables:
 
 * `MAILTRAP_API_TOKEN`&#x20;
 
-This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time in your account under **Settings** → **API Tokens**. And here’s what the variable should look like:
+This is the [Mailtrap API token](https://help.mailtrap.io/article/103-api-tokens), which you can create at any time in your account under **Settings** → **API Tokens**. And here’s what the variable should look like:
 
 <figure><img src="../.gitbook/assets/reflex build 2.png" alt=""><figcaption></figcaption></figure>
 
@@ -52,16 +52,16 @@ Once you’re done adding the variables, simply tell the Reflex Build AI that yo
 
 > Please use Mailtrap email api for sending, I've added the required environment variables
 
-The AI will then go over [Mailtrap Email API documentation](https://docs.mailtrap.io/developers), connect it to your project, and confirm once it’s done.
+The AI will then go over [Mailtrap Email API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api), connect it to your project, and confirm once it’s done.
 
 ### Step 2. Start sending emails
 
 Finally, to test your configuration, try sending an email from your project. If you followed everything thus far, you should receive the email in your inbox in a few seconds. Here it is in a Gmail inbox I used as my `to` address:
 
-<figure><img src="../.gitbook/assets/reflex build 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/reflex logs to.png" alt=""><figcaption></figcaption></figure>
 
-And here it is in the Mailtrap [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
+And here it is in the Mailtrap [Email Logs](https://help.mailtrap.io/article/71-email-logs):
 
-<figure><img src="../.gitbook/assets/reflex build 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/reflex email logs.png" alt=""><figcaption></figcaption></figure>
 
-**Before you go**: If you plan on collecting email addresses for a list, you can connect your Reflex Build project with [Mailtrap Contacts](https://docs.mailtrap.io/email-marketing/contacts/overview) and store your addresses in the Mailtrap Lists automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://docs.mailtrap.io/developers/email-marketing/contacts-api).
+Before you go: If you plan on collecting email addresses for a list, you can connect your Reflex Build project with [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) and store your addresses in the Mailtrap Lists automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/0a35b03ff78c5-contacts-api).

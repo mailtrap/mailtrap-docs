@@ -117,11 +117,11 @@ Lovable uses Supabase (built-in integration) to manage authentication, database,
 
 To connect your Lovable project to your Supabase account, click on the Supabase icon in the upper-right corner of a new project. This will open the following window, where you need to enter a project name, password, and choose the region closest to your recipients.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 After clicking on **Create new project**, Lovable will confirm that you have successfully connected your app to Supabase.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 For more information on integrating Supabase, follow the [official Lovable guide](https://docs.lovable.dev/integrations/supabase).
