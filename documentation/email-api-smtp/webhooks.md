@@ -158,3 +158,7 @@ Webhooks are sent in batches — the information we send can be grouped within o
 For example, Mailtrap groups up to 500 events and sends them as a batch. The benefit is that we don't need to make 500 requests to your endpoint, and there's less load on your side. This is very beneficial for high-volume senders.
 
 In an array of events, we collect and batch events every 30 seconds. After that time, everything that was grouped will be sent to you.
+
+## Webhook Signature Verification
+
+_Coming soon_
