@@ -116,7 +116,7 @@ jane@example.com,Jane,Smith,Value2
 ### Self-Service Options
 
 1. **Documentation Search**: Use search bar above
-2. **Video Tutorials**: [YouTube Channel](https://youtube.com/mailtrap)
+2. **Video Tutorials**: [YouTube Channel](https://www.youtube.com/@mailtrap-official)
 3. **Blog Resources**: [mailtrap.io/blog](https://mailtrap.io/blog)
 4. **API Reference**: [API Docs](https://api-docs.mailtrap.io)
 
