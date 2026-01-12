@@ -26,6 +26,10 @@ layout:
 
 Mailtrap can be integrated with Java apps and projects for email sending with SDK, SMTP, and RESTful API.
 
+{% hint style="info" %}
+test changes
+{% endhint %}
+
 ### Email API/SMTP for Java
 
 #### SDK integration
