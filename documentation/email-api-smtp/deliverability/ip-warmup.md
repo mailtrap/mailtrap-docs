@@ -35,7 +35,7 @@ We recommend dedicated IPs only if your volume regularly exceeds 100,000+ emails
 {% hint style="info" %}
 If you’re interested in using a dedicated IP, the Deliverability team will be happy to assist you.&#x20;
 
-<a href="mailto:deliverability@mailtrap.io" class="button primary">Contact us</a>
+<a href="mailto:deliverability@mailtrap.io" class="button secondary">Contact us</a>
 {% endhint %}
 
 Each request is reviewed individually by our Deliverability team. In some cases we recommend and insist users to stay on a shared IP for their own benefit.
