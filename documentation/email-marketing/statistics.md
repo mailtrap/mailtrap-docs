@@ -23,10 +23,10 @@ Mailtrap provides statistics for you to track the most important email marketing
 
 In your campaign dashboard, you can find:
 
-* Campaign stats&#x20;
-* Recipients stats&#x20;
-* Clicks stats&#x20;
-* Mailbox provider stats&#x20;
+* [Campaign stats](statistics.md#campaign-stats)&#x20;
+* [Recipients stats](statistics.md#recipients-stats)&#x20;
+* [Clicks stats](statistics.md#clicks-stats)&#x20;
+* [Mailbox provider stats](statistics.md#mailbox-providers-stats)&#x20;
 
 {% hint style="info" %}
 The feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
