@@ -99,7 +99,7 @@ Discover the full range of features and capabilities across our email platform.
 * [Campaign Management](email-marketing/campaigns/)
 * [Contacts Management](email-marketing/contacts/)
 * [Email Templates](email-marketing/email-templates.md)
-* [Statistics](email-marketing/statistics.md)
+* [Statistics](email-marketing/campaigns/statistics.md)
 * [Segments](email-marketing/contacts/segments.md)
 {% endcolumn %}
 {% endcolumns %}

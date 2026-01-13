@@ -239,7 +239,7 @@ Ready-to-use designs:
 
 * [Contact Management](contacts.md)
 * [List Segmentation](broken-reference/)
-* [Campaign Statistics](statistics.md)
+* [Campaign Statistics](campaigns/statistics.md)
 * [Reports & Analytics](broken-reference/)
 {% endcolumn %}
 {% endcolumns %}
@@ -257,4 +257,4 @@ Ready-to-use designs:
 1. [**Verify your domain**](copy-of-email-marketing.md) - Set up authentication
 2. [**Import contacts**](contacts.md) - Build your subscriber list
 3. [**Create first campaign**](copy-of-email-marketing.md) - Design and send
-4. [**Track performance**](statistics.md) - Monitor results
+4. [**Track performance**](campaigns/statistics.md) - Monitor results

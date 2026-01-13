@@ -93,6 +93,7 @@
   * [Email throttling](email-marketing/campaigns/email-throttling.md)
   * [Campaign Scheduling](email-marketing/campaign-management/scheduling.md)
   * [Email Templates](email-marketing/email-templates.md)
+  * [Stats](email-marketing/campaigns/statistics.md)
 * [Automations](email-marketing/automations.md)
 * [Contacts Management](email-marketing/contacts/README.md)
   * [Overview](email-marketing/contacts/overview.md)
@@ -100,7 +101,6 @@
   * [Import Contacts](email-marketing/contacts/import-contacts.md)
   * [Lists](email-marketing/contacts/lists.md)
   * [Segments](email-marketing/contacts/segments.md)
-* [Stats](email-marketing/statistics.md)
 * [Help & Support](email-marketing/help/README.md)
   * [FAQs](email-marketing/faqs.md)
 

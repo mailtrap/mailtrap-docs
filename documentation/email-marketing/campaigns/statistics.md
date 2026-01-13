@@ -1,6 +1,7 @@
 ---
 title: Statistics
 description: View and analyze email campaign performance metrics and analytics
+icon: chart-simple
 layout:
   width: default
   title:
@@ -34,7 +35,7 @@ The feature applies to UI-launched campaigns only, not emails sent using the tra
 
 ### Campaign Stats
 
-<figure><img src="../.gitbook/assets/campaign stats.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/campaign stats.png" alt=""><figcaption></figcaption></figure>
 
 In the **Reports** tab, you can see the following campaign statistics:
 
@@ -52,7 +53,7 @@ By default, the Charts Overview shows data based on hourly sends, but you can al
 
 ### Recipients stats
 
-<figure><img src="../.gitbook/assets/recipient stats (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/recipient stats (2).png" alt=""><figcaption></figcaption></figure>
 
 In the **Recipients** tab, you can see how your campaign is performing for each recipient.
 
@@ -64,7 +65,7 @@ You can also export the stats in a .csv file by clicking on the Download Recipie
 
 ### Clicks stats
 
-<figure><img src="../.gitbook/assets/click stats.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/click stats.png" alt=""><figcaption></figcaption></figure>
 
 In the **Clicks** tab, you can keep track of the performance of your links, more specifically:
 
@@ -75,6 +76,6 @@ In the **Clicks** tab, you can keep track of the performance of your links, more
 
 ### Mailbox providers stats
 
-<figure><img src="../.gitbook/assets/mailbox providers.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/mailbox providers.png" alt=""><figcaption></figcaption></figure>
 
 Finally, you can go to the **Mailbox Providers Stats** and see how your campaign is performing with different Mailbox Providers, such as Google, Yahoo, Outlook, Apple Mail, and others.
