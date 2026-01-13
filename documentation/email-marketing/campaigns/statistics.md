@@ -30,7 +30,7 @@ In your campaign dashboard, you can find:
 * [Mailbox provider stats](statistics.md#mailbox-providers-stats)&#x20;
 
 {% hint style="info" %}
-The feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream)
+Feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream)
 {% endhint %}
 
 ### Campaign Stats
