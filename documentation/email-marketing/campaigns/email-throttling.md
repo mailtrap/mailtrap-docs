@@ -108,7 +108,7 @@ If you set your limit to 60 emails per hour:
 * Mailtrap will send **5 emails** every **5 minutes**
 * 60 emails / 12 five-minute slots = 5 emails per slot
 
-#### Monitor your campaign
+### Monitor your campaign
 
 Once a gradual campaign has started, you can monitor its progress in real-time.
 
