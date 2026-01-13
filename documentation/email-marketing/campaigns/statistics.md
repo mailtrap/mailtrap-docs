@@ -30,12 +30,12 @@ In your campaign dashboard, you can find:
 * [Mailbox provider stats](statistics.md#mailbox-providers-stats)&#x20;
 
 {% hint style="info" %}
-The feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
+The feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream)
 {% endhint %}
 
 ### Campaign Stats
 
-<figure><img src="../../.gitbook/assets/campaign stats.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/campaign stats.png" alt=""><figcaption></figcaption></figure></div>
 
 In the **Reports** tab, you can see the following campaign statistics:
 
@@ -53,7 +53,7 @@ By default, the Charts Overview shows data based on hourly sends, but you can al
 
 ### Recipients stats
 
-<figure><img src="../../.gitbook/assets/recipient stats (2).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/recipient stats (2).png" alt=""><figcaption></figcaption></figure></div>
 
 In the **Recipients** tab, you can see how your campaign is performing for each recipient.
 
@@ -65,7 +65,7 @@ You can also export the stats in a .csv file by clicking on the Download Recipie
 
 ### Clicks stats
 
-<figure><img src="../../.gitbook/assets/click stats.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/click stats.png" alt=""><figcaption></figcaption></figure></div>
 
 In the **Clicks** tab, you can keep track of the performance of your links, more specifically:
 
@@ -76,6 +76,6 @@ In the **Clicks** tab, you can keep track of the performance of your links, more
 
 ### Mailbox providers stats
 
-<figure><img src="../../.gitbook/assets/mailbox providers.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/mailbox providers.png" alt=""><figcaption></figcaption></figure></div>
 
 Finally, you can go to the **Mailbox Providers Stats** and see how your campaign is performing with different Mailbox Providers, such as Google, Yahoo, Outlook, Apple Mail, and others.
