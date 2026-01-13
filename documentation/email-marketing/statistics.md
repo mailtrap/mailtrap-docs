@@ -17,97 +17,64 @@ layout:
     visible: true
 ---
 
-# Statistics
+# Stats
 
-Mailtrap provides analytics for all the emails you send.
+Mailtrap provides statistics for you to track the most important email marketing metrics.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+In your campaign dashboard, you can find:
 
-On the statistics dashboards, you can see the following metrics:
+* Campaign stats&#x20;
+* Recipients stats&#x20;
+* Clicks stats&#x20;
+* Mailbox provider stats&#x20;
 
-* Delivered emails
-* Unique open rate
-* Click rate
-* Bounce rate
-* Spam complaints
+{% hint style="info" %}
+The feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
+{% endhint %}
 
-### Navigating around the statistics dashboards
+### Campaign Stats
 
-In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
+<figure><img src="../.gitbook/assets/campaign stats.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-domain-selector.png" alt="Stats Overview with domain selector dropdown showing available domains" width="226"><figcaption></figcaption></figure></div>
+In the **Reports** tab, you can see the following campaign statistics:
 
-By default, the stats are shown for the last week + today.
+* **Sent** – Emails attempted to be sent to recipients, including those that may have bounced or not yet been delivered.
+* **Delivered** – Emails delivered to the recipient’s mailbox provider.
+* **Opened** – Percentage of emails opened at least once.&#x20;
+* **Clicked** – Percentage of emails where a recipient clicked any link.
+* **Bounced** – Percentage of emails rejected by mailbox providers.
+* **Spam complaints** – Percentage of emails recipients reported as spam.
+* **Unsubscribed** – Percentage of recipients that unsubscribed from your campaign.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (33).png" alt="" width="563"><figcaption></figcaption></figure></div>
+{% hint style="info" %}
+By default, the Charts Overview shows data based on hourly sends, but you can also view it by daily totals.
+{% endhint %}
 
-### Thresholds
+### Recipients stats
 
-The thresholds are based on our extensive cross-industry research and, at this point, can't be edited. The current values are:
+<figure><img src="../.gitbook/assets/recipient stats (2).png" alt=""><figcaption></figcaption></figure>
 
-* For bounce rate:
-  * 2-5% is a warning level (yellow)
-  * \>5% is a critical level (red)
-* For spam rate:
-  * 0.08%-0.1% is a warning level (yellow)
-  * \>0.1% is a critical level (red)
+In the **Recipients** tab, you can see how your campaign is performing for each recipient.
 
-### Terminology
+The individual stats are shown in a list, as opposed to a chart, and you can filter the recipients by email, number of clicks or opens, and events (i.e., delivered, unsubscribed, etc.)
 
-#### Delivered
+{% hint style="info" %}
+You can also export the stats in a .csv file by clicking on the Download Recipients Report button.
+{% endhint %}
 
-Delivered refers to the percentage of emails that were accepted by the recipient's mailbox prqoviders compared to all emails sent. Email is counted as delivered when a Delivery event is recorded in its Event History in [Email Logs](../email-api-smtp/analytics/logs.md).
+### Clicks stats
 
-**Note:** "**Delivered**" status doesn’t mean that a message went straight into the recipient’s Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
+<figure><img src="../.gitbook/assets/click stats.png" alt=""><figcaption></figcaption></figure>
 
-Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about suppressions [here](../email-api-smtp/suppressions-list.md).
+In the **Clicks** tab, you can keep track of the performance of your links, more specifically:
 
-On top of that, an email can be rejected on the recipient’s end for various reasons:
+* **Clicks** – Number of emails where a recipient clicked any link.
+* **% of total clicks** – The percentage of all campaign clicks that this link received.
+* **Unique clicks** – Number of unique recipients who clicked this link at least once. Each recipient is counted only once.
+* **% of unique clicks** – The percentage of all campaign clicks that came from unique users for this link.
 
-* A message is considered spam, phishing, or other foul play.
-* A security policy on the recipient’s end dictates that a message should be declined.
-* A server timeout occurs (in such case, Mailtrap will retry the delivery 10 times until it eventually gives up).
-* Email authentications (SPF, DKIM, DMARC) fail.
+### Mailbox providers stats
 
-#### Unique open rate
+<figure><img src="../.gitbook/assets/mailbox providers.png" alt=""><figcaption></figcaption></figure>
 
-Unique open rate refers to the percentage of emails that were opened at least once compared to all emails sent.
-
-Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
-
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/stats-tracking-settings.png" alt="Tracking Settings tab showing Track Opened Emails and Track Clicks toggles"><figcaption><p>Tracking Settings for email opens and clicks</p></figcaption></figure></div>
-
-#### Click rate
-
-Click rate refers to the percentage of emails that received at least one link click compared to all delivered emails.
-
-When any of the links in an email are clicked, a **click** event is recorded. The same happens for any further clicks, even if a recipient keeps clicking on the same or different links.
-
-You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/stats-click-events-history.png" alt="Event History tab showing Click events with timestamps" width="292"><figcaption></figcaption></figure></div>
-
-However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
-
-**Clicked** metric indicates how many emails received at least one click on.
-
-The **click rate** is basically clicked/delivered \* 100%.
-
-#### Bounce rate
-
-Bounce rate refers to the percentage of emails dispatched from Mailtrap that were rejected on the recipient's end compared to all emails sent.
-
-Emails may bounce for different reasons, most commonly:
-
-* Invalid email address
-* Rejection by the recipient’s mailbox because email is deemed spam, phishing, etc.
-* The security policy of a mailbox provider that rejects emails from all or some domains
-* Permanent connection issue
-
-The term bounce used in Mailtrap is also known as a hard bounce. This is different from a soft bounce - another event present in Mailtrap that refers to a temporary delivery problem.
-
-If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
-
-#### Spam complaints
-
-Spam complaints refer to the percentage of emails that are reported as spam by recipients, as compared to all emails that were delivered.
+Finally, you can go to the **Mailbox Providers Stats** and see how your campaign is performing with different Mailbox Providers, such as Google, Yahoo, Outlook, Apple Mail, and others.

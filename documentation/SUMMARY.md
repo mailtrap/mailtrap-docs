@@ -100,7 +100,7 @@
   * [Import Contacts](email-marketing/contacts/import-contacts.md)
   * [Lists](email-marketing/contacts/lists.md)
   * [Segments](email-marketing/contacts/segments.md)
-* [Statistics](email-marketing/statistics.md)
+* [Stats](email-marketing/statistics.md)
 * [Help & Support](email-marketing/help/README.md)
   * [FAQs](email-marketing/faqs.md)
 
