@@ -90,6 +90,7 @@
 
 * [Overview](email-marketing/overview.md)
 * [Campaign Management](email-marketing/campaigns/README.md)
+  * [Email throttling](email-marketing/campaigns/email-throttling.md)
   * [Campaign Scheduling](email-marketing/campaign-management/scheduling.md)
   * [Email Templates](email-marketing/email-templates.md)
 * [Automations](email-marketing/automations.md)
