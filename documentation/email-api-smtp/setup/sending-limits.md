@@ -39,7 +39,7 @@ Note: There are no hourly limits for Email Campaigns.
 
 ## Daily Limits
 
-We have a daily limit of 150 emails/day only for our Free plan, which lets you send up to 3,500 emails per month. Emails sent over this limit will be rejected and won't be sent. There are no daily limits on paid plans.
+We have a daily limit of 150 emails/day only for our Free plan, which lets you send up to 4,000 emails per month. Emails sent over this limit will be rejected and won't be sent. There are no daily limits on paid plans.
 
 Need to send more? Upgrade to a paid plan!
 
