@@ -49,7 +49,7 @@
 * [Cursor](ai-powered-integrations/cursor.md)
 * [V0](ai-powered-integrations/v0.md)
 * [Claude](ai-powered-integrations/claude.md)
-* [Vercel](ai-powered-integrations/vercel.md)
+* [Integrating Mailtrap with Vercel](ai-powered-integrations/vercel.md)
 * [Windsurf](ai-powered-integrations/windsurf.md)
 * [Mailtrap MCP Server](ai-powered-integrations/mcp-server.md)
 * [Reflex Build](ai-powered-integrations/reflex-build.md)

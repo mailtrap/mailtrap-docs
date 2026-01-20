@@ -19,77 +19,101 @@ layout:
     visible: true
 ---
 
-# Vercel
+# Integrating Mailtrap with Vercel
 
-[Mailtrap](https://mailtrap.io/) is an email-sending solution for developer and product teams. It is focused on fast delivery and high inboxing rates for transactional and promotional emails, providing a highly customizable API and 24/7 technical support.
+Mailtrap’s native integration with Vercel removes manual setup friction, minimizes configuration mistakes, and makes it easy to follow a reliable testing-to-production email workflow.&#x20;
 
-## Prerequisites
+This integration automatically configures the environment variables necessary for both testing (Sandbox) and production sending in your Vercel projects.&#x20;
 
-Before you start, ensure you have:
+{% hint style="info" %}
+The integration adds a set of three variables (`API_KEY`, `USE_SANDBOX`, and `INBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
+{% endhint %}
 
-* A [Vercel account](https://vercel.com/) with a project where you'll add your Mailtrap API key
-* A verified sending domain in Mailtrap (setup takes approximately 5 minutes—see our [sending domain setup guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) for instructions)
+#### Prerequisites
+
+* **Admin rights** for your Mailtrap account.
+* A [verified sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) set up within Mailtrap.
+* An existing **Vercel account** with one or more projects.
+
+### Step-by-step integration guide
 
 {% stepper %}
 {% step %}
-**Find your Mailtrap API key**
+### Initiate the integration
 
-In your Mailtrap dashboard, navigate to **Settings → API Tokens**. You can view all active tokens, their creators, and access levels.
+* Log in to your Mailtrap account
+* Navigate to the [**Integrations** page](https://mailtrap.io/integrations) from the sidebar.
+* Locate the **Vercel** card under the **AI & Development** section.
+* Click the **Integrate** button.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-1.png" alt="" width="563"></div>
-
-If you don't already have an API key, click **Add Token** and assign the desired permissions. For this integration, ensure you check the **API/SMTP** permissions.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-2.png" alt="" width="375"></div>
-
-Click **Save** and store your API key securely, as you won't be able to view it again. For more information, see our guide on [Mailtrap API Tokens](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens).
+<figure><img src="../.gitbook/assets/vercel 1.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Add your key to Vercel**
+### Authorize with Vercel account
 
-Open your Vercel dashboard and go to the **Settings** for the project where you want to add Mailtrap:
+Click the **Authorize with Vercel** account button. You will be redirected to the Mailtrap listing page.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-3.png" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/vercel 2.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-In the **Environment Variables** section of Settings, locate the **Key** field and add `MAILTRAP_API_TOKEN` with your actual token value, then click **Save**.
+{% step %}
+### Connect your Mailtrap account
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/vercel-img-4.png" alt="" width="563"></div>
+On the Vercel integration page, click on **Connect Account** and then:
 
-{% hint style="info" %}
-Since Vercel environment variables only become available after you redeploy your project, make sure to either push a new commit or click the **Deploy** button again in the Vercel dashboard.
+* Select your Vercel team.
+* Select the specific project you want the integration to apply to.
+  * **Note**: You’ll need to choose the project again on the Mailtrap side in the next step.
+* Click **Connect Account** to proceed, and a new popup will appear.
+
+<figure><img src="../.gitbook/assets/vercel 4.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Currently, the integration cannot be added to all projects, only to specific ones.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-**Reference the key in your code**
+### Select a Vercel project in Mailtrap
 
-Reference the Mailtrap API key in your code so your application can use it when making requests. Add the Mailtrap API key and the Mailtrap URL `https://send.api.mailtrap.io/api/send` to your code.
+Select the specific Vercel project you want to configure from the dropdown menu.
 
-For example, here's how it would look in your `route.ts` file:
+<figure><img src="../.gitbook/assets/vercel 5 (1).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-{% code title="route.ts" %}
-```typescript
-const MAILTRAP_API_TOKEN = process.env.MAILTRAP_API_TOKEN;
+{% step %}
+### Create an API Token
 
-const res = await fetch("https://send.api.mailtrap.io/api/send", {
-  method: "POST",
-  headers: {
-    "Authorization": `Bearer ${MAILTRAP_API_TOKEN}`,
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({
-    from: { email: "no-reply@yourdomain.com" },
-    to: [{ email: "support@yourdomain.com" }],
-    subject: "Hello from Vercel + Mailtrap",
-    text: "This is a test email sent via Mailtrap API."
-  })
-});
-```
-{% endcode %}
+Choose the domain from which you intend to send emails and click **Create Token**. The token will be generated at the domain level.
+
+<figure><img src="../.gitbook/assets/vercel 6.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add environment variables and complete the installation
+
+The following variables will be added to your Vercel project:
+
+* `MAILTRAP_API_KEY` – Required for both testing and sending.&#x20;
+* `MAILTRAP_USE_SANDBOX` – Set to **True** to use Mailtrap's Sandbox for testing, or **False** for production sending.&#x20;
+* `MAILTRAP_INBOX_ID` – Required if using the Sandbox. Select the desired Inbox from the dropdown.
+
+Once you’re done reviewing the variables, click **Set Environment Variables**. This will finalize the integration and close the setup window.
+
+<figure><img src="../.gitbook/assets/vercel 7.png" alt=""><figcaption></figcaption></figure>
+
+### Verifying the integration in Vercel
+
+Once the setup is complete, you can verify the environment variables in your Vercel account:
+
+1. Go to your Vercel project settings.
+2. Navigate to the **Environment Variables** section.
+3. You should see nine Mailtrap environment variables. A set of three variables (`API_KEY`, `USE_SANDBOX`, and `INBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
+
+<figure><img src="../.gitbook/assets/vercel 8.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-## Next Steps
 
-Your Mailtrap integration with Vercel is now complete. You can now send transactional emails through your Vercel-hosted application using the Mailtrap Email API.
+
