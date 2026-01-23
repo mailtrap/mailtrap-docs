@@ -17,7 +17,6 @@
 
 ## Integrations
 
-* [Webhooks](integrations/webhooks.md)
 * [Supabase](integrations/supabase/README.md)
   * [Supabase Transactional Emails Integration](integrations/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](integrations/supabase/contacts-management.md)
