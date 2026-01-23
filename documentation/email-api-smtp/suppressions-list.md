@@ -110,7 +110,4 @@ Click **Browse file** to select the CSV file from your computer or drag and drop
 
 To complete the action, click **Add To Suppressions** and you’re done. If you wish, you can also download our CSV template by clicking on the corresponding option.
 
-{% hint style="info" %}
-**Hint:** You can suppress sending of transactional and marketing emails separately or do both at once by selecting 'Any'. For example, if a user X unsubscribes from marketing emails and they're now on the suppression list, this doesn't stop you from sending them transactional emails. However, if they unsubscribe from those too, their status will change to 'Any'.
-{% endhint %}
-
+**Hint:** You can suppress sending of transactional and marketing emails separately or do both at once by selecting 'Any'. For example, if a user X unsubscribes from marketing emails and they're now on the suppression list, this doesn't stop you from sending them transactional emails. However, if they unsubscribe from those too, they won't receive any emails.
