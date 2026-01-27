@@ -65,7 +65,6 @@
 
 ## Email Sandbox
 
-* [Overview](sandbox/overview.md)
 * ```yaml
   props:
     models: false

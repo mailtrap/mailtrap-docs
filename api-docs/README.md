@@ -23,7 +23,7 @@ Send transactional and bulk emails with reliable delivery.
 {% endcolumn %}
 
 {% column %}
-#### [Email Sandbox](sandbox/overview.md)
+#### [Email Sandbox](/broken/pages/B8j01j7ouS67D5z3NoHl)
 
 Test emails safely in isolated environments.
 
@@ -328,5 +328,5 @@ Choose an API to explore:
 {% endhint %}
 
 {% hint style="info" %}
-**Testing?** Use the [Email Sandbox](sandbox/overview.md) to safely test email functionality.
+**Testing?** Use the [Email Sandbox](/broken/pages/B8j01j7ouS67D5z3NoHl) to safely test email functionality.
 {% endhint %}
