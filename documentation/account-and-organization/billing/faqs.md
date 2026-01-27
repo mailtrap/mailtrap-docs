@@ -183,6 +183,7 @@ Yes, you can request a refund within 30 (thirty) days starting from the first da
 {% hint style="warning" %}
 **Important:**
 
-* If your usage volume exceeds 30% of your Paid Plan scope, Mailtrap reserves the right to provide you with a partial refund only.
-* If Mailtrap suspends the Services for any reason [listed in the Terms of Service](https://mailtrap.io/terms/#Suspension-of-Service-by-Mailtrap), you shall not be provided with a refund.
+* Mailtrap reserves the right to provide You with partial refund, in case Your usage volume does not exceed 30% of Your first Paid Plan scope
+* Mailtrap will not provide You with a refund in case Your usage volume exceeds 30% of Your Paid Plan scope.
+* A refund request option does not apply to Your Paid Plan renewal.
 {% endhint %}
