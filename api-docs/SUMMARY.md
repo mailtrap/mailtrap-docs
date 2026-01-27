@@ -79,7 +79,6 @@
 
 ## Email Marketing
 
-* [Contacts API](contacts/overview.md)
 * ```yaml
   props:
     models: false
