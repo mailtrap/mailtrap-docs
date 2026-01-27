@@ -93,7 +93,6 @@
 
 ## Account Management
 
-* [General API](general/overview.md)
 * ```yaml
   props:
     models: false
