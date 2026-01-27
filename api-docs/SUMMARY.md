@@ -1,6 +1,6 @@
 # Table of contents
 
-* [API Reference](README.md)
+* [Overview](README.md)
 * [Authentication](authentication.md)
 * [Rate Limits](rate-limits.md)
 * [OpenAPI Specs](openapi-specs.md)
