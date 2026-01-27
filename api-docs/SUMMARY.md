@@ -5,10 +5,6 @@
 * [Rate Limits](rate-limits.md)
 * [OpenAPI Specs](openapi-specs.md)
 
-## Email API
-
-* [Overview](email-api/overview.md)
-
 ## Sending
 
 * ```yaml

@@ -12,7 +12,7 @@ Welcome to the Mailtrap API documentation. Our APIs provide comprehensive access
 
 {% columns %}
 {% column %}
-#### [Email API/SMTP](email-api/overview.md)
+#### [Email API/SMTP](/broken/pages/0oyoQJC3mZWS9a67TFp2)
 
 Send transactional and bulk emails with reliable delivery.
 
@@ -324,7 +324,7 @@ await client.Email().Send(mail);
 Choose an API to explore:
 
 {% hint style="success" %}
-**Getting Started?** Begin with the [Email API](email-api/overview.md) for sending your first email.
+**Getting Started?** Begin with the [Email API](/broken/pages/0oyoQJC3mZWS9a67TFp2) for sending your first email.
 {% endhint %}
 
 {% hint style="info" %}
