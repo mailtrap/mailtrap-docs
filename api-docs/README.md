@@ -22,10 +22,9 @@ Endpoints to send transactional and [bulk](https://docs.mailtrap.io/email-api-sm
 {% endcolumn %}
 
 {% column width="33.33333333333333%" %}
-#### [Email Sandbox](https://docs.mailtrap.io/developers/email-sandbox/email-sandbox-api)
+#### [Templates](https://docs.mailtrap.io/developers/management/templates)
 
-Endpoints for testing and inspecting emails in a safe environment.\
-**Note**: Email Sending and Email Sandbox use different base URLs.
+Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
 {% endcolumn %}
 
 {% column %}
@@ -37,9 +36,10 @@ Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts
 
 {% columns %}
 {% column %}
-#### [Templates](https://docs.mailtrap.io/developers/management/templates)
+#### [Email Sandbox](https://docs.mailtrap.io/developers/email-sandbox/email-sandbox-api)
 
-Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
+Endpoints for testing and inspecting emails in a safe environment.\
+**Note**: Email Sending and Email Sandbox use different base URLs.
 {% endcolumn %}
 
 {% column %}
