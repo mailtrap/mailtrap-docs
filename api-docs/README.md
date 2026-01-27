@@ -22,13 +22,13 @@ Endpoints to send transactional and [bulk](https://docs.mailtrap.io/email-api-sm
 {% endcolumn %}
 
 {% column width="33.33333333333333%" %}
-#### [Templates](https://docs.mailtrap.io/developers/management/templates)
+#### Templates
 
 Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
 {% endcolumn %}
 
 {% column %}
-#### [Promotional](https://docs.mailtrap.io/developers/email-marketing/contacts-api)
+#### Promotional
 
 Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts). Contacts can be used to run campaigns and set up automations.
 {% endcolumn %}
@@ -36,14 +36,14 @@ Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts
 
 {% columns %}
 {% column %}
-#### [Email Sandbox](https://docs.mailtrap.io/developers/email-sandbox/email-sandbox-api)
+#### Email Sandbox
 
 Endpoints for testing and inspecting emails in a safe environment.\
 **Note**: Email Sending and Email Sandbox use different base URLs.
 {% endcolumn %}
 
 {% column %}
-#### [Account Management](https://docs.mailtrap.io/developers/account-management/general-api)
+#### Account Management
 
 Endpoints for programmatic management of account details and access permissions.
 {% endcolumn %}
@@ -303,7 +303,7 @@ await client.Email().Send(mail);
 
 ### Email Sending Options
 
-#### [Transactional emails](https://docs.mailtrap.io/developers/sending/send-email-transactional)
+#### Transactional emails
 
 Best suited for real-time, one-to-one emails triggered by user actions, such as:
 
@@ -317,7 +317,7 @@ Best suited for real-time, one-to-one emails triggered by user actions, such as:
 
 `https://send.api.mailtrap.io/api/send`
 
-#### [Bulk stream](https://docs.mailtrap.io/developers/sending/send-email-bulk)
+#### Bulk stream
 
 Optimized for high-volume marketing and promotional campaigns, including:
 
@@ -330,7 +330,7 @@ Optimized for high-volume marketing and promotional campaigns, including:
 
 `https://bulk.api.mailtrap.io/api/send`
 
-#### [Batch sending](https://docs.mailtrap.io/developers/sending/send-email-batch)
+#### Batch sending
 
 Send up to **500** **emails** in a single API call. Useful for:
 
