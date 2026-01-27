@@ -37,17 +37,6 @@ Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts
 
 {% columns %}
 {% column %}
-#### [Webhooks](/broken/pages/ZvDDTOXdlgq15U9tIaEN)
-
-Receive real-time event notifications.
-
-* Delivery events
-* Engagement tracking
-* Bounce handling
-* Custom processing
-{% endcolumn %}
-
-{% column %}
 #### [Templates](https://docs.mailtrap.io/developers/management/templates)
 
 Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
@@ -57,6 +46,10 @@ Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/em
 #### [Account Management](https://docs.mailtrap.io/developers/account-management/general-api)
 
 Endpoints for programmatic management of account details and access permissions.
+{% endcolumn %}
+
+{% column %}
+####
 {% endcolumn %}
 {% endcolumns %}
 
