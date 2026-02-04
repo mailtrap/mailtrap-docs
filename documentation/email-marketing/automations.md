@@ -23,7 +23,7 @@ layout:
 
 The Automations feature allows you to create automated email sequences to engage your contacts.
 
-Set up triggers, actions, and rules to automate your workflows.
+Set up triggers, actions, and rules to automate your email sending.
 
 ## Use cases
 
@@ -38,6 +38,8 @@ Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https
 1. Trigger: Contact created
 2. Add Send email steps with Time delays
 3. Optionally: Conditional split by plan or locale
+
+<figure><img src="../.gitbook/assets/welcome.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Onboarding Prompts" %}
@@ -48,6 +50,8 @@ Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https
 1. Trigger: Contact field updated
 2. Send email with next steps
 3. Add to list "Onboarding" for later messages
+
+<figure><img src="../.gitbook/assets/onboarding (2).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Segment-Based Campaigns" %}
@@ -58,6 +62,8 @@ Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https
 1. Trigger: Contact added to list (or removed from list)
 2. Send email
 3. Add/Remove from lists to manage follow-ups
+
+<figure><img src="../.gitbook/assets/segment basd.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Event-Driven Follow-ups" %}
@@ -68,6 +74,8 @@ Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https
 1. Trigger: API event received
 2. Send email
 3. Optionally: Update contact field and Conditional split based on event data
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-04 at 12.20.41.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -77,13 +85,13 @@ Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https
 
 {% tabs %}
 {% tab title="Triggers" %}
-Entry points for your automation
+Some of the Entry points available in the automation builder include:
 
-* **Contact created** — Starts when a new contact is added
-* **Contact field updated** — Fires when specific field changes
-* **Contact added to list** — Activates on list addition
-* **Contact removed from list** — Triggers on list removal
-* **Contact custom event** — API event received
+* **Contact created** — Starts when a new contact is added.
+* **Contact field updated** — Fires when specific field changes (e.g., email, last name, state, etc.).
+* **Contact added to list** — Activates when a new user is added to your list.
+* **Contact removed from list** — Triggers when a contact is removed from your list.
+* **Contact custom event** — Starts when Mailtrap receives a custom API event.
 
 {% hint style="info" %}
 Each contact can only enter the same automation once every 24 hours.
@@ -91,20 +99,20 @@ Each contact can only enter the same automation once every 24 hours.
 {% endtab %}
 
 {% tab title="Actions" %}
-Operations to perform on contacts
+Here are the operations you can perform on your contacts in the automation builder:
 
-* **Send email** — Deliver personalized messages
-* **Update Contact Field** — Modify contact properties
-* **Unsubscribe Contact** — Remove from all marketing
-* **Add to List(s)** — Assign to one or more lists
-* **Remove from List(s)** — Remove from specific lists
+* **Send email** — Deliver personalized messages to your contacts.
+* **Update Contact Field** — Modify contact properties (e.g., email, last name, state, etc.).
+* **Unsubscribe Contact** — Unsubscribe a contact from receiving your marketing emails.
+* **Add to List(s)** — Assign a contact to one or more lists.
+* **Remove from List(s)** — Remove a contact from one or more lists.
 {% endtab %}
 
 {% tab title="Rules" %}
-Control flow and timing
+To control the flow and timing of your automations, you can use:
 
-* **Time delay** — Wait before next step
-* **Conditional Split** — Branch based on criteria
+* **Time delay** — Wait a specified amount of time before moving on to the next step.
+* **Conditional Split** — Branch the workflow automation based on criteria (fields and events).
 {% endtab %}
 {% endtabs %}
 
@@ -135,13 +143,17 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 
 ## Limits
 
-* Limited number of automation runs based on your plan
-* Each contact can go through the same automation once in 24 hours
-* Check your limits in [Billing Dashboard](https://mailtrap.io/billing/dashboard)
-* Look for "Automations run count"
-* Feature is currently included in your plans (may change later)
+Each Mailtrap Email API/SMTP plan comes with different automation limits. To see the usage:
+
+* Navigate to the [Billing Dashboard](https://mailtrap.io/billing/dashboard).
+* Click on 'View all features' under Email API/SMTP.
+* Look for 'Automations run count'.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Each contact can go through the same automation once in 24 hours.
+{% endhint %}
 
 ## Creating your first automation
 
@@ -257,7 +269,7 @@ You can track the performance of your automation by clicking on the Reports tab 
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (32).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### Available metrics
+**Available metrics**:
 
 * Open rate per email
 * Click rate per email
@@ -272,65 +284,3 @@ You can track the performance of your automation by clicking on the Reports tab 
 * **Segment wisely**: Use conditional splits for personalization.
 * **Time delays**: Consider time zones and optimal send times.
 * **Exit strategies**: Plan how contacts leave the automation.
-
-## Common automation workflows
-
-### Welcome Series Template
-
-A multi-step onboarding sequence for new contacts:
-
-{% tabs %}
-{% tab title="Flow Overview" %}
-1. **Trigger**: Contact created
-2. **Email 1**: Welcome message (immediate)
-3. **Delay**: 2 days
-4. **Email 2**: Getting started guide
-5. **Delay**: 3 days
-6. **Email 3**: Feature highlights
-{% endtab %}
-
-{% tab title="Implementation Tips" %}
-* Personalize with first name and signup source.
-* Include clear CTAs in each email.
-* Track engagement for segmentation.
-* Consider time zones for optimal delivery.
-* Test subject lines for best open rates.
-{% endtab %}
-{% endtabs %}
-
-### Re-engagement campaign
-
-Win back inactive subscribers with targeted messaging:
-
-{% tabs %}
-{% tab title="Flow Overview" %}
-1. **Trigger**: Contact added to "Inactive" list
-2. **Email 1**: We miss you + special offer
-3. **Delay**: 3 days
-4. **Email 2**: Last chance offer
-5. **Delay**: 7 days
-6. **Action**: Unsubscribe contact
-{% endtab %}
-
-{% tab title="Best Practices" %}
-* Use compelling subject lines ("We miss you!").
-* Offer exclusive incentives.
-* Show what they're missing.
-* Make unsubscribe easy.
-* Clean list after campaign.
-{% endtab %}
-{% endtabs %}
-
-### Post-purchase flow
-
-Maximize customer value after purchase:
-
-1. **Trigger**: API event "purchase\_completed"
-2. **Email 1**: Order confirmation
-3. **Delay**: 1 hour
-4. **Email 2**: Thank you + getting started
-5. **Delay**: 3 days
-6. **Email 3**: Tips and tricks
-7. **Delay**: 7 days
-8. **Email 4**: Review request
-9. **Action**: Update field "customer\_status" to "active"
