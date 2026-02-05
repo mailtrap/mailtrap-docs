@@ -5,7 +5,7 @@
 * [Rate Limits](rate-limits.md)
 * [OpenAPI Specs](openapi-specs.md)
 
-## Sending
+## Email Sending
 
 * ```yaml
   props:
@@ -32,31 +32,43 @@
         spec: email-sending-bulk
   ```
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-    expandOperations: false
-  type: builtin:openapi
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: email-batch
+        spec: email-sending
   ```
 
-## Management
+## Templates
+
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: templates
+  ```
+
+## Promotional
 
 * ```yaml
   props:
     models: false
     downloadLink: false
-    expandOperations: false
   type: builtin:openapi
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: email-api
+        spec: contacts
   ```
 
 ## Email Sandbox
@@ -72,31 +84,28 @@
         kind: openapi
         spec: sandbox
   ```
-
-## Email Marketing
-
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-  type: builtin:openapi
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: contacts
+        spec: sandbox-sending
   ```
 
 ## Account Management
 
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-  type: builtin:openapi
   dependencies:
     spec:
       ref:
         kind: openapi
-        spec: general
+        spec: account-management
   ```
