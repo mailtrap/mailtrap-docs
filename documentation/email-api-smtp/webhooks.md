@@ -4,20 +4,6 @@ description: >-
   Set up webhooks to receive real-time notifications about email deliverability
   events and account activities within your Mailtrap account.
 icon: webhook
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Webhooks
@@ -98,7 +84,7 @@ Select the webhooks area (**Audit Log** or **Email Sending**).
 {% endstep %}
 {% endstepper %}
 
-**If you choose Audit Log**, you will receive events related to all activities within your account that are supported by the Activity Log.
+**If you choose Audit Log**, you will receive events related to all activities within your account that are supported by the Audit Log.
 
 **If you choose Email Sending**, you'll also need to:
 
@@ -445,7 +431,7 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 ```
 {% endtab %}
 
-{% tab title="Activity Log: User Login" %}
+{% tab title="Audit Log User Login" %}
 ```json
 {
   "events": [
@@ -464,7 +450,7 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 ```
 {% endtab %}
 
-{% tab title="Activity Log: Profile Update" %}
+{% tab title="Audit Log: Profile Update" %}
 ```json
 {
   "events": [
@@ -637,9 +623,9 @@ Each line is a separate JSON object. Parse line by line.
 {% endtab %}
 {% endtabs %}
 
-### Activity log event structure
+### Audit Log event structure
 
-Activity log events include the following fields:
+Audit Log events include the following fields:
 
 * **event** — The event type
   * Example: `activity_log.user.updated`
