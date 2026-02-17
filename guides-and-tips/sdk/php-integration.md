@@ -2,20 +2,6 @@
 description: >-
   Integrate Mailtrap with PHP applications using SDK, SMTP, or RESTful API for
   reliable email sending
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # PHP

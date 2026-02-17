@@ -2,20 +2,6 @@
 description: >-
   Seamlessly integrate Mailtrap into your N8N workflows to automate email
   sending and contact management tasks without coding.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # N8N

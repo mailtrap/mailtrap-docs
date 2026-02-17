@@ -3,20 +3,6 @@ title: Gemini and Mailtrap Integration
 description: >-
   Send emails from a verified domain and manage contacts with custom fields
   using Gemini and Mailtrap Email API.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Gemini

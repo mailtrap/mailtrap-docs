@@ -2,20 +2,6 @@
 description: >-
   Automate email workflows by connecting Mailtrap to thousands of applications
   using Make.com (formerly Integromat) without writing any code.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Make.com

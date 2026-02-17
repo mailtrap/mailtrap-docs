@@ -2,20 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap SMTP with Supabase to bypass email rate limits
   and send production-ready emails with comprehensive analytics.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Supabase Transactional Emails Integration

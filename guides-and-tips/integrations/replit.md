@@ -2,20 +2,6 @@
 description: >-
   Set up production email sending in a Replit project using the Mailtrap Email
   API with official SDKs (Node.js or Python).
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Replit

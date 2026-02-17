@@ -3,20 +3,6 @@ title: <i class="fa-heart">:heart:</i> Lovable and Mailtrap Integration
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your Lovable application
   to send transactional emails and manage contacts.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Lovable

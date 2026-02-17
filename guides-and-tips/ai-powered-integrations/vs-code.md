@@ -3,20 +3,6 @@ title: <i class="fa-code">:code:</i> VS Code and Mailtrap Integration
 description: >-
   Learn how to integrate Mailtrap with VS Code using the Mailtrap MCP server to
   send emails directly from the editor with simple AI prompts.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # VS Code

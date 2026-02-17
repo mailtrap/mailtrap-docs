@@ -2,20 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap with Python apps and projects for email
   sending using SDK, SMTP, and RESTful API.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Python

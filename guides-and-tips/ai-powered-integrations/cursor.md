@@ -3,20 +3,6 @@ title: <i class="fa-code">:code:</i> Cursor and Mailtrap Integration
 description: >-
   Integrate Mailtrap with the Cursor code editor to send transactional and
   promotional emails directly from your AI-powered development environment.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Cursor

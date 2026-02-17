@@ -39,9 +39,11 @@
 * [cPanel SMTP Relay](integrations/cpanel.md)
 * [Retool](integrations/retool.md)
 * [Replit](integrations/replit.md)
+* [Retool OpenAPI](integrations/retool-openapi.md)
 
 ## AI-Powered Integrations
 
+* [OpenClaw](ai-powered-integrations/openclaw.md)
 * [Lovable](ai-powered-integrations/lovable.md)
 * [Bolt.new](ai-powered-integrations/bolt-new.md)
 * [VS Code](ai-powered-integrations/vs-code.md)

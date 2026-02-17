@@ -2,20 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap with Perl apps and projects for email sending
   using SMTP and RESTful API.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Perl

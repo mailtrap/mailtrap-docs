@@ -3,20 +3,6 @@ title: Mailtrap MCP Server
 description: >-
   Automate email workflows from AI IDEs like VS Code or send emails send emails
   with simple prompts from AI assistants, such as Claude.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Mailtrap MCP Server

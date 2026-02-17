@@ -2,20 +2,6 @@
 description: >-
   Learn how to integrate Mailtrap with Java applications using SDK, SMTP, or
   RESTful API for email sending.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Java

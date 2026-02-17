@@ -2,20 +2,6 @@
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your Retool application
   to send emails via REST API.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Retool

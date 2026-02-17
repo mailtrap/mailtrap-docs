@@ -2,20 +2,6 @@
 description: >-
   Automate email sending by connecting Mailtrap to over 7,000 applications using
   Zapier without writing any code.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Zapier

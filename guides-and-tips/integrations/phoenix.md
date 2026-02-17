@@ -1,19 +1,5 @@
 ---
 description: Learn how to integrate Mailtrap with Phoenix applications to send emails.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Phoenix

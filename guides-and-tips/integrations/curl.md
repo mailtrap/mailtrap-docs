@@ -2,20 +2,6 @@
 description: >-
   Send emails using cURL with Mailtrap through SMTP integration or API endpoints
   with code samples and configuration options.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # cURL
