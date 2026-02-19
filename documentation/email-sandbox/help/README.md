@@ -90,19 +90,9 @@ You can get in touch with the Mailtrap Support team using one of the following w
 
 * **From your Mailtrap account**&#x20;
 
-{% stepper %}
-{% step %}
-Log in to your account [here](https://mailtrap.io/signin).
-{% endstep %}
-
-{% step %}
-Go to the **Help Center** > <a href="https://mailtrap.io/help-center" class="button primary" data-icon="message-dots">Get Help</a>&#x20;
-{% endstep %}
-
-{% step %}
-Click <mark style="color:$primary;">**Start conversation**</mark>&#x20;
-{% endstep %}
-{% endstepper %}
+1. Log in to your account [here](https://mailtrap.io/signin).
+2. Go to the <i class="fa-circle-question">:circle-question:</i>[<mark style="color:$primary;">**Help Center**</mark>](https://mailtrap.io/help-center) > <i class="fa-message-minus">:message-minus:</i> Get Help
+3. Click <mark style="color:$primary;">**Start conversation.**</mark>&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-02-19 at 17.12.57.png" alt=""><figcaption></figcaption></figure>
 
