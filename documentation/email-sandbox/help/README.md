@@ -86,16 +86,17 @@ If you can’t find the answer you need in our documentation and would like to c
 
 You can get in touch with the Mailtrap Support team using one of the following ways:
 
-*   **From your Mailtrap account** \
-    1\. Log in to your account [here](https://mailtrap.io/signin).\
-    2\. Go to the **Help Center >** <a href="https://mailtrap.io/help-center" class="button primary" data-icon="message-dots">Get Help</a> \
-    &#x33;**.** Click <mark style="color:$primary;">**Start conversation**</mark> <br>
+1. **From your Mailtrap account**&#x20;
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2026-02-19 at 17.12.57.png" alt=""><figcaption></figcaption></figure>
+* Log in to your account [here](https://mailtrap.io/signin).
+* Go to the **Help Center >** <a href="https://mailtrap.io/help-center" class="button primary" data-icon="message-dots">Get Help</a>&#x20;
+* Click <mark style="color:$primary;">**Start conversation**</mark> <br>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-19 at 17.12.57.png" alt=""><figcaption></figcaption></figure>
 
 
 
-* **Email us at** 📧 support@mailtrap.io<br>
+2. **Email us at** 📧 support@mailtrap.io<br>
 
 Whether you need technical assistance, help troubleshooting an issue, or simply want to talk to customer support, our team will be happy to assist you.
 
