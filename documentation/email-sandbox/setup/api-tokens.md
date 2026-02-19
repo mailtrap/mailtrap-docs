@@ -1,20 +1,6 @@
 ---
 description: Learn how to create, manage, and use API tokens for Email Sandbox.
 icon: key
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # API Tokens

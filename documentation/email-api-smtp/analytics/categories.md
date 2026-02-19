@@ -5,20 +5,6 @@ description: >-
   onboarding, or billing. Track performance, analyze metrics, and compare
   categories.
 icon: tag
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Categories

@@ -4,20 +4,6 @@ description: >-
   Use a dedicated customizable email address for each sandbox to send test
   messages without SMTP integration.
 icon: at
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Address per Sandbox

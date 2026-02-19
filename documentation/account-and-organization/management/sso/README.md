@@ -3,20 +3,6 @@ description: >-
   Learn how to configure SAML 2.0 single sign-on (SSO) with Mailtrap using any
   Identity Provider that supports the SAML 2.0 protocol.
 icon: key
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # SSO Guide

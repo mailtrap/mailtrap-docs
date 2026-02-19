@@ -5,20 +5,6 @@ description: >-
   your profile, delete your user account, create new accounts, and leave
   existing accounts.
 icon: user
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # User Profile

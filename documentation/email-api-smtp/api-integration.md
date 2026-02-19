@@ -4,20 +4,6 @@ description: >-
   Integrate Mailtrap email API. Get API credentials, choose transactional or
   bulk sending, use SDKs or code samples, and start sending.
 icon: plug
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # API Integration

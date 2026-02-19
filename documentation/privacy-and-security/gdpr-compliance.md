@@ -2,20 +2,6 @@
 title: GDPR Compliance
 description: Learn about Mailtrap's GDPR compliance measures and data storage locations
 icon: clipboard-list-check
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # GDPR Compliance

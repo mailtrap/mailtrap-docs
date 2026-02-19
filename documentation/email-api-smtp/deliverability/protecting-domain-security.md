@@ -4,20 +4,6 @@ description: >-
   Best practices to protect your sending domain from abuse, including securing
   web forms, implementing CAPTCHA, and hiding sensitive configuration files.
 icon: hands-holding-circle
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Protecting Your Domain

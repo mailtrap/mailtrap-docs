@@ -1,20 +1,6 @@
 ---
 title: Email Marketing
 description: Learn how to set up and send email marketing campaigns with Mailtrap
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Marketing

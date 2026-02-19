@@ -3,20 +3,6 @@ title: Email Sandbox Overview
 description: >-
   Test and preview emails safely in a sandbox environment before sending to
   production
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Overview

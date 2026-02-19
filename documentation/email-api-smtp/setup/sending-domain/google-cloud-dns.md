@@ -2,20 +2,6 @@
 description: >-
   Verify your Mailtrap sending domain in Google Cloud DNS. Add DNS records for
   DKIM/DMARC verification, pass compliance, and start sending emails.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Google Cloud DNS

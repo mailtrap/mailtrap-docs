@@ -3,20 +3,6 @@ title: Setup & Configuration
 description: >-
   Set up and configure Mailtrap email API and SMTP service and start sending
   emails in minutes.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Setup & Configuration

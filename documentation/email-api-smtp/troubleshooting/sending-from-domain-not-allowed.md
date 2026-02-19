@@ -3,20 +3,6 @@ title: Sending from Domain Not Allowed
 description: >-
   How to fix "Sending from domain is not allowed" (550 5.7.1) error in Mailtrap
   Email API/SMTP.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Domain Not Allowed

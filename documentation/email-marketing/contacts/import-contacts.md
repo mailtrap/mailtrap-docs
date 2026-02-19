@@ -1,20 +1,6 @@
 ---
 description: Import contacts via CSV, API, or third-party integrations
 icon: upload
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Import Contacts

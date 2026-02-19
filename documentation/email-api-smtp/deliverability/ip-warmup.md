@@ -4,20 +4,6 @@ description: >-
   Learn about Mailtrap IP warmup: shared vs dedicated IPs, automated IP warmup
   schedule, and gradual daily sending limits over 3 weeks.
 icon: map-pin
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Dedicated IP

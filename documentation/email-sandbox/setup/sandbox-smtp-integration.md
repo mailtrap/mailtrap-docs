@@ -4,20 +4,6 @@ description: >-
   Learn how to integrate sandbox with your application using SMTP credentials or
   code samples
 icon: gears
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Sandbox SMTP Integration

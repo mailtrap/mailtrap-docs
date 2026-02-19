@@ -3,20 +3,6 @@ title: Email API/SMTP Overview
 description: >-
   Overview of Mailtrap Email API and SMTP service: key features, use cases, and
   target audience.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Overview

@@ -2,20 +2,6 @@
 description: >-
   Learn how to configure Single Sign-On (SSO) integration between Okta and
   Mailtrap using SAML 2.0, including role mapping and debugging.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Okta

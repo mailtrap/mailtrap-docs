@@ -4,20 +4,6 @@ description: >-
   Learn how to exclude specific links from tracking using the data-mt-no-track
   attribute to preserve app deeplinks and sensitive URLs.
 icon: link
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Excluding Links from Tracking

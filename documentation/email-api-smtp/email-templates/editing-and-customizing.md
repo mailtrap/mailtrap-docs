@@ -4,20 +4,6 @@ description: >-
   Learn how to edit and customize email templates using Details, Drag & Drop
   Editor, Code Editor, and test your templates.
 icon: pen
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Editing and Customizing

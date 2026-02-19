@@ -1,20 +1,6 @@
 ---
 title: Email API/SMTP
 description: Learn how to send your application emails with Mailtrap Email API/SMTP
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email API/SMTP

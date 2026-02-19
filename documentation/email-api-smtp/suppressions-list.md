@@ -5,20 +5,6 @@ description: >-
   emails from hard bounces, unsubscribes, and spam complaints via CSV or
   manually.
 icon: ban
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Suppressions List

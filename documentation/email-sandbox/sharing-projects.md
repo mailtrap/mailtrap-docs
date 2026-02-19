@@ -2,20 +2,6 @@
 title: Sharing projects
 description: Organize and share projects to collaborate with team members on email testing.
 icon: folder-open
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Sharing Projects

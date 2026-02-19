@@ -3,20 +3,6 @@ description: >-
   Learn Mailtrap email sending limits: hourly, daily, connection, and email
   size. Understand what happens when limits are reached and how to upgrade.
 icon: triangle-exclamation
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Sending Limits

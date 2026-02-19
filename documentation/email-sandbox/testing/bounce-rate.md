@@ -4,20 +4,6 @@ description: >-
   Learn how to test your SMTP client's behavior when the server responds with an
   error
 icon: arrow-turn-down-left
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Bounce Emulator

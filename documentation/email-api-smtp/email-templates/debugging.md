@@ -2,20 +2,6 @@
 title: Template Debugging
 description: Learn how to test and debug your email templates using Mailtrap Email Sandbox.
 icon: bug
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Debugging with Sandbox

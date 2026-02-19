@@ -3,20 +3,6 @@ title: MS Office 365 Threat Management
 description: >-
   How to resolve your emails sent from Mailtrap Email API/SMTP being sent to
   Office 365 quarantine.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Office 365 Quarantine

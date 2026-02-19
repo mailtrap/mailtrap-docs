@@ -3,20 +3,6 @@ title: Deliverability Features
 description: >-
   Learn about email deliverability features and tools Mailtrap provides to
   guarantee high inbox placement rates of your emails.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Deliverability Features

@@ -4,20 +4,6 @@ description: >-
   Learn how Mailtrap integrates with popular Feedback Loops (FBLs) to track spam
   complaints from major mailbox providers including Outlook, Yahoo, and more.
 icon: message
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Feedback Loops

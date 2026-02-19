@@ -1,20 +1,6 @@
 ---
 description: Learn how to verify email headers including Subject, From, To, and Bcc fields.
 icon: memo
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Headers and Bcc

@@ -4,20 +4,6 @@ description: >-
   Troubleshoot common payment issues with Mailtrap billing. Learn how to fix
   zip/postal code errors and CAPTCHA token problems when adding payment methods.
 icon: triangle-exclamation
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Payment Issues

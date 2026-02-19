@@ -1,20 +1,6 @@
 ---
 title: Help & Support
 description: Get help with Email Marketing issues and find answers to common questions
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Help & Support
@@ -120,11 +106,24 @@ jane@example.com,Jane,Smith,Value2
 3. **Blog Resources**: [mailtrap.io/blog](https://mailtrap.io/blog)
 4. **API Reference**: [API Docs](https://api-docs.mailtrap.io)
 
-### Contact Support
+### 💬Contact Support
 
-**Support Channels**:
+If you can’t find the answer you need in our documentation and would like to contact support and speak with an agent, we’re here to help.
 
-* **Email**: support@mailtrap.io
+You can get in touch with the Mailtrap Support team using one of the following ways:
+
+*   **From your Mailtrap account** \
+    1\. Log in to your account [here](https://mailtrap.io/signin).\
+    2\. Go to the **Help Center >** <a href="https://mailtrap.io/help-center" class="button primary" data-icon="message-dots">Get Help</a> \
+    &#x33;**.** Click <mark style="color:$primary;">**Start conversation**</mark> <br>
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-02-19 at 17.12.57.png" alt=""><figcaption></figcaption></figure>
+
+
+
+* **Email us at** 📧 support@mailtrap.io<br>
+
+Whether you need technical assistance, help troubleshooting an issue, or simply want to talk to customer support, our team will be happy to assist you.
 
 ## Quick Solutions
 

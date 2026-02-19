@@ -4,20 +4,6 @@ description: >-
   Forward emails from the sandbox to any inbox automatically for testing in
   different clients and notifying colleagues.
 icon: forward
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Automatic Forwarding

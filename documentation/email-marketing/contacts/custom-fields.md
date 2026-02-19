@@ -3,20 +3,6 @@ description: >-
   Create and manage custom fields to store additional contact information for
   personalization
 icon: table-columns
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Custom Fields

@@ -4,20 +4,6 @@ description: >-
   Integrate Mailtrap SMTP. Get SMTP credentials, choose transactional or bulk
   sending, use code samples, and start sending.
 icon: envelope-open
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # SMTP Integration

@@ -4,20 +4,6 @@ description: >-
   Access Mailtrap's privacy policy, data processing addendum, and other legal
   documents.
 icon: scale-balanced
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Legal Policies

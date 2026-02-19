@@ -1,20 +1,6 @@
 ---
 title: Email Sandbox
 description: Learn how to inspect and debug emails with Mailtrap Email Sandbox
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Sandbox

@@ -2,20 +2,6 @@
 title: Email Sandbox - FAQs
 description: Frequently asked questions about Email Sandbox
 icon: question
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # FAQs

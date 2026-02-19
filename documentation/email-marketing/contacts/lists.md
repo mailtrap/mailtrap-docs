@@ -1,20 +1,6 @@
 ---
 description: Organize contacts into targeted groups for effective email campaigns
 icon: list
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Lists

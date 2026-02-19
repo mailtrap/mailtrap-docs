@@ -3,20 +3,6 @@ title: Automations
 description: >-
   Create automated email sequences to engage your contacts with triggers,
   actions, and rules.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Automations

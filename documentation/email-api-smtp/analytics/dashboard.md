@@ -5,20 +5,6 @@ description: >-
   rates. Learn about domain filtering, warning thresholds, and metric
   calculations.
 icon: chart-line-up
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Stats Dashboard

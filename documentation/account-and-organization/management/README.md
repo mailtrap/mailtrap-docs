@@ -3,20 +3,6 @@ title: User Management
 description: >-
   Manage users, teams, and organizational structure in Mailtrap. Control
   permissions, access, and collaboration.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # User Management & Organizations

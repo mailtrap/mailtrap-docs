@@ -1,20 +1,6 @@
 ---
 description: Search, filter, edit, and perform bulk operations on your contact database
 icon: users-gear
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Overview

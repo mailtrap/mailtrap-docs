@@ -5,20 +5,6 @@ description: >-
   and opt-outs. Understand how statuses differ from events and track
   performance.
 icon: bell
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Statuses and Events

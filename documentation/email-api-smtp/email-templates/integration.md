@@ -4,20 +4,6 @@ description: >-
   Learn how to integrate Mailtrap email templates with Email API/SMTP using
   Transactional or Bulk streams.
 icon: link
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Integration

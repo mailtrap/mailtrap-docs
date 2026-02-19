@@ -2,20 +2,6 @@
 description: >-
   Learn how to configure Single Sign-On (SSO) integration between Mailtrap and
   OneLogin using SAML.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # OneLogin

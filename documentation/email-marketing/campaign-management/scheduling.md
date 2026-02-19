@@ -1,20 +1,6 @@
 ---
 description: Schedule your email campaigns up to two weeks in advance
 icon: clock
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Campaign Scheduling

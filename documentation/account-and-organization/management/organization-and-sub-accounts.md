@@ -5,20 +5,6 @@ description: >-
   centralized billing, isolated workspaces, permissions, and how to create and
   migrate sub-accounts.
 icon: sitemap
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Organization & Sub-Accounts

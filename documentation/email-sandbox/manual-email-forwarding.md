@@ -4,20 +4,6 @@ description: >-
   Forward individual emails from sandbox to any inbox for testing in different
   clients or notifying colleagues.
 icon: arrow-turn-down-right
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Manual Forwarding

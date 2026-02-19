@@ -2,20 +2,6 @@
 title: Deliverability tests
 description: Learn how to check spam score and blacklisting to ensure email deliverability
 icon: mailbox
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Spam & Blacklist reports

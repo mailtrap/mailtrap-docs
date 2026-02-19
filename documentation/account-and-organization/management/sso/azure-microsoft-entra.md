@@ -2,20 +2,6 @@
 description: >-
   Step-by-step guide to configure SAML-based Single Sign-On between Azure Active
   Directory and Mailtrap with role mapping support.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Azure (Microsoft Entra)

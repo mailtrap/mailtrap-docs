@@ -3,20 +3,6 @@ title: Advanced Features
 description: >-
   Learn what features for advanced email sending scenarios Mailtrap Email
   API/SMTP provides.
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Advanced Features

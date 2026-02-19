@@ -5,20 +5,6 @@ description: >-
   events, and provider. View event history, previews, HTML source, and spam
   analysis.
 icon: file-pen
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Logs

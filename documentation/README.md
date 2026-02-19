@@ -4,20 +4,6 @@ description: >-
   Complete email infrastructure for developers. Send production emails, test in
   sandbox, and run email campaigns - all in one platform.
 icon: house
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Documentation

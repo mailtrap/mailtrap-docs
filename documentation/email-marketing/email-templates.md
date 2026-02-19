@@ -1,20 +1,6 @@
 ---
 description: Design, edit, and host HTML email templates and reference them via API.
 icon: palette
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Email Templates

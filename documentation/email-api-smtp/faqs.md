@@ -2,20 +2,6 @@
 title: Email API/SMTP - FAQs
 description: Frequently asked questions about Mailtrap Email API/SMTP.
 icon: question
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # FAQs
