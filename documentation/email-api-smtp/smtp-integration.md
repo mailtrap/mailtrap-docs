@@ -10,51 +10,92 @@ icon: envelope-open
 
 Learn how to integrate your application via SMTP.
 
+### Locating your Mailtrap credentials
+
 {% stepper %}
 {% step %}
-Go to the **Sending Domains** tab and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the [domain is verified](sending-domain-setup/).
+Go to the **Sending Domains** tab and choose the domain you want to send emails from.&#x20;
+
+Keep in mind that the [domain must be verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) in order for you to start sending emails.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 10.26.54.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-Navigate to the **Integrations** tab for your selected domain.
+Navigate to the **Integrations** tab for your selected domain and select whether you want to use our **Transactional Stream** or [**Bulk Stream**](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-tab-navigation.png" alt="" width="563"></div>
-{% endstep %}
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 10.29.17.png" alt=""><figcaption></figcaption></figure>
 
-{% step %}
-Click the Integrate button under **Transactional Stream** or **Bulk Stream**.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-stream-selection.png" alt="" width="375"></div>
-
+{% hint style="info" %}
 **Transactional Stream** is used to send automated, non-promotional application emails that are triggered by the user's specific action.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-credentials-transactional.png" alt="" width="563"></div>
-
 **Bulk Stream** is used to send a single marketing campaign to a large group of recipients in bulk.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-integration-credentials-bulk.png" alt="" width="563"></div>
+{% endhint %}
 {% endstep %}
 
 {% step %}
-Toggle the switch to SMTP and copy credentials, such as **Host**, **Port**, **Username**, and **Password** and paste them into your project, app, email-sending service, or any platform that supports SMTP.
+Once you choose your preferred sending stream, click on **SMTP**. There, you will be able to see your Mailtrap credentials.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-credentials-transactional.png" alt="Transactional Stream SMTP credentials showing highlighted credentials section with Host, Port, Username, Password, Auth, and STARTTLS fields" width="563"><figcaption><p>Transactional Stream SMTP credentials</p></figcaption></figure></div>
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-credentials-bulk.png" alt="Bulk Stream SMTP credentials showing highlighted credentials section with Host, Port, Username, Password, Auth, and STARTTLS fields" width="563"><figcaption><p>Bulk Stream SMTP credentials</p></figcaption></figure></div>
-
-Alternatively, choose the programming language or framework from the menu under **Code Samples** and copy the sample configuration containing your credentials.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-code-samples-transactional.png" alt="Transactional Stream integration showing highlighted Code samples section with cURL example and programming language options" width="563"><figcaption><p>Transactional Stream code samples</p></figcaption></figure></div>
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/smtp-integration-code-samples-bulk.png" alt="Bulk Stream integration showing highlighted Code samples section with cURL example and programming language options" width="563"><figcaption><p>Bulk Stream code samples</p></figcaption></figure></div>
-{% endstep %}
-
-{% step %}
-Complete your email-sending script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in Email Logs in Mailtrap.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 10.32.53.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
+
+### Method #1. Manual SMTP configuration
+
+If you're using a tool like WordPress or Salesforce, you can simply copy/paste credentials such as **Host**, **Port**, **Username**, and **Password**. Here are some examples:
+
+{% tabs %}
+{% tab title="WordPress" %}
+If you want to send emails from WordPress, you can use one of the many plugins (e.g., WP Mail SMTP or Post SMTP). For example, if you are using WP Mail SMTP, you can just navigate to the settings page and insert the Mailtrap credentials there.
+
+<figure><img src="../.gitbook/assets/wordpress smtp.png" alt="" width="375"><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Salesforce" %}
+To send emails from Salesforce, simply add your Mailtrap credentials to your Email Relay configuration, just like so:
+
+<figure><img src="../.gitbook/assets/smtp salesforce.png" alt="" width="563"><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+### Method #2. Copy/pasting code samples
+
+If you have a programming project, you can also copy/paste one of the pre-made code samples for various programming languages and frameworks. For instance:
+
+{% tabs %}
+{% tab title="Nodemailer" %}
+For Nodemailer, all you need to do is copy/paste the pre-made transporter object from Mailtrap into your main configuration file (i.e., **index.js**).
+
+```javascript
+var transport = nodemailer.createTransport({
+  host: "live.smtp.mailtrap.io",
+  port: 587,
+  auth: {
+    user: "api",
+    pass: "<YOUR_API_TOKEN>"
+  }
+});
+```
+{% endtab %}
+
+{% tab title="Laravel" %}
+Similarly, for Laravel, you can just copy the code snippet from Mailtrap into your **.env** file:
+
+```php
+MAIL_MAILER=smtp
+MAIL_HOST=live.smtp.mailtrap.io
+MAIL_PORT=587
+MAIL_USERNAME=api
+MAIL_PASSWORD=<YOUR_API_TOKEN>
+```
+{% endtab %}
+{% endtabs %}
+
+### Verifying your configuration
+
+Once you add Mailtrap SMTP to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 11.06.56.png" alt=""><figcaption></figcaption></figure>
 
 Remember that each domain has different SMTP credentials that you can always access by clicking on the desired domain and going to the **Integrations** tab.
 
