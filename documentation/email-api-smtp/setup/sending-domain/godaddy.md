@@ -12,6 +12,8 @@ In this guide, you'll learn how to add and verify a domain from GoDaddy.
 
 This guide assumes your domain uses GoDaddy's nameservers (e.g., `ns1.domaincontrol.com` or `ns2.domaincontrol.com`). This applies whether you registered your domain directly with GoDaddy or just pointed your DNS to GoDaddy from another registrar. Not sure? Check your domain registrar's settings or look for where you manage your DNS records. If it's in the GoDaddy dashboard, you're in the right place.
 
+### Step-by-step guide
+
 {% stepper %}
 {% step %}
 Go to GoDaddy and locate the domain you've added to Mailtrap.
