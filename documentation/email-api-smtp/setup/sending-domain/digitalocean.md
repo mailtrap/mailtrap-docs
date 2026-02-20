@@ -6,13 +6,13 @@ description: >-
 
 # DigitalOcean
 
-To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
+To start sending emails with Mailtrap, you need to own a domain (e.g., `yourcompany.com`) and then verify your ownership over it. For this, you'll need access to your domain provider account, more specifically, the DNS records management page.
 
-<a href="../sending-domain.md" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to DigitalOcean.
+In this guide, you'll learn how to add and verify a domain from DigitalOcean.
 
-{% hint style="info" %}
-This guide assumes that your domain is either registered and managed with DigitalOcean or registered elsewhere but points to DigitalOcean.
-{% endhint %}
+This guide assumes your domain uses DigitalOcean's nameservers (e.g., `ns1.digitalocean.com`, `ns2.digitalocean.com`, or `ns3.digitalocean.com`). This applies whether you registered your domain directly with DigitalOcean or just pointed your DNS to DigitalOcean from another registrar. Not sure? Check your domain registrar's settings or look for where you manage your DNS records. If it's in the DigitalOcean control panel, you're in the right place.
+
+### Step-by-step guide
 
 {% stepper %}
 {% step %}
