@@ -6,13 +6,11 @@ description: >-
 
 # GoDaddy
 
-To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
+To start sending emails with Mailtrap, you need to own a domain (e.g., `yourcompany.com`) and then verify your ownership over it. For this, you'll need access to your domain provider account, more specifically, the DNS records management page.
 
-<a href="../sending-domain.md" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to GoDaddy.
+In this guide, you'll learn how to add and verify a domain from GoDaddy.
 
-{% hint style="info" %}
-This guide assumes that your domain is either registered with GoDaddy and uses its nameservers or isn't registered with GoDaddy but uses its nameservers.
-{% endhint %}
+This guide assumes your domain uses GoDaddy's nameservers (e.g., `ns1.domaincontrol.com` or `ns2.domaincontrol.com`). This applies whether you registered your domain directly with GoDaddy or just pointed your DNS to GoDaddy from another registrar. Not sure? Check your domain registrar's settings or look for where you manage your DNS records. If it's in the GoDaddy dashboard, you're in the right place.
 
 {% stepper %}
 {% step %}
