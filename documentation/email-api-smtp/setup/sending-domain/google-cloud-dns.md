@@ -6,13 +6,13 @@ description: >-
 
 # Google Cloud DNS
 
-To add and verify a sending domain in Mailtrap, you need access to your domain's DNS records and your domain provider account.
+To start sending emails with Mailtrap, you need to own a domain (e.g., `yourcompany.com`) and then verify your ownership over it. For this, you'll need access to your domain provider account, more specifically, the DNS records management page.
 
-<a href="../sending-domain.md" class="button secondary">Sending Domain Setup</a> check it for more details on setting up your sending domain. Continue reading to learn how to add Mailtrap DNS records to Google Cloud DNS.
+In this guide, you'll learn how to add and verify a domain from Google Cloud DNS.
 
-{% hint style="info" %}
-Note: This guide assumes that your domain is either registered and managed with Google Cloud DNS or registered elsewhere but points to Google Cloud DNS. It also assumes that you've already created and configured a managed zone for your domain.
-{% endhint %}
+This guide assumes your domain uses Google Cloud DNS nameservers (e.g., `ns-cloud-a1.googledomains.com` or `ns-cloud-b1.googledomains.com`). This applies whether you registered your domain directly with Google or just pointed your DNS to Google Cloud DNS from another registrar. Not sure? Check your domain registrar's settings or look for where you manage your DNS records. If it's in the Google Cloud Console, you're in the right place.
+
+### Step-by-step guide
 
 {% stepper %}
 {% step %}
