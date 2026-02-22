@@ -7,77 +7,58 @@ description: >-
 
 # Anything
 
-This guide shows you how to integrate Mailtrap with your Anything application to send emails.
+[Anything](https://www.createanything.com/) is an AI agent that can turn your ideas into sites, apps, tools, products, and more with simple prompts. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
-Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
+**Prerequisites**:&#x20;
 
-## Prerequisites
+* Add and [verify your email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
+* Make sure your [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) has admin access level to that domain.
 
-* An Anything account and a project
-* A Mailtrap account for sending emails
+### Step 1. Add your Mailtrap credentials
 
-{% stepper %}
-{% step %}
-### Create a landing page/contact form
+To add your Mailtrap credentials, open **Project Settings** in the sidebar, navigate to **Secrets**, and click on the **Add new secret** button.
 
-Log in to your Anything account and use a prompt like the following one to create a simple project with basic fields:
+<figure><img src="../.gitbook/assets/any 1.png" alt=""><figcaption></figcaption></figure>
+
+This way, you need to add the following two secrets:
+
+* `MAILTRAP_API_TOKEN`&#x20;
+
+This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account. And here’s what the secret should look like:
+
+<figure><img src="../.gitbook/assets/any 2.png" alt=""><figcaption></figcaption></figure>
+
+* `MAILTRAP_FROM_EMAIL`&#x20;
+
+This is the email address with the verified Mailtrap sending domain you’ve added after creating an account. And here’s the secret:
+
+<figure><img src="../.gitbook/assets/any 3.png" alt=""><figcaption></figcaption></figure>
+
+Once you’re done adding the secrets, simply tell the Anything AI that you’re done with a prompt like this one, for example:
+
+> Please use Mailtrap email API for sending emails from my project, I've added the MAILTRAP\_API\_TOKEN and MAILTRAP\_FROM\_EMAIL secrets
+
+The AI will then go over [Mailtrap Email API documentation](https://docs.mailtrap.io/developers), connect it to your project, and confirm once it’s done.
+
+### Step 2. Start sending emails
+
+Once you add your credentials, try sending an email from your project. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
+
+Here it is in a Gmail inbox I used as my `to` address:
+
+<figure><img src="../.gitbook/assets/any 4.png" alt=""><figcaption></figcaption></figure>
+
+And here it is in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
+
+<figure><img src="../.gitbook/assets/any 5.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-create me a simple contact form with email, name, and message fields, and a send button
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Add your Mailtrap credentials
-
-After a minute or two, Anything will generate your project. Once it's done, you need to insert your Mailtrap credentials.
-
-To do this, open **Project Settings** in the sidebar, navigate to **Secrets**, and click on the **Add new secret** button.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-secrets-settings.png" alt="Anything Project Settings showing Secrets tab with Add new secret button" width="563"><figcaption><p>Anything Secrets settings</p></figcaption></figure></div>
-
-You need to add the following two secrets:
-
-**MAILTRAP\_API\_TOKEN**
-
-This is the [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens), which you can create at any time in your account dashboard.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-api-token-secret.png" alt="Anything secret configuration showing MAILTRAP_API_TOKEN secret" width="450"><figcaption><p>API Token secret</p></figcaption></figure></div>
-
-**MAILTRAP\_FROM\_EMAIL**
-
-This is the email address with the verified Mailtrap sending domain you've added after creating an account.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-from-email-secret.png" alt="Anything secret configuration showing MAILTRAP_FROM_EMAIL secret" width="450"><figcaption><p>From Email secret</p></figcaption></figure></div>
-
-Once you're done adding the secrets, simply tell the Anything AI that you're done with a prompt like this one:
-
-{% hint style="info" %}
-I've added the MAILTRAP\_API\_TOKEN and MAILTRAP\_FROM\_EMAIL secrets
+If you plan on collecting email addresses for a list, you can connect your Anything project with [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) and store your addresses in your Mailtrap account automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://docs.mailtrap.io/developers/promotional/contacts).
 {% endhint %}
 
-The AI will then go over Mailtrap Email API documentation, connect it to your project, and confirm once it's done.
+### Next steps
 
-{% hint style="warning" %}
-If you haven't already, make sure to let AI know you want the messages to be sent to the address inputted in the email field. For this, you can use a prompt such as:
-
-"I want the message to be sent to the address inputted in the email field, meaning the to field should use the email from the form data"
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Start sending emails
-
-Finally, to test your configuration, fill out the form and hit the **Send** button. If you followed everything thus far, you should receive the email in your inbox in a few seconds.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-email-received.png" alt="Gmail inbox showing received email from Anything contact form" width="563"><figcaption><p>Email received in Gmail</p></figcaption></figure></div>
-
-You can also view the email in the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab in the Mailtrap dashboard.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/anything-email-logs.png" alt="Mailtrap Email Logs showing the sent email details" width="563"><figcaption><p>Email in Mailtrap Email Logs</p></figcaption></figure></div>
-{% endstep %}
-{% endstepper %}
-
-{% hint style="success" %}
-If you plan on collecting email addresses for a list, you can connect your Anything project with [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) and store your addresses in the Mailtrap dashboard automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/0a35b03ff78c5-contacts-api).
-{% endhint %}
+* Use [Mailtrap Templates](https://docs.mailtrap.io/email-marketing/campaigns/email-templates) to send branded emails with variables.
+* Configure [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) to push user information to your Mailtrap Lists, so you can later send campaigns to them or use Automations.
+* [Add automation triggers](https://docs.mailtrap.io/email-marketing/automations) in Mailtrap to send follow-ups to new contacts.
+* Track open and click rates with [Mailtrap Analytics](https://mailtrap.io/actionable-analytics/).
