@@ -30,9 +30,9 @@ pip install airflow-provider-mailtrap
 Connections let Airflow communicate with external services. You'll create a Mailtrap connection once, and then reuse it across all your workflows. Here’s how it works:
 
 1. In the Airflow UI, navigate to **Admin** → **Connections**.
-2. Click Add a new record (+).
+2. Click Add a new record (**+**).
 3. Fill in the connection details:
-4. Click **S**ave.
+4. Click **Save**.
 
 <figure><img src="../.gitbook/assets/airflow.png" alt=""><figcaption></figcaption></figure>
 
