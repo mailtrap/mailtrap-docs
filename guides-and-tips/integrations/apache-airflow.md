@@ -142,7 +142,7 @@ Finally, try triggering your DAG manually to test the automation. If you followe
 
 And here is the email in the `to` address:
 
-<figure><img src="../.gitbook/assets/airflow 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/airflow 3.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Additionally, you’ll be able to see the email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
