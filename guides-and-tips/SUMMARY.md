@@ -39,6 +39,7 @@
 * [cPanel SMTP Relay](integrations/cpanel.md)
 * [Retool](integrations/retool.md)
 * [Replit](integrations/replit.md)
+* [Apache Airflow](integrations/apache-airflow.md)
 * [Retool OpenAPI](integrations/retool-openapi.md)
 
 ## AI-Powered Integrations
