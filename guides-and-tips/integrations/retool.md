@@ -1,87 +1,52 @@
----
-description: >-
-  Step-by-step guide on how to integrate Mailtrap with your Retool application
-  to send emails via REST API.
----
-
 # Retool
 
-Retool is an AI-powered platform that lets you build internal tools, apps, and workflows through natural language prompts and visual editing. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your Retool projects.
+Mailtrap can be integrated with Retool, giving you flexible options for email sending and contact management. This integration allows you to send transactional and bulk emails, manage contacts, and maintain suppression lists — all within Retool's resource environment.
 
-**Prerequisites**:&#x20;
+### Integration options
 
-* A Retool account and a project.
-* A Mailtrap account for sending emails.
+Mailtrap offers two main integration approaches with Retool:
 
-### Step 1. Create a REST API resource (Mailtrap)
+### Retool + Mailtrap REST API
 
-Open Retool and go to the **Resources** tab. Once there, click on **Create new** → **Resource**.
+Use Mailtrap's REST API to send emails directly from your Retool application. This approach is ideal for simple setups and quick implementations.
 
-<figure><img src="../.gitbook/assets/retool 1 (1).png" alt=""><figcaption></figcaption></figure>
+**Key** **features**:
 
-On the next page, select **REST API**.
+* Configure a single REST API resource with your Mailtrap API key
+* Send transactional emails using the `/api/send` endpoint
+* Reuse queries across multiple Retool apps
 
-<figure><img src="../.gitbook/assets/retool 2.png" alt=""><figcaption></figcaption></figure>
+See the Retool and Mailtrap REST API integration guide for detailed setup instructions.
 
-Then, all you need to do is:
+### Retool + Mailtrap OpenAPI
 
-* Enter your desired resource name
-* Add the Mailtrap root ULR, which is `https://send.api.mailtrap.io/`
-  * **Note**: This URL lets you use other endpoints later on if you wish depending on your use case (i.e., create contacts). Additionally, if you plan on sending mass emails, the root URL should be `https://bulk.api.mailtrap.io/`
-* Choose **Bearer** for authentication and add your [Mailtrap API key](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens)
+Use Mailtrap's OpenAPI specifications to access the full range of Mailtrap features within Retool. This approach is ideal for advanced use cases requiring multiple endpoints.
 
-<figure><img src="../.gitbook/assets/retool 3.png" alt=""><figcaption></figcaption></figure>
+**Key** **features**:
 
-Once you insert the required details, make sure to click **Save changes** and go back to your project.
+* Send transactional and bulk emails
+* Sync contacts from external databases or CRMs
+* Manage suppression lists for better deliverability
+* Trigger Mailtrap Automation sequences based on contact updates
 
-### Step 2. Configure a query
+See the Retool and Mailtrap OpenAPI integration guide for detailed setup instructions.
 
-As the next step, we'll add a query to the Query Library. Queries stored here can be reused across any of your Retool apps.&#x20;
+### Which integrations should you choose?
 
-In this example, we’ll create a query that sends an email with fixed content defined in the query settings. However, you can use any Mailtrap endpoint with Retool such as managing contacts, updating email templates, or sending messages to a sandbox. For more information, please check out the official [Mailtrap email API documentation](https://docs.mailtrap.io/developers).
+**Choose Retool + REST API if you**:
 
-As for the **Query**, create a new one and:
+* Need a quick setup for sending transactional emails
+* Prefer a simple, single-resource configuration
+* Only need basic email sending functionality
 
-* Select the resource you created that connects the Mailtrap email API
-* Choose **POST** and add the API endpoint. In this case, it’s `api/send`
-* Add a **Content-Type** header with **application/json** as value
-* Choose **RAW** as the Body type and use the following code snippet for testing purposes:
+**Choose Retool + OpenAPI if you**:
 
-```
- {
-  "from": {
-    "email": "hello@demoatmailtrap.com"
-  },
-  "to": [
-    {
-      "email": "yourtestinginbox@email.com"
-    }
-  ],
-  "subject": "hola",
-  "text": "Lorem ipsum"
-}
-```
+* Want access to multiple Mailtrap endpoints (sending, contacts, suppressions)
+* Need to send bulk/promotional emails alongside transactional emails
+* Plan to sync contacts and trigger automation sequences
+* Require suppression list management for deliverability optimization
 
-{% hint style="info" %}
-This is just an example body for sending emails from a simple form. Feel free to adjust it according to your needs. Additionally, make sure to add your `‘from’` address with a verified sending domain.
-{% endhint %}
+### Getting started
 
-Here’s what your new query should look like:
+Both integration guides above contain step-by-step instructions, screenshots, and code examples. Choose the option that best fits your use case and follow the corresponding guide.
 
-<figure><img src="../.gitbook/assets/retool 4 (1).png" alt=""><figcaption></figcaption></figure>
-
-### Step 3. Test the integration
-
-Finally, to test your configuration, click on the **Test** button in the upper-right corner of the Query editor, and you should see the following response:
-
-<figure><img src="../.gitbook/assets/retool 5.png" alt=""><figcaption></figcaption></figure>
-
-Here it is in the Gmail inbox I used as my `to` address:
-
-<figure><img src="../.gitbook/assets/retool 6 (1).png" alt=""><figcaption></figcaption></figure>
-
-And here it is in the Mailtrap [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
-
-<figure><img src="../.gitbook/assets/retool 7.png" alt=""><figcaption></figcaption></figure>
-
-Before you go: If you plan on collecting email addresses for a list, you can connect your Retool project with [Mailtrap Contacts](https://docs.mailtrap.io/email-marketing/contacts/overview) and store your addresses in the Mailtrap Lists automatically. For reference, check out the official [Mailtrap Contacts API documentation](https://docs.mailtrap.io/developers/email-marketing/contacts-api).

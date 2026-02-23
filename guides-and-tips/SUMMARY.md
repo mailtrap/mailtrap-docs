@@ -17,6 +17,7 @@
 
 ## Integrations
 
+* [Retool](integrations/retool.md)
 * [Supabase](integrations/supabase/README.md)
   * [Supabase Transactional Emails Integration](integrations/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](integrations/supabase/contacts-management.md)
@@ -37,10 +38,9 @@
 * [AWS Lambda](integrations/aws-lambda.md)
 * [Nuxt](integrations/nuxt.md)
 * [cPanel SMTP Relay](integrations/cpanel.md)
-* [Retool](integrations/retool.md)
+* [Retool + REST API](integrations/retool-1.md)
 * [Replit](integrations/replit.md)
 * [Apache Airflow](integrations/apache-airflow.md)
-* [Retool OpenAPI](integrations/retool-openapi.md)
 
 ## AI-Powered Integrations
 
