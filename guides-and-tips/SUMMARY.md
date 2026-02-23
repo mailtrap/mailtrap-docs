@@ -18,8 +18,8 @@
 ## Integrations
 
 * [Retool](integrations/retool/README.md)
-  * [Retool REST API Integration](integrations/retool/retool.md)
-  * [Retool OpenAPI](integrations/retool/retool-openapi.md)
+  * [Retool REST API](integrations/retool/retool-rest-api.md)
+  * [Retool OpenAPI](integrations/retool/retool-openapi-integration.md)
 * [Supabase](integrations/supabase/README.md)
   * [Supabase Transactional Emails Integration](integrations/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](integrations/supabase/contacts-management.md)

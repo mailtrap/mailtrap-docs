@@ -1,4 +1,4 @@
-# Retool OpenAPI Integration
+# Retool OpenAPI
 
 Retool allows you to create an OpenAPI resource to connect to REST APIs using OpenAPI specifications. OpenAPI resources are integrations that allow you to securely connect to external services (e.g., Mailtrap) and automatically populate fields, such as, for example, query. This removes the need for manual configuration and improves accuracy.
 
