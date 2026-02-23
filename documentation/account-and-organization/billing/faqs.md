@@ -81,6 +81,10 @@ We don't have any ongoing promotions currently, but we do have discounts for non
 
 Additionally, you can get 20% off if you opt for an annual subscription.
 
+### Do you offer educational discount?
+
+Yes, we provide the Email API/SMTP Basic 10K plan and Email Sandbox Team plan for free or 50% discount for other plans. For more details contact Support Team: <a href="mailto:support@mailtrap.io" class="button secondary" data-icon="envelope">Contact Support</a>
+
 ### Do you offer discounts for nonprofit open-source organizations?
 
 Yes, we provide the Email API/SMTP Basic 10K plan and Email Sandbox Team plan for free for nonprofit open-source organizations. Additionally, nonprofits can get any other plan at a 50% discount.
