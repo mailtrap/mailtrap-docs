@@ -18,6 +18,8 @@ Use Mailtrap's REST API to send emails directly from your Retool application. Th
 
 See the Retool and Mailtrap REST API integration guide for detailed setup instructions.
 
+{% embed url="https://docs.mailtrap.io/guides/integrations/retool/retool" %}
+
 ### Retool + Mailtrap OpenAPI
 
 Use Mailtrap's OpenAPI specifications to access the full range of Mailtrap features within Retool. This approach is ideal for advanced use cases requiring multiple endpoints.
@@ -30,6 +32,8 @@ Use Mailtrap's OpenAPI specifications to access the full range of Mailtrap featu
 * Trigger Mailtrap Automation sequences based on contact updates
 
 See the Retool and Mailtrap OpenAPI integration guide for detailed setup instructions.
+
+{% embed url="https://docs.mailtrap.io/guides/integrations/retool/retool-openapi-integration" %}
 
 ### Which integrations should you choose?
 
