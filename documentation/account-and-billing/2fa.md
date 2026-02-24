@@ -59,8 +59,6 @@ Disabling 2FA also resets the recovery codes. After setting it up again, the old
 {% endstep %}
 {% endstepper %}
 
-{% @arcade/embed flowId="39p36H3XvIxXKeKthmsd" url="https://app.arcade.software/share/39p36H3XvIxXKeKthmsd" fullWidth="true" %}
-
 ### Logging in via 2FA
 
 During login, if you have enabled the 2FA, you will be redirected to the following screen upon entering the correct username/password combination:
