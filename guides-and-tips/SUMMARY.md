@@ -36,6 +36,7 @@
 * [Retool](integrations/retool/README.md)
   * [Retool REST API](integrations/retool/retool-rest-api.md)
   * [Retool OpenAPI](integrations/retool/retool-openapi-integration.md)
+* [Salesforce](integrations/salesforce.md)
 * [Sinatra](integrations/sinatra.md)
 * [Supabase](integrations/supabase/README.md)
   * [Supabase Transactional Emails Integration](integrations/supabase/transactional-emails.md)
