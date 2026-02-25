@@ -6,7 +6,7 @@ With the Mailtrap App for Salesforce, you can route your transactional and marke
 
 In this guide, you'll learn how to:
 
-* [Configure Named Credentials](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#how-to-configure-named-credentials)
+* [Configure Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#id-1-how-to-configure-named-credentials)
 * [Get the Mailtrap addon for Salesforce](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#id-2-how-to-get-the-mailtrap-add-on)
 * [Enable the Sandbox mode](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#id-3-enabling-the-sandbox-mode)
 
