@@ -7,16 +7,16 @@ With the Mailtrap App for Salesforce, you can route your transactional and marke
 In this guide, you'll learn how to:
 
 * [Configure Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#id-1-how-to-configure-named-credentials)
-* [Get the Mailtrap addon for Salesforce](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#id-2-how-to-get-the-mailtrap-add-on)
-* [Enable the Sandbox mode](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#id-3-enabling-the-sandbox-mode)
+* [Configure Mailtrap App](https://docs.mailtrap.io/guides/integrations/salesforce#id-2-configure-mailtrap-app)
+* [Enable the Sandbox mode](https://docs.mailtrap.io/guides/integrations/salesforce#id-3-enabling-the-sandbox-mode)
 
 ## 1) How to configure Named Credentials
 
 The Mailtrap package requires a [Named Credential](https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm\&type=5) called MailTrap\_To\_SF to communicate with your Salesforce org. To set it up, you need to:
 
-* [Assign permission set](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#assign-permission-set)
-* [Create Named Credentials](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#create-named-credentials)
-* [Add access to the Named Credentials](https://app.gitbook.com/o/v74qRpPPxS0pEfrGYqGj/s/gkNigAKiqQtQub1GOdjY/~/edit/~/changes/125/integrations/salesforce#add-access-to-the-named-credentials)
+* [Assign permission set](https://docs.mailtrap.io/guides/integrations/salesforce#assign-permission-set)
+* [Create Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#create-named-credentials)
+* [Add access to the Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#add-access-to-the-named-credentials)
 
 {% hint style="info" %}
 **Useful link**: [What are Named Credentials?](https://help.salesforce.com/s/articleView?id=xcloud.nc_basics.htm\&type=5)
