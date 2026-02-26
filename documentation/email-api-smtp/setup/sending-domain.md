@@ -164,6 +164,100 @@ Once the DNS records are verified, you’ll be taken to the next step, which is 
 {% endstep %}
 {% endstepper %}
 
+### DNS propagation time
+
+After you add or update DNS records, it may take **15 minutes to a few hours** for Mailtrap to detect them.
+
+DNS changes are not applied instantly because:
+
+* DNS records are cached by DNS resolvers according to their TTL (Time To Live).
+* There are multiple DNS servers worldwide, and updates need time to propagate across them.
+* Even if you can see the updated record using one DNS checker or resolver, it doesn’t necessarily mean that Mailtrap (or other services) can already resolve it from their location.
+
+In most cases, propagation completes within a few hours, but in rare cases it may take up to 24 hours.
+
+#### How to check if your DNS records have propagated
+
+To check if your DNS records have propagated, you have two options:
+
+<details>
+
+<summary>DNS Checker (automatic)</summary>
+
+An easy way to verify whether your DNS records are publicly available is to use [DNS Checker](https://dnschecker.org/), which queries DNS servers worldwide and shows DNS propagation of 6 continents.
+
+To use DNS Checker:
+
+* Go to dnschecker.org and enter your domain name
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-26 at 17.52.40.png" alt=""><figcaption></figcaption></figure>
+
+* Select the record type (e.g., TXT, MX, CNAME, etc.)
+* Click **Search**
+
+And here's what your results should look like:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-26 at 17.53.29.png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary><code>dig</code> command (manual)</summary>
+
+You can also verify your DNS records manually with the `dig` command. The `dig` command is a DNS lookup tool available on macOS and Linux (and on Windows via BIND tools) that queries DNS servers and returns the current records for a domain.
+
+To use it, open a terminal and run dig followed by the record type and your domain name. You can also add `+short` for a concise output.
+
+For instance, here's what you can run if you want to check:
+
+* A TXT record (for SPF or domain verification):
+
+```
+dig TXT yourdomain.com +short
+```
+
+* A specific selector (e.g., DKIM):
+
+```
+dig TXT selector._domainkey.yourdomain.com +short
+```
+
+* MX records:
+
+```
+dig MX yourdomain.com +short
+```
+
+* CNAME records:
+
+```
+dig CNAME track.yourdomain.com +short
+```
+
+**If the correct value is returned in the response**, the record has likely propagated.
+
+**If you see no result or an old value**, the record may still be propagating.
+
+You can also check propagation using different public DNS resolvers:
+
+```
+dig TXT yourdomain.com @8.8.8.8 +short      # Google DNS
+dig TXT yourdomain.com @1.1.1.1 +short      # Cloudflare DNS
+```
+
+</details>
+
+**If the record appears across multiple public resolvers**, it should soon be visible to Mailtrap as well.
+
+**If the records are correctly configured and still not verified after several hours**, double-check:
+
+* Record type (TXT, CNAME, MX, etc.)
+* Host/name field (e.g., using `selector._domainkey` instead of the full domain)
+* That there are no duplicate or conflicting records
+
+If everything looks correct, please allow additional time for propagation before contacting support.
+
 ### (Optional) Tracking settings <a href="#optional-tracking-settings-ffi49" id="optional-tracking-settings-ffi49"></a>
 
 An optional step is to change the tracking settings. By default, Mailtrap tracks email opens for each email sent. You can also enable click tracking.
