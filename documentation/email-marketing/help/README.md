@@ -263,14 +263,6 @@ There you can:
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.33.11.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-:white\_check\_mark:**Recent improvements and major feature updates include:**
-
-* Drag & drop editor v2
-* Campaign templates library
-* Real-time analytics
-* Multi-language support
-* GDPR compliance tools
-
 :soon:**The following enhancements are currently planned or in progress:**
 
 * Advanced automation workflows

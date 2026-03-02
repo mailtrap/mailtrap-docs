@@ -248,14 +248,6 @@ There you can:
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.33.11.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-**✅ Recent improvements to Email Sandbox include:**
-
-* Dark mode support
-* Webhook events
-* Email forwarding
-* Load testing support
-* API v2 endpoints
-
 :soon:**The following enhancements are currently planned:**
 
 * GraphQL API
