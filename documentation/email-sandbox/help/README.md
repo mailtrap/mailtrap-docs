@@ -198,23 +198,7 @@ test_sandbox()
 * Regular permission audits
 * Communicate test schedules
 
-## Frequently requested features
 
-### Coming soon
-
-* GraphQL API
-* Advanced search filters
-* Email templates library
-* Browser extension
-* Mobile app
-
-### Recently added
-
-* Dark mode support
-* Webhook events
-* Email forwarding
-* Load testing support
-* API v2 endpoints
 
 ## Community resources
 
@@ -236,7 +220,7 @@ _We welcome technical feedback and contributions that help us improve Mailtrapâ€
 
 #### <i class="fa-bug">:bug:</i>Bug Reports
 
-If you encounter a product issue or unexpected behavior, please [#contact-support](./#contact-support "mention").
+**If you encounter a product issue or unexpected behavior, please** [#contact-support](./#contact-support "mention")**.**
 
 To help us investigate efficiently, include:
 
@@ -252,25 +236,41 @@ For product improvements or new feature proposals, use our [Public Roadmap](http
 
 There you can:
 
-* Submit a new feature request
+* **Submit a new feature request**
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.32.03.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-* Upvote existing requests
+* **Upvote existing requests**
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.33.40.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-* Subscribe to updates for specific requests
+* **Subscribe to updates for specific requests**
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.33.11.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**âœ… Recent improvements to Email Sandbox include:**
+
+* Dark mode support
+* Webhook events
+* Email forwarding
+* Load testing support
+* API v2 endpoints
+
+:soon:**The following enhancements are currently planned:**
+
+* GraphQL API
+* Advanced search filters
+* Email templates library
+* Browser extension
+* Mobile app
 
 #### <i class="fa-file-doc">:file-doc:</i>Documentation Improvements
 
 If you identify unclear, incomplete, or outdated documentation:
 
-1. Use the feedback widget located on the right-hand side of the page to rate the article:\
+1. Use the **feedback widget** located on the right-hand side of the page to rate the article:\
    ![](<../../.gitbook/assets/Screenshot 2026-03-02 at 10.30.47.png>)
-2. Provide specific feedback describing what should be corrected, clarified, or expanded\
+2. **Provide specific feedback** describing what should be corrected, clarified, or expanded\
    ![](<../../.gitbook/assets/Screenshot 2026-03-02 at 10.31.22.png>)
 
 This helps us continuously refine our docs.
