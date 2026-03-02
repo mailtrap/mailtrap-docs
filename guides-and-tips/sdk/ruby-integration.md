@@ -16,6 +16,8 @@ Mailtrap can be integrated with Ruby apps and projects for email sending.
 
 #### SDK integration
 
+> The Mailtrap Ruby SDK has been significantly expanded. It now covers the full Mailtrap feature set — from batch sending and sandbox testing to contact management, templates, and more.
+
 The [Mailtrap Ruby SDK](https://github.com/mailtrap/mailtrap-ruby) provides an idiomatic Ruby interface for sending transactional and bulk emails. The SDK supports:
 
 * Transactional email sending
@@ -23,6 +25,10 @@ The [Mailtrap Ruby SDK](https://github.com/mailtrap/mailtrap-ruby) provides an i
 * Template management
 * [ActionMailer](https://github.com/mailtrap/mailtrap-ruby/blob/main/examples/action_mailer.rb) integration for Rails applications
 * Comprehensive error handling
+* Sandbox email sending and messages CRUD
+* Contacts management
+* Inboxes and Projects management
+* Account management
 
 ### Installation
 
