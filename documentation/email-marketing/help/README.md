@@ -229,21 +229,49 @@ FROM campaigns
 WHERE campaign_id = 'YOUR_CAMPAIGN_ID';
 ```
 
-## Feature Requests & Feedback
+## Feedback & suggestions
 
-### How to Submit Feedback
+_We welcome technical feedback and contributions that help us improve Mailtrap’s functionality and documentation. Please use the appropriate channel depending on the type of request._
 
-1. **Feature Requests**: feedback@mailtrap.io
-2. **Bug Reports**: Include:
-   * Steps to reproduce
-   * Expected behavior
-   * Actual behavior
-   * Screenshots if applicable
-   * Browser/OS information
+#### <i class="fa-bug">:bug:</i>Bug Reports
 
-### Roadmap Items
+**If you encounter a product issue or unexpected behavior, please** [#contact-support](./#contact-support "mention")**.**
 
-**Coming Soon**:
+To help us investigate efficiently, include:
+
+* A detailed description of the issue
+* Exact reproduction steps
+* Relevant stream, domain, sandbox, or account details
+* Timestamps (including timezone)
+* Screenshots or logs if available
+
+#### <i class="fa-file-circle-plus">:file-circle-plus:</i>Feature Requests
+
+For product improvements or new feature proposals, use our [Public Roadmap](https://mailtrap.featurebase.app/en) portal.
+
+There you can:
+
+* **Submit a new feature request**
+
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.32.03.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+* **Upvote existing requests**
+
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.33.40.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+* **Subscribe to updates for specific requests**
+
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-03-02 at 10.33.11.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+:white\_check\_mark:**Recent improvements and major feature updates include:**
+
+* Drag & drop editor v2
+* Campaign templates library
+* Real-time analytics
+* Multi-language support
+* GDPR compliance tools
+
+:soon:**The following enhancements are currently planned or in progress:**
 
 * Advanced automation workflows
 * Enhanced personalization
@@ -251,13 +279,22 @@ WHERE campaign_id = 'YOUR_CAMPAIGN_ID';
 * AI content suggestions
 * Advanced segmentation
 
-**Recently Released**:
+You can follow updates and release progress directly in Featurebase.
 
-* Drag & drop editor v2
-* Campaign templates library
-* Real-time analytics
-* Multi-language support
-* GDPR compliance tools
+#### <i class="fa-file-doc">:file-doc:</i>Documentation Improvements
+
+If you identify unclear, incomplete, or outdated documentation:
+
+1. Use the **feedback widget** located on the right-hand side of the page to rate the article:\
+   ![](<../../.gitbook/assets/Screenshot 2026-03-02 at 10.30.47.png>)
+2. **Provide specific feedback** describing what should be corrected, clarified, or expanded\
+   ![](<../../.gitbook/assets/Screenshot 2026-03-02 at 10.31.22.png>)
+
+This helps us continuously refine our docs.
+
+#### <i class="fa-square-code">:square-code:</i>GitHub & Technical Collaboration
+
+For open-source projects, SDKs, or public repositories, join us on [GitHub](https://github.com/mailtrap).
 
 ## Training Resources
 
