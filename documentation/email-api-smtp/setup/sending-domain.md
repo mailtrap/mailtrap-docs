@@ -108,7 +108,7 @@ Return to Mailtrap. On the Domain Verification page, you'll see the DNS records 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-dns-records-list.png" alt="" width="563"></div>
 
-Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are four CNAME type records (Domain Verification, DKIM (2), and Custom Tracking Domain) and two TXT type records (SPF and DMARC).
+Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-dns-types-categories.png" alt="DNS Types and Categories in Mailtrap showing CNAME and TXT record types" width="563"><figcaption></figcaption></figure></div>
 
