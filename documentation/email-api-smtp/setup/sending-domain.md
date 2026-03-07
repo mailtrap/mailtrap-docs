@@ -104,7 +104,7 @@ Open the DNS settings and click Add New Record.
 {% endstep %}
 
 {% step %}
-Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, SPF, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
+Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-dns-records-list.png" alt="" width="563"></div>
 
@@ -113,10 +113,6 @@ Make sure you check the type next to each record in Mailtrap and choose a releva
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-dns-types-categories.png" alt="DNS Types and Categories in Mailtrap showing CNAME and TXT record types" width="563"><figcaption></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected" width="375"><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-Note that you should have only one SPF record. So, if you already have one for your domain, update its value to include Mailtrap.
-{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -158,7 +154,6 @@ Once the DNS records are verified, you’ll be taken to the next step, which is 
 
 **Notes:**
 
-* Some domain providers don't allow setting ‘@’ for SPF records. In this case, please use your own domain name "example.com" instead of '@'.
 * Some domain providers require a postfix format of the DKIM record. If that’s the case, replace `rwmt1._domainkey` with `rwmt1._domainkey.yourdomain.com` . Repeat the process for `rwmt2._domainkey` , changing the name to `rwmt2._domainkey.yourdomain.com` .
 * If you’re asked to set TTL, use the default value as indicated under the TTL field on the Domain Verification page in Mailtrap.
 {% endstep %}
