@@ -104,13 +104,13 @@ Open the DNS settings and click Add New Record.
 {% endstep %}
 
 {% step %}
-Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are Domain Verification, DKIM, DMARC, and Domain Tracking. You'll need the values under Type, Name, and Value. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
+Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-dns-records-list.png" alt="" width="563"></div>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-07 at 12.53.29.png" alt=""><figcaption></figcaption></figure>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-dns-types-categories.png" alt="DNS Types and Categories in Mailtrap showing CNAME and TXT record types" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
