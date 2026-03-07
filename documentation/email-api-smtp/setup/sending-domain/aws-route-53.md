@@ -42,11 +42,11 @@ Click **Create record** button.
 {% step %}
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to AWS Route 53. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-mailtrap-dns-records.png" alt="" width="563"></div>
+<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in AWS Route 53. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type records** (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/mailtrap-dns-record-types.png" alt="Mailtrap Domain Verification page with Type column highlighted showing CNAME and TXT record types" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
