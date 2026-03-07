@@ -30,11 +30,11 @@ Open the DNS settings and click **Add New Record**.
 {% step %}
 On the Domain Verification page in Mailtrap, you'll see the DNS records you need to add to GoDaddy. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**. The naming of these records in Mailtrap is the same as in GoDaddy.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/google-cloud-dns-4.png" alt="" width="563"></div>
+<figure><img src="../../../.gitbook/assets/1 (2).png" alt=""><figcaption></figcaption></figure>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in GoDaddy. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/google-cloud-dns-5.png" alt="DNS record types and categories in Mailtrap" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/2 (3).png" alt=""><figcaption></figcaption></figure>
 
 <div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/godaddy-dns-type-selector.png" alt="GoDaddy DNS record type selector dropdown" width="375"><figcaption></figcaption></figure></div>
 
