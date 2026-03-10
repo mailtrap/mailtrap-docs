@@ -19,6 +19,7 @@
 
 * [Apache Airflow](integrations/apache-airflow.md)
 * [Astro](integrations/astro.md)
+* [Antigravity](integrations/antigravity.md)
 * [AWS Lambda](integrations/aws-lambda.md)
 * [Cloudflare Workers](integrations/cloudflare-workers.md)
 * [cPanel SMTP Relay](integrations/cpanel.md)
