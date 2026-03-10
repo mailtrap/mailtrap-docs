@@ -58,15 +58,15 @@ Next, all you need to do is replace the following values in the **mcp\_config.js
 
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.06.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.06.42 (1).png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.13 (1).png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you insert your Mailtrap credentials and refresh the page or reopen Antigravity, you should see a list of available tools that come with Mailtrap MCP.
 

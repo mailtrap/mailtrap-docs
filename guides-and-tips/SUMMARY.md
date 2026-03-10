@@ -58,6 +58,7 @@
 * [Lovable](ai-powered-integrations/lovable.md)
 * [Mailtrap MCP Server](ai-powered-integrations/mcp-server.md)
 * [OpenClaw](ai-powered-integrations/openclaw.md)
+* [Qodo](ai-powered-integrations/qodo.md)
 * [Reflex Build](ai-powered-integrations/reflex-build.md)
 * [V0](ai-powered-integrations/v0.md)
 * [Vercel](ai-powered-integrations/vercel.md)
