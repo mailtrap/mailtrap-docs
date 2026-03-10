@@ -111,19 +111,3 @@ Want to edit your templates without switching to the Mailtrap UI? You can prompt
 Furthermore, you can forward the emails you’re working on in Sandbox (or actual templates) to your teammate’s addresses. For this, you can use a prompt like this one:
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.15.50.png" alt=""><figcaption></figcaption></figure>
-
-\
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
