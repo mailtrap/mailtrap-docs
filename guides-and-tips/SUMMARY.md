@@ -19,7 +19,6 @@
 
 * [Apache Airflow](integrations/apache-airflow.md)
 * [Astro](integrations/astro.md)
-* [Antigravity](integrations/antigravity.md)
 * [AWS Lambda](integrations/aws-lambda.md)
 * [Cloudflare Workers](integrations/cloudflare-workers.md)
 * [cPanel SMTP Relay](integrations/cpanel.md)
@@ -47,6 +46,7 @@
 
 ## AI-Powered Integrations
 
+* [Antigravity](ai-powered-integrations/antigravity.md)
 * [Anything](ai-powered-integrations/anything.md)
 * [Base44](ai-powered-integrations/base44.md)
 * [Bolt.new](ai-powered-integrations/bolt-new.md)
