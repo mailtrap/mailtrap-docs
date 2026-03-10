@@ -4,10 +4,10 @@
 
 In this guide, you’ll learn how to integrate it with the Mailtrap MCP which allows you to, amongst other things, perform the following actions:
 
-* Connect Mailtrap to your project
-* Fetch and preview Sandbox messages
-* Validate and edit email templates during code review
-* Forward email templates to your teammates
+* [Connect Mailtrap to your project](antigravity.md#integrating-mailtrap-into-your-project)
+* [Fetch and preview Sandbox messages](antigravity.md#sandbox-operations-during-code-review)
+* [Validate and edit email templates during code review](antigravity.md#template-validation-during-code-review)
+* [Forward email templates to your teammates](antigravity.md#sending-emails-to-your-teammate)
 
 #### Prerequisites
 
