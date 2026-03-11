@@ -100,7 +100,7 @@ With Antigravity connected to Mailtrap MCP, you can complete the following actio
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.15.17.png" alt=""><figcaption></figcaption></figure>
 
-#### Template validation during code review
+#### Template validation during debugging
 
 Want to edit your templates without switching to the Mailtrap UI? You can prompt the Antigravity agent to list them, fetch a specific template ID, or even change the subject lines you don’t like:
 
