@@ -142,6 +142,8 @@ Go to **Email Logs** in your Mailtrap account to see full delivery details, open
 
 ### Configuring Firestore Security Rules
 
+You must pay attention to Security Rules so that email delivery is appropriately secure. Almost certainly you want the mail collection to be forbidden to users and only accessible to functions. Then you trigger it from your backend code.
+
 To control who can add documents to your mail collection, you can set up Firestore Security Rules by copying the following code snippet into the **firestore.rules** file or directly in the console under **Firestore Database** → **Rules**:
 
 ```
@@ -159,6 +161,10 @@ service cloud.firestore {
   }
 }
 ```
+
+{% hint style="info" %}
+Note that if you do make it accessible to users, they could trigger email delivery as much as they want, so it's up to you to develop a suitable authorization model.
+{% endhint %}
 
 ### Billing
 
