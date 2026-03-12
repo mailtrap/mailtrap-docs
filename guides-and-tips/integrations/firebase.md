@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Firebase
 
 [Firebase](https://firebase.google.com/) is Google’s open-source mobile and web app development platform that provides a suite of tools and services for building, managing, and scaling web and mobile applications.
