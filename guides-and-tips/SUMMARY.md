@@ -25,6 +25,7 @@
 * [cURL](integrations/curl.md)
 * [Deno](integrations/deno.md)
 * [FastAPI](integrations/fastapi.md)
+* [Firebase](integrations/firebase.md)
 * [Hono](integrations/hono.md)
 * [Make.com](integrations/make.md)
 * [N8N](integrations/n8n.md)
