@@ -37,7 +37,7 @@ Add the SDK to your `mix.exs` dependencies:
 ```elixir
 def deps do
   [
-    {:mailtrap, "~> 1.0"}
+    {:mailtrap, "~> 0.2.0"}
   ]
 end
 ```
