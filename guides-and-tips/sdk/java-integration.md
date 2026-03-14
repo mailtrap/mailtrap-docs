@@ -34,10 +34,11 @@ Add the SDK to your project using your preferred build tool:
 {% tab title="Maven" %}
 {% code title="pom.xml" %}
 ```xml
+
 <dependency>
-    <groupId>com.mailtrap</groupId>
+    <groupId>io.mailtrap</groupId>
     <artifactId>mailtrap-java</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 {% endcode %}
@@ -46,7 +47,7 @@ Add the SDK to your project using your preferred build tool:
 {% tab title="Gradle (Groovy)" %}
 {% code title="build.gradle" %}
 ```groovy
-implementation 'com.mailtrap:mailtrap-java:1.0.0'
+implementation 'io.mailtrap:mailtrap-java:1.1.0'
 ```
 {% endcode %}
 {% endtab %}
@@ -54,7 +55,7 @@ implementation 'com.mailtrap:mailtrap-java:1.0.0'
 {% tab title="Gradle (Kotlin DSL)" %}
 {% code title="build.gradle.kts" %}
 ```kotlin
-implementation("com.mailtrap:mailtrap-java:1.0.0")
+implementation("io.mailtrap:mailtrap-java:1.1.0")
 ```
 {% endcode %}
 {% endtab %}
