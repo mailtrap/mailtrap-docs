@@ -123,7 +123,7 @@ Domain URL can be found under Company Settings → My Domain.
 
 * Navigate to **Setup** → **Named Credentials** (under **Security**)→ click on **External Credentials** and hit the **New** button.
 
-<figure><img src="../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Then, fill in all necessary information:
   * **Name**: MailTrap\_To\_SF
@@ -134,11 +134,11 @@ Domain URL can be found under Company Settings → My Domain.
 
 Once you’re done, make sure to hit the **Save** button.
 
-<figure><img src="../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Navigate to **Named Credentials**, click **New**.
 
-<figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Fill in all necessary information:
   * **Label and Name**: MailTrap\_To\_SF&#x20;
@@ -204,7 +204,7 @@ To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap acc
 
 * Then, click on **Connect Mailtrap account**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **If you’re a free user**, create your Mailtrap API key (or copy it if you already have one) and paste it in the following bar.
 
@@ -219,7 +219,7 @@ To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap acc
 
 **If you’re a paid user** or **don’t have an account yet**, follow the follow the **Click here** link since the add-on is not added automatically and you need to create a Mailtrap API token.
 
-<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You will also be redirected to the Mailtrap API Token page, where you’ll see instructions to contact customer support.
 
