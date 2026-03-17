@@ -94,7 +94,7 @@ And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.32.png" alt=""><figcaption></figcaption></figure>
 
-#### Sandbox operations during&#x20;
+#### Sandbox operations &#x20;
 
 While you’re reviewing your email-sending code in VS Code and working in a staging environment using [Sandbox](https://mailtrap.io/email-sandbox/), you might want to try to trigger the logic to see if it works correctly or simply to verify the behavior, test emails, etc.
 
