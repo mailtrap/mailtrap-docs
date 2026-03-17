@@ -5,113 +5,119 @@ description: >-
   send emails directly from the editor with simple AI prompts.
 ---
 
-# VS Code
+# Visual Studio Code (VS Code)
 
-With the VS Code Mailtrap integration, you can send emails directly from Visual Studio Code using simple AI prompts powered by GitHub Copilot.
+[Visual Studio Code](https://code.visualstudio.com/), most commonly known as VS Code, is a development environment powered by GitHub Copilot AI that lets you easily build and debug modern web and cloud applications.
 
-Mailtrap is an email-sending solution for developer and product teams focused on fast delivery and high inboxing rates for transactional and promo emails. It provides a highly customizable API and 24/7 technical support.
+In this guide, you’ll learn how to integrate it with with the Mailtrap MCP which allows you to, amongst other things, perform the following actions:
 
-In this guide, you'll set up the integration and send emails in three steps.
+* [Connect Mailtrap to your project](vs-code.md#connect-mailtrap-to-your-project)
+* [Perform Sandbox operations](vs-code.md#sandbox-operations-during)&#x20;
+* [Validate email templates](vs-code.md#template-validation)
+* [Forward email templates to your teammates](vs-code.md#sending-emails-to-your-teammate)
 
-## Prerequisites
+#### Prerequisites
 
-Before you start, ensure the following:
+Before you start, make sure to:
 
-* [Set up your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) — this takes approximately 5 minutes
-* Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility
-* Install or update [Visual Studio Code](https://code.visualstudio.com/) to the latest version
+* Set up your [sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) (this takes approximately 5 minutes).
+* Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 
-{% stepper %}
-{% step %}
-**Add Mailtrap MCP to VS Code**
+### Step 1. Add Mailtrap MCP config to VSC
 
 To add Mailtrap MCP to VS Code, you can use the [quick install link](https://insiders.vscode.dev/redirect/mcp/install?name=mailtrap\&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-mailtrap%22%5D%2C%22env%22%3A%7B%22MAILTRAP_API_TOKEN%22%3A%22%24%7Binput%3AmailtrapApiToken%7D%22%2C%22DEFAULT_FROM_EMAIL%22%3A%22%24%7Binput%3AsenderEmail%7D%22%2C%22MAILTRAP_ACCOUNT_ID%22%3A%22%24%7Binput%3AmailtrapAccountId%7D%22%7D%7D\&inputs=%5B%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapApiToken%22%2C%22description%22%3A%22Mailtrap+API+Token%22%2C%22password%22%3Atrue%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22senderEmail%22%2C%22description%22%3A%22Sender+Email+Address%22%7D%2C%7B%22type%22%3A%22promptString%22%2C%22id%22%3A%22mailtrapAccountId%22%2C%22description%22%3A%22Mailtrap+Account+ID%22%7D%5D) or follow these steps:
 
-1. Open VS Code and navigate to **Settings**
-2. Search for **MCP** in the settings search bar
-3. Tick the **Chat > MCP: Enabled** option
-4. Click **Edit in settings.json**
+* Open VS Code and navigate to **Settings**.
+* Search for **MCP** in the settings search bar.
+* Tick the **Chat > MCP: Enabled** option.
+* Click **Edit in settings.json**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-1.png" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.39.27.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You can also open the settings.json file by typing **Preferences: Open User Settings (JSON)** in the Command Palette.
 {% endhint %}
 
-In your settings.json file, add the following code snippet:
+Once you open **settings.json**, insert the following code snippet into the file:
 
-{% code title="settings.json" %}
 ```json
 {
-  "mcp": {
-    "servers": {
-      "mailtrap": {
-        "command": "npx",
-        "args": ["-y", "mcp-mailtrap"],
-        "env": {
-          "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
-          "DEFAULT_FROM_EMAIL": "your_sender@example.com"
-        }
+  "mcpServers": {
+    "mailtrap": {
+      "command": "npx",
+      "args": ["-y", "mcp-mailtrap"],
+      "env": {
+        "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
+        "DEFAULT_FROM_EMAIL": "your_sender@example.com",
+        "MAILTRAP_ACCOUNT_ID": "your_account_id",
+        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
       }
     }
   }
 }
 ```
-{% endcode %}
 
-{% hint style="warning" %}
-Make sure to restart your MCP server after changing the "env" section.
-{% endhint %}
-{% endstep %}
+### Step 2. Insert Mailtrap credentials
 
-{% step %}
-**Add Mailtrap API credentials**
+Next, all you need to do is replace the following values in the **settings.json** file:
 
-Replace the following values in your settings.json file:
+* `MAILTRAP_API_TOKEN` – Required for all functionality, used to authenticate API requests, which you can copy/paste from the credentials tab.
+* `DEFAULT_FROM_EMAIL` – Required for email sending. Make sure the email’s domain matches your own domain from the **Sending Domains** tab in Mailtrap.
 
-* **MAILTRAP\_API\_TOKEN** — Authentication token for API requests. You can copy this from the **Credentials** tab in your Mailtrap account
-* **DEFAULT\_FROM\_EMAIL** — Must match your verified domain in Mailtrap's **Sending Domains** tab
+You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-Find these credentials in your Mailtrap account by navigating to **Sending Domains → Integration → API**.
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="" width="375"></div>
+* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.&#x20;
 
-{% hint style="info" %}
-Although you shouldn't face any issues, reload VS Code to ensure everything is set up correctly.
-{% endhint %}
-{% endstep %}
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-{% step %}
-**Send emails with a prompt**
+* `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
-To send an email:
+<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
-1. Open the **AI Pane** in the upper-right corner of VS Code
-2. Make sure **Agent mode** is selected (this allows VS Code to perform actions)
+Once you insert your Mailtrap credentials, make sure to refresh the page or reopen VS Code.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-3.png" alt="" width="375"></div>
+### VS Code + Mailtrap MCP server use cases
 
-3. Open the list of available tools and select **Mailtrap**
-4. If you see similar MCPs from other editors (like Cursor), uncheck them
+#### Connect Mailtrap to your project
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-4.png" alt="VS Code tools selection popup showing available MCP servers with Mailtrap send-email tool selected" width="563"></div>
+You can prompt the VS Code AI to integrate Mailtrap into your project with a prompt like this one:
 
-5. Use this prompt (or create your own):
+> Integrate Mailtrap into my project, so that it can send emails through the Mailtrap email API. Additionally, safely store the Mailtrap credentials from the MCP configuration into an .env file
 
-```
-Send an email to john.doe@example.com with the subject 'Hi John!' and a message that wishes John a great day.
-```
+VS Code agent will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a **.env** file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
-VS Code will identify the correct MCP server and suggest running the send-email tool. Click **Continue** to proceed.
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.11.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-5.png" alt="" width="375"></div>
+And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-The email will be sent successfully, and Copilot will confirm the action:
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.32.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-6.png" alt="GitHub Copilot success message confirming that the email to John was sent successfully" width="563"></div>
+#### Sandbox operations during&#x20;
 
-Verify the email in your Mailtrap dashboard by checking the [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) tab:
+While you’re reviewing your email-sending code in VS Code and working in a staging environment using [Sandbox](https://mailtrap.io/email-sandbox/), you might want to try to trigger the logic to see if it works correctly or simply to verify the behavior, test emails, etc.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-vs-code-7.png" alt="Mailtrap Email Logs tab showing the Hi John email with delivery details and email status" width="563"></div>
-{% endstep %}
-{% endstepper %}
+You can do all of this from VS Code, which you can prompt so you can:
+
+* Verify what the code actually does without switching to the Mailtrap UI and back to the IDE
+* Inspect basic message metadata
+* Use the returned message ID to request full message details (content, headers, etc.), and more.
+
+<figure><img src="../.gitbook/assets/vs 1.png" alt=""><figcaption></figcaption></figure>
+
+#### Template validation
+
+Using a Mailtrap template ID in your code, but you’re not sure whether it’s the correct one? Just request the list of available templates in your Mailtrap account from the VS Code AI:
+
+<figure><img src="../.gitbook/assets/vs2.png" alt=""><figcaption></figcaption></figure>
+
+Not satisfied with the subject line of your template? Use a prompt such as this one to edit it:
+
+<figure><img src="../.gitbook/assets/vs3.png" alt=""><figcaption></figcaption></figure>
+
+#### Sending emails to your teammate
+
+You can also ask your teammates’ opinion on an email design or a template you’re working in your Sandbox by prompting the VS Code, no need to leave the editor. For instance:
+
+<figure><img src="../.gitbook/assets/vs 4.png" alt=""><figcaption></figcaption></figure>

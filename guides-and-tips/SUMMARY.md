@@ -63,5 +63,5 @@
 * [Reflex Build](ai-powered-integrations/reflex-build.md)
 * [V0](ai-powered-integrations/v0.md)
 * [Vercel](ai-powered-integrations/vercel.md)
-* [VS Code](ai-powered-integrations/vs-code.md)
+* [Visual Studio Code (VS Code)](ai-powered-integrations/vs-code.md)
 * [Windsurf](ai-powered-integrations/windsurf.md)
