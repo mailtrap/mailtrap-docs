@@ -49,6 +49,7 @@
 
 * [Antigravity](ai-powered-integrations/antigravity.md)
 * [Anything](ai-powered-integrations/anything.md)
+* [Augment Code](ai-powered-integrations/augment-code.md)
 * [Base44](ai-powered-integrations/base44.md)
 * [Bolt.new](ai-powered-integrations/bolt-new.md)
 * [ChatGPT](ai-powered-integrations/chatgpt.md)
