@@ -954,3 +954,31 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 
 * The signature is computed on the raw body regardless of payload format (JSON or JSONL)
 * Both formats use the same verification process
+
+### Static IPs for sending & webhooks
+
+Mailtrap sends all outgoing traffic, both SMTP email delivery and webhook callbacks, from a fixed set of Mailtrap-owned IP ranges. Two IPv4 CIDR blocks cover everything: `45.158.83.0/24` and `5.181.200.0/24`.
+
+<details>
+
+<summary>How it works</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>When to use it</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Limitations</summary>
+
+
+
+</details>

@@ -49,6 +49,7 @@
   * [Excluding Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
   * [Auto BCC](email-api-smtp/advanced/auto-bcc.md)
   * [Webhooks](email-api-smtp/webhooks.md)
+  * [Static IPs for sending & webhooks](email-api-smtp/advanced/static-ips-for-sending-and-webhooks.md)
 * [Help & Support](email-api-smtp/help/README.md)
   * [Sending Glossary](email-api-smtp/help/glossary.md)
   * [FAQs](email-api-smtp/faqs.md)
