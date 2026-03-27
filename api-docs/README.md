@@ -10,6 +10,8 @@ Welcome to the Mailtrap API documentation. Our APIs provide comprehensive access
 
 The Mailtrap API follows REST principles. Authenticated users can interact with any endpoint using standard HTTP methods. All requests must be sent over HTTPS, as TLS encryption is enforced.
 
+We also provide an LLM-friendly version of our API documentation and routing instructions at [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.txt) to help AI assistants and agents write accurate integration code.
+
 ## Documentation structure
 
 The API documentation is organized into the following sections:
