@@ -7,9 +7,13 @@ description: Send transactional and bulk emails from your app using the Mailtrap
 
 Send transactional and bulk emails from your app using the Mailtrap Email API. This guide walks you through complete setup — from choosing your SDK to sending your first email.
 
-## AI-assisted setup checklist
+<details>
 
-Give your AI assistant this page (`https://docs.mailtrap.io/getting-started/email-api-smtp.md`) and your technology stack. AI assistants: follow these steps in order, completing each one before moving to the next. Pause and confirm with the user before proceeding at steps marked with ⏸️.
+<summary>AI-assisted setup checklist — give your AI assistant this page and your tech stack</summary>
+
+AI assistants: follow these steps in order, completing each one before moving to the next. Pause and confirm with the user before proceeding at steps marked with ⏸️.
+
+Page URL for context: `https://docs.mailtrap.io/getting-started/email-api-smtp.md`
 
 1. Install the right SDK for your stack
 2. Create your API token — go to [API Tokens](https://mailtrap.io/api-tokens), create one with Admin access, and paste it to your assistant. This is the only manual step.
@@ -22,6 +26,8 @@ Give your AI assistant this page (`https://docs.mailtrap.io/getting-started/emai
 9. Set up Sandbox for your staging/CI environment
 
 For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+
+</details>
 
 ## Prerequisites
 
