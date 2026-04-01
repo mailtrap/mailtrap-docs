@@ -963,7 +963,27 @@ Mailtrap sends all outgoing traffic, both SMTP email delivery and webhook callba
 
 <summary>How it works</summary>
 
+All SMTP sending exits through proxy instances with Elastic IPs from these ranges. Webhook traffic (audit logs, transactional events, test webhooks) routes through NAT gateways pinned to the same ranges.&#x20;
 
+To whitelist, add these to your firewall's inbound rules:
+
+```
+# IPv4 CIDR blocks - covers both sending and webhooks
+45.158.83.0/24
+5.181.200.0/24
+
+# Or, for webhooks only (specific IPs)
+45.158.83.129
+45.158.83.130
+
+# Protocols
+TCP - SMTP (port 25/587/465) for sending
+TCP - HTTPS (port 443) for webhooks
+```
+
+{% hint style="info" %}
+For automated firewall provisioning (Terraform, CloudFlare, AWS Security Groups), use the machine-readable endpoint: https://mailtrap.io/ip-ranges.json &#x20;
+{% endhint %}
 
 </details>
 
@@ -971,7 +991,10 @@ Mailtrap sends all outgoing traffic, both SMTP email delivery and webhook callba
 
 <summary>When to use it</summary>
 
-
+* Your webhook endpoint sits behind a firewall that blocks unknown IPs.
+* Your security team requires an explicit allowlist for all inbound traffic.
+* You're automating infrastructure and need static CIDRs for IaC templates.
+* You're in a regulated industry (finance, healthcare, insurance) with strict network policies.&#x20;
 
 </details>
 
@@ -979,6 +1002,7 @@ Mailtrap sends all outgoing traffic, both SMTP email delivery and webhook callba
 
 <summary>Limitations</summary>
 
-
+* IPv6 ranges are AWS-provided, not Mailtrap-owned—available on request.&#x20;
+* Specific sending IPs may change; whitelist the full /24 range rather than individual addresses.&#x20;
 
 </details>
