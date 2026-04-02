@@ -148,7 +148,21 @@ For security reasons, we can't migrate payment credentials and billing plans bet
 
 ### Can I cancel my subscription at any time?
 
-Yes. When you cancel the subscription, it will be terminated at the end of the current billing cycle. If you encounter any issues while downgrading, please contact support.
+Yes. When you cancel the subscription, it will be terminated at the end of the current billing cycle.
+
+If something doesn’t look right with your plan status or billing after making changes, feel free to contact our support team and we’ll be happy to help.
+
+You can get in touch with the Mailtrap Support team using one of the following ways:
+
+* **From your Mailtrap account**
+
+1. Log in to your account [here](https://mailtrap.io/signin).
+2. Go to the [**Help Center**](https://mailtrap.io/help-center) >  Get Help
+3. Click **Start conversation.**
+
+![](https://docs.mailtrap.io/~gitbook/image?url=https%3A%2F%2F1476453098-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FS3xyr7ba7aGO19rc8dSK%252Fuploads%252F7hftpJFYZKk1D4GQCYd8%252FScreenshot%25202026-02-19%2520at%252017.12.57.png%3Falt%3Dmedia%26token%3D90aebf2d-07b7-4c5b-aa6b-07623bc02077\&width=768\&dpr=3\&quality=100\&sign=9a8e2b31\&sv=2)
+
+* **Email us at** 📧 support@mailtrap.io
 
 ### How can I cancel my subscription?
 
