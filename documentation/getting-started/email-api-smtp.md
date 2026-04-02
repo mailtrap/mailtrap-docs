@@ -25,7 +25,7 @@ Page URL for context: `https://docs.mailtrap.io/getting-started/email-api-smtp.m
 8. Create a Mailtrap-hosted email template for your use case — generate the HTML, create it via the API, and wire up sending code that references it by UUID
 9. Set up Sandbox for your staging/CI environment
 
-For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+For complete API details: [API Reference](../../api-docs/) | [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
 
 </details>
 
@@ -610,6 +610,7 @@ Full Sandbox guide: [Getting Started with Email Sandbox](email-sandbox.md)
 
 Now that you're sending emails, explore these capabilities:
 
+* [API Reference](../../api-docs/) — Full reference for all Mailtrap API endpoints
 * [Tracking Settings](../email-api-smtp/setup/sending-domain.md#optional-tracking-settings-ffi49) — Enable open and click tracking
 * [Webhooks](../email-api-smtp/setup/sending-domain.md#optional-webhooks-4hmes) — Get real-time delivery event notifications
 * [Suppressions](../email-api-smtp/suppressions-list.md) — Manage bounces and unsubscribes automatically
