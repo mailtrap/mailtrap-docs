@@ -414,7 +414,7 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 {% endtab %}
 {% endtabs %}
 
-## Step 5: Use Email Templates (Recommended)
+## Step 5: Use Email Templates
 
 Use Mailtrap-hosted templates with dynamic variables. Your team can access and edit templates directly in the Mailtrap UI — no code deployments needed. Templates can also be managed via the API.
 
