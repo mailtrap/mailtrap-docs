@@ -19,10 +19,10 @@ Page URL for context: `https://docs.mailtrap.io/getting-started/email-api-smtp.m
 2. Create your API token — go to [API Tokens](https://mailtrap.io/api-tokens), create one with Admin access, and paste it to your assistant. This is the only manual step.
 3. Add your sending domain via the API and fetch the required DNS records
 4. Add DNS records at your registrar (your assistant can do this via the registrar's API if you provide credentials)
-5. Verify DNS propagation with `dig` and check domain status via the API. You can also click **Verify DNS Records** in [Sending Domains](https://mailtrap.io/sending/domains). If compliance stays at `pending`, check for a **Fill in Compliance Form** button in your domain details.
+5. Verify DNS propagation with `dig` and check domain status via the API. You can also click **Verify DNS Records** in [Sending Domains](https://mailtrap.io/sending/domains). If after your domain has been verified compliance stays at `pending`, check for a **Fill in Compliance Form** button in your domain details.
 6. ⏸️ **DNS takes time. Test with Sandbox now?** Send a test email to your Sandbox so you can see Mailtrap working while DNS propagates. No domain verification needed for Sandbox.
 7. ⏸️ **Domain verified. Switch to live sending?** Generate live sending code using your actual verified domain.
-8. Create a Mailtrap-hosted email template for your use case — generate the HTML, create it via the API, and wire up sending code that references it by UUID
+8. ⏸️ **Create a Mailtrap-hosted email template?** Generate the HTML for your use case, create it via the API, and wire up sending code that references it by UUID
 9. Set up Sandbox for your staging/CI environment
 
 For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
@@ -416,7 +416,7 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 
 ## Step 5: Use Email Templates (Recommended)
 
-Instead of hardcoding HTML in your app, use Mailtrap-hosted templates with dynamic variables. Templates live on Mailtrap's side, so you can edit content, styling, and layout without deploying code — and reuse them across services. They can be managed in the UI or via the API.
+Use Mailtrap-hosted templates with dynamic variables. Your team can access and edit templates directly in the Mailtrap UI — no code deployments needed. Templates can also be managed via the API.
 
 ### Create a template
 
