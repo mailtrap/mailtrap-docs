@@ -18,7 +18,6 @@
     * [DigitalOcean](email-api-smtp/setup/sending-domain/digitalocean.md)
     * [GoDaddy](email-api-smtp/setup/sending-domain/godaddy.md)
     * [Google Cloud DNS](email-api-smtp/setup/sending-domain/google-cloud-dns.md)
-    * [Google Domains](email-api-smtp/setup/sending-domain/google-domains.md)
     * [Namecheap](email-api-smtp/setup/sending-domain/namecheap.md)
     * [Squarespace](email-api-smtp/setup/sending-domain/squarespace.md)
   * [API Integration](email-api-smtp/api-integration.md)

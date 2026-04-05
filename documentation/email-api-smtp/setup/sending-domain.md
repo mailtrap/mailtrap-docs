@@ -9,7 +9,7 @@ icon: globe
 
 Need help adding DNS records for your specific provider? Check out our detailed step-by-step guides:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td></td></tr><tr><td>Cloudflare</td><td></td></tr><tr><td>Digital Ocean</td><td></td></tr><tr><td>GoDaddy</td><td></td></tr><tr><td>Google Cloud DNS</td><td></td></tr><tr><td>Google Domains</td><td></td></tr><tr><td>Namecheap</td><td></td></tr><tr><td>Squarespace</td><td><a href="sending-domain/squarespace.md">squarespace.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td><a href="sending-domain/squarespace.md">squarespace.md</a></td></tr></tbody></table>
 
 ### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
