@@ -201,8 +201,8 @@ Each sandbox automatically gets unique email addresses:
 
 ```
 # Example addresses for your sandbox:
-sandbox-12345@inbox.mailtrap.net
-test-project-67890@inbox.mailtrap.net
+sandbox-12345@inbox.mailtrap.io
+test-project-67890@inbox.mailtrap.io
 
 # Test inbound email processing:
 1. Send email to your sandbox address
