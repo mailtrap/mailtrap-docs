@@ -6,6 +6,29 @@ icon: key
 
 # API Tokens
 
+<details>
+
+<summary>For use with AI assistants</summary>
+
+AI-readable resources:
+
+This page as Markdown — [https://docs.mailtrap.io/email-api-smtp/setup/api-tokens.md](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens.md)
+
+API reference as Markdown — [https://docs.mailtrap.io/developers/account-management/api-tokens.md](https://docs.mailtrap.io/developers/account-management/api-tokens.md)
+
+llms.txt — [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.txt)
+
+llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+
+
+
+* The very first API token must be created manually by the user in the Mailtrap UI at [https://mailtrap.io/api-tokens](https://mailtrap.io/api-tokens) — this cannot be done via API.
+* Once a token exists, all further token management — creating, resetting, and deleting tokens — can be done programmatically via the API.
+* Before creating, ask the user for the token name and desired permissions&#x20;
+* Important: the full token value is only returned on create or reset. Store it securely — it cannot be retrieved again.
+
+</details>
+
 #### Add and manage tokens manually
 
 {% stepper %}

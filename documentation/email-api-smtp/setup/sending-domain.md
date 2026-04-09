@@ -7,6 +7,36 @@ icon: globe
 
 # Sending Domain Setup
 
+<details>
+
+<summary>For use with AI assistants</summary>
+
+AI-readable resources:
+
+This page as Markdown — [https://docs.mailtrap.io/email-api-smtp/setup/sending-domain.md](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain.md)
+
+API reference as Markdown — [https://docs.mailtrap.io/developers/email-sending/sending-domains.md](https://docs.mailtrap.io/developers/email-sending/sending-domains.md)
+
+llms.txt — [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.txt)
+
+llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+
+For setup with AI assistant follow these steps. Pause and confirm with the user before proceeding at steps marked with ⏸️.
+
+1. Add a sending domain via the Mailtrap API (POST [https://mailtrap.io/api/accounts/{account\_id}/sending\_domains](https://mailtrap.io/api/accounts/%7Baccount_id%7D/sending_domains)) with my domain name.
+2. Retrieve the DNS records from the API response — expect 4 CNAME records (domain verification, 2× DKIM, tracking) and 1 TXT record (DMARC).
+3. Add the DNS records at my domain registrar. If I give you API credentials for my registrar (Cloudflare, AWS Route 53, etc.), configure them programmatically.
+4. Check DNS propagation using dig CNAME \<record> or a DNS checker tool. DNS can take 15 minutes to 24 hours.
+5. Verify the domain via the API (GET [https://mailtrap.io/api/accounts/{account\_id}/sending\_domains/{sending\_domain\_id}](https://mailtrap.io/api/accounts/%7Baccount_id%7D/sending_domains/%7Bsending_domain_id%7D)) or tell me to click Verify DNS Records in Sending Domains ([https://mailtrap.io/sending/domains](https://mailtrap.io/sending/domains)).
+6. ⏸️ DNS takes time — test with Sandbox now? While waiting, send a test email to Mailtrap Sandbox so we validate the integration code.
+7. ⏸️ Domain verified — send a live email? Once verified, generate sending code using my domain and send a test email.
+
+My domain: \[tell the assistant your domain]
+
+My registrar: \[tell the assistant your DNS provider]
+
+</details>
+
 Need help adding DNS records for your specific provider? Check out our detailed step-by-step guides:
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="sending-domain/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="sending-domain/cloudflare.md">cloudflare.md</a></td></tr><tr><td>DigitalOcean</td><td><a href="sending-domain/digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="sending-domain/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="sending-domain/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Namecheap</td><td><a href="sending-domain/namecheap.md">namecheap.md</a></td></tr><tr><td>Squarespace</td><td><a href="sending-domain/squarespace.md">squarespace.md</a></td></tr></tbody></table>

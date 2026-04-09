@@ -7,6 +7,34 @@ description: >-
 
 # Email Templates
 
+<details>
+
+<summary>For use with AI assistants</summary>
+
+This page as Markdown — [https://docs.mailtrap.io/email-api-smtp/email-templates.md](https://docs.mailtrap.io/email-api-smtp/email-templates.md)
+
+API reference as Markdown —  [https://docs.mailtrap.io/developers/templates/templates.md](https://docs.mailtrap.io/developers/templates/templates.md)
+
+llms.txt — [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.txt)
+
+llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+
+For setup with AI assistant, here is context about Mailtrap Email Templates:
+
+Mailtrap hosts your email templates so you don't need to maintain HTML/CSS in your codebase. Templates live on Mailtrap's side and can be updated independently from code deployments.
+
+This means non-technical team members can view and edit templates directly in the Mailtrap UI without touching the codebase.
+
+Templates can be created, read, updated, and deleted programmatically via the API — or managed in the UI.
+
+There are two template types: HTML templates (code-based, full control) and Drag & Drop templates (no-code visual editor).
+
+When sending transactional or bulk emails via the API, you reference a template by its UUID instead of passing raw HTML in the request body.
+
+Templates support dynamic variables using Handlebars syntax (e.g. \{{user\_name\}}, \{{order\_id\}}). Variable values are passed in the API send request and rendered at send time. See the Handlebars guide ([https://docs.mailtrap.io/email-api-smtp/email-templates/handlebars.md](https://docs.mailtrap.io/email-api-smtp/email-templates/handlebars.md)) for full syntax reference.
+
+</details>
+
 ### Overview
 
 Email Templates allow you to design, edit, and host HTML email templates, and reference them via API.

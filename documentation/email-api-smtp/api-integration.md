@@ -8,6 +8,50 @@ icon: plug
 
 # API Integration
 
+<details>
+
+<summary>For use with AI assistants</summary>
+
+AI-readable resources:
+
+This page as Markdown — [https://docs.mailtrap.io/email-api-smtp/setup/api-integration.md](https://docs.mailtrap.io/email-api-smtp/setup/api-integration.md)
+
+API reference as Markdown — [https://docs.mailtrap.io/developers/email-sending/transactional.md](https://docs.mailtrap.io/developers/email-sending/transactional.md), [https://docs.mailtrap.io/developers/email-sending/bulk.md](https://docs.mailtrap.io/developers/email-sending/bulk.md)
+
+llms.txt — [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.txt)
+
+llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+
+SDK repos:\
+.NET — [https://github.com/mailtrap/mailtrap-dotnet](https://github.com/mailtrap/mailtrap-dotnet)\
+Elixir — [https://github.com/mailtrap/mailtrap-elixir](https://github.com/mailtrap/mailtrap-elixir)\
+Java — [https://github.com/mailtrap/mailtrap-java](https://github.com/mailtrap/mailtrap-java)\
+Node.js — [https://github.com/mailtrap/mailtrap-nodejs](https://github.com/mailtrap/mailtrap-nodejs)\
+PHP — [https://github.com/mailtrap/mailtrap-php](https://github.com/mailtrap/mailtrap-php)\
+Python — [https://github.com/mailtrap/mailtrap-python](https://github.com/mailtrap/mailtrap-python)\
+Ruby — [https://github.com/mailtrap/mailtrap-ruby](https://github.com/mailtrap/mailtrap-ruby)
+
+For setup with AI assistant follow these steps. Pause and confirm with the user before proceeding at steps marked with ⏸️.
+
+1. ⏸️ Ask the user for their tech stack (language/framework) and whether they need transactional emails, bulk emails, or both.
+2. ⏸️ Ask the user for their API token, verified sending domain, and "from" email address (must be on the verified domain, e.g. [hello@yourdomain.com](mailto:hello@yourdomain.com)). If they don't have a token or domain yet, direct them to API Tokens setup ([https://docs.mailtrap.io/email-api-smtp/setup/api-tokens.md](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens.md)) and Sending Domain setup ([https://docs.mailtrap.io/email-api-smtp/setup/sending-domain.md](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain.md)).
+3. Install the appropriate SDK if one is available for the user's stack. Refer to the matching SDK repo above for installation instructions.
+4. Generate sending code using the Transactional Stream endpoint (POST [https://send.api.mailtrap.io/api/send](https://send.api.mailtrap.io/api/send)) or Bulk Stream endpoint (POST [https://bulk.api.mailtrap.io/api/send](https://bulk.api.mailtrap.io/api/send)) depending on the user's choice in step 1.
+5. ⏸️ Send a test email to verify the integration works. Confirm the recipient address with the user before sending.
+6. Check that the email appears in the recipient's inbox and in Mailtrap Email Logs ([https://mailtrap.io/sending/email\_logs](https://mailtrap.io/sending/email_logs)).
+
+My tech stack: \[tell the assistant your language/framework]
+
+My API token: \[paste your token here — only share in a private AI assistant session]
+
+My sending domain: \[your verified domain]
+
+My "from" address: \[e.g. [hello@yourdomain.com](mailto:hello@yourdomain.com)]
+
+Transactional or bulk: \[tell the assistant which stream you need]
+
+</details>
+
 Use API credentials to integrate Mailtrap with your project.
 
 {% stepper %}

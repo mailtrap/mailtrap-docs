@@ -66,6 +66,12 @@ If you want to do a replacement with HTML, use triple brackets `{{{value_with_ht
 <p><strong>thanks!<strong></p>
 ```
 
+### **Special characters in subject lines**
+
+If your subject line variable contains special characters (e.g. &, <, >, ", '), use triple braces `{{{ }}}` instead of double braces `{{ }}` in your template subject.
+
+Double braces escape special characters into HTML entities, which works fine in the email body but shows raw entity codes in the subject line.
+
 ### Conditional Statements
 
 #### if / else / if else
