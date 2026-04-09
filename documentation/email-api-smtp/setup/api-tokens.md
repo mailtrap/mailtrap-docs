@@ -31,37 +31,29 @@ llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap
 
 #### Add and manage tokens manually
 
+{% @arcade/embed flowId="iWYZTaQURqnQsQBjRPqk" url="https://app.arcade.software/share/iWYZTaQURqnQsQBjRPqk" %}
+
 {% stepper %}
 {% step %}
 Navigate to **Settings** in the menu on the left and select **API Tokens**.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-add-token.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
-To add a new token, click the **Add Token** button in the upper right corner.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-add-token.png" alt="" width="563"></div>
+To add a new token, click the **Add Token** button in the upper-right corner.
 {% endstep %}
 
 {% step %}
 **Type the token name** into the designated field.&#x20;
 
 It’s perfectly fine to have a custom name for the API token, as it’s only for your reference, regardless of the use case.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-16 at 16.19.22.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Assign permissions** by checking the boxes in the corresponding access level columns. Note that you must have admin permissions on a particular domain to send emails with this token.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-permissions-editor.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
 Click the **Save** button and preview the new token under the **API Tokens** main menu.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-16 at 16.20.39.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
