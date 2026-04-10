@@ -9,7 +9,13 @@ icon: table-columns
 
 Custom fields allow you to store additional information about your contacts beyond their email address. Use these fields to personalize campaigns and create targeted segments.
 
-## Understanding Custom Fields
+<details>
+
+<summary>Limitations</summary>
+
+Each account can have up to 40 Fields.
+
+</details>
 
 {% hint style="info" %}
 **What are Custom Fields?** Custom fields are variables that store specific information about your contacts, such as:
@@ -87,7 +93,7 @@ Click **Create** to add the field to your account.
 {% endstep %}
 {% endstepper %}
 
-## Field Types
+## Field types
 
 Choose the appropriate field type based on your data:
 
@@ -181,10 +187,10 @@ Create conditional content based on field values:
 ````
 {% endcode %}
 
-## Best Practices
+## Best practices
 
 {% hint style="success" %}
-**Field Management Tips**
+**Field fanagement tips:**
 
 1. **Plan before creating**: Map out all fields you need before importing contacts
 2. **Use descriptive names**: Make field names clear and intuitive
@@ -193,16 +199,9 @@ Create conditional content based on field values:
 5. **Document usage**: Keep notes on what each field represents
 {% endhint %}
 
-## Common Use Cases
+## Technical limitations
 
-## Field Limits and Considerations
-
-{% hint style="info" %}
-**Technical Specifications**
-
-* Maximum fields per account: Depends on your plan
-* Field name length: Up to 50 characters
-* Merge tag length: Up to 50 characters
-* Text field value: Up to 255 characters
+* **Field name length**: Up to 50 characters
+* **Merge tag length**: Up to 50 characters
+* **Text field value**: Up to 255 characters
 * Cannot delete fields with existing data
-{% endhint %}
