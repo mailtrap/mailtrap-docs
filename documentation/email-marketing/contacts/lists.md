@@ -7,14 +7,6 @@ icon: list
 
 Lists are static groups of contacts that help you organize your audience for targeted email campaigns. Unlike segments, lists don't update automatically - contacts must be manually added or removed.
 
-<details>
-
-<summary>Limitations</summary>
-
-Each account can have up to 50 lists.
-
-</details>
-
 {% hint style="info" %}
 **Understanding Lists vs. Segments**
 
@@ -26,7 +18,7 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 
 ## Creating Lists
 
-### Quick Create
+### Quick create
 
 {% stepper %}
 {% step %}
@@ -64,7 +56,7 @@ Your list is now ready to receive contacts.
 {% endstep %}
 {% endstepper %}
 
-### List Creation During Import
+### List creation during import
 
 You can also create lists while importing contacts:
 
@@ -80,7 +72,7 @@ Access all your lists from **Contacts** → **Lists**:
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-manage.png" alt="Lists management page showing all created lists" width="563"></div>
 
-### List Actions
+### List actions
 
 {% tabs %}
 {% tab title="View Contacts" %}
@@ -124,9 +116,9 @@ Deleting a list doesn't delete the contacts, only their association with that li
 {% endtab %}
 {% endtabs %}
 
-## Adding Contacts to Lists
+## Adding contacts to lists
 
-### Methods Overview
+### Methods overview
 
 {% tabs %}
 {% tab title="During Import" %}
@@ -167,21 +159,17 @@ Programmatically add contacts:
 {% endtab %}
 {% endtabs %}
 
-## List Best Practices
+## List best practices
 
-{% hint style="success" %}
-**Effective List Management**
+* **Naming convention**: Use clear, consistent names (e.g., "2024-Q1-Newsletter")
+* **Regular maintenance**: Review and clean lists quarterly
+* **Documentation**: Note list purpose and criteria
+* **Size limits**: Keep lists under 50,000 for optimal performance
+* **Avoid duplication**: Use segments for criteria-based filtering
 
-1. **Naming Convention**: Use clear, consistent names (e.g., "2024-Q1-Newsletter")
-2. **Regular Maintenance**: Review and clean lists quarterly
-3. **Documentation**: Note list purpose and criteria
-4. **Size Limits**: Keep lists under 50,000 for optimal performance
-5. **Avoid Duplication**: Use segments for criteria-based filtering
-{% endhint %}
+## List strategies
 
-## List Strategies
-
-### Welcome Series Lists
+### Welcome series lists
 
 {% stepper %}
 {% step %}
@@ -206,7 +194,7 @@ Monitor engagement at each stage to optimize onboarding.
 {% endstep %}
 {% endstepper %}
 
-### A/B Testing Lists
+### A/B testing lists
 
 Split your audience for testing:
 
@@ -229,9 +217,9 @@ Create lists for contacts to exclude:
 * Complaint/spam reporters
 * Do not contact
 
-## List Performance Metrics
+## List performance metrics
 
-### Key Indicators
+### Key indicators
 
 {% tabs %}
 {% tab title="Growth Rate" %}
@@ -275,9 +263,9 @@ Consider merging if >70% overlap
 {% endtab %}
 {% endtabs %}
 
-## Advanced List Management
+## Advanced list management
 
-### Dynamic List Updates
+### Dynamic list updates
 
 Use webhooks to automatically update lists:
 
@@ -295,7 +283,7 @@ Use webhooks to automatically update lists:
 ```
 {% endcode %}
 
-### List Segmentation
+### List segmentation
 
 Combine lists with segments for powerful targeting:
 
@@ -308,14 +296,10 @@ List: "Premium Customers"
 ```
 {% endcode %}
 
-## List Limits and Quotas
+## Technical specifications
 
-{% hint style="info" %}
-**Technical Specifications**
-
-* **Lists per account**: Unlimited
+* **Lists per account**: Up to 50 lists per account
 * **Contacts per list**: No hard limit (recommend <50,000)
 * **List name length**: 100 characters
 * **Bulk operations**: 1,000 contacts at once
 * **API rate limits**: 100 requests/minute
-{% endhint %}
