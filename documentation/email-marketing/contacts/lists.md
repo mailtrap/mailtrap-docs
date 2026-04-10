@@ -7,10 +7,16 @@ icon: list
 
 Lists are static groups of contacts that help you organize your audience for targeted email campaigns. Unlike segments, lists don't update automatically - contacts must be manually added or removed.
 
-## Understanding Lists
+<details>
+
+<summary>Limitations</summary>
+
+Each account can have up to 50 lists.
+
+</details>
 
 {% hint style="info" %}
-**Lists vs. Segments**
+**Understanding Lists vs. Segments**
 
 * **Lists**: Static groups that you manually manage
 * **Segments**: Dynamic groups that update automatically based on criteria
