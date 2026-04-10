@@ -49,14 +49,6 @@ You can put \{{user\_name\}} into your template and pass "John" as the "user\_na
 
 For a complete guide on using Handlebars with email templates, see [Handlebars Guide](handlebars.md).
 
-<details>
-
-<summary>Limitations</summary>
-
-Each account can have up to 200 email templates.
-
-</details>
-
 ### Creating a template
 
 {% stepper %}
@@ -94,6 +86,14 @@ The main **Templates** menu features all your saved templates. To quickly access
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (19).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
+
+<details>
+
+<summary>Limitations</summary>
+
+Each account can have up to 200 email templates.
+
+</details>
 
 ### Managing templates
 
