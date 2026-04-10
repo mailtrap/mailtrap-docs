@@ -11,6 +11,14 @@ The Automations feature allows you to create automated email sequences to engage
 
 Set up triggers, actions, and rules to automate your email sending.
 
+<details>
+
+<summary>Limitations</summary>
+
+Each account can have up to 20 Automations.
+
+</details>
+
 ## Use cases
 
 Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/make), [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/zapier), or [N8N](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/n8n).
