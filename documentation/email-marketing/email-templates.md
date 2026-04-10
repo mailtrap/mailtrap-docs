@@ -15,6 +15,14 @@ Email Templates support Variables, and Mailtrap uses Handlebars as a template en
 
 You can put `{{name}}` into your template and, as your contact has a field named "name" with the value "John", the template will display "John". In our visual builder, you'll see a list of your contact fields.
 
+<details>
+
+<summary>Limitations</summary>
+
+Each account can have up to 200 email templates.
+
+</details>
+
 ## Creating a template
 
 {% stepper %}
