@@ -7,10 +7,10 @@ icon: filter
 
 Segments are dynamic groups of contacts that automatically update based on criteria you define. Unlike static lists, segments continuously evaluate your contacts and adjust membership as contact properties change.
 
-## Understanding Segments
+**P.S.** There is no limit to how many Segments each Mailtrap account can have.
 
 {% hint style="info" %}
-**Dynamic vs. Static Groups**
+**Understanding Segments vs. Lists**
 
 * **Segments**: Automatically update based on rules and conditions
 * **Lists**: Manually managed, static groups
@@ -18,7 +18,7 @@ Segments are dynamic groups of contacts that automatically update based on crite
 Example: A segment for "Active Users" automatically adds contacts who opened emails in the last 30 days and removes those who haven't.
 {% endhint %}
 
-## Why Use Segments?
+## Why use Segments?
 
 {% tabs %}
 {% tab title="Automation" %}
