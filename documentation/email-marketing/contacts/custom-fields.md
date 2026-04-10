@@ -9,14 +9,6 @@ icon: table-columns
 
 Custom fields allow you to store additional information about your contacts beyond their email address. Use these fields to personalize campaigns and create targeted segments.
 
-<details>
-
-<summary>Limitations</summary>
-
-Each account can have up to 40 Fields.
-
-</details>
-
 {% hint style="info" %}
 **What are Custom Fields?** Custom fields are variables that store specific information about your contacts, such as:
 
@@ -205,3 +197,4 @@ Create conditional content based on field values:
 * **Merge tag length**: Up to 50 characters
 * **Text field value**: Up to 255 characters
 * Cannot delete fields with existing data
+* Each account can have up to 40 Fields.
