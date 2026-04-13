@@ -29,7 +29,7 @@ Browse all integration guides in the navigation menu for additional platforms in
 
 Guides for integrating Mailtrap with AI-powered development tools and platforms:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Cursor</td><td><a href="ai-powered-integrations/cursor.md">cursor.md</a></td></tr><tr><td>V0</td><td><a href="ai-powered-integrations/v0.md">v0.md</a></td></tr><tr><td>Bolt.new</td><td><a href="ai-powered-integrations/bolt-new.md">bolt-new.md</a></td></tr><tr><td>Lovable</td><td><a href="ai-powered-integrations/lovable.md">lovable.md</a></td></tr><tr><td>Vercel</td><td><a href="ai-powered-integrations/vercel.md">vercel.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Cursor</td><td><a href="ai-powered-integrations/cursor.md">cursor.md</a></td></tr><tr><td>V0</td><td><a href="ai-powered-integrations/v0.md">v0.md</a></td></tr><tr><td>Bolt.new</td><td><a href="ai-powered-integrations/bolt-new.md">bolt-new.md</a></td></tr><tr><td>Lovable</td><td><a href="ai-powered-integrations/lovable.md">lovable.md</a></td></tr><tr><td>Vercel</td><td><a href="integrations/vercel.md">vercel.md</a></td></tr></tbody></table>
 
 Browse all AI integration guides in the navigation menu for additional tools including VS Code, Windsurf, and more.
 

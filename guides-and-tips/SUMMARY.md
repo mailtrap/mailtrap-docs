@@ -42,6 +42,7 @@
   * [Supabase Transactional Emails Integration](integrations/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](integrations/supabase/contacts-management.md)
 * [Wget](integrations/wget.md)
+* [Vercel](integrations/vercel.md)
 * [Zapier](integrations/zapier.md)
 
 ## AI-Powered Integrations
@@ -51,10 +52,8 @@
 * [Augment Code](ai-powered-integrations/augment-code.md)
 * [Base44](ai-powered-integrations/base44.md)
 * [Bolt.new](ai-powered-integrations/bolt-new.md)
-* [ChatGPT](ai-powered-integrations/chatgpt.md)
 * [Claude](ai-powered-integrations/claude.md)
 * [Cursor](ai-powered-integrations/cursor.md)
-* [Gemini](ai-powered-integrations/gemini.md)
 * [GitHub Copilot](ai-powered-integrations/github-copilot.md)
 * [Leap.new](ai-powered-integrations/leap-new.md)
 * [Lovable](ai-powered-integrations/lovable.md)
@@ -64,6 +63,5 @@
 * [Replit](ai-powered-integrations/replit.md)
 * [Reflex Build](ai-powered-integrations/reflex-build.md)
 * [V0](ai-powered-integrations/v0.md)
-* [Vercel](ai-powered-integrations/vercel.md)
 * [Visual Studio Code (VS Code)](ai-powered-integrations/vs-code.md)
 * [Windsurf](ai-powered-integrations/windsurf.md)
