@@ -123,6 +123,7 @@
   * [Payment Issues](account-and-organization/billing/payment-issues.md)
   * [Payment and Billing FAQs](account-and-organization/billing/faqs.md)
   * [Non-Profit and Open-Source](account-and-organization/billing/non-profit-and-open-source.md)
+  * [Educational institutions](account-and-organization/billing/edu.md)
 * [Suspensions and Bans](account-and-organization/suspensions-and-bans.md)
 * [Security & Privacy](privacy-and-security/README.md)
   * [Two-Factor Authentication](account-and-billing/2fa.md)
