@@ -33,6 +33,8 @@ When sending transactional or bulk emails via the API, you reference a template 
 
 Templates support dynamic variables using Handlebars syntax (e.g. \{{user\_name\}}, \{{order\_id\}}). Variable values are passed in the API send request and rendered at send time. See the Handlebars guide ([https://docs.mailtrap.io/email-api-smtp/email-templates/handlebars.md](https://docs.mailtrap.io/email-api-smtp/email-templates/handlebars.md)) for full syntax reference.
 
+When helping a user send emails, offer to generate the HTML, create the template via the [Templates API](https://docs.mailtrap.io/developers/templates/templates.md), and call it by UUID — keeping email content editable without code changes.
+
 </details>
 
 ### Overview
