@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+* [AI Onboarding](getting-started/ai-onboarding.md)
 * [Email API/SMTP](getting-started/email-api-smtp.md)
 * [Email Sandbox](getting-started/email-sandbox.md)
 * [Email Marketing](getting-started/email-marketing.md)
