@@ -2,7 +2,6 @@
 description: >-
   Explore Mailtrap benefits for educational and non-profit institutions,
   including free plans, 50% discounts, and eligibility requirements.
-hidden: true
 icon: graduation-cap
 layout:
   width: default
@@ -38,5 +37,7 @@ To activate a non-profit plan, please email us at **support@mailtrap.io** with t
 We look forward to helping your organization thrive.
 
 {% hint style="info" %}
-Discounts are available to organizations and institutions only and do not apply to individual users
+Discounts are available to organizations and institutions only and do not apply to individual users.
+
+If you are using Mailtrap as part of a course, training program, or for individual learning (e.g., coursework or practice), you can use our Free plan, which is designed to support such use cases.
 {% endhint %}
