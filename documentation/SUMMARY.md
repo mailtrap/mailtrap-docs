@@ -50,6 +50,7 @@
   * [Auto BCC](email-api-smtp/advanced/auto-bcc.md)
   * [Webhooks](email-api-smtp/webhooks.md)
   * [Static IPs for sending & webhooks](email-api-smtp/advanced/static-ips-for-sending-and-webhooks.md)
+  * [Mailtrap CLI app](email-api-smtp/advanced/mailtrap-cli-app.md)
 * [Help & Support](email-api-smtp/help/README.md)
   * [Sending Glossary](email-api-smtp/help/glossary.md)
   * [FAQs](email-api-smtp/faqs.md)
