@@ -44,6 +44,6 @@ Alternatively, under Code Samples, choose the desired language and copy the samp
 {% step %}
 Paste the code into your project and customize it if needed. Then, run the code to send an email to the email address you indicated in your script.
 
-For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api) and go to Email Sending API → Emails → Send email (including template) for transactional stream and Bulk Sending API → Emails → Send email (including template) for bulk stream. Under Body, click the dropdown menu, and choose `EmailFromTemplate`.
+For more details, [open the API docs](https://docs.mailtrap.io/developers) and go to Email Sending API → Emails → Send email (including template) for transactional stream and Bulk Sending API → Emails → Send email (including template) for bulk stream. Under Body, click the dropdown menu, and choose `EmailFromTemplate`.
 {% endstep %}
 {% endstepper %}

@@ -34,7 +34,7 @@ Email categories examples:
 
 You specify categories when creating an email to be sent with Mailtrap, by inserting a category name into the `X-MT-Category` header if you are using SMTP.
 
-If you are using the API, refer to our [Api Docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/67f1d70aeb62c-send-email-including-templates).
+If you are using the API, refer to our [Api Docs](https://docs.mailtrap.io/developers/email-sending/transactional).
 
 At this point, categories can only be specified when sending an email. Once you add one to an email and a message is sent, the category will appear in Mailtrap Email Logs’ filters as well as in statistics.
 

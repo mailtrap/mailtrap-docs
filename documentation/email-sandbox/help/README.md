@@ -78,7 +78,7 @@ Solution:
 1. **Search documentation**: Use the search bar above
 2. **Check FAQs**: [Frequently Asked Questions](../faqs.md)
 3. **Review troubleshooting**: [Common issues](../troubleshooting.md)
-4. **API reference**: [API Documentation](https://api-docs.mailtrap.io/)
+4. **API reference**: [API Documentation](https://docs.mailtrap.io/developers)
 
 ### <i class="fa-comments-question-check">:comments-question-check:</i>Contact Support
 

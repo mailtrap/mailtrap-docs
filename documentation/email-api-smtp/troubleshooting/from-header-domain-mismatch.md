@@ -33,7 +33,7 @@ Your domain hasn't been added or verified in Mailtrap yet.
 
 **Solution:**
 
-1. Go to [Sending Domains](https://mailtrap.io/sending/domains)
+1. Go to [Sending Domains](https://mailtrap.io/domains)
 2. Add your domain
 3. Complete the DNS verification process
 
@@ -57,7 +57,7 @@ If you verified `example.com` but are trying to send from `mail.example.com`, yo
 
 First, check if your domain has been added to your Mailtrap account.
 
-1. Go to [Sending Domains](https://mailtrap.io/sending/domains)
+1. Go to [Sending Domains](https://mailtrap.io/domains)
 2. Look for your domain in the list
 3. Ensure it has the **Verified** badge
 

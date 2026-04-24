@@ -31,7 +31,7 @@ Find answers to common questions and troubleshoot issues with Mailtrap's Email A
 1. Check the [FAQs](../faqs.md) for quick answers
 2. Review the [Troubleshooting Guide](../troubleshooting/)
 3. Search our documentation using the search bar
-4. Check our [API Reference](https://api-docs.mailtrap.io/)
+4. Check our [API Reference](https://docs.mailtrap.io/developers)
 
 ### <i class="fa-comments-question-check">:comments-question-check:</i>Contact Support
 
@@ -131,4 +131,4 @@ For open-source projects, SDKs, or public repositories, join us on [GitHub](http
 1. Review the [API integration guide](../api-integration.md)
 2. Check the [SMTP integration guide](../smtp-integration.md)
 3. Test with [Email Sandbox](../../email-sandbox/overview.md) first
-4. Use our [API reference](https://api-docs.mailtrap.io/) for detailed endpoints
+4. Use our [API reference](https://docs.mailtrap.io/developers) for detailed endpoints

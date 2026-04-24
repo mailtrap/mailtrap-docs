@@ -24,7 +24,7 @@ Setting up Mailtrap should be the easiest part of your email journey. With clear
 
 No guesswork, no complexity — just your first successful email, fast.
 
-[Get started](getting-started/email-api-smtp.md) [API reference](https://api-docs.mailtrap.io/)
+[Get started](getting-started/email-api-smtp.md) [API reference](https://docs.mailtrap.io/developers)
 {% endcolumn %}
 
 {% column %}

@@ -30,11 +30,11 @@ Email Sandbox is for testing and debugging only — it is a fake SMTP server tha
 
 For live email sending to real recipients, refer to the Email API/SMTP setup guide ([https://docs.mailtrap.io/getting-started/email-api-smtp.md](https://docs.mailtrap.io/getting-started/email-api-smtp.md)).
 
-SMTP credentials for Sandbox can be found in the Mailtrap UI or programatically. Go to Sandboxes ([https://mailtrap.io/inboxes](https://mailtrap.io/inboxes)), select your sandbox, then open the Integration tab. Each sandbox has its own unique SMTP username and password. The host is sandbox.smtp.mailtrap.io, port 25, 465, 587 or 2525. API endpoint that returns SMTP credentials: [https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md)
+SMTP credentials for Sandbox can be found in the Mailtrap UI or programatically. Go to Sandboxes ([https://mailtrap.io/sandboxes](https://mailtrap.io/sandboxes)), select your sandbox, then open the Integration tab. Each sandbox has its own unique SMTP username and password. The host is sandbox.smtp.mailtrap.io, port 25, 465, 587 or 2525. API endpoint that returns SMTP credentials: [https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md)
 
 When you're ready to move from Sandbox to live sending, the switch depends on your integration method:
 
-— If using SMTP directly: replace the Sandbox SMTP credentials with live sending SMTP credentials, found in Sending Domains ([https://mailtrap.io/sending/domains](https://mailtrap.io/sending/domains)) → select your domain → Integration tab → SMTP.
+— If using SMTP directly: replace the Sandbox SMTP credentials with live sending SMTP credentials, found in Sending Domains ([https://mailtrap.io/domains](https://mailtrap.io/domains)) → select your domain → Integration tab → SMTP.
 
 — If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and an inbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the inbox ID.
 

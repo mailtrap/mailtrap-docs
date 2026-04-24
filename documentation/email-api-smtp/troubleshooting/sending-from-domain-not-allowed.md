@@ -37,7 +37,7 @@ Your domain might not be fully verified, or you haven't passed the Compliance Ch
 {% step %}
 **Check Your Verified Domains**
 
-Go to [Sending Domains](https://mailtrap.io/sending/domains) in your Mailtrap account.
+Go to [Sending Domains](https://mailtrap.io/domains) in your Mailtrap account.
 {% endstep %}
 
 {% step %}

@@ -5,7 +5,7 @@ icon: key
 
 # API Tokens
 
-The guidelines assume that you've set up Email Sandbox and use the corresponding [APIv2](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-sandbox-api).
+The guidelines assume that you've set up Email Sandbox and use the corresponding [API v2](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes).
 
 #### Add and manage tokens manually
 

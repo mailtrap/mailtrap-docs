@@ -23,7 +23,7 @@ If you verified `example.com`, you can only send from `*@example.com` addresses.
 
 If you've configured a custom API token for your domain, make sure it has proper permissions to send emails.
 
-Check your [API tokens](https://mailtrap.io/api-tokens) and verify the token has:
+Check your [API tokens](https://mailtrap.io/settings/api-tokens) and verify the token has:
 
 * Email sending permissions
 * Access to the correct domain
@@ -41,7 +41,7 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 {% step %}
 **Verify Your Domain**
 
-1. Go to [Sending Domains](https://mailtrap.io/sending/domains)
+1. Go to [Sending Domains](https://mailtrap.io/domains)
 2. Ensure your domain shows the **Verified** badge
 3. If not verified, complete the DNS record setup
 {% endstep %}
@@ -49,7 +49,7 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 {% step %}
 **Check API Token (if using custom tokens)**
 
-1. Go to [API Tokens](https://mailtrap.io/api-tokens)
+1. Go to [API Tokens](https://mailtrap.io/settings/api-tokens)
 2. Verify the token has **Send Email** permissions
 3. Ensure it's assigned to the correct domain
 4. Check that the token hasn't expired

@@ -26,7 +26,7 @@ Learn how to inspect and debug emails with sandbox functionality.
 {% step %}
 **Navigate to Email Sandbox**
 
-Go to [your first Sandbox](https://mailtrap.io/inboxes) by clicking **Sandboxes**, then My **Sandbox**.
+Go to [your first Sandbox](https://mailtrap.io/sandboxes) by clicking **Sandboxes**, then My **Sandbox**.
 
 {% hint style="info" %}
 By default, we created a sandbox for you and called it "My Sandbox". The Edit button on the far right allows you to rename either a project or a sandbox.
@@ -44,13 +44,13 @@ After sending the first test email, you can immediately find it in your Mailtrap
 
 Click on the email, and proceed to inspect and debug it by selecting the HTML Check tab.
 
-Lastly, you can automate the QA flow with [API](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) if you need it.
+Lastly, you can automate the QA flow with [API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails) if you need it.
 {% endstep %}
 
 {% step %}
 **Bonus: Invite your colleagues**
 
-Mailtrap is a collaborative tool. Starting from the [Team Plan](https://mailtrap.io/billing/plans/testing), you can create different sandboxes and projects and share them with your colleagues.
+Mailtrap is a collaborative tool. Starting from the [Team Plan](https://mailtrap.io/settings/billing/plans/sandboxes), you can create different sandboxes and projects and share them with your colleagues.
 
 This allows you to organize all testing-related workflows among different people, from user management with different permissions to SSO.
 {% endstep %}

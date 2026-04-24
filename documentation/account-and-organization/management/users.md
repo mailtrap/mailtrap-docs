@@ -34,7 +34,7 @@ icon: users-rectangle
 * **Sandbox Viewer** Can see all the sandbox messages but can't edit anything (e.g., [sandbox email address](../../email-sandbox/email-address-per-sandbox.md) or [forwarding domains](../../email-sandbox/automatic-email-forwarding.md)). They also can't add or remove sandbox teammates, sandboxes, or projects.
 * **Billing Admin** permission allows users to manage the Billing settings, add or remove credit cards, upgrade and downgrade the account, and cancel the subscription.
 * **Billing Viewer** can only see the credit card on file and details of the current subscription. They can also opt out of receiving invoices to their email address.
-  * **Note**: If the Organization & Sub-Accounts feature is enabled, the Billing roles will be visible on a [user management page](https://mailtrap.io/user-management).
+  * **Note**: If the Organization & Sub-Accounts feature is enabled, the Billing roles will be visible on a [user management page](https://mailtrap.io/settings/user-management).
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -42,6 +42,6 @@ When you remove a user on the User Management page, they immediately lose access
 
 If you remove a person from a Sandbox or a Project, they remain in your account but lose access to a sandbox or a project in question.
 
-A person can stay in your account without any permissions at all. This can happen if you remove them from all projects/sandboxes but not from the list on the User Management page. If you no longer work with a teammate, the best way to remove them is to use the User Management page. Otherwise, users with zero access who are still present on your account will be counted towards your [account limits](https://mailtrap.io/billing/dashboard).
+A person can stay in your account without any permissions at all. This can happen if you remove them from all projects/sandboxes but not from the list on the User Management page. If you no longer work with a teammate, the best way to remove them is to use the User Management page. Otherwise, users with zero access who are still present on your account will be counted towards your [account limits](https://mailtrap.io/settings/billing/dashboard).
 
 To check your own permissions, find your user on the list and click “edit permissions” in the three dots menu. You’ll see which entities are available to you. You cannot change your own permissions.

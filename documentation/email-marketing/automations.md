@@ -110,7 +110,7 @@ To control the flow and timing of your automations, you can use:
 Event in the trigger settings should be equal to the event you pass via API.
 {% endhint %}
 
-Here is [description of the endpoint](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/6b1b5749b0eec-create-contact-event).
+Here is [description of the endpoint](https://docs.mailtrap.io/developers/promotional/contacts/contact-events).
 
 {% code title="API Event Example" %}
 ```bash
@@ -131,7 +131,7 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 
 Each Mailtrap Email API/SMTP plan comes with different automation limits. To see the usage:
 
-* Navigate to the [Billing Dashboard](https://mailtrap.io/billing/dashboard).
+* Navigate to the [Billing Dashboard](https://mailtrap.io/settings/billing/dashboard).
 * Click on 'View all features' under Email API/SMTP.
 * Look for 'Automations run count'.
 
@@ -144,7 +144,7 @@ Each Mailtrap Email API/SMTP plan comes with different automation limits. To see
 
 ## Creating your first automation
 
-To get started, navigate to the tab in your Mailtrap account or go to [https://mailtrap.io/automations](https://mailtrap.io/automations).
+To get started, navigate to the tab in your Mailtrap account or go to [https://mailtrap.io/marketing/automations](https://mailtrap.io/marketing/automations).
 
 {% stepper %}
 {% step %}

@@ -38,7 +38,7 @@ For setup with AI assistant follow these steps. Pause and confirm with the user 
 3. Install the appropriate SDK if one is available for the user's stack. Refer to the matching SDK repo above for installation instructions.
 4. Generate sending code using the Transactional Stream endpoint (POST [https://send.api.mailtrap.io/api/send](https://send.api.mailtrap.io/api/send)) or Bulk Stream endpoint (POST [https://bulk.api.mailtrap.io/api/send](https://bulk.api.mailtrap.io/api/send)) depending on the user's choice in step 1.
 5. ⏸️ Send a test email to verify the integration works. Confirm the recipient address with the user before sending.
-6. Check that the email appears in the recipient's inbox and in Mailtrap Email Logs ([https://mailtrap.io/sending/email\_logs](https://mailtrap.io/sending/email_logs)).
+6. Check that the email appears in the recipient's inbox and in Mailtrap Email Logs ([https://mailtrap.io/api-smtp/email-logs](https://mailtrap.io/api-smtp/email-logs)).
 
 My tech stack: \[tell the assistant your language/framework]
 
@@ -85,7 +85,7 @@ Build the authenticated HTTP request in your programming language or framework a
 Alternatively, choose the programming language or framework from the menu under **Code Samples** and copy the sample configuration already containing your credentials. In this menu, you'll find official SDKs for [PHP](https://github.com/railsware/mailtrap-php), [Python](https://github.com/railsware/mailtrap-python), [Ruby](https://github.com/railsware/mailtrap-ruby), and [Node.js](https://github.com/railsware/mailtrap-nodejs).
 
 {% hint style="info" %}
-Note: For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/67f1d70aeb62c-send-email-including-templates).
+Note: For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
 {% endhint %}
 {% endstep %}
 
@@ -105,7 +105,7 @@ You can also create additional API tokens by going to **Settings** → **API Tok
 Mailtrap Email Sending API supports:
 
 * attachments
-* [email templates](email-sandbox/email-marketing/email-templates.md)
+* [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates)
 * [custom variables](custom-variables.md)
 * [email categories](analytics/categories.md)
 

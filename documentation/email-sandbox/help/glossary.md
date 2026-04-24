@@ -6,7 +6,7 @@ icon: book-open
 
 # Sandbox Glossary
 
-**Sandbox API** — Compatible with most programming languages, uses the REST protocol, and returns calls in JSON format. Here's the [link](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) to the API documentation. With API, you can take actions related to an sandbox, a project, email forwarding, email content, message headers, and more.
+**Sandbox API** — Compatible with most programming languages, uses the REST protocol, and returns calls in JSON format. Here's the [link](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes) to the API documentation. With API, you can take actions related to an sandbox, a project, email forwarding, email content, message headers, and more.
 
 **CORS Domains** — CORS is Cross-Origin Resource Sharing. It's a mechanism that allows restricted resources to be requested from another domain outside the domain from which the first resource was served. You can specify a list of domains that will have access to API.
 

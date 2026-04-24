@@ -22,7 +22,7 @@ llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap
 
 
 
-* The very first API token must be created manually by the user in the Mailtrap UI at [https://mailtrap.io/api-tokens](https://mailtrap.io/api-tokens) — this cannot be done via API.
+* The very first API token must be created manually by the user in the Mailtrap UI at [https://mailtrap.io/settings/api-tokens](https://mailtrap.io/settings/api-tokens) — this cannot be done via API.
 * Once a token exists, all further token management — creating, resetting, and deleting tokens — can be done programmatically via the API.
 * Before creating, ask the user for the token name and desired permissions&#x20;
 * Important: the full token value is only returned on create or reset. Store it securely — it cannot be retrieved again.

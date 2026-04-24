@@ -51,4 +51,4 @@ To learn more about managing your tokens, please [check this guide](../email-api
 * Send a HTTP header `Api-Token: {api_token}` , where `{api_token}` is your API token.
 * Send a HTTP header `Authorization: Bearer #{token}` , where `{api_token}` is your API token (more info: Token Access Authentication).
 
-Go to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api), check samples, and experiment in the console.
+Go to the [API documentation](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails), check samples, and experiment in the console.

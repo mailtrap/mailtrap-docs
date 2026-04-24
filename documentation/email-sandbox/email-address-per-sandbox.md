@@ -8,7 +8,7 @@ icon: at
 
 # Email Address per Sandbox
 
-This feature offers an email address for testing, which you can customize. It supports dynamic aliases and provides you with an unlimited number of virtual email addresses. As soon as it is linked to your [sandbox](https://mailtrap.io/inboxes/), you can manage, view, and share your test results via the Mailtrap UI.
+This feature offers an email address for testing, which you can customize. It supports dynamic aliases and provides you with an unlimited number of virtual email addresses. As soon as it is linked to your [sandbox](https://mailtrap.io/sandboxes), you can manage, view, and share your test results via the Mailtrap UI.
 
 Starting from the [Basic](https://mailtrap.io/pricing/) billing plan, each of your sandboxes includes a dedicated email address you can use to send messages. You will find it in the **Email Address** tab. You can use your current email setup without needing to integrate Mailtrap as a fake server and run safe experiments.
 

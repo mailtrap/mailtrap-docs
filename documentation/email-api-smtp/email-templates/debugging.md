@@ -64,6 +64,6 @@ The Tech Info tab contains the link to the template you tested and lists all the
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-tech-info-variables.png" alt="Tech Info tab showing template link and variables used in the email" width="563"><figcaption><p>Tech Info tab with template details</p></figcaption></figure></div>
 
-For more details, [open the API docs](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api) and go to [Sandbox API](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/a2041e813d169-email-testing-api) → Test Emails → Send email (including templates). Under Body, click the dropdown menu, and choose `EmailFromTemplate`.
+For more details, [open the API docs](https://docs.mailtrap.io/developers) and go to [Sandbox API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails) → Test Emails → Send email (including templates). Under Body, click the dropdown menu, and choose `EmailFromTemplate`.
 {% endstep %}
 {% endstepper %}

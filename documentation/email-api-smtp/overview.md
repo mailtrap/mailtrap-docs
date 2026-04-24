@@ -192,7 +192,7 @@ Mailtrap separates email traffic for optimal deliverability:
 
 Need help getting started or have questions?
 
-<a href="https://api-docs.mailtrap.io/" class="button primary" data-icon="books">API Reference</a> <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
+<a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
 ## Next Steps
 

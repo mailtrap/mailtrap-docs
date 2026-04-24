@@ -27,7 +27,7 @@ For setup with AI assistant follow these steps. Pause and confirm with the user 
 2. Retrieve the DNS records from the API response — expect 4 CNAME records (domain verification, 2× DKIM, tracking) and 1 TXT record (DMARC).
 3. Add the DNS records at my domain registrar. If I give you API credentials for my registrar (Cloudflare, AWS Route 53, etc.), configure them programmatically.
 4. Check DNS propagation using dig CNAME \<record> or a DNS checker tool. DNS can take 15 minutes to 24 hours.
-5. Verify the domain via the API (GET [https://mailtrap.io/api/accounts/{account\_id}/sending\_domains/{sending\_domain\_id}](https://mailtrap.io/api/accounts/%7Baccount_id%7D/sending_domains/%7Bsending_domain_id%7D)) or tell me to click Verify DNS Records in Sending Domains ([https://mailtrap.io/sending/domains](https://mailtrap.io/sending/domains)).
+5. Verify the domain via the API (GET [https://mailtrap.io/api/accounts/{account\_id}/sending\_domains/{sending\_domain\_id}](https://mailtrap.io/api/accounts/%7Baccount_id%7D/sending_domains/%7Bsending_domain_id%7D)) or tell me to click Verify DNS Records in Sending Domains ([https://mailtrap.io/domains](https://mailtrap.io/domains)).
 6. ⏸️ DNS takes time — test with Sandbox now? While waiting, send a test email to Mailtrap Sandbox so we validate the integration code.
 7. ⏸️ Domain verified — send a live email? Once verified, generate sending code using my domain and send a test email.
 
@@ -299,7 +299,7 @@ With tracking enabled, you will find the open and click rates in the Analytics r
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-record-type-dropdown.png" alt="" width="563"></div>
 
-2. Toggle the switch next to Track Opened Emails to enable or disable tracking opens. Mailtrap tracks email opens via an invisible pixel. It’s added to each message sent from your account. When an email is opened, a pixel is loaded, and an ‘open’ event is recorded. Each of these events will be visible in [Email Logs](../../statistics/email-logs.md).
+2. Toggle the switch next to Track Opened Emails to enable or disable tracking opens. Mailtrap tracks email opens via an invisible pixel. It’s added to each message sent from your account. When an email is opened, a pixel is loaded, and an ‘open’ event is recorded. Each of these events will be visible in [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
 {% hint style="info" %}
 Some mailbox providers, browsers, and extensions block invisible pixels. Users can also choose not to display images, or a solution they use to retrieve emails may not support images by default. In each of these cases, an 'open' event won't be recorded even if an email is opened.
