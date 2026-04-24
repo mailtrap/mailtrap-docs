@@ -36,35 +36,27 @@ You can't save a template with errors, either. Remember that we don't validate H
 
 ### **Uploading an image**
 
+{% @arcade/embed flowId="mgejv3R4azE0EEdylDVU" url="https://app.arcade.software/share/mgejv3R4azE0EEdylDVU" %}
+
 {% stepper %}
 {% step %}
 Click Upload image in the upper right corner of the Code Editor.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-upload-image-button.png" alt="Code Editor with Upload image button highlighted in upper right corner" width="375"><figcaption><p>Upload image button in Code Editor</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Hit the Upload New button in the following menu and choose an image from your local drive (Supported formats are JPG, PNG, and GIF, and the maximum file size is 2 MB).
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-images-library.png" alt="Images library page showing Upload New button highlighted in top right" width="563"><figcaption><p>Images library with Upload New button</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Once the image is uploaded, you will receive a confirmation notification. If the file format is unsupported or the image is too big, you will receive the corresponding error message.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-image-upload-success.png" alt="Success notification showing Image successfully uploaded message in green banner" width="563"><figcaption><p>Image upload success notification</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the Copy URL button to copy the image URL to your clipboard, then click Template to return to the editing menu.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-copy-url-button.png" alt="Images library showing uploaded images with Copy URL button highlighted" width="563"><figcaption><p>Copy URL button for uploaded images</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Proceed to add the image to the template body under the `<img>` tag. You can preview it in the template as soon as the asset is added.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-image-in-code.png" alt="HTML code showing image URL inserted in img src attribute with highlighted code" width="375"><figcaption><p>Image URL added to template HTML</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
