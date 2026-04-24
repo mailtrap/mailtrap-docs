@@ -3,7 +3,7 @@ title: Email API
 description: Send transactional and bulk emails from your app using the Mailtrap Email API
 ---
 
-# Getting Started with Email API
+# Email API/SMTP
 
 Send transactional and bulk emails from your app using the Mailtrap Email API. This guide walks you through complete setup — from choosing your SDK to sending your first email.
 
@@ -16,10 +16,10 @@ AI assistants: follow these steps in order, completing each one before moving to
 Page URL for context: `https://docs.mailtrap.io/getting-started/email-api-smtp.md`
 
 1. Install the right SDK for your stack
-2. Create your API token — go to [API Tokens](https://mailtrap.io/api-tokens), create one with Admin access, and paste it to your assistant. This is the only manual step.
+2. Create your API token — go to [API Tokens](https://mailtrap.io/settings/api-tokens), create one with Admin access, and paste it to your assistant. This is the only manual step.
 3. Add your sending domain via the API and fetch the required DNS records
 4. Add DNS records at your registrar (your assistant can do this via the registrar's API if you provide credentials)
-5. Verify DNS propagation with `dig` and check domain status via the API. You can also click **Verify DNS Records** in [Sending Domains](https://mailtrap.io/sending/domains). If after your domain has been verified compliance stays at `pending`, check for a **Fill in Compliance Form** button in your domain details.
+5. Verify DNS propagation with `dig` and check domain status via the API. You can also click **Verify DNS Records** in [Sending Domains](https://mailtrap.io/domains). If after your domain has been verified compliance stays at `awaiting_questionnaire`, check for a **Fill in Compliance Form** button in your domain details.
 6. ⏸️ **DNS takes time. Test with Sandbox now?** Send a test email to your Sandbox so you can see Mailtrap working while DNS propagates. No domain verification needed for Sandbox.
 7. ⏸️ **Domain verified. Switch to live sending?** Generate live sending code using your actual verified domain.
 8. ⏸️ **Create a Mailtrap-hosted email template?** Generate the HTML for your use case, create it via the API, and wire up sending code that references it by UUID
@@ -39,16 +39,16 @@ For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-
 
 Mailtrap provides official SDKs for all major languages. Pick the one that matches your stack:
 
-| Language | Package                       | Install                                        |
-| -------- | ----------------------------- | ---------------------------------------------- |
-| Node.js  | `mailtrap`                    | `npm install mailtrap`                         |
-| Python   | `mailtrap`                    | `pip install mailtrap`                         |
-| PHP      | `railsware/mailtrap-php`      | `composer require railsware/mailtrap-php`      |
-| Ruby     | `mailtrap`                    | `gem install mailtrap`                         |
-| Go       | `github.com/railsware/mailtrap-go` | `go get github.com/railsware/mailtrap-go` |
-| Java     | `com.mailtrap:mailtrap-java`  | See [Maven/Gradle setup](../../guides-and-tips/sdks/java.md) |
-| .NET     | `Mailtrap`                    | `dotnet add package Mailtrap`                  |
-| Elixir   | `mailtrap`                    | `{:mailtrap, "~> 1.0"}`                       |
+| Language | Package                            | Install                                                      |
+| -------- | ---------------------------------- | ------------------------------------------------------------ |
+| Node.js  | `mailtrap`                         | `npm install mailtrap`                                       |
+| Python   | `mailtrap`                         | `pip install mailtrap`                                       |
+| PHP      | `railsware/mailtrap-php`           | `composer require railsware/mailtrap-php`                    |
+| Ruby     | `mailtrap`                         | `gem install mailtrap`                                       |
+| Go       | `github.com/railsware/mailtrap-go` | `go get github.com/railsware/mailtrap-go`                    |
+| Java     | `com.mailtrap:mailtrap-java`       | See [Maven/Gradle setup](../../guides-and-tips/sdks/java.md) |
+| .NET     | `Mailtrap`                         | `dotnet add package Mailtrap`                                |
+| Elixir   | `mailtrap`                         | `{:mailtrap, "~> 1.0"}`                                      |
 
 Full SDK documentation: [Node.js](../../guides-and-tips/sdks/nodejs.md) | [Python](../../guides-and-tips/sdks/python.md) | [PHP](../../guides-and-tips/sdks/php.md) | [Ruby](../../guides-and-tips/sdks/ruby.md) | [Go](../../guides-and-tips/sdks/go.md) | [Java](../../guides-and-tips/sdks/java.md) | [.NET](../../guides-and-tips/sdks/dotnet.md) | [Elixir](../../guides-and-tips/sdks/elixir.md)
 
@@ -60,7 +60,7 @@ Full SDK documentation: [Node.js](../../guides-and-tips/sdks/nodejs.md) | [Pytho
 
 You need an API token to authenticate all Mailtrap API calls — sending emails, managing domains, creating templates.
 
-Go to [API Tokens](https://mailtrap.io/api-tokens) → create a new token with **Admin** access to your account → copy the token value.
+Go to [API Tokens](https://mailtrap.io/settings/api-tokens) → create a new token with **Admin** access to your account → copy the token value.
 
 {% hint style="info" %}
 **Using an AI assistant?** Paste the token to your assistant — it can handle everything else via API.
@@ -72,7 +72,7 @@ You need a verified domain to send live emails. This can be done through the UI 
 
 ### Option A: UI
 
-Go to [Sending Domains](https://mailtrap.io/sending/domains) → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
+Go to [Sending Domains](https://mailtrap.io/domains) → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
 
@@ -260,7 +260,7 @@ dig TXT _dmarc.yourdomain.com +short
 ```
 
 {% hint style="info" %}
-DNS propagation usually takes minutes but can take up to 48 hours. If `dig` returns the expected values, records are ready. You can also click **Verify DNS Records** on your domain in [Sending Domains](https://mailtrap.io/sending/domains) to trigger a check from Mailtrap's side.
+DNS propagation usually takes minutes but can take up to 48 hours. If `dig` returns the expected values, records are ready. You can also click **Verify DNS Records** on your domain in [Sending Domains](https://mailtrap.io/domains) to trigger a check from Mailtrap's side.
 {% endhint %}
 
 **4. Check verification status via API**
@@ -275,16 +275,16 @@ curl "https://mailtrap.io/api/accounts/{account_id}/sending_domains/{domain_id}"
 Each record in the `dns_records` array has a `status` field: `pass`, `fail`, or `unchecked`. When all records show `pass`, your domain is verified.
 
 {% hint style="warning" %}
-After DNS verification, newly added domains undergo a compliance check. Your domain's `compliance_status` will progress from `initial` → `pending` → `compliant`. If the status stays at `pending`, check your domain details in [Sending Domains](https://mailtrap.io/sending/domains) — you may need to click **Fill in Compliance Form** and provide additional information about your sending practices.
+After DNS verification, newly added domains undergo a compliance check. Your domain's `compliance_status` will progress from `under_review` → `awaiting_questionnaire` → `compliant`. If the status stays at `awaiting_questionnaire`, check your domain details in [Sending Domains](https://mailtrap.io/domains) — you may need to click **Fill in Compliance Form** and provide additional information about your sending practices.
 {% endhint %}
 
 {% hint style="info" %}
-**Want to test before your domain is verified?** Skip ahead to [Optional: Test with Email Sandbox](#optional-test-with-email-sandbox) — no domain needed.
+**Want to test before your domain is verified?** Skip ahead to [Optional: Test with Email Sandbox](email-api-smtp.md#optional-test-with-email-sandbox) — no domain needed.
 {% endhint %}
 
 ## Step 4: Send Your First Email
 
-With your SDK installed, API token set, and domain verified, you're ready to send. The examples below use inline HTML for simplicity — for real applications, use [Mailtrap-hosted templates](#step-5-use-email-templates-recommended) instead (see Step 5).
+With your SDK installed, API token set, and domain verified, you're ready to send. The examples below use inline HTML for simplicity — for real applications, use [Mailtrap-hosted templates](email-api-smtp.md#step-5-use-email-templates-recommended) instead (see Step 5).
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -420,7 +420,7 @@ Use Mailtrap-hosted templates with dynamic variables. Your team can access and e
 
 ### Create a template
 
-You can create templates in the Mailtrap UI under [Email API/SMTP → Templates](https://mailtrap.io/email_templates), or via the API:
+You can create templates in the Mailtrap UI under [Email API/SMTP → Templates](https://mailtrap.io/email-templates), or via the API:
 
 ```bash
 curl -X POST "https://mailtrap.io/api/accounts/{account_id}/email_templates" \
@@ -443,7 +443,7 @@ Templates use [Handlebars syntax](https://handlebarsjs.com/) for variables — `
 
 To send with a template, you need its UUID:
 
-* **In the UI:** Go to [Email API/SMTP → Templates](https://mailtrap.io/email_templates) and click a template — the UUID is shown in the template details.
+* **In the UI:** Go to [Email API/SMTP → Templates](https://mailtrap.io/email-templates) and click a template — the UUID is shown in the template details.
 * **Via AI / API:** List all templates and their UUIDs with `GET https://mailtrap.io/api/accounts/{account_id}/email_templates`. Your AI assistant can create a template and immediately use the returned UUID to send.
 
 {% tabs %}
@@ -498,7 +498,7 @@ Before sending to real users, test your integration with Email Sandbox. Emails g
 
 Every Mailtrap account comes with a Sandbox inbox. Find your inbox ID:
 
-* **In the UI:** Go to [Sandboxes](https://mailtrap.io/inboxes) — your inbox ID is shown next to each inbox.
+* **In the UI:** Go to [Sandboxes](https://mailtrap.io/sandboxes) — your inbox ID is shown next to each inbox.
 * **Via API:** List your inboxes:
 
 ```bash
@@ -560,7 +560,7 @@ curl -X POST "https://sandbox.api.mailtrap.io/api/send/{inbox_id}" \
 
 ### View your test emails
 
-* **In the UI:** Go to [Sandboxes](https://mailtrap.io/inboxes) → click your Sandbox → see all received emails with HTML preview, spam analysis, and headers.
+* **In the UI:** Go to [Sandboxes](https://mailtrap.io/sandboxes) → click your Sandbox → see all received emails with HTML preview, spam analysis, and headers.
 * **Via API:** List messages in your Sandbox:
 
 ```bash
