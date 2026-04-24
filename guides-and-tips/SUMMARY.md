@@ -66,3 +66,4 @@
 * [V0](ai-powered-integrations/v0.md)
 * [Visual Studio Code (VS Code)](ai-powered-integrations/vs-code.md)
 * [Windsurf](ai-powered-integrations/windsurf.md)
+* [Codex](ai-powered-integrations/codex.md)
