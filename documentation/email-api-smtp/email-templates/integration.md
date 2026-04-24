@@ -14,37 +14,27 @@ Once you've created and customized your email template, you can integrate it wit
 
 ### Integration steps
 
+{% @arcade/embed flowId="o6ZYucIUk0B04K4hWaQy" url="https://app.arcade.software/share/o6ZYucIUk0B04K4hWaQy" %}
+
 {% stepper %}
 {% step %}
 Navigate to Templates in the menu on the left.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-menu-nav.png" alt="Mailtrap sidebar menu with Templates menu item highlighted by red arrow" width="375"><figcaption><p>Templates in navigation menu</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the template you want to call using the API.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-list-view.png" alt="Templates list showing Newsletter template highlighted by red arrow" width="563"><figcaption><p>Select template from list</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Open the Integration tab.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-integration-tab.png" alt="Template page showing Details and Integration tabs with Integration tab highlighted by red arrow" width="563"><figcaption><p>Open Integration tab</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 With Email API/SMTP toggled on, click Integrate under Transactional Stream or Bulk Stream.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-stream-options.png" alt="Integration page showing Transactional Stream and Bulk Stream options with Integrate buttons highlighted by red arrows" width="375"><figcaption><p>Choose stream type and click Integrate</p></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-Copy the necessary credentials such as Host, API Token, and Template UUID.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/api-integration-credentials-transactional.png" alt="Transactional Stream API credentials box showing Host, API Token, and Template UUID" width="375"><figcaption><p>Transactional Stream API credentials</p></figcaption></figure></div>
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/api-integration-credentials-bulk.png" alt="Bulk Stream API credentials box showing Host, API Token, and Template UUID" width="375"><figcaption><p>Bulk Stream API credentials</p></figcaption></figure></div>
+Copy the necessary credentials, such as Host, API Token, and Template UUID.
 {% endstep %}
 
 {% step %}
