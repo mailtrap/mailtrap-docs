@@ -12,19 +12,17 @@ Learn how to integrate your application via SMTP.
 
 ### Locating your Mailtrap credentials
 
+{% @arcade/embed flowId="Hson2pnGZl4GDpuz7HPz" url="https://app.arcade.software/share/Hson2pnGZl4GDpuz7HPz" %}
+
 {% stepper %}
 {% step %}
 Go to the **Sending Domains** tab and choose the domain you want to send emails from.&#x20;
 
 Keep in mind that the [domain must be verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) in order for you to start sending emails.
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 10.26.54.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Navigate to the **Integrations** tab for your selected domain and select whether you want to use our **Transactional Stream** or [**Bulk Stream**](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 10.29.17.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Transactional Stream** is used to send automated, non-promotional application emails that are triggered by the user's specific action.
@@ -35,8 +33,6 @@ Navigate to the **Integrations** tab for your selected domain and select whether
 
 {% step %}
 Once you choose your preferred sending stream, click on **SMTP**. There, you will be able to see your Mailtrap credentials.
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 10.32.53.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
