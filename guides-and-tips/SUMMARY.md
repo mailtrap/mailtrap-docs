@@ -47,6 +47,7 @@
 
 ## AI-Powered Integrations
 
+* [OpenCode](ai-powered-integrations/opencode.md)
 * [Antigravity](ai-powered-integrations/antigravity.md)
 * [Anything](ai-powered-integrations/anything.md)
 * [Augment Code](ai-powered-integrations/augment-code.md)
