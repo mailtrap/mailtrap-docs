@@ -43,25 +43,15 @@ Need help adding DNS records for your specific provider? Check out our detailed 
 
 ### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
-{% hint style="info" %}
-In the example below, we'll be using GoDaddy.
-{% endhint %}
+{% @arcade/embed flowId="39p36H3XvIxXKeKthmsd" url="https://app.arcade.software/share/39p36H3XvIxXKeKthmsd" %}
 
 {% stepper %}
 {% step %}
 **Add domain**
 
-Navigate to _Sending Domains_ in the left navigation panel.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-navigation-menu.png" alt="Sending Domains navigation menu in Mailtrap" width="375"><figcaption></figcaption></figure></div>
-
-Click _Add Domain._
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-add-domain-button.png" alt="Add Domain button in Sending Domains page" width="375"><figcaption></figcaption></figure></div>
+Go to _Sending Domains_ in the left navigation panel and click _Add Domain_.
 
 Type in the domain from which you want to send emails and click Add. Remember that you should be the domain owner with access to its DNS records/have someone with access to DNS records.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 After this step, you’ll see the Domain Verification page.
 {% endstep %}
@@ -77,8 +67,6 @@ At this stage, you need to verify the domain. You have two options:
 {% hint style="success" %}
 To send instructions to your admin or developer, enter their email address and click Send Instructions.
 {% endhint %}
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-email-to-admin.png" alt=""></div>
 {% endstep %}
 
 {% step %}
@@ -92,11 +80,7 @@ Please keep in mind that it’s crucial to provide correct information correspon
 Tip: If you've provided this information before, you won't be asked to fill it in again.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (22).png" alt="" width="178"><figcaption></figcaption></figure></div>
-
 You can switch between personal and business information only once, meaning that you cannot change it after the form is submitted.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="307"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -108,8 +92,6 @@ Once all the DNS records are successfully verified, your domain will undergo an 
 
 Some domains may be selected for additional checks. If so, we’ll ask you to fill out a simple Compliance Form and answer a few questions about your business, sending goals, etc. You’ll see a notification under Compliance Check and a link to the form.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-compliance-pending.png" alt="Compliance check pending status with Fill In Compliance Form button" width="375"><figcaption></figcaption></figure></div>
-
 We’ll email you if we need additional information from you. If all the checks are successful at this stage, your domain will be verified.
 
 In some cases, your domain may be selected for manual verification. This is the final check before your domain is verified. The length of the manual verification depends on how fast you reply to our emails. If successful, you'll see Verified status. If not, you'll see a Rejected badge next to your domain and a message under Compliance Check. In case of any questions about the reasons for rejection, please contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).
@@ -119,6 +101,10 @@ In some cases, your domain may be selected for manual verification. This is the 
 {% endstepper %}
 
 ### To verify the domain yourself
+
+{% hint style="info" %}
+In the example below, we'll be using GoDaddy.
+{% endhint %}
 
 {% stepper %}
 {% step %}

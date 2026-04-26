@@ -2,7 +2,7 @@
 
 Mailtrap CLI is a command-line tool for accessing Mailtrap features that allow you to send emails, inspect sandbox inboxes, monitor deliverability stats, and administer domains, templates, contacts, and more, all from your terminal.
 
-Link to official [GitHub documentation](https://docs.google.com/document/d/1Ge5Ofst5ZwqUs2n2qqzDkgQ5cDZ_Au5M/edit).
+Link to official [GitHub documentation](https://github.com/mailtrap/mailtrap-cli).
 
 ### How it works
 
