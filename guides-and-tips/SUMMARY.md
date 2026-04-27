@@ -47,13 +47,13 @@
 
 ## AI-Powered Integrations
 
-* [OpenCode](ai-powered-integrations/opencode.md)
 * [Antigravity](ai-powered-integrations/antigravity.md)
 * [Anything](ai-powered-integrations/anything.md)
 * [Augment Code](ai-powered-integrations/augment-code.md)
 * [Base44](ai-powered-integrations/base44.md)
 * [Bolt.new](ai-powered-integrations/bolt-new.md)
 * [Claude](ai-powered-integrations/claude.md)
+* [Codex](ai-powered-integrations/codex.md)
 * [Cursor](ai-powered-integrations/cursor.md)
 * [GitHub Copilot](ai-powered-integrations/github-copilot.md)
 * [Leap.new](ai-powered-integrations/leap-new.md)
@@ -61,9 +61,9 @@
 * [Mailtrap MCP Server](ai-powered-integrations/mcp-server.md)
 * [OpenClaw](ai-powered-integrations/openclaw.md)
 * [Qodo](ai-powered-integrations/qodo.md)
+* [OpenCode](ai-powered-integrations/opencode.md)
 * [Replit](ai-powered-integrations/replit.md)
 * [Reflex Build](ai-powered-integrations/reflex-build.md)
 * [V0](ai-powered-integrations/v0.md)
 * [Visual Studio Code (VS Code)](ai-powered-integrations/vs-code.md)
 * [Windsurf](ai-powered-integrations/windsurf.md)
-* [Codex](ai-powered-integrations/codex.md)
