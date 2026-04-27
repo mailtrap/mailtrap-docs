@@ -31,6 +31,7 @@
   * [Handlebars Guide](email-api-smtp/email-templates/handlebars.md)
   * [Integration](email-api-smtp/email-templates/integration.md)
   * [Debugging with Sandbox](email-api-smtp/email-templates/debugging.md)
+  * [Migrate templates](email-api-smtp/email-templates/migrate-templates.md)
 * [Analytics & Reports](email-api-smtp/analytics/README.md)
   * [Stats Dashboard](email-api-smtp/analytics/dashboard.md)
   * [Email Logs](email-api-smtp/analytics/logs.md)
