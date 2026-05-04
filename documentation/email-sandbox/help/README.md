@@ -98,7 +98,7 @@ You can get in touch with the Mailtrap Support team using one of the following w
 
 * **Email us at** 📧 support@mailtrap.io<br>
 
-Whether you need technical assistance, help troubleshooting an issue, or simply want to talk to customer support, our team will be happy to assist you.
+Whether you need technical assistance,  help troubleshooting UI or account-specific issues, or simply want to talk to customer support, our team will be happy to assist you.
 
 ### Before contacting support
 
