@@ -10,6 +10,10 @@ icon: webhook
 
 Webhooks allow you to receive all information about your deliverability and activities within your account (Audit Log) almost in real-time.
 
+{% hint style="info" %}
+IPv6 ranges are AWS-provided, not Mailtrap-owned, and they're available on request. Feel free to contact us at _support@mailtrap.io._
+{% endhint %}
+
 ### Event types
 
 **Sending events:**
