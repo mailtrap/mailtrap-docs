@@ -36,7 +36,7 @@ Mailtrap allows you to use your own domain for click tracking. To achieve this:
 2. Mailtrap issues a security certificate for the mt-link subdomain to ensure a secure connection
 3. Certificates from **Let's Encrypt** and **Google Trust Services** are used
 
-### The cause of the error
+### Why your custom hostname was blocked
 
 The primary cause for custom domain tracking issues is that some domains have a list of trusted Certificate Authorities (CAs) specified in **CAA records**.
 
