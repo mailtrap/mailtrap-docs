@@ -1,8 +1,25 @@
 ---
 title: SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001
 description: >-
-  How to fix SSL errors when using custom domains for click tracking in Mailtrap
-  Email API/SMTP.
+  Received a 'Click tracking disabled - custom hostname blocked' alert? Read
+  this article and learn how to fix SSL errors when using custom domains for
+  click tracking in Mailtrap Email API/SMTP.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Click Tracking Blocked – SSL Cipher Error
