@@ -24,7 +24,7 @@ layout:
 
 # Click Tracking Blocked – SSL Cipher Error
 
-One of the most common click tracking or custom domain tracking issues are `SSL_ERROR_NO_CYPHER_OVERLAP` or `Error 1001` errors.
+Custom hostname blocked errors related to click tracking or custom domain tracking issues include `SSL_ERROR_NO_CYPHER_OVERLAP` or `Error 1001` errors.
 
 <figure><img src="../../.gitbook/assets/troubleshoot-sending-ssl-error.png" alt="Browser showing SSL_ERROR_NO_CYPHER_OVERLAP or Error 1001 when accessing custom tracking domain" width="563"><figcaption><p>Custom domain blocked: SSL error when accessing custom domain for click tracking</p></figcaption></figure>
 
