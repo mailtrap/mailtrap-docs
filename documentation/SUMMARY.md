@@ -59,7 +59,7 @@
     * [401 Unauthorized Error](email-api-smtp/troubleshooting/unauthorized-401-error.md)
     * [Domain Not Allowed](email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md)
     * [From Header Mismatch](email-api-smtp/troubleshooting/from-header-domain-mismatch.md)
-    * [SSL Cipher Error](email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md)
+    * [Click Tracking Blocked – SSL Cipher Error](email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md)
     * [Office 365 Quarantine](email-api-smtp/troubleshooting/ms-office-365-quarantine.md)
 
 ## Email Sandbox
