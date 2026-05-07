@@ -7,128 +7,239 @@ description: >-
 
 # Cursor
 
-Mailtrap is an email-sending solution for developer and product teams. Focused on fast delivery and high inboxing rates for transactional and promo emails. Provides highly customizable API and 24/7 tech support.
+[Cursor](https://cursor.com/) is an AI coding platform that understands your entire codebase and lets you write, edit, and refactor code across multiple files with natural language commands.
 
-## Overview
+In this guide, you’ll learn how to:
 
-With the Cursor and Mailtrap integration, you can now send emails from Cursor using Model Context Protocol. In this guide, you'll learn how to set it all up and start sending emails in three steps.
+* [Integrate Mailtrap with your Cursor project](cursor.md#integrate-mailtrap-with-your-cursor-project) – Prompt the Cursor AI to connect to the Mailtrap Email API and start sending emails within minutes.
+* [Add Mailtrap MCP to Cursor](cursor.md#add-mailtrap-mcp-to-cursor) – Connect and get data from your account, as opposed to UI and calling API directly.
+* [Install Mailtrap Skills in Cursor](cursor.md#install-mailtrap-skills-in-cursor) – Give your Cursor AI agent context on everything Mailtrap related.
 
-### Prerequisites
+_Click on any of the links above to jump ahead to the detailed step-by-step section._
 
-* If you haven't set up your sending domain already, you'll need to do it before we start—it takes \~5 minutes, and you can use our [step-by-step article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) as a guide.
-* Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
-* If you haven't already done so, install the [Cursor app](https://cursor.com/). But if you have, make sure it's updated and uses the latest version.
+### Integrate Mailtrap with your Cursor project
 
-{% stepper %}
-{% step %}
-**Add Mailtrap MCP to Cursor**
+#### Step 1. Get your API token
 
-To add Mailtrap MCP to Cursor, you can use the [quick install link](https://cursor.com/en/install-mcp?name=mailtrap\&config=eyJjb21tYW5kIjoibnB4IC15IG1jcC1tYWlsdHJhcCIsImVudiI6eyJNQUlMVFJBUF9BUElfVE9LRU4iOiJ5b3VyX21haWx0cmFwX2FwaV90b2tlbiIsIkRFRkFVTFRfRlJPTV9FTUFJTCI6InlvdXJfc2VuZGVyQGV4YW1wbGUuY29tIiwiTUFJTFRSQVBfQUNDT1VOVF9JRCI6InlvdXJfYWNjb3VudF9pZCJ9fQ%3D%3D) or in your Cursor editor, navigate to Settings → Cursor Settings.
+You need an API token to authenticate all Mailtrap API calls — sending emails, managing domains, creating templates.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-1.png" alt="Cursor application menu showing Settings option and Profiles menu" width="375"></div>
+Go to [API Tokens](https://mailtrap.io/settings/api-tokens) → create a new token with **Admin** access to your account → copy the token value.
 
-Go to the MCP tab and click on Add new global MCP server.
+<figure><img src="../.gitbook/assets/Screenshot 2026-05-07 at 10.04.46 (1).png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-2.png" alt="Cursor Settings window displaying MCP Servers section with Add new global MCP server button" width="563"></div>
+#### Step 2. Verify your domain
 
-The Add new global MCP server should open a new mcp.json config file, where we'll store the Mailtrap MCP configuration.
+Before you start sending emails with Mailtrap, you first need to verify your domain. The process takes \~15 minutes, and you can do it manually, by following our [step-by-step guide](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) or programmatically, by prompting the Cursor AI assistant.
 
-Tip: You can also open the mcp.json file in the following locations:
+* Add your domain to Mailtrap
 
-* MacOS: \~/.cursor/mcp.json
-* Windows: %USERPROFILE%.cursor\mcp.json
-
-Once you open the mcp.json file, copy/paste the following configuration inside it:
-
-{% code title="mcp.json" %}
-```json
-{
-  "mcpServers": {
-    "mailtrap": {
-      "command": "npx",
-      "args": ["-y", "mcp-mailtrap"],
-      "env": {
-        "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
-        "DEFAULT_FROM_EMAIL": "your_sender@example.com"
-      }
-    }
-  }
-}
+```bash
+curl -X POST "https://mailtrap.io/api/accounts/{account_id}/sending_domains" \
+  -H "Authorization: Bearer $MAILTRAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"sending_domain": {"domain_name": "yourdomain.com"}}'
 ```
-{% endcode %}
 
-Note: In case you're using asdf to manage Node.js, you must use an absolute path to the executable. Here's an example for Mac:
+The response will include all DNS records you need to add.
 
-{% code title="mcp.json with asdf" %}
-```json
-{
-  "mcpServers": {
-    "mailtrap": {
-      "command": "/Users/<username>/.asdf/shims/npx",
-      "args": ["-y", "mcp-mailtrap"],
-      "env": {
-        "PATH": "/Users/<username>/.asdf/shims:/usr/bin:/bin",
-        "ASDF_DIR": "/opt/homebrew/opt/asdf/libexec",
-        "ASDF_DATA_DIR": "/Users/<username>/.asdf",
-        "ASDF_NODEJS_VERSION": "20.6.1",
-        "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
-        "DEFAULT_FROM_EMAIL": "your_sender@example.com"
-      }
-    }
-  }
-}
+* Add DNS records at your registrar
+
+Most domain registrars have APIs your AI assistant can use to add these records automatically. Provide your registrar's API credentials and let it handle the rest.
+
+{% tabs %}
+{% tab title="Cloudflare" %}
+```bash
+# Add DKIM CNAME record
+curl -X POST "https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records" \
+  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "CNAME",
+    "name": "rwmt1._domainkey.yourdomain.com",
+    "content": "rwmt1.dkim.mailtrap.io",
+    "ttl": 3600,
+    "proxied": false
+  }'
+
+# Add SPF TXT record
+curl -X POST "https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records" \
+  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "TXT",
+    "name": "yourdomain.com",
+    "content": "v=spf1 include:_spf.mailtrap.io ~all",
+    "ttl": 3600
+  }'
+
+# Add DMARC TXT record
+curl -X POST "https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records" \
+  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "type": "TXT",
+    "name": "_dmarc.yourdomain.com",
+    "content": "v=DMARC1; p=none;",
+    "ttl": 3600
+  }'
 ```
-{% endcode %}
-{% endstep %}
+{% endtab %}
 
-{% step %}
-**Add Mailtrap API credentials**
+{% tab title="AWS Route 53" %}
+```bash
+aws route53 change-resource-record-sets \
+  --hosted-zone-id $HOSTED_ZONE_ID \
+  --change-batch '{
+    "Changes": [
+      {
+        "Action": "UPSERT",
+        "ResourceRecordSet": {
+          "Name": "rwmt1._domainkey.yourdomain.com",
+          "Type": "CNAME",
+          "TTL": 3600,
+          "ResourceRecords": [{"Value": "rwmt1.dkim.mailtrap.io"}]
+        }
+      },
+      {
+        "Action": "UPSERT",
+        "ResourceRecordSet": {
+          "Name": "rwmt2._domainkey.yourdomain.com",
+          "Type": "CNAME",
+          "TTL": 3600,
+          "ResourceRecords": [{"Value": "rwmt2.dkim.mailtrap.io"}]
+        }
+      },
+      {
+        "Action": "UPSERT",
+        "ResourceRecordSet": {
+          "Name": "yourdomain.com",
+          "Type": "TXT",
+          "TTL": 3600,
+          "ResourceRecords": [{"Value": "\"v=spf1 include:_spf.mailtrap.io ~all\""}]
+        }
+      },
+      {
+        "Action": "UPSERT",
+        "ResourceRecordSet": {
+          "Name": "_dmarc.yourdomain.com",
+          "Type": "TXT",
+          "TTL": 3600,
+          "ResourceRecords": [{"Value": "\"v=DMARC1; p=none;\""}]
+        }
+      }
+    ]
+  }'
+```
+{% endtab %}
 
-Open your Mailtrap account and navigate to Sending Domains → Integration → API.
+{% tab title="GoDaddy" %}
+```bash
+# Add DKIM CNAME record
+curl -X PATCH "https://api.godaddy.com/v1/domains/yourdomain.com/records" \
+  -H "Authorization: sso-key $GODADDY_API_KEY:$GODADDY_API_SECRET" \
+  -H "Content-Type: application/json" \
+  -d '[
+    {
+      "type": "CNAME",
+      "name": "rwmt1._domainkey",
+      "data": "rwmt1.dkim.mailtrap.io",
+      "ttl": 3600
+    }
+  ]'
+```
+{% endtab %}
+{% endtabs %}
 
-Once in the Integration/API page, update the following values in your mcp.json file with Mailtrap credentials:
+* Check DNS propagation
 
-* **MAILTRAP\_API\_TOKEN** – Used to authenticate API requests, which you can copy/paste from the credentials tab.
-* **DEFAULT\_FROM\_EMAIL** – Make sure the email's domain matches your own domain from the Sending Domains tab in Mailtrap.
+Use `dig` to verify records have propagated before triggering verification in Mailtrap:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-api-credentials (1).png" alt="Mailtrap account Integration tab showing sending domain name and API token" width="375"></div>
+```bash
+# Check DKIM CNAME records
+dig CNAME rwmt1._domainkey.yourdomain.com +short
+# Expected: rwmt1.dkim.mailtrap.io.
 
-For example, here's what your mcp.json file should ultimately look like:
+dig CNAME rwmt2._domainkey.yourdomain.com +short
+# Expected: rwmt2.dkim.mailtrap.io.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-4.png" alt="" width="375"></div>
+# Check SPF TXT record
+dig TXT yourdomain.com +short | grep mailtrap
+# Expected: "v=spf1 include:_spf.mailtrap.io ~all"
 
-And that's it! Hit save, reload, and you can start sending emails via Cursor with simple prompts.
-{% endstep %}
+# Check DMARC TXT record
+dig TXT _dmarc.yourdomain.com +short
+# Expected: "v=DMARC1; p=none;"
+```
 
-{% step %}
-**Send emails with a prompt**
+{% hint style="info" %}
+DNS propagation usually takes minutes but can take up to 48 hours. If `dig` returns the expected values, records are ready. You can also click **Verify DNS Records** on your domain in [Sending Domains](https://mailtrap.io/domains) to trigger a check from Mailtrap's side.
+{% endhint %}
 
-First, toggle the AI Pane, located in the upper-right corner of the Cursor editor.
+* Check verification status via API
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-5.png" alt="" width="359"></div>
+Poll the domain until `dns_verified` is `true`:
 
-In the opened pane, make sure that the Agent mode is configured since it allows Cursor to perform actions for us.
+```bash
+curl "https://mailtrap.io/api/accounts/{account_id}/sending_domains/{domain_id}" \
+  -H "Authorization: Bearer $MAILTRAP_API_KEY"
+```
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-6.png" alt="" width="375"></div>
+Each record in the `dns_records` array has a `status` field: `pass`, `fail`, or `unchecked`. When all records show `pass`, your domain is verified.
 
-To send a plain-text email, you can use a prompt like this one (although we encourage you to use your own prompts and experiment with them since the possibilities are endless):
+{% hint style="info" %}
+After DNS verification, newly added domains undergo a compliance check. Your domain's `compliance_status` will progress from `under_review` → `awaiting_questionnaire` → `compliant`. If the status stays at `awaiting_questionnaire`, check your domain details in [Sending Domains](https://mailtrap.io/domains) — you may need to click **Fill in Compliance Form** and provide additional information about your sending practices.
+{% endhint %}
 
-Send an email to john.doe@example.com with the subject 'Hi John!' and a message that wishes John a great day.
+#### Step 3. Prompt the Cursor AI assistant
 
-Cursor will then identify the Mailtrap MCP server for your request, suggest running the right tool, in this case, send\_email, and generate the email with all the parameters and values for you. As soon as you're ready to send, click Run tool.
+You can prompt Cursor to integrate Mailtrap into your project, have AI install the right SDK (if available), and help to write the actual sending code with a prompt like this one:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-7.png" alt="" width="375"></div>
+> Integrate Mailtrap into my project, so that it can send emails through the Mailtrap email API. For this, use my Mailtrap API token and sending address. Make sure to safely store my credentials in an .env file
 
-Lastly, Cursor AI will notify you when it successfully delivers the email.
+**Important**: Don't forget to add your actual Mailtrap API token and the sending email address to the prompt.&#x20;
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-8.png" alt="" width="375"></div>
+Cursor AI will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a **.env** file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
-And here is the generated message in the Mailtrap [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs).
+<figure><img src="../.gitbook/assets/cursor new.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/send-email-with-cursor-9.png" alt="Mailtrap Email Logs dashboard showing delivered email with Hi John subject and metadata" width="563"></div>
-{% endstep %}
-{% endstepper %}
+And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-## Next steps
+<figure><img src="../.gitbook/assets/cursor email.png" alt=""><figcaption></figcaption></figure>
 
-You can now use Cursor to compose and send various types of emails by adjusting your prompts. Experiment with different email templates, formatting options, and automation scenarios to maximize your productivity.
+### Add Mailtrap MCP to Cursor
+
+**Note**: Before you start, make sure to install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
+
+To add Mailtrap MCP to Cursor, simply [click here](https://cursor.com/en-US/install-mcp?name=mailtrap\&config=eyJlbnYiOnsiTUFJTFRSQVBfQVBJX1RPS0VOIjoieW91cl9tYWlsdHJhcF9hcGlfdG9rZW4iLCJERUZBVUxUX0ZST01fRU1BSUwiOiJ5b3VyX3NlbmRlckBleGFtcGxlLmNvbSIsIk1BSUxUUkFQX0FDQ09VTlRfSUQiOiJ5b3VyX2FjY291bnRfaWQiLCJNQUlMVFJBUF9URVNUX0lOQk9YX0lEIjoieW91cl90ZXN0X2luYm94X2lkIn0sImNvbW1hbmQiOiJucHggLXkgbWNwLW1haWx0cmFwIn0%3D) or press the quick install button on the official Mailtrap MCP page:
+
+<figure><img src="../.gitbook/assets/cursor install (1).png" alt=""><figcaption></figcaption></figure>
+
+You will then be taken to the following Cursor settings page, where you will have to insert your Mailtrap credentials:
+
+<figure><img src="../.gitbook/assets/cursor cred.png" alt=""><figcaption></figcaption></figure>
+
+* `MAILTRAP_API_TOKEN` – Required for all functionality, used to authenticate API requests, which you can copy/paste from the credentials tab.
+* `DEFAULT_FROM_EMAIL` – Required for email sending. Make sure the email’s domain matches your own domain from the **Sending Domains** tab in Mailtrap.
+
+You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
+
+* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.&#x20;
+* `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
+
+Once you insert your Mailtrap credentials, make sure to hit the **Install** button, and you should see Mailtrap MCP installed, along with a list of available tools it comes with. Currently, Mailtrap MCP supports:
+
+* **Sending**: send live emails
+* **Sandbox**: list and preview test inbox messages
+* **Email logs**: filter delivery history by sender, recipient, status, or event; view a specific log with optional raw body
+* **Stats**: get delivery, bounce, open, click, and spam rates over a date range, broken down by domain, category, ESP, or date
+* **Templates**: list, create, update, delete email templates
+* **Sending domains**: list, create, delete domains, plus get verification status and DNS setup instructions
+
+### Install Mailtrap Skills in Cursor
+
+With [Mailtrap Skills](https://github.com/mailtrap/mailtrap-skills), your Cursor AI agent can get correct Mailtrap endpoints, auth patterns, and stream choices without you having to leave the editor. To install them, simply copy symlink the skill folders into the skills directory your agent reads. For example:
+
+* **Cursor (project)**: `.cursor/skills/` in your repo, e.g. `ln -s /path/to/mailtrap-skills/skills/* .cursor/skills/`
+* **Cursor (user)**: `~/.cursor/skills/` for global availability
+
+**Note**: Mailtrap Skills are not a substitute for [docs.mailtrap.io](http://docs.mailtrap.io) or the [developer API documentation](https://docs.mailtrap.io/developers).
