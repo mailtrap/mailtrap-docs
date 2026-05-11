@@ -1,0 +1,14 @@
+guides-and-tips/ai-powered-integrations/augment-code.md
+  h_293d6b90b1efce 56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "12811ef425e3f4dba2f388ae1adffc274b9e22da",
+  "prompts": {},
+  "humans": {
+    "h_293d6b90b1efce": {
+      "author": "romanadamchik <roman.adamchik@gmail.com>"
+    }
+  }
+}
