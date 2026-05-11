@@ -28,7 +28,7 @@ The integration adds a set of three variables (`API_KEY`, `USE_SANDBOX`, and `IN
 ### Initiate the integration
 
 * Log in to your Mailtrap account
-* Navigate to the [**Integrations** page](https://mailtrap.io/integrations) from the sidebar.
+* Navigate to the [**Integrations** page](https://mailtrap.io/api-smtp/integrations) from the sidebar.
 * Locate the **Vercel** card under the **AI & Development** section.
 * Click the **Integrate** button.
 
