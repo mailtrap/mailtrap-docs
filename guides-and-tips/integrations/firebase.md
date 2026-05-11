@@ -11,7 +11,7 @@ In this article, you’ll learn how to install the Mailtrap Firebase Extension, 
 **Prerequisites**:
 
 * A [Mailtrap account](https://mailtrap.io/signup) with a [verified sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain)
-* A [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) from the [API Tokens page](https://mailtrap.io/api-tokens)
+* A [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) from the [API Tokens page](https://mailtrap.io/settings/api-tokens)
 * A Firebase project on the Blaze (pay-as-you-go) plan
 
 ### Step 1. Install the Firebase extension

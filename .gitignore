@@ -15,3 +15,6 @@ openapi/
 
 # Temporary check files
 API_OPERATIONS_CHECK.md
+
+# IDE
+.idea

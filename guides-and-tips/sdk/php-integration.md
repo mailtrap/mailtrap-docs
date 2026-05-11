@@ -54,7 +54,7 @@ use Symfony\Component\Mime\Address;
 require __DIR__ . '/vendor/autoload.php';
 
 $mailtrap = MailtrapClient::initSendingEmails(
-    apiKey: getenv('MAILTRAP_API_KEY') // your API key here https://mailtrap.io/api-tokens
+    apiKey: getenv('MAILTRAP_API_KEY') // your API key here https://mailtrap.io/settings/api-tokens
 );
 
 $email = (new MailtrapEmail())

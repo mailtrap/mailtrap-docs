@@ -63,7 +63,7 @@ Endpoints for programmatic management of account details and access permissions.
 {% step %}
 #### Get API Credentials
 
-1. Navigate to [API Tokens](https://mailtrap.io/api-tokens).
+1. Navigate to [API Tokens](https://mailtrap.io/settings/api-tokens).
 2. Generate a new API token with the required permissions.
 
 {% hint style="info" %}
@@ -145,7 +145,7 @@ Below are minimal examples for sending an email:
 import { MailtrapClient } from "mailtrap";
 
 const mailtrap = new MailtrapClient({
-  token: process.env.MAILTRAP_API_KEY, // You can create your API key here https://mailtrap.io/api-tokens
+  token: process.env.MAILTRAP_API_KEY, // You can create your API key here https://mailtrap.io/settings/api-tokens
 });
 
 mailtrap
@@ -164,7 +164,7 @@ mailtrap
 ```python
 import mailtrap as mt
 
-API_TOKEN = "<YOUR_API_TOKEN>"  # your API key here https://mailtrap.io/api-tokens
+API_TOKEN = "<YOUR_API_TOKEN>"  # your API key here https://mailtrap.io/settings/api-tokens
 
 client = mt.MailtrapClient(token=API_TOKEN)
 
@@ -192,7 +192,7 @@ use Symfony\Component\Mime\Address;
 require __DIR__ . '/vendor/autoload.php';
 
 $mailtrap = MailtrapClient::initSendingEmails(
-    apiKey: getenv('MAILTRAP_API_KEY') // your API key here https://mailtrap.io/api-tokens
+    apiKey: getenv('MAILTRAP_API_KEY') // your API key here https://mailtrap.io/settings/api-tokens
 );
 
 $email = (new MailtrapEmail())
@@ -541,5 +541,5 @@ To find your **Sandbox ID**:
 1. Open your Sandbox inbox in Mailtrap.
 2. Copy the ID from the inbox URL.
 
-**Example**: `https://mailtrap.io/inboxes/2564102/messages`\
+**Example**: `https://mailtrap.io/sandboxes/2564102`\
 Sandbox ID: **2564102**

@@ -51,7 +51,7 @@ Here's a minimal example to send your first email:
 import { MailtrapClient } from "mailtrap";
 
 const mailtrap = new MailtrapClient({
-  token: process.env.MAILTRAP_API_KEY, // You can create your API key here https://mailtrap.io/api-tokens
+  token: process.env.MAILTRAP_API_KEY, // You can create your API key here https://mailtrap.io/settings/api-tokens
 });
 
 mailtrap

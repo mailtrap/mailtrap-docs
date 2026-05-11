@@ -99,7 +99,7 @@ Yes, we do. You can get a 20% discount if you opt for an annual subscription. Th
 
 The account owner, account admin, or billing owner can make changes to the plan.
 
-In your [account under Billing](https://mailtrap.io/billing/dashboard), you can view your current plans and upgrade to the needed plan by clicking the Upgrade button.
+In your [account under Billing](https://mailtrap.io/settings/billing/dashboard), you can view your current plans and upgrade to the needed plan by clicking the Upgrade button.
 
 ### When will I be charged for the change to the subscription plan?
 
@@ -115,7 +115,7 @@ Invoice notifications are sent by email after each payment.
 
 ### How can I get an invoice?
 
-We send invoices by email once your credit card is successfully charged. Fill in the requested details in the [Billing Settings tab](https://mailtrap.io/billing/settings/) under Billing in your Mailtrap account, and indicate your financial email address for invoices and billing notifications.
+We send invoices by email once your credit card is successfully charged. Fill in the requested details in the [Billing Settings tab](https://mailtrap.io/settings/billing/settings/) under Billing in your Mailtrap account, and indicate your financial email address for invoices and billing notifications.
 
 If the financial email address is not set up, you will receive invoices and billing notifications to your main account email address.
 
@@ -131,7 +131,7 @@ You will also see your invoice number, receipt number, payment date, and payment
 
 ### Can you change the details in my invoice?
 
-We can't. You should add your billing details to the [Billing Settings](https://mailtrap.io/billing/settings/) before making a payment to ensure your invoice contains correct information.
+We can't. You should add your billing details to the [Billing Settings](https://mailtrap.io/settings/billing/settings/) before making a payment to ensure your invoice contains correct information.
 
 ### Can I receive a purchase order?
 
@@ -144,7 +144,7 @@ However, if your billing flow requires it, feel free to send your purchase order
 For security reasons, we can't migrate payment credentials and billing plans between accounts. However, you can do the following to transfer your account (with its billing details) to a different owner:
 
 * Change your account email address in the [User Settings](https://mailtrap.io/profile-settings) of your Profile page;
-* Transfer your account ownership in the [Transfer Ownership](https://mailtrap.io/account-management?current_tab=transfer_ownership) tab of your account settings.
+* Transfer your account ownership in the [Transfer Ownership](https://mailtrap.io/settings/account?current_tab=transfer_ownership) tab of your account settings.
 
 ### Can I cancel my subscription at any time?
 

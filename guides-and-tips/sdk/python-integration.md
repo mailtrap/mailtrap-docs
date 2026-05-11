@@ -44,7 +44,7 @@ Here's a minimal example to send your first email:
 ```python
 import mailtrap as mt
 
-API_TOKEN = "<YOUR_API_TOKEN>"  # your API key here https://mailtrap.io/api-tokens
+API_TOKEN = "<YOUR_API_TOKEN>"  # your API key here https://mailtrap.io/settings/api-tokens
 
 client = mt.MailtrapClient(token=API_TOKEN)
 

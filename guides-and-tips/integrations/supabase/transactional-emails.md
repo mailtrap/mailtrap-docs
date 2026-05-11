@@ -37,7 +37,7 @@ Sending automated emails via Supabase Edge Functions is not covered by this inte
 **Initiate the integration**
 
 * Log in to your Mailtrap account.
-* Navigate to the [**Integrations** page](https://mailtrap.io/integrations) from the sidebar.
+* Navigate to the [**Integrations** page](https://mailtrap.io/api-smtp/integrations) from the sidebar.
 * Scroll to the **AI & Development** section (or search for "Supabase") and locate the **Supabase** card.
 * Click the **Integrate** button.
 
