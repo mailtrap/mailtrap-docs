@@ -1,0 +1,55 @@
+api-docs/README.md
+  s_f5b26ca23393d6::t_1e71751179c61a 148
+  s_f5b26ca23393d6::t_ed14f0eb6c59aa 195
+  s_f5b26ca23393d6::t_a84136aa012c1e 544
+  s_f5b26ca23393d6::t_5d66943d6545af 66
+  s_f5b26ca23393d6::t_1ecdb2e678ecc3 167
+guides-and-tips/integrations/supabase/transactional-emails.md
+  s_f5b26ca23393d6::t_c9240d01580563 40
+guides-and-tips/sdk/nodejs-integration.md
+  s_f5b26ca23393d6::t_070b227b2c5e5e 54
+guides-and-tips/sdk/php-integration.md
+  s_f5b26ca23393d6::t_8265f43fe619f4 57
+guides-and-tips/integrations/vercel.md
+  s_f5b26ca23393d6::t_c3477674e0f843 31
+api-docs/authentication.md
+  s_f5b26ca23393d6::t_2504c73418159a 13
+guides-and-tips/integrations/firebase.md
+  s_f5b26ca23393d6::t_e56824793c8325 14
+documentation/account-and-organization/billing/faqs.md
+  s_f5b26ca23393d6::t_c7fcef869b7a01 134
+  s_f5b26ca23393d6::t_8e37f6165a1090 147
+  s_f5b26ca23393d6::t_3499c5ed817dbd 118
+  s_f5b26ca23393d6::t_ca04ad7155e139 102
+documentation/account-and-organization/billing/setup.md
+  s_f5b26ca23393d6::t_18e5935889d668 18
+  s_f5b26ca23393d6::t_4667099e16e64c 24
+  s_f5b26ca23393d6::t_1d0e3b20670436 22
+  s_f5b26ca23393d6::t_c4f16b70bf0cd9 34
+  s_f5b26ca23393d6::t_cbd758691d5401 14
+.gitignore
+  h_293d6b90b1efce 18-20
+guides-and-tips/sdk/python-integration.md
+  s_f5b26ca23393d6::t_e92832ffc5530b 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "bb3d36b63db32de9f533ad7513bd5eb27df73ba4",
+  "prompts": {},
+  "humans": {
+    "h_293d6b90b1efce": {
+      "author": "romanadamchik <roman.adamchik@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_f5b26ca23393d6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "792b91c2-019e-47be-a6f1-a10b35709cae",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "romanadamchik <roman.adamchik@gmail.com>"
+    }
+  }
+}
