@@ -53,7 +53,7 @@ Mailtrap MCP is not in the Easy MCP catalog, so you'll configure it manually. Au
   * `MAILTRAP_API_TOKEN` → (your Mailtrap API token — see Step 2)
   * `DEFAULT_FROM_EMAIL` → (your verified sending domain address, e.g. [hello@yourdomain.com](mailto:hello@yourdomain.com))
   * `MAILTRAP_ACCOUNT_ID` → (click **Settings**, then **Account Settings** to reveal the ID)
-  * `MAILTRAP_TEST_INBOX_ID` → (find the ID in the inbox URL- for example: https://mailtrap.io/your\_inbox\_ID/messages)
+  * `MAILTRAP_TEST_INBOX_ID` → (find the ID in the inbox URL — for example: https://mailtrap.io/sandboxes/your\_inbox\_ID/settings)
 
 <figure><img src="../.gitbook/assets/ac3.png" alt=""><figcaption></figcaption></figure>
 
