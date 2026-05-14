@@ -13,33 +13,33 @@ The guidelines assume that you've set up Email Sandbox and use the corresponding
 {% step %}
 Navigate to **Settings** in the menu on the left and select **API Tokens**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-add-token.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rsoh.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-To add a new token, click the **Add Token** button in the upper right corner.
+To add a new token, click the **Add Token** button in the upper-right corner.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-add-token.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sfzw.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-**Type the token name** into the designated field.&#x20;
+**Type the token name** into the designated field.
 
 It’s perfectly fine to have a custom name for the API token, as it’s only for your reference, regardless of the use case.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-16 at 16.19.22.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-shrd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 **Assign permissions** by checking the boxes in the corresponding access level columns. Note that you must have admin permissions on a particular domain to send emails with this token.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-permissions-editor.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-siht.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the **Save** button and preview the new token under the **API Tokens** main menu.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-16 at 16.20.39.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-siht-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -57,19 +57,19 @@ You'll need to edit permissions for the automatically generated token to allow f
 
 **SMTP Integration**
 
-The automatically assigned token per domain is under the **Integration** tab in **Sending Domains**. Choose the desired stream, click **Integrate**, and toggle the switch to **SMTP**. SMTP password is the same as the API Token.
+The automatically assigned token per domain is under the **Integration** tab in **Domains**. Choose the desired stream, click **Integrate**, and toggle the switch to **SMTP**. SMTP password is the same as the API Token.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/smtp-integration-credentials-streams.png" alt=""></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-soqd.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Settings > API Tokens
 
 Select **Settings** in the left menu, then **API Tokens**. You'll see all active tokens, their creator, and their access level.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-add-token.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sqnv.png" alt=""><figcaption></figcaption></figure></div>
 
 Click the three-dot menu to the far right of the specific user token and select Edit permissions.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-edit-permissions-menu.png" alt="" width="188"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sbrl.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 **Important notes:**
@@ -86,25 +86,21 @@ There are two ways to reset API tokens:
 
 To reset tokens, go to your Sandbox under the **Sandboxes** tab and click the **Reset Credentials** function next to your credentials.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-reset-credentials-button.png" alt=""></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-svct.png" alt=""><figcaption></figcaption></figure></div>
 
-Then, click **Reset Credentials** and confirm your choice with the **Yes,** **Reset** button.
+Then confirm your choice with the **OK** button.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-reset-credentials-dialog.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-swgp.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Resetting API Tokens from the API Tokens menu
 
 Go to API Tokens, click the three-dot menu icon next to the token you want to reset, and click Reset API Token.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-reset-menu-option.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm your choice by clicking on the corresponding button.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-reset-confirmation.png" alt="" width="563"></div>
-
-{% hint style="success" %}
-**Tip:** The three-dot menu icon next to the token also allows you to copy a token to your clipboard.
-{% endhint %}
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-saqq.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important notes:**
@@ -117,7 +113,7 @@ Confirm your choice by clicking on the corresponding button.
 
 As mentioned earlier, click the menu icon at the far right of a token and select Edit permissions.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-edit-permissions-option.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sbrl (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Click on the corresponding boxes to add or remove token permissions. Then, confirm your selection with the Save button.
 
@@ -125,11 +121,11 @@ Click on the corresponding boxes to add or remove token permissions. Then, confi
 
 To delete a token, click the three-dot menu icon and choose the **Delete token** option.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-delete-menu-option.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-scxh-2.png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm the action by clicking the **Confirm** button.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-delete-confirmation.png" alt=""></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important:** Keep in mind that a token is deleted immediately, and you can't delete the last token per domain.

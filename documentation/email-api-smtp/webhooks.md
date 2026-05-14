@@ -158,7 +158,7 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 <mark style="color:$info;">Event type</mark>\ <mark style="color:$info;">Possible values</mark>: `delivery` `open` `click` `unsubscribe` `spam` `soft bounce` `bounce` `suspension` `reject`
 
 **message\_id** <mark style="color:$info;">string</mark> <mark style="color:$warning;">required</mark>\
-<mark style="color:$info;">Unique message ID</mark>&#x20;
+<mark style="color:$info;">Unique message ID</mark>
 
 **sending\_stream** <mark style="color:$info;">string · enum</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Sending stream used</mark>\
@@ -202,7 +202,7 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 **user\_agent** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">User agent (for</mark> `open`<mark style="color:$info;">,</mark> `click`<mark style="color:$info;">,</mark> `unsubscribe` <mark style="color:$info;">events)</mark>
 
-**url** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark> \
+**url** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">Clicked URL</mark> <mark style="color:$info;">(for</mark> `click` <mark style="color:$info;">events)</mark>
 
 </details>
@@ -507,7 +507,7 @@ Each line is a separate JSON object. Parse line by line.
 <mark style="color:$info;">Event type</mark>\ <mark style="color:$info;">Possible values</mark>: `delivery` `open` `click` `unsubscribe` `spam` `soft bounce` `bounce` `suspension` `reject`
 
 **message\_id** <mark style="color:$info;">string</mark> <mark style="color:$warning;">required</mark>\
-<mark style="color:$info;">Unique message ID</mark>&#x20;
+<mark style="color:$info;">Unique message ID</mark>
 
 **sending\_stream** <mark style="color:$info;">string · enum</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Sending stream used</mark>\
@@ -551,7 +551,7 @@ Each line is a separate JSON object. Parse line by line.
 **user\_agent** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">User agent (for</mark> `open`<mark style="color:$info;">,</mark> `click`<mark style="color:$info;">,</mark> `unsubscribe` <mark style="color:$info;">events)</mark>
 
-**url** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark> \
+**url** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">Clicked URL</mark> <mark style="color:$info;">(for</mark> `click` <mark style="color:$info;">events)</mark>
 
 </details>
@@ -687,13 +687,13 @@ The signing secret is automatically generated when you create a webhook. You can
 
 {% stepper %}
 {% step %}
-### Find the webhook you want to configure in to your webhooks settings
+#### Find the webhook you want to configure in to your webhooks settings
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-01-26 at 11.40.11.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### The signing secret will be displayed in the webhook details
+#### The signing secret will be displayed in the webhook details
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-01-26 at 11.18.14.png" alt=""><figcaption></figcaption></figure>
 
@@ -706,7 +706,7 @@ Then, you can:
 {% endstep %}
 {% endstepper %}
 
-#### Verifying the signature&#x20;
+#### Verifying the signature
 
 To verify a webhook signature, you need to:
 
@@ -967,7 +967,7 @@ Mailtrap sends all outgoing traffic, both SMTP email delivery and webhook callba
 
 <summary>How it works</summary>
 
-All SMTP sending exits through proxy instances with Elastic IPs from these ranges. Webhook traffic (audit logs, transactional events, test webhooks) routes through NAT gateways pinned to the same ranges.&#x20;
+All SMTP sending exits through proxy instances with Elastic IPs from these ranges. Webhook traffic (audit logs, transactional events, test webhooks) routes through NAT gateways pinned to the same ranges.
 
 To whitelist, add these to your firewall's inbound rules:
 
@@ -986,7 +986,7 @@ TCP - HTTPS (port 443) for webhooks
 ```
 
 {% hint style="info" %}
-For automated firewall provisioning (Terraform, CloudFlare, AWS Security Groups), use the machine-readable endpoint: https://mailtrap.io/ip-ranges.json &#x20;
+For automated firewall provisioning (Terraform, CloudFlare, AWS Security Groups), use the machine-readable endpoint: https://mailtrap.io/ip-ranges.json
 {% endhint %}
 
 </details>
@@ -998,7 +998,7 @@ For automated firewall provisioning (Terraform, CloudFlare, AWS Security Groups)
 * Your webhook endpoint sits behind a firewall that blocks unknown IPs.
 * Your security team requires an explicit allowlist for all inbound traffic.
 * You're automating infrastructure and need static CIDRs for IaC templates.
-* You're in a regulated industry (finance, healthcare, insurance) with strict network policies.&#x20;
+* You're in a regulated industry (finance, healthcare, insurance) with strict network policies.
 
 </details>
 
@@ -1006,7 +1006,7 @@ For automated firewall provisioning (Terraform, CloudFlare, AWS Security Groups)
 
 <summary>Limitations</summary>
 
-* IPv6 ranges are AWS-provided, not Mailtrap-owned—available on request.&#x20;
-* Specific sending IPs may change; whitelist the full /24 range rather than individual addresses.&#x20;
+* IPv6 ranges are AWS-provided, not Mailtrap-owned—available on request.
+* Specific sending IPs may change; whitelist the full /24 range rather than individual addresses.
 
 </details>

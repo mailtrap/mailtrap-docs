@@ -16,13 +16,13 @@ We have introduced a new step in the Campaign creation flow called Delivery.
 
 {% stepper %}
 {% step %}
-### Create your Campaign
+#### Create your Campaign
 
 Set up your Details, Design, and Audience as usual.
 {% endstep %}
 
 {% step %}
-### Navigate to Step 4 (Delivery)
+#### Navigate to Step 4 (Delivery)
 
 Here you will see two options:
 
@@ -31,7 +31,7 @@ Here you will see two options:
 {% endstep %}
 
 {% step %}
-### Set your limit
+#### Set your limit
 
 Select Send gradually. Enter the number of Emails to send per hour.
 
@@ -39,7 +39,7 @@ Select Send gradually. Enter the number of Emails to send per hour.
 {% endstep %}
 
 {% step %}
-### Proceed to Schedule
+#### Proceed to Schedule
 
 Click **Continue**.
 
