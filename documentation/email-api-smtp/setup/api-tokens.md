@@ -20,18 +20,16 @@ llms.txt — [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.t
 
 llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
 
-
-
 * The very first API token must be created manually by the user in the Mailtrap UI at [https://mailtrap.io/settings/api-tokens](https://mailtrap.io/settings/api-tokens) — this cannot be done via API.
 * Once a token exists, all further token management — creating, resetting, and deleting tokens — can be done programmatically via the API.
-* Before creating, ask the user for the token name and desired permissions&#x20;
+* Before creating, ask the user for the token name and desired permissions
 * Important: the full token value is only returned on create or reset. Store it securely — it cannot be retrieved again.
 
 </details>
 
 #### Add and manage tokens manually
 
-{% @arcade/embed flowId="iWYZTaQURqnQsQBjRPqk" url="https://app.arcade.software/share/iWYZTaQURqnQsQBjRPqk" %}
+{% @arcade/embed flowId="Wou6gPk3SMKFtb3lWBFp" url="https://app.arcade.software/share/Wou6gPk3SMKFtb3lWBFp" %}
 
 {% stepper %}
 {% step %}
@@ -43,7 +41,7 @@ To add a new token, click the **Add Token** button in the upper-right corner.
 {% endstep %}
 
 {% step %}
-**Type the token name** into the designated field.&#x20;
+**Type the token name** into the designated field.
 
 It’s perfectly fine to have a custom name for the API token, as it’s only for your reference, regardless of the use case.
 {% endstep %}
@@ -69,9 +67,9 @@ You need to edit permissions for the automatically generated token to allow for 
 
 ### Where to find tokens?
 
-Select **Settings** in the left menu, then API Tokens. You’ll see all active tokens, their creator, and their access level.&#x20;
+Select **Settings** in the left menu, then API Tokens. You’ll see all active tokens, their creator, and their access level.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (42).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rsoh (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The automatically assigned token per domain is under the Integration tab in Sending Domains. Choose the desired stream, click Integrate, and toggle the switch to API. You'll see the endpoint (Host) and your API Token.
 
@@ -79,15 +77,11 @@ The automatically assigned token per domain is under the Integration tab in Send
 
 Go to **Settings** > **API Tokens**, click the three-dot menu icon next to the token you want to reset, and click **Reset API Token**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-reset-menu-option.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb (2).png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm your choice by clicking on the corresponding button.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-reset-confirmation.png" alt="" width="563"></div>
-
-{% hint style="success" %}
-**Tip:** The three-dot menu icon next to the token also allows you to copy a token to your clipboard.
-{% endhint %}
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-saqq (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important notes:**
@@ -100,7 +94,7 @@ Confirm your choice by clicking on the corresponding button.
 
 As mentioned earlier, click the menu icon at the far right of a token and select **Edit permissions**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-edit-permissions-option.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sbrl (2).png" alt=""><figcaption></figcaption></figure></div>
 
 Click on the corresponding boxes to add or remove token permissions. Then, confirm your selection with the **Save** button.
 
@@ -108,11 +102,11 @@ Click on the corresponding boxes to add or remove token permissions. Then, confi
 
 To delete a token, click a three-dot menu icon and choose the **Delete** **token** option.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-delete-menu-option.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-scxh-2 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm the action by clicking the **Confirm** button.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/api-tokens-delete-confirmation.png" alt=""></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important:** Keep in mind that a token is deleted immediately, and you can't delete the last token per domain.
