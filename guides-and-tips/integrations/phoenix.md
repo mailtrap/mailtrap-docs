@@ -32,5 +32,5 @@ end
 Once you copy the script, make sure to insert your Mailtrap API token instead of the `my-api-key` value.
 
 {% hint style="info" %}
-To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/api-integration).
+To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
 {% endhint %}

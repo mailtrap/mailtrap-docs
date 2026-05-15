@@ -21,7 +21,7 @@ In this section, we’ll show you how to configure [Retool resources](https://do
 
 Mailtrap maintains its API definitions in a structured format. To implement this in Retool, you must use the YML specifications, which you can find under **specs** in [mailtrap/mailtrap-openapi](https://github.com/mailtrap/mailtrap-openapi/tree/main/specs).
 
-Once you choose your desired implementation, to ensure Retool can parse the schema correctly, be sure to click on **Raw**, so you can use the **Raw** URL of the YAML file.&#x20;
+Once you choose your desired implementation, to ensure Retool can parse the schema correctly, be sure to click on **Raw**, so you can use the **Raw** URL of the YAML file.
 
 <figure><img src="../../.gitbook/assets/openapi 1.png" alt=""><figcaption></figcaption></figure>
 
@@ -43,9 +43,9 @@ Once you insert the required details, make sure to click **Create resource**. Al
 
 **Hint**: To make sure you’ve entered everything correctly before using the Resource in your Queries, click on **Test connection**. If the connection works, you should get the following message:
 
-<figure><img src="../../.gitbook/assets/openapi 5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/openapi 5.png" alt=""><figcaption></figcaption></figure>
 
-### How to configure queries&#x20;
+### How to configure queries
 
 In the following section, we will show you some queries you can run with the OpenAPI resources connected to Mailtrap and possible use cases.
 
@@ -123,7 +123,7 @@ Example code you can use for the request body:
 
 #### Contact synchronization and updates
 
-To sync contacts from external databases or CRMs with Mailtrap or create, update, and manage contact lists, use the [contacts.openapi.yml](https://github.com/mailtrap/mailtrap-openapi/blob/main/specs/contacts.openapi.yml).&#x20;
+To sync contacts from external databases or CRMs with Mailtrap or create, update, and manage contact lists, use the [contacts.openapi.yml](https://github.com/mailtrap/mailtrap-openapi/blob/main/specs/contacts.openapi.yml).
 
 If used in combination with [Mailtrap Automation](https://docs.mailtrap.io/email-marketing/automations) feature, you can set up the query for:
 
@@ -147,7 +147,7 @@ Update a contact field (e.g., `subscription_status: "trial_ended"`) to trigger a
 
 #### Suppression list management
 
-To get a list of your suppressions or delete certain emails from your suppression list use the [account-management.openapi.yml](https://github.com/mailtrap/mailtrap-openapi/blob/main/specs/account-management.openapi.yml). It uses the `GET /suppressions` and `DELETE /suppressions/{id}` endpoints with which you can maintain email deliverability standards.&#x20;
+To get a list of your suppressions or delete certain emails from your suppression list use the [account-management.openapi.yml](https://github.com/mailtrap/mailtrap-openapi/blob/main/specs/account-management.openapi.yml). It uses the `GET /suppressions` and `DELETE /suppressions/{id}` endpoints with which you can maintain email deliverability standards.
 
 **Primary use cases**:
 
@@ -167,7 +167,7 @@ Remove a specific email from the suppression list once the underlying issue (e.g
 
 **Response**:
 
-<figure><img src="../../.gitbook/assets/openapi 13 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/openapi 13.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Keep in mind that we take into account the suppressions for both transactional and bulk email sending.

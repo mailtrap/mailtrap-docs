@@ -12,7 +12,7 @@ description: >-
 In this guide, you’ll learn how to integrate it with the Mailtrap MCP, which allows you to, amongst other things, perform the following actions:
 
 * [Connect Mailtrap to your project](windsurf.md#connect-mailtrap-to-your-project)
-* [Perform Sandbox operations](windsurf.md#sandbox-operations-during-debugging)&#x20;
+* [Perform Sandbox operations](windsurf.md#sandbox-operations-during-debugging)
 * [Validate email templates](windsurf.md#template-validation)
 * [Forward email templates to your teammates](windsurf.md#sending-emails-to-your-teammate)
 
@@ -67,7 +67,7 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account** **Settings**.&#x20;
+* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account** **Settings**.
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
@@ -101,7 +101,7 @@ And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io
 
 #### Sandbox operations during debugging
 
-Reviewing code for sending emails or emails themselves in a staging environment using [Sandbox](https://mailtrap.io/email-sandbox/)?&#x20;
+Reviewing code for sending emails or emails themselves in a staging environment using [Sandbox](https://mailtrap.io/email-sandbox/)?
 
 With Windsurf connected to Mailtrap MCP, you can complete the following actions by prompting the agent:
 
@@ -111,7 +111,7 @@ With Windsurf connected to Mailtrap MCP, you can complete the following actions 
 
 <figure><img src="../.gitbook/assets/uc 1.png" alt=""><figcaption></figcaption></figure>
 
-#### Template validation&#x20;
+#### Template validation
 
 If you want to edit your email templates without switching to the Mailtrap UI, you can prompt the Windsurf AI to list them and fetch a specific template ID:
 
@@ -119,7 +119,7 @@ If you want to edit your email templates without switching to the Mailtrap UI, y
 
 Then, if you’re not satisfied with a subject line or two, you can also change them with a simple prompt, just like so:
 
-<figure><img src="../.gitbook/assets/uc 3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/uc 3.png" alt=""><figcaption></figcaption></figure>
 
 #### Sending emails to your teammate
 

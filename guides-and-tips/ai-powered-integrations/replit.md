@@ -8,7 +8,7 @@ description: >-
 
 [Replit](https://replit.com/) is a tool that lets you build and deploy software using AI without any coding whatsoever. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
-**Prerequisites**:&#x20;
+**Prerequisites**:
 
 * Add and [verify your email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
 * Make sure your [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) has `admin` access level to that domain.
@@ -40,7 +40,7 @@ Here it is in a Gmail inbox I used as my `to` address:
 
 And here it is in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-<figure><img src="../.gitbook/assets/replit 2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/replit 2.png" alt=""><figcaption></figcaption></figure>
 
 ### Next steps
 
@@ -48,20 +48,3 @@ And here it is in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-s
 * Configure [Mailtrap Contacts](https://mailtrap.io/mailtrap-contacts/) to push user information to your Mailtrap Lists, so you can later send campaigns to them or use Automations.
 * [Add automation triggers](https://docs.mailtrap.io/email-marketing/automations) in Mailtrap to send follow-ups to new contacts.
 * Track open and click rates with [Mailtrap Analytics](https://mailtrap.io/actionable-analytics/).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

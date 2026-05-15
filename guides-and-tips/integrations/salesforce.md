@@ -2,7 +2,7 @@
 
 [Salesforce](https://www.salesforce.com/ap/) is a cloud-based CRM platform used by businesses to manage customer relationships, sales, and marketing.
 
-With the Mailtrap App for Salesforce, you can route your transactional and marketing emails through [Email Sandbox](https://mailtrap.io/email-sandbox/) to test and inspect them before they reach real recipients.&#x20;
+With the Mailtrap App for Salesforce, you can route your transactional and marketing emails through [Email Sandbox](https://mailtrap.io/email-sandbox/) to test and inspect them before they reach real recipients.
 
 In this guide, you'll learn how to:
 
@@ -32,7 +32,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 * Under the **Permission Set Assignments** list, click on **Edit Assignments**.
 
-<figure><img src="../.gitbook/assets/salesforce 2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/salesforce 2.png" alt=""><figcaption></figcaption></figure>
 
 * Select **MailTrap Admin** and hit the **Save** button.
 
@@ -52,7 +52,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 * Next, make sure to check the **Enable OAuth** box and configure it with the following settings:
   * **Callback URL** – For now, use `https://www.example.com` (we will change it later);
-  * **OAuth Scopes**  – Select **Manage user data via APIs (api)** and Perform **requests at any time (refresh\_token, offline\_access)**.
+  * **OAuth Scopes** – Select **Manage user data via APIs (api)** and Perform **requests at any time (refresh\_token, offline\_access)**.
 
 <figure><img src="../.gitbook/assets/step 6.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,8 +64,8 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 <figure><img src="../.gitbook/assets/step 8.png" alt=""><figcaption></figcaption></figure>
 
-* Enable **Client Credentials Flow** and enter the email address of the **Admin User** with **MailTrap Admin permission** set assigned.&#x20;
-* Select **Refresh Token** is valid until revoked.&#x20;
+* Enable **Client Credentials Flow** and enter the email address of the **Admin User** with **MailTrap Admin permission** set assigned.
+* Select **Refresh Token** is valid until revoked.
 * Hit the **Save** button.
 
 <figure><img src="../.gitbook/assets/step 9.png" alt=""><figcaption></figcaption></figure>
@@ -141,7 +141,7 @@ Once you’re done, make sure to hit the **Save** button.
 <figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Fill in all necessary information:
-  * **Label and Name**: MailTrap\_To\_SF&#x20;
+  * **Label and Name**: MailTrap\_To\_SF
   * **URL**: Your domain URL
   * **External Credential**: select External Credential you created before – MailTrap\_To\_SF
   * **Allowed Namespaces for Callouts**: RWMailtrap
@@ -182,15 +182,15 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 * Go to the **Profiles** page and open the profile used for your use.
 
-<figure><img src="../.gitbook/assets/12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/12.png" alt=""><figcaption></figcaption></figure>
 
 * At the **Enabled External Credential Principal** **Access** section click **Edit**.
 
-<figure><img src="../.gitbook/assets/13 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
 * Select **MailTrap\_To\_SF – 1** and click **Save**.
 
-<figure><img src="../.gitbook/assets/14 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
 
 And that’s it, your application is ready!
 

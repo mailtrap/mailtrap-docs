@@ -59,15 +59,15 @@ Next, all you need to do is replace the following values in the **settings.json*
 
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-<figure><img src="../.gitbook/assets/1 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_ACCOUNT_ID` — This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
 
-<figure><img src="../.gitbook/assets/2 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_TEST_INBOX_ID` — If you need sandbox email functionality, you can find this ID in your Sandbox.
 
-<figure><img src="../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 Once you insert your Mailtrap credentials, make sure to refresh the page or reopen VS Code.
 

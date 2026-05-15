@@ -16,7 +16,7 @@ In this guide, you’ll learn how to integrate it with the Mailtrap MCP, which a
 * [Fetch, validate, and edit email templates](claude.md#template-validation)
 * [Forward email templates to your teammates](claude.md#integrating-mailtrap-into-your-project)
 
-**Prerequisites**:&#x20;
+**Prerequisites**:
 
 * If you haven’t set up your sending domain already, you’ll need to do it before we start — it takes \~5 minutes, and you can use our [step-by-step article](https://help.mailtrap.io/article/69-sending-domain-setup) as a guide.
 * Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
@@ -44,15 +44,15 @@ Next, all you need to do is insert the following Mailtrap credentials:
 
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-<figure><img src="../.gitbook/assets/1 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.&#x20;
+* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
 
-<figure><img src="../.gitbook/assets/2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
-<figure><img src="../.gitbook/assets/3 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 After you insert your Mailtrap credentials, make sure to enable the MCP on the following window, and you’re all set!
 
@@ -60,7 +60,7 @@ After you insert your Mailtrap credentials, make sure to enable the MCP on the f
 
 ### Claude + Mailtrap MCP server use cases
 
-#### Sandbox operations&#x20;
+#### Sandbox operations
 
 Reviewing code for sending emails or emails themselves in a staging environment using [Sandbox](https://mailtrap.io/email-sandbox/)
 
@@ -72,7 +72,7 @@ With Claude connected to Mailtrap MCP, you can complete the following actions by
 
 <figure><img src="../.gitbook/assets/use case 1.png" alt=""><figcaption></figcaption></figure>
 
-#### Template validation&#x20;
+#### Template validation
 
 To edit your email templates without switching to the Mailtrap UI, you can prompt Claude to list them and fetch a specific template ID:
 
@@ -98,8 +98,8 @@ All you need to do is use a prompt like this one:
 
 Claude Code will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a .env file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.11 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.11.png" alt=""><figcaption></figcaption></figure>
 
 And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.32 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.32.png" alt=""><figcaption></figcaption></figure>

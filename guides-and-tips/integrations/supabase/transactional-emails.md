@@ -38,10 +38,10 @@ Sending automated emails via Supabase Edge Functions is not covered by this inte
 
 * Log in to your Mailtrap account.
 * Navigate to the [**Integrations** page](https://mailtrap.io/api-smtp/integrations) from the sidebar.
-* Scroll to the **AI & Development** section (or search for "Supabase") and locate the **Supabase** card.
+* Click on the **AI & Development** tab (or search for "Supabase") and locate the **Supabase** card.
 * Click the **Integrate** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 12.49.46.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-tcfw.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -49,11 +49,11 @@ Sending automated emails via Supabase Edge Functions is not covered by this inte
 
 * On the setup screen, click **Connect Supabase**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 12.50.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-tedn.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * Review the permissions for the access of your Supabase organizations and projects, and click **Authorize Mailtrap**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.08.34.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.08.34.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 **Write** and **Read** access is required to update configurations. Moreover, you can revoke the authorization at any time.
@@ -68,7 +68,7 @@ Once authorized, Mailtrap will load your available Supabase projects. Then, all 
 * Click the **Select a Supabase project** dropdown menu
 * Choose the specific project you wish to integrate (e.g., Test Integration).
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.12.29.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-thvl-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -77,9 +77,7 @@ Once authorized, Mailtrap will load your available Supabase projects. Then, all 
 * In the **Create an API token** section, use the dropdown menu to select the Mailtrap Domain you want to use for sending emails.
 * Click **Create Token**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.15.57.png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-tkdn.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -94,29 +92,29 @@ Define who the emails will appear to be coming from.
 
 You will see a confirmation message stating: "_Successfully configured Supabase SMTP_."
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2025-12-18 at 13.18.09.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-tlhq.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
 ### Manual integration
 
-You can also integrate Mailtrap SMTP with Supabase manually.&#x20;
+You can also integrate Mailtrap SMTP with Supabase manually.
 
 {% stepper %}
 {% step %}
 **Obtain your sending credentials**
 
-* Go to **Sending Domains** and select your domain.
+* Go to **Domains** and select your domain.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-1.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-tmxy.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * Click on **Integration**, select **Transactional Stream**, and click **Integrate**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-2.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-tnpv.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * Under the **SMTP** tab, you can find your sending credentials, which include **Host**, **Port**, **Username**, and **Password**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-3.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-topf.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -133,11 +131,11 @@ You can also integrate Mailtrap SMTP with Supabase manually.&#x20;
 * Click on **Emails** → **SMTP Settings** and enable the **Enable Custom SMTP** toggle. Update **Host**, **Port**, **Username**, and **Password** with your Mailtrap credentials, then click **Save changes**.
 * Update the **Sender details** and **SMTP provider settings** like in the screenshot below, and hit **Save changes**.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
-### **Monitor your email performance**
+#### **Monitor your email performance**
 
-Once you send emails from your Supabase project, they should arrive in both your recipient's inbox and your **Mailtrap Email Logs**. There, you can see useful information such as delivery time, opens/clicks, email HTML source, [spam analysis](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox/deliverability-tests), and more.
+Once you send emails from your Supabase project, they should arrive in both your recipient's inbox and your **Mailtrap Email Logs**. There, you can see useful information such as delivery time, opens/clicks, email HTML source, [spam analysis](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox/testing/spam-blacklist-reports), and more.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-9.png" alt="" width="563"></div>
 

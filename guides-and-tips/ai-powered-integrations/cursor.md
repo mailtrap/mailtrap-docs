@@ -196,7 +196,7 @@ You can prompt Cursor to integrate Mailtrap into your project, have AI install t
 
 > Integrate Mailtrap into my project, so that it can send emails through the Mailtrap email API. For this, use my Mailtrap API token and sending address. Make sure to safely store my credentials in an .env file
 
-**Important**: Don't forget to add your actual Mailtrap API token and the sending email address to the prompt.&#x20;
+**Important**: Don't forget to add your actual Mailtrap API token and the sending email address to the prompt.
 
 Cursor AI will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a **.env** file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
@@ -204,7 +204,7 @@ Cursor AI will then go through the Mailtrap documentation, integrate the email A
 
 And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-<figure><img src="../.gitbook/assets/cursor email.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cursor new.png" alt=""><figcaption></figcaption></figure>
 
 ### Add Mailtrap MCP to Cursor
 
@@ -212,7 +212,7 @@ And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io
 
 To add Mailtrap MCP to Cursor, simply [click here](https://cursor.com/en-US/install-mcp?name=mailtrap\&config=eyJlbnYiOnsiTUFJTFRSQVBfQVBJX1RPS0VOIjoieW91cl9tYWlsdHJhcF9hcGlfdG9rZW4iLCJERUZBVUxUX0ZST01fRU1BSUwiOiJ5b3VyX3NlbmRlckBleGFtcGxlLmNvbSIsIk1BSUxUUkFQX0FDQ09VTlRfSUQiOiJ5b3VyX2FjY291bnRfaWQiLCJNQUlMVFJBUF9URVNUX0lOQk9YX0lEIjoieW91cl90ZXN0X2luYm94X2lkIn0sImNvbW1hbmQiOiJucHggLXkgbWNwLW1haWx0cmFwIn0%3D) or press the quick install button on the official Mailtrap MCP page:
 
-<figure><img src="../.gitbook/assets/cursor install (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cursor install.png" alt=""><figcaption></figcaption></figure>
 
 You will then be taken to the following Cursor settings page, where you will have to insert your Mailtrap credentials:
 
@@ -223,7 +223,7 @@ You will then be taken to the following Cursor settings page, where you will hav
 
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.&#x20;
+* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
 * `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
 Once you insert your Mailtrap credentials, make sure to hit the **Install** button, and you should see Mailtrap MCP installed, along with a list of available tools it comes with. Currently, Mailtrap MCP supports:

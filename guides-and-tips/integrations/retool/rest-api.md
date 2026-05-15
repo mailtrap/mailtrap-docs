@@ -4,11 +4,11 @@ description: >-
   to send emails via REST API.
 ---
 
-# Retool REST API Integration
+# Retool REST API
 
 Retool is an AI-powered platform that lets you build internal tools, apps, and workflows through natural language prompts and visual editing. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your Retool projects.
 
-**Prerequisites**:&#x20;
+**Prerequisites**:
 
 * A Retool account and a project.
 * A Mailtrap account for sending emails.
@@ -17,7 +17,7 @@ Retool is an AI-powered platform that lets you build internal tools, apps, and w
 
 Open Retool and go to the **Resources** tab. Once there, click on **Create new** → **Resource**.
 
-<figure><img src="../../.gitbook/assets/retool 1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/retool 1.png" alt=""><figcaption></figcaption></figure>
 
 On the next page, select **REST API**.
 
@@ -36,7 +36,7 @@ Once you insert the required details, make sure to click **Save changes** and go
 
 ### Step 2. Configure a query
 
-As the next step, we'll add a query to the Query Library. Queries stored here can be reused across any of your Retool apps.&#x20;
+As the next step, we'll add a query to the Query Library. Queries stored here can be reused across any of your Retool apps.
 
 In this example, we’ll create a query that sends an email with fixed content defined in the query settings. However, you can use any Mailtrap endpoint with Retool such as managing contacts, updating email templates, or sending messages to a sandbox. For more information, please check out the official [Mailtrap email API documentation](https://docs.mailtrap.io/developers).
 
@@ -68,7 +68,7 @@ This is just an example body for sending emails from a simple form. Feel free to
 
 Here’s what your new query should look like:
 
-<figure><img src="../../.gitbook/assets/retool 4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/retool 4.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3. Test the integration
 
@@ -78,7 +78,7 @@ Finally, to test your configuration, click on the **Test** button in the upper-r
 
 Here it is in the Gmail inbox I used as my `to` address:
 
-<figure><img src="../../.gitbook/assets/retool 6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/retool 6.png" alt=""><figcaption></figcaption></figure>
 
 And here it is in the Mailtrap [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 

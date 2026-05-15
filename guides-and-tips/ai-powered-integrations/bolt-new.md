@@ -41,7 +41,7 @@ Here is the email in a Gmail inbox I used as my `to` address:
 
 And here it is in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-<figure><img src="../.gitbook/assets/bolt  (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bolt .png" alt=""><figcaption></figcaption></figure>
 
 ### Next steps
 
