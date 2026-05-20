@@ -121,6 +121,7 @@
     * [Google Workspace](account-and-organization/management/sso/google-workspace.md)
     * [OneLogin](account-and-organization/management/sso/onelogin.md)
     * [JumpCloud](account-and-organization/management/sso/jumpcloud.md)
+* [Notification center](account-and-organization/notification-center.md)
 * [Billing & Plans](account-and-organization/billing/README.md)
   * [Billing Setup](account-and-organization/billing/setup.md)
   * [Payment Issues](account-and-organization/billing/payment-issues.md)
