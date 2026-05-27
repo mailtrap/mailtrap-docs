@@ -32,10 +32,10 @@
         spec: email-sending-bulk
   ```
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -46,10 +46,10 @@
 ## Templates
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -85,10 +85,10 @@
         spec: sandbox
   ```
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
@@ -99,10 +99,10 @@
 ## Account Management
 
 * ```yaml
-  type: builtin:openapi
   props:
     models: false
     downloadLink: false
+  type: builtin:openapi
   dependencies:
     spec:
       ref:
