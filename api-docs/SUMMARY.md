@@ -43,6 +43,20 @@
         spec: email-sending
   ```
 
+## Inbound
+
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: inbound
+  ```
+
 ## Templates
 
 * ```yaml
