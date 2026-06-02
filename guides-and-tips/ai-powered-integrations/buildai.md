@@ -1,8 +1,8 @@
-# BuildAI Integration with Mailtrap
+# BuildAI
 
-[BuildAI.Space](https://www.buildai.space/) is a no-code platform for building AI-powered apps and Digital Employees. Builders can create trained Digital Employees that handle end-to-end workflows, integrate with external systems, and share them with other users who can hire them through recurring monthly subscriptions.
+[BuildAI.Space](https://www.buildai.space/) is a no-code platform for building AI-powered apps and Digital Employees.
 
-This article shows you how to connect Mailtrap's email API to your BuildAI Digital Employees and AI-powered apps using BuildAI's Custom Integration feature. Digital Employees can use Mailtrap to manage end-to-end email workflows such as lead outreach, follow-ups, customer notifications, appointment confirmations, and other automated actions. The same integration can also be used inside AI-powered apps and workflows. No code required.
+This article shows you how to connect Mailtrap’s email API to your BuildAI AI-powered apps using BuildAI’s Custom Integration feature. The same integration can also be used inside AI-powered apps and workflows. No code required
 
 #### Prerequisties
 
