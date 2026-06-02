@@ -96,17 +96,6 @@
     spec:
       ref:
         kind: openapi
-        spec: sandbox
-  ```
-* ```yaml
-  props:
-    models: false
-    downloadLink: false
-  type: builtin:openapi
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
         spec: sandbox-sending
   ```
 
