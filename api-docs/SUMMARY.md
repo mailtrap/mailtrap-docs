@@ -71,7 +71,7 @@
         spec: templates
   ```
 
-## Promotional
+## Marketing
 
 * ```yaml
   props:
