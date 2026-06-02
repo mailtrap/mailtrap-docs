@@ -51,7 +51,7 @@
 * [Anything](ai-powered-integrations/anything.md)
 * [Augment Code](ai-powered-integrations/augment-code.md)
 * [Base44](ai-powered-integrations/base44.md)
-* [BuildAI Integration with Mailtrap](ai-powered-integrations/buildai-integration-with-mailtrap.md)
+* [BuildAI](ai-powered-integrations/buildai.md)
 * [Bolt.new](ai-powered-integrations/bolt-new.md)
 * [Claude](ai-powered-integrations/claude.md)
 * [Codex](ai-powered-integrations/codex.md)
