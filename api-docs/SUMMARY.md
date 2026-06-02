@@ -98,6 +98,17 @@
         kind: openapi
         spec: sandbox-sending
   ```
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: sandbox
+  ```
 
 ## Account Management
 
