@@ -31,17 +31,6 @@
         kind: openapi
         spec: email-sending-bulk
   ```
-* ```yaml
-  props:
-    models: false
-    downloadLink: false
-  type: builtin:openapi
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: email-sending
-  ```
 
 ## Promotional
 
