@@ -2,6 +2,12 @@
 
 * [Documentation](README.md)
 
+## Inbound Email
+
+* [Overview](inbound-email/overview.md)
+* [Receiving Emails](inbound-email/receiving-emails.md)
+* [Webhooks](inbound-email/webhooks.md)
+
 ## Getting Started
 
 * [AI Onboarding](getting-started/ai-onboarding.md)

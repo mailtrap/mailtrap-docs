@@ -15,12 +15,12 @@ Building with AI? Mailtrap provides several resources to make your life easier:
 [email-api-smtp.md](email-api-smtp.md)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/kUZPOczjlPDqtc17WDgZ" %}
-[Broken link](/broken/pages/kUZPOczjlPDqtc17WDgZ)
+{% content-ref url="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox" %}
+[Email Sandbox](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox)
 {% endcontent-ref %}
 
-{% content-ref url="/broken/pages/V3u4qiAblbvKfyv8G2fn" %}
-[Broken link](/broken/pages/V3u4qiAblbvKfyv8G2fn)
+{% content-ref url="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing" %}
+[Email Marketing](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-marketing)
 {% endcontent-ref %}
 
 ### Getting started
@@ -144,7 +144,7 @@ Or, you can also give your agent to all of our docs in a single llms.txt file:
 
 ### Mailtrap CLI app
 
-With [Mailtrap’s CLI app](https://github.com/mailtrap/mailtrap-cli), you can send emails, inspect sandbox, monitor deliverability stats, and administer domains, templates, contacts, and more – all from your terminal.&#x20;
+With [Mailtrap’s CLI app](https://github.com/mailtrap/mailtrap-cli), you can send emails, inspect sandbox, monitor deliverability stats, and administer domains, templates, contacts, and more – all from your terminal.
 
 To install, you can download the latest release from [GitHub Releases](https://github.com/mailtrap/mailtrap-cli/releases) and add it to your PATH, or use either Homebrew:
 
@@ -188,7 +188,7 @@ To install, simply copy the [skills folders](https://github.com/mailtrap/mailtra
 npx skills add mailtrap/mailtrap-skills
 ```
 
-And here's a table with each skill and a brief description&#x20;
+And here's a table with each skill and a brief description
 
 | Skill                                                                                                                 | Description                                                                                                                                |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
