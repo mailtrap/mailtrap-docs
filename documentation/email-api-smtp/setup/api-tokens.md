@@ -29,7 +29,7 @@ llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap
 
 #### Add and manage tokens manually
 
-{% @arcade/embed flowId="Wou6gPk3SMKFtb3lWBFp" url="https://app.arcade.software/share/Wou6gPk3SMKFtb3lWBFp" %}
+{% include "../../.gitbook/includes/untitled (1).md" %}
 
 {% stepper %}
 {% step %}

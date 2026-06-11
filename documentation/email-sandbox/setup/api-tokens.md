@@ -5,14 +5,18 @@ icon: key
 
 # API Tokens
 
-The guidelines assume that you've set up Email Sandbox and use the corresponding [API v2](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes).
+You need an API Token if you want to integrate Email Sandbox via the [API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails). If you're working with the SMTP, you don't need the API Tokens.
 
 #### Add and manage tokens manually
+
+{% include "../../.gitbook/includes/untitled (1).md" %}
 
 {% stepper %}
 {% step %}
 Navigate to **Settings** in the menu on the left and select **API Tokens**.
+{% endstep %}
 
+{% step %}
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rsoh.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
@@ -31,7 +35,7 @@ It’s perfectly fine to have a custom name for the API token, as it’s only fo
 {% endstep %}
 
 {% step %}
-**Assign permissions** by checking the boxes in the corresponding access level columns. Note that you must have admin permissions on a particular domain to send emails with this token.
+**Assign permissions** by checking the boxes in the corresponding access level columns.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-siht.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
@@ -43,23 +47,7 @@ Click the **Save** button and preview the new token under the **API Tokens** mai
 {% endstep %}
 {% endstepper %}
 
-#### Auto-created token per domain
-
-When you create a domain, a token is automatically created and named based on the following formula: \[domain name] + \[token] + \[token ID].
-
-For example, if you add the example.com domain, the token for that domain will be named example.com token 1234. By default, the automatically generated token gets Domain Admin Mailtrap for the given domain.
-
-{% hint style="info" %}
-You'll need to edit permissions for the automatically generated token to allow for authorization on other domains.
-{% endhint %}
-
 #### Where to find tokens?
-
-**SMTP Integration**
-
-The automatically assigned token per domain is under the **Integration** tab in **Domains**. Choose the desired stream, click **Integrate**, and toggle the switch to **SMTP**. SMTP password is the same as the API Token.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-soqd.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Settings > API Tokens
 
