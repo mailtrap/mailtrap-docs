@@ -2,19 +2,12 @@
 
 * [Documentation](README.md)
 
-## Inbound Email
-
-* [Overview](inbound-email/overview.md)
-* [Receiving Emails](inbound-email/receiving-emails.md)
-* [Webhooks](inbound-email/webhooks.md)
-
 ## Getting Started
 
 * [AI Onboarding](getting-started/ai-onboarding.md)
 * [Email API/SMTP](getting-started/email-api-smtp.md)
 * [Email Sandbox](getting-started/email-sandbox.md)
 * [Email Marketing](getting-started/email-marketing.md)
-* [Inbound Email](getting-started/inbound-email.md)
 
 ## Email API/SMTP
 
@@ -68,6 +61,12 @@
     * [From Header Mismatch](email-api-smtp/troubleshooting/from-header-domain-mismatch.md)
     * [Click Tracking Blocked – SSL Cipher Error](email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md)
     * [Office 365 Quarantine](email-api-smtp/troubleshooting/ms-office-365-quarantine.md)
+
+## Inbound Email
+
+* [Overview](inbound-email/overview.md)
+* [Receiving Emails](inbound-email/receiving-emails.md)
+* [Webhooks](inbound-email/webhooks.md)
 
 ## Email Sandbox
 
