@@ -27,7 +27,7 @@ llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap
 
 </details>
 
-#### Add and manage tokens manually
+#### How to add and manage tokens manually
 
 {% include "../../.gitbook/includes/untitled (1).md" %}
 
@@ -73,7 +73,7 @@ Select **Settings** in the left menu, then API Tokens. You’ll see all active t
 
 The automatically assigned token per domain is under the Integration tab in Sending Domains. Choose the desired stream, click Integrate, and toggle the switch to API. You'll see the endpoint (Host) and your API Token.
 
-### Reset token
+### How to reset a token
 
 Go to **Settings** > **API Tokens**, click the three-dot menu icon next to the token you want to reset, and click **Reset API Token**.
 
@@ -90,7 +90,7 @@ Confirm your choice by clicking on the corresponding button.
 * After the API token is reset and expired, a new token is created. The token ID is added to the token name the same way it's done for automatically generated tokens, e.g., mailtrap.example token 4231.
 {% endhint %}
 
-### Edit permissions
+### How to edit permissions
 
 As mentioned earlier, click the menu icon at the far right of a token and select **Edit permissions**.
 
@@ -98,7 +98,7 @@ As mentioned earlier, click the menu icon at the far right of a token and select
 
 Click on the corresponding boxes to add or remove token permissions. Then, confirm your selection with the **Save** button.
 
-### Delete token
+### How to delete a token
 
 To delete a token, click a three-dot menu icon and choose the **Delete** **token** option.
 
