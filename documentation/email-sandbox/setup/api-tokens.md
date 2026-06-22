@@ -5,7 +5,7 @@ icon: key
 
 # API Tokens
 
-You need an API Token to integrate Email Sandbox via the [API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails). If you're working with the SMTP, you don't need the API Tokens.
+You need an API Token to integrate Email Sandbox via the [API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails). If you're working with the SMTP, you don't need an API Token.
 
 #### How to add and manage tokens manually
 
