@@ -13,6 +13,7 @@ We deeply appreciate the valuable work of non-profit organizations and open-sour
 
 * **Email Sandbox** – Free access to the Team plan
 * **Email API / SMTP** – Free access to the Basic 10K plan
+* **Email Marketing** - Free access to the Essential 10K plan
 * **Discounted Billing** – All other paid plans are available at a 50% discount
 
 To activate a non-profit plan, please email us at **support@mailtrap.io** with the following:
