@@ -5,7 +5,7 @@ icon: key
 
 # API Tokens
 
-You need an API Token if you want to integrate Email Sandbox via the [API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails). If you're working with the SMTP, you don't need the API Tokens.
+You need an API Token to integrate Email Sandbox via the [API](https://docs.mailtrap.io/developers/email-sandbox/send-test-emails). If you're working with the SMTP, you don't need the API Tokens.
 
 #### How to add and manage tokens manually
 
@@ -67,5 +67,8 @@ Confirm the action by clicking the **Confirm** button.
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
-**Important:** Keep in mind that a token is deleted immediately. .
+**Important:**&#x20;
+
+* When you reset a token, the token is kept valid for 12 hours. When you delete the token, the token is deleted immediately.&#x20;
+* Use the delete feature in case your token gets compromised (i.e., leak). This way, all of the integrations using the token (be it yours or bad actor's) will stop working immediately.
 {% endhint %}
