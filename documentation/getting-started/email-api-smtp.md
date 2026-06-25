@@ -31,11 +31,15 @@ For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-
 
 ## Prerequisites
 
-* A [Mailtrap account](https://mailtrap.io/signup)
+* A [Mailtrap account](https://mailtrap.io/signup)&#x20;
 * A domain you own (you'll set it up in Step 3)
 * Your app's technology stack decided (language/framework)
 
-## Step 1: Choose Your SDK
+{% hint style="info" %}
+**Important**: Make sure the email address of the account owner is actively monitored. If we detect suspicious sending activity or need to clarify any important account details, we may contact you at this email address to ask additional questions, which helps avoid unnecessary account restrictions.
+{% endhint %}
+
+## Step 1: Choose your SDK
 
 Mailtrap provides official SDKs for all major languages. Pick the one that matches your stack:
 
@@ -56,7 +60,7 @@ Full SDK documentation: [Node.js](../../guides-and-tips/sdks/nodejs.md) | [Pytho
 **No SDK for your stack?** Use the [REST API directly](../../api-docs/) with any HTTP client.
 {% endhint %}
 
-## Step 2: Get Your API Token
+## Step 2: Get your API token
 
 You need an API token to authenticate all Mailtrap API calls — sending emails, managing domains, creating templates.
 
@@ -66,7 +70,7 @@ Go to [API Tokens](https://mailtrap.io/settings/api-tokens) → create a new tok
 **Using an AI assistant?** Paste the token to your assistant — it can handle everything else via API.
 {% endhint %}
 
-## Step 3: Verify Your Sending Domain
+## Step 3: Verify your sending domain
 
 You need a verified domain to send live emails. This can be done through the UI or entirely programmatically.
 
@@ -282,7 +286,7 @@ After DNS verification, newly added domains undergo a compliance check. Your dom
 **Want to test before your domain is verified?** Skip ahead to [Optional: Test with Email Sandbox](email-api-smtp.md#optional-test-with-email-sandbox) — no domain needed.
 {% endhint %}
 
-## Step 4: Send Your First Email
+## Step 4: Send your first email
 
 With your SDK installed, API token set, and domain verified, you're ready to send. The examples below use inline HTML for simplicity — for real applications, use [Mailtrap-hosted templates](email-api-smtp.md#step-5-use-email-templates-recommended) instead (see Step 5).
 
@@ -413,6 +417,10 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+**Important**: If your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
+{% endhint %}
 
 ## Step 5: Use Email Templates
 
