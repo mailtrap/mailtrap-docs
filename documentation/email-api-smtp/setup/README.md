@@ -19,6 +19,12 @@ Get up and running with this essential setup checklist:
 * [ ] Configure authentication
 * [ ] Send your first email
 
+{% hint style="info" %}
+**Important**: Make sure the email address of the account owner is actively monitored. If we detect suspicious sending activity or need to clarify any important account details, we may contact you at this email address to ask additional questions, which helps avoid unnecessary account restrictions.
+
+Furthermore, if your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
+{% endhint %}
+
 ### Configuration steps
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sending Domain Setup</strong></td><td><em>the foundation of email delivery. Verify your domain ownership and configure authentication records (SPF, DKIM, DMARC) for optimal deliverability.</em></td><td><a href="sending-domain.md">sending-domain.md</a></td></tr><tr><td><strong>API Integration</strong></td><td><em>modern RESTful API for programmatic email sending. Best for new applications and microservices architecture.</em></td><td><a href="../api-integration.md">api-integration.md</a></td></tr><tr><td><strong>SMTP Integration</strong></td><td><em>traditional SMTP protocol for universal compatibility. Works with any email library or legacy system.</em></td><td><a href="../smtp-integration.md">smtp-integration.md</a></td></tr><tr><td><strong>Dedicated IP</strong></td><td><em>gradually build your sending reputation. Essential for high-volume senders and dedicated IPs.</em></td><td><a href="../deliverability/ip-warmup.md">ip-warmup.md</a></td></tr></tbody></table>
