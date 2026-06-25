@@ -22,7 +22,7 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 
 <summary>How do I integrate Mailtrap with my application?</summary>
 
-1. [Sign up](https://mailtrap.io/register/signup/) for an account.
+1. [Sign up](https://mailtrap.io/register/signup/) for an account.&#x20;
 2. Go to Email Sending and select [Sending Domains](https://mailtrap.io/domains).
 3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.
 4. Proceed to integrate Mailtrap with your application via SMTP or API.
@@ -34,6 +34,8 @@ Learn more:
 * [Sending Domain Setup](setup/sending-domain.md)
 
 If you have any questions, contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
+
+**Important**: Make sure the address of the account owner is actively monitored. If we detect suspicious sending activity or need to clarify any important account details, we may contact you at this email address to ask additional questions, which helps avoid unnecessary account restrictions.
 
 </details>
 
@@ -74,6 +76,8 @@ Please check our [Sending Domain Setup Guide](setup/sending-domain.md) for detai
 <summary>When I add a domain to Mailtrap, does that include subdomains?</summary>
 
 No, you need to add and verify each subdomain/domain separately.
+
+Furthermore, if your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
 
 </details>
 
