@@ -21,6 +21,10 @@ There are three (3) levels of suspension:
 * **Domain level** – Only the problematic domain is suspended, and other domains under the same account can continue sending emails without disruption.
 * **Stream level** – If suspicious activity is detected on one of our two sending streams (Transactional and Bulk), only one stream will be suspended.
 
+{% hint style="info" %}
+If we detect suspicious sending activity or need to clarify any important account details, we will contact you at the email address of the account owner to ask additional questions, which helps avoid unnecessary account restrictions.
+{% endhint %}
+
 ### What is a ban?
 
 A ban is a **permanent** state applied to a customer account.
