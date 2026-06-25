@@ -45,6 +45,12 @@ Need help adding DNS records for your specific provider? Check out our detailed 
 
 {% @arcade/embed url="https://app.arcade.software/share/39p36H3XvIxXKeKthmsd" flowId="39p36H3XvIxXKeKthmsd" %}
 
+{% hint style="info" %}
+**Important**: Make sure the email address of the account owner is actively monitored. If we detect suspicious sending activity or need to clarify any important account details, we may contact you at this email address to ask additional questions, which helps avoid unnecessary account restrictions.
+
+Furthermore, if your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 **Add domain**
