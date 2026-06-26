@@ -10,7 +10,7 @@ description: >-
 
 ## Overview
 
-Mailtrap can be integrated into N8N workflows to automate email sending and contact management.&#x20;
+Mailtrap can be integrated into N8N workflows to automate email sending and contact management.
 
 In this article, you'll learn how to:
 
@@ -28,7 +28,7 @@ Just search for "Mailtrap" in the nodes.
 
 To install Mailtrap node, you can simply type in `n8n-nodes-mailtrap` under 'Enter npm package name' in Community Nodes, just like so:
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-and-n8n-integration-1.png" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.02.22.png" alt=""><figcaption></figcaption></figure>
 
 Or, you can run use npm to install the node manually:
 
