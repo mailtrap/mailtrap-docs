@@ -115,7 +115,7 @@ You can do all of this from your IDE connected to GitHub copilot with the follow
 
 <summary>"Search for messages containing 'test' in my sandbox inbox"</summary>
 
-<figure><img src="../.gitbook/assets/copilot 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -137,4 +137,4 @@ Using a Mailtrap template ID in your code, but you’re not sure whether it’s 
 
 You can also ask your teammates’ opinion on an email design or a template you’re working in your Sandbox by prompting GitHub Copilot, no need to leave the editor.
 
-<figure><img src="../.gitbook/assets/copilot 8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.18.09.png" alt=""><figcaption></figcaption></figure>
