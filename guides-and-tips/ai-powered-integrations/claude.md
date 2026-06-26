@@ -70,7 +70,7 @@ With Claude connected to Mailtrap MCP, you can complete the following actions by
 * Inspect basic message metadata
 * Use the returned message ID to request full message details (content, headers, etc.), and more.
 
-<figure><img src="../.gitbook/assets/use case 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.04.32.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Template validation
 
@@ -86,7 +86,7 @@ Then, if you’re not satisfied with a subject line or two, you can also change 
 
 Done revising your emails in Sandbox? If so, you can ask Claude to send them to a teammate for a quick review:
 
-<figure><img src="../.gitbook/assets/use case 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.08.35.png" alt=""><figcaption></figcaption></figure>
 
 #### Integrating Mailtrap into your project
 
@@ -98,8 +98,8 @@ All you need to do is use a prompt like this one:
 
 Claude Code will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a .env file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.10.54.png" alt=""><figcaption></figcaption></figure>
 
 And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-26 at 10.11.14.png" alt=""><figcaption></figcaption></figure>
