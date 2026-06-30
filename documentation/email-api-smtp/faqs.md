@@ -8,7 +8,7 @@ icon: question
 
 This page covers frequently asked questions about Mailtrap Email API/SMTP. For technical issues and error troubleshooting, see the [Troubleshooting section](troubleshooting/).
 
-#### Getting Started
+#### Getting started
 
 <details>
 
@@ -59,7 +59,7 @@ If you verified mydomain.com, you can send emails only on behalf of your domain.
 
 </details>
 
-#### Domain Setup
+#### Domain setup
 
 <details>
 
@@ -77,11 +77,19 @@ Please check our [Sending Domain Setup Guide](setup/sending-domain.md) for detai
 
 No, you need to add and verify each subdomain/domain separately.
 
-Furthermore, if your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
+</details>
+
+<details>
+
+<summary>Do I need to verify all domains mentioned in my emails?</summary>
+
+If your emails mention, promote, or link to another domain that belongs to you, your company, or your client, then you need to add that domain to Sending Domains and verify it as well.&#x20;
+
+This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
 
 </details>
 
-#### Features & Capabilities
+#### Features & capabilities
 
 <details>
 
@@ -117,7 +125,7 @@ We use AWS with auto-balancing, so our IP ranges are the following: [https://ip-
 
 </details>
 
-#### Billing & Limits
+#### Billing & limits
 
 <details>
 
@@ -159,7 +167,7 @@ For current pricing and to choose a plan that best fits your needs, visit our [p
 
 </details>
 
-#### Data & Privacy
+#### Data & privacy
 
 <details>
 
