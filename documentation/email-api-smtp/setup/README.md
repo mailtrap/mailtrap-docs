@@ -15,6 +15,7 @@ Get up and running with this essential setup checklist:
 
 * [ ] Create your Mailtrap account
 * [ ] Verify your sending domain
+* [ ] Go to the [Sending Setup page](https://mailtrap.io/api-smtp/sending-setup)
 * [ ] Choose integration method (API or SMTP)
 * [ ] Configure authentication
 * [ ] Send your first email
