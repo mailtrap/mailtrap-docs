@@ -18,22 +18,22 @@ Email API/SMTP provides two powerful methods for sending emails:
 
 Both methods offer the same features, deliverability, and analytics - choose based on your technical requirements.
 
-## Key Features
+## Key features
 
-#### Reliable Delivery
+#### Reliable delivery
 
 * Enterprise-grade infrastructure: Built for reliability and scale
 * Automatic Failover: Redundant systems ensure delivery
 * Smart Routing: Optimal rules selection for each email depending on recipient MX
 
-#### Analytics & Monitoring
+#### Analytics & monitoring
 
 * Real-Time Analytics: Track opens, clicks, bounces instantly
 * Detailed Email Logs: Full visibility into email journey
 * Custom Categories: Organize and analyze by type/templates/etc
 * Webhook Events: Real-time notifications for email events
 
-#### Deliverability + Support
+#### Deliverability + support
 
 * Deliverability and Support teams: helps with migration, monitoring and all questions you might have
 * [Complete Deliverability Guide](https://mailtrap.io/email-deliverability-guide/): Best practices for optimal inbox placement
@@ -42,16 +42,16 @@ Both methods offer the same features, deliverability, and analytics - choose bas
 * Suppressions Management: Automatic bounce handling
 * Feedback Loops: ISP complaint processing
 
-#### Developer-Friendly
+#### Developer-friendly
 
 * Official SDKs: Node.js, PHP, Python, Ruby, and more
 * RESTful API: Simple JSON-based communication
 * SMTP Integration: Works with existing email libraries
 * Sandbox Testing: Test before production
 
-## Use Cases
+## Use cases
 
-#### Transactional Emails
+#### Transactional emails
 
 Perfect for critical user communications:
 
@@ -61,7 +61,7 @@ Perfect for critical user communications:
 * System notifications and updates
 * Two-factor authentication codes
 
-#### Bulk Emails
+#### Bulk emails
 
 Dedicated infrastructure for marketing:
 
@@ -71,11 +71,11 @@ Dedicated infrastructure for marketing:
 * Event invitations
 * Customer surveys
 
-## Quick Start Guide
+## Quick start guide
 
 {% stepper %}
 {% step %}
-**Choose Your Integration Method**
+**Choose your integration method**
 
 {% tabs %}
 {% tab title="API" %}
@@ -119,22 +119,26 @@ await client.send({
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+You can find more integration options on the [Sending Setup page](https://mailtrap.io/api-smtp/sending-setup).
+{% endhint %}
 {% endstep %}
 
 {% step %}
-**Verify Your Domain**
+**Verify your domain**
 
 Add DNS records to authenticate your sending domain and improve deliverability.
 {% endstep %}
 
 {% step %}
-**Start Sending**
+**Start sending**
 
 Begin with transactional emails, then expand to bulk campaigns as needed.
 {% endstep %}
 {% endstepper %}
 
-## Two Streams Architecture
+## Two streams architecture
 
 Mailtrap separates email traffic for optimal deliverability:
 
@@ -143,11 +147,11 @@ Mailtrap separates email traffic for optimal deliverability:
 | **Transactional**                | Triggered user emails | High priority, immediate delivery                                     |
 | [**Bulk**](setup/bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management, separate suppresion list |
 
-## Getting Started
+## Getting started
 
 {% columns %}
 {% column %}
-**Setup & Configuration**
+**Setup & configuration**
 
 * [Sending Domain Setup](setup/sending-domain.md)
 * [API Integration](api-integration.md)
@@ -156,7 +160,7 @@ Mailtrap separates email traffic for optimal deliverability:
 {% endcolumn %}
 
 {% column %}
-**Essential Features**
+**Essential features**
 
 * [Deliverability Guide](https://mailtrap.io/email-deliverability-guide/)
 * [Email Templates](email-templates/)
@@ -165,36 +169,36 @@ Mailtrap separates email traffic for optimal deliverability:
 {% endcolumn %}
 {% endcolumns %}
 
-## Why Choose Mailtrap?
+## Why choose Mailtrap?
 
-**For Developers**
+**For developers**
 
 * Clean, well-documented APIs
 * Multiple integration options
 * Comprehensive SDKs
 * Sandbox environment for testing
 
-**For Businesses**
+**For businesses**
 
 * High deliverability rates
 * Detailed analytics and reporting
 * Scalable infrastructure
 * Enterprise-grade reliability
 
-**For Teams**
+**For teams**
 
 * Multi-user access control
 * Shared resources and templates
 * Collaborative workflows
 * Activity logging
 
-## Support & Resources
+## Support & resources
 
 Need help getting started or have questions?
 
 <a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
-## Next Steps
+## Next steps
 
 {% stepper %}
 {% step %}
