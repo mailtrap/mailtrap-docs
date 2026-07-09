@@ -91,7 +91,7 @@ MAIL_PASSWORD=<YOUR_API_TOKEN>
 
 Once you add Mailtrap SMTP to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-02-20 at 11.06.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/email logs new.png" alt=""><figcaption></figcaption></figure>
 
 Remember that each domain has different SMTP credentials that you can always access by clicking on the desired domain and going to the **Integrations** tab.
 
