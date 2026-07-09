@@ -12,11 +12,11 @@ Learn how to integrate your application via SMTP.
 
 ### Locating your Mailtrap credentials
 
-{% @arcade/embed flowId="Hson2pnGZl4GDpuz7HPz" url="https://app.arcade.software/share/Hson2pnGZl4GDpuz7HPz" %}
+{% @arcade/embed url="https://app.arcade.software/share/Hson2pnGZl4GDpuz7HPz" flowId="Hson2pnGZl4GDpuz7HPz" %}
 
 {% stepper %}
 {% step %}
-Go to the **Sending Domains** tab and choose the domain you want to send emails from.&#x20;
+Go to the **Sending Domains** tab and choose the domain you want to send emails from.
 
 Keep in mind that the [domain must be verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) in order for you to start sending emails.
 {% endstep %}
@@ -99,7 +99,7 @@ You can also create additional API tokens (or SMTP passwords) by going to **Sett
 
 <a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/smtp-tokens-add-token.png" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/api tokens new (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you need any help with SMTP integration, please, contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).
