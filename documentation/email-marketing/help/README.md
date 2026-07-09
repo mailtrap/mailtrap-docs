@@ -114,11 +114,11 @@ If the information provided (including AI responses) doesn’t fully resolve you
 
 You can get in touch with the Mailtrap Support team using one of the following ways:
 
-* **From your Mailtrap account**&#x20;
+* **From your Mailtrap account**
 
 1. Log in to your account [here](https://mailtrap.io/signin).
 2. Go to the <i class="fa-circle-question" style="color:$primary;">:circle-question:</i>[<mark style="color:$primary;">**Help Center**</mark>](https://mailtrap.io/help-center) > <i class="fa-message-dots">:message-dots:</i> Get Help
-3. Click <mark style="color:$primary;">**Start conversation.**</mark>&#x20;
+3. Click <mark style="color:$primary;">**Start conversation.**</mark>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-02-19 at 17.12.57.png" alt=""><figcaption></figcaption></figure>
 
@@ -294,15 +294,15 @@ For open-source projects, SDKs, or public repositories, join us on [GitHub](http
 
 ### Getting Started
 
-* [Quick Start Guide](../copy-of-email-marketing.md)
+* [Quick Start Guide](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md)
 * [Video Walkthrough](https://www.youtube.com/watch?v=example)
 * [Best Practices Guide](https://mailtrap.io/blog/email-marketing-best-practices/)
 
 ### Advanced Topics
 
-* [Segmentation Strategies](broken-reference/)
+* [Segmentation Strategies](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/help/broken-reference/README.md)
 * [Automation Workflows](../automations.md)
-* [Analytics Deep Dive](broken-reference/)
+* [Analytics Deep Dive](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/help/broken-reference/README.md)
 * [Template Optimization](../email-templates.md)
 
 ### Webinars & Training

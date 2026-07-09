@@ -285,7 +285,7 @@ _Click tracking_ and _custom domain for clicks tracking_ are available only for 
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-dns-settings.png" alt=""></div>
 
-With tracking enabled, you will find the open and click rates in the Analytics reports. [Read this article](../../statistics/) for a detailed breakdown of Statistics.
+With tracking enabled, you will find the open and click rates in the Analytics reports. [Read this article](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/statistics/README.md) for a detailed breakdown of Statistics.
 
 1. Navigate to the Tracking Settings tab.
 

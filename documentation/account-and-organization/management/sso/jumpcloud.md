@@ -75,7 +75,7 @@ Provide the following to Mailtrap from JumpCloud:
 {% endstep %}
 
 {% step %}
-Click **Save** in Mailtrap SSO configuration. For role mapping, configure additional settings as described in the [SSO Guide](../../../../guides-and-tips/sso/sso-guide.md#step-5-role-mapping).
+Click **Save** in Mailtrap SSO configuration. For role mapping, configure additional settings as described in the [SSO Guide](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sso/sso-guide.md#step-5-role-mapping).
 
 Your SAML configuration is now complete.
 {% endstep %}

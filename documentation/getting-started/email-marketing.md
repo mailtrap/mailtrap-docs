@@ -9,7 +9,7 @@ Make sure you've added and [verified a domain](../email-api-smtp/setup/sending-d
 
 ### How to set up and send a campaign
 
-{% @arcade/embed flowId="K6tN0H7X2QFnrfLcQeTq" url="https://app.arcade.software/share/K6tN0H7X2QFnrfLcQeTq" %}
+{% @arcade/embed url="https://app.arcade.software/share/K6tN0H7X2QFnrfLcQeTq" flowId="K6tN0H7X2QFnrfLcQeTq" %}
 
 {% stepper %}
 {% step %}
@@ -21,7 +21,7 @@ Choose a domain from the **Select domain** dropdown, then set the **Campaign nam
 {% endstep %}
 
 {% step %}
-You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns. Read more about creating templates [here](../email-api-smtp/email-templates.md).
+You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns. Read more about creating templates [here](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-templates.md).
 {% endstep %}
 
 {% step %}
@@ -40,7 +40,7 @@ With **Including** and **Excluding** features, you can easily send campaigns to 
 {% endhint %}
 
 {% hint style="warning" %}
-If you didn't upload your contacts before creating a campaign, you'll be prompted to import contacts at this stage. Simply click **Import Contacts** and follow the steps ([refer to this section](../email-marketing/contacts.md#how-to-upload-contacts-nag8y) in our Contacts guide for more details). **Important**: you should create Fields beforehand to be able to assign variables to the fields (map fields) when importing contacts.
+If you didn't upload your contacts before creating a campaign, you'll be prompted to import contacts at this stage. Simply click **Import Contacts** and follow the steps ([refer to this section](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/contacts.md#how-to-upload-contacts-nag8y) in our Contacts guide for more details). **Important**: you should create Fields beforehand to be able to assign variables to the fields (map fields) when importing contacts.
 {% endhint %}
 {% endstep %}
 

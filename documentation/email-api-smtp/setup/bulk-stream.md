@@ -263,7 +263,7 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 
 ## Related Resources
 
-* [**Email Deliverability Guide**](broken-reference/) - Essential reading for bulk senders
+* [**Email Deliverability Guide**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/setup/broken-reference/README.md) - Essential reading for bulk senders
 * [Sending Domain Setup](sending-domain.md)
 * [Email Templates](../email-templates/)
 * [Suppressions List](../suppressions-list.md)

@@ -53,7 +53,7 @@ Email Logs store emails sent from all your domains. If you wish to filter only f
 
 Email Logs provide much more information about each sent message. To access this, click on any of the messages.
 
-The **Email info** tab provides the basic details of a message, including the timestamps, status, from/to addresses, or the IPs. If you’re confused about any of these terms, check our [Sending Glossary](../email-sandbox/sandbox-glossary.md).
+The **Email info** tab provides the basic details of a message, including the timestamps, status, from/to addresses, or the IPs. If you’re confused about any of these terms, check our [Sending Glossary](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-sandbox/sandbox-glossary.md).
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-email-info-tab.png" alt="" width="563"></div>
 

@@ -54,7 +54,7 @@ Transactional or bulk: \[tell the assistant which stream you need]
 
 Use API credentials to integrate Mailtrap with your project.
 
-{% @arcade/embed flowId="LyuU7ciMYs6jXmOuDuEW" url="https://app.arcade.software/share/LyuU7ciMYs6jXmOuDuEW" %}
+{% @arcade/embed url="https://app.arcade.software/share/LyuU7ciMYs6jXmOuDuEW" flowId="LyuU7ciMYs6jXmOuDuEW" %}
 
 {% stepper %}
 {% step %}
@@ -100,7 +100,7 @@ You can also create additional API tokens by going to **Settings** → **API Tok
 
 <a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/api-tokens-add-token.png" alt="" width="563"></div>
+<figure><img src="../.gitbook/assets/api tokens new.png" alt=""><figcaption></figcaption></figure>
 
 Mailtrap Email Sending API supports:
 

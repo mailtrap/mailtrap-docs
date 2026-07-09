@@ -220,7 +220,7 @@ Ready-to-use designs:
 {% column %}
 **Setup & Configuration**
 
-* [Campaign Creation](copy-of-email-marketing.md)
+* [Campaign Creation](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md)
 * [Campaign Scheduling](campaign-management/scheduling.md)
 * [Email Templates](email-templates.md)
 * [Automations](automations.md)
@@ -229,24 +229,24 @@ Ready-to-use designs:
 {% column %}
 **Audience & Analytics**
 
-* [Contact Management](contacts.md)
-* [List Segmentation](broken-reference/)
+* [Contact Management](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/contacts.md)
+* [List Segmentation](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 * [Campaign Statistics](campaigns/statistics.md)
-* [Reports & Analytics](broken-reference/)
+* [Reports & Analytics](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 {% endcolumn %}
 {% endcolumns %}
 
 ## Support & Resources
 
 * [Campaign Guide](campaigns/)
-* [Audience Management](broken-reference/)
-* [Analytics Guide](broken-reference/)
+* [Audience Management](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
+* [Analytics Guide](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 * [FAQs](faqs.md)
-* [Troubleshooting](broken-reference/)
+* [Troubleshooting](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 
 ## Next Steps
 
-1. [**Verify your domain**](copy-of-email-marketing.md) - Set up authentication
-2. [**Import contacts**](contacts.md) - Build your subscriber list
-3. [**Create first campaign**](copy-of-email-marketing.md) - Design and send
+1. [**Verify your domain**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md) - Set up authentication
+2. [**Import contacts**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/contacts.md) - Build your subscriber list
+3. [**Create first campaign**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md) - Design and send
 4. [**Track performance**](campaigns/statistics.md) - Monitor results
