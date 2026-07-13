@@ -34,6 +34,8 @@ llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap
 {% stepper %}
 {% step %}
 Navigate to **Settings** in the menu on the left and select **API Tokens**.
+
+Remember that you'll be able to start sending emails once the domain is verified.
 {% endstep %}
 
 {% step %}
