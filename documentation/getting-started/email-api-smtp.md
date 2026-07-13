@@ -76,7 +76,7 @@ You need a verified domain to send live emails. This can be done through the UI 
 
 ### Option A: UI
 
-Go to the [Sending Domains](https://mailtrap.io/domains) or the [Sending Setup](https://mailtrap.io/api-smtp/sending-setup) page → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
+Go to the [Sending Domains](https://mailtrap.io/domains) page → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
 
@@ -288,7 +288,9 @@ After DNS verification, newly added domains undergo a compliance check. Your dom
 
 ## Step 4: Send your first email
 
-With your SDK installed, API token set, and domain verified, you're ready to send. The examples below use inline HTML for simplicity — for real applications, use [Mailtrap-hosted templates](email-api-smtp.md#step-5-use-email-templates-recommended) instead (see Step 5).
+With your SDK installed, API token set, and domain verified, you're ready to send your first email.
+
+The examples below use inline HTML for simplicity. For real applications, use [Mailtrap-hosted templates](email-api-smtp.md#step-5-use-email-templates-recommended) instead (see Step 5).
 
 {% tabs %}
 {% tab title="Node.js" %}
@@ -417,6 +419,8 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 ```
 {% endtab %}
 {% endtabs %}
+
+For more sending code examples (and even ready-made prompts for your favorite AI assistants) visit the [Sending Setup](https://mailtrap.io/api-smtp/sending-setup) page.
 
 {% hint style="info" %}
 **Important**: If your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
