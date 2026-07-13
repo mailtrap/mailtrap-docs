@@ -58,7 +58,7 @@ Use API credentials to integrate Mailtrap with your project.
 
 {% stepper %}
 {% step %}
-Go to the **Sending Setup** page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is verified.
+Go to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is verified.
 {% endstep %}
 
 {% step %}
