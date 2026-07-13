@@ -76,7 +76,7 @@ You need a verified domain to send live emails. This can be done through the UI 
 
 ### Option A: UI
 
-Go to [Sending Domains](https://mailtrap.io/domains) → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
+Go to the [Sending Domains](https://mailtrap.io/domains) or the [Sending Setup](https://mailtrap.io/api-smtp/sending-setup) page → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
 
 Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
 
