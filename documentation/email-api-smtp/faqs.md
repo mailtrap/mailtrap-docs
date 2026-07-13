@@ -25,7 +25,7 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 1. [Sign up](https://mailtrap.io/register/signup/) for an account.&#x20;
 2. Go to Email Sending and select [Sending Domains](https://mailtrap.io/domains).
 3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.
-4. Navigate to the **Sending Setup** page and integrate Mailtrap with your application via API, SMTP, or your AI agent.
+4. Navigate to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page and integrate Mailtrap with your application via API, SMTP, or your AI agent.
 
 Learn more:
 
