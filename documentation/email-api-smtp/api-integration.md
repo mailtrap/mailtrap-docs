@@ -58,20 +58,16 @@ Use API credentials to integrate Mailtrap with your project.
 
 {% stepper %}
 {% step %}
-Go to the **Sending Domains** tab and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is verified.
+Go to the **Sending Setup** page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is verified.
 {% endstep %}
 
 {% step %}
-Navigate to the **Integration** tab for your selected domain.
-{% endstep %}
-
-{% step %}
-Click the **Integrate** button under **Transactional Stream** or **Bulk Stream**.
+Select whether you want to send emails with the **Transactional** or **Bulk Stream**.
 
 {% hint style="info" %}
 **Transactional Stream** is used to send automated, non-promotional application emails triggered by a specific user action.<br>
 
-**Bulk Stream** is used to send a single marketing campaign to a large group of recipients in bulk.
+**Bulk Stream** is used to send a single marketing campaign to a large group of recipients in bulk. Toggle the switch to **API**.
 {% endhint %}
 {% endstep %}
 
@@ -80,17 +76,15 @@ Toggle the switch to **API**.
 {% endstep %}
 
 {% step %}
-Build the authenticated HTTP request in your programming language or framework and configure it with **Mailtrap Host** and **API Token**.
-
-Alternatively, choose the programming language or framework from the menu under **Code Samples** and copy the sample configuration already containing your credentials. In this menu, you'll find official SDKs for [PHP](https://github.com/railsware/mailtrap-php), [Python](https://github.com/railsware/mailtrap-python), [Ruby](https://github.com/railsware/mailtrap-ruby), and [Node.js](https://github.com/railsware/mailtrap-nodejs).
-
-{% hint style="info" %}
-Note: For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
-{% endhint %}
+Build the authenticated HTTP request in your programming language or framework and configure it with Mailtrap Host and API Token.
 {% endstep %}
 
 {% step %}
-Complete your script and run it. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in **Email Logs** in Mailtrap.
+Alternatively, choose the programming language or framework from the menu under Code Samples and copy the sample configuration (it will already contain your credentials). In this menu, you'll find official SDKs for PHP, Python, Ruby, and Node.js.
+
+{% hint style="info" %}
+For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
+{% endhint %}
 {% endstep %}
 {% endstepper %}
 
