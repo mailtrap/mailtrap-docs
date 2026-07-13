@@ -16,7 +16,7 @@ Learn how to integrate your application via SMTP.
 
 {% stepper %}
 {% step %}
-Go to the **Sending Setup** page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is [verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
+Go to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is [verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
 {% endstep %}
 
 {% step %}
