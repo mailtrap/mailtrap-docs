@@ -46,7 +46,7 @@ During installation, you'll need to provide your Mailtrap credentials:
 **Sandbox ID** (for sandbox testing) – Find it in your Email Sandbox inbox URL.
 
 {% hint style="info" %}
-You can also do this with a ready-to-copy prompt, which you can find on the [Setup Sending page](https://mailtrap.io/api-smtp/sending-setup?tab=ai).
+You can also do this with a ready-to-copy prompt, which you can find on the [Sending Setup page](https://mailtrap.io/api-smtp/sending-setup?tab=ai).
 {% endhint %}
 
 ## Use cases
