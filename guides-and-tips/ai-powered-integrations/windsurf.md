@@ -41,7 +41,7 @@ On the MCP Marketplace page, click on the **Add custom MCP** button, which will 
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.31.41 (1).png" alt=""><figcaption></figcaption></figure>
 
-Then, in the **mcp.config.json** file, copy/paste the following code snippet:
+Then, in the **mcp\_config.json** file, copy/paste the following code snippet:
 
 ```json
 {
