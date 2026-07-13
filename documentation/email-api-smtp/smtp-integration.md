@@ -16,23 +16,21 @@ Learn how to integrate your application via SMTP.
 
 {% stepper %}
 {% step %}
-Go to the **Sending Domains** tab and choose the domain you want to send emails from.
-
-Keep in mind that the [domain must be verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) in order for you to start sending emails.
+Go to the **Sending Setup** page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is [verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
 {% endstep %}
 
 {% step %}
-Navigate to the **Integrations** tab for your selected domain and select whether you want to use our **Transactional Stream** or [**Bulk Stream**](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
+Select whether you want to send emails with the Transactional or [Bulk Stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
 
 {% hint style="info" %}
-**Transactional Stream** is used to send automated, non-promotional application emails that are triggered by the user's specific action.
+**Transactional Stream** is used to send automated, non-promotional application emails triggered by a specific user action.
 
 **Bulk Stream** is used to send a single marketing campaign to a large group of recipients in bulk.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-Once you choose your preferred sending stream, click on **SMTP**. There, you will be able to see your Mailtrap credentials.
+Toggle the switch to **SMTP**, and you should see your Mailtrap credentials.&#x20;
 {% endstep %}
 {% endstepper %}
 
@@ -93,9 +91,7 @@ Once you add Mailtrap SMTP to your project, try sending an email from the tool o
 
 <figure><img src="../.gitbook/assets/email logs new.png" alt=""><figcaption></figcaption></figure>
 
-Remember that each domain has different SMTP credentials that you can always access by clicking on the desired domain and going to the **Integrations** tab.
-
-You can also create additional API tokens (or SMTP passwords) by going to **Settings** → **API Tokens** and clicking **Add Token**.
+Remember that each domain has different API tokens (or SMTP passwords). You can create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
 <a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
