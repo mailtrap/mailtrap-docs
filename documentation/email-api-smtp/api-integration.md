@@ -65,8 +65,7 @@ Go to the **Sending Setup** page under **API/SMTP** and choose the domain you wa
 Select whether you want to send emails with the **Transactional** or **Bulk Stream**.
 
 {% hint style="info" %}
-**Transactional Stream** is used to send automated, non-promotional application emails triggered by a specific user action.<br>
-
+**Transactional Stream** is used to send automated, non-promotional application emails triggered by a specific user action.\
 **Bulk Stream** is used to send a single marketing campaign to a large group of recipients in bulk. Toggle the switch to **API**.
 {% endhint %}
 {% endstep %}
