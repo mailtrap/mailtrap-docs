@@ -1,13 +1,13 @@
 ---
 title: <i class="fa-wind">:wind:</i> Windsurf and Mailtrap Integration
 description: >-
-  Learn how to integrate Mailtrap with Windsurf to send emails directly from the
+  Learn how to integrate Mailtrap with Devin to send emails directly from the
   editor using Cascade and the Mailtrap MCP server.
 ---
 
-# Windsurf
+# Devin AI (ex Windsurf)
 
-[Windsurf](https://windsurf.com/) is an AI coding assistant for developers and enterprises that understands your entire codebase and can plan, execute, and iterate on complex multi-file tasks autonomously.
+[Devin](https://devin.ai/) is an AI coding assistant for developers and enterprises that understands your entire codebase and can plan, execute, and iterate on complex multi-file tasks autonomously.
 
 In this guide, you’ll learn how to integrate it with the Mailtrap MCP, which allows you to, amongst other things, perform the following actions:
 
@@ -23,19 +23,23 @@ Before you start, make sure to:
 * Set up your [sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) (this takes approximately 5 minutes).
 * Install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 
-### Step 1. Add Mailtrap MCP config to Windsurf
+### Step 1. Add Mailtrap MCP config to Devin
 
-Open Windsurf, then navigate to **Settings** → **Windsurf** **Settings**.
+Open Devin AI, then navigate to **Settings** → **Devin** **Settings**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 10.18.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 18.58.16.png" alt=""><figcaption></figcaption></figure>
 
-Under **Cascade**, you will see the **Open MCP Marketplace** button. Click on it, and you’ll be taken to the MCP Marketplace page.
+Under the **Configuration** tab, you will see the **Open MCP marketplace** button. Click on it, and you’ll be taken to the MCP Marketplace page.
 
-<figure><img src="../.gitbook/assets/windsurf 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.10.24.png" alt=""><figcaption></figcaption></figure>
 
-On the MCP Marketplace page, click on the **Cogwheel** button, which will open the **mcp.config.json** file.
+{% hint style="info" %}
+If you're using Devin CLI, go to the **Devin Local** tab under **Devin Settings**, and open Devin MCP marketplace.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/windsurf 2.png" alt=""><figcaption></figcaption></figure>
+On the MCP Marketplace page, click on the **Add custom MCP** button, which will open the **mcp\_config.json** file.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.31.41 (1).png" alt=""><figcaption></figcaption></figure>
 
 Then, in the **mcp.config.json** file, copy/paste the following code snippet:
 
@@ -75,23 +79,19 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
-Once you insert your Mailtrap credentials, hit save, and you should see the Mailtrap MCP on the MCP Marketplace page.
+Once you insert your Mailtrap credentials, hit save, and you should see the Mailtrap MCP on the Cascade MCP Marketplace page.
 
-<figure><img src="../.gitbook/assets/windsurf 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.36.43.png" alt=""><figcaption></figcaption></figure>
 
-If you click on the newly-installed Mailtrap MCP, you’ll see the list of available tools it comes with.
-
-<figure><img src="../.gitbook/assets/windsurf 4.png" alt=""><figcaption></figcaption></figure>
-
-### Windsurf + Mailtrap MCP server use cases
+### Devin AI + Mailtrap MCP server use cases
 
 #### Connect Mailtrap to your project
 
-To integrate Mailtrap without manual coding, simply prompt the Windsurf AI to connect Mailtrap to your project with a prompt like this one:
+To integrate Mailtrap without manual coding, simply prompt the Devin AI to connect Mailtrap to your project with a prompt like this one:
 
 > Integrate Mailtrap into my project so that it can send emails through the Mailtrap email API. Additionally, safely store the Mailtrap credentials from the MCP configuration into an .env file
 
-Windsurf AI will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a **.env** file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
+Devin AI will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a **.env** file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-17 at 09.48.11.png" alt=""><figcaption></figcaption></figure>
 
@@ -103,26 +103,26 @@ And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io
 
 Reviewing code for sending emails or emails themselves in a staging environment using [Sandbox](https://mailtrap.io/email-sandbox/)?
 
-With Windsurf connected to Mailtrap MCP, you can complete the following actions by prompting the agent:
+With Devin connected to Mailtrap MCP, you can complete the following actions by prompting the agent:
 
 * Verify what the code actually does without switching to the Mailtrap UI and back to the IDE
 * Inspect basic message metadata
 * Use the returned message ID to request full message details (content, headers, etc.), and more.
 
-<figure><img src="../.gitbook/assets/uc 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.41.40.png" alt=""><figcaption></figcaption></figure>
 
 #### Template validation
 
-If you want to edit your email templates without switching to the Mailtrap UI, you can prompt the Windsurf AI to list them and fetch a specific template ID:
+If you want to edit your email templates without switching to the Mailtrap UI, you can prompt the Devin AI to list them and fetch a specific template ID:
 
-<figure><img src="../.gitbook/assets/uc 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.41.48.png" alt=""><figcaption></figcaption></figure>
 
 Then, if you’re not satisfied with a subject line or two, you can also change them with a simple prompt, just like so:
 
-<figure><img src="../.gitbook/assets/uc 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.46.38.png" alt=""><figcaption></figcaption></figure>
 
 #### Sending emails to your teammate
 
-Done revising your emails in Sandbox? If so, you can ask the Windsurf AI to send them to a teammate for a quick review:
+Done revising your emails in Sandbox? If so, you can ask the Devin AI to send them to a teammate for a quick review:
 
-<figure><img src="../.gitbook/assets/uc 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.48.32.png" alt=""><figcaption></figcaption></figure>
