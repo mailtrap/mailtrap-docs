@@ -87,9 +87,15 @@ For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Strea
 {% endstep %}
 {% endstepper %}
 
-Remember that each domain has different API tokens that you can always access by clicking on the desired domain and going to the **Integration** tab.
+### Verifying your configuration
 
-You can also create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
+Once you add Mailtrap Email API to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you specified in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
+
+<figure><img src="../.gitbook/assets/email logs new (1).png" alt=""><figcaption></figcaption></figure>
+
+### API tokens
+
+Remember that each domain has different API tokens. You can also create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
 <a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
