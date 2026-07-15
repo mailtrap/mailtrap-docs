@@ -17,7 +17,7 @@ Mailtrap authenticates API requests using tokens. You’ll add this token to you
 * Go to **API Tokens** under **Settings**.
 * Click **Add Token**, give it a name (e.g. `BuildAI Integration`), and set the scope to **Admin**.
 
-<figure><img src="../.gitbook/assets/buildai 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.40.02.png" alt=""><figcaption></figcaption></figure>
 
 * Save and copy the token, you’ll enter it in Step 3.
 
