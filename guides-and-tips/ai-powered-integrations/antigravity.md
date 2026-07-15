@@ -58,7 +58,7 @@ Next, all you need to do is replace the following values in the **mcp\_config.js
 
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.06.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.47.39 (2).png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
 
@@ -82,11 +82,11 @@ To easily integrate Mailtrap into your project, you can simply prompt the Antigr
 
 Antigravity agent will then go through the Mailtrap documentation, integrate the email API, and safely store your credentials in a **.env** file. Then, you can proceed to test the configuration. For instance, here’s our contact form email in our Gmail inbox we used as our `to` address:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.11.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.55.06.png" alt=""><figcaption></figcaption></figure>
 
 And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs):
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 15.07.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.55.36.png" alt=""><figcaption></figcaption></figure>
 
 #### Sandbox operations during code review
 
@@ -98,7 +98,7 @@ With Antigravity connected to Mailtrap MCP, you can complete the following actio
 * Inspect basic message metadata
 * Use the returned message ID to request full message details (content, headers, etc.), and more.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.15.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.56.07.png" alt=""><figcaption></figcaption></figure>
 
 #### Template validation during debugging
 
@@ -110,4 +110,4 @@ Want to edit your templates without switching to the Mailtrap UI? You can prompt
 
 Furthermore, you can forward the emails you’re working on in Sandbox (or actual templates) to your teammate’s addresses. For this, you can use a prompt like this one:
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.15.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.56.49 (1).png" alt=""><figcaption></figcaption></figure>
