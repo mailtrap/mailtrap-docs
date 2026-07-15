@@ -4,6 +4,8 @@ Mailtrap's Recipient Tracking Opt-Outs feature is a per-recipient, per-domain op
 
 With it, you can stay compliant with legal requirements, such as, for example, [CNIL](https://www.cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf), which requires you to provide French recipients of your marketing emails an easy way to opt out of open-tracking pixels.
 
+> _This article is provided for informational purposes only and does not constitute legal advice. Whether and how you must obtain consent for, or offer opt-outs from, email tracking depends on your role as the sender, your recipients’ locations, and the applicable law (such as the CNIL recommendation in France). Mailtrap acts as a processor of the recipient data you send through the Service; you remain responsible for determining your legal obligations and lawful basis. We recommend consulting your DPO or legal counsel. Mailtrap’s Recipient Tracking Opt-Outs feature is a tool to help you meet those obligations, not a guarantee of compliance._
+
 ### How to use Recipient Tracking Opt-Outs
 
 Navigate to **Domains**, select your domain, go to **Tracking Settings** and turn on the **Allow Recipient Tracking Opt-Out** setting.
