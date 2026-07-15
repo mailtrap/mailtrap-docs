@@ -39,7 +39,7 @@ During installation, you'll need to provide your Mailtrap credentials:
 
 **API Token** **and** **From email**– Navigate to **Sending Domains** > **Integration** > **API** in your Mailtrap account.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/mailtrap-api-credentials.png" alt="Mailtrap Sending Domains Integration page showing API credentials with Host and Api Token fields" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.47.39 (3).png" alt=""><figcaption></figcaption></figure>
 
 **Account ID** (for template management) – Go to **Settings** > **Account Settings**.
 
