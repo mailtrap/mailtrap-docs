@@ -52,6 +52,7 @@
   * [Webhooks](email-api-smtp/webhooks.md)
   * [Static IPs for sending & webhooks](email-api-smtp/advanced/static-ips-for-sending-and-webhooks.md)
   * [Mailtrap CLI app](email-api-smtp/advanced/mailtrap-cli-app.md)
+  * [Recipient Tracking Opt-Outs](email-api-smtp/advanced/recipient-tracking-opt-outs.md)
 * [Help & Support](email-api-smtp/help/README.md)
   * [Sending Glossary](email-api-smtp/help/glossary.md)
   * [FAQs](email-api-smtp/faqs.md)
