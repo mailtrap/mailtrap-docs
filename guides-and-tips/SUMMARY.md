@@ -22,6 +22,7 @@
 * [AWS Lambda](integrations/aws-lambda.md)
 * [Cloudflare Workers](integrations/cloudflare-workers.md)
 * [cPanel SMTP Relay](integrations/cpanel.md)
+* [Composio](integrations/composio.md)
 * [cURL](integrations/curl.md)
 * [Deno](integrations/deno.md)
 * [FastAPI](integrations/fastapi.md)
