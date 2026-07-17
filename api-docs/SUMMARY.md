@@ -56,6 +56,18 @@
         kind: openapi
         spec: contacts
   ```
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+    grouping: by-tag
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: email-campaigns
+  ```
 
 ## Inbound
 
