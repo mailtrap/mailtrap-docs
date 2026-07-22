@@ -1,3 +1,7 @@
+---
+icon: eyes
+---
+
 # Recipient Tracking Opt-Outs
 
 Mailtrap's Recipient Tracking Opt-Outs feature is a per-recipient, per-domain opt-out mechanism that stops open- and click-tracking mechanisms from firing for individual email recipients without unsubscribing them.&#x20;

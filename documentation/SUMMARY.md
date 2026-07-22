@@ -91,6 +91,7 @@
 * [Collaboration](email-sandbox/collaboration/README.md)
   * [Sharing Sandboxes](email-sandbox/sharing-sandboxes.md)
   * [Sharing Projects](email-sandbox/sharing-projects.md)
+* [Mailtrap Local](email-sandbox/local.md)
 * [Help & Support](email-sandbox/help/README.md)
   * [FAQs](email-sandbox/faqs.md)
   * [Troubleshooting](email-sandbox/troubleshooting.md)
