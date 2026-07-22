@@ -1,0 +1,22 @@
+guides-and-tips/README.md
+  s_459b0d231132f8::t_043a06860dc74c 16
+  s_459b0d231132f8::t_cb484ecc69852a 18
+guides-and-tips/sdk/go-integration.md
+  s_459b0d231132f8::t_c3134942fc2eaf 3-4,9-11,15-54,56-84,94-124,127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ceb0877f1e4e5ca67c1fd56063d6a3afdd41eb88",
+  "prompts": {},
+  "sessions": {
+    "s_459b0d231132f8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29c79b59-53ae-47b7-837f-f462d2603746",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
