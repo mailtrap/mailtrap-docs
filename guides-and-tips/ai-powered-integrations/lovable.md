@@ -9,6 +9,8 @@ description: >-
 
 [Lovable](https://lovable.dev/) is a platform that lets you build apps and websites by chatting with AI. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 **Before we start**:
 
 * Add and [verify your email sending domain](https://help.mailtrap.io/article/69-sending-domain-setup) since Mailtrap allows you to send emails only from a verified domain.
@@ -26,7 +28,7 @@ Lovable will then offer to enable [Lovable Cloud](https://docs.lovable.dev/integ
 
 Next, add the following two secrets:
 
-* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account.&#x20;
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account.
 * `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you’ve added after creating an account.
 
 <figure><img src="../.gitbook/assets/lovable creds.png" alt="" width="375"><figcaption></figcaption></figure>
