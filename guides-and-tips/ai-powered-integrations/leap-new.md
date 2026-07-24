@@ -9,7 +9,9 @@ description: >-
 
 Leap.new is an AI developer agent that lets you build and deploy production-grade applications directly to your own cloud on AWS & GCP. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Leap.new projects.
 
-**Prerequisites**:&#x20;
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
+**Prerequisites**:
 
 * A Leap.new account and a project.
 * A Mailtrap account for sending emails.
