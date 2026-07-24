@@ -14,6 +14,8 @@ This guide shows you how to integrate [Email Sandbox](https://mailtrap.io/email-
 * **Inspect via UI or API**: Review emails in Mailtrap's web interface or fetch them programmatically before you move to production.
 * **Zero risk to real recipients**: No matter what the agent does, emails stay contained within the Sandbox.
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 ### Why use Email Sandbox with OpenClaw?
 
 Giving an AI agent email access means enabling it to communicate with the outside world on your behalf. So, for instance, a misinterpreted instruction or a prompt injection attack could send emails you never intended, including ones containing sensitive information.
@@ -42,7 +44,7 @@ Security researchers sent an email containing hidden instructions to an OpenClaw
 
 **How Email Sandbox helps**: Your agent "sends" emails normally, but instead of reaching real recipients, every message lands in your Mailtrap inbox where you can inspect it safely.
 
-### How to connect Email Sandbox to OpenClaw&#x20;
+### How to connect Email Sandbox to OpenClaw
 
 Before we begin, make sure you have:
 
@@ -104,7 +106,7 @@ The email never left Sandbox and no real recipient received it.
 
 The `email_sandbox` skill supports the following request parameters:
 
-<table><thead><tr><th>Parameter</th><th>Type</th><th width="187">Required</th><th>Description</th></tr></thead><tbody><tr><td><code>from</code></td><td>object</td><td>Yes ✅</td><td><p>Sender info: <code>{"email": "...",</code><br> <code>"name": "..."}</code></p><p>(name is optional)</p></td></tr><tr><td><code>to</code></td><td>string</td><td>Yes ✅</td><td>Recipients: <code>[{"email": "..."}]</code></td></tr><tr><td><code>subject</code></td><td>string</td><td>Yes ✅</td><td>Email subject line</td></tr><tr><td><code>text</code></td><td>string</td><td>Yes ✅</td><td>Plain text body</td></tr><tr><td><code>html</code></td><td>string</td><td>No ☑️</td><td>HTML body (alternative to plain text)</td></tr><tr><td><code>category</code></td><td>string</td><td>No ☑️</td><td>Category for organizing emails in Mailtrap</td></tr></tbody></table>
+<table><thead><tr><th>Parameter</th><th>Type</th><th width="187">Required</th><th>Description</th></tr></thead><tbody><tr><td><code>from</code></td><td>object</td><td>Yes ✅</td><td><p>Sender info: <code>{"email": "...",</code><br><code>"name": "..."}</code></p><p>(name is optional)</p></td></tr><tr><td><code>to</code></td><td>string</td><td>Yes ✅</td><td>Recipients: <code>[{"email": "..."}]</code></td></tr><tr><td><code>subject</code></td><td>string</td><td>Yes ✅</td><td>Email subject line</td></tr><tr><td><code>text</code></td><td>string</td><td>Yes ✅</td><td>Plain text body</td></tr><tr><td><code>html</code></td><td>string</td><td>No ☑️</td><td>HTML body (alternative to plain text)</td></tr><tr><td><code>category</code></td><td>string</td><td>No ☑️</td><td>Category for organizing emails in Mailtrap</td></tr></tbody></table>
 
 For the complete API specification, see the[ Mailtrap API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/bcf61cdc1547e-send-email-including-templates).
 
