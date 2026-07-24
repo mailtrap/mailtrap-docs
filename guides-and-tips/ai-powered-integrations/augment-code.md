@@ -1,10 +1,12 @@
 # Augment Code
 
-[Augment Code](https://www.augmentcode.com/) is an AI coding assistant that runs as an extension on top of your existing editor  including VS Code and JetBrains IDEs. It enhances the editors with an intelligent Agent that can understand your codebase, run tasks autonomously, and integrate external tools via Model Context Protocol (MCP).
+[Augment Code](https://www.augmentcode.com/) is an AI coding assistant that runs as an extension on top of your existing editor including VS Code and JetBrains IDEs. It enhances the editors with an intelligent Agent that can understand your codebase, run tasks autonomously, and integrate external tools via Model Context Protocol (MCP).
 
 With Mailtrap's MCP server connected to Augment Code, you can create and test email templates in sandbox. And the assistant can help you set up Mailtrap sending. All actions run directly from your editor using Augment Agent and simple prompts; no manual API calls, no switching context.
 
 In this guide, you'll learn how to set up the integration and create a template in three steps.
+
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
 
 #### Prerequisites
 
@@ -12,7 +14,7 @@ Before you begin, make sure you have the following in place:
 
 * A Mailtrap account with at least one sending domain set up and verified. This ensures your from address is authorized for delivery. If you haven't done this yet, refer to the [Mailtrap Sending Domains setup guide](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
 * [Node.js](https://nodejs.org/en) installed and up to date. The [Mailtrap MCP server](https://www.npmjs.com/package/mcp-mailtrap) is distributed as a Node-based CLI (`mcp-mailtrap`) and runs via npx.
-* The latest version of Augment Code installed in your editor. MCP support is available in both the VS Code and JetBrains extensions. And we tested it on VS Code.&#x20;
+* The latest version of Augment Code installed in your editor. MCP support is available in both the VS Code and JetBrains extensions. And we tested it on VS Code.
 
 ### Step 1. Fetch Mailtrap API Credentials
 
