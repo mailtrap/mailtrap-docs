@@ -9,6 +9,8 @@ description: >-
 
 Reflex Build is an AI-powered development tool that enables you to create full-stack web apps, dashboards, and components through natural language prompts. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Reflex projects.
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 Prerequisites:
 
 * A Reflex Build account and a project.
