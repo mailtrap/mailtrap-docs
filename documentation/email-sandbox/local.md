@@ -24,9 +24,13 @@ layout:
 
 # Mailtrap Local
 
-Mailtrap Local is a free, open-source email sandbox you run on your own machine. It combines an SMTP server, a web sandbox, and a REST API in a single self-contained binary - no accounts, no cloud setup, no dependencies. Point your application's SMTP client at it, and every email your app sends is captured locally instead of being delivered, so nothing ever reaches a real recipient while you develop.
+Mailtrap Local is the free, open-source local version of [Mailtrap Email Sandbox](overview.md). It lets you capture and inspect emails entirely on your own machine during development. It combines a local SMTP server, web interface, and REST API into a single self-contained binary - no account, cloud setup, or additional dependencies required.&#x20;
 
-Once running, Mailtrap Local gives you a web interface to browse and search captured messages and inspect each one in full: rendered HTML and plain-text versions, headers, raw source, and attachments. It also runs an HTML Check that flags compatibility issues across major email clients (Outlook, Gmail, Apple Mail, and others), so you catch rendering problems before they ship. Everything works fully offline.
+Mailtrap Local is designed for development and testing only. When you need to collaborate with teammates, you can send captured messages to Mailtrap Email Sandbox using Send to Cloud.
+
+Mailtrap Local is fully open source: [GitHub repository](https://github.com/mailtrap/mailtrap-local).&#x20;
+
+Once running, Mailtrap Local gives you a web interface to browse and search captured messages and inspect each one in full: rendered HTML and plain-text versions, headers, raw source, and attachments. It also runs an HTML Check that flags compatibility issues across major email clients (Outlook, Gmail, Apple Mail, and others), so you catch rendering problems before release.
 
 ### Mailtrap Local is commonly used for:
 
