@@ -122,7 +122,7 @@ func main() {
 ```
 {% endcode %}
 
-Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+Read more in the [SMTP integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
 
 #### RESTful API integration
 
