@@ -9,6 +9,8 @@ In this guide, you’ll learn how to integrate it with the Mailtrap MCP which al
 * [Validate and edit email templates during code review](antigravity.md#template-validation-during-code-review)
 * [Forward email templates to your teammates](antigravity.md#sending-emails-to-your-teammate)
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 #### Prerequisites
 
 Before you start, make sure to:
