@@ -16,6 +16,8 @@ In this guide, you’ll learn how to integrate it with the Mailtrap MCP, which a
 * [Fetch, validate, and edit email templates](claude.md#template-validation)
 * [Forward email templates to your teammates](claude.md#integrating-mailtrap-into-your-project)
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 **Prerequisites**:
 
 * If you haven’t set up your sending domain already, you’ll need to do it before we start — it takes \~5 minutes, and you can use our [step-by-step article](https://help.mailtrap.io/article/69-sending-domain-setup) as a guide.
