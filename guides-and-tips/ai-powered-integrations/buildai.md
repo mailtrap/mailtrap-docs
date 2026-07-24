@@ -4,6 +4,8 @@
 
 This article shows you how to connect Mailtrap’s email API to your BuildAI AI-powered apps using BuildAI’s Custom Integration feature. The same integration can also be used inside AI-powered apps and workflows. No code required
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 #### Prerequisties
 
 * A BuildAI account with access to the Custom Integration feature
