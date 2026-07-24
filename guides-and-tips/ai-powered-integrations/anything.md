@@ -9,10 +9,14 @@ description: >-
 
 [Anything](https://www.createanything.com/) is an AI agent that can turn your ideas into sites, apps, tools, products, and more with simple prompts. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
-**Prerequisites**:&#x20;
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
+**Prerequisites**:
 
 * Add and [verify your email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
 * Make sure your [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) has admin access level to that domain.
+
+
 
 ### Step 1. Add your Mailtrap credentials
 
@@ -22,13 +26,13 @@ To add your Mailtrap credentials, open **Project Settings** in the sidebar, navi
 
 This way, you need to add the following two secrets:
 
-* `MAILTRAP_API_TOKEN`&#x20;
+* `MAILTRAP_API_TOKEN`
 
 This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account. And here’s what the secret should look like:
 
 <figure><img src="../.gitbook/assets/any 2.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_FROM_EMAIL`&#x20;
+* `MAILTRAP_FROM_EMAIL`
 
 This is the email address with the verified Mailtrap sending domain you’ve added after creating an account. And here’s the secret:
 
