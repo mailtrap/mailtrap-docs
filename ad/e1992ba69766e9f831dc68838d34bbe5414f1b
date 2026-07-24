@@ -1,0 +1,19 @@
+guides-and-tips/sdk/go-integration.md
+  s_63ecb7b1f67483::t_cf1e36e22d3094 125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "ade1992ba69766e9f831dc68838d34bbe5414f1b",
+  "prompts": {},
+  "sessions": {
+    "s_63ecb7b1f67483": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "183300e7-2500-4900-8d21-8e5696f6a064",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
