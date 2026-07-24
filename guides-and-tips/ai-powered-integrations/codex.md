@@ -1,8 +1,10 @@
 # Codex
 
-Codex is OpenAI’s open-source AI coding agent, available as a CLI tool, desktop app, IDE extension, and cloud agent at chatgpt.com/codex. This guide shows how to connect it to Mailtrap using the [Mailtrap MCP server](https://docs.mailtrap.io/guides/ai-powered-integrations/mcp-server).&#x20;
+Codex is OpenAI’s open-source AI coding agent, available as a CLI tool, desktop app, IDE extension, and cloud agent at chatgpt.com/codex. This guide shows how to connect it to Mailtrap using the [Mailtrap MCP server](https://docs.mailtrap.io/guides/ai-powered-integrations/mcp-server).
 
-Once configured, Codex can help you with email sending operations, including email logs, statistics, email templates, and sending domain management. Also, you can use sandbox operations - all through natural language prompts.&#x20;
+Once configured, Codex can help you with email sending operations, including email logs, statistics, email templates, and sending domain management. Also, you can use sandbox operations - all through natural language prompts.
+
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
 
 ### Prerequisites
 
@@ -12,7 +14,7 @@ Once configured, Codex can help you with email sending operations, including ema
 
 ### Step 1: Set up Mailtrap
 
-In your Mailtrap account, you just need to generate the API token. Go to Settings → API Tokens → Add Token and copy your token. The rest is handled by the MCP.&#x20;
+In your Mailtrap account, you just need to generate the API token. Go to Settings → API Tokens → Add Token and copy your token. The rest is handled by the MCP.
 
 ### Step 2: Add the Mailtrap MCP server to Codex
 
@@ -106,7 +108,7 @@ Pull delivery stats for yourdomain.example
 
 <figure><img src="../.gitbook/assets/Codex get sending stats.png" alt=""><figcaption></figcaption></figure>
 
-Codex gives you the stats, including a quick overview and commentary. You can dig deeper for email performance within an email category or provider or check the email logs.&#x20;
+Codex gives you the stats, including a quick overview and commentary. You can dig deeper for email performance within an email category or provider or check the email logs.
 
 ### Step 6: Use Codex in headless mode for CI/CD
 
@@ -131,9 +133,9 @@ The `--json` flag returns structured output, making it easy to parse results in 
 
 * Email sending operations
 * Email logs (debug delivery)
-* Sending statistics&#x20;
+* Sending statistics
 * Sandbox operations
-* Template operations&#x20;
+* Template operations
 * Sending domains management
 
 ### Technical notes
