@@ -7,6 +7,8 @@
 * [Fetch, validate, and edit email templates](github-copilot.md#template-validation)
 * [Forward email templates to your teammates](github-copilot.md#sending-emails-to-your-teammate)
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 #### Prerequisites
 
 Before you start, make sure to:
