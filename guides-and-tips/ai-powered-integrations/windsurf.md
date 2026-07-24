@@ -16,6 +16,8 @@ In this guide, you’ll learn how to integrate it with the Mailtrap MCP, which a
 * [Validate email templates](windsurf.md#template-validation)
 * [Forward email templates to your teammates](windsurf.md#sending-emails-to-your-teammate)
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 #### Prerequisites
 
 Before you start, make sure to:
