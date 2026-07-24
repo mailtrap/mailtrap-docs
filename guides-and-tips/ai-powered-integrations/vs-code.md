@@ -16,6 +16,8 @@ In this guide, you’ll learn how to integrate it with with the Mailtrap MCP whi
 * [Validate email templates](vs-code.md#template-validation)
 * [Forward email templates to your teammates](vs-code.md#sending-emails-to-your-teammate)
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 #### Prerequisites
 
 Before you start, make sure to:
