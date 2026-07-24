@@ -6,6 +6,8 @@ OpenCode Integration with Mailtrap
 
 This guide shows how to connect it to Mailtrap using the [Mailtrap MCP server](https://docs.mailtrap.io/guides/ai-powered-integrations/mcp-server), giving your agent the ability to add email sending to your project, inspect sandbox inboxes, manage templates, and check delivery stats; all from natural-language prompts.
 
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+
 ### Prerequisites
 
 * A [Mailtrap account](https://mailtrap.io/register/signup) with a [configured sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) (takes \~5 minutes)
