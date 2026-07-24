@@ -2,9 +2,11 @@
 
 OpenCode Integration with Mailtrap
 
-[OpenCode](https://opencode.ai) is an open-source AI coding agent that runs in the terminal, as a desktop app, or inside IDE extensions.&#x20;
+[OpenCode](https://opencode.ai) is an open-source AI coding agent that runs in the terminal, as a desktop app, or inside IDE extensions.
 
 This guide shows how to connect it to Mailtrap using the [Mailtrap MCP server](https://docs.mailtrap.io/guides/ai-powered-integrations/mcp-server), giving your agent the ability to add email sending to your project, inspect sandbox inboxes, manage templates, and check delivery stats; all from natural-language prompts.
+
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
 
 ### Prerequisites
 
@@ -14,7 +16,7 @@ This guide shows how to connect it to Mailtrap using the [Mailtrap MCP server](h
 
 ### Step 1: Set up Mailtrap
 
-In your Mailtrap account, you just need to generate the API token. Go to Settings → API Tokens → Add Token and copy your token. The rest is handled by the MCP.&#x20;
+In your Mailtrap account, you just need to generate the API token. Go to Settings → API Tokens → Add Token and copy your token. The rest is handled by the MCP.
 
 ### Step 2: Add the Mailtrap MCP server to OpenCode
 
@@ -101,7 +103,7 @@ OPENAI_API_KEY="sk-..."
 source .env
 ```
 
-* **Verify a variable is set**:&#x20;
+* **Verify a variable is set**:
 
 ```bash
 echo $OPENAI_API_KEY
@@ -175,7 +177,7 @@ This runs the prompt, executes the MCP tool calls, and exits; no interactive ses
 
 <figure><img src="../.gitbook/assets/OpenCode CLI test.png" alt=""><figcaption></figcaption></figure>
 
-Confirmed in the sandbox.&#x20;
+Confirmed in the sandbox.
 
 <figure><img src="../.gitbook/assets/OpenCode CLI test positive.png" alt=""><figcaption></figcaption></figure>
 
@@ -183,7 +185,7 @@ Confirmed in the sandbox.&#x20;
 
 * **Bulk template actions** - List all templates, review them for consistency or branding issues, then batch-update subjects, categories, or markup across templates.
 * **Delivery forensics** - "Why didn't user X get their email?" → query `list-email-logs` filtered by recipient, check status/bounce/rejection events, pull the raw EML via `get-email-log-message`, diagnose the root cause.
-* **Domain setup assistant** - `create-sending-domain`, then `get-sending-domain` with `include_setup_instructions` to get DNS records, and have AI explain exactly what to add in your DNS provider (Cloudflare, Route53, etc.).&#x20;
+* **Domain setup assistant** - `create-sending-domain`, then `get-sending-domain` with `include_setup_instructions` to get DNS records, and have AI explain exactly what to add in your DNS provider (Cloudflare, Route53, etc.).
 * **Incident triage** - "Are emails going out?" → check `get-sending-stats` for the last hour, filter `list-email-logs` by `status: not_delivered`, and surface any spike in bounces or rejections.
 * **Opt-out audit** - Filter email logs by `status: opted_out` to understand unsubscribe patterns and correlate with specific categories or time periods.
 * **Weekly email health report** - Pull `get-sending-stats` broken down by date for the past week, have the AI summarize trends in delivery rates, opens, clicks, bounces, and flag anomalies.
@@ -192,9 +194,9 @@ Confirmed in the sandbox.&#x20;
 
 * Email sending operations
 * Email logs (debug delivery)
-* Sending statistics&#x20;
+* Sending statistics
 * Sandbox operations
-* Template operations&#x20;
+* Template operations
 * Sending domains management
 
 ### Technical notes

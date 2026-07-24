@@ -1,8 +1,10 @@
 # Qodo
 
-[Qodo](https://qodo.ai/) is an AI code review platform that gives engineering teams deep codebase context to move faster without sacrificing code quality. In this guide, you’ll learn how to integrate it with Mailtrap MCP.&#x20;
+[Qodo](https://qodo.ai/) is an AI code review platform that gives engineering teams deep codebase context to move faster without sacrificing code quality. In this guide, you’ll learn how to integrate it with Mailtrap MCP.
 
-**Note**: You can use your AI agent to help you integrate Mailtrap or even migrate from another email service provider.
+And keep in mind that, you can use your AI agent to help you integrate Mailtrap or even migrate from another email service provider.
+
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
 
 ### Prerequisites
 
@@ -54,7 +56,7 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.06.42.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.&#x20;
+* `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.13.png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +72,7 @@ Imagine that you’re reviewing a part of the code responsible for sending email
 
 While reviewing your code, you want to trigger email-sending logic to better understand or verify behavior, test emails, etc.
 
-This is possible from the Qodo agent, which lets you use simple prompts to, among other things:&#x20;
+This is possible from the Qodo agent, which lets you use simple prompts to, among other things:
 
 * Verify what the code actually does without switching to the Mailtrap UI and back to the IDE
 * Inspect basic message metadata
