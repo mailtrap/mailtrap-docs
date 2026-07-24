@@ -1,8 +1,10 @@
 # Base44
 
-Base44 is an AI-powered platform that lets you turn any idea into a fully-functional custom app, without the need for any coding experience. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Base44 projects.<br>
+Base44 is an AI-powered platform that lets you turn any idea into a fully-functional custom app, without the need for any coding experience. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Base44 projects.
 
-**Prerequisites**:&#x20;
+**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.<br>
+
+**Prerequisites**:
 
 * A Base44 account and a project.
 * A Mailtrap account for sending emails.
@@ -15,7 +17,7 @@ To insert your Mailtrap credentials, open **App Settings** and activate **Backen
 
 **Important**: This feature is only available to users subscribed to Base44 _Builder_ plans and higher.
 
-Next, click on the **Secrets** tab, which should show up after you activate **Backend Functions**.&#x20;
+Next, click on the **Secrets** tab, which should show up after you activate **Backend Functions**.
 
 <figure><img src="../.gitbook/assets/base44 2.png" alt=""><figcaption></figcaption></figure>
 
