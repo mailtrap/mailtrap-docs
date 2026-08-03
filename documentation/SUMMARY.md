@@ -133,6 +133,7 @@
 * [Notification center](account-and-organization/notification-center.md)
 * [Billing & Plans](account-and-organization/billing/README.md)
   * [Billing Setup](account-and-organization/billing/setup.md)
+  * [Pricing Plans](account-and-organization/billing/plans.md)
   * [Payment Issues](account-and-organization/billing/payment-issues.md)
   * [Payment and Billing FAQs](account-and-organization/billing/faqs.md)
   * [Non-Profit and Open-Source](account-and-organization/billing/non-profit-and-open-source.md)
