@@ -1,3 +1,27 @@
+---
+description: >-
+  Step-by-step guide to receiving emails with Mailtrap Inbound Email: create
+  folders and inboxes via API, then access incoming messages.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Receiving Emails
 
 In this article, you'll learn how to create an inbound inbox and start receiving emails.

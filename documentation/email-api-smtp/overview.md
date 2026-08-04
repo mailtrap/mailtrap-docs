@@ -3,225 +3,96 @@ title: Email API/SMTP Overview
 description: >-
   Overview of Mailtrap Email API and SMTP service: key features, use cases, and
   target audience.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Overview
 
-Mailtrap Email API/SMTP is a reliable email delivery service designed for developers and businesses to send transactional and bulk emails at scale. Whether you're sending password resets, order confirmations, or marketing campaigns, we ensure your emails reach the inbox.
+Mailtrap Email API/SMTP lets you send transactional and bulk emails. Integrate with the Email Sending API or SMTP.
 
-## What is Email API/SMTP?
+### Choose a sending stream
 
-Email API/SMTP provides two powerful methods for sending emails:
+Choose a stream based on the email type:
 
-* **RESTful API**: Modern, flexible API for programmatic email sending
-* **SMTP Service**: Traditional protocol compatible with any email client or library
+* **Transactional Stream** sends automated, non-promotional emails. Examples include password resets and order confirmations.
+* [**Bulk Stream**](setup/bulk-stream.md) sends marketing campaigns to many recipients. Examples include newsletters and promotions.
 
-Both methods offer the same features, deliverability, and analytics - choose based on your technical requirements.
+### Choose an integration method
 
-## Key features
+Use the method that fits your application:
 
-#### Reliable delivery
+* [**Email Sending API**](api-integration.md) sends emails through authenticated HTTP requests and supported SDKs.
+* [**SMTP**](smtp-integration.md) works with existing email clients and libraries.
 
-* Enterprise-grade infrastructure: Built for reliability and scale
-* Automatic Failover: Redundant systems ensure delivery
-* Smart Routing: Optimal rules selection for each email depending on recipient MX
+Both methods support Mailtrap Email Logs and analytics.
 
-#### Analytics & monitoring
-
-* Real-Time Analytics: Track opens, clicks, bounces instantly
-* Detailed Email Logs: Full visibility into email journey
-* Custom Categories: Organize and analyze by type/templates/etc
-* Webhook Events: Real-time notifications for email events
-
-#### Deliverability + support
-
-* Deliverability and Support teams: helps with migration, monitoring and all questions you might have
-* [Complete Deliverability Guide](https://mailtrap.io/email-deliverability-guide/): Best practices for optimal inbox placement
-* Domain Authentication: SPF, DKIM, DMARC setup
-* Dedicated IP + Warmup: Gradual reputation building
-* Suppressions Management: Automatic bounce handling
-* Feedback Loops: ISP complaint processing
-
-#### Developer-friendly
-
-* Official SDKs: Node.js, PHP, Python, Ruby, and more
-* RESTful API: Simple JSON-based communication
-* SMTP Integration: Works with existing email libraries
-* Sandbox Testing: Test before production
-
-## Use cases
-
-#### Transactional emails
-
-Perfect for critical user communications:
-
-* Password resets and account verification
-* Order confirmations and shipping notifications
-* Appointment reminders and alerts
-* System notifications and updates
-* Two-factor authentication codes
-
-#### Bulk emails
-
-Dedicated infrastructure for marketing:
-
-* Newsletters and announcements
-* Promotional campaigns
-* Product updates and releases
-* Event invitations
-* Customer surveys
-
-## Quick start guide
-
-{% stepper %}
-{% step %}
-**Choose your integration method**
-
-{% tabs %}
-{% tab title="API" %}
-```bash
-curl -X POST "https://send.api.mailtrap.io/api/send" \
-  -H "Authorization: Bearer YOUR_API_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "from": {"email": "hello@example.com"},
-    "to": [{"email": "user@example.com"}],
-    "subject": "Hello from Mailtrap!",
-    "text": "Welcome to Mailtrap Email API"
-  }'
-```
-{% endtab %}
-
-{% tab title="SMTP" %}
-```
-Host: live.smtp.mailtrap.io
-Port: 587
-Username: YOUR_USERNAME
-Password: YOUR_PASSWORD
-Encryption: STARTTLS
-```
-{% endtab %}
-
-{% tab title="Node.js SDK" %}
-```javascript
-const { MailtrapClient } = require("mailtrap");
-
-const client = new MailtrapClient({
-  token: "YOUR_API_TOKEN"
-});
-
-await client.send({
-  from: { email: "hello@example.com" },
-  to: [{ email: "user@example.com" }],
-  subject: "Hello from Mailtrap!",
-  text: "Welcome to Mailtrap Email API"
-});
-```
-{% endtab %}
-{% endtabs %}
-
-{% hint style="info" %}
-You can find more integration options on the [Sending Setup page](https://mailtrap.io/api-smtp/sending-setup).
-{% endhint %}
-{% endstep %}
-
-{% step %}
-**Verify your domain**
-
-Add DNS records to authenticate your sending domain and improve deliverability.
-{% endstep %}
-
-{% step %}
-**Start sending**
-
-Begin with transactional emails, then expand to bulk campaigns as needed.
-{% endstep %}
-{% endstepper %}
-
-## Two streams architecture
-
-Mailtrap separates email traffic for optimal deliverability:
-
-| Stream                           | Purpose               | Features                                                              |
-| -------------------------------- | --------------------- | --------------------------------------------------------------------- |
-| **Transactional**                | Triggered user emails | High priority, immediate delivery                                     |
-| [**Bulk**](setup/bulk-stream.md) | Marketing campaigns   | Built-in compliance, unsubscribe management, separate suppresion list |
-
-## Getting started
+### Get started
 
 {% columns %}
 {% column %}
-**Setup & configuration**
+**Set up sending**
 
-* [Sending Domain Setup](setup/sending-domain.md)
-* [API Integration](api-integration.md)
-* [SMTP Integration](smtp-integration.md)
-* [IP Warmup](deliverability/ip-warmup.md)
+* [Set up a sending domain](setup/sending-domain.md)
+* [Integrate with the Email Sending API](api-integration.md)
+* [Integrate with SMTP](smtp-integration.md)
+* [Warm up an IP address](deliverability/ip-warmup.md)
 {% endcolumn %}
 
 {% column %}
-**Essential features**
+**Manage email sending**
 
-* [Deliverability Guide](https://mailtrap.io/email-deliverability-guide/)
-* [Email Templates](email-templates/)
-* [Analytics & Reports](analytics/)
-* [Deliverability Features](deliverability/)
+* [Create email templates](email-templates/)
+* [Review analytics and reports](analytics/)
+* [Configure deliverability features](deliverability/)
+* [Read the deliverability guide](https://mailtrap.io/email-deliverability-guide/)
 {% endcolumn %}
 {% endcolumns %}
 
-## Why choose Mailtrap?
-
-**For developers**
-
-* Clean, well-documented APIs
-* Multiple integration options
-* Comprehensive SDKs
-* Sandbox environment for testing
-
-**For businesses**
-
-* High deliverability rates
-* Detailed analytics and reporting
-* Scalable infrastructure
-* Enterprise-grade reliability
-
-**For teams**
-
-* Multi-user access control
-* Shared resources and templates
-* Collaborative workflows
-* Activity logging
-
-## Support & resources
-
-Need help getting started or have questions?
+### Support and resources
 
 <a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
-## Next steps
+### Next steps
 
 {% stepper %}
 {% step %}
 [setup](setup/ "mention")
 
-_Authenticate your sending domain_
+_Set up your sending domain_
 {% endstep %}
 
 {% step %}
 [api-integration.md](api-integration.md "mention")
 
-_Choose integration method - API or SMTP_
+_Integrate with the Email Sending API_
 {% endstep %}
 
 {% step %}
 [email-templates](email-templates/ "mention")
 
-_Design reusable emails_
+_Create reusable email templates_
 {% endstep %}
 
 {% step %}
 [analytics](analytics/ "mention")
 
-_Track your email metrics_
+_Review your email metrics_
 {% endstep %}
 {% endstepper %}

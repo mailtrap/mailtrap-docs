@@ -1,3 +1,27 @@
+---
+description: >-
+  Overview of Mailtrap Inbound Email: receive incoming emails, access messages
+  via API, and get webhook notifications for new messages.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Overview
 
 Inbound Email lets you receive incoming emails, read them via API, and get webhook notifications when new messages arrive. Mailtrap accepts messages on your behalf, parses them into structured JSON.

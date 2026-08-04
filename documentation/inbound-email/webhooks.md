@@ -1,3 +1,27 @@
+---
+description: >-
+  Step-by-step guide to setting up Mailtrap Inbound Email webhooks for real-time
+  new-message notifications, signature verification, and delivery retries.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Webhooks
 
 In this article, you'll learn how to configure Mailtrap webhooks to get notified about every new message you receive in your inbound email inbox.
