@@ -36,6 +36,7 @@ curl --ssl-reqd \
   --mail-from 'example@mailtrap.io' \
   --mail-rcpt 'email@exampledomain.com' \
   --upload-file - <<EOF
+From: Mailtrap Example <example@mailtrap.io>
 To: Mailtrap Sandbox
 Subject: custom header
 X-MT-Custom-Variables: {"variable name":"variable value"}
