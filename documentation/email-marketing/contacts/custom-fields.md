@@ -43,21 +43,19 @@ Every contact in Mailtrap has these default fields:
 
 ## Creating Custom Fields
 
+{% @arcade/embed flowId="3xTNd088JN2woonpfG9A" url="https://app.arcade.software/share/3xTNd088JN2woonpfG9A" %}
+
 {% stepper %}
 {% step %}
 **Navigate to Fields**
 
 Go to **Contacts** → **Fields** in your Mailtrap dashboard.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-fields-menu.png" alt="Contacts menu showing Fields tab" width="375"></div>
 {% endstep %}
 
 {% step %}
 **Click Create Field**
 
-Select the **Create Field** button to open the field creation form.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-create-field-button.png" alt="Create Field button in the fields interface" width="563"></div>
+Select the **Create Field** button to open the field creation form
 {% endstep %}
 
 {% step %}
@@ -69,10 +67,8 @@ Fill in the field details:
 * **Type**: Select the appropriate data type
 * **Merge Tag**: Variable for personalization (e.g., `first_name`)
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-field-form.png" alt="Form to create a new contact field with name, type, and merge tag inputs" width="563"></div>
-
 {% hint style="warning" %}
-**Merge Tag Format** Use underscores for multi-word merge tags (e.g., `last_name`, `date_of_birth`)
+**Merge Tag Format:** Use underscores for multi-word merge tags (e.g., `last_name`, `date_of_birth`)
 {% endhint %}
 {% endstep %}
 
@@ -80,8 +76,6 @@ Fill in the field details:
 **Save Your Field**
 
 Click **Create** to add the field to your account.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-fields-list.png" alt="List of created contact fields including name and email" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
