@@ -23,6 +23,10 @@ layout:
 
 In this article, you'll learn how to create an inbound inbox and start receiving emails.
 
+{% hint style="info" %}
+You need account-level token to `create` an inbound inbox.&#x20;
+{% endhint %}
+
 #### Step 1. Create a folder via the API
 
 First, you need to create a folder for categorizing and storing your inboxes. To **create a folder**, use the following command:
