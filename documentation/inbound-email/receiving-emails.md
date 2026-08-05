@@ -1,7 +1,4 @@
 ---
-description: >-
-  Step-by-step guide to receiving emails with Mailtrap Inbound Email: create
-  folders and inboxes via API, then access incoming messages.
 layout:
   width: default
   title:
@@ -56,6 +53,10 @@ The terminal should send you a following message: `{"id":15,"name":"Support tick
 
 Your inbound inbox in this case would be: **demo-inbox-62fedace@inbound-mailtrap.io** and you could start sending emails to this address.
 
+{% hint style="info" %}
+If you want your email address to be under your **custom sending domain**, please see [this section](https://docs.mailtrap.io/inbound-email/receiving-emails#creating-a-custom-domain-catch-all-inbox).
+{% endhint %}
+
 #### Step 3. List messages from your inbound inbox
 
 Mailtrap returns a fully parsed email object, including envelope fields (sender, recipients, subjects), metadata (Message-ID, references) and raw headers, all in a single JSON.
@@ -86,3 +87,49 @@ Or, **delete a message** if you wish:
 curl -X DELETE https://mailtrap.io/api/inbound/inboxes/{inbox_id}/messages/{id} \
   -H 'Authorization: Bearer YOUR_API_KEY'
 ```
+
+### Creating a custom domain (catch-all) inbox
+
+By default, Mailtrap-generated inboxes use an address under the `@inbound-mailtrap.io` domain. If you prefer to use your own sending domain for your inbox address, you can create a catch-all inbox under that domain.
+
+{% stepper %}
+{% step %}
+**First, configure your sending domain to receive inbound emails**
+
+1. Go to the [**Domains**](https://mailtrap.io/domains) page and select the sending domain you want to use for your inbox.
+2. Open the **Domain Verification** tab.
+3.  Under **Add DNS records to your domain provider**, enable **Inbound domain receiving:**<br>
+
+    <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+4. Add the provided **MX record** to your domain's DNS settings.
+{% endstep %}
+
+{% step %}
+**Next, create an inbox using your own domain**
+
+Once the MX record has been added, you will need the following:
+
+1. Your **domain ID** (You can get this by using the [List Domains API](https://docs.mailtrap.io/developers/email-sending/domains#get-api-domains) endpoint.)
+2. Your **folder ID** (You can get this by using the [List Folders API](https://docs.mailtrap.io/developers/inbound/folders#get-api-inbound-folders) endpoint.)
+3. Your **API key**
+
+Once you have all of the above, you are now ready to create an inbox:
+
+Insert your folder ID, enter the desired inbox name, and create an inbox with the following command:
+
+```
+curl -X POST https://mailtrap.io/api/inbound/folders/{folder_id}/inboxes \
+  -H 'Authorization: Bearer YOUR_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{ "name": "Support tickets", "domain_id": domain_id }'
+```
+
+The terminal should send you something like this message: `{"id": 2, "name": "Support tickets", "address": "*@your-domain.com", "domain_id": 894 }`
+
+In this case, your inbound inbox can use **any username under `@your-domain.com`** (example: `user@your-domain.com`, `support@your-domain.com`), and you can start sending emails to that address.
+
+{% hint style="info" %}
+Currently, custom domain inboxes catch all emails sent to any username under the custom domain. In the future, we plan to support custom rules and forwarding based on the username.
+{% endhint %}
+{% endstep %}
+{% endstepper %}
