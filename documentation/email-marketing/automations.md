@@ -74,7 +74,7 @@ Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https
 Some of the Entry points available in the automation builder include:
 
 * **Contact created** — Starts when a new contact is added.
-* **Contact field updated** — Fires when specific field changes (e.g., email, last name, state, etc.).
+* **Contact field updated** — Fires when a specific field changes (e.g., email, last name, state, etc.).
 * **Contact added to list** — Activates when a new user is added to your list.
 * **Contact removed from list** — Triggers when a contact is removed from your list.
 * **Contact custom event** — Starts when Mailtrap receives a custom API event.
@@ -144,21 +144,19 @@ Each Mailtrap Email API/SMTP plan comes with different automation limits. To see
 
 ## Creating your first automation
 
+{% @arcade/embed flowId="Dx8ZHy2PftErqy6vL4aA" url="https://app.arcade.software/share/Dx8ZHy2PftErqy6vL4aA" %}
+
 To get started, navigate to the tab in your Mailtrap account or go to [https://mailtrap.io/marketing/automations](https://mailtrap.io/marketing/automations).
 
 {% stepper %}
 {% step %}
 Define the name for your automation.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
 Choose a descriptive name that indicates the automation's purpose.
 {% endstep %}
 
 {% step %}
 Set up an entry trigger and select when the automation should start.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 For this example, we'll use the "Contact created" trigger. This means the automation will start whenever a new contact is added. After selecting the trigger type, click "Save".
 {% endstep %}
@@ -171,20 +169,14 @@ Now that you've set up the trigger, you can start adding steps to your automatio
 {% stepper %}
 {% step %}
 Click the "Add Step" button to add your first action.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (26).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Select "Send Email" as your first action.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Customize your email content and settings.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (28).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Add your subject line, choose a template, and personalize with merge tags.
 {% endstep %}
@@ -197,8 +189,6 @@ To create a more complex sequence, you can add time delays and further actions.
 {% stepper %}
 {% step %}
 Insert waiting periods between actions.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Configure the delay duration (minutes, hours, days, or weeks).
 {% endstep %}
@@ -213,8 +203,6 @@ Repeat the process to add more emails, list assignments, or field updates.
 ## Automation activation
 
 Once you've built your automation sequence, it's time to activate it.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (30).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 **Before activating**
