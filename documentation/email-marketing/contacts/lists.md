@@ -18,6 +18,8 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 
 ## Creating Lists
 
+{% @arcade/embed flowId="8mXgigva4cR4QvDM0zZk" url="https://app.arcade.software/share/8mXgigva4cR4QvDM0zZk" %}
+
 ### Quick create
 
 {% stepper %}
@@ -25,8 +27,6 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 **Navigate to Lists**
 
 Go to **Contacts** → **Lists** in your dashboard.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-create-button.png" alt="Create List button in the Lists interface" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -39,8 +39,6 @@ Click **Create List** to open the creation dialog.
 **Name Your List**
 
 Enter a descriptive name for your list.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-create-form.png" alt="Form to enter new list name" width="563"></div>
 
 {% hint style="warning" %}
 List names must be unique. You cannot create duplicate list names.
