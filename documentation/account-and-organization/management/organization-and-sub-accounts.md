@@ -182,6 +182,44 @@ API tokens in Mailtrap are account–level. That means each sub‑account has it
 * **Scoped access**: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
 * **Management via UI**: Tokens can currently be created, viewed, and revoked via the API Tokens section inside each sub‑account.
 
+### Usage & Limits&#x20;
+
+Your organization has a single shared plan allowance (for example, monthly email volume and the number of sandboxes). Under the Usage & Limits tab, you can view your plan allowance, your organization's overall usage, and the usage of each individual sub-account. Since all sub-accounts share the same plan allowance, this makes it easy to understand how it is being consumed across your organization.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.41 (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Access to usage data per sub-account enables proportional cost allocation. For example, if a single subscription is shared across multiple sub-accounts representing different teams, its cost can be allocated proportionally based on each team's usage. Similarly, if a subscription is shared among multiple customers, the cost can be distributed proportionally across those customers according to their usage.
+{% endhint %}
+
+On top of that, as an Organization admin, you can set a personal limit for a sub-account (emails sent, domains, contacts, etc.) by clicking on the **Edit Limits** button.
+
+You will then be redirected to the following page:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.20.png" alt=""><figcaption></figcaption></figure>
+
+#### How limits per sub-account work
+
+**Sub-account with a limit**
+
+If you limit a sub-account (e.g., emails sent), it cannot go further once it hits the limit, not even by 1. A sub-account also cannot generate overage, even if the organization still has room for overage left.
+
+**Sub-account without a limit**
+
+A sub-account that you don't limit can use whatever is left of the organization’s plan allowance. If your plan allows it, the sub-account can also go into overage.
+
+**Mixed setup (some limited, some not)**
+
+* _Capped_ sub-accounts stop at their own limits and never create overage.
+* _Uncapped_ ones keep using the shared org pool and can create overage for the organization.
+* Even an uncapped sub-account is still blocked if the organization’s overall limit (including overage, if enabled) is exhausted.
+
+**Example**: Let's imagine that an organization with 100k monthly email sends has a sub-account A capped at 20k, and a sub-account B with no limit. In such a case, sub-account A will stop at 20k, whereas sub-account B can use the rest and may push the organization into overage.
+
+{% hint style="info" %}
+It's important to note that each sub-account is hard-capped, so nothing can push past the assigned caps into billable overage.
+{% endhint %}
+
 ### FAQ
 
 #### Users and Permissions
