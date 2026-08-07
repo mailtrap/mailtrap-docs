@@ -186,7 +186,7 @@ API tokens in Mailtrap are account–level. That means each sub‑account has it
 
 Your organization has a single shared plan allowance (for example, monthly email volume and the number of sandboxes). Under the Usage & Limits tab, you can view your plan allowance, your organization's overall usage, and the usage of each individual sub-account. Since all sub-accounts share the same plan allowance, this makes it easy to understand how it is being consumed across your organization.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.41 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.20.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Access to usage data per sub-account enables proportional cost allocation. For example, if a single subscription is shared across multiple sub-accounts representing different teams, its cost can be allocated proportionally based on each team's usage. Similarly, if a subscription is shared among multiple customers, the cost can be distributed proportionally across those customers according to their usage.
@@ -196,7 +196,7 @@ On top of that, as an Organization admin, you can set a personal limit for a sub
 
 You will then be redirected to the following page:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.41 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### How limits per sub-account work
 
@@ -215,10 +215,6 @@ A sub-account that you don't limit can use whatever is left of the organization�
 * Even an uncapped sub-account is still blocked if the organization’s overall limit (including overage, if enabled) is exhausted.
 
 **Example**: Let's imagine that an organization with 100k monthly email sends has a sub-account A capped at 20k, and a sub-account B with no limit. In such a case, sub-account A will stop at 20k, whereas sub-account B can use the rest and may push the organization into overage.
-
-{% hint style="info" %}
-It's important to note that each sub-account is hard-capped, so nothing can push past the assigned caps into billable overage.
-{% endhint %}
 
 ### FAQ
 
