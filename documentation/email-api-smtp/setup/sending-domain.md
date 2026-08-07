@@ -76,14 +76,14 @@ To send instructions to your admin or developer, enter their email address and c
 {% endstep %}
 
 {% step %}
-**Company / personal information**
+**Sender information**
 
-After adding your DNS records, click on “Fill in Compliance Form” to complete a short form where you’ll be asked to provide either business or personal information.
+After adding your DNS records, complete the Sender information form where you’ll be asked to provide either business or personal information.
 
 Please keep in mind that it’s crucial to provide correct information corresponding to your company registration details. It is important in order to comply with international regulations. This information may also be automatically added to the email footer of promotional emails sent from your domain.
 
 {% hint style="success" %}
-Tip: If you've provided this information before, you won't be asked to fill it in again.
+You only need to provide this information once per account. If you've provided it before or add other domains later, you won't be asked to fill in the form again.
 {% endhint %}
 
 You can switch between personal and business information only once, meaning that you cannot change it after the form is submitted.
