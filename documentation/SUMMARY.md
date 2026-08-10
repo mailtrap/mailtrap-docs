@@ -43,6 +43,7 @@
   * [Dedicated IP](email-api-smtp/deliverability/ip-warmup.md)
   * [Bounce Categorization](email-api-smtp/bounce-categorization.md)
   * [Feedback Loops](email-api-smtp/feedback-loops.md)
+  * [Automated Domain Reputation Monitoring](email-api-smtp/deliverability/automated-domain-reputation-monitoring.md)
   * [Deliverability Alerts](email-api-smtp/deliverability/deliverability-alerts.md)
   * [Protecting Your Domain](email-api-smtp/deliverability/protecting-domain-security.md)
 * [Advanced Features](email-api-smtp/advanced/README.md)
