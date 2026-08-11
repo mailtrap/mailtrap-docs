@@ -54,6 +54,21 @@ const mailtrap = new MailtrapClient({
   token: process.env.MAILTRAP_API_KEY!,
 });
 
+// Any value your users control (names, organizations, custom messages) has to be
+// escaped before it goes into an `html` body. Otherwise someone can name their
+// organization `</a><a href="https://attacker.example">Verify now</a>` and your
+// email delivers their link instead of yours.
+const HTML_ESCAPES: Record<string, string> = {
+  "&": "&amp;",
+  "<": "&lt;",
+  ">": "&gt;",
+  '"': "&quot;",
+  "'": "&#39;",
+};
+
+export const escapeHtml = (value: string) =>
+  value.replace(/[&<>"']/g, (char) => HTML_ESCAPES[char]);
+
 export async function sendEmail(options: {
   to: string;
   subject: string;
@@ -115,13 +130,15 @@ export const auth = betterAuth({
 
 ### Plugin emails
 
-If you use the Magic Link, Email OTP, or Organization plugins, reuse the same `sendEmail` helper for their callbacks. Add only the plugins your app actually uses:
+If you use the Magic Link, Email OTP, or Organization plugins, reuse the same `sendEmail` helper for their callbacks. Add the `plugins` array to the same `betterAuth` call shown above, keeping only the plugins your app actually uses:
 
 {% code title="auth.ts" %}
 ```typescript
 import { magicLink, emailOTP, organization } from "better-auth/plugins";
+import { escapeHtml, sendEmail } from "./email";
 
 export const auth = betterAuth({
+  // ...emailVerification and emailAndPassword from above
   plugins: [
     magicLink({
       sendMagicLink: async ({ email, url }) => {
@@ -152,7 +169,7 @@ export const auth = betterAuth({
           to: data.email,
           subject: `${data.inviter.user.name} invited you to ${org}`,
           text: `Join ${org}: ${link}`,
-          html: `<p>Click <a href="${link}">here</a> to join ${org}.</p>`,
+          html: `<p>Click <a href="${link}">here</a> to join ${escapeHtml(org)}.</p>`,
           category: "Organization invitation",
         });
       },
@@ -173,7 +190,36 @@ Once you copy the scripts, update the following:
 
 The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/webhooks), so you can tell reset emails from verification emails at a glance.
 
-The examples send both `html` and `text`. The HTML version gives recipients a clickable link, and the plain text version is a fallback for clients that do not render HTML. For richer, designed emails, keep the markup out of your application code and use [Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) instead, passing `template_uuid` and `template_variables` in place of `subject`, `text`, and `html`.
+The link-based examples send both `html` and `text`. The HTML version gives recipients a clickable link, and the plain text version is a fallback for clients that do not render HTML. The one-time code is plain text only, since there is nothing to link to.
+
+Escape every user-controlled value you interpolate into an `html` body. The invitation example runs the organization name through `escapeHtml` because whoever created the organization chose that name: left raw, a name containing `</a><a href="...">` closes your link and opens theirs, so the email arrives from your verified domain carrying an attacker's URL. That makes it a convincing phishing message, and invitations are the worst case because Better Auth sends them to people who are not users yet and have no way to judge what is normal for your app.
+
+Watch for this anywhere the value is not authored by you, including display names, team and organization names, and any custom note attached to an invitation. Escaping is only needed for `html`; `text` and `subject` are not parsed as markup, which is why the examples leave them as they are.
+
+For richer, designed emails, keep the markup out of your application code and use [Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) instead. Templates need a different payload, so add a separate helper rather than reusing `sendEmail`:
+
+{% code title="email.ts" %}
+```typescript
+export async function sendTemplateEmail(options: {
+  to: string;
+  templateUuid: string;
+  variables?: Record<string, string>;
+}) {
+  try {
+    await mailtrap.send({
+      from: { name: "Your App", email: "no-reply@yourdomain.com" },
+      to: [{ email: options.to }],
+      template_uuid: options.templateUuid,
+      template_variables: options.variables,
+    });
+  } catch (error) {
+    console.error(`Failed to send template to ${options.to}`, error);
+  }
+}
+```
+{% endcode %}
+
+Mailtrap renders the template, so the variables are passed as data and do not need HTML escaping.
 
 {% hint style="info" %}
 Better Auth recommends not awaiting the email call inside these handlers, which is why the examples use `void`. Awaiting it makes the response time depend on whether the address exists, which can leak that information. On serverless platforms, use `waitUntil` or the equivalent so the request is not torn down before the email is sent.
