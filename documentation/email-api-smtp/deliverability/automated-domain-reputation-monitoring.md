@@ -206,23 +206,19 @@ If this threshold is not met:
 
 This ensures that insights and alerts are based on statistically meaningful data.
 
-### Automated notifications
+### Reputation Alerts
 
-You can configure email notifications to stay informed about changes to your domain reputation.
+You can configure [Reputation Alerts](https://docs.mailtrap.io/email-api-smtp/deliverability/deliverability-alerts), automated email notifications that help you stay informed about changes to your domain reputation.
 
 Two notification types are available:
 
-#### Critical alerts
+* **Health Status Weekly**, a digest that includes overall domain status, warnings, positive trends
 
-Immediate notifications when serious risks are detected.
+<figure><img src="../../.gitbook/assets/reputation alerts 3 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Weekly summary
+* **Critical Alerts**, immediate notifications when serious risks are detected.
 
-A digest that includes:
-
-* Overall domain status
-* Warnings
-* Positive trends
+<figure><img src="../../.gitbook/assets/reputation alerts 6 (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Plan availability
 
