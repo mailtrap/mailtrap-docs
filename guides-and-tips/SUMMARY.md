@@ -20,6 +20,7 @@
 * [Apache Airflow](integrations/apache-airflow.md)
 * [Astro](integrations/astro.md)
 * [AWS Lambda](integrations/aws-lambda.md)
+* [Better Auth](integrations/better-auth.md)
 * [Cloudflare Workers](integrations/cloudflare-workers.md)
 * [cPanel SMTP Relay](integrations/cpanel.md)
 * [Composio](integrations/composio.md)
