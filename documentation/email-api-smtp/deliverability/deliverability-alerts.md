@@ -35,6 +35,22 @@ Health Status Weekly alerts are sent out on Mondays and provide a detailed previ
 
 The report includes clearly color-coded comparisons to the previous week, making it immediately obvious if one or more stats need your attention or show a negative trend. Additionally, there are insights (digest explanations of the stats) to help you troubleshoot your email infrastructure faster.
 
+## Critical Alerts
+
+Critical Alerts can cover all metrics shown in Reputation Monitoring dashboard, but an email is sent only when a metric changes from non-critical to critical. No repeat emails are sent while it remains critical. If it improves and later becomes critical again, a new email is sent.
+
+<figure><img src="../../.gitbook/assets/reputation alerts 6 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Critical Alerts are sent hourly (the system checks your metrics every three hours for the past 24 hours) when one or more of your critical stats are below the predetermined threshold.
+
+<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/critical-alerts-demo.gif" alt="Animated demonstration of Critical Alerts notification appearing on mobile device" width="563"><figcaption></figcaption></figure></div>
+
+The predetermined thresholds are based on extensive cross-industry research and examples of best practices.
+
+{% hint style="info" %}
+If you're getting a lot of false positives or negatives, feel free to reach out to us at [support@mailtrap.io](mailto:support@mailtrap.io).
+{% endhint %}
+
 ## Integrate Mailtrap Alerts with Slack
 
 Each Slack channel has a unique email address. You can leverage that to route Mailtrap Alerts directly to Slack. Here's how to do it on the desktop app:
@@ -62,19 +78,3 @@ Navigate to the Deliverability Alerts page in Mailtrap, and paste the Slack emai
 Click **Save** and all alerts will be routed to the Slack channel instead of your email.
 {% endstep %}
 {% endstepper %}
-
-## Critical Alerts
-
-Critical Alerts can cover all metrics shown in Reputation Monitoring dashboard, but an email is sent only when a metric changes from non-critical to critical. No repeat emails are sent while it remains critical. If it improves and later becomes critical again, a new email is sent.
-
-<figure><img src="../../.gitbook/assets/reputation alerts 6 (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-Critical Alerts are sent hourly (the system checks your metrics every three hours for the past 24 hours) when one or more of your critical stats are below the predetermined threshold.
-
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/critical-alerts-demo.gif" alt="Animated demonstration of Critical Alerts notification appearing on mobile device" width="563"><figcaption></figcaption></figure></div>
-
-The predetermined thresholds are based on extensive cross-industry research and examples of best practices.
-
-{% hint style="info" %}
-If you're getting a lot of false positives or negatives, feel free to reach out to us at [support@mailtrap.io](mailto:support@mailtrap.io).
-{% endhint %}
