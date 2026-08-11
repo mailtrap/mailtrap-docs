@@ -9,7 +9,7 @@ Domain Reputation Monitoring is an automated feature that continuously monitors 
 Instead of manually checking multiple tools, Domain Reputation Monitoring provides a centralized view of your domain reputation and highlights risks in real time.
 
 {% hint style="info" %}
-**Reputation Monitoring** feature is not to be confused with [**Reputation Alerts**](https://docs.mailtrap.io/email-api-smtp/deliverability/deliverability-alerts), which send you automated notifications about your sending metrics.&#x20;
+You can also turn on [**Reputation Alerts**](https://docs.mailtrap.io/email-api-smtp/deliverability/deliverability-alerts), which send you automated email notifications each time a critical level of any metric from **Reputation Monitoring** dashboard is hit.&#x20;
 {% endhint %}
 
 ### Why it matters
