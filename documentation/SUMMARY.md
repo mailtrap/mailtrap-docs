@@ -44,7 +44,7 @@
   * [Bounce Categorization](email-api-smtp/bounce-categorization.md)
   * [Feedback Loops](email-api-smtp/feedback-loops.md)
   * [Automated Domain Reputation Monitoring](email-api-smtp/deliverability/automated-domain-reputation-monitoring.md)
-  * [Deliverability Alerts](email-api-smtp/deliverability/deliverability-alerts.md)
+  * [Reputation Alerts](email-api-smtp/deliverability/deliverability-alerts.md)
   * [Protecting Your Domain](email-api-smtp/deliverability/protecting-domain-security.md)
 * [Advanced Features](email-api-smtp/advanced/README.md)
   * [Custom Variables](email-api-smtp/custom-variables.md)
