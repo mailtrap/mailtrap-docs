@@ -234,7 +234,6 @@ Full monitoring includes:
 * Dashboard
 * All monitoring categories
 * Email notifications
-* Webhooks
 
 #### More than 50 domains?
 
@@ -262,7 +261,6 @@ The following features are not available:
 * Google Postmaster integration
 * Advanced risk signals
 * Domain Health Status
-* Webhooks
 
 {% hint style="info" %}
 Domain Reputation Monitoring is designed for domains sending significant email volume. Your domain must send at least **1,000 emails per week** to generate monitoring insights.
