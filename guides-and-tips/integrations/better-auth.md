@@ -61,14 +61,18 @@ export async function sendEmail(options: {
   html?: string;
   category?: string;
 }) {
-  await mailtrap.send({
-    from: { name: "Your App", email: "no-reply@yourdomain.com" },
-    to: [{ email: options.to }],
-    subject: options.subject,
-    text: options.text,
-    html: options.html,
-    category: options.category,
-  });
+  try {
+    await mailtrap.send({
+      from: { name: "Your App", email: "no-reply@yourdomain.com" },
+      to: [{ email: options.to }],
+      subject: options.subject,
+      text: options.text,
+      html: options.html,
+      category: options.category,
+    });
+  } catch (error) {
+    console.error(`Failed to send "${options.subject}" to ${options.to}`, error);
+  }
 }
 ```
 {% endcode %}
@@ -173,6 +177,8 @@ The examples send both `html` and `text`. The HTML version gives recipients a cl
 
 {% hint style="info" %}
 Better Auth recommends not awaiting the email call inside these handlers, which is why the examples use `void`. Awaiting it makes the response time depend on whether the address exists, which can leak that information. On serverless platforms, use `waitUntil` or the equivalent so the request is not torn down before the email is sent.
+
+Because nothing awaits the result, `sendEmail` has to handle its own failures. That is what the `try/catch` is for: without it, a rejected send becomes an unhandled promise rejection, which terminates the Node.js process by default. Replace `console.error` with your own logger or error reporting.
 {% endhint %}
 
 ### Learn more
