@@ -8,6 +8,10 @@ Domain Reputation Monitoring is an automated feature that continuously monitors 
 
 Instead of manually checking multiple tools, Domain Reputation Monitoring provides a centralized view of your domain reputation and highlights risks in real time.
 
+{% hint style="info" %}
+**Reputation Monitoring** feature is not to be confused with [**Reputation Alerts**](https://docs.mailtrap.io/email-api-smtp/deliverability/deliverability-alerts), which send you automated notifications about your sending metrics.&#x20;
+{% endhint %}
+
 ### Why it matters
 
 Domain reputation directly affects whether your emails reach recipients' inboxes or spam folders.
@@ -31,6 +35,10 @@ Each monitored metric is assigned one of the following statuses:
 * **No status (gray)** - The metric cannot be evaluated due to insufficient data or because monitoring is unavailable.
 
 This allows you to quickly identify where problems exist and prioritize the most critical issues.
+
+To find Reputation Monitoring Dashboard, navigate to **Domains** → **Reputation** **Monitoring**.
+
+<figure><img src="../../.gitbook/assets/reputation monitoring.png" alt=""><figcaption></figcaption></figure>
 
 #### 1. Sending Overview
 
@@ -59,6 +67,8 @@ You can also filter data by:
 
 This makes it easier to identify performance drops and unusual trends.
 
+<figure><img src="../../.gitbook/assets/reputation monitoring 2.png" alt=""><figcaption></figcaption></figure>
+
 #### 2. Bounce Categories
 
 The **Bounce Categories** section breaks down bounced emails by failure type.
@@ -85,6 +95,8 @@ Data can also be filtered by:
 
 This helps you identify which types of delivery failures are increasing and where they originate.
 
+<figure><img src="../../.gitbook/assets/reputation monitoring 3.png" alt=""><figcaption></figcaption></figure>
+
 #### 3. Google Postmaster Data
 
 If Google Postmaster is integrated, this section provides Gmail-specific deliverability insights, including:
@@ -94,6 +106,8 @@ If Google Postmaster is integrated, this section provides Gmail-specific deliver
 * Deliverability error trends over time
 
 These insights help diagnose issues affecting Gmail inbox placement.
+
+<figure><img src="../../.gitbook/assets/reputation monitoring 4.png" alt=""><figcaption></figcaption></figure>
 
 #### 4. Domain Setup Status
 
