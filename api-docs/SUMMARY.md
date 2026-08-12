@@ -43,7 +43,7 @@
         spec: email-sending
   ```
 
-## Promotional
+## Email Marketing
 
 * ```yaml
   type: builtin:openapi
