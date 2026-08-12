@@ -22,14 +22,17 @@ llms.txt — [https://docs.mailtrap.io/llms.txt](https://docs.mailtrap.io/llms.t
 
 llms-full.txt — [https://docs.mailtrap.io/llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
 
-SDK repos:\
-.NET — [https://github.com/mailtrap/mailtrap-dotnet](https://github.com/mailtrap/mailtrap-dotnet)\
-Elixir — [https://github.com/mailtrap/mailtrap-elixir](https://github.com/mailtrap/mailtrap-elixir)\
-Java — [https://github.com/mailtrap/mailtrap-java](https://github.com/mailtrap/mailtrap-java)\
-Node.js — [https://github.com/mailtrap/mailtrap-nodejs](https://github.com/mailtrap/mailtrap-nodejs)\
-PHP — [https://github.com/mailtrap/mailtrap-php](https://github.com/mailtrap/mailtrap-php)\
-Python — [https://github.com/mailtrap/mailtrap-python](https://github.com/mailtrap/mailtrap-python)\
-Ruby — [https://github.com/mailtrap/mailtrap-ruby](https://github.com/mailtrap/mailtrap-ruby)
+SDK repos:
+
+* .NET — [https://github.com/mailtrap/mailtrap-dotnet](https://github.com/mailtrap/mailtrap-dotnet)
+* Elixir — [https://github.com/mailtrap/mailtrap-elixir](https://github.com/mailtrap/mailtrap-elixir)
+* Java — [https://github.com/mailtrap/mailtrap-java](https://github.com/mailtrap/mailtrap-java)
+* Node.js — [https://github.com/mailtrap/mailtrap-nodejs](https://github.com/mailtrap/mailtrap-nodejs)
+* PHP — [https://github.com/mailtrap/mailtrap-php](https://github.com/mailtrap/mailtrap-php)
+* Python — [https://github.com/mailtrap/mailtrap-python](https://github.com/mailtrap/mailtrap-python)
+* Ruby — [https://github.com/mailtrap/mailtrap-ruby](https://github.com/mailtrap/mailtrap-ruby)
+* Go — [https://github.com/mailtrap/mailtrap-go](https://github.com/mailtrap/mailtrap-go)
+* Elixir — [https://github.com/mailtrap/mailtrap-elixir](https://github.com/mailtrap/mailtrap-elixir)
 
 For setup with AI assistant follow these steps. Pause and confirm with the user before proceeding at steps marked with ⏸️.
 
@@ -79,10 +82,10 @@ Build the authenticated HTTP request in your programming language or framework a
 {% endstep %}
 
 {% step %}
-Alternatively, choose the programming language or framework from the menu under Code Samples and copy the sample configuration (it will already contain your credentials). In this menu, you'll find official SDKs for PHP, Python, Ruby, and Node.js.
+Alternatively, choose the programming language or framework from the menu under Code Samples and copy the sample configuration (it will already contain your credentials).
 
 {% hint style="info" %}
-For now, only Ruby, PHP (Laravel + Symfony), and Node.js SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
+For now, only Ruby, PHP (Laravel + Symfony), Node.js, and Go SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
 {% endhint %}
 {% endstep %}
 {% endstepper %}
