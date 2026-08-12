@@ -1,11 +1,11 @@
 ---
 description: >-
-  Set up your sending domain in Mailtrap. Add DNS records, verify
-  SPF/DKIM/DMARC, pass compliance, and start sending emails in minutes.
+  Set up your domain in Mailtrap. Add DNS records, verify SPF/DKIM/DMARC, pass
+  compliance, and start sending emails in minutes.
 icon: globe
 ---
 
-# Sending Domain Setup
+# Domain Setup
 
 <details>
 
@@ -46,16 +46,16 @@ Need help adding DNS records for your specific provider? Check out our detailed 
 {% @arcade/embed url="https://app.arcade.software/share/39p36H3XvIxXKeKthmsd" flowId="39p36H3XvIxXKeKthmsd" %}
 
 {% hint style="info" %}
-**Important**: Make sure the email address of the account owner is actively monitored. If we detect suspicious sending activity or need to clarify any important account details, we may contact you at this email address to ask additional questions, which helps avoid unnecessary account restrictions.
+**Important**: Make sure the **email address of the account owner is actively monitored**. If we detect suspicious sending activity or need to clarify any important account details, we may contact you at this email address to ask additional questions, which helps avoid unnecessary account restrictions.
 
-Furthermore, if your emails mention, promote, or link to another domain that belongs to you, your company, or your client, add that domain to Sending Domains and verify it as well. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
+Furthermore, if your emails mention, promote, or link to **another domain that belongs to you, your company, or your client, add that domain to Domains and verify it as well**. This helps us verify that the domains are connected to the same legitimate sender and prevents your emails from being mistaken for phishing. If you cannot add it due to the domains limit in your sending plan, please contact the support team for assistance.
 {% endhint %}
 
 {% stepper %}
 {% step %}
 **Add domain**
 
-Go to _Sending Domains_ in the left navigation panel and click _Add Domain_.
+Go to _Domains_ in the left navigation panel and click _Add Domain_.
 
 Type in the domain from which you want to send emails and click Add. Remember that you should be the domain owner with access to its DNS records/have someone with access to DNS records.
 
@@ -341,7 +341,7 @@ Mailtrap also allows you to batch up to 500 events within a webhook. That is, gr
 
 ### Useful tips <a href="#sending-domains-j_1ht" id="sending-domains-j_1ht"></a>
 
-After completing the setup process, you can always return to the Sending Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
+After completing the setup process, you can always return to the Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
 
 {% hint style="info" %}
 You can't create any additional demo domains, but you can delete an existing one if needed.
@@ -357,7 +357,7 @@ You can send emails to your recipients only from domains that have a Verified st
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-pending-verified-statuses.png" alt="Sending Domains showing pending and verified status badges" width="375"><figcaption></figcaption></figure></div>
 
-From the Sending Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won't be able to send any further emails until you add and verify it again.
+From the Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won't be able to send any further emails until you add and verify it again.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-delete-button.png" alt="Sending Domains with delete button highlighted" width="563"><figcaption></figcaption></figure></div>
 
