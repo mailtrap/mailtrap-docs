@@ -100,6 +100,28 @@ As mentioned earlier, click the menu icon at the far right of a token and select
 
 Click on the corresponding boxes to add or remove token permissions. Then, confirm your selection with the **Save** button.
 
+### Setting an expiration date
+
+By default, any new API tokens you create are set to expire after 365 days. However, when creating a new one, you can set the expiration to 1, 7, 30, 90, 180, or 365 days, or even add a custom date from the drop down menu.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+
+Expired tokens automatically stop working for API authentication but remain visible in the token list with their expiration date. They become eligible for automatic cleanup after 90 days.
+
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+To help users rotate their tokens in time and avoid unexpected authentication failures, we’ll send proactive notifications through both email and in-app notifications. Users will be notified:
+
+* 30 days before expiration - for tokens valid for at least 180 days
+* 3 days before expiration
+* when the token expires
+{% endhint %}
+
+You can also set a token to never expire, but you'll need to confirm this in an additional security prompt.
+
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+
 ### How to delete a token
 
 To delete a token, click a three-dot menu icon and choose the **Delete** **token** option.
