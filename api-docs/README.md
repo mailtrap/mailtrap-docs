@@ -20,19 +20,19 @@ The API documentation is organized into the following sections:
 
 {% columns %}
 {% column width="33.33333333333333%" %}
-#### Email Sending
+**Email Sending**
 
 Endpoints to send transactional and [bulk](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream) (promotional) emails, as well as manage sending domains, suppressions, and delivery statistics.
 {% endcolumn %}
 
 {% column width="33.33333333333333%" %}
-#### Templates
+**Templates**
 
 Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
 {% endcolumn %}
 
 {% column %}
-#### Promotional
+**Promotional**
 
 Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts). Contacts can be used to run campaigns and set up automations.
 {% endcolumn %}
@@ -40,20 +40,20 @@ Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts
 
 {% columns %}
 {% column %}
-#### Email Sandbox
+**Email Sandbox**
 
 Endpoints for testing and inspecting emails in a safe environment.\
 **Note**: Email Sending and Email Sandbox use different base URLs.
 {% endcolumn %}
 
 {% column %}
-#### Account Management
+**Account Management**
 
 Endpoints for programmatic management of account details and access permissions.
 {% endcolumn %}
 
 {% column %}
-####
+
 {% endcolumn %}
 {% endcolumns %}
 
@@ -61,7 +61,7 @@ Endpoints for programmatic management of account details and access permissions.
 
 {% stepper %}
 {% step %}
-#### Get API Credentials
+**Get API Credentials**
 
 1. Navigate to [API Tokens](https://mailtrap.io/settings/api-tokens).
 2. Generate a new API token with the required permissions.
@@ -74,7 +74,7 @@ Keep your API token secure and never expose it in client-side code.
 {% endstep %}
 
 {% step %}
-#### Install an SDK
+**Install an SDK**
 
 Choose an SDK for your programming language, or use the API directly with cURL.
 
@@ -131,11 +131,35 @@ Then install the package:
 dotnet add package Mailtrap -s github-mailtrap
 ```
 {% endtab %}
+
+{% tab title="Go" %}
+```bash
+go get github.com/mailtrap/mailtrap-go
+```
+{% endtab %}
+
+{% tab title="Elixir" %}
+Add the SDK to your `mix.exs` dependencies:
+
+```elixir
+def deps do
+  [
+    {:mailtrap, "~> 0.2.0"}
+  ]
+end
+```
+
+Then run:
+
+```bash
+mix deps.get
+```
+{% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-#### Send your first email
+**Send your first email**
 
 Below are minimal examples for sending an email:
 
@@ -299,6 +323,51 @@ var mail = new SendEmailRequest
 };
 
 await client.Email().Send(mail);
+```
+{% endtab %}
+
+{% tab title="Go" %}
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"log"
+
+	mailtrap "github.com/mailtrap/mailtrap-go"
+)
+
+func main() {
+	client, err := mailtrap.NewClient("your-api-token")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	resp, _, err := client.Send(context.Background(), &mailtrap.SendRequest{
+		From:    mailtrap.Address{Email: "hello@example.com", Name: "Mailtrap Test"},
+		To:      []mailtrap.Address{{Email: "recipient@example.com"}},
+		Subject: "Hello from Mailtrap!",
+		Text:    "Welcome to Mailtrap Email Sending!",
+		HTML:    "<p>Welcome to <strong>Mailtrap</strong> Email Sending!</p>",
+	})
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(resp.MessageIDs)
+}
+```
+{% endtab %}
+
+{% tab title="Elixir" %}
+```elixir
+client = Mailtrap.Sending.client("PASTE TOKEN HERE")
+email = (%Mailtrap.Email{}
+  |> Mailtrap.Email.put_from({"From name", "from@example.com"})
+  |> Mailtrap.Email.put_to({"Recepient", "recepient@example.com"})
+  |> Mailtrap.Email.put_subject("Hi there")
+  |> Mailtrap.Email.put_text("General Kenobi"))
+Mailtrap.Sending.send(client, email)
 ```
 {% endtab %}
 {% endtabs %}
