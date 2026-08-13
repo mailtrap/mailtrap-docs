@@ -4,9 +4,9 @@ description: Learn how to integrate Mailtrap with Composio.
 
 # Composio
 
-This article shows you how to connect your Mailtrap account to Composio and use its 49 pre-built Mailtrap actions inside AI agent workflows.&#x20;
+This article shows you how to connect your Mailtrap account to Composio and use its 49 pre-built Mailtrap actions inside AI agent workflows.
 
-The integration gives agents direct access to Mailtrap’s sandbox inspection, template management, contact operations, deliverability analytics, and domain configuration. It's available across every framework Composio supports: Python, TypeScript, LangChain, CrewAI, AutoGen, Google ADK, LlamaIndex, Vercel AI SDK, and Mastra.&#x20;
+The integration gives agents direct access to Mailtrap’s sandbox inspection, template management, contact operations, deliverability analytics, and domain configuration. It's available across every framework Composio supports: Python, TypeScript, LangChain, CrewAI, AutoGen, Google ADK, LlamaIndex, Vercel AI SDK, and Mastra.
 
 By the end of this guide, your agents will be able to query sandbox results, manage email templates, and monitor sending stats through natural language without you ever opening the Mailtrap account.
 
@@ -39,7 +39,7 @@ You need two sets of credentials before configuring the integration.
 
 <summary><strong>From Composio</strong></summary>
 
-1. Sign in to your [Composio dashboard](http://dashboard.composio.dev)&#x20;
+1. Sign in to your [Composio dashboard](http://dashboard.composio.dev)
 2. Navigate to **API Keys** and copy your Composio API key (if you haven't already, create one by clicking the **Create API Key** button).
 
 <figure><img src="../.gitbook/assets/composio 2.png" alt=""><figcaption></figcaption></figure>
@@ -54,9 +54,9 @@ Composio manages authentication through its Connect Link system; a secure hosted
 
 <summary>Via the Composio dashboard</summary>
 
-* Go to [app.composio.dev/integrations](https://app.composio.dev/integrations), search for Mailtrap, and click Connect&#x20;
+* Go to [app.composio.dev/integrations](https://app.composio.dev/integrations), search for Mailtrap, and click Connect
 
-<figure><img src="../.gitbook/assets/composio 3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/composio 3.png" alt=""><figcaption></figcaption></figure>
 
 * Enter 'bearer' for authentication and paste your Mailtrap API token.
 
@@ -64,7 +64,7 @@ Composio manages authentication through its Connect Link system; a secure hosted
 
 If the connection is successful, Composio will mark Mailtrap as active and you'll see your account in **Connected Apps**.
 
-<figure><img src="../.gitbook/assets/composio 5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/composio 5.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -112,7 +112,7 @@ console.log('Headers:', session.mcp.headers);
 
 Connect your MCP client to `session.mcp.url` using the headers from `session.mcp.headers`. All 49 Mailtrap actions appear as tools in the MCP client automatically - no per-tool configuration required.
 
-### Use cases&#x20;
+### Use cases
 
 Some of the potential use cases of Composio and Mailtrap integration include:
 

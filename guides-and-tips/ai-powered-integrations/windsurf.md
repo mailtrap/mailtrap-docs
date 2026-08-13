@@ -41,7 +41,7 @@ If you're using Devin CLI, go to the **Devin Local** tab under **Devin Settings*
 
 On the MCP Marketplace page, click on the **Add custom MCP** button, which will open the **mcp\_config.json** file.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.31.41 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-13 at 19.31.41.png" alt=""><figcaption></figcaption></figure>
 
 Then, in the **mcp\_config.json** file, copy/paste the following code snippet:
 

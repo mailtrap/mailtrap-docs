@@ -61,7 +61,6 @@
 * [GitHub Copilot](ai-powered-integrations/github-copilot.md)
 * [Leap.new](ai-powered-integrations/leap-new.md)
 * [Lovable](ai-powered-integrations/lovable.md)
-* [Mailtrap MCP Server](ai-powered-integrations/mcp-server.md)
 * [OpenClaw](ai-powered-integrations/openclaw.md)
 * [Qodo](ai-powered-integrations/qodo.md)
 * [OpenCode](ai-powered-integrations/opencode.md)

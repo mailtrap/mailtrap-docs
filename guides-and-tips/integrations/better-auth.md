@@ -14,13 +14,13 @@ Better Auth does not send email itself. It calls a function you provide, so you 
 
 Better Auth sends email from several places. Core email and password authentication uses two callbacks, and some plugins add their own:
 
-| Surface | Callback |
-| --- | --- |
-| Email verification | `emailVerification.sendVerificationEmail` |
-| Password reset | `emailAndPassword.sendResetPassword` |
-| Magic Link plugin | `magicLink({ sendMagicLink })` |
-| Email OTP plugin | `emailOTP({ sendVerificationOTP })` |
-| Organization plugin | `organization({ sendInvitationEmail })` |
+| Surface             | Callback                                  |
+| ------------------- | ----------------------------------------- |
+| Email verification  | `emailVerification.sendVerificationEmail` |
+| Password reset      | `emailAndPassword.sendResetPassword`      |
+| Magic Link plugin   | `magicLink({ sendMagicLink })`            |
+| Email OTP plugin    | `emailOTP({ sendVerificationOTP })`       |
+| Organization plugin | `organization({ sendInvitationEmail })`   |
 
 All of them are plain async functions, so a single `sendEmail` helper can serve every one.
 
@@ -188,7 +188,7 @@ Once you copy the scripts, update the following:
 * Replace `Your App` with the sender name you want recipients to see
 * Replace `https://yourdomain.com` in the invitation link with your app's base URL
 
-The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/webhooks), so you can tell reset emails from verification emails at a glance.
+The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/advanced/webhooks), so you can tell reset emails from verification emails at a glance.
 
 The link-based examples send both `html` and `text`. The HTML version gives recipients a clickable link, and the plain text version is a fallback for clients that do not render HTML. The one-time code is plain text only, since there is nothing to link to.
 

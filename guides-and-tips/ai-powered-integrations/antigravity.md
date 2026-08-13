@@ -60,7 +60,7 @@ Next, all you need to do is replace the following values in the **mcp\_config.js
 
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.47.39 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-15 at 18.47.39.png" alt=""><figcaption></figcaption></figure>
 
 * `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
 
