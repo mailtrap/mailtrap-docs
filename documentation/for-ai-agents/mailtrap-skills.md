@@ -1,7 +1,3 @@
----
-icon: gears
----
-
 # Mailtrap Skills
 
 Mailtrap offers official agent skills you can use to give your AI coding assistant accurate Mailtrap context for sending emails, receiving emails, testing with sandbox, using email templates, setting up a sending domain, and managing contacts.

@@ -1,7 +1,3 @@
----
-icon: mcp
----
-
 # Mailtrap MCP Server
 
 Automate email workflows from AI IDEs like VS Code or send emails send emails with simple prompts from AI assistants, such as Claude.

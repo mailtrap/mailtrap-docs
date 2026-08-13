@@ -4,13 +4,14 @@
 
 ## Getting Started
 
-* [AI Onboarding](getting-started/ai-onboarding.md)
 * [Email API/SMTP](getting-started/email-api-smtp.md)
 * [Email Sandbox](getting-started/email-sandbox.md)
 * [Email Marketing](getting-started/email-marketing.md)
 
 ## For AI agents
 
+* [Overview](for-ai-agents/overview.md)
+* [AI Onboarding](for-ai-agents/ai-onboarding.md)
 * [Mailtrap CLI app](for-ai-agents/mailtrap-cli-app.md)
 * [Mailtrap Skills](for-ai-agents/mailtrap-skills.md)
 * [Mailtrap MCP Server](for-ai-agents/mailtrap-mcp-server.md)

@@ -11,8 +11,8 @@ Building with AI? Mailtrap provides several resources to make your life easier:
 * [Mailtrap CLI app](ai-onboarding.md#mailtrap-cli-app)
 * [Mailtrap skills](ai-onboarding.md#mailtrap-skills)
 
-{% content-ref url="email-api-smtp.md" %}
-[email-api-smtp.md](email-api-smtp.md)
+{% content-ref url="../getting-started/email-api-smtp.md" %}
+[email-api-smtp.md](../getting-started/email-api-smtp.md)
 {% endcontent-ref %}
 
 {% content-ref url="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox" %}
