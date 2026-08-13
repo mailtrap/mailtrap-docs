@@ -9,6 +9,11 @@
 * [Email Sandbox](getting-started/email-sandbox.md)
 * [Email Marketing](getting-started/email-marketing.md)
 
+## For AI agents
+
+* [Mailtrap CLI app](for-ai-agents/mailtrap-cli-app.md)
+* [Mailtrap Skills](for-ai-agents/mailtrap-skills.md)
+
 ## Email API/SMTP
 
 * [Overview](email-api-smtp/overview.md)
@@ -52,7 +57,6 @@
   * [Auto BCC](email-api-smtp/advanced/auto-bcc.md)
   * [Webhooks](email-api-smtp/webhooks.md)
   * [Static IPs for sending & webhooks](email-api-smtp/advanced/static-ips-for-sending-and-webhooks.md)
-  * [Mailtrap CLI app](email-api-smtp/advanced/mailtrap-cli-app.md)
   * [Recipient Tracking Opt-Outs](email-api-smtp/advanced/recipient-tracking-opt-outs.md)
 * [Help & Support](email-api-smtp/help/README.md)
   * [Sending Glossary](email-api-smtp/help/glossary.md)
