@@ -96,6 +96,10 @@ Discover the full range of features and capabilities across our email platform.
 {% endcolumn %}
 {% endcolumns %}
 
+{% hint style="info" %}
+For a detailed overview of Mailtrap's security and privacy practices, consult the official [Trust Center](https://trust.mailtrap.io/).
+{% endhint %}
+
 ## Guides & integrations
 
 Learn how to integrate Mailtrap with your favorite tools and migrate from other services.
