@@ -106,6 +106,12 @@ Learn how to integrate Mailtrap with your favorite tools and migrate from other 
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td>Third-party Tools</td><td><em>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</em></td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">Integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td>Domain Configuration</td><td><em>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</em></td><td><a href="email-api-smtp/setup/sending-domain.md">sending-domain.md</a></td></tr></tbody></table>
 
+## Alternatives & migrations
+
+Migrating from another solution? Select your alternative below and migrate easily:
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>SenGrid</td><td><a href="https://mailtrap.io/sendgrid-migration/">https://mailtrap.io/sendgrid-migration/</a></td></tr><tr><td>Mailgun</td><td><a href="https://mailtrap.io/mailgun-migration/">https://mailtrap.io/mailgun-migration/</a></td></tr><tr><td>Intuit Mailchimp</td><td><a href="https://mailtrap.io/mandrill-migration/">https://mailtrap.io/mandrill-migration/</a></td></tr><tr><td>Amazon SES</td><td><a href="https://mailtrap.io/amazon-ses-migration/">https://mailtrap.io/amazon-ses-migration/</a></td></tr><tr><td>Postmark</td><td><a href="https://mailtrap.io/postmark-migration/">https://mailtrap.io/postmark-migration/</a></td></tr><tr><td>Brevo</td><td><a href="https://mailtrap.io/brevo-migration/">https://mailtrap.io/brevo-migration/</a></td></tr></tbody></table>
+
 ## Ready to get started?
 
 {% hint style="info" %}
