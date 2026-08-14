@@ -10,7 +10,6 @@
 
 ## For AI agents
 
-* [Overview](for-ai-agents/overview.md)
 * [AI Onboarding](for-ai-agents/ai-onboarding.md)
 * [CLI app](for-ai-agents/mailtrap-cli-app.md)
 * [Skills](for-ai-agents/skills.md)
