@@ -15,7 +15,7 @@
 * [AI Onboarding](ai-onboarding.md)
 * [Tools](tools/README.md)
   * [MCP Server](tools/mcp-server.md)
-  * [CLI app](tools/mailtrap-cli-app.md)
+  * [CLI app](tools/mailtrap-cli-app.md "Mailtrap email CLI")
   * [Skills](tools/skills.md)
   * [Prompts](tools/prompts.md)
   * [AI inbox](tools/ai-inbox.md)
