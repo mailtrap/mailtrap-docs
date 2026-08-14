@@ -52,7 +52,7 @@ await client.send({
 
 Use one of the official clients to set up Mailtrap and get started quickly.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-mcp">:mcp:</i> <strong>MCP</strong></td><td><em>Official Mailtrap MCP server</em></td><td><a href="for-ai-agents/mailtrap-mcp-server.md">mailtrap-mcp-server.md</a></td><td><a href="for-ai-agents/mailtrap-mcp-server.md">mailtrap-mcp-server.md</a></td></tr><tr><td><i class="fa-rectangle-terminal">:rectangle-terminal:</i> <strong>CLI</strong></td><td><em>Official command-line interface for Mailtrap</em></td><td><a href="for-ai-agents/mailtrap-cli-app.md">mailtrap-cli-app.md</a></td><td><a href="for-ai-agents/mailtrap-cli-app.md">mailtrap-cli-app.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-mcp">:mcp:</i> <strong>MCP</strong></td><td><em>Official Mailtrap MCP server</em></td><td><a href="for-ai-agents/mcp-server.md">mcp-server.md</a></td><td><a href="for-ai-agents/mcp-server.md">mcp-server.md</a></td></tr><tr><td><i class="fa-rectangle-terminal">:rectangle-terminal:</i> <strong>CLI</strong></td><td><em>Official command-line interface for Mailtrap</em></td><td><a href="for-ai-agents/mailtrap-cli-app.md">mailtrap-cli-app.md</a></td><td><a href="for-ai-agents/mailtrap-cli-app.md">mailtrap-cli-app.md</a></td></tr></tbody></table>
 
 ## Quick start guides
 

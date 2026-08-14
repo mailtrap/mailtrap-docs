@@ -12,9 +12,9 @@
 
 * [Overview](for-ai-agents/overview.md)
 * [AI Onboarding](for-ai-agents/ai-onboarding.md)
-* [Mailtrap CLI app](for-ai-agents/mailtrap-cli-app.md)
-* [Mailtrap Skills](for-ai-agents/mailtrap-skills.md)
-* [Mailtrap MCP Server](for-ai-agents/mailtrap-mcp-server.md)
+* [CLI app](for-ai-agents/mailtrap-cli-app.md)
+* [Skills](for-ai-agents/skills.md)
+* [MCP Server](for-ai-agents/mcp-server.md)
 * [AI prompts to set up sending](for-ai-agents/ai-prompts-to-set-up-sending.md)
 * [AI inbox](for-ai-agents/ai-inbox.md)
 

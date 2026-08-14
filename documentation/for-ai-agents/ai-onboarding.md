@@ -10,6 +10,8 @@ Building with AI? Mailtrap provides several resources to make your life easier:
 * [Mailtrap docs for agents](ai-onboarding.md#mailtrap-docs-for-agents)
 * [Mailtrap CLI app](ai-onboarding.md#mailtrap-cli-app)
 * [Mailtrap skills](ai-onboarding.md#mailtrap-skills)
+* [AI prompts to set up sending](https://docs.mailtrap.io/for-ai-agents/ai-prompts-to-set-up-sending)
+* [AI inbox](https://docs.mailtrap.io/for-ai-agents/ai-inbox)
 
 {% content-ref url="../getting-started/email-api-smtp.md" %}
 [email-api-smtp.md](../getting-started/email-api-smtp.md)
