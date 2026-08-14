@@ -15,6 +15,7 @@
 * [Mailtrap CLI app](for-ai-agents/mailtrap-cli-app.md)
 * [Mailtrap Skills](for-ai-agents/mailtrap-skills.md)
 * [Mailtrap MCP Server](for-ai-agents/mailtrap-mcp-server.md)
+* [AI prompts to set up sending](for-ai-agents/ai-prompts-to-set-up-sending.md)
 
 ## Email API/SMTP
 

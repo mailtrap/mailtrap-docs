@@ -114,8 +114,8 @@ npm run mcpb:sign
 {% endtab %}
 {% endtabs %}
 
-{% content-ref url="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/ai-powered-integrations/mcp-server" %}
-[Mailtrap MCP Server](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/ai-powered-integrations/mcp-server)
+{% content-ref url="/broken/spaces/gkNigAKiqQtQub1GOdjY/pages/Zc2hzutZptTaPF3PE9rx" %}
+[Broken link](/broken/spaces/gkNigAKiqQtQub1GOdjY/pages/Zc2hzutZptTaPF3PE9rx)
 {% endcontent-ref %}
 
 ### Mailtrap docs for agents
