@@ -59,6 +59,8 @@ Your account might be suspended or banned for one of the following reasons:
 * You or an Authorized End User engages in activities within a country subject to economic or financial sanctions or trade embargoes implemented, administered or enforced by the U.S. Department of the Treasury's Office of Foreign Assets Control, the U.S. Departments of State or Commerce or any other US government authority, the United Nations Security Council or the European Union;
 * Mailtrap determines that the provision of the Mailtrap Service to You is prohibited or limited by applicable law or regulation;
 * Information in Your account is untrue, inaccurate, or incomplete.
+* Your email content references a domain or brand that differs from your sending domain, which may resemble phishing or brand impersonation.
+  * To avoid this, email our support team and request verification for these additional domains (you can add multiple to a single account and they do not count against the “Domains” limit in your subscription plan).
 
 ### How to clear a suspension or a ban
 
