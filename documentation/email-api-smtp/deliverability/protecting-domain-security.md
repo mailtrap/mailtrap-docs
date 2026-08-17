@@ -92,6 +92,14 @@ How you store your .env file is your first line of defense against attackers.
 * Keep your .env file from the public by hiding it outside your web root, restricting file permissions, or using your preferred method.
 * Turn off debug mode, as it can expose sensitive information, including environment variables. This is typically done by setting your `DEBUG` to `False`, depending on your programming language.
 
+### Verify ownership of your company or brands domains
+
+If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.&#x20;
+
+To avoid this, simply email our support team and request verification for these additional domains (referred to as a company domain). You can add multiple company domains to a single account. Those domains do not count against the “Domains” limit in your subscription plan and can be added even if you are on a free plan.
+
+**Note**: This process does not require SPF or DKIM changes, does not affect the customer’s email infrastructure, and does not allow the verified domain to send emails. It simply provides a reliable, auditable proof of ownership.
+
 ### Additional security measures
 
 The methods outlined in this article are not exhaustive. While securing your web forms and hiding your .env files are fundamental security measures, they should be considered just the first line of defense.
