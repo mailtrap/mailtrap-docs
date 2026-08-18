@@ -17,18 +17,18 @@ Both plans are based on the plans' limits. For example, Email Sandbox plans give
 
 ### What happens if I hit the email limit in my plan?
 
-When you exhaust your Email API/SMTP plan's monthly sending volume, any additional emails you send are counted as overage and billed separately.&#x20;
+When you exhaust your Email API/SMTP plan's monthly sending volume, any additional emails you send are counted as overage and billed separately.
 
 Overage lets you send a limited number of extra emails beyond your plan’s monthly sending limit, giving you extra flexibility. Each plan sets a maximum on these additional emails since it's not intended to be used as an extended allowance.
 
 The overage bill is calculated and added to your invoice separately. For example, if you have a Basic 10K plan and you sent 12K emails during the month, your invoice will include:
 
 * Basic 10K plan price;
-* Overage price for 2K additional emails.&#x20;
+* Overage price for 2K additional emails.
 
-The price for every additional 1,000 emails varies depending on the plan. You can check detailed information on [our pricing page](https://mailtrap.io/pricing/).&#x20;
+The price for every additional 1,000 emails varies depending on the plan. You can check detailed information on [our pricing page](https://mailtrap.io/pricing/).
 
-You’ll get notified via email as you use 80%, 90%, and 100% of your overage limit. Once your overage limit is used up, further emails will be rejected.&#x20;
+You’ll get notified via email as you use 80%, 90%, and 100% of your overage limit. Once your overage limit is used up, further emails will be rejected.
 
 {% hint style="info" %}
 If you anticipate higher or recurring spikes in sending volume, consider upgrading to a higher plan or contact customer support for more information.
@@ -119,6 +119,10 @@ We send invoices by email once your credit card is successfully charged. Fill in
 
 If the financial email address is not set up, you will receive invoices and billing notifications to your main account email address.
 
+Furthermore, you can review your billing information before completing the payment if you select the **Invoice required** checkbox on the Payment page. If any information is missing or outdated, you can easily update it in a new modal.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-12 at 10.08.57.png" alt="" width="375"><figcaption></figcaption></figure>
+
 ### What will I find in my invoice?
 
 Your invoice will include all your subscriptions and the overage. The overage amount will be $0.00 if you didn't send any emails outside your plan limits.
@@ -157,7 +161,7 @@ You can get in touch with the Mailtrap Support team using one of the following w
 * **From your Mailtrap account**
 
 1. Log in to your account [here](https://mailtrap.io/signin).
-2. Go to the [**Help Center**](https://mailtrap.io/help-center) >  Get Help
+2. Go to the [**Help Center**](https://mailtrap.io/help-center) > Get Help
 3. Click **Start conversation.**
 
 ![](https://docs.mailtrap.io/~gitbook/image?url=https%3A%2F%2F1476453098-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FS3xyr7ba7aGO19rc8dSK%252Fuploads%252F7hftpJFYZKk1D4GQCYd8%252FScreenshot%25202026-02-19%2520at%252017.12.57.png%3Falt%3Dmedia%26token%3D90aebf2d-07b7-4c5b-aa6b-07623bc02077\&width=768\&dpr=3\&quality=100\&sign=9a8e2b31\&sv=2)
