@@ -92,6 +92,14 @@ How you store your .env file is your first line of defense against attackers.
 * Keep your .env file from the public by hiding it outside your web root, restricting file permissions, or using your preferred method.
 * Turn off debug mode, as it can expose sensitive information, including environment variables. This is typically done by setting your `DEBUG` to `False`, depending on your programming language.
 
+### Restrict your email sending to approved recipients
+
+You can ask our support team to restrict your email sending to approved recipient domains only. If you use Mailtrap for internal communication, this ensures emails are sent only to employees and never to external recipients.
+
+So, in case your credentials are stolen, attackers cannot use them to send spam outside the allowlist. This protects your sender reputation and controls unwanted volume and costs.
+
+**Note**: You can add up to 20 allowlisted recipient domains.
+
 ### Verify ownership of your company or brands domains
 
 If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.&#x20;
