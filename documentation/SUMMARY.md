@@ -10,15 +10,13 @@
 
 ## For AI agents
 
-***
-
-* [AI Onboarding](ai-onboarding.md)
-* [Tools](tools/README.md)
-  * [MCP Server](tools/mcp-server.md)
-  * [CLI app](tools/mailtrap-cli-app.md "Mailtrap email CLI")
-  * [Skills](tools/skills.md)
-  * [Prompts](tools/prompts.md)
-  * [AI inbox](tools/ai-inbox.md)
+* [AI Onboarding](for-ai-agents/ai-onboarding.md)
+* [Tools](for-ai-agents/tools/README.md)
+  * [MCP Server](for-ai-agents/tools/mcp-server.md)
+  * [CLI app](for-ai-agents/tools/mailtrap-cli-app.md "Mailtrap email CLI")
+  * [Skills](for-ai-agents/tools/skills.md)
+  * [Prompts](for-ai-agents/tools/prompts.md)
+  * [AI inbox](for-ai-agents/tools/ai-inbox.md)
 
 ## Email API/SMTP
 

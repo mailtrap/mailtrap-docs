@@ -1,4 +1,4 @@
-# AI prompts to set up sending
+# Prompts
 
 Mailtrap provides its users with ready-to-copy prompts that include the context AI agents like Cursor or Copilot need to integrate sending into your app/project. You can use AI prompts when you want to:
 
@@ -22,7 +22,7 @@ First, navigate to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-
 2. **SMTP** – Focuses on configuring SMTP sending
 3. **AI** – Generates a prompt that covers the complete Mailtrap sending setup
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-08-13 at 11.45.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-13 at 11.45.49.png" alt=""><figcaption></figcaption></figure>
 
 Keep in mind that the generated prompt depends on several selections, so make sure you choose the right options before copying it. These include the following:
 
@@ -33,7 +33,7 @@ Keep in mind that the generated prompt depends on several selections, so make su
 
 Once you're done selecting the desired parameters, simply click **Copy for AI** and get your prompt.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-08-13 at 12.06.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-13 at 12.06.41.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Since AI is prone to hallucination and errors, make sure to verify the output before sending any emails to real users.
