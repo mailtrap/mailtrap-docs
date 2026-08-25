@@ -153,4 +153,5 @@
   * [User audit Logs](privacy-and-security/activity-log.md)
   * [GDPR Compliance](privacy-and-security/gdpr-compliance.md)
   * [ISO Certification](privacy-and-security/iso-certification.md)
+  * [SOC 2 Type II Report](account-and-organization/privacy-and-security/soc-2-type-ii-report.md)
   * [Legal Policies](privacy-and-security/legal-policies.md)
