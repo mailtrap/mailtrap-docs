@@ -32,9 +32,9 @@ Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/em
 {% endcolumn %}
 
 {% column %}
-**Promotional**
+**Email Marketing**
 
-Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts). Contacts can be used to run campaigns and set up automations.
+Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts), send [email campaigns](https://docs.mailtrap.io/developers/email-marketing/email-campaigns), and get [campaign stats](https://docs.mailtrap.io/developers/email-marketing/campaign-stats).
 {% endcolumn %}
 {% endcolumns %}
 
