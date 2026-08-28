@@ -28,7 +28,7 @@ layout:
 
 Choose the clients you want to test and start the preview. Mailtrap returns a screenshot for each successfully rendered configuration and shows results progressively. This way, you can check how the email will look before sending it to recipients.
 
-<figure><img src="../../.gitbook/assets/device previews 1.png" alt=""><figcaption><p><em>Review screenshots from selected email clients in the Device Previews tab.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/device previews 1.png" alt="" width="375"><figcaption><p><em>Review screenshots from selected email clients in the Device Previews tab.</em></p></figcaption></figure>
 
 {% hint style="info" %}
 Device Previews produces screenshots for visual review. Use **HTML Check** for HTML/CSS compatibility and **Spam Analysis** for spam-related checks.
@@ -40,7 +40,7 @@ Device Previews is available as a paid add-on on the **Business** and **Enterpri
 
 If your account is eligible, open **Device Previews** and click **Request Add-on**. Our customer support team will then confirm the commercial terms and enable the add-on for your account.
 
-<figure><img src="../../.gitbook/assets/test test email.png" alt=""><figcaption><p><em>Request the add-on from the Device Previews tab.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/test test email.png" alt="" width="375"><figcaption><p><em>Request the add-on from the Device Previews tab.</em></p></figcaption></figure>
 
 ### How to create Device Previews
 
@@ -49,12 +49,12 @@ If your account is eligible, open **Device Previews** and click **Request Add-on
   * Plain-text-only messages do not have the Device Previews tab
 * Select the **Device Previews** tab and click **Test on Devices**.
 
-<figure><img src="../../.gitbook/assets/test on devices.png" alt=""><figcaption><p><em>Start from an HTML message in Sandbox</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/test on devices.png" alt="" width="375"><figcaption><p><em>Start from an HTML message in Sandbox</em></p></figcaption></figure>
 
 * In **Clients and devices**, browse **Mobile**, **Desktop**, and **Web**, and select the configurations to test (select light- and dark-mode variants separately when both are available).
 * Click **Preview on N devices**.
 
-<figure><img src="../../.gitbook/assets/preview.png" alt=""><figcaption><p><em>Choose the client configurations relevant to your recipients.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/preview.png" alt="" width="375"><figcaption><p><em>Choose the client configurations relevant to your recipients.</em></p></figcaption></figure>
 
 {% hint style="info" %}
 Check the usage message at the bottom of the drawer. For example, '**8 previews will be used**' means the test consumes eight previews.
@@ -62,7 +62,7 @@ Check the usage message at the bottom of the drawer. For example, '**8 previews 
 
 Mailtrap will then render your previews and show client results as they become available.
 
-<figure><img src="../../.gitbook/assets/preview 2.png" alt=""><figcaption><p><em>Choose the client configurations relevant to your recipients.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/preview 2.png" alt="" width="375"><figcaption><p><em>Choose the client configurations relevant to your recipients.</em></p></figcaption></figure>
 
 {% hint style="warning" %}
 One captured message supports one Device Previews test. You cannot add clients after submitting it. To test changed HTML or another selection, send a new message to Sandbox.
@@ -76,11 +76,11 @@ Screenshots are usually available within about a minute. However, keep in mind t
 
 * Hover over a completed tile and click **Preview**.
 
-<figure><img src="../../.gitbook/assets/click.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/click.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Inspect the email in fullscreen. Check layout width, stacking, text wrapping, fonts, spacing, images, buttons, backgrounds, dark-mode transformations, and footer content.
 
-<figure><img src="../../.gitbook/assets/rendered.png" alt=""><figcaption><p><em>Inspect completed results in fullscreen.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rendered.png" alt="" width="375"><figcaption><p><em>Inspect completed results in fullscreen.</em></p></figcaption></figure>
 
 Close fullscreen to return to the results grid. The selector contains completed results only.
 
@@ -95,7 +95,7 @@ Use Re-render to request a fresh screenshot of the same captured HTML for a comp
 
 The action does not use another preview. It uses the same captured HTML; send a new message if the source changed.
 
-<figure><img src="../../.gitbook/assets/re-render.png" alt=""><figcaption><p><em>Confirm the client before requesting a fresh screenshot.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/re-render.png" alt="" width="375"><figcaption><p><em>Confirm the client before requesting a fresh screenshot.</em></p></figcaption></figure>
 
 {% hint style="warning" %}
 A **Couldn’t render preview** tile cannot be opened or re-rendered. If the client is required, capture a new message and run another test, or contact Support if the same client repeatedly fails.
@@ -106,11 +106,11 @@ A **Couldn’t render preview** tile cannot be opened or re-rendered. If the cli
 * Open the template, campaign, or automation email.
 * Click **Send Test**.
 
-<figure><img src="../../.gitbook/assets/template 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template 1.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Select **Device Previews**, an active Sandbox, and click **Send Email to Sandbox**.
 
-<figure><img src="../../.gitbook/assets/template 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/template 2.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Mailtrap creates the message and opens its **Device Previews** tab.
 
