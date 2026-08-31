@@ -70,7 +70,7 @@ One captured message supports one Device Previews test. You cannot add clients a
 
 ### Review and re-render previews
 
-Screenshots are usually available within about a minute. However, keep in mind that completed results can appear while other clients are still rendering, and some clients may take longer.
+Mailtrap returns a screenshot for each successfully rendered configuration and shows results progressively. However, keep in mind that completed results can appear while other clients are still rendering, and some clients may take longer.
 
 #### Open a completed preview
 
