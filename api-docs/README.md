@@ -20,15 +20,16 @@ The API documentation is organized into the following sections:
 
 {% columns %}
 {% column width="33.33333333333333%" %}
-**Email Sending**
+**Email API/SMTP**
 
 Endpoints to send transactional and [bulk](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream) (promotional) emails, as well as manage sending domains, suppressions, and delivery statistics.
 {% endcolumn %}
 
 {% column width="33.33333333333333%" %}
-**Templates**
+**Email Sandbox**
 
-Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
+Endpoints for testing and inspecting emails in a safe environment.\
+**Note**: Email Sending and Email Sandbox use different base URLs.
 {% endcolumn %}
 
 {% column %}
@@ -40,20 +41,21 @@ Endpoints to manage [contacts](https://docs.mailtrap.io/email-marketing/contacts
 
 {% columns %}
 {% column %}
-**Email Sandbox**
+**Inbound**
 
-Endpoints for testing and inspecting emails in a safe environment.\
-**Note**: Email Sending and Email Sandbox use different base URLs.
+Endpoints to receive incoming emails and manage inbound folders, inboxes, messages, and threads.
+{% endcolumn %}
+
+{% column %}
+**Templates**
+
+Endpoints to manage [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates) used for email sending, email sandbox, and campaigns.
 {% endcolumn %}
 
 {% column %}
 **Account Management**
 
 Endpoints for programmatic management of account details and access permissions.
-{% endcolumn %}
-
-{% column %}
-
 {% endcolumn %}
 {% endcolumns %}
 

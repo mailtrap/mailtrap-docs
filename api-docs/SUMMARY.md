@@ -43,6 +43,31 @@
         spec: email-sending
   ```
 
+## Email Sandbox
+
+* ```yaml
+  props:
+    models: false
+    downloadLink: false
+  type: builtin:openapi
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: sandbox-sending
+  ```
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: false
+    downloadLink: false
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: sandbox
+  ```
+
 ## Email Marketing
 
 * ```yaml
@@ -95,31 +120,6 @@
       ref:
         kind: openapi
         spec: templates
-  ```
-
-## Email Sandbox
-
-* ```yaml
-  props:
-    models: false
-    downloadLink: false
-  type: builtin:openapi
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: sandbox-sending
-  ```
-* ```yaml
-  type: builtin:openapi
-  props:
-    models: false
-    downloadLink: false
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: sandbox
   ```
 
 ## Account Management
