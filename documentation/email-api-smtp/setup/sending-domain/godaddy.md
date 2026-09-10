@@ -34,7 +34,7 @@ On the Domain Verification page in Mailtrap, you'll see the DNS records you need
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in GoDaddy. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<figure><img src="../../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 <div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/godaddy-dns-record-types.png" alt="GoDaddy DNS record type selector dropdown" width="375"><figcaption></figcaption></figure></div>
 
