@@ -275,34 +275,6 @@ dig TXT yourdomain.com @1.1.1.1 +short      # Cloudflare DNS
 
 If everything looks correct, please allow additional time for propagation before contacting support.
 
-### (Optional) Tracking settings <a href="#optional-tracking-settings-ffi49" id="optional-tracking-settings-ffi49"></a>
-
-An optional step is to change the tracking settings. By default, Mailtrap tracks email opens for each email sent. You can also enable click tracking.
-
-{% hint style="info" %}
-_Click tracking_ and _custom domain for clicks tracking_ are available only for paid accounts.
-{% endhint %}
-
-<div data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-dns-settings.png" alt=""></div>
-
-With tracking enabled, you will find the open and click rates in the Analytics reports. [Read this article](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/statistics/README.md) for a detailed breakdown of Statistics.
-
-1. Navigate to the Tracking Settings tab.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-record-type-dropdown.png" alt="" width="563"></div>
-
-2. Toggle the switch next to Track Opened Emails to enable or disable tracking opens. Mailtrap tracks email opens via an invisible pixel. It’s added to each message sent from your account. When an email is opened, a pixel is loaded, and an ‘open’ event is recorded. Each of these events will be visible in [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
-
-{% hint style="info" %}
-Some mailbox providers, browsers, and extensions block invisible pixels. Users can also choose not to display images, or a solution they use to retrieve emails may not support images by default. In each of these cases, an 'open' event won't be recorded even if an email is opened.
-{% endhint %}
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-add-txt-record.png" alt="" width="563"></div>
-
-3. If you're a paid user, toggle the switch next to Track Clicks to enable or disable tracking clicks. If you enable click tracking, the toggle for Custom Domain for Clicks Tracking will be switched on automatically. That way, all links will be redirected through your domain (mt-link.yourdomain.com). And if you verified all the records correctly in Step 2, Domain Tracking will also be verified and ready to use.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-add-cname-record.png" alt="" width="563"></div>
-
 ### Useful tips <a href="#sending-domains-j_1ht" id="sending-domains-j_1ht"></a>
 
 After completing the setup process, you can always return to the Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
