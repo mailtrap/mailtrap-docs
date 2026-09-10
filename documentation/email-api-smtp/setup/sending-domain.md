@@ -303,42 +303,6 @@ Some mailbox providers, browsers, and extensions block invisible pixels. Users c
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-add-cname-record.png" alt="" width="563"></div>
 
-### Unsubscribe settings <a href="#unsubscribe-settings-ekyqh" id="unsubscribe-settings-ekyqh"></a>
-
-You can also configure unsubscribe settings.
-
-Unsubscribe links are mandatory for bulk emails as per privacy laws. If your emails don't include an unsubscribe link, Mailtrap will add an Unsubscribe Footer automatically. This is what it will look like:
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-all-records-added.png" alt="" width="375"></div>
-
-To add an unsubscribe link anywhere in your template, include this tag in your HTML template: `<a href="__unsubscribe_url__">unsubscribe</a>` . Mailtrap will render a clickable link in your email.
-
-Unsubscribe Footer and Links are optional for transactional emails and are switched off by default.
-
-However, if you want to, you can still add an Unsubscribe Footer to your transactional emails by toggling the switch On under Unsubscribe Footer for Transactional emails or adding an HTML tag mentioned above.
-
-<div align="left" data-full-width="true" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-verification-complete.png" alt=""></div>
-
-If you’d like, you can mix both approaches: automatically add a footer to emails sent from one domain and do it manually (when applicable) for emails sent from another domain.
-
-If an end-user uses an unsubscribe link, Mailtrap will reject any future emails sent to this address from this particular domain. You can quickly find all such emails in the Email Logs by filtering for the “reject” event.
-
-You will still be able to email them using other domains or subdomains added to your Mailtrap account.
-
-For that reason, it's worth having different domains or subdomains for different types of emails. This way, users can, for example, unsubscribe from your bulk or marketing messages while still receiving vital transactional messages.
-
-### (Optional) Webhooks <a href="#optional-webhooks-4hmes" id="optional-webhooks-4hmes"></a>
-
-Lastly, you can set up webhooks to receive event information almost real-time.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-compliance-in-progress.png" alt="" width="563"></div>
-
-Click the Add New Webhook button, choose the Sending Stream, paste the webhook URL (your endpoint) into the designated field, select the events you want to listen to, and then test the setup.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-webhook-setup.png" alt="" width="563"></div>
-
-Mailtrap also allows you to batch up to 500 events within a webhook. That is, group all events under one object, and thus save on computing power.
-
 ### Useful tips <a href="#sending-domains-j_1ht" id="sending-domains-j_1ht"></a>
 
 After completing the setup process, you can always return to the Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
