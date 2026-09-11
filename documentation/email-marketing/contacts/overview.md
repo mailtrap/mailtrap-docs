@@ -106,6 +106,10 @@ Click on any contact to view their details and perform individual actions:
 
 ### Available Actions
 
+
+
+
+
 {% tabs %}
 {% tab title="Edit Details" %}
 **Update contact information**
@@ -135,11 +139,10 @@ Changes are saved automatically and reflected immediately in campaigns.
 * Marks contact as unsubscribed
 * Removes from all active campaigns
 * Preserves contact data
-* Cannot be reversed manually
 
-{% hint style="warning" %}
-Unsubscribed contacts must re-subscribe themselves to receive emails again.
-{% endhint %}
+**Note**: If a contact asks to receive marketing emails again, go to **Suppressions**, find their email address, and click **Reactivate** on the relevant suppression. You can also restore their subscription using the [Contacts API](https://docs.mailtrap.io/developers/email-marketing/contacts/contacts#update-contact).
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34 (3).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Delete" %}
@@ -242,19 +245,13 @@ Click **More Actions** → **Unsubscribe**.
 {% step %}
 **Confirm Action**
 
-Type 'unsubscribe' to confirm.
+Type 'unsubscribe' to confirm and click **Unsubscribe** to complete.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-unsubscribe-confirm.png" alt="Confirmation dialog to unsubscribe contacts" width="563"></div>
-{% endstep %}
 
-{% step %}
-**Process Unsubscribe**
+Selected contacts are marked as Unsubscribed and added to Suppressions. If a contact later asks to receive marketing emails again, you can restore their subscription through **Suppressions** → **Reactivate** or by using the [Contacts API](https://docs.mailtrap.io/developers/email-marketing/contacts/contacts#update-contact).
 
-Click **Unsubscribe** to complete.
-
-{% hint style="warning" %}
-This action cannot be undone. Contacts must re-subscribe themselves.
-{% endhint %}
+<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34 (4).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -344,7 +341,9 @@ This action cannot be undone. All contact data will be permanently deleted.
 * Cannot receive marketing emails
 * Excluded from all campaigns
 * Status preserved for compliance
-* Can only be changed by contact
+* Can be changed to Subscribed through **Suppressions** → **Reactivate** or by using [Contacts API](https://docs.mailtrap.io/developers/email-marketing/contacts/contacts#update-contact) when the contact asks to receive marketing emails again.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34 (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Pending" %}
