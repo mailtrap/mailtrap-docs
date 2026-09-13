@@ -14,6 +14,8 @@ The feature applies to both [shared and dedicated IP](https://docs.mailtrap.io/e
 
 We have introduced a new step in the Campaign creation flow called Delivery.
 
+{% @arcade/embed flowId="pBFhLDhHcvY3LVHUQ336" url="https://app.arcade.software/share/pBFhLDhHcvY3LVHUQ336" %}
+
 {% stepper %}
 {% step %}
 #### Create your Campaign
@@ -34,16 +36,12 @@ Here you will see two options:
 #### Set your limit
 
 Select Send gradually. Enter the number of Emails to send per hour.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-13 at 13.03.04.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 #### Proceed to Schedule
 
 Click **Continue**.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-13 at 13.12.45.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The Schedule options have moved to a dedicated Step 5. You can now choose to start the gradual process immediately ("No schedule") or pick a specific start date and time.
