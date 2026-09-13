@@ -70,7 +70,11 @@ Click **Email Marketing** in the left navigation panel, and you'll have a quick 
 
 {% step %}
 If you want more details for a particular campaign, click the campaign name, then select the **Reports** tab, where you'll see the full [Statistics report](../email-marketing/campaigns/statistics.md).
+{% endstep %}
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/marketing-campaign-statistics.png" alt="Campaign statistics report showing delivery rates, opens, clicks, and mailbox provider breakdown" width="563"><figcaption></figcaption></figure></div>
+{% step %}
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260912-selw-3 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+
 {% endstep %}
 {% endstepper %}
