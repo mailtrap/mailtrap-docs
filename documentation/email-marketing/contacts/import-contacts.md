@@ -10,7 +10,7 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 ## Before You Begin
 
 {% hint style="warning" %}
-**Preparation Checklist** Before uploading contacts, ensure you have:
+**Preparation Checklist:** Before uploading contacts, ensure you have:
 
 1. Created all necessary custom fields
 2. Cleaned your contact list (removed duplicates, invalid emails)
@@ -84,6 +84,8 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 
 ## CSV Upload Process
 
+{% @arcade/embed flowId="up0dMWs7d0C6KmGeMvsu" url="https://app.arcade.software/share/up0dMWs7d0C6KmGeMvsu" %}
+
 {% stepper %}
 {% step %}
 **Prepare Your CSV File**
@@ -92,11 +94,7 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 
 Navigate to **Contacts** and click **Import Contacts**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-import-button.png" alt="Import Contacts button in the contacts interface" width="563"></div>
-
 Download our CSV template by clicking **Download CSV Template**.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-download-template.png" alt="Download CSV Template button for importing contacts" width="563"></div>
 
 **Format Your Data**
 
@@ -120,11 +118,7 @@ jane@example.com,Jane,Smith,Tech Inc,2024-01-20
 
 Click **Browse files** or drag and drop your CSV file into the upload area.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-upload-csv.png" alt="File upload area to import contacts CSV file" width="563"></div>
-
 Click **Import File** to proceed.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-import-file.png" alt="Import File button to proceed with contact upload" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -135,8 +129,6 @@ Assign CSV columns to your Mailtrap fields:
 * Match column headers to custom fields
 * Preview data mapping
 * Verify field assignments
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-field-mapping.png" alt="Field mapping interface to assign CSV columns to contact fields" width="563"></div>
 
 Click **Confirm Mapping** when ready.
 
@@ -158,27 +150,19 @@ Choose which lists should include these contacts:
 
 Select one or more lists from the dropdown and click **Continue**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-add-to-list.png" alt="Interface to add contacts to existing lists" width="563"></div>
-
 **Create New List**
 
 Click **Create New List**, enter a name, and click **Create**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-create-new-list.png" alt="Form to create a new contact list" width="563"></div>
-
 {% hint style="success" %}
 **Multiple Lists** You can add contacts to multiple lists simultaneously for better segmentation.
 {% endhint %}
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-multiple-lists.png" alt="Interface showing contacts being added to multiple lists" width="563"></div>
 {% endstep %}
 
 {% step %}
 **Confirm Consent**
 
 Check the consent verification box to confirm you have permission to email these contacts.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-confirm-consent.png" alt="Consent confirmation checkbox before importing contacts" width="563"></div>
 
 {% hint style="danger" %}
 **Legal Requirement** You cannot proceed without confirming consent. Ensure you have explicit permission from all contacts before importing.
@@ -191,8 +175,6 @@ Click **Confirm Import** to complete the process.
 **Import Confirmation**
 
 You'll receive a success notification once the import is complete.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-contacts-import-success.png" alt="Success notification after contacts are imported" width="563"></div>
 
 Your contacts are now available under **Contacts** and in their assigned **Lists**.
 {% endstep %}
