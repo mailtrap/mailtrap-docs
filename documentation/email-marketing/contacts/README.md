@@ -21,6 +21,8 @@ Mailtrap Contacts allows you to upload and store your contacts on the Mailtrap p
 
 ## Contact management workflow
 
+{% @arcade/embed flowId="EPtPcOmvepuYASb9avQO" url="https://app.arcade.software/share/EPtPcOmvepuYASb9avQO" %}
+
 {% stepper %}
 {% step %}
 **Define custom fields**
