@@ -129,7 +129,7 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 
 ## Limits
 
-Each Mailtrap Email API/SMTP plan comes with different automation limits. To see the usage:
+Each Mailtrap Email Marketing plan comes with different automation limits. To see the usage:
 
 * Navigate to the [Billing Dashboard](https://mailtrap.io/settings/billing/dashboard).
 * Click on 'View all features' under Email API/SMTP.
