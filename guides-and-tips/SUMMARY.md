@@ -44,6 +44,7 @@
   * [Supabase Transactional Emails Integration](integrations/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](integrations/supabase/contacts-management.md)
 * [Wget](integrations/wget.md)
+* [Upyo](integrations/upyo.md)
 * [Vercel](integrations/vercel.md)
 * [Zapier](integrations/zapier.md)
 
