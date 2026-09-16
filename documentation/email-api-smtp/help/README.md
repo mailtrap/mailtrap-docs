@@ -32,6 +32,7 @@ Find answers to common questions and troubleshoot issues with Mailtrap's Email A
 2. Review the [Troubleshooting Guide](../troubleshooting/)
 3. Search our documentation using the search bar
 4. Check our [API Reference](https://docs.mailtrap.io/developers)
+5. Feel free to ask over at [Mailtrap Community](https://community.mailtrap.io/)
 
 ### <i class="fa-comments-question-check">:comments-question-check:</i>Contact Support
 
@@ -41,11 +42,11 @@ If the information provided (including AI responses) doesn’t fully resolve you
 
 You can get in touch with the Mailtrap Support team using one of the following ways:
 
-* **From your Mailtrap account**&#x20;
+* **From your Mailtrap account**
 
 1. Log in to your account [here](https://mailtrap.io/signin).
 2. Go to the <i class="fa-circle-question" style="color:$primary;">:circle-question:</i>[<mark style="color:$primary;">**Help Center**</mark>](https://mailtrap.io/help-center) > <i class="fa-message-dots">:message-dots:</i> Get Help
-3. Click <mark style="color:$primary;">**Start conversation.**</mark>&#x20;
+3. Click <mark style="color:$primary;">**Start conversation.**</mark>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-02-19 at 17.12.57.png" alt=""><figcaption></figcaption></figure>
 

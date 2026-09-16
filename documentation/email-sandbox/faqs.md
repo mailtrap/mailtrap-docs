@@ -136,3 +136,7 @@ For larger teams, we offer sets of features within several paid subscription pla
 To choose one that best fits your needs, check our [pricing plans](https://mailtrap.io/pricing/?tab=sandbox).
 
 </details>
+
+{% hint style="info" %}
+Haven't found what you're looking for? Feel free to ask over at [Mailtrap Community](https://community.mailtrap.io/). We're happy to help!
+{% endhint %}

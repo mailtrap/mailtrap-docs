@@ -258,6 +258,6 @@ We don't store information about the server or IP address that sent messages. As
 * [Automatic Email Forwarding](automatic-email-forwarding.md)
 * [Email Sandbox FAQs](faqs.md)
 
-#### Need More Help?
+#### Need more help?
 
-If you don't find the solution to your problem here, contact our support at [support@mailtrap.io](mailto:support@mailtrap.io).
+If you can't find the solution to your problem here, feel free to ask a question over at [Mailtrap Community](https://community.mailtrap.io/) or contact our support at [support@mailtrap.io](mailto:support@mailtrap.io). We're happy to help!
