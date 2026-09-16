@@ -200,3 +200,7 @@ For more details, refer to our:
 We do not. In case you have found a vulnerability on our website that you are eager to report to us, you are welcome to do so at [support@mailtrap.io](mailto:support@mailtrap.io). All issue reporters will be mentioned on our [changelog page](https://mailtrap.io/changelog/).
 
 </details>
+
+{% hint style="info" %}
+Haven't found what you're looking for? Feel free to ask over at [Mailtrap Community](https://community.mailtrap.io/). We're happy to help!
+{% endhint %}
