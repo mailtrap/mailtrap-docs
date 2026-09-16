@@ -127,21 +127,6 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 ```
 {% endcode %}
 
-## Limits
-
-Each Mailtrap Email Marketing plan comes with different automation limits. To see the usage:
-
-* Navigate to the [Billing Dashboard](https://mailtrap.io/settings/billing/dashboard).
-* Click on 'View all features' under Email API/SMTP.
-* Look for 'Automations run count'.
-
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-* Each contact can go through the same automation once in 24 hours.
-* Each account can have up to 20 Automations.
-{% endhint %}
-
 ## Creating your first automation
 
 {% @arcade/embed flowId="Dx8ZHy2PftErqy6vL4aA" url="https://app.arcade.software/share/Dx8ZHy2PftErqy6vL4aA" %}
@@ -259,3 +244,9 @@ You can track the performance of your automation by clicking on the Reports tab 
 * **Segment wisely**: Use conditional splits for personalization.
 * **Time delays**: Consider time zones and optimal send times.
 * **Exit strategies**: Plan how contacts leave the automation.
+
+## Limits
+
+* Each contact can go through the same automation once in 24 hours.
+* Each account can have up to 30 Automations.
+* The maximum amount of automation runs for each plan is 250,000 per month.&#x20;
