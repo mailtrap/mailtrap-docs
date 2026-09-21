@@ -20,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Overview
@@ -33,12 +35,14 @@ Inbound email is most commonly used for:
 * **AI agents** – Give your  AI agent its own email address to receive and process messages
 * **Agent frameworks** – You're building with OpenClaw, LangChain, CrewAI, or other agent frameworks and need email as a tool via MCP
 
+**Note**: We also support custom receiving domains.
+
 {% embed url="https://docs.mailtrap.io/developers/inbound/" %}
 Link to official API documentation
 {% endembed %}
 
 {% hint style="info" %}
-The UI, as well as support for custom receiving domains, is coming soon.
+The UI is coming soon.
 {% endhint %}
 
 ### How it works
