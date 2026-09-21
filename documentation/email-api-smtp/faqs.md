@@ -95,9 +95,7 @@ This helps us verify that the domains are connected to the same legitimate sende
 
 <summary>Can I receive emails with Mailtrap?</summary>
 
-Right now, Mailtrap doesn't provide MX records to catch inbound emails, so they'll bounce.
-
-Another option is to use a real email address in the "reply-to" field if a recipient replies to your email.
+Yes, you can. Mailtrap offers the Inbound Email API, which allows you to create inboxes on demand, receive emails via API or webhooks, and process attachments securely. You can also add your own custom MX record and create a catch-all domain.
 
 </details>
 
