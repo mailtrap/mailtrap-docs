@@ -8,11 +8,11 @@
 ## Email Sending
 
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-    expandOperations: false
-  type: builtin:openapi
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -20,11 +20,11 @@
         spec: email-sending-transactional
   ```
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-    expandOperations: false
-  type: builtin:openapi
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -36,6 +36,7 @@
   props:
     models: false
     downloadLink: false
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -46,10 +47,11 @@
 ## Email Sandbox
 
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-  type: builtin:openapi
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -61,6 +63,7 @@
   props:
     models: false
     downloadLink: false
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -75,6 +78,7 @@
   props:
     models: false
     downloadLink: false
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -86,7 +90,7 @@
   props:
     models: false
     downloadLink: false
-    grouping: by-tag
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -101,6 +105,7 @@
   props:
     models: false
     downloadLink: false
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -111,10 +116,11 @@
 ## Templates
 
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-  type: builtin:openapi
+    grouping: by-operation
   dependencies:
     spec:
       ref:
@@ -125,10 +131,11 @@
 ## Account Management
 
 * ```yaml
+  type: builtin:openapi
   props:
     models: false
     downloadLink: false
-  type: builtin:openapi
+    grouping: by-operation
   dependencies:
     spec:
       ref:
