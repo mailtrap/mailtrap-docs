@@ -95,7 +95,7 @@ This helps us verify that the domains are connected to the same legitimate sende
 
 <summary>Can I receive emails with Mailtrap?</summary>
 
-Yes, you can. Mailtrap offers the Inbound Email API, which allows you to create inboxes on demand, receive emails via API or webhooks, and process attachments securely. You can also add your own custom MX record and create a catch-all domain.
+Yes, you can. Mailtrap offers the Inbound Email API, which allows you to create inboxes on demand, receive emails via API or webhooks, and process attachments securely. You can also receive mail at your own domain: verify it in Mailtrap, add the MX record we provide, then create a catch-all inbox that collects every address at that domain.
 
 </details>
 
