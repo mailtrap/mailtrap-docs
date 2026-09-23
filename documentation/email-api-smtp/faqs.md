@@ -171,9 +171,9 @@ For current pricing and to choose a plan that best fits your needs, visit our [p
 
 <summary>Is it possible to export Email logs?</summary>
 
-Right now, it's not possible, but there's a workaround.
+Yes, you can export Email Logs by going to **Email API/SMTP** → **Email Logs** and clicking on **Export in CSV**. You will then receive a CSV file containing your Email Logs in your inbox.
 
-You can set up [Webhooks](webhooks.md) to automatically collect logs. And you can use a tool like [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/zapier), for example, to create a spreadsheet from your webhooks.
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-23 at 11.23.42.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
