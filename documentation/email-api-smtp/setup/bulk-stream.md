@@ -89,11 +89,11 @@ await bulkClient.send({
 
 To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tcpk.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-otvs (6).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Check our [Sending Domain Setup Guide](sending-domain.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}
@@ -109,7 +109,7 @@ To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 * **Port**: 587 (or 25, 2525, 465 with SSL)
 * **Authentication**: Your stream-specific username and password
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-smtp-credentials.png" alt="Bulk Stream SMTP credentials with host, port, username, and password" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tfco.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 See our [SMTP Integration Guide](../smtp-integration.md) for detailed setup instructions.
 
@@ -120,7 +120,7 @@ To send via Bulk Stream API, use the bulk endpoint:
 * **Base URL**: `https://bulk.api.mailtrap.io/api`
 * **Authentication**: Bearer token (same as transactional)
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-api-credentials.png" alt="Bulk Stream API credentials with host and API token" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tgfv-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 See our [API Integration Guide](../api-integration.md) for implementation details.
 {% endstep %}
