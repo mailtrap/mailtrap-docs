@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Receiving Emails
@@ -104,7 +106,7 @@ By default, Mailtrap-generated inboxes use an address under the `@inbound-mailtr
 2. Open the **Domain Verification** tab.
 3.  Under **Add DNS records to your domain provider**, enable **Inbound domain receiving:**<br>
 
-    <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+    <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260926-putc-3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 4. Add the provided **MX record** to your domain's DNS settings.
 {% endstep %}
 

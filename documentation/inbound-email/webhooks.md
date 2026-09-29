@@ -42,7 +42,7 @@ Failed deliveries are retried every 5 minutes, for up to 40 attempts. The same r
 
 #### Step 2. Add your Webhook URL, select Inbound Inboxes, and select your Inbox
 
-<figure><img src="../.gitbook/assets/webhook 1.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260926-pyrm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Step 3. Once you receive a message in your Inbound Inbox, you should see the following output from your webhook:
 
