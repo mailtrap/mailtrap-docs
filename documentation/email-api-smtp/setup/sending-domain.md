@@ -128,11 +128,11 @@ Open the DNS settings and click Add New Record.
 {% step %}
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260912-tvch.png" alt=""><figcaption></figcaption></figure></div>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260912-tvch-2.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
@@ -168,7 +168,7 @@ Then, return to Mailtrap. Some records may be verified immediately, while some m
 {% step %}
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-godaddy-domain-list.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260912-twxi.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
