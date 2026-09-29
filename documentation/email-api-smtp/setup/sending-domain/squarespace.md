@@ -40,11 +40,11 @@ Navigate to **Sending Domains** and click on your domain.
 {% step %}
 Open the **Domain Verification** page; you will see a list of DNS records to add.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 20.14.23.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs (5).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
-You will need to add the following record types. Here’s the basic field name mapping, see the next step for record-by-record mapping.&#x20;
+You will need to add the following record types. Here’s the basic field name mapping, see the next step for record-by-record mapping.
 
 | **Mailtrap UI** | **Squarespace UI (CNAME)** | **Squarespace UI (TXT)** |
 | --------------- | -------------------------- | ------------------------ |
@@ -76,7 +76,7 @@ Repeat step 9 for all records listed on your Mailtrap **Domain** **Verification*
 * **Different value field names** - Squarespace calls CNAME values "Alias Data" and TXT values "Text". Mailtrap calls both just "Value".
 * **No trailing dot** - If Mailtrap's value ends with a (.), remove it before pasting into Squarespace.
 * **Host = subdomain only** - Squarespace auto-appends your domain. If Mailtrap shows rwmt1.\_domainkey.yourdomain.com, enter only rwmt1.\_domainkey.
-* **Squarespace does not support CNAME records on the root ( @ ) of the domain**. If a provider’s instructions tell you to create a CNAME with  @  as Host, this won’t work on Squarespace. Instead, use a subdomain (for example,  www ) for the CNAME and keep an A/ALIAS record on the root, or host your DNS with a provider that supports root‑level CNAME flattening.
+* **Squarespace does not support CNAME records on the root ( @ ) of the domain**. If a provider’s instructions tell you to create a CNAME with @ as Host, this won’t work on Squarespace. Instead, use a subdomain (for example, www ) for the CNAME and keep an A/ALIAS record on the root, or host your DNS with a provider that supports root‑level CNAME flattening.
 {% endhint %}
 {% endstep %}
 
@@ -85,13 +85,13 @@ Go back to your Mailtrap **Domain Verification** page.
 {% endstep %}
 
 {% step %}
-Click **Re-check DNS Records**.
+Click **Verify DNS Records**.
 {% endstep %}
 
 {% step %}
 Once all records show a green verified status, your domain is verified and ready to send.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 20.14.49.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi (5).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 DNS changes can take **15 minutes to a few hours** to propagate across the internet. In rare cases, propagation may take up to 24 hours. Mailtrap automatically re-checks DNS records every hour, but you can trigger a manual check anytime with the **Re-check DNS Records** button.

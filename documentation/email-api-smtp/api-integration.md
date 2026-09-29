@@ -94,7 +94,7 @@ For now, only Ruby, PHP (Laravel + Symfony), Node.js, and Go SDKs support Bulk S
 
 Once you add Mailtrap Email API to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you specified in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
-<figure><img src="../.gitbook/assets/email logs new (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-sxcd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### API tokens
 
@@ -102,7 +102,7 @@ Remember that each domain has different API tokens. You can also create addition
 
 <a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<figure><img src="../.gitbook/assets/api tokens new.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Mailtrap Email Sending API supports:
 
