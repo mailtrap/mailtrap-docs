@@ -6,11 +6,11 @@ With the Mailtrap add-on for Salesforce, you can route your transactional and ma
 
 In this guide, you'll learn how to:
 
-* [Install the Mailtrap package](https://docs.mailtrap.io/guides/~/changes/211/integrations/salesforce#step-1.-install-the-mailtrap-package)
+* [Install the ](https://docs.mailtrap.io/guides/~/changes/211/integrations/salesforce#step-1.-install-the-mailtrap-package)Email Sandbox add-on
 * [Connect and authorize Salesforce](https://docs.mailtrap.io/guides/~/changes/211/integrations/salesforce#step-2.-connect-and-authorize-salesforce)
-* [Activate Mailtrap Email Sandbox](https://docs.mailtrap.io/guides/~/changes/211/integrations/salesforce#id-3-activate-email-sandbox-for-salesforce)
+* [Activate the Email Sandbox](https://docs.mailtrap.io/guides/~/changes/211/integrations/salesforce#id-3-activate-email-sandbox-for-salesforce) add-on
 
-## Step 1. Install the Mailtrap package
+## Step 1. Install the Email Sandbox add-on
 
 * Open the official [Mailtrap AgentExchange listing](https://appexchange.salesforce.com/appxListingDetail?listingId=4f6cce1b-4943-4b23-94d7-d01df5249b03), click **Get It Now**, and log in via Trailblazer.
 
