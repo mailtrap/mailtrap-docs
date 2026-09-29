@@ -36,9 +36,9 @@ Each monitored metric is assigned one of the following statuses:
 
 This allows you to quickly identify where problems exist and prioritize the most critical issues.
 
-To find Reputation Monitoring Dashboard, navigate to **Domains** → **Reputation** **Monitoring**.
+To find the Reputation Monitoring Dashboard, navigate to **Domains** → **Reputation** **Monitoring**.
 
-<figure><img src="../../.gitbook/assets/reputation monitoring.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260926-orzo.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 1. Sending Overview
 
@@ -67,7 +67,7 @@ You can also filter data by:
 
 This makes it easier to identify performance drops and unusual trends.
 
-<figure><img src="../../.gitbook/assets/reputation monitoring 2.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260926-ougt.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 2. Bounce Categories
 
@@ -95,7 +95,7 @@ Data can also be filtered by:
 
 This helps you identify which types of delivery failures are increasing and where they originate.
 
-<figure><img src="../../.gitbook/assets/reputation monitoring 3.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260926-ouor.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 3. Google Postmaster Data
 
@@ -107,7 +107,7 @@ If Google Postmaster is integrated, this section provides Gmail-specific deliver
 
 These insights help diagnose issues affecting Gmail inbox placement.
 
-<figure><img src="../../.gitbook/assets/reputation monitoring 4.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/reputation monitoring 4.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### 4. Domain Setup Status
 
@@ -214,11 +214,11 @@ Two notification types are available:
 
 * **Health Status Weekly**, a digest that includes overall domain status, warnings, positive trends
 
-<figure><img src="../../.gitbook/assets/reputation alerts 3 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/reputation alerts 3 (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 * **Critical Alerts**, immediate notifications when serious risks are detected.
 
-<figure><img src="../../.gitbook/assets/reputation alerts 6 (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/reputation alerts 6 (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Plan availability
 
