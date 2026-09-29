@@ -6,13 +6,47 @@ With the Mailtrap add-on for Salesforce, you can route your transactional and ma
 
 In this guide, you'll learn how to:
 
-* [Configure Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#id-1-how-to-configure-named-credentials)
-* [Configure Mailtrap App](https://docs.mailtrap.io/guides/integrations/salesforce#id-2-configure-mailtrap-app)
-* [Enable the Sandbox mode](https://docs.mailtrap.io/guides/integrations/salesforce#id-3-enabling-the-sandbox-mode)
+* Install the Mailtrap package
+* Connect and authorize Salesforce
+* Activate Mailtrap Email Sandbox
 
-## 1) How to configure Named Credentials
+## Step 1. Install the Mailtrap package
 
-The Mailtrap package requires a [Named Credential](https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm\&type=5) called MailTrap\_To\_SF to communicate with your Salesforce org. To set it up, you need to:
+* Open the official Mailtrap AgentExchange listing, click Get It Now, and log in via Trailblazer.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.33.29.png" alt=""><figcaption></figcaption></figure>
+
+* Choose where to install the package&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.37.png" alt=""><figcaption></figcaption></figure>
+
+* Confirm the installation details and make sure to accept the terms and conditions
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.20 (1).png" alt=""><figcaption></figcaption></figure>
+
+* Choose a Salesforce username (i.e., **user123456@agentforce.com**)&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.36.59.png" alt=""><figcaption></figcaption></figure>
+
+* Select whether to install the app for admins only, all users, or specific profiles.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.36.41.png" alt=""><figcaption></figcaption></figure>
+
+* Approve third-party access and click **Continue**.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.37.22.png" alt=""><figcaption></figcaption></figure>
+
+If installation takes longer, Salesforce will email you a confirmation.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.49.28.png" alt=""><figcaption></figcaption></figure>
+
+You can also check for the Mailtrap App under Installed Packages.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.51.04.png" alt=""><figcaption></figcaption></figure>
+
+## Step 2. Connect and authorize Salesforce
+
+The Mailtrap package requires a [Named Credential](https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm\&type=5) called **MailTrap\_To\_SF** to communicate with your Salesforce org. To set it up, you need to:
 
 * [Assign permission set](https://docs.mailtrap.io/guides/integrations/salesforce#assign-permission-set)
 * [Create Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#create-named-credentials)
@@ -41,6 +75,13 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 ### Create Named Credentials
 
 #### Step 1. Connected App to Salesforce
+
+{% hint style="info" %}
+**Useful links**:
+
+* [External Credentials](https://help.salesforce.com/s/articleView?language=en_US\&id=sf.nc_create_edit_external_credential.htm\&type=5)
+* [Enable External Credentials Principals](https://help.salesforce.com/s/articleView?id=xcloud.nc_enable_ext_cred_principal.htm\&type=5)
+{% endhint %}
 
 * Navigate to **Setup** → **Apps** → **External Client Apps** → **External Client App Manager** and click on **New External Client App**.
 
@@ -113,13 +154,6 @@ Domain URL can be found under Company Settings → My Domain.
 <figure><img src="../.gitbook/assets/step 15.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3. Named Credentials to Salesforce
-
-{% hint style="info" %}
-**Useful links**:
-
-* [External Credentials](https://help.salesforce.com/s/articleView?language=en_US\&id=sf.nc_create_edit_external_credential.htm\&type=5)
-* [Enable External Credentials Principals](https://help.salesforce.com/s/articleView?id=xcloud.nc_enable_ext_cred_principal.htm\&type=5)
-{% endhint %}
 
 * Navigate to **Setup** → **Named Credentials** (under **Security**)→ click on **External Credentials** and hit the **New** button.
 
@@ -194,7 +228,7 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 And that’s it, your application is ready!
 
-## 2) Configure Mailtrap App
+## 3) Activate Email Sandbox for Salesforce
 
 To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens). To do this:
 
@@ -206,43 +240,22 @@ To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap acc
 
 <figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-**If you’re a free user**, create your Mailtrap API key (or copy it if you already have one) and paste it in the following bar.
 
-<figure><img src="../.gitbook/assets/free.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="warning" %}
-**Free account limitations**:
-
-* Due to the rate limits on the free plan, if an email has multiple recipients (including CC and BCC), only the first one will receive it. Additionally, the free plan is limited to 50 testing emails per month.
-* If you plan to upgrade later, we recommend following the Paid users flow in the next section, so the add-on will be added to your account and you'll be charged for it correctly when upgrading.
-{% endhint %}
-
-**If you’re a paid user** or **don’t have an account yet**, follow the follow the **Click here** link since the add-on is not added automatically and you need to create a Mailtrap API token.
-
-<figure><img src="../.gitbook/assets/3 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-You will also be redirected to the Mailtrap API Token page, where you’ll see instructions to contact customer support.
-
-<figure><img src="../.gitbook/assets/5.jpg" alt=""><figcaption></figcaption></figure>
-
-Once the support team enables the add-on, the charge will be applied automatically (prorated), and you can start using it.
-
-## 3) Enabling the Sandbox mode
-
-**Before we start**: The Mailtrap API token you intend to use for the Salesforce integration with Sandbox should have:
-
-* At least **Viewer** permission for _the whole account_.
-* **Admin** permission for _one or multiple sandboxes_.
-
-If your API token doesn’t meet one of these requirements, you won’t be able to activate the add-on.
-
-#### Step 1. Enable Sandbox mode
 
 To enable the Sandbox mode, navigate to **Account Settings** again, and then:
 
 * Paste your API key in the bar, hit **Save**.
 
 <figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Important**: The Mailtrap API token you intend to use for the Salesforce integration with Sandbox should have:
+
+* At least **Viewer** permission for _the whole account_.
+* **Admin** permission for _one or multiple sandboxes_.
+
+If your API token doesn’t meet one of these requirements, you won’t be able to activate the add-on.
+{% endhint %}
 
 * Select a sandbox to receive emails
 * Activate the sandbox mode
@@ -253,7 +266,9 @@ This will open a new window, where you simply have to click the **Turn on** butt
 
 <figure><img src="../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 2. Sending a test email
+The integration is complete! 🎉
+
+## Sending a test email
 
 To verify the integration, go to the **Contacts** page and try to send an email to one of your contacts. For example:
 
@@ -262,5 +277,3 @@ To verify the integration, go to the **Contacts** page and try to send an email 
 If you’ve followed everything correctly so far, once you click on **Send**, an email should arrive in your Sandbox, just like so:
 
 <figure><img src="../.gitbook/assets/10.jpg" alt=""><figcaption></figcaption></figure>
-
-And that’s it, the integration is complete! 🎉
