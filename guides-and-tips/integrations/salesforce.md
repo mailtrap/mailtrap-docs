@@ -76,13 +76,6 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 #### Step 1. Create an External Client App
 
-{% hint style="info" %}
-**Useful links**:
-
-* [External Credentials](https://help.salesforce.com/s/articleView?language=en_US\&id=sf.nc_create_edit_external_credential.htm\&type=5)
-* [Enable External Credentials Principals](https://help.salesforce.com/s/articleView?id=xcloud.nc_enable_ext_cred_principal.htm\&type=5)
-{% endhint %}
-
 * Navigate to **Setup** → **Apps** → **External Client Apps** → **External Client App Manager** and click on **New External Client App**.
 
 <figure><img src="../.gitbook/assets/step 4.png" alt=""><figcaption></figcaption></figure>
@@ -155,6 +148,13 @@ Domain URL can be found under Company Settings → My Domain.
 
 #### Step 3. Named Credentials to Salesforce
 
+{% hint style="info" %}
+**Useful links**:
+
+* [External Credentials](https://help.salesforce.com/s/articleView?language=en_US\&id=sf.nc_create_edit_external_credential.htm\&type=5)
+* [Enable External Credentials Principals](https://help.salesforce.com/s/articleView?id=xcloud.nc_enable_ext_cred_principal.htm\&type=5)
+{% endhint %}
+
 * Navigate to **Setup** → **Named Credentials** (under **Security**)→ click on **External Credentials** and hit the **New** button.
 
 <figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -214,7 +214,7 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 ### Add access to the Named Credentials
 
-* Go to the **Profiles** page and open the profile used for your use.
+* Go to the **Profiles** page and find the profile you want to give permissions to..
 
 <figure><img src="../.gitbook/assets/12.png" alt=""><figcaption></figcaption></figure>
 
