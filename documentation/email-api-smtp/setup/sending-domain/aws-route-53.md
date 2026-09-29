@@ -42,11 +42,11 @@ Click **Create record** button.
 {% step %}
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to AWS Route 53. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**.
 
-<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in AWS Route 53. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type records** (DMARC).
 
-<figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs-2 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -56,7 +56,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% step %}
 Copy the **Name** and **Value** for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/mailtrap-dns-records-copy.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ousm (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -76,13 +76,13 @@ Repeat the process of copying and pasting for each record until you've added all
 {% step %}
 Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-recheck-dns.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ovzx (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the **Status** of DNS records will change from Missing to **Verified**, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/mailtrap-verified-dns-records.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
