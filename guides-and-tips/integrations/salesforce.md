@@ -8,7 +8,7 @@ In this guide, you'll learn how to:
 
 * [Install the Email Sandbox add-on](https://docs.mailtrap.io/guides/integrations/salesforce#step-1.-install-the-email-sandbox-add-on)
 * [Connect and authorize Salesforce](https://docs.mailtrap.io/guides/integrations/salesforce#step-2.-connect-and-authorize-salesforce)
-* [Activate the Email Sandbox add-on](https://docs.mailtrap.io/guides/integrations/salesforce#add-access-to-the-named-credentials)
+* [Activate the Email Sandbox add-on](https://docs.mailtrap.io/guides/integrations/salesforce#step-3.-activate-email-sandbox-for-salesforce)
 
 ## Step 1. Install the Email Sandbox add-on
 
