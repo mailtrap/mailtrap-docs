@@ -12,7 +12,7 @@ In this guide, you'll learn how to:
 
 ## Step 1. Install the Mailtrap package
 
-* Open the official Mailtrap AgentExchange listing, click Get It Now, and log in via Trailblazer.
+* Open the official [Mailtrap AgentExchange listing](https://appexchange.salesforce.com/appxListingDetail?listingId=4f6cce1b-4943-4b23-94d7-d01df5249b03), click **Get It Now**, and log in via Trailblazer.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.33.29.png" alt=""><figcaption></figcaption></figure>
 
