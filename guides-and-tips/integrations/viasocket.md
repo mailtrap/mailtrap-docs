@@ -191,7 +191,7 @@ Two things to read off this payload before you build anything on top of it.
 1. `text_body` and `html_body` are both present. The trigger hands you the whole message, so you do not need a second call to fetch the content. `html_body` is null for a plain-text message.
 2. The message nests under a top-level body key. Your references are `body.subject`, `body.text_body`, `body.from`, and so on. The request also carries a headers key, but it holds viaSocket's own routing headers, not the Mailtrap signature.&#x20;
 
-The signature is checked before the flow runs; see the Technical notes.
+The signature is checked before the flow runs; see the [Technical notes](https://docs.mailtrap.io/guides/integrations/viasocket#technical-notes).
 
 {% hint style="info" %}
 If the trigger panel shows **New version of this trigger is available**, click **Update**, then **Save**, then publish the flow again. A published flow keeps running the trigger version it was published with until you do.
@@ -245,7 +245,7 @@ Inbound reply. Subject: body.subject Message: body.text_body
 
 The two paths differ only in which contact they attach to. On the not-found path, bind the contact id to the output of the step that just created it. On the found path, bind it to the first element of the search result.
 
-This binding is the easiest thing in the whole build to get wrong, so check it before you publish. See the Technical notes below.
+This binding is the easiest thing in the whole build to get wrong, so check it before you publish. See the [Technical notes](https://docs.mailtrap.io/guides/integrations/viasocket#technical-notes) below.
 
 <figure><img src="../.gitbook/assets/viaSocket 10.png" alt=""><figcaption></figcaption></figure>
 
