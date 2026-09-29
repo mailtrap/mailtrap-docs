@@ -11,7 +11,7 @@ icon: tag
 
 Email Categories were built to show the performance of various types of emails, such as welcome emails, billing emails, confirmation emails, etc.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-overview-table.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260924-smmo.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Why should you use categories?
 
@@ -44,12 +44,12 @@ Categories cannot be removed or modified at this point. The number of categories
 
 Categories can be tracked via the Email Categories tab in the Stats menu.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-metrics-detail.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260924-snvi.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 You can filter out the data for specific domains or mailbox providers using the filters. You can also limit the number of domains displayed and compare statistics only for some of them.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-charts-view.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260924-sogm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Mailtrap tracks statistics for each day separately, which can sometimes lead to, for example, open rates going into hundreds of percent.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-categories-daily-stats.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260924-spkq.png" alt="" width="563"><figcaption></figcaption></figure></div>
