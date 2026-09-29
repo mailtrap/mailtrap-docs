@@ -436,17 +436,15 @@ Select your email template and click the **Integration** tab.
 {% step %}
 Copy the code under the **Integration** tab (cURL, or any other based on your preference).
 
-{% hint style="info" %}
 To test the template, you only need to change the Sending API endpoint ([send.api.mailtrap.io](http://send.api.mailtrap.io/)) to Sandbox API ([sandbox.api.mailtrap.io](http://sandbox.api.mailtrap.io/)) and add the `inbox_id` to the end of the endpoint URL.
-{% endhint %}
 
-<figure><img src="../../.gitbook/assets/SCR-20260915-tqdq.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tcrd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Run the template test and check the associated inbox to preview the template under sandbox.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-test-email-received.png" alt="Email Testing sandbox showing received test email with template content" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tjkm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
