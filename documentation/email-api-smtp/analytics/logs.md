@@ -13,7 +13,7 @@ It’s a place to view all the emails sent from your account, along with their c
 
 #### How to use filters in Email Logs
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-filter-tabs.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tvgf.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 These filters are a quick way to find:
 
@@ -29,7 +29,7 @@ These filters are a quick way to find:
 When an email is sent, Mailtrap doesn't yet know which Mailbox Provider (e.g., Google, Outlook, Hotmail, etc.) it sent a message to. It's only able to determine this when it receives a response from the recipient's Mailbox Provider, which may sometimes take a few minutes.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-date-picker.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tvzc.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 The number of days Mailtrap stores email logs depends on your [billing plan](https://mailtrap.io/pricing/).
 
@@ -55,7 +55,7 @@ Email Logs provide much more information about each sent message. To access this
 
 The **Email info** tab provides the basic details of a message, including the timestamps, status, from/to addresses, or the IPs. If you’re confused about any of these terms, check our [Sending Glossary](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-sandbox/sandbox-glossary.md).
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-logs-email-info-tab.png" alt="" width="563"></div>
+<figure><img src="../../.gitbook/assets/SCR-20260919-txuq.png" alt=""><figcaption></figcaption></figure>
 
 Event History offers a list of all the events that have happened to this email since it was sent and until this moment.
 

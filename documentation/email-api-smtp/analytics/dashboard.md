@@ -11,7 +11,7 @@ icon: chart-line-up
 
 Mailtrap provides analytics for all the emails you send.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tlme.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 On the statistics dashboards, you can see the following metrics:
 
@@ -23,13 +23,13 @@ On the statistics dashboards, you can see the following metrics:
 
 ### **Navigating around the statistics dashboards**
 
-In that **Stats** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
+In that **Overview** tab, you'll find a domain selector at the top of the page. Here, you can choose to show stats for a particular domain.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-domain-selector.png" alt="" width="226"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tmjx.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 By default, the stats are shown for the last week + today.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-mailbox-providers-overview.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tnuh.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **Thresholds**
 
@@ -67,7 +67,7 @@ Unique open rate refers to the percentage of emails that were opened at least on
 
 Open tracking needs to be enabled for a domain in question in the Sending Domains tab. Only then will email opens be recorded.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-tracking-settings.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tpho.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### **Click rate**
 
@@ -77,7 +77,7 @@ When any of the links in an email are clicked, a **click** event is recorded. Th
 
 You can see the details of each click (timestamp, Recipient's IP, URL) in the **Events History** in the **Email Logs**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/stats-click-events-history.png" alt="" width="292"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260919-tsvy.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 However, the metrics such as **clicked** and **click rate** used in the statistics are calculated differently.
 
