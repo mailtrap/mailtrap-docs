@@ -74,7 +74,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 ### Create Named Credentials
 
-#### Step 1. Connected App to Salesforce
+#### Step 1. Create an External Client App
 
 {% hint style="info" %}
 **Useful links**:
@@ -228,7 +228,7 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 And that’s it, your application is ready!
 
-## 3) Activate Email Sandbox for Salesforce
+## Step 3. Activate Email Sandbox for Salesforce
 
 To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens). To do this:
 
@@ -242,7 +242,7 @@ To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap acc
 
 
 
-To enable the Sandbox mode, navigate to **Account Settings** again, and then:
+To enable the Sandbox mode, navigate to **Account Settings**, and then:
 
 * Paste your API key in the bar, hit **Save**.
 
