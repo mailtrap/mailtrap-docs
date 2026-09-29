@@ -28,13 +28,13 @@ You'll see the Create new record heading.
 {% step %}
 On the Domain Verification page in Mailtrap, you'll see the DNS records you need to add to DigitalOcean. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**.
 
-<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Check the type next to each record in Mailtrap and choose a relevant one in DigitalOcean (CNAME or TXT). Mailtrap has **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digitalocean-record-type-selector.png" alt="DigitalOcean DNS record type selector dropdown" width="563"><figcaption></figcaption></figure></div>
 
@@ -46,7 +46,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% step %}
 Copy the **Name** and **Value** for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/digitalocean-copy-dns-values.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ousm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -70,15 +70,15 @@ Repeat the process of copying and pasting for each record until you've added all
 {% endstep %}
 
 {% step %}
-Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
+Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the **Verify DNS Records** button.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/namecheap-recheck-dns-records.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ovzx.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/digitalocean-dns-verified.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
