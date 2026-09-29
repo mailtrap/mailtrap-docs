@@ -436,9 +436,11 @@ Select your email template and click the **Integration** tab.
 {% step %}
 Copy the code under the **Integration** tab (cURL, or any other based on your preference).
 
+{% hint style="info" %}
 To test the template, you only need to change the Sending API endpoint ([send.api.mailtrap.io](http://send.api.mailtrap.io/)) to Sandbox API ([sandbox.api.mailtrap.io](http://sandbox.api.mailtrap.io/)) and add the `inbox_id` to the end of the endpoint URL.
+{% endhint %}
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/template-stream-options.png" alt="Integration page showing Transactional Stream and Bulk Stream options with Integrate buttons highlighted by red arrows" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/SCR-20260915-tqdq.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

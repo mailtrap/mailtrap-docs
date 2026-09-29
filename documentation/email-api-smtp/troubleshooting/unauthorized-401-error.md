@@ -33,7 +33,7 @@ Check your [API tokens](https://mailtrap.io/settings/api-tokens) and verify the 
 
 Make sure you're using the correct SMTP/API credentials provided in the Integration tab of your domain.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/troubleshoot-sending-credentials-both-streams.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260925-ughe-2.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap" width="563"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure></div>
 
 ### How to Fix
 
@@ -78,7 +78,7 @@ Use the cURL code example to test if the error persists:
 3. Go to **Code Samples > cURL**
 4. Copy and run the cURL command
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/troubleshoot-sending-code-samples.png" alt="Code Samples section in Mailtrap showing cURL integration example" width="563"><figcaption><p>Code Samples section with cURL example</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260925-udau-2.png" alt="Code Samples section in Mailtrap showing cURL integration example" width="563"><figcaption><p>Code Samples section with cURL example</p></figcaption></figure></div>
 
 If the cURL test succeeds but your application fails, the issue is with your application's configuration.
 {% endstep %}
