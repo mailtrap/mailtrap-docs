@@ -18,7 +18,7 @@ For now, you can only access them via Email Logs.
 2. Choose an email
 3. Check the variables (Variable name 1, 2, 3…) under the Email info tab
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/custom-variables-email-info-tab.png" alt="Email info tab showing custom variables in Mailtrap interface" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260925-tlqu.png" alt="Email info tab showing custom variables in Mailtrap interface" width="563"></div>
 
 #### **How to set up custom variables with SMTP**
 
@@ -56,7 +56,7 @@ As you can see, you only need to add the variable name and value in the given fo
 
 The format for adding more custom variables is - `X-MT-Custom-Variables: {"variable1":"value1", "variable2":"value2"}`. Also, here’s another example of how custom variables appear in Mailtrap UI.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/custom-variables-ui-example.png" alt="Custom variables displayed in Mailtrap UI showing variable names and values" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260925-tnfx.png" alt="Custom variables displayed in Mailtrap UI showing variable names and values" width="563"></div>
 
 Lastly, keep in mind that we don’t support arrays. If you want to add arrays - `[“index0”,”index1”,”index2”]`, for example, Mailtrap only takes the first value (`"index0"`) and ignores the rest.
 
