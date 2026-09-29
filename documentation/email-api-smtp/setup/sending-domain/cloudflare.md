@@ -36,11 +36,11 @@ Click on the **Add Record** button.
 {% step %}
 On the **Domain Verification page** in Mailtrap, you'll see the DNS records you need to add to Cloudflare. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**.
 
-<figure><img src="../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs (2).png" alt=""><figcaption></figcaption></figure></div>
 
 Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs-2 (2).png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption></figcaption></figure></div>
 
@@ -52,7 +52,7 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% step %}
 Copy the **Name** and **Value** for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-copy-dns-values.png" alt="" width="563"></div>
+<figure><img src="../../../.gitbook/assets/SCR-20260915-ousm (2).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -74,15 +74,15 @@ Click **Save** and repeat the process for all the remaining DNS records.
 {% endstep %}
 
 {% step %}
-Then, **return to Mailtrap**. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
+Then, **return to Mailtrap**. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the **Verify DNS records** button.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-recheck-dns-records.png" alt="" width="563"></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ovzx (2).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the Status of DNS records will change from **Missing** to **Verified**, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-verified-dns-records.png" alt="" width="563"></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi (2).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
