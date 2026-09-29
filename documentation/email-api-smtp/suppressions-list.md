@@ -13,19 +13,19 @@ When hard bounce, unsubscribe, and spam complaints events occur, Mailtrap adds t
 
 You'll find all the addresses on suppression lists in the **Suppressions** menu to the left.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-table.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-tmke.png" alt="" width="563"></div>
 
 The menu contains the data for all your domains. If an email address was suppressed for more than one domain, it appears multiple times on the list.
 
 You can export the whole Suppressions list.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-export.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-tmke-2.png" alt="" width="563"></div>
 
 ### How to remove an email from a suppression list
 
 If you believe an email landed on a suppression list by accident, you can remove it by clicking the **Reactivate** button to the right.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-reactivate-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-tmke-3.png" alt="" width="563"></div>
 
 However, we advise you not to misuse the feature.
 
@@ -40,7 +40,7 @@ You can filter the suppression list for:
 * Type of suppression
 * Reason for suppression
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-list-filters.png" alt="" height="129" width="624"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-tqoe.png" alt="" width="563"></div>
 
 ### How to add recipients to the suppression list
 
@@ -50,17 +50,17 @@ Mailtrap allows you to add recipients manually or by uploading a CSV file.
 
 Select **Insert manually**. Then, under **Add to stream**, choose Bulk, Transactional, or Any. Under **Add to domain**, choose all or one of your domains.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-add-manual-modal.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-tsfk-2.png" alt="" width="563"></div>
 
 After you select the domain and stream, type or copy-paste the email addresses you want to suppress into the designated box. Then, click the **Add To Suppressions** button to complete the action.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-add-manual-form.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-ttov.png" alt="" width="563"></div>
 
 You can add only one email address per line and up to 1,000 emails per selected domain.
 
-Note that there's also the **Add New/Import** button at the top right of the screen in the Suppressions main dashboard. It allows you to access the **Add recipients to suppression list** menu quickly.
+Note that there's also the **Import Suppressions** button at the top right of the screen in the Suppressions main dashboard. It allows you to access the **Add recipients to suppression list** menu quickly.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/suppressions-add-new-import-button.png" alt="" height="92" width="624"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260924-tuoo.png" alt="" width="563"></div>
 
 #### Upload CSV
 
@@ -90,7 +90,7 @@ Many online services offer services for converting JSON to CSV. [Postmark’s he
 
 Select **Upload CSV**, then choose the stream and the domain.
 
-<div align="left"><figure><img src="../.gitbook/assets/Screenshot 2026-01-02 at 11.25.25.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/SCR-20260924-tvqr.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Click **Browse file** to select the CSV file from your computer or drag and drop it into the **Select file** box.
 
