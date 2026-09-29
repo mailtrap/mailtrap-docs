@@ -46,6 +46,7 @@
 * [Wget](integrations/wget.md)
 * [Upyo](integrations/upyo.md)
 * [Vercel](integrations/vercel.md)
+* [viaSocket](integrations/viasocket.md)
 * [Zapier](integrations/zapier.md)
 
 ## AI-Powered Integrations
