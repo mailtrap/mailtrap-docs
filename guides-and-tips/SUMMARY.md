@@ -46,7 +46,6 @@
 * [Wget](integrations/wget.md)
 * [Upyo](integrations/upyo.md)
 * [Vercel](integrations/vercel.md)
-* [viaSocket](integrations/viasocket.md)
 * [Zapier](integrations/zapier.md)
 
 ## AI-Powered Integrations
@@ -69,5 +68,6 @@
 * [Replit](ai-powered-integrations/replit.md)
 * [Reflex Build](ai-powered-integrations/reflex-build.md)
 * [V0](ai-powered-integrations/v0.md)
+* [viaSocket](ai-powered-integrations/viasocket.md)
 * [Visual Studio Code (VS Code)](ai-powered-integrations/vs-code.md)
 * [Devin AI (ex Windsurf)](ai-powered-integrations/windsurf.md)

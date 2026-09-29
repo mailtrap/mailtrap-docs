@@ -1,6 +1,6 @@
 # viaSocket
 
-This article walks you through connecting Mailtrap to [viaSocket](https://viasocket.com/) and building two working flows:
+This article walks you through connecting Mailtrap to [viaSocket](https://viasocket.com/integrations/mailtrap?utm_source=mailtrap\&utm_medium=marketplace\&utm_campaign=mailtrap_listing) and building two working flows:
 
 1. One that sends an order confirmation through Email API/SMTP, tested first against Email Sandbox.
 2. One that turns a customer reply into a CRM record.
