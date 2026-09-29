@@ -23,7 +23,7 @@ To enable Reputation Alerts, navigate to **Domains** → **Reputation Alerts** a
 
 Then, right underneath, you can select Mailtrap users who will receive notifications or enter any email address that belongs to a [verified sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
 
-<figure><img src="../../.gitbook/assets/reputation alerts 1.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260926-pgnu.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 
 
