@@ -136,7 +136,7 @@ If you still can't figure out why your emails aren't getting delivered to your s
 
 Email per sandbox is a premium feature available in the Basic, Team, Enterprise, or Business plans.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/troubleshoot-sandbox-email-address-disabled.png" alt="Sandbox Email Address tab showing disabled status with upgrade message"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-rwlp.png" alt="Sandbox Email Address tab showing disabled status with upgrade message" width="563"><figcaption></figcaption></figure></div>
 
 **Enabling after upgrade**
 
@@ -150,7 +150,7 @@ Go to the **Email Address** tab in your sandbox.
 {% step %}
 Click the three-dot menu to the right, and select **Enable**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/troubleshoot-sandbox-enable-email-address.png" alt="Email Address menu with Enable option highlighted" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-rxfd.png" alt="Email Address menu with Enable option highlighted" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -239,7 +239,7 @@ Log in to your dashboard, open your sandbox, and go to the **Integration** tab.
 {% step %}
 Click the **Reset Credentials** button, and your details will be reset right away.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/troubleshoot-sandbox-reset-credentials.png" alt="Integration tab with Reset Credentials button highlighted"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-rxxy.png" alt="Integration tab with Reset Credentials button highlighted" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
