@@ -116,6 +116,6 @@ Go to your Campaigns list and click on the campaign being sent.
 * **Delivery mode**: The details section will confirm the mode is set to "Send gradually" and show your configured rate (e.g., 60/hr).
 * **Terminate sending**: If you need to stop the campaign immediately, click the red Terminate Sending button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-13 at 13.28.43.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-rzzb.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 If you notice your inbox placement rates dropping, an increase in bounce rates or spam complaints, or if emails are taking longer than usual to deliver, terminate the campaign and review the recipients.<br>

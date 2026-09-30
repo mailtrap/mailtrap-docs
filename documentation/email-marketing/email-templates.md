@@ -7,7 +7,7 @@ icon: palette
 
 Email Templates allow you to design, edit, and host HTML email templates.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-sdkq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 By storing the template on Mailtrap and calling it via API, you can easily change the template code without committing to your codebase.
 
@@ -59,7 +59,7 @@ Each account can have up to 200 email templates.
 
 Each template must have a name, subject, category, and an assigned domain. The subject also supports variables.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-details-view.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sdys.png" alt="" width="563"></div>
 
 ### Available editors
 
@@ -67,13 +67,13 @@ Each template must have a name, subject, category, and an assigned domain. The s
 {% tab title="Drag & Drop Editor" %}
 The drag-and-drop editor allows you to design templates without any coding.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-drag-drop-interface.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-senk.png" alt="" width="563"></div>
 {% endtab %}
 
 {% tab title="Code Editor" %}
 The Code Editor allows you to edit the HTML or text content, depending on the emails you want to send.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-html-code-editor.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sdkq (1).png" alt="" width="563"></div>
 
 The editor supports Find and Replace options, and you can use **Cmd+F** or **Win+F** as a hotkey to reveal a quick search bar.
 
@@ -85,7 +85,7 @@ If your template has an error, Handlebars cannot render it. You'll see an error 
 You can't save a template with errors. Note that we don't validate HTML — only Handlebars syntax is validated.
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/marketing-templates-error.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-sffa-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endtab %}
 {% endtabs %}
 
@@ -126,7 +126,7 @@ Proceed to add the image to the template body under the `<img>` tag. You can pre
 
 Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-test-data-variables.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sfyv-2.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 By default, as a value, we put a variable name and add the "Test\_" prefix.
@@ -136,7 +136,7 @@ By default, as a value, we put a variable name and add the "Test\_" prefix.
 
 If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the **Send Test** button.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/template-send-test-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sfyv.png" alt=""></div>
 
 {% hint style="warning" %}
 **Test email requirements**

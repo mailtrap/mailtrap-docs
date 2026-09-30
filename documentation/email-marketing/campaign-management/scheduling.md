@@ -9,8 +9,8 @@ Once you have an email campaign ready for launch, you can schedule it by clickin
 
 On the next page, you'll be able to schedule a campaign two weeks in advance.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/marketing-campaign-schedule-form.png" alt="Schedule the campaign form with date selector and time picker showing 02.09.2025 at 15:40 UTC" width="375"><figcaption><p>Campaign scheduling form</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-sbnz.png" alt="Schedule the campaign form with date selector and time picker showing 02.09.2025 at 15:40 UTC" width="563"><figcaption><p>Campaign scheduling form</p></figcaption></figure></div>
 
 Note: If you want to change your timezone, go to your [Profile Settings](https://mailtrap.io/profile-settings) and choose your preferred timezone from the drop-down menu.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/profile-settings-timezone-selector.png" alt="Profile Settings page with timezone dropdown highlighted showing UTC timezone selection" width="375"><figcaption><p>Timezone selector in Profile Settings</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-scak.png" alt="Profile Settings page with timezone dropdown highlighted showing UTC timezone selection" width="563"><figcaption><p>Timezone selector in Profile Settings</p></figcaption></figure></div>

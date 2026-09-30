@@ -10,10 +10,10 @@ Mailtrap provides statistics for you to track the most important email marketing
 
 In your campaign dashboard, you can find:
 
-* [Campaign stats](statistics.md#campaign-stats)&#x20;
-* [Recipients stats](statistics.md#recipients-stats)&#x20;
-* [Clicks stats](statistics.md#clicks-stats)&#x20;
-* [Mailbox provider stats](statistics.md#mailbox-providers-stats)&#x20;
+* [Campaign stats](statistics.md#campaign-stats)
+* [Recipients stats](statistics.md#recipients-stats)
+* [Clicks stats](statistics.md#clicks-stats)
+* [Mailbox provider stats](statistics.md#mailbox-providers-stats)
 
 {% hint style="info" %}
 Feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream)
@@ -21,13 +21,13 @@ Feature applies to UI-launched campaigns only, not emails sent using the transac
 
 ### Campaign Stats
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/campaign stats.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-shpk.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 In the **Reports** tab, you can see the following campaign statistics:
 
 * **Sent** – Emails attempted to be sent to recipients, including those that may have bounced or not yet been delivered.
 * **Delivered** – Emails delivered to the recipient’s mailbox provider.
-* **Opened** – Percentage of emails opened at least once.&#x20;
+* **Opened** – Percentage of emails opened at least once.
 * **Clicked** – Percentage of emails where a recipient clicked any link.
 * **Bounced** – Percentage of emails rejected by mailbox providers.
 * **Spam complaints** – Percentage of emails recipients reported as spam.
@@ -39,7 +39,7 @@ By default, the Charts Overview shows data based on hourly sends, but you can al
 
 ### Recipients stats
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/recipient stats (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-sigf.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 In the **Recipients** tab, you can see how your campaign is performing for each recipient.
 
@@ -51,7 +51,7 @@ You can also export the stats in a .csv file by clicking on the Download Recipie
 
 ### Clicks stats
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/click stats.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-sitj.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 In the **Clicks** tab, you can keep track of the performance of your links, more specifically:
 
@@ -62,6 +62,6 @@ In the **Clicks** tab, you can keep track of the performance of your links, more
 
 ### Mailbox providers stats
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/mailbox providers.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260929-sjdw.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Finally, you can go to the **Mailbox Providers Stats** and see how your campaign is performing with different Mailbox Providers, such as Google, Yahoo, Outlook, Apple Mail, and others.
