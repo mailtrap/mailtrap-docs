@@ -38,13 +38,13 @@ This way, you can test and verify if:
 * Mail merge/dynamic content is replaced properly.
 * Appropriate files are attached.
 * Important links, such as reset password and account confirmation, work.
-* Your message doesn't trigger a spam filter and your domain is not blacklisted, etc.
+* Your message doesn't trigger a spam filter, and your domain is not blacklisted, etc.
 
 ### How to get started with Sandbox API
 
 First, you need to get a token. You can find it under **Settings** > **`API Tokens`**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/sandbox-api-tokens-settings.png" alt="" width="123"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-qyls.png" alt="" width="375"></div>
 
 To learn more about managing your tokens, please [check this guide](../email-api-smtp/setup/api-tokens.md). Then, there are a couple ways to send authenticated HTTP requests:
 

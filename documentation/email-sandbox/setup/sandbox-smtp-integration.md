@@ -12,27 +12,27 @@ icon: gears
 
 {% stepper %}
 {% step %}
-Go to **Email Testing** → **Sandboxes**.
+Navigate to the **sidebar** → **Sandboxes**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-integration-navigate-to-sandboxes.png" alt="Navigation menu showing Email Testing section with Sandboxes option" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20260929-pcfb.png" alt="Navigation menu showing Email Testing section with Sandboxes option" width="563"></div>
 {% endstep %}
 
 {% step %}
 Open the sandbox (named **My Sandbox**) created by default.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-integration-open-my-sandbox.png" alt="Sandboxes list displaying My Sandbox and other project sandboxes" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20260929-pcfb-3.png" alt="Sandboxes list displaying My Sandbox and other project sandboxes" width="563"></div>
 {% endstep %}
 
 {% step %}
 Under the **Integration** tab, select **SMTP** and copy the credentials such as Host, Port, Username, and Password.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-integration-smtp-credentials.png" alt="Integration tab showing SMTP credentials including Host, Port, Username, and Password" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20260929-qvkn.png" alt="Integration tab showing SMTP credentials including Host, Port, Username, and Password" width="563"></div>
 {% endstep %}
 
 {% step %}
 Paste them into your email-sending script, service, or MTA (any service that supports SMTP integration), and run it. The email will arrive in your sandbox in a few seconds.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-integration-email-received.png" alt="Sandbox inbox displaying received test email message" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20260929-qwsu.png" alt="Sandbox inbox displaying received test email message" width="563"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -44,7 +44,7 @@ Instead of copy-pasting the SMTP credentials, you can use the code samples alrea
 {% step %}
 In the **Integration** tab of your sandbox, scroll down to **Code Samples** and select the programming language or framework you're working with.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sandbox-integration-code-samples.png" alt="Code Samples section showing various programming language options for integration" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20260929-qxct-2.png" alt="Code Samples section showing various programming language options for integration" width="563"></div>
 {% endstep %}
 
 {% step %}
