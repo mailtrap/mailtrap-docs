@@ -2,7 +2,7 @@
 
 [Salesforce](https://www.salesforce.com/ap/) is a cloud-based CRM platform used by businesses to manage customer relationships, sales, and marketing.
 
-With the Mailtrap add-on for Salesforce, you can route your transactional and marketing emails through [Email Sandbox](https://mailtrap.io/email-sandbox/) to test and inspect them before they reach real recipients.
+With the [Email Sandbox for Salesforce](https://appexchange.salesforce.com/appxListingDetail?listingId=4f6cce1b-4943-4b23-94d7-d01df5249b03) add-on, you can route your Salesforce emails through [Email Sandbox](https://mailtrap.io/email-sandbox/) to test and inspect them before they reach real recipients.
 
 In this guide, you'll learn how to:
 
@@ -10,9 +10,13 @@ In this guide, you'll learn how to:
 * [Connect and authorize Salesforce](https://docs.mailtrap.io/guides/integrations/salesforce#step-2.-connect-and-authorize-salesforce)
 * [Activate the Email Sandbox add-on](https://docs.mailtrap.io/guides/integrations/salesforce#step-3.-activate-email-sandbox-for-salesforce)
 
+{% hint style="info" %}
+The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform email, including Flow, Apex, email alerts and templates. It doesn't work with Marketing Cloud.
+{% endhint %}
+
 ## Step 1. Install the Email Sandbox add-on
 
-* Open the official [Mailtrap AgentExchange listing](https://appexchange.salesforce.com/appxListingDetail?listingId=4f6cce1b-4943-4b23-94d7-d01df5249b03), click **Get It Now**, and log in via Trailblazer.
+* Open the official [Mailtrap Email Sandbox AgentExchange listing](https://appexchange.salesforce.com/appxListingDetail?listingId=4f6cce1b-4943-4b23-94d7-d01df5249b03), click **Get It Now**, and log in via Trailblazer.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.33.29.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,7 +50,7 @@ You can also check for the Mailtrap App under Installed Packages.
 
 ## Step 2. Connect and authorize Salesforce
 
-The Mailtrap package requires a [Named Credential](https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm\&type=5) called **MailTrap\_To\_SF** to communicate with your Salesforce org. To set it up, you need to:
+Email Sandbox for Salesforce requires a [Named Credential](https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm\&type=5) called **MailTrap\_To\_SF** to communicate with your Salesforce org. To set it up, you need to:
 
 * [Assign permission set](https://docs.mailtrap.io/guides/integrations/salesforce#assign-permission-set)
 * [Create Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#create-named-credentials)
@@ -230,7 +234,7 @@ And that’s it, your application is ready!
 
 ## Step 3. Activate Email Sandbox for Salesforce
 
-To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens). To do this:
+To enable the Email Sandbox for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens). To do this:
 
 * First, navigate to the Mailtrap app via **App Launcher**.
 
@@ -242,7 +246,7 @@ To enable the Mailtrap app for Salesforce, you need to connect your Mailtrap acc
 
 
 
-To enable the Sandbox mode, navigate to **Account Settings**, and then:
+To activate the Sandbox mode, navigate to **Account Settings**, and then:
 
 * Paste your API key in the bar, hit **Save**.
 
@@ -272,7 +276,7 @@ The integration is complete! 🎉
 
 To verify the integration, go to the **Contacts** page and try to send an email to one of your contacts. For example:
 
-<figure><img src="../.gitbook/assets/9.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-05 at 14.43.46.png" alt=""><figcaption></figcaption></figure>
 
 If you’ve followed everything correctly so far, once you click on **Send**, an email should arrive in your Sandbox, just like so:
 
