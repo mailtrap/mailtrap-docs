@@ -127,7 +127,6 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 <figure><img src="../.gitbook/assets/step 8.png" alt=""><figcaption></figcaption></figure>
 
 * Enable **Client Credentials Flow** and enter the email address of the **Admin User** with **MailTrap Admin permission** set assigned.
-* Select **Refresh Token** is valid until revoked.
 * Hit the **Save** button.
 
 <figure><img src="../.gitbook/assets/step 9.png" alt=""><figcaption></figcaption></figure>
