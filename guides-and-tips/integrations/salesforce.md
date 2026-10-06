@@ -266,7 +266,7 @@ To enable the Email Sandbox for Salesforce, you need to connect your Mailtrap ac
 
 To activate the Sandbox mode, navigate to **Account Settings**, and then:
 
-* Paste your API key in the bar, hit **Save**.
+* Paste your API token in the bar, hit **Save**.
 
 <figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
 
