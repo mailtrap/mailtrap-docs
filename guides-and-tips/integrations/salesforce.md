@@ -10,6 +10,24 @@ In this guide, you'll learn how to:
 * [Connect and authorize Salesforce](https://docs.mailtrap.io/guides/integrations/salesforce#step-2.-connect-and-authorize-salesforce)
 * [Activate the Email Sandbox add-on](https://docs.mailtrap.io/guides/integrations/salesforce#step-3.-activate-email-sandbox-for-salesforce)
 
+<details>
+
+<summary><strong>Pricing</strong></summary>
+
+The add-on is free to use with a free Mailtrap account. You get the standard Mailtrap Free plan limits: 50 test emails per month, 1 email per 10 seconds, 1 user and 1 sandbox.
+
+To go beyond these limits, upgrade to a paid Mailtrap plan and add the Salesforce add-on, billed monthly per Salesforce user. A paid plan lets you:
+
+* Test more emails each month, up to unlimited
+* Send at higher speed
+* Create more sandboxes
+* Invite your team to your Mailtrap account
+* Get priority support, plus SSO on the Enterprise plan
+
+Additionally, there are available [discounts for non-profit organizations and open-source initiatives](https://docs.mailtrap.io/account-and-organization/billing/non-profit-and-open-source).
+
+</details>
+
 {% hint style="info" %}
 The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform email, including Flow, Apex, email alerts and templates. It doesn't work with Marketing Cloud.
 {% endhint %}
