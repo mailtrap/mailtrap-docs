@@ -243,8 +243,6 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 <figure><img src="../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
 
-### Add access to the Named Credentials
-
 * Go to the **Profiles** page and find the profile you want to give permissions to..
 
 <figure><img src="../.gitbook/assets/12.png" alt=""><figcaption></figcaption></figure>
