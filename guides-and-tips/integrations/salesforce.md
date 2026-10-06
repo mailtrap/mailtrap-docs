@@ -129,7 +129,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 * Enable **Client Credentials Flow** and enter the email address of the **Admin User** with **MailTrap Admin permission** set assigned.
 * Hit the **Save** button.
 
-<figure><img src="../.gitbook/assets/step 9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-06 at 15.28.50.png" alt=""><figcaption></figcaption></figure>
 
 * Go to the **Settings** tab, expand the **OAuth Settings**, and click on **Consumer Key and Secret**.
 
