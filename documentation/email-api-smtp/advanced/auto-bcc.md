@@ -10,6 +10,8 @@ icon: note
 
 ### How to set up Auto BCC
 
+{% @arcade/embed flowId="65Oi8IzcVcVpPnRC3xzr" url="https://app.arcade.software/share/65Oi8IzcVcVpPnRC3xzr" %}
+
 {% stepper %}
 {% step %}
 Go to **Sending Domains** and choose the domain you want to set up Auto BCC for.
