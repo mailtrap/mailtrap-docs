@@ -72,9 +72,9 @@ You can also check for the Mailtrap App under Installed Packages.
 
 Email Sandbox for Salesforce requires a [Named Credential](https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm\&type=5) called **MailTrap\_To\_SF** to communicate with your Salesforce org. To set it up, you need to:
 
-* [ ] [Assign permission set](https://docs.mailtrap.io/guides/integrations/salesforce#assign-permission-set)
-* [ ] [Create Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#create-named-credentials)
-* [ ] [Add access to the Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#add-access-to-the-named-credentials)
+* [Assign permission set](https://docs.mailtrap.io/guides/integrations/salesforce#assign-permission-set)
+* [Create Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#create-named-credentials)
+* [Add access to the Named Credentials](https://docs.mailtrap.io/guides/integrations/salesforce#add-access-to-the-named-credentials)
 
 {% hint style="info" %}
 **Useful link**: [What are Named Credentials?](https://help.salesforce.com/s/articleView?id=xcloud.nc_basics.htm\&type=5)
@@ -88,15 +88,15 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 * In **Setup** go to **Users** (under **Administration**) and open the **Users** settings. Then, select the user you want running this whole configuration, or the system administrator.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/salesforce 1.png" alt="" width="349"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 11.56.20.png" alt=""><figcaption></figcaption></figure>
 
 * Under the **Permission Set Assignments** list, click on **Edit Assignments**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/salesforce 2.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 11.57.14.png" alt=""><figcaption></figcaption></figure>
 
 * Select **MailTrap Admin** and hit the **Save** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/salesforce 3.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 11.57.38.png" alt=""><figcaption></figcaption></figure>
 
 ### Create Named Credentials
 
@@ -106,7 +106,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 * Navigate to **Setup** → **Apps** → **External Client Apps** → **External Client App Manager** and click on **New External Client App**.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/step 4.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.09.28.png" alt=""><figcaption></figcaption></figure>
 
 * Then, enter the required **Basic Information**, such as **External Client App Name**, **API Name**, **Contact Email**, and **Distribution State**.
 
@@ -120,24 +120,24 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 * Under **Flow Enablement**, tick the **Client Credentials Flow** and hit the **Create** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/step 7.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.11.06.png" alt=""><figcaption></figcaption></figure>
 
 * Under the **Policies** tab, click **Edit**. This will allow you to make the required changes to **OAuth Policies**.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/step 8.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.12.23.png" alt=""><figcaption></figcaption></figure>
 
 * Enable **Client Credentials Flow** and enter the email address of the **Admin User** with **MailTrap Admin permission** set assigned.
 * Hit the **Save** button.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-06 at 15.28.50.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.13.11.png" alt=""><figcaption></figcaption></figure>
 
 * Go to the **Settings** tab, expand the **OAuth Settings**, and click on **Consumer Key and Secret**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/step 10.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.16.41.png" alt=""><figcaption></figcaption></figure>
 
 * You will be redirected to a page where you can see your **Consumer Key** and **Consumer Secret**, you should copy both of them.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/step 11.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.17.59.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2. Create Auth.Provider
 
@@ -152,7 +152,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 * Navigate to **Setup** → **Identity** (Under **Settings**) → **Auth.Providers** and click on **New**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/step 12.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.23.49.png" alt=""><figcaption></figcaption></figure>
 
 * Then, enter the following settings for **Auth. Provider**:
   * For **Provider Type**, select **Salesforce**.
@@ -169,11 +169,11 @@ Domain URL can be found under Company Settings → My Domain.
 
 * Copy **Callback URL** from **Auth.Providers**.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/step 14.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.24.48.png" alt=""><figcaption></figcaption></figure>
 
 * Paste the **Callback URL** into the **Connected App** instead of `https://www.example.com`.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/step 15.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.26.27.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3. Named Credentials to Salesforce
 
@@ -188,7 +188,7 @@ Domain URL can be found under Company Settings → My Domain.
 
 * Navigate to **Setup** → **Named Credentials** (under **Security**)→ click on **External Credentials** and hit the **New** button.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.27.28.png" alt=""><figcaption></figcaption></figure>
 
 * Then, fill in all necessary information:
   * **Name**: MailTrap\_To\_SF
@@ -203,7 +203,7 @@ Once you’re done, make sure to hit the **Save** button.
 
 * Navigate to **Named Credentials**, click **New**.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.29.11.png" alt=""><figcaption></figcaption></figure>
 
 * Fill in all necessary information:
   * **Label and Name**: MailTrap\_To\_SF
@@ -221,11 +221,11 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 * Once you’re done, click **Save**, and go back to the **External Credentials** tab to open it.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/6.png" alt="" width="296"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.29.53.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * In the **Principals** section click **New**.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.32.21.png" alt=""><figcaption></figcaption></figure>
 
 * Configure it as in the screenshot below, then click **Save**.
 
@@ -237,19 +237,21 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 * Then, **Authenticate**:
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.33.09.png" alt="" width="125"><figcaption></figcaption></figure>
+
+
 
 * Login to the Salesforce organization, **Allow** access, and confirm.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/11.png" alt="" width="242"><figcaption></figcaption></figure></div>
 
-* Go to the **Profiles** page and find the profile you want to give permissions to..
+* Go to the **Profiles** page and find the profile you want to give permissions to.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/12.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.36.24.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * At the **Enabled External Credential Principal** **Access** section click **Edit**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/13.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.37.45.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Select **MailTrap\_To\_SF – 1** and click **Save**.
 
@@ -265,7 +267,7 @@ To enable the Email Sandbox for Salesforce, you need to connect your Mailtrap ac
 
 * First, navigate to the Mailtrap app via **App Launcher**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/1 (2).png" alt="" width="238"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.39.35.png" alt=""><figcaption></figcaption></figure>
 
 * Then, click on **Connect Mailtrap account**.
 
@@ -275,7 +277,7 @@ To activate the Sandbox mode, navigate to **Account Settings**, and then:
 
 * Paste your API token in the bar, hit **Save**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.43.36.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important**: The Mailtrap API token you intend to use for the Salesforce integration with Sandbox should have:
@@ -289,11 +291,7 @@ If your API token doesn’t meet one of these requirements, you won’t be able 
 * Select a sandbox to receive emails
 * Activate the sandbox mode
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/7.jpg" alt=""><figcaption></figcaption></figure></div>
-
-This will open a new window, where you simply have to click the **Turn on** button.
-
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.46.05.png" alt=""><figcaption></figcaption></figure>
 
 The integration is complete! 🎉
 
@@ -301,8 +299,8 @@ The integration is complete! 🎉
 
 To verify the integration, go to the **Contacts** page and try to send an email to one of your contacts. For example:
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-05 at 14.43.46.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.48.17 (1).png" alt=""><figcaption></figcaption></figure>
 
 If you’ve followed everything correctly so far, once you click on **Send**, an email should arrive in your Sandbox, just like so:
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/10.jpg" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.48.42.png" alt=""><figcaption></figcaption></figure>
