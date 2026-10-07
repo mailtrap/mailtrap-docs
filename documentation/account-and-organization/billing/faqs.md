@@ -109,7 +109,7 @@ If you upgrade to a higher plan, we create a prorated transaction based on the p
 
 To view your invoices, go to **Organization** → **Billing** and scroll down to **Payment History**. Next to each payment, you'll see the **Get invoice** button that will open your invoice.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-payment-history-get-invoice.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20261003-tqog.png" alt="" width="563"></div>
 
 Invoice notifications are sent by email after each payment.
 
@@ -119,19 +119,17 @@ We send invoices by email once your credit card is successfully charged. Fill in
 
 If the financial email address is not set up, you will receive invoices and billing notifications to your main account email address.
 
-Furthermore, you can review your billing information before completing the payment if you select the **Invoice required** checkbox on the Payment page. If any information is missing or outdated, you can easily update it in a new modal.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2026-08-12 at 10.08.57.png" alt="" width="375"><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-trrd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### What will I find in my invoice?
 
 Your invoice will include all your subscriptions and the overage. The overage amount will be $0.00 if you didn't send any emails outside your plan limits.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-invoice-subscriptions-overage.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20261003-ttpx.png" alt="" width="563"></div>
 
 You will also see your invoice number, receipt number, payment date, and payment method, as well as Railsware business address (Mailtrap is a product owned by Railsware Products Studio LLC) and EIN number.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-invoice-details.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20261003-tucf.png" alt="" width="563"></div>
 
 ### Can you change the details in my invoice?
 
@@ -164,7 +162,7 @@ You can get in touch with the Mailtrap Support team using one of the following w
 2. Go to the [**Help Center**](https://mailtrap.io/help-center) > Get Help
 3. Click **Start conversation.**
 
-![](https://docs.mailtrap.io/~gitbook/image?url=https%3A%2F%2F1476453098-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FS3xyr7ba7aGO19rc8dSK%252Fuploads%252F7hftpJFYZKk1D4GQCYd8%252FScreenshot%25202026-02-19%2520at%252017.12.57.png%3Falt%3Dmedia%26token%3D90aebf2d-07b7-4c5b-aa6b-07623bc02077\&width=768\&dpr=3\&quality=100\&sign=9a8e2b31\&sv=2)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20261003-txgi.png" alt="" width="563"></div>
 
 * **Email us at** 📧 support@mailtrap.io
 
@@ -178,11 +176,9 @@ Your subscription will be switched to the free plan at the end of the billing cy
 
 #### Email Sandbox
 
-Open Email Sandbox plans under Billing. At the bottom of the page, find _Want to cancel your subscription? Please, click here_. Press click here.
+Open Email Sandbox plans under Billing. Locate the Free plan and click Select.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/billing-cancel-sandbox-subscription.png" alt="" width="563"></div>
-
-Select the reason for downgrading and click Change Plan. The date of downgrade will be indicated on the same screen. Until then, you can keep the benefits of the current plan.
+Your subscription will be switched to the free plan at the end of the billing cycle. Until then, you can keep the benefits of the current plan.
 
 ### Can I request a refund?
 

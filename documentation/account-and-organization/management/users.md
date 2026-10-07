@@ -12,7 +12,7 @@ icon: users-rectangle
 * **Account Owner** is a person who has registered an account or to whom [it has been transferred](my-profile.md). Account Owner can rename an account, delete it, transfer ownership, manage all projects and sandboxes, and add/edit/invite team members. Nobody can alter the permissions of an Account Owner.
   * **Note**: If the [Organization & Sub-Accounts](organization-and-sub-accounts.md) feature is enabled, this role will be called **Organization Owner**.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-sjgu.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * **Organization Admin** has the same permissions as an Organization Owner, with the exception of deleting an account and transferring its ownership. Organization Owner can alter the permission of Organization Viewers.
 * **Organization Viewer** has access to all the entities in the account (projects, sandboxes, billing) but can’t add, edit, or remove anything. For example, the Organization Viewer can view all projects but can’t add new ones or edit existing ones.
@@ -36,7 +36,7 @@ icon: users-rectangle
 * **Billing Viewer** can only see the credit card on file and details of the current subscription. They can also opt out of receiving invoices to their email address.
   * **Note**: If the Organization & Sub-Accounts feature is enabled, the Billing roles will be visible on a [user management page](https://mailtrap.io/settings/user-management).
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-sjgu-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 When you remove a user on the User Management page, they immediately lose access to your account, but stay in the system as Mailtrap users.
 

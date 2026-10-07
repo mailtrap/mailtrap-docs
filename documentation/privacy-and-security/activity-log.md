@@ -23,7 +23,7 @@ To view the Audit Log:
 
 Once you're on the Audit Log page, you'll be able to see the activities performed by users:
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/activity-log-page.png" alt="Mailtrap Activity Log page showing user actions with Actor, Description, Resource and Date columns" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261003-uisv.png" alt="Mailtrap Activity Log page showing user actions with Actor, Description, Resource and Date columns" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Events start saving the moment you upgrade to Enterprise plan.
@@ -54,13 +54,13 @@ You can also pair the Audit Log with Mailtrap Webhooks and build an integration 
 
 Here's what you need to do:
 
-1. Navigate to **Settings** → **Webhooks** and click on **Create New Webhook**.
+1. Navigate to **Webhooks** and click on **Create New Webhook**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/webhooks-create-new.png" alt="Mailtrap Webhooks settings page with Create New Webhook button highlighted" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261006-shdq.png" alt="Mailtrap Webhooks settings page with Create New Webhook button highlighted" width="563"><figcaption></figcaption></figure></div>
 
 2. Enter your unique webhook URL, choose the Payload format, and select Audit Log.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/webhook-activity-log-config.png" alt="Add new webhook form with Activity Log selection and JSON payload example" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261006-silp.png" alt="Add new webhook form with Activity Log selection and JSON payload example" width="563"><figcaption></figcaption></figure></div>
 
 Now you can build an integration to monitor activities live, increasing your security measures.
 

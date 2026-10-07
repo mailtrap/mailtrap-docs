@@ -12,9 +12,9 @@ icon: fingerprint
 
 {% stepper %}
 {% step %}
-Go to **Account** (top-right) → **My profile** → **Authentication** and click on **Enable 2FA** under the **Two-Factor Authentication (2FA)** section.
+Go to → **My profile** (top-right)→ **Authentication,** and click on **Enable 2FA** under the **Two-Factor Authentication (2FA)** section.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-enable-button.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20261003-uazu.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
@@ -23,19 +23,19 @@ In the 2FA setup page, either:
 * Use the authenticator app of your choice to scan the QR code
 * Input the corresponding key if your authenticator app does not support QR scanning
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-setup-qr-code.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20261003-ucfk.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
 Whichever of the two options you choose, your authenticator app will provide a code. Enter this code in the verification window, then click on **Verify Code**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-verify-code.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20261003-ucqr-2.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
 You will be provided with recovery codes you can use in case you lose access to your authenticator app. Make sure to save these codes in a secure location.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-recovery-codes.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20261003-udqt.png" alt="" width="563"></div>
 
 Click on **Finish Setup** to complete the process. You will have successfully enabled 2FA for your Mailtrap account.
 {% endstep %}
@@ -51,7 +51,7 @@ Navigate to **Account** (top-right) → **My profile** → **Authentication**.
 {% step %}
 Click on **Disable** under the **Two-Factor Authentication** section.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-disable-button.png" alt="" width="329"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20261003-uejz.png" alt="" width="563"></div>
 
 {% hint style="warning" %}
 Disabling 2FA also resets the recovery codes. After setting it up again, the old codes will no longer work, regardless of whether they had been used or not.
@@ -61,7 +61,7 @@ Disabling 2FA also resets the recovery codes. After setting it up again, the old
 
 ### Logging in via 2FA
 
-During login, if you have enabled the 2FA, you will be redirected to the following screen upon entering the correct username/password combination:
+During login, if you have enabled 2FA, you will be redirected to the following screen upon entering the correct username/password combination:
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-login-screen.png" alt="" width="375"></div>
 
@@ -102,13 +102,13 @@ Navigate to **Settings** → **Account Settings** → **Two-Factor Authenticatio
 {% step %}
 Tick the **Require 2FA for all users on this account** box.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-enforce-account-setting.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261003-ufuf-2 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 After enforcing 2FA as an account owner, you can **set a grace period** during which users can skip setting up 2FA. Simply choose the date on the calendar until which you want the grace period to last and click on **Save Date**.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/2fa-grace-period-calendar.png" alt="" width="362"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20261003-ugzm.png" alt="" width="563"></div>
 {% endstep %}
 {% endstepper %}
 

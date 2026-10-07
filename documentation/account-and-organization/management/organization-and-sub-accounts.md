@@ -59,25 +59,25 @@ Use Organization & Sub‑accounts to:
 {% step %}
 Go to the left-side menu and select **Organization**. This will open the **Organization** panel.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (36).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-rwun.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click **Sub-accounts** menu item and **Create Sub-Account** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-rxpl.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Enter the sub-account name and click **Create**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (38).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-rysm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 You will be automatically redirected to the new account settings page, where you can manage other account settings.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-samk.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -91,7 +91,7 @@ Sub‑accounts can be created through the user interface or through the API as w
 
 Switch between your organizations and sub‑accounts from the left-side menu anytime.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (35).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-sbcs.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Migrating an already existing account
 
@@ -150,7 +150,7 @@ A user with organization-level permissions will always have access to all organi
 
 If a user only needs access to selected sub‑accounts, you can invite them to those accounts only. Description of account-level roles can be found here: [Account-level User Management](users.md).
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (40).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-sckq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Users can be invited with a single email address to both Organization and selected Sub‑accounts as needed. You don't need to create multiple invitations for the same person.
@@ -170,7 +170,7 @@ All users with Organization-level access also have access to your account, and t
 
 If you are an Organization Owner or Organization Admin, you can edit organization-level users (e.g., invite, remove, or change roles). If you don't have admin rights, you will still see the full list of org-level users, but only in view-only mode.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (41).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-scvf.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### API tokens
 
@@ -186,7 +186,7 @@ API tokens in Mailtrap are account–level. That means each sub‑account has it
 
 Your organization has a single shared plan allowance (for example, monthly email volume and the number of sandboxes). Under the Usage & Limits tab, you can view your plan allowance, your organization's overall usage, and the usage of each individual sub-account. Since all sub-accounts share the same plan allowance, this makes it easy to understand how it is being consumed across your organization.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.20.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-sdwz.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Access to usage data per sub-account enables proportional cost allocation. For example, if a single subscription is shared across multiple sub-accounts representing different teams, its cost can be allocated proportionally based on each team's usage. Similarly, if a subscription is shared among multiple customers, the cost can be distributed proportionally across those customers according to their usage.
@@ -196,7 +196,7 @@ On top of that, as an Organization admin, you can set a personal limit for a sub
 
 You will then be redirected to the following page:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-08-04 at 07.49.41 (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261003-sehs.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### How limits per sub-account work
 
