@@ -68,7 +68,7 @@ You can also create lists while importing contacts:
 
 Access all your lists from **Contacts** → **Lists**:
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/marketing-lists-manage.png" alt="Lists management page showing all created lists" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20261003-rvha.png" alt="Lists management page showing all created lists" width="563"></div>
 
 ### List actions
 

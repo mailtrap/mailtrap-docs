@@ -202,7 +202,7 @@ Once you've built your automation sequence, it's time to activate it.
 
 You can pause or disable your automation at any time.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (31).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261003-rste.png" alt="" width="363"><figcaption></figcaption></figure></div>
 
 {% tabs %}
 {% tab title="Pause Automation" %}
@@ -227,7 +227,7 @@ You can pause or disable your automation at any time.
 
 You can track the performance of your automation by clicking on the Reports tab within the automation builder.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (32).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261003-rtpe.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Available metrics**:
 
