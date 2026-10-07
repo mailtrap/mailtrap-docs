@@ -37,23 +37,19 @@ IPv6 ranges are AWS-provided, not Mailtrap-owned, and they're available on reque
 
 ### How to set up webhooks
 
+{% @arcade/embed flowId="bsMCYFCdy3u6y16Ab4b5" url="https://app.arcade.software/share/bsMCYFCdy3u6y16Ab4b5" %}
+
 {% stepper %}
 {% step %}
-Navigate to **Settings** → **Webhooks** and click the **Create New Webhook** button.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-1.png" alt="" width="563"></div>
+Navigate to **Webhooks** and click the **Create New Webhook** button.
 {% endstep %}
 
 {% step %}
 Enter a valid **Webhook URL**. Use a password and username as an extra security layer with basic authorization to prevent others from sending information to that endpoint. You can also use a token as a query parameter or use [webhook signature](https://docs.mailtrap.io/email-api-smtp/advanced/webhooks#webhook-signature-verification).
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-2.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
 Choose the **Payload format** (JSON or JSON Lines).
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-3.png" alt="" width="375"></div>
 
 Examples of payload:
 
@@ -82,9 +78,7 @@ Events sent as newline-delimited JSON:
 {% endstep %}
 
 {% step %}
-Select the webhooks area (**Audit Log** or **Email Sending**).
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-4.png" alt="" width="375"></div>
+Select the webhooks area (**Audit Log,** **Email Sending, Inbound Inboxes, Campaigns** or **Reputation Monitor**).
 {% endstep %}
 {% endstepper %}
 
@@ -103,14 +97,10 @@ Choose the **Sending Stream** (Transactional or Bulk) for which you want to set 
 
 {% step %}
 Choose the **domain** you want to receive events' data for and select one or more [event types](analytics/statuses-and-events.md) by ticking the corresponding checkbox.
-
-<div align="center" data-with-frame="true"><img src="../.gitbook/assets/webhooks-5.png" alt="" width="375"></div>
 {% endstep %}
 
 {% step %}
 Click the **Run Test** button to test the webhook setup. The code represents a dummy payload of the webhook structure and how to read it correctly. If your endpoint responds with a 200 code, you'll see a confirmation in the app. All other response codes show an error during a test.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-6.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 One popular way to test webhooks outside your system is [Webhook.site](https://webhook.site/#!/view/d24cebd2-99cc-46f3-8685-c779017f39a0), but don't use it for production.
@@ -119,8 +109,6 @@ One popular way to test webhooks outside your system is [Webhook.site](https://w
 
 {% step %}
 If the tests are successful, click the **Save** button. All information will be sent to your webhook endpoint.
-
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/webhooks-7.png" alt="" width="563"></div>
 
 {% hint style="info" %}
 To edit, pause, or delete an active webhook, go back to the Webhooks tab and select the webhook you want to change.
