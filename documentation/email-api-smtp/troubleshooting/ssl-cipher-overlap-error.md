@@ -20,6 +20,10 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Click Tracking Blocked – SSL Cipher Error
@@ -120,7 +124,7 @@ Run the `dig CAA example.com` command again to confirm the new records are in pl
 
 Once propagated, you should be able to access your mt-link subdomain without SSL errors:
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2) (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20261006-sosg.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
