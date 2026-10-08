@@ -139,7 +139,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.17.59.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Step 2. Create Auth.Provider
+#### Step 2. Create Auth Provider
 
 {% @arcade/embed flowId="R2peujh8cGq038DFp5uP" url="https://app.arcade.software/share/R2peujh8cGq038DFp5uP" %}
 
