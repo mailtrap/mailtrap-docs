@@ -42,11 +42,11 @@ The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform 
 
 * Choose where to install the package&#x20;
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.37.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.37.png" alt=""><figcaption></figcaption></figure></div>
 
 * Confirm the installation details and make sure to accept the terms and conditions
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.20 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.20 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * Choose a Salesforce username (i.e., **user123456@agentforce.com**)&#x20;
 
@@ -54,7 +54,7 @@ The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform 
 
 * Select whether to install the app for admins only, all users, or specific profiles.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.36.41.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.36.41.png" alt=""><figcaption></figcaption></figure></div>
 
 * Approve third-party access and click **Continue**.&#x20;
 
@@ -62,7 +62,7 @@ The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform 
 
 If the installation takes longer, Salesforce will email you a confirmation.&#x20;
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.49.28.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.49.28.png" alt=""><figcaption></figcaption></figure></div>
 
 You can also check for the **RWMailtrapApp** under **Installed Packages**.
 
@@ -225,7 +225,7 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 * In the **Principals** section click **New**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.32.21.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.32.21.png" alt=""><figcaption></figcaption></figure></div>
 
 * Configure it as in the screenshot below, then click **Save**.
 
