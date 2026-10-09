@@ -150,6 +150,7 @@
   * [Non-Profit and Open-Source](account-and-organization/billing/non-profit-and-open-source.md)
   * [Educational institutions](account-and-organization/billing/edu.md)
 * [Suspensions and Bans](account-and-organization/suspensions-and-bans.md)
+* [Data Regions](account-and-organization/data-regions.md)
 * [Security & Privacy](privacy-and-security/README.md)
   * [Two-Factor Authentication](account-and-billing/2fa.md)
   * [User audit Logs](privacy-and-security/activity-log.md)
