@@ -153,7 +153,9 @@ No. Sending to purchased lists:
 * Violates our Terms of Service
 * Results in high bounce/spam rates
 * Can lead to account suspension
-* Damages sender reputation Only send to contacts who explicitly opted in.
+* Damages sender reputation&#x20;
+
+Only send to contacts who explicitly opted in.
 
 </details>
 
