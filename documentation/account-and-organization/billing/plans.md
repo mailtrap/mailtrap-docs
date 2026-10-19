@@ -21,6 +21,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Pricing Plans
@@ -66,8 +68,10 @@ A few specifics on the table above:
 Paid tiers add, in order:
 
 * **Basic:** click tracking, HTTPS link branding, IP whitelisting, up to 3 users and 5 domains, 5-day log retention
-* **Business:** dedicated IP with auto warm-up, SSO, sub-accounts, 24/7 live chat and priority support, deliverability expert assistance, migration assistance, up to 100 users and 100 domains, 15-day log retention
+* **Business:** dedicated IP with auto warm-up, SSO, sub-accounts, 24/7 live chat and priority support, deliverability expert assistance, up to 100 users and 100 domains, 15-day log retention
 * **Enterprise:** audit logs, content-free logging, custom contracts, enterprise billing, unlimited users and domains, 30-day log retention
+
+**Migration assistance:** available upon request for customers migrating to Mailtrap with expected sending volumes exceeding 200K emails per month. Our team can provide guidance on the migration process and technical deliverability considerations.
 
 Sending more than 5 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
 
