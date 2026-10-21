@@ -61,7 +61,6 @@ Your account might be suspended or banned for one of the following reasons:
 * Information in Your account is untrue, inaccurate, or incomplete.
 * Your email content references a domain or brand that differs from your sending domain, which may resemble phishing or brand impersonation.
   * To avoid this, email our support team and request verification for these additional domains (you can add multiple to a single account and they do not count against the “Domains” limit in your subscription plan).
-* High bounce or spam-complaint rates, which can be a symptom poor sending practices or engagement, cold email, malicious content, web-form abuse, non-compliance with mailbox-provider requirements, or not responding when Mailtrap contacts the account owner to investigate suspicious activity.
 * Your sending results in high bounce or spam-complaint rates, poor engagement, or other signals that recipients do not want or expect your emails;
 * You engage in poor or abusive sending practices, including cold email, malicious content, or web-form abuse; fail to comply with mailbox-provider requirements; or do not respond when Mailtrap contacts the account owner to investigate suspicious activity.
 
