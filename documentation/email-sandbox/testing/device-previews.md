@@ -20,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Device Previews
@@ -36,7 +38,7 @@ Device Previews produces screenshots for visual review. Use **HTML Check** for H
 
 ### Availability and access
 
-Device Previews is available as a paid add-on on the **Business** and **Enterprise** [Email Sandbox plans](https://mailtrap.io/pricing/?tab=email-sandbox).
+Device Previews is available as a paid add-on on all paid [Email Sandbox plans](https://mailtrap.io/pricing/?tab=email-sandbox).
 
 If your account is eligible, open **Device Previews** and click **Request Add-on**. Our customer support team will then confirm the commercial terms and enable the add-on for your account.
 
