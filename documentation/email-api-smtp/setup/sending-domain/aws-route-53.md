@@ -18,25 +18,25 @@ This guide assumes your domain uses Route 53's nameservers (e.g., `ns-123.awsdns
 {% step %}
 Go to the **AWS Management Console**, type **Route 53** in the search bar, and click on it.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-search.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.09.34.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Navigate to **Hosted Zone** settings for the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-hosted-zones.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.09.52.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-domain-records.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.10.12.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click **Create record** button.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-create-record-button.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.10.28 (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -62,7 +62,7 @@ Copy the **Name** and **Value** for each record one by one. You can do this by h
 {% step %}
 Paste the **Name** and **Value** into AWS Route 53. The namings of the records are the same in AWS Route 53 as in Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-add-record-form.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.11.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Use the default value for TTL as indicated in Mailtrap. Click Add another record after adding each record in AWS Route 53.
 {% endstep %}
@@ -70,7 +70,7 @@ Use the default value for TTL as indicated in Mailtrap. Click Add another record
 {% step %}
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to AWS Route 53. Click **Create Records**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/aws-route53-all-records-added.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.11.23.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
