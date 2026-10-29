@@ -174,7 +174,7 @@ When creating or editing documentation:
 ## Product names
 
 - We should follow the product names as it appears on the website and in marketing materials
-- Current names: Email API/SMTP (can be shortened to Email API or API/SMTP), Email Sandbox (can be shortened to Sandbox), Email Marketing (can be shortened to Marketing)
+- Current names: Email Live Sending (can be shortened to Live Sending), Email Sandbox (can be shortened to Sandbox), Email Marketing (can be shortened to Marketing)
 
 ## Content guidelines
 
