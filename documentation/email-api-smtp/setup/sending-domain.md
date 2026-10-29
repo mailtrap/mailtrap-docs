@@ -116,31 +116,29 @@ In the example below, we'll be using GoDaddy.
 {% step %}
 Go to your domain provider and locate the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-domain-list.png" alt="GoDaddy domain list showing mailtrap.club domain" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Open the DNS settings and click Add New Record.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-settings.png" alt="GoDaddy DNS Management with Add New Record button" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy 2 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260912-tvch.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260912-tvch-2.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-record-types.png" alt="DNS record type dropdown in GoDaddy showing CNAME selected" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-copy-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 3.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -162,13 +160,13 @@ Repeat the process of copying and pasting for each record until you've added all
 {% step %}
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sending-domains-dns-records-to-add.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 4.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260912-twxi.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 5.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -280,25 +278,15 @@ If everything looks correct, please allow additional time for propagation before
 After completing the setup process, you can always return to the Domains tab to add any additional domains or subdomains. If you, for example, misspelled a domain, you’ll need to delete it and re-add it with the correct spelling.
 
 {% hint style="info" %}
-You can't create any additional demo domains, but you can delete an existing one if needed.
+You can't create any additional demo domains, but you can delete an existing one if needed. Furthermore, the domain with the Demo badge can be used to send emails only to the email address you registered with.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-verified-list.png" alt="Sending Domains list showing verified domains with status and emails sent" width="563"><figcaption></figcaption></figure></div>
-
-Remember that the domain with the Demo badge can be used to send emails only to the email address you registered with.
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-demo-restrictions.png" alt="Demo domain showing restriction message that it can only send to yourself" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 6.png" alt=""><figcaption></figcaption></figure></div>
 
 You can send emails to your recipients only from domains that have a Verified status. If the status is Pending or Rejected, you won't be able to send emails.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-pending-verified-statuses.png" alt="Sending Domains showing pending and verified status badges" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 7.png" alt=""><figcaption></figcaption></figure></div>
 
 From the Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won't be able to send any further emails until you add and verify it again.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-delete-button.png" alt="Sending Domains with delete button highlighted" width="563"><figcaption></figcaption></figure></div>
-
-Note that removing a domain won't remove it from your Mailtrap account completely. It will still appear, for example, in analytics, and will be displayed with the (deleted) suffix, just like in the example below:
-
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/sending-domains-deleted-in-stats.png" alt="Stats overview showing deleted domains with (deleted) suffix" width="375"><figcaption></figcaption></figure></div>
-
-We do this to preserve your historical stats that would otherwise be lost.
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 8 (1).png" alt=""><figcaption></figcaption></figure></div>
