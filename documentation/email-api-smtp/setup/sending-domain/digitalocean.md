@@ -36,7 +36,7 @@ Check the type next to each record in Mailtrap and choose a relevant one in Digi
 
 <div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digitalocean-record-type-selector.png" alt="DigitalOcean DNS record type selector dropdown" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digital ocean 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -52,9 +52,9 @@ Copy the **Name** and **Value** for each record one by one. You can do this by h
 {% step %}
 **Paste the values into DigitalOcean**. Remember that DigitalOcean refers to the Name field as Hostname for all record types. For CNAME type records, it refers to the Value field as Is an Alias of.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digitalocean-txt-record-fields.png" alt="DigitalOcean TXT record input form showing Hostname and Value fields" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digital ocean 2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digitalocean-cname-record-fields.png" alt="DigitalOcean CNAME record input form showing Hostname and Is an Alias of fields" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/digital ocean 3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

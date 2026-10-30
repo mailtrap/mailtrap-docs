@@ -12,25 +12,25 @@ In this guide, you'll learn how to add and verify a domain from Google Cloud DNS
 
 This guide assumes your domain uses Google Cloud DNS nameservers (e.g., `ns-cloud-a1.googledomains.com` or `ns-cloud-b1.googledomains.com`). This applies whether you registered your domain directly with Google or just pointed your DNS to Google Cloud DNS from another registrar. Not sure? Check your domain registrar's settings or look for where you manage your DNS records. If it's in the Google Cloud Console, you're in the right place.
 
-### Step-by-step guide
+### Step-by-step guid
 
 {% stepper %}
 {% step %}
 Go to Google Cloud Console, type **Cloud DNS** in the search bar, and choose it from the results.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/google-cloud-dns-1.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/google cloud dns 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 In the Cloud DNS Zones page, open the **Zone details** for the domain you've added to Mailtrap by clicking on the **Zone name**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/google-cloud-dns-2.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/google cloud dns 2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click **Add Standard**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/google-cloud-dns-3.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/google cloud dns 3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -68,7 +68,7 @@ Use the default value for TTL.
 
 Click **Create** after adding each record in Google Cloud DNS.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/google-cloud-dns-9.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/google cloud dns 4.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

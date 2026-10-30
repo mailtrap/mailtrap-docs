@@ -35,6 +35,14 @@ You can even enable automatic forwarding, and Email Sandbox will act as a proxy 
 
 </details>
 
+<details>
+
+<summary>How can I add a sandbox if the button is disabled?</summary>
+
+If the button for adding a sandbox is disabled, you have likely reached the maximum allowed sandboxes you are allowed to have for your pricing plan. To add a new sandbox, either delete an existing one or upgrade your plan.
+
+</details>
+
 #### Technical specifications
 
 <details>

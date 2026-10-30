@@ -18,13 +18,13 @@ This guide assumes your domain uses GoDaddy's nameservers (e.g., `ns1.domaincont
 {% step %}
 Go to GoDaddy and locate the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/godaddy-domain-list.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/godaddy 1 (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Open the DNS settings and click **Add New Record**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/godaddy-dns-settings.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/godaddy 2 (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

@@ -123,6 +123,23 @@ We use AWS with auto-balancing, so our IP ranges are the following: [https://ip-
 
 </details>
 
+<details>
+
+<summary>Can I send emails via JavaMailSender?</summary>
+
+Yes, Mailtrap works with Spring’s JavaMailSender through SMTP. Simply add `spring-boot-starter-mail` to your project, then copy the SMTP credentials from your sending domain’s Integration tab into the `spring.mail`.
+
+```java
+spring.mail.host=live.smtp.mailtrap.io
+spring.mail.port=587
+spring.mail.username=api
+spring.mail.password=YOUR_SMTP_PASSWORD
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+```
+
+</details>
+
 #### Billing & limits
 
 <details>

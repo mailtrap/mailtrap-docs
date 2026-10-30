@@ -18,19 +18,19 @@ This guide assumes your domain uses Cloudflare's nameservers (e.g., `anna.ns.clo
 {% step %}
 Open the **Cloudflare dashboard** and select the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-domain-dashboard.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click on the **DNS button** in the left navigation panel. This will open DNS records.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-dns-menu.png" alt="" width="131"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 2.png" alt="" width="119"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click on the **Add Record** button.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-add-record-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -64,7 +64,7 @@ Paste the the values into Cloudflare. Remember that Cloudflare refers to the Val
 {% step %}
 If you're not using a proxy, make sure you disable it. By default, it will be enabled.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-disable-proxy.png" alt=""></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 4.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
