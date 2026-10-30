@@ -18,19 +18,19 @@ This guide assumes your domain uses Namecheap's nameservers (e.g., `dns1.registr
 {% step %}
 Go to Namecheap, locate the domain you've added to Mailtrap on the dashboard, and click **Manage**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/namecheap-domain-dashboard.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 11.16.24.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Navigate to the **Advanced DNS** tab.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/namecheap-advanced-dns-tab.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 11.16.33.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click **Add New Record**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/namecheap-add-new-record-button.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 11.16.54.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -62,7 +62,7 @@ And paste the values into Namecheap. Remember that Namecheap refers to the **Nam
 {% step %}
 Use the **default** value for TTL.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/namecheap-ttl-default.png" alt="" width="375"></div>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 11.17.14.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

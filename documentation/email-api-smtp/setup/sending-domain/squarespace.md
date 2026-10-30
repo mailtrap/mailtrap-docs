@@ -16,7 +16,7 @@ Log in to your [Squarespace account](https://account.squarespace.com).
 {% step %}
 In the account menu, click **Domains**.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 20.13.59.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 12.02.01.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -26,7 +26,7 @@ Click the domain you want to verify.
 {% step %}
 Click **DNS Settings** and navigate down to **Custom records**.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-17 at 20.28.14.png" alt=""><figcaption></figcaption></figure>
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 12.02.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
