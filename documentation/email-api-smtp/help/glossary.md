@@ -1,7 +1,7 @@
 ---
 title: Sending Glossary
 description: >-
-  Definitions of key terms and phrases used in Mailtrap Email API/SMTP,
+  Definitions of key terms and phrases used in Mailtrap Email Live Sending,
   including DNS records, email events, SMTP settings, and deliverability
   concepts.
 icon: book-open
@@ -9,7 +9,7 @@ icon: book-open
 
 # Sending Glossary
 
-This glossary explains key terms and phrases used in Mailtrap Email API/SMTP.
+This glossary explains key terms and phrases used in Mailtrap Email Live Sending.
 
 ## A
 

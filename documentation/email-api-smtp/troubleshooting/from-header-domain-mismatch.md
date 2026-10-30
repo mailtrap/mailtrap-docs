@@ -2,7 +2,7 @@
 title: From Header Domain Mismatch
 description: >-
   How to fix "From: Header does not match the sender's domain" error in Mailtrap
-  Email API/SMTP.
+  Email Live Sending.
 ---
 
 # From Header Mismatch

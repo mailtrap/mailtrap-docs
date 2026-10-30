@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [Email API/SMTP](getting-started/email-api-smtp.md)
+* [Email Live Sending](getting-started/email-api-smtp.md)
 * [Email Sandbox](getting-started/email-sandbox.md)
 * [Email Marketing](getting-started/email-marketing.md)
 
@@ -18,7 +18,7 @@
   * [Prompts](for-ai-agents/tools/prompts.md)
   * [AI inbox](for-ai-agents/tools/ai-inbox.md)
 
-## Email API/SMTP
+## Email Live Sending
 
 * [Overview](email-api-smtp/overview.md)
 * [Setup & Configuration](email-api-smtp/setup/README.md)

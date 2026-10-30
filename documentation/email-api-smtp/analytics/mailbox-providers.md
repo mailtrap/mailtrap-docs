@@ -16,7 +16,7 @@ It’s important because the deliverability towards a specific provider can sudd
 
 </details>
 
-The following sections detail how to take advantage of **Mailbox Providers** feature within **Mailtrap API/SMTP**.
+The following sections detail how to take advantage of **Mailbox Providers** feature within **Mailtrap Email Live Sending**.
 
 #### Mailbox Providers filters <a href="#mailbox" id="mailbox"></a>
 

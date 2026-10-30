@@ -1,6 +1,6 @@
 ---
 title: API Tokens
-description: Learn how to create, manage, and use API tokens for Email API/SMTP.
+description: Learn how to create, manage, and use API tokens for Email Live Sending.
 icon: key
 ---
 

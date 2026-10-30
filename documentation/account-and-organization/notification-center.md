@@ -63,7 +63,7 @@ Used for standard informational updates when no immediate action is required. Ex
 Used when there is a serious problem affecting the account. Critical notifications should be reviewed as soon as possible. Examples:
 
 * “SMTP credentials leak detected for a domain.”
-* “Email API/SMTP subscription has been downgraded to Free due to failed payment”
+* “Email Live Sending subscription has been downgraded to Free due to failed payment”
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-05-20 at 12.30.29.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -72,7 +72,7 @@ Used when there is a serious problem affecting the account. Critical notificatio
 Used when an action is recommended. Examples:
 
 * “Add sender information to approve a domain.”
-* “Email API/SMTP subscription expires in 7 days (payment failed again)”
+* “Email Live Sending subscription expires in 7 days (payment failed again)”
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-05-20 at 12.30.42.png" alt="" width="375"><figcaption></figcaption></figure>
 

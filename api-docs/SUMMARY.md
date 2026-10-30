@@ -5,7 +5,7 @@
 * [Rate Limits](rate-limits.md)
 * [OpenAPI Specs](openapi-specs.md)
 
-## Email Sending
+## Email Live Sending
 
 * ```yaml
   type: builtin:openapi
