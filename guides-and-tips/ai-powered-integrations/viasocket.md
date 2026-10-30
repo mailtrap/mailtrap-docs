@@ -2,7 +2,7 @@
 
 This article walks you through connecting [Mailtrap to viaSocket](https://viasocket.com/integrations/mailtrap?utm_source=mailtrap\&utm_medium=marketplace\&utm_campaign=mailtrap_listing) and building two working flows:
 
-1. One that sends an order confirmation through Email API/SMTP, tested first against Email Sandbox.
+1. One that sends an order confirmation through Email Live Sending, tested first against Email Sandbox.
 2. One that turns a customer reply into a CRM record.
 
 By the end, you will have a published flow that receives a real email, extracts the sender, finds or creates the matching contact in your CRM, and files the message against it, within seconds of the message arriving and without writing a service to receive mail.
@@ -15,7 +15,7 @@ The Mailtrap integration in viaSocket is in beta and its action list changes. Ch
 
 ### Prerequisites
 
-* A Mailtrap account with Email API/SMTP enabled. Inbound Email is included with Email API/SMTP and is not a separate purchase.
+* A Mailtrap account with Email Live Sending enabled. Inbound Email is included with Email Live Sending and is not a separate purchase.
 * An account-level Mailtrap API token from [API Tokens](https://mailtrap.io/api-tokens). A token scoped to a single sending domain can read inbound data but cannot create folders or inboxes.
 * A [verified sending domain](https://mailtrap.io/sending/domains) if you want to send to real recipients. Sending from an unverified domain fails. Sends to an Email Sandbox inbox do not need one.
 * A [viaSocket workspace](https://viasocket.com/) on any plan. Everything here runs on the free tier.
@@ -27,7 +27,7 @@ You do not need a domain or DNS access to receive email. This guide uses a hoste
 
 Two flows, which together form a loop.
 
-**The sending flow** has two steps. Something happens in another system, and Mailtrap sends the customer an email through Email API/SMTP.
+**The sending flow** has two steps. Something happens in another system, and Mailtrap sends the customer an email through Email Live Sending.
 
 **The receiving flow** has four steps and a branch:
 
@@ -93,7 +93,7 @@ Click **TEST**. A successful send returns the Email API response:
 }
 ```
 
-This action sends through Email API/SMTP. It has no inbox selector because it does not target an Email Sandbox inbox.&#x20;
+This action sends through Email Live Sending. It has no inbox selector because it does not target an Email Sandbox inbox.&#x20;
 
 <figure><img src="../.gitbook/assets/viaSocket 5.png" alt=""><figcaption></figcaption></figure>
 
@@ -280,5 +280,5 @@ Run the test twice, from two different senders. The first exercises the not-foun
 ### Next steps
 
 * [Inbound Email documentation](https://help.mailtrap.io/)
-* [Email API/SMTP documentation](https://help.mailtrap.io/)
+* [Email Live Sending documentation](https://help.mailtrap.io/)
 * [Email Sandbox documentation](https://help.mailtrap.io/)

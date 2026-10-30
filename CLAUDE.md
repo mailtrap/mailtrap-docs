@@ -175,6 +175,11 @@ When creating or editing documentation:
 
 - We should follow the product names as it appears on the website and in marketing materials
 - Current names: Email Live Sending (can be shortened to Live Sending), Email Sandbox (can be shortened to Sandbox), Email Marketing (can be shortened to Marketing)
+- Use one set in a sentence: "Email Live Sending, Email Sandbox, Email Marketing" or "Live Sending, Sandbox, Marketing". Do not mix them
+- "Email API/SMTP", "API/SMTP", "Email Sending" and "Sending" are old names of Email Live Sending. Replace them where they name the product
+- Keep "API" and "SMTP" where they name a send method or protocol, for example "Email API or SMTP", "API/SMTP relay", "SMTP credentials" or "API token"
+- In UI paths, use the label that the app shows: "Live Sending" in the main menu, "Email Live Sending" as the section title
+- Keep the URLs and file paths that contain `email-api-smtp` or `api-smtp`
 
 ## Content guidelines
 

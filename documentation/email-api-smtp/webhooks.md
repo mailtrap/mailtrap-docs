@@ -78,13 +78,13 @@ Events sent as newline-delimited JSON:
 {% endstep %}
 
 {% step %}
-Select the webhooks area (**Audit Log,** **Email Sending, Inbound Inboxes, Campaigns** or **Reputation Monitor**).
+Select the webhooks area (**Audit Log,** **Email Live Sending, Inbound Inboxes, Campaigns** or **Reputation Monitor**).
 {% endstep %}
 {% endstepper %}
 
 **If you choose Audit Log**, you will receive events related to all activities within your account that are supported by the Audit Log.
 
-**If you choose Email Sending**, you'll also need to:
+**If you choose Email Live Sending**, you'll also need to:
 
 {% stepper %}
 {% step %}

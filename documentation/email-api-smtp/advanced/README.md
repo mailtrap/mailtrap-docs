@@ -2,7 +2,7 @@
 title: Advanced Features
 description: >-
   Learn what features for advanced email sending scenarios Mailtrap Email
-  API/SMTP provides.
+  Live Sending provides.
 ---
 
 # Advanced Features

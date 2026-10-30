@@ -11,7 +11,7 @@ With Mailtrap SMTP, you can move beyond Supabase's limit of [2 emails per hour](
 Mailtrap’s native integration with Supabase streamlines your workflow by automatically populating your Supabase project with Mailtrap’s SMTP credentials. You can access this setup via the Integrations page in Mailtrap or through the [Supabase Marketplace](https://supabase.com/docs/guides/integrations/supabase-marketplace).
 
 {% hint style="info" %}
-Currently, this integration supports Sending Domains (API/SMTP) only and does not include Email Sandbox configuration. If you would like to see Sandbox support in the future, please [leave a feature request here](https://feedback.mailtrap.io/).
+Currently, this integration supports Sending Domains (Email Live Sending) only and does not include Email Sandbox configuration. If you would like to see Sandbox support in the future, please [leave a feature request here](https://feedback.mailtrap.io/).
 {% endhint %}
 
 #### Prerequisites:

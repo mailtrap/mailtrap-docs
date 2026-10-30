@@ -3,7 +3,7 @@ title: Email API
 description: Send transactional and bulk emails from your app using the Mailtrap Email API
 ---
 
-# Email API/SMTP
+# Email Live Sending
 
 Send transactional and bulk emails from your app using the Mailtrap Email API. This guide walks you through complete setup — from choosing your SDK to sending your first email.
 
@@ -432,7 +432,7 @@ Use Mailtrap-hosted templates with dynamic variables. Your team can access and e
 
 ### Create a template
 
-You can create templates in the Mailtrap UI under [Email API/SMTP → Templates](https://mailtrap.io/email-templates), or via the API:
+You can create templates in the Mailtrap UI under [Email Live Sending → Templates](https://mailtrap.io/email-templates), or via the API:
 
 ```bash
 curl -X POST "https://mailtrap.io/api/accounts/{account_id}/email_templates" \
@@ -455,7 +455,7 @@ Templates use [Handlebars syntax](https://handlebarsjs.com/) for variables — `
 
 To send with a template, you need its UUID:
 
-* **In the UI:** Go to [Email API/SMTP → Templates](https://mailtrap.io/email-templates) and click a template — the UUID is shown in the template details.
+* **In the UI:** Go to [Email Live Sending → Templates](https://mailtrap.io/email-templates) and click a template — the UUID is shown in the template details.
 * **Via AI / API:** List all templates and their UUIDs with `GET https://mailtrap.io/api/accounts/{account_id}/email_templates`. Your AI assistant can create a template and immediately use the returned UUID to send.
 
 {% tabs %}

@@ -2,7 +2,7 @@
 title: Sending from Domain Not Allowed
 description: >-
   How to fix "Sending from domain is not allowed" (550 5.7.1) error in Mailtrap
-  Email API/SMTP.
+  Email Live Sending.
 ---
 
 # Domain Not Allowed

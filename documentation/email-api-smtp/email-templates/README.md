@@ -101,5 +101,5 @@ You can delete a template. However, this action is irreversible, so be sure to c
 
 * [Editing and Customizing Templates](editing-and-customizing.md) - Learn how to customize templates with the Drag & Drop or Code Editor
 * [Handlebars Guide](handlebars.md) - Complete guide to using Handlebars syntax in templates
-* [Integration](integration.md) - Integrate templates with Email API/SMTP
+* [Integration](integration.md) - Integrate templates with Email Live Sending
 * [Debugging](debugging.md) - Test templates with Email Sandbox
