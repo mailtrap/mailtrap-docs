@@ -18,7 +18,7 @@
   * [Prompts](for-ai-agents/tools/prompts.md)
   * [AI inbox](for-ai-agents/tools/ai-inbox.md)
 
-## Email Live Sending
+## Email Live Sending <a href="#email-api-smtp" id="email-api-smtp"></a>
 
 * [Overview](email-api-smtp/overview.md)
 * [Setup & Configuration](email-api-smtp/setup/README.md)
