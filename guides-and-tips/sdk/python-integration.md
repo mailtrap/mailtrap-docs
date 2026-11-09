@@ -12,7 +12,7 @@ description: >-
 
 Mailtrap can be integrated with Python apps and projects for email sending purposes.
 
-### Email Live Sending for Python
+### Email API/SMTP for Python
 
 #### SDK Integration
 
