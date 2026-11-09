@@ -1,0 +1,135 @@
+CLAUDE.md
+  s_8f15e87752f5a8::t_5c668a892ea802 177-182
+api-docs/README.md
+  s_8f15e87752f5a8::t_9c2508a7779a89 23,32
+api-docs/SUMMARY.md
+  s_8f15e87752f5a8::t_4d717c5ba8ef07 8
+documentation/README.md
+  s_8f15e87752f5a8::t_1358cb0d9a9488 61,69,118
+documentation/SUMMARY.md
+  s_8f15e87752f5a8::t_dc23b1a479472b 7,21
+documentation/account-and-organization/billing/edu.md
+  s_8f15e87752f5a8::t_bd8efcc1b3deb1 29
+documentation/account-and-organization/billing/faqs.md
+  s_8f15e87752f5a8::t_13d9ec2604689a 14,16,20,86,90,171,173
+documentation/account-and-organization/billing/non-profit-and-open-source.md
+  s_8f15e87752f5a8::t_1007f2027f91ef 15
+documentation/account-and-organization/billing/plans.md
+  s_8f15e87752f5a8::t_36f25b1aaae94c 3,30,38,48,54,56,121,127,140-141,157,169,177,187,195,197,213,223
+documentation/account-and-organization/management/organization-and-sub-accounts.md
+  s_8f15e87752f5a8::t_94ba87a052f8b5 21,30,39
+documentation/account-and-organization/notification-center.md
+  s_8f15e87752f5a8::t_97e680fed1d36a 66,75
+documentation/email-api-smtp/advanced/README.md
+  s_8f15e87752f5a8::t_3329c9d9b5477d 5
+documentation/email-api-smtp/analytics/mailbox-providers.md
+  s_8f15e87752f5a8::t_21f631614f2cec 19
+documentation/email-api-smtp/api-integration.md
+  s_8f15e87752f5a8::t_9a818a0dbc17e8 64,107
+documentation/email-api-smtp/deliverability/automated-domain-reputation-monitoring.md
+  s_8f15e87752f5a8::t_949265567e0005 227
+documentation/email-api-smtp/email-templates/README.md
+  s_8f15e87752f5a8::t_d7c097d18521ba 104
+documentation/email-api-smtp/email-templates/editing-and-customizing.md
+  s_8f15e87752f5a8::t_0d26b76de64629 85
+documentation/email-api-smtp/email-templates/handlebars.md
+  s_8f15e87752f5a8::t_526e5705ee13d8 425,429
+documentation/email-api-smtp/email-templates/integration.md
+  s_8f15e87752f5a8::t_b6bf9a07fa6e6f 2,4,33,47
+documentation/email-api-smtp/email-templates/migrate-templates.md
+  s_8f15e87752f5a8::t_06fd8f73ae99f7 278
+documentation/email-api-smtp/faqs.md
+  s_8f15e87752f5a8::t_fb43978ad9f220 2-3,9,26,191
+documentation/email-api-smtp/help/README.md
+  s_8f15e87752f5a8::t_6ae070b8837ada 3,8,12
+documentation/email-api-smtp/help/glossary.md
+  s_8f15e87752f5a8::t_87977f26393c93 4,12
+documentation/email-api-smtp/overview.md
+  s_8f15e87752f5a8::t_531ef12c0fe32e 2,4,28,41,53,84
+documentation/email-api-smtp/setup/README.md
+  s_8f15e87752f5a8::t_34bcbd19b93e64 10
+documentation/email-api-smtp/setup/api-tokens.md
+  s_8f15e87752f5a8::t_e1f4ef83b47761 3
+documentation/email-api-smtp/smtp-integration.md
+  s_8f15e87752f5a8::t_23b3d34c6b4e6b 19
+documentation/email-api-smtp/troubleshooting/README.md
+  s_8f15e87752f5a8::t_6bb28f30607bc8 2-3,9
+documentation/email-api-smtp/troubleshooting/from-header-domain-mismatch.md
+  s_8f15e87752f5a8::t_bd4949b2ecacd5 5
+documentation/email-api-smtp/troubleshooting/ms-office-365-quarantine.md
+  s_8f15e87752f5a8::t_4c4bc9680fc885 4,50-51
+documentation/email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md
+  s_8f15e87752f5a8::t_1c44c441e99745 5
+documentation/email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md
+  s_8f15e87752f5a8::t_44d6e097d16225 6
+documentation/email-api-smtp/troubleshooting/unauthorized-401-error.md
+  s_8f15e87752f5a8::t_0ebbf3388a63bf 5
+documentation/email-api-smtp/webhooks.md
+  s_8f15e87752f5a8::t_6f40d7e8a32439 81,87
+documentation/email-marketing/faqs.md
+  s_8f15e87752f5a8::t_68f767c3166b41 23,25
+documentation/email-sandbox/overview.md
+  s_8f15e87752f5a8::t_7ea273671e7754 31
+documentation/for-ai-agents/tools/mcp-server.md
+  s_8f15e87752f5a8::t_b0a14f4fcc5539 7
+documentation/for-ai-agents/tools/prompts.md
+  s_8f15e87752f5a8::t_d380710f44180a 19
+documentation/getting-started/email-api-smtp.md
+  s_8f15e87752f5a8::t_76af30796223a1 6,435,458
+guides-and-tips/ai-powered-integrations/viasocket.md
+  s_8f15e87752f5a8::t_16341405f5cbe9 5,18,30,96,283
+guides-and-tips/integrations/astro.md
+  s_8f15e87752f5a8::t_e2d9d65e3bb49c 69
+guides-and-tips/integrations/aws-lambda.md
+  s_8f15e87752f5a8::t_45a3097626aed1 89
+guides-and-tips/integrations/better-auth.md
+  s_8f15e87752f5a8::t_cb2b600e997988 232
+guides-and-tips/integrations/cloudflare-workers.md
+  s_8f15e87752f5a8::t_ee75f056280c4b 73
+guides-and-tips/integrations/cpanel.md
+  s_8f15e87752f5a8::t_aff5d832ceeed3 3,9
+guides-and-tips/integrations/remix.md
+  s_8f15e87752f5a8::t_e962bec47ff405 56
+guides-and-tips/integrations/sinatra.md
+  s_8f15e87752f5a8::t_aa1c14c1247a3e 53
+guides-and-tips/integrations/supabase/transactional-emails.md
+  s_8f15e87752f5a8::t_41368c8ac4df50 14
+guides-and-tips/integrations/wget.md
+  s_8f15e87752f5a8::t_2d6f1016ac8297 49
+guides-and-tips/sdk/dotnet-integration.md
+  s_8f15e87752f5a8::t_ace869055b08a8 15
+guides-and-tips/sdk/elixir-integration.md
+  s_8f15e87752f5a8::t_00e6311f9ad9a9 15
+guides-and-tips/sdk/go-integration.md
+  s_8f15e87752f5a8::t_a16a373b97845c 15
+guides-and-tips/sdk/java-integration.md
+  s_8f15e87752f5a8::t_4dcdb685ecef0f 15
+guides-and-tips/sdk/nodejs-integration.md
+  s_8f15e87752f5a8::t_8c18498300b570 15,83,93
+guides-and-tips/sdk/perl-integration.md
+  s_8f15e87752f5a8::t_089b5af903ffc6 13
+guides-and-tips/sdk/php-integration.md
+  s_8f15e87752f5a8::t_1abeb0b1c35300 15
+guides-and-tips/sdk/python-integration.md
+  s_8f15e87752f5a8::t_2f9d65423a2a9d 15
+guides-and-tips/sdk/ruby-integration.md
+  s_8f15e87752f5a8::t_6e1bf8abd8b641 15,110,120
+guides-and-tips/sdk/scala-integration.md
+  s_8f15e87752f5a8::t_b709670303a81b 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1746467e85221c69b01791b1693301c141cf75d2",
+  "prompts": {},
+  "sessions": {
+    "s_8f15e87752f5a8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ad39f9a0-4138-4b9f-a4d4-0cccec1c4a69",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}
