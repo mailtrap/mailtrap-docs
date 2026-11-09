@@ -422,11 +422,11 @@ The following example contains the majority of Handlebars helpers explained abov
 
 ### Testing templates with Handlebars
 
-In the quick tutorial below, we assume you've activated both Email Sandbox and Email API/SMTP.
+In the quick tutorial below, we assume you've activated both Email Sandbox and Email Live Sending.
 
 {% stepper %}
 {% step %}
-Navigate to **Email API/SMTP** > **Email Templates** in the menu on the left.
+Navigate to **Email Live Sending** > **Email Templates** in the menu on the left.
 {% endstep %}
 
 {% step %}

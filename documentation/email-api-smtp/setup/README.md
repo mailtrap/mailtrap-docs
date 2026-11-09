@@ -7,7 +7,7 @@ description: >-
 
 # Setup & Configuration
 
-Complete guide to setting up and configuring Mailtrap Email API/SMTP for your application. Follow these steps to start sending emails in production.
+Complete guide to setting up and configuring Mailtrap Email Live Sending for your application. Follow these steps to start sending emails in production.
 
 ### Quick start checklist
 

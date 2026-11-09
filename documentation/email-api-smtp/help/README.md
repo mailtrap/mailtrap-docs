@@ -1,15 +1,15 @@
 ---
 title: Help & Support
-description: Get help with Email API/SMTP issues and find answers to common questions.
+description: Get help with Email Live Sending issues and find answers to common questions.
 ---
 
 # Help & Support
 
-Find answers to common questions and troubleshoot issues with Mailtrap's Email API/SMTP service. Our comprehensive help resources are designed to get you back on track quickly.
+Find answers to common questions and troubleshoot issues with Mailtrap's Email Live Sending service. Our comprehensive help resources are designed to get you back on track quickly.
 
 ## Resources
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Frequently Asked Questions</strong></td><td><em>Browse our comprehensive FAQ section for quick answers to common questions about Email API/SMTP setup, integration, and best practices.</em></td><td><a href="../faqs.md">faqs.md</a></td></tr><tr><td><strong>Troubleshooting Guide</strong></td><td><em>Step-by-step solutions for common issues including authentication errors, domain configuration problems, and delivery issues.</em></td><td><a href="../troubleshooting/">troubleshooting</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Frequently Asked Questions</strong></td><td><em>Browse our comprehensive FAQ section for quick answers to common questions about Email Live Sending setup, integration, and best practices.</em></td><td><a href="../faqs.md">faqs.md</a></td></tr><tr><td><strong>Troubleshooting Guide</strong></td><td><em>Step-by-step solutions for common issues including authentication errors, domain configuration problems, and delivery issues.</em></td><td><a href="../troubleshooting/">troubleshooting</a></td></tr></tbody></table>
 
 ## Common Issues
 

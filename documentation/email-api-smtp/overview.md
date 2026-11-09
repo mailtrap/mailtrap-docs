@@ -1,7 +1,7 @@
 ---
-title: Email API/SMTP Overview
+title: Email Live Sending Overview
 description: >-
-  Overview of Mailtrap Email API and SMTP service: key features, use cases, and
+  Overview of Mailtrap Email Live Sending: key features, use cases, and
   target audience.
 layout:
   width: default
@@ -25,7 +25,7 @@ layout:
 
 # Overview
 
-Mailtrap Email API/SMTP lets you send transactional and bulk emails. Integrate with the Email Sending API or SMTP.
+Mailtrap Email Live Sending lets you send transactional and bulk emails. Integrate with the Email Live Sending API or SMTP.
 
 ### Choose a sending stream
 
@@ -38,7 +38,7 @@ Choose a stream based on the email type:
 
 Use the method that fits your application:
 
-* [**Email Sending API**](api-integration.md) sends emails through authenticated HTTP requests and supported SDKs.
+* [**Email Live Sending API**](api-integration.md) sends emails through authenticated HTTP requests and supported SDKs.
 * [**SMTP**](smtp-integration.md) works with existing email clients and libraries.
 
 Both methods support Mailtrap Email Logs and analytics.
@@ -50,7 +50,7 @@ Both methods support Mailtrap Email Logs and analytics.
 **Set up sending**
 
 * [Set up a sending domain](setup/sending-domain.md)
-* [Integrate with the Email Sending API](api-integration.md)
+* [Integrate with the Email Live Sending API](api-integration.md)
 * [Integrate with SMTP](smtp-integration.md)
 * [Warm up an IP address](deliverability/ip-warmup.md)
 {% endcolumn %}
@@ -81,7 +81,7 @@ _Set up your sending domain_
 {% step %}
 [api-integration.md](api-integration.md "mention")
 
-_Integrate with the Email Sending API_
+_Integrate with the Email Live Sending API_
 {% endstep %}
 
 {% step %}

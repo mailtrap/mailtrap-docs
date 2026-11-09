@@ -12,7 +12,7 @@ icon: osi
 We deeply appreciate the valuable work of non-profit organizations and open-source initiatives. To support your efforts, we offer the following benefits:
 
 * **Email Sandbox** – Free access to the Team plan
-* **Email API / SMTP** – Free access to the Basic 10K plan
+* **Email Live Sending** – Free access to the Basic 10K plan
 * **Email Marketing** - Free access to the Essential 10K plan
 * **Discounted Billing** – All other paid plans are available at a 50% discount
 
