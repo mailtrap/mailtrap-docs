@@ -12,7 +12,7 @@ description: >-
 
 Mailtrap can be integrated with PHP apps and projects for email sending.
 
-### Email Live Sending for PHP
+### Email API/SMTP for PHP
 
 #### SDK integration
 

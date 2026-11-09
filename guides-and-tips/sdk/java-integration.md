@@ -12,7 +12,7 @@ description: >-
 
 Mailtrap can be integrated with Java apps and projects for email sending with SDK, SMTP, and RESTful API.
 
-### Email Live Sending for Java
+### Email API/SMTP for Java
 
 #### SDK integration
 

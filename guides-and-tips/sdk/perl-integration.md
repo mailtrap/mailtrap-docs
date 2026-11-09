@@ -10,7 +10,7 @@ description: >-
 
 Mailtrap can be integrated with Perl apps and projects for email sending.
 
-## Email Live Sending for Perl
+## Email API/SMTP for Perl
 
 ### SMTP Integration
 

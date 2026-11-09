@@ -12,7 +12,7 @@ description: >-
 
 Mailtrap can be integrated with Go apps and projects for email sending.
 
-### Email Live Sending for Go
+### Email API/SMTP for Go
 
 #### SDK integration
 

@@ -12,7 +12,7 @@ description: >-
 
 Mailtrap can be integrated with Elixir apps and projects for email sending.
 
-## Email Live Sending for Elixir
+## Email API/SMTP for Elixir
 
 ### SDK integration
 
