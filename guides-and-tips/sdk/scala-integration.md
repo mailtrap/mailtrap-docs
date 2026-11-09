@@ -10,7 +10,7 @@ description: >-
 
 Mailtrap can be integrated with Scala apps and projects for email sending.
 
-## Email API/SMTP for Scala
+## Email Live Sending for Scala
 
 ### SMTP integration
 

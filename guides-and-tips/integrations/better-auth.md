@@ -229,4 +229,4 @@ Because nothing awaits the result, `sendEmail` has to handle its own failures. T
 
 ### Learn more
 
-For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) and the [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs).
+For additional details about the Email API, refer to the [Mailtrap Email Live Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) and the [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs).

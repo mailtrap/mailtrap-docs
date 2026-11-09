@@ -20,9 +20,9 @@ Mailtrap Email Marketing is a complete solution for creating, sending, and track
 
 <details>
 
-<summary>How is Email Marketing different from Email API/SMTP?</summary>
+<summary>How is Email Marketing different from Email Live Sending?</summary>
 
-Email Marketing is designed for bulk promotional emails with built-in campaign tools, while Email API/SMTP is for transactional emails like password resets. Email Marketing includes visual editors, contact management, and campaign analytics.
+Email Marketing is designed for bulk promotional emails with built-in campaign tools, while Email Live Sending is for transactional emails like password resets. Email Marketing includes visual editors, contact management, and campaign analytics.
 
 </details>
 

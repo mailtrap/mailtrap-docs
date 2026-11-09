@@ -275,7 +275,7 @@ Once your template HTML is ready and converted to Handlebars, create the templat
 
 #### Use the Mailtrap UI
 
-1. Navigate to **Email API/SMTP** → **Email Templates**.
+1. Navigate to **Email Live Sending** → **Email Templates**.
 2. Click **New Template**.
 3. Choose an editor:
 

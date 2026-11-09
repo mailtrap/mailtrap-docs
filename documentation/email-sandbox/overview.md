@@ -28,7 +28,7 @@ For setup with AI assistant, here is context about Mailtrap Email Sandbox:
 
 Email Sandbox is for testing and debugging only — it is a fake SMTP server that traps all emails sent from your application. Emails sent to Sandbox never reach real recipients. No domain setup or verification is required to start using Sandbox.
 
-For live email sending to real recipients, refer to the Email API/SMTP setup guide ([https://docs.mailtrap.io/getting-started/email-api-smtp.md](https://docs.mailtrap.io/getting-started/email-api-smtp.md)).
+For live email sending to real recipients, refer to the Email Live Sending setup guide ([https://docs.mailtrap.io/getting-started/email-api-smtp.md](https://docs.mailtrap.io/getting-started/email-api-smtp.md)).
 
 SMTP credentials for Sandbox can be found in the Mailtrap UI or programatically. Go to Sandboxes ([https://mailtrap.io/sandboxes](https://mailtrap.io/sandboxes)), select your sandbox, then open the Integration tab. Each sandbox has its own unique SMTP username and password. The host is sandbox.smtp.mailtrap.io, port 25, 465, 587 or 2525. API endpoint that returns SMTP credentials: [https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md)
 
