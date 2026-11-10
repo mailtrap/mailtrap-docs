@@ -528,7 +528,7 @@ The API makes it explicit when you're in Sandbox mode vs. live — reducing the 
 const client = new MailtrapClient({
   token: process.env.MAILTRAP_API_KEY!,
   sandbox: true,
-  testInboxId: Number(process.env.MAILTRAP_INBOX_ID),
+  sandboxId: Number(process.env.MAILTRAP_SANDBOX_ID),
 });
 
 // Same .send() call — emails land in your Sandbox inbox
@@ -546,7 +546,7 @@ await client.send({
 client = mt.MailtrapClient(
     token=os.environ["MAILTRAP_API_KEY"],
     sandbox=True,
-    test_inbox_id=int(os.environ["MAILTRAP_INBOX_ID"]),
+    sandbox_id=os.environ["MAILTRAP_SANDBOX_ID"],
 )
 
 # Same send call — emails land in Sandbox
@@ -591,8 +591,8 @@ const isSandbox = process.env.MAILTRAP_USE_SANDBOX === "true";
 const client = new MailtrapClient({
   token: process.env.MAILTRAP_API_KEY!,
   sandbox: isSandbox,
-  testInboxId: isSandbox
-    ? Number(process.env.MAILTRAP_INBOX_ID)
+  sandboxId: isSandbox
+    ? Number(process.env.MAILTRAP_SANDBOX_ID)
     : undefined,
 });
 ```
@@ -600,7 +600,7 @@ const client = new MailtrapClient({
 ```bash
 # .env.development
 MAILTRAP_USE_SANDBOX=true
-MAILTRAP_INBOX_ID=12345
+MAILTRAP_SANDBOX_ID=12345
 
 # .env.live
 MAILTRAP_USE_SANDBOX=false
@@ -611,7 +611,7 @@ MAILTRAP_USE_SANDBOX=false
 
 * Use the **API** (not SMTP) for Sandbox testing — the API uses a distinct base URL (`sandbox.api.mailtrap.io` vs. `send.api.mailtrap.io`) making the environment explicit. With SMTP, you'd need to swap credentials entirely, which is error-prone.
 * **Never hardcode** `sandbox: true` in live code. Use environment variables.
-* The Sandbox inbox ID is visible in the Mailtrap UI under **Email Sandbox**.
+* The Sandbox ID is visible in the Mailtrap UI under **Email Sandbox**.
 {% endhint %}
 
 {% hint style="info" %}

@@ -65,7 +65,7 @@ The Mailtrap MCP server is implemented as a Node.js command line utility and com
         "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
         "DEFAULT_FROM_EMAIL": "your_sender@example.com",
         "MAILTRAP_ACCOUNT_ID": "your_account_id",
-        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+        "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
       }
     }
   }
@@ -85,7 +85,7 @@ The Mailtrap MCP server is implemented as a Node.js command line utility and com
           "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
           "DEFAULT_FROM_EMAIL": "your_sender@example.com",
           "MAILTRAP_ACCOUNT_ID": "your_account_id",
-          "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+          "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
         }
       }
     }
@@ -109,7 +109,7 @@ The Mailtrap MCP server is implemented as a Node.js command line utility and com
         "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
         "DEFAULT_FROM_EMAIL": "your_sender@example.com",
         "MAILTRAP_ACCOUNT_ID": "your_account_id",
-        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+        "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
       }
     }
   }

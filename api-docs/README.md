@@ -434,12 +434,12 @@ import { MailtrapClient } from "mailtrap";
 
 const apiKey = process.env.MAILTRAP_API_KEY;
 const isSandbox = process.env.MAILTRAP_USE_SANDBOX === "true";
-const inboxId = isSandbox ? Number(process.env.MAILTRAP_INBOX_ID) : undefined; // required only for sandbox
+const sandboxId = isSandbox ? Number(process.env.MAILTRAP_SANDBOX_ID) : undefined; // required only for sandbox
 
 const client = new MailtrapClient({
   token: apiKey,
   sandbox: isSandbox,
-  testInboxId: inboxId, // undefined is ignored for production
+  sandboxId, // undefined is ignored for production
 });
 
 client
@@ -464,12 +464,12 @@ import mailtrap as mt
 
 API_KEY = os.environ["MAILTRAP_API_KEY"]
 IS_SANDBOX = os.environ.get("MAILTRAP_USE_SANDBOX", "true").lower() == "true"
-INBOX_ID = os.environ.get("MAILTRAP_INBOX_ID")
+SANDBOX_ID = os.environ.get("MAILTRAP_SANDBOX_ID")
 
 client = mt.MailtrapClient(
   token=API_KEY,
   sandbox=IS_SANDBOX,
-  inbox_id=INBOX_ID,  # None is ignored for production
+  sandbox_id=SANDBOX_ID,  # None is ignored for production
 )
 
 # Create mail object
@@ -498,12 +498,12 @@ require __DIR__ . '/vendor/autoload.php';
 
 $apiKey    = getenv('MAILTRAP_API_KEY');
 $isSandbox = filter_var(getenv('MAILTRAP_USE_SANDBOX'), FILTER_VALIDATE_BOOL);
-$inboxId   = $isSandbox ? getenv('MAILTRAP_INBOX_ID') : null; // required only for sandbox
+$sandboxId = $isSandbox ? getenv('MAILTRAP_SANDBOX_ID') : null; // required only for sandbox
 
 $client = MailtrapClient::initSendingEmails(
     apiKey: $apiKey,
     isSandbox: $isSandbox,
-    inboxId: $inboxId // null is ignored for production
+    sandboxId: $sandboxId // null is ignored for production
 );
 
 $email = (new MailtrapEmail())
@@ -523,7 +523,7 @@ var_dump(ResponseHelper::toArray($response));
 ```ruby
 require 'mailtrap'
 
-client = Mailtrap::Client.new(api_key: 'your-api-key', sandbox: true, inbox_id: YOUR_INBOX_ID)
+client = Mailtrap::Client.new(api_key: 'your-api-key', sandbox: true, sandbox_id: YOUR_SANDBOX_ID)
 client.send(mail)
 
 # You can also pass the request parameters directly
@@ -553,13 +553,13 @@ public class MailtrapJavaSDKSandboxTest {
     private static final String TOKEN = "<YOUR MAILTRAP TOKEN>";
     private static final String SENDER_EMAIL = "sender@domain.com";
     private static final String RECIPIENT_EMAIL = "recipient@domain.com";
-    private static final long INBOX_ID = 1L;
+    private static final long SANDBOX_ID = 1L;
 
     public static void main(String[] args) {
         final MailtrapConfig config = new MailtrapConfig.Builder()
             .token(TOKEN)
             .sandbox(true)
-            .inboxId(INBOX_ID)
+            .sandboxId(SANDBOX_ID)
             .build();
 
         final MailtrapClient client = MailtrapClientFactory.createMailtrapClient(config);
@@ -585,7 +585,7 @@ public class MailtrapJavaSDKSandboxTest {
 {% tab title=".NET" %}
 ```csharp
 var apiToken = "<API-TOKEN>";
-var inboxId = <INBOX-ID>; // Only needed for sandbox
+var sandboxId = <SANDBOX-ID>; // Only needed for sandbox
 using var mailtrapClientFactory = new MailtrapClientFactory(apiToken);
 IMailtrapClient mailtrapClient = mailtrapClientFactory.CreateClient();
 
@@ -597,8 +597,8 @@ SendEmailRequest request = SendEmailRequest
     .Text("Congrats for sending test email with Mailtrap!");
 
 SendEmailResponse? response = await mailtrapClient
-    .Test(inboxId)
-    .Send(request);+
+    .Sandbox(sandboxId)
+    .Send(request);
 ```
 {% endtab %}
 {% endtabs %}

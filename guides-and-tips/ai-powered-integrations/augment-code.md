@@ -27,7 +27,7 @@ To authenticate with Mailtrap, you need four values. You’ll need an API token 
 
 * Copy your API token – this is your `MAILTRAP_API_TOKEN` value.
 * Your `DEFAULT_FROM_EMAIL` must be an address on the same domain you verified in Sending Domains (e.g. [hello@yourdomain.com](mailto:hello@yourdomain.com)).
-* To have full MCP functionality, you’ll also need `MAILTRAP_ACCOUNT_ID` to manage templates, and `MAILTRAP_TEST_INBOX_ID` for Sandbox tests (see step 6 below to locate the variables).
+* To have full MCP functionality, you’ll also need `MAILTRAP_ACCOUNT_ID` to manage templates, and `MAILTRAP_SANDBOX_ID` for Sandbox tests (see step 6 below to locate the variables).
 
 {% hint style="info" %}
 Replace the placeholder values in your MCP configuration (whether added via GUI or JSON) with the credentials on your account.
@@ -55,7 +55,7 @@ Mailtrap MCP is not in the Easy MCP catalog, so you'll configure it manually. Au
   * `MAILTRAP_API_TOKEN` → (your Mailtrap API token — see Step 2)
   * `DEFAULT_FROM_EMAIL` → (your verified sending domain address, e.g. [hello@yourdomain.com](mailto:hello@yourdomain.com))
   * `MAILTRAP_ACCOUNT_ID` → (click **Settings**, then **Account Settings** to reveal the ID)
-  * `MAILTRAP_TEST_INBOX_ID` → (find the ID in the inbox URL — for example: https://mailtrap.io/sandboxes/your\_inbox\_ID/settings)
+  * `MAILTRAP_SANDBOX_ID` → (find the ID in the inbox URL — for example: https://mailtrap.io/sandboxes/your\_inbox\_ID/settings)
 
 <figure><img src="../.gitbook/assets/ac3.png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@ Mailtrap MCP is not in the Easy MCP catalog, so you'll configure it manually. Au
           "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
           "DEFAULT_FROM_EMAIL": "your_sender@example.com",
           "MAILTRAP_ACCOUNT_ID": "your_account_id",
-          "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+          "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
         }
       }
     }
