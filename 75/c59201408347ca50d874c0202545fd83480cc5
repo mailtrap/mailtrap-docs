@@ -1,0 +1,34 @@
+guides-and-tips/ai-powered-integrations/augment-code.md
+  s_bb7bba3ed6eccd::t_15aea3f986d181 58
+  s_bb7bba3ed6eccd::t_9874d7c2fa9ad3 21
+documentation/for-ai-agents/tools/mcp-server.md
+  s_bb7bba3ed6eccd::t_9874d7c2fa9ad3 43
+documentation/email-sandbox/overview.md
+  s_bb7bba3ed6eccd::t_15aea3f986d181 190
+  s_bb7bba3ed6eccd::t_9874d7c2fa9ad3 39
+guides-and-tips/ai-powered-integrations/codex.md
+  s_bb7bba3ed6eccd::t_15aea3f986d181 27,48
+api-docs/README.md
+  s_bb7bba3ed6eccd::t_15aea3f986d181 467
+  s_bb7bba3ed6eccd::t_9874d7c2fa9ad3 608,612-613
+documentation/getting-started/email-api-smtp.md
+  s_bb7bba3ed6eccd::t_15aea3f986d181 511,513
+guides-and-tips/ai-powered-integrations/opencode.md
+  s_bb7bba3ed6eccd::t_15aea3f986d181 53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "75c59201408347ca50d874c0202545fd83480cc5",
+  "prompts": {},
+  "sessions": {
+    "s_bb7bba3ed6eccd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f97bb812-46e8-4f9d-9f33-570b5cef8415",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
