@@ -429,6 +429,8 @@ We recommend using environment variables to manage the switch between Sandbox an
 
 {% tabs %}
 {% tab title="Node.js" %}
+Requires the Mailtrap Node.js SDK 6.2.0 or later.
+
 ```javascript
 import { MailtrapClient } from "mailtrap";
 
@@ -458,6 +460,8 @@ client
 {% endtab %}
 
 {% tab title="Python" %}
+Requires the Mailtrap Python SDK 3.1.0 or later.
+
 ```python
 import os
 import mailtrap as mt
@@ -486,6 +490,8 @@ client.send(mail)
 {% endtab %}
 
 {% tab title="PHP" %}
+Requires the Mailtrap PHP SDK 3.18.0 or later.
+
 ```php
 <?php
 
@@ -520,6 +526,8 @@ var_dump(ResponseHelper::toArray($response));
 {% endtab %}
 
 {% tab title="Ruby" %}
+Requires the Mailtrap Ruby SDK 2.20.0 or later.
+
 ```ruby
 require 'mailtrap'
 
@@ -539,6 +547,8 @@ client.send(
 {% endtab %}
 
 {% tab title="Java" %}
+Requires the Mailtrap Java SDK 1.11.0 or later.
+
 ```java
 import io.mailtrap.client.MailtrapClient;
 import io.mailtrap.config.MailtrapConfig;
@@ -583,6 +593,8 @@ public class MailtrapJavaSDKSandboxTest {
 {% endtab %}
 
 {% tab title=".NET" %}
+Requires the Mailtrap .NET SDK 3.10.0 or later.
+
 ```csharp
 var apiToken = "<API-TOKEN>";
 var sandboxId = <SANDBOX-ID>; // Only needed for sandbox

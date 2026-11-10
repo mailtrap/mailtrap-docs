@@ -524,6 +524,8 @@ The API makes it explicit when you're in Sandbox mode vs. live — reducing the 
 
 {% tabs %}
 {% tab title="Node.js" %}
+Requires the Mailtrap Node.js SDK 6.2.0 or later.
+
 ```typescript
 const client = new MailtrapClient({
   token: process.env.MAILTRAP_API_KEY!,
@@ -542,6 +544,8 @@ await client.send({
 {% endtab %}
 
 {% tab title="Python" %}
+Requires the Mailtrap Python SDK 3.1.0 or later.
+
 ```python
 client = mt.MailtrapClient(
     token=os.environ["MAILTRAP_API_KEY"],
@@ -583,6 +587,8 @@ curl "https://mailtrap.io/api/accounts/{account_id}/inboxes/{inbox_id}/messages"
 ### Safe environment switching
 
 Use an environment variable to control Sandbox vs. live mode. This prevents hardcoding `sandbox: true` in your codebase.
+
+Requires the Mailtrap Node.js SDK 6.2.0 or later.
 
 ```typescript
 // Node.js — environment-based switching
