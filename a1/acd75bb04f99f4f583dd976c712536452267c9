@@ -1,0 +1,28 @@
+api-docs/README.md
+  s_24bb72d7744e84::t_1b40663a9e2442 550-551
+  s_24bb72d7744e84::t_2b50f7a2b6d36c 432-433
+  s_24bb72d7744e84::t_91f4c57483c36f 493-494
+  s_24bb72d7744e84::t_a54a225b06224f 529-530
+  s_24bb72d7744e84::t_bb16da14b0a14a 463-464
+  s_24bb72d7744e84::t_6441d04b69338c 596-597
+documentation/getting-started/email-api-smtp.md
+  s_24bb72d7744e84::t_16d6ffb4d3f8e9 527-528
+  s_24bb72d7744e84::t_21e3f7018d2a23 547-548
+  s_24bb72d7744e84::t_f4c1e120a34380 591-592
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a1acd75bb04f99f4f583dd976c712536452267c9",
+  "prompts": {},
+  "sessions": {
+    "s_24bb72d7744e84": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "483bbda0-cecd-46e5-9d78-d87655e43a00",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
