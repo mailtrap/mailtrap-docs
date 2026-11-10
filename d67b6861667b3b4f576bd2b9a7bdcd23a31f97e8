@@ -1,0 +1,19 @@
+documentation/email-api-smtp/email-templates/integration.md
+  s_14540d3b8eb212::t_d8072cc1b9c740 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d67b6861667b3b4f576bd2b9a7bdcd23a31f97e8",
+  "prompts": {},
+  "sessions": {
+    "s_14540d3b8eb212": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ad5a4ecb-be8c-4d1b-bd95-69147fbd40ef",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}

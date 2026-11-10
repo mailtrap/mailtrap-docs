@@ -1,0 +1,21 @@
+api-docs/SUMMARY.md
+  s_14540d3b8eb212::t_1317496229b9d2 8
+documentation/SUMMARY.md
+  s_14540d3b8eb212::t_486965153f96d5 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "946de10eea6985dfb452318c2eb0588ebab2bf40",
+  "prompts": {},
+  "sessions": {
+    "s_14540d3b8eb212": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ad5a4ecb-be8c-4d1b-bd95-69147fbd40ef",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}
