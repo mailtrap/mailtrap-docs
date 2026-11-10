@@ -24,7 +24,7 @@ The fastest way is the Codex CLI’s built-in mcp add command:
 
 This registers the Mailtrap MCP server in your Codex config. To add it manually instead, open `~/.codex/config.toml` and add:
 
-```bash
+```toml
 [mcp_servers.mailtrap]
 command = "npx"
 args = ["-y", "mcp-mailtrap"]
@@ -45,7 +45,7 @@ If you used `codex mcp add`, open `~/.codex/config.toml` and add the `env` block
 | ------------------------- | -------------------------------------------------------------------------------- |
 | DEFAULT\_FROM\_EMAIL      | Required for sending; must be on your verified sending domain                    |
 | MAILTRAP\_ACCOUNT\_ID     | Required for template management; find under Settings → Account Settings         |
-| MAILTRAP\_SANDBOX\_ID     | Required for sandbox operations; visible in your sandbox inbox URL               |
+| MAILTRAP\_SANDBOX\_ID     | Required for sandbox operations; visible in your Sandbox URL                     |
 
 Codex reads standard env vars, so exporting `MAILTRAP_API_TOKEN` in your shell profile works as expected.
 

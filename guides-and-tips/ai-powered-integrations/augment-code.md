@@ -18,7 +18,7 @@ Before you begin, make sure you have the following in place:
 
 ### Step 1. Fetch Mailtrap API Credentials
 
-To authenticate with Mailtrap, you need four values. You’ll need an API token and a verified From address, as well as account ID for templates and inbox ID, if you’d like to use Sandbox. Here's the flow:
+To authenticate with Mailtrap, you need four values. You’ll need an API token and a verified From address, as well as account ID for templates and, optionally, Sandbox ID for Sandbox tests. Here's the flow:
 
 * Log into your Mailtrap account.
 * Click the **Settings** drop-down, select **API Tokens**, click **Add Token**, give it a name and make sure to tick the Admin permissions for email-sending.
@@ -55,7 +55,7 @@ Mailtrap MCP is not in the Easy MCP catalog, so you'll configure it manually. Au
   * `MAILTRAP_API_TOKEN` → (your Mailtrap API token — see Step 2)
   * `DEFAULT_FROM_EMAIL` → (your verified sending domain address, e.g. [hello@yourdomain.com](mailto:hello@yourdomain.com))
   * `MAILTRAP_ACCOUNT_ID` → (click **Settings**, then **Account Settings** to reveal the ID)
-  * `MAILTRAP_SANDBOX_ID` → (find the ID in the inbox URL — for example: https://mailtrap.io/sandboxes/your\_inbox\_ID/settings)
+  * `MAILTRAP_SANDBOX_ID` → (find the ID in the Sandbox URL — for example: https://mailtrap.io/sandboxes/your\_sandbox\_ID/settings)
 
 <figure><img src="../.gitbook/assets/ac3.png" alt=""><figcaption></figcaption></figure>
 

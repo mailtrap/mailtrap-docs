@@ -508,9 +508,9 @@ Before sending to real users, test your integration with Email Sandbox. Emails g
 
 ### Find your Sandbox inbox
 
-Every Mailtrap account comes with a Sandbox inbox. Find your inbox ID:
+Every Mailtrap account comes with a Sandbox inbox. Find your Sandbox ID:
 
-* **In the UI:** Go to [Sandboxes](https://mailtrap.io/sandboxes) — your inbox ID is shown next to each inbox.
+* **In the UI:** Go to [Sandboxes](https://mailtrap.io/sandboxes) — your Sandbox ID is shown next to each inbox.
 * **Via API:** List your inboxes:
 
 ```bash

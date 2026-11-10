@@ -36,7 +36,7 @@ When you're ready to move from Sandbox to live sending, the switch depends on yo
 
 — If using SMTP directly: replace the Sandbox SMTP credentials with live sending SMTP credentials, found in Sending Domains ([https://mailtrap.io/domains](https://mailtrap.io/domains)) → select your domain → Integration tab → SMTP.
 
-— If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and a sandbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the sandbox ID.
+— If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and a Sandbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the Sandbox ID.
 
 — If using the API directly: change the endpoint from the Sandbox API ([https://sandbox.api.mailtrap.io/api/send/{inbox\_id}](https://sandbox.api.mailtrap.io/api/send/%7Binbox_id%7D)) to the Transactional ([https://send.api.mailtrap.io/api/send](https://send.api.mailtrap.io/api/send)) or Bulk ([https://bulk.api.mailtrap.io/api/send](https://bulk.api.mailtrap.io/api/send)) sending endpoint.
 
@@ -187,7 +187,7 @@ Full programmatic access with our official SDKs for all major languages:
 **Node.js SDK:**
 
 ```javascript
-const { MailtrapClient } = require("mailtrap");
+import { MailtrapClient } from "mailtrap";
 
 const client = new MailtrapClient({
   token: "YOUR_API_TOKEN",

@@ -50,7 +50,7 @@ Replace the placeholder values in `opencode.json`:
 | ------------------------- | -------------------------------------------------------------------------- |
 | DEFAULT\_FROM\_EMAIL      | Required for sending; must be an address on your verified sending domain   |
 | MAILTRAP\_ACCOUNT\_ID     | Required for template management; find under Settings → Account Settings   |
-| MAILTRAP\_SANDBOX\_ID     | Required for sandbox operations; visible in your sandbox inbox URL         |
+| MAILTRAP\_SANDBOX\_ID     | Required for sandbox operations; visible in your Sandbox URL               |
 
 OpenCode also supports environment variable substitution via `{env:VAR_NAME}` syntax. If you’d rather keep credentials out of the config file, set them as environment variables and reference them like this:
 

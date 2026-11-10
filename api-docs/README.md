@@ -464,7 +464,7 @@ import mailtrap as mt
 
 API_KEY = os.environ["MAILTRAP_API_KEY"]
 IS_SANDBOX = os.environ.get("MAILTRAP_USE_SANDBOX", "true").lower() == "true"
-SANDBOX_ID = os.environ.get("MAILTRAP_SANDBOX_ID")
+SANDBOX_ID = os.environ.get("MAILTRAP_SANDBOX_ID") if IS_SANDBOX else None  # required only for sandbox
 
 client = mt.MailtrapClient(
   token=API_KEY,
@@ -605,12 +605,12 @@ SendEmailResponse? response = await mailtrapClient
 
 #### How Sandbox works
 
-Sandbox emails are captured in your test inbox instead of being delivered to real recipients.
+Sandbox emails are captured in your Sandbox instead of being delivered to real recipients.
 
 To find your **Sandbox ID**:
 
-1. Open your Sandbox inbox in Mailtrap.
-2. Copy the ID from the inbox URL.
+1. Open your Sandbox in Mailtrap.
+2. Copy the ID from the Sandbox URL.
 
 **Example**: `https://mailtrap.io/sandboxes/2564102`\
 Sandbox ID: **2564102**
