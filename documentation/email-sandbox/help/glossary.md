@@ -1,6 +1,7 @@
 ---
 title: Sandbox Glossary
 description: Common terms and definitions for Email Sandbox features and protocols
+hidden: true
 icon: book-open
 ---
 

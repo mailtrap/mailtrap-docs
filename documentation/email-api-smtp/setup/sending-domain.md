@@ -289,4 +289,4 @@ You can send emails to your recipients only from domains that have a Verified st
 
 From the Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won't be able to send any further emails until you add and verify it again.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 8 (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 8.png" alt=""><figcaption></figcaption></figure></div>

@@ -104,10 +104,10 @@
   * [Sharing Sandboxes](email-sandbox/sharing-sandboxes.md)
   * [Sharing Projects](email-sandbox/sharing-projects.md)
 * [Mailtrap Local](email-sandbox/local.md)
+* [Features and Limits](email-sandbox/features-and-limits.md)
 * [Help & Support](email-sandbox/help/README.md)
   * [FAQs](email-sandbox/faqs.md)
   * [Troubleshooting](email-sandbox/troubleshooting.md)
-  * [Features and Limits](email-sandbox/help/features-and-limits.md)
   * [Sandbox Glossary](email-sandbox/help/glossary.md)
 
 ## Email Marketing

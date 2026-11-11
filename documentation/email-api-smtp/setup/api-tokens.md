@@ -71,7 +71,7 @@ You need to edit permissions for the automatically generated token to allow for 
 
 Select **Settings** in the left menu, then API Tokens. You’ll see all active tokens, their creator, and their access level.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rsoh (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rsoh.png" alt=""><figcaption></figcaption></figure></div>
 
 The automatically assigned token per domain is under the Integration tab in Sending Domains. Choose the desired stream, click Integrate, and toggle the switch to API. You'll see the endpoint (Host) and your API Token.
 
@@ -79,11 +79,11 @@ The automatically assigned token per domain is under the Integration tab in Send
 
 Go to **Settings** > **API Tokens**, click the three-dot menu icon next to the token you want to reset, and click **Reset API Token**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb.png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm your choice by clicking on the corresponding button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-saqq (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-saqq.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important notes:**
@@ -96,13 +96,13 @@ Confirm your choice by clicking on the corresponding button.
 
 As mentioned earlier, click the menu icon at the far right of a token and select **Edit permissions**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sbrl (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sbrl.png" alt=""><figcaption></figcaption></figure></div>
 
 Click on the corresponding boxes to add or remove token permissions. Then, confirm your selection with the **Save** button.
 
 ### Setting an expiration date
 
-By default, any new API tokens you create are set to expire after 365 days. However, when creating a new one, you can set the expiration to 1, 7, 30, 90, 180, or 365 days, or even add a custom date from the drop down menu.&#x20;
+By default, any new API tokens you create are set to expire after 365 days. However, when creating a new one, you can set the expiration to 1, 7, 30, 90, 180, or 365 days, or even add a custom date from the drop down menu.
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
@@ -126,11 +126,11 @@ You can also set a token to never expire, but you'll need to confirm this in an 
 
 To delete a token, click a three-dot menu icon and choose the **Delete** **token** option.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-scxh-2 (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-scxh-2.png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm the action by clicking the **Confirm** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important:** Keep in mind that a token is deleted immediately, and you can't delete the last token per domain.

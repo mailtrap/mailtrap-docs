@@ -73,8 +73,6 @@ If you want more details for a particular campaign, click the campaign name, the
 {% endstep %}
 
 {% step %}
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260912-selw-3 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260912-selw-3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}

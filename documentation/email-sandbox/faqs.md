@@ -103,7 +103,7 @@ The maximum size of an email including attachments ranges from 5 MB to 25 MB, de
 
 If your message exceeds this limit, you will get the following error: `552 5.3.4 Error: message too big`.
 
-For complete details, see [Features and Limits](help/features-and-limits.md#email-size-mb).
+For complete details, see [Features and Limits](features-and-limits.md#email-size-mb).
 
 </details>
 
@@ -113,7 +113,7 @@ For complete details, see [Features and Limits](help/features-and-limits.md#emai
 
 It's the number of emails you can send to each of your sandboxes every 10 seconds. The rate limit depends on the subscription plan.
 
-For more details, check out the [Features and Limits](help/features-and-limits.md#rate-limits-per-10-sec) article and our [pricing page](https://mailtrap.io/pricing/).
+For more details, check out the [Features and Limits](features-and-limits.md#rate-limits-per-10-sec) article and our [pricing page](https://mailtrap.io/pricing/).
 
 </details>
 
@@ -127,7 +127,7 @@ If you reach your monthly limit, you'll receive the SMTP protocol error: `535 5.
 
 To continue testing when you're over the limit, please upgrade your subscription plan. Alternatively, you can wait until the next billing period starts, when the limit is reset.
 
-For more details, check out the [Features and Limits](help/features-and-limits.md#total-test-emails-per-month) article or our [pricing page](https://mailtrap.io/pricing/).
+For more details, check out the [Features and Limits](features-and-limits.md#total-test-emails-per-month) article or our [pricing page](https://mailtrap.io/pricing/).
 
 </details>
 

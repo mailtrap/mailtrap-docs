@@ -106,10 +106,6 @@ Click on any contact to view their details and perform individual actions:
 
 ### Available Actions
 
-
-
-
-
 {% tabs %}
 {% tab title="Edit Details" %}
 **Update contact information**
@@ -142,7 +138,7 @@ Changes are saved automatically and reflected immediately in campaigns.
 
 **Note**: If a contact asks to receive marketing emails again, go to **Suppressions**, find their email address, and click **Reactivate** on the relevant suppression. You can also restore their subscription using the [Contacts API](https://docs.mailtrap.io/developers/email-marketing/contacts/contacts#update-contact).
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Delete" %}
@@ -177,7 +173,7 @@ Perform actions on multiple contacts simultaneously for efficient management.
 
 #### Add to Lists
 
-{% @arcade/embed flowId="ouJdw13v2JdgGU5bkjBF" url="https://app.arcade.software/share/ouJdw13v2JdgGU5bkjBF" %}
+{% @arcade/embed url="https://app.arcade.software/share/ouJdw13v2JdgGU5bkjBF" flowId="ouJdw13v2JdgGU5bkjBF" %}
 
 {% stepper %}
 {% step %}
@@ -201,7 +197,7 @@ Click **Add To Lists** to complete the operation.
 
 #### Remove from Lists
 
-{% @arcade/embed flowId="jZCjIQbAtOYY0yjQ0laI" url="https://app.arcade.software/share/jZCjIQbAtOYY0yjQ0laI" %}
+{% @arcade/embed url="https://app.arcade.software/share/jZCjIQbAtOYY0yjQ0laI" flowId="jZCjIQbAtOYY0yjQ0laI" %}
 
 {% stepper %}
 {% step %}
@@ -227,7 +223,7 @@ Click **Remove** to process the action.
 
 #### Bulk Unsubscribe
 
-{% @arcade/embed flowId="EP8tXq6vmtiw2qL7vJlP" url="https://app.arcade.software/share/EP8tXq6vmtiw2qL7vJlP" %}
+{% @arcade/embed url="https://app.arcade.software/share/EP8tXq6vmtiw2qL7vJlP" flowId="EP8tXq6vmtiw2qL7vJlP" %}
 
 {% stepper %}
 {% step %}
@@ -257,7 +253,7 @@ This action cannot be undone. Contacts must re-subscribe themselves.
 
 #### Export Contacts
 
-{% @arcade/embed flowId="rHywMpqguwlwPpDELiVl" url="https://app.arcade.software/share/rHywMpqguwlwPpDELiVl" %}
+{% @arcade/embed url="https://app.arcade.software/share/rHywMpqguwlwPpDELiVl" flowId="rHywMpqguwlwPpDELiVl" %}
 
 {% stepper %}
 {% step %}
@@ -289,7 +285,7 @@ Export includes all contact fields and list memberships.
 
 #### Bulk Delete
 
-{% @arcade/embed flowId="JBwOjmCXaSqAQDyjS5uI" url="https://app.arcade.software/share/JBwOjmCXaSqAQDyjS5uI" %}
+{% @arcade/embed url="https://app.arcade.software/share/JBwOjmCXaSqAQDyjS5uI" flowId="JBwOjmCXaSqAQDyjS5uI" %}
 
 {% stepper %}
 {% step %}
@@ -339,7 +335,7 @@ This action cannot be undone. All contact data will be permanently deleted.
 * Status preserved for compliance
 * Can be changed to Subscribed through **Suppressions** → **Reactivate** or by using [Contacts API](https://docs.mailtrap.io/developers/email-marketing/contacts/contacts#update-contact) when the contact asks to receive marketing emails again.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-09-11 at 15.35.34.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Pending" %}

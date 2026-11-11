@@ -43,7 +43,7 @@ Click the **Save** button and preview the new token under the **API Tokens** mai
 
 Go to API Tokens, click the three-dot menu icon next to the token you want to reset, and click Reset API Token.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb.png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm your choice by clicking on the corresponding button.
 
@@ -58,7 +58,7 @@ Confirm your choice by clicking on the corresponding button.
 
 ### Setting an expiration date
 
-By default, any new API tokens you create are set to expire after 365 days. However, when creating a new one, you can set the expiration to 1, 7, 30, 90, 180, or 365 days, or even add a custom date from the drop down menu.&#x20;
+By default, any new API tokens you create are set to expire after 365 days. However, when creating a new one, you can set the expiration to 1, 7, 30, 90, 180, or 365 days, or even add a custom date from the drop down menu.
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
@@ -89,8 +89,8 @@ Confirm the action by clicking the **Confirm** button.
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
-**Important:**&#x20;
+**Important:**
 
-* When you reset a token, the token is kept valid for 12 hours. When you delete the token, the token is deleted immediately.&#x20;
+* When you reset a token, the token is kept valid for 12 hours. When you delete the token, the token is deleted immediately.
 * Use the delete feature in case your token gets compromised (i.e., leak). This way, all of the integrations using the token (be it yours or bad actor's) will stop working immediately.
 {% endhint %}

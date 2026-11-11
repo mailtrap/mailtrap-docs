@@ -93,7 +93,7 @@ To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-otvs (6).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-otvs.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Check our [Sending Domain Setup Guide](sending-domain.md) for detailed instructions on adding and verifying your domain.
 {% endstep %}

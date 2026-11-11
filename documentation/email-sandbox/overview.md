@@ -304,7 +304,7 @@ Pre-configured for popular frameworks:
 
 ## Support & Resources
 
-* [Features and Limits](help/features-and-limits.md)
+* [Features and Limits](features-and-limits.md)
 * [Sandbox Glossary](help/glossary.md)
 * [FAQs](faqs.md)
 * [Troubleshooting](troubleshooting.md)
