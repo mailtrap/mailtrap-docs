@@ -1,0 +1,29 @@
+documentation/email-api-smtp/troubleshooting/ms-office-365-quarantine.md
+  s_7e3b7014fcd005::t_91dbe5224657c9 51
+documentation/email-api-smtp/overview.md
+  s_7e3b7014fcd005::t_91dbe5224657c9 50
+documentation/email-api-smtp/troubleshooting/README.md
+  s_7e3b7014fcd005::t_91dbe5224657c9 33
+documentation/email-marketing/overview.md
+  s_7e3b7014fcd005::t_d7ad1858304749 250
+documentation/email-sandbox/overview.md
+  s_7e3b7014fcd005::t_2ec4822de529ba 312
+documentation/email-sandbox/troubleshooting.md
+  s_7e3b7014fcd005::t_774c77a61e1e4b 258
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c401241505fe564754d3dc32a35312e1267bab51",
+  "prompts": {},
+  "sessions": {
+    "s_7e3b7014fcd005": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "65432727-6175-4781-b495-4f638d750071",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}
