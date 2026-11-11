@@ -47,7 +47,7 @@ Both methods support Mailtrap Email Logs and analytics.
 
 ### Support and resources
 
-<a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="/broken/pages/9lQ5YuKcxQlKDNpnu1l1" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
+<a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="../faq.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
 ### Next steps
 

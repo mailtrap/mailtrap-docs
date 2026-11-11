@@ -48,4 +48,4 @@ When signing up for Mailtrap, you have the option to use Office 365 account auth
 ### Related Articles
 
 * [Getting Started with Email Live Sending](../../sending-domain/)
-* [Email Live Sending FAQs](/broken/pages/9lQ5YuKcxQlKDNpnu1l1)
+* [Email Live Sending FAQs](../../faq.md)

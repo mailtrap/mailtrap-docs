@@ -309,7 +309,7 @@ Pre-configured for popular frameworks:
 
 * [Features and Limits](features-and-limits.md)
 * [Sandbox Glossary](glossary.md)
-* [FAQs](/broken/pages/B56KMhtF4MqMsP2yPuEj)
+* [FAQs](../faq.md)
 * [Troubleshooting](troubleshooting.md)
 
 ## Next Steps

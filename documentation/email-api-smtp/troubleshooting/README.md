@@ -30,7 +30,7 @@ This section covers common issues you might encounter when using Mailtrap Email 
 
 If you don't find the solution to your problem here:
 
-1. Check our [FAQs](/broken/pages/9lQ5YuKcxQlKDNpnu1l1) for general questions
+1. Check our [FAQs](../../faq.md) for general questions
 2. Contact support at [support@mailtrap.io](mailto:support@mailtrap.io)
 3. Visit the API documentation for technical details
 4. Feel free to ask over at [Mailtrap Community](https://community.mailtrap.io/)
