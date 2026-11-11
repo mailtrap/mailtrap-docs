@@ -14,7 +14,7 @@ description: >-
 **Prerequisites**:
 
 * Add and [verify your email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
-* Make sure your [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) has admin access level to that domain.
+* Make sure your [API Token](https://docs.mailtrap.io/api-tokens) has admin access level to that domain.
 
 
 
@@ -28,7 +28,7 @@ This way, you need to add the following two secrets:
 
 * `MAILTRAP_API_TOKEN`
 
-This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account. And here’s what the secret should look like:
+This is the [Mailtrap API token](https://docs.mailtrap.io/api-tokens), which you can create at any time from your account. And here’s what the secret should look like:
 
 <figure><img src="../.gitbook/assets/any 2.png" alt=""><figcaption></figcaption></figure>
 

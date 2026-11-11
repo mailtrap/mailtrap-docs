@@ -18,7 +18,7 @@ Auto-forwarding rules are currently available via API only.
 Before you start, make sure you have:
 
 * An [inbound inbox](https://docs.mailtrap.io/inbound-email/receiving-emails).
-* An [API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) with access to that inbox.&#x20;
+* An [API token](https://docs.mailtrap.io/api-tokens) with access to that inbox.&#x20;
 
 ### How it works
 

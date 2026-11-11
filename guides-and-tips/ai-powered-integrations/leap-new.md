@@ -24,7 +24,7 @@ To add your Mailtrap credentials, open **Settings**, navigate to **Secrets**, an
 
 This way, you need to add the following two variables:
 
-* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time in your account.
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/api-tokens), which you can create at any time in your account.
 * `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you’ve added after creating an account.
 
 <figure><img src="../.gitbook/assets/leap new 2.png" alt=""><figcaption></figcaption></figure>

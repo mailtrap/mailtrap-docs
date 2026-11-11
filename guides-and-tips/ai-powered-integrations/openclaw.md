@@ -50,7 +50,7 @@ Before we begin, make sure you have:
 
 * OpenClaw [installed and running](https://docs.openclaw.ai/)
 * A free [Mailtrap account](https://mailtrap.io/)
-* A [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) and Sandbox ID
+* A [Mailtrap API token](https://docs.mailtrap.io/api-tokens) and Sandbox ID
 
 ### Getting your Mailtrap credentials
 

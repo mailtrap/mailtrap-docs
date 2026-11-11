@@ -29,7 +29,7 @@ All of them are plain async functions, so a single `sendEmail` helper can serve 
 Before you start, make sure you have:
 
 * [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
 * An existing Better Auth project
 
 ### Installation

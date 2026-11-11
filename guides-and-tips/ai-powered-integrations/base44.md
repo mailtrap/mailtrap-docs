@@ -23,7 +23,7 @@ Next, click on the **Secrets** tab, which should show up after you activate **Ba
 
 In the **Secrets** tab, as in the screenshot above, add the following two variables:
 
-* `MAILTRAP_API_TOKEN` – The [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time in your account.
+* `MAILTRAP_API_TOKEN` – The [Mailtrap API token](https://docs.mailtrap.io/api-tokens), which you can create at any time in your account.
 * `MAILTRAP_FROM_EMAIL` – The email address with the verified Mailtrap sending domain you’ve added after creating an account.
 
 Once you’re done, go back to the dashboard and tell the Base 44 AI you’ve added secrets with the Mailtrap credentials. For this, you can use a prompt such as, for example, this one:

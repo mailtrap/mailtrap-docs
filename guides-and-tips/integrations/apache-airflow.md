@@ -7,7 +7,7 @@
 * Python [3.9 or higher](https://www.python.org/downloads/)
 * Apache Airflow [2.4 or higher](https://airflow.apache.org/docs/apache-airflow/stable/start.html)
 * A[ verified email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain)
-* A Mailtrap [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) with admin access level to that domain.
+* A Mailtrap [API Token](https://docs.mailtrap.io/api-tokens) with admin access level to that domain.
 
 ### How does Apache Airflow work?
 

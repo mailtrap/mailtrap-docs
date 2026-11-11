@@ -40,7 +40,7 @@ curl -X POST https://mailtrap.io/api/inbound/folders \
   -d '{ "name": "Support" }'
 ```
 
-**Note**: Make sure to replace `YOUR_API_KEY` with your actual [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens).
+**Note**: Make sure to replace `YOUR_API_KEY` with your actual [Mailtrap API token](https://docs.mailtrap.io/api-tokens).
 
 The command should give you the following output: `{"id":10,"name":"Support"}%`
 

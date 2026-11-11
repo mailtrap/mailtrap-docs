@@ -263,7 +263,7 @@ And that’s it, your application is ready!
 
 {% @arcade/embed flowId="F7ti6g7iNkm6fhVAACeM" url="https://app.arcade.software/share/F7ti6g7iNkm6fhVAACeM" %}
 
-To enable the Email Sandbox for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens). To do this:
+To enable the Email Sandbox for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/api-tokens). To do this:
 
 * First, navigate to the Mailtrap app via **App Launcher**.
 

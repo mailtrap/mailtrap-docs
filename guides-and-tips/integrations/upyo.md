@@ -15,7 +15,7 @@ This guide covers [@upyo/mailtrap](https://github.com/dahlia/upyo/tree/main/pack
 Before you start, make sure you have:
 
 * A [Mailtrap account](https://mailtrap.io/signup)
-* A [Mailtrap API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens)
+* A [Mailtrap API Token](https://docs.mailtrap.io/api-tokens)
 * A [verified sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) (required for production sending; not needed if you're only sending to the Email Sandbox)
 * Node.js, Deno, or Bun installed, since Upyo runs across all three
 
