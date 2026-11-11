@@ -1,0 +1,101 @@
+guides-and-tips/integrations/cloudflare-workers.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 18
+guides-and-tips/integrations/firebase.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 14
+guides-and-tips/integrations/better-auth.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 32
+guides-and-tips/integrations/fastapi.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 12
+documentation/account-and-organization/management/user-profile.md
+  s_7e3b7014fcd005::t_a04da93ba82c24 24
+documentation/email-api-smtp/smtp-integration.md
+  s_7e3b7014fcd005::t_a04da93ba82c24 96
+guides-and-tips/ai-powered-integrations/openclaw.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 53
+guides-and-tips/integrations/astro.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 16
+guides-and-tips/integrations/phoenix.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 12
+guides-and-tips/ai-powered-integrations/bolt-new.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 17,24
+documentation/privacy-and-security/README.md
+  s_7e3b7014fcd005::t_a04da93ba82c24 18
+guides-and-tips/integrations/aws-lambda.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 18
+guides-and-tips/integrations/sinatra.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 14
+guides-and-tips/README.md
+  s_7e3b7014fcd005::t_24787ea38e430a 24
+guides-and-tips/integrations/curl.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 16
+documentation/email-marketing/email-templates.md
+  s_7e3b7014fcd005::t_24787ea38e430a 76
+guides-and-tips/integrations/supabase/contacts-management.md
+  s_7e3b7014fcd005::t_24787ea38e430a 24
+guides-and-tips/ai-powered-integrations/leap-new.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 27
+guides-and-tips/integrations/deno.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 12
+guides-and-tips/integrations/nuxt.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 12
+documentation/email-templates/migrate-templates.md
+  s_7e3b7014fcd005::t_a04da93ba82c24 21
+documentation/email-api-smtp/api-integration.md
+  s_7e3b7014fcd005::t_a04da93ba82c24 103
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 40
+documentation/inbound-email/inbound-auto-forwarding-rules.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 21
+guides-and-tips/ai-powered-integrations/v0.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 19
+guides-and-tips/integrations/salesforce.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 266
+guides-and-tips/ai-powered-integrations/lovable.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 31
+guides-and-tips/integrations/upyo.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 18
+guides-and-tips/integrations/make.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 33
+documentation/email-templates/README.md
+  s_7e3b7014fcd005::t_24787ea38e430a 109
+guides-and-tips/integrations/wget.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 14
+guides-and-tips/integrations/remix.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 14
+guides-and-tips/integrations/redwood.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 12
+documentation/for-ai-agents/ai-onboarding.md
+  s_7e3b7014fcd005::t_24787ea38e430a 134-135
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 40
+documentation/email-sandbox/sandbox-api-integration.md
+  s_7e3b7014fcd005::t_a04da93ba82c24 49
+guides-and-tips/ai-powered-integrations/anything.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 17,31
+guides-and-tips/ai-powered-integrations/base44.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 26
+documentation/inbound-email/receiving-emails.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 43
+guides-and-tips/integrations/retool/rest-api.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 31
+guides-and-tips/ai-powered-integrations/replit.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 16,22
+guides-and-tips/integrations/hono.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 12
+guides-and-tips/integrations/apache-airflow.md
+  s_7e3b7014fcd005::t_a2ba9460f3c2c6 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3562a6cb4895439922095f51e9f6cec667dfb48c",
+  "prompts": {},
+  "sessions": {
+    "s_7e3b7014fcd005": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "65432727-6175-4781-b495-4f638d750071",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}
