@@ -10,7 +10,7 @@ icon: hands-holding-circle
 
 Adding and verifying your domain with Mailtrap is a simple process. However, in some cases, an automated security tool may flag your domain as high-risk and reject it. To prevent this, follow the best practices outlined in this article to enhance your security and ensure a smooth verification process.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain-verified-status.png" alt="Domain verified status message showing domain can be used to send emails" width="375"><figcaption><p>Verified domain status</p></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain-verified-status.png" alt="Domain verified status message showing domain can be used to send emails" width="375"><figcaption><p>Verified domain status</p></figcaption></figure></div>
 
 ### Protect your web forms
 
@@ -45,7 +45,7 @@ Adding CAPTCHA or reCAPTCHA is one of the most efficient ways to protect your fo
 4. Validate the CAPTCHA on your server
 5. Test your implementation
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/recaptcha-widget.gif" alt="Google reCAPTCHA widget showing I&#x27;m not a robot checkbox" width="300"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/recaptcha-widget.gif" alt="Google reCAPTCHA widget showing I&#x27;m not a robot checkbox" width="300"><figcaption></figcaption></figure></div>
 
 ### Honeypot fields
 
@@ -102,7 +102,7 @@ So, in case your credentials are stolen, attackers cannot use them to send spam 
 
 ### Verify ownership of your company or brands domains
 
-If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.&#x20;
+If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.
 
 To avoid this, simply email our support team and request verification for these additional domains (referred to as a company domain). You can add multiple company domains to a single account. Those domains do not count against the “Domains” limit in your subscription plan and can be added even if you are on a free plan.
 

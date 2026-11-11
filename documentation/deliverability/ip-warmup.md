@@ -19,7 +19,7 @@ A **dedicated IP** is the IP address that only you use for sending emails. As su
 We recommend dedicated IPs only if your volume regularly exceeds 100,000+ emails per month.
 
 {% hint style="info" %}
-If you’re interested in using a dedicated IP, the Deliverability team will be happy to assist you.&#x20;
+If you’re interested in using a dedicated IP, the Deliverability team will be happy to assist you.
 
 <a href="mailto:deliverability@mailtrap.io" class="button secondary">Contact us</a>
 {% endhint %}
@@ -30,7 +30,7 @@ Each request is reviewed individually by our Deliverability team. In some cases 
 
 Each newly purchased dedicated IP goes through a mandatory 3-weeks-long (in most cases) warm-up process, aimed at giving you the best possible preparation for sending mass emails.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/ip-warmup-dedicated-ips-status.png" alt=""></div>
+<div data-with-frame="true"><img src="../.gitbook/assets/ip-warmup-dedicated-ips-status.png" alt=""></div>
 
 Mailtrap automatically increases your volume each day, with about 30% more emails sent every day. Simultaneously, our deliverability experts closely monitor your stats.
 

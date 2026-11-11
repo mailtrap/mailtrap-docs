@@ -56,13 +56,6 @@
   * [Email Categories](email-api-smtp/analytics/categories.md)
   * [Mailbox Providers](email-api-smtp/analytics/mailbox-providers.md)
   * [Statuses and Events](email-api-smtp/analytics/statuses-and-events.md)
-* [Deliverability Features](email-api-smtp/deliverability/README.md)
-  * [Dedicated IP](email-api-smtp/deliverability/ip-warmup.md)
-  * [Bounce Categorization](email-api-smtp/bounce-categorization.md)
-  * [Feedback Loops](email-api-smtp/feedback-loops.md)
-  * [Automated Domain Reputation Monitoring](email-api-smtp/deliverability/automated-domain-reputation-monitoring.md)
-  * [Reputation Alerts](email-api-smtp/deliverability/deliverability-alerts.md)
-  * [Protecting Your Domain](email-api-smtp/deliverability/protecting-domain-security.md)
 * [Advanced Features](email-api-smtp/advanced/README.md)
   * [Custom Variables](email-api-smtp/custom-variables.md)
   * [Excluding Links from Tracking](email-api-smtp/excluding-specific-links-from-tracking.md)
@@ -126,6 +119,15 @@
   * [Import Contacts](email-marketing/contacts/import-contacts.md)
   * [Lists](email-marketing/contacts/lists.md)
   * [Segments](email-marketing/contacts/segments.md)
+
+## Deliverability
+
+* [Reputation Alerts](deliverability/deliverability-alerts.md)
+* [Dedicated IP](deliverability/ip-warmup.md)
+* [Bounce Categorization](deliverability/bounce-categorization.md)
+* [Feedback Loops](deliverability/feedback-loops.md)
+* [Automated Domain Reputation Monitoring](deliverability/automated-domain-reputation-monitoring.md)
+* [Protecting Your Domain](deliverability/protecting-domain-security.md)
 
 ## Account & Organization
 

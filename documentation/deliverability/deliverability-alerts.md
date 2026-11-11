@@ -23,15 +23,13 @@ To enable Reputation Alerts, navigate to **Domains** → **Reputation Alerts** a
 
 Then, right underneath, you can select Mailtrap users who will receive notifications or enter any email address that belongs to a [verified sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260926-pgnu.png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260926-pgnu.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Health Status Weekly
 
 Health Status Weekly alerts are sent out on Mondays and provide a detailed preview of the following:
 
-<figure><img src="../../.gitbook/assets/Image 10.08.2026. at 18.04 (1).png" alt="" width="376"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Image 10.08.2026. at 18.04 (1).png" alt="" width="376"><figcaption></figcaption></figure>
 
 The report includes clearly color-coded comparisons to the previous week, making it immediately obvious if one or more stats need your attention or show a negative trend. Additionally, there are insights (digest explanations of the stats) to help you troubleshoot your email infrastructure faster.
 
@@ -39,11 +37,11 @@ The report includes clearly color-coded comparisons to the previous week, making
 
 Critical Alerts can cover all metrics shown in Reputation Monitoring dashboard, but an email is sent only when a metric changes from non-critical to critical. No repeat emails are sent while it remains critical. If it improves and later becomes critical again, a new email is sent.
 
-<figure><img src="../../.gitbook/assets/reputation alerts 6 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/reputation alerts 6 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Critical Alerts are sent hourly (the system checks your metrics every three hours for the past 24 hours) when one or more of your critical stats are below the predetermined threshold.
 
-<div align="center" data-with-frame="true"><figure><img src="../../.gitbook/assets/critical-alerts-demo.gif" alt="Animated demonstration of Critical Alerts notification appearing on mobile device" width="563"><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/critical-alerts-demo.gif" alt="Animated demonstration of Critical Alerts notification appearing on mobile device" width="563"><figcaption></figcaption></figure></div>
 
 The predetermined thresholds are based on extensive cross-industry research and examples of best practices.
 
@@ -59,19 +57,19 @@ Each Slack channel has a unique email address. You can leverage that to route Ma
 {% step %}
 Click the channel name in the header and select **Integrations**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/slack-channel-integrations.png" alt="Slack channel settings showing Integrations tab highlighted with arrow" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/slack-channel-integrations.png" alt="Slack channel settings showing Integrations tab highlighted with arrow" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click **Send emails to this channel**, then the **Get Email Address** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/slack-get-email-address.png" alt="Slack modal showing Get Email Address button for sending emails to channel" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/slack-get-email-address.png" alt="Slack modal showing Get Email Address button for sending emails to channel" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Navigate to the Deliverability Alerts page in Mailtrap, and paste the Slack email address into the field under **Who receives notifications?**
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/deliverability-alerts-settings.png" alt="Mailtrap Deliverability Alerts settings page showing notification recipients field with Save button" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/deliverability-alerts-settings.png" alt="Mailtrap Deliverability Alerts settings page showing notification recipients field with Save button" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
