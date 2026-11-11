@@ -47,5 +47,5 @@ When signing up for Mailtrap, you have the option to use Office 365 account auth
 
 ### Related Articles
 
-* [Getting Started with Email API/SMTP](../setup/sending-domain.md)
-* [Email API/SMTP FAQs](../faqs.md)
+* [Getting Started with Email API/SMTP](../../sending-domain/)
+* [Email API/SMTP FAQs](/broken/pages/9lQ5YuKcxQlKDNpnu1l1)

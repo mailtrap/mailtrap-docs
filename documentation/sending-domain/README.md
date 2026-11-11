@@ -5,7 +5,7 @@ description: >-
 icon: globe
 ---
 
-# Domain Setup
+# Domains
 
 <details>
 
@@ -39,7 +39,7 @@ My registrar: \[tell the assistant your DNS provider]
 
 Need help adding DNS records for your specific provider? Check out our detailed step-by-step guides:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="sending-domain/aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="sending-domain/cloudflare.md">cloudflare.md</a></td></tr><tr><td>DigitalOcean</td><td><a href="sending-domain/digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="sending-domain/godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="sending-domain/google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Namecheap</td><td><a href="sending-domain/namecheap.md">namecheap.md</a></td></tr><tr><td>Squarespace</td><td><a href="sending-domain/squarespace.md">squarespace.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>AWS Route 53</td><td><a href="aws-route-53.md">aws-route-53.md</a></td></tr><tr><td>Cloudflare</td><td><a href="cloudflare.md">cloudflare.md</a></td></tr><tr><td>DigitalOcean</td><td><a href="digitalocean.md">digitalocean.md</a></td></tr><tr><td>GoDaddy</td><td><a href="godaddy.md">godaddy.md</a></td></tr><tr><td>Google Cloud DNS</td><td><a href="google-cloud-dns.md">google-cloud-dns.md</a></td></tr><tr><td>Namecheap</td><td><a href="namecheap.md">namecheap.md</a></td></tr><tr><td>Squarespace</td><td><a href="squarespace.md">squarespace.md</a></td></tr></tbody></table>
 
 ### Setting up your domain <a href="#setting-up-your-own-domain-ys86q" id="setting-up-your-own-domain-ys86q"></a>
 
@@ -102,7 +102,7 @@ We’ll email you if we need additional information from you. If all the checks 
 
 In some cases, your domain may be selected for manual verification. This is the final check before your domain is verified. The length of the manual verification depends on how fast you reply to our emails. If successful, you'll see Verified status. If not, you'll see a Rejected badge next to your domain and a message under Compliance Check. In case of any questions about the reasons for rejection, please contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -116,35 +116,35 @@ In the example below, we'll be using GoDaddy.
 {% step %}
 Go to your domain provider and locate the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/godaddy 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Open the DNS settings and click Add New Record.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy 2 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/godaddy 2 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to your domain provider. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**. The naming of these records in Mailtrap is the same as in most domain providers but may differ slightly depending on the provider.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in your domain provider. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 2.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Copy the Name and Value for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 3.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 3.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Paste them into your domain provider.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-new-record-form.png" alt="GoDaddy DNS new record form with CNAME type, name, and value fields" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/godaddy-dns-new-record-form.png" alt="GoDaddy DNS new record form with CNAME type, name, and value fields" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -154,19 +154,19 @@ Click Save after adding each record in your domain provider.
 {% step %}
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to your domain provider.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/godaddy-dns-all-records-added.png" alt="GoDaddy DNS records table showing all Mailtrap DNS records added" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/godaddy-dns-all-records-added.png" alt="GoDaddy DNS records table showing all Mailtrap DNS records added" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 4.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 4.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the Status of DNS records will change from Missing to Verified, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 5.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 5.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -205,14 +205,14 @@ To use DNS Checker:
 
 * Go to dnschecker.org and enter your domain name
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-02-26 at 17.52.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-26 at 17.52.40.png" alt=""><figcaption></figcaption></figure>
 
 * Select the record type (e.g., TXT, MX, CNAME, etc.)
 * Click **Search**
 
 And here's what your results should look like:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-02-26 at 17.53.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-02-26 at 17.53.29.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -281,12 +281,12 @@ After completing the setup process, you can always return to the Domains tab to 
 You can't create any additional demo domains, but you can delete an existing one if needed. Furthermore, the domain with the Demo badge can be used to send emails only to the email address you registered with.
 {% endhint %}
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 6.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 6.png" alt=""><figcaption></figcaption></figure></div>
 
 You can send emails to your recipients only from domains that have a Verified status. If the status is Pending or Rejected, you won't be able to send emails.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 7.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 7.png" alt=""><figcaption></figcaption></figure></div>
 
 From the Domains menu, you can also delete the domains, subdomains, or the demo domain you no longer use. Just press the bin icon next to the domain. This will remove the domain from the list, and you won't be able to send any further emails until you add and verify it again.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/domain 8.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/domain 8.png" alt=""><figcaption></figcaption></figure></div>

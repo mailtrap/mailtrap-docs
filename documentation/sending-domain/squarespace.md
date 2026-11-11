@@ -16,7 +16,7 @@ Log in to your [Squarespace account](https://account.squarespace.com).
 {% step %}
 In the account menu, click **Domains**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 12.02.01.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-30 at 12.02.01.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -26,7 +26,7 @@ Click the domain you want to verify.
 {% step %}
 Click **DNS Settings** and navigate down to **Custom records**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-30 at 12.02.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-30 at 12.02.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -40,7 +40,7 @@ Navigate to **Sending Domains** and click on your domain.
 {% step %}
 Open the **Domain Verification** page; you will see a list of DNS records to add.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-otvs.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -91,7 +91,7 @@ Click **Verify DNS Records**.
 {% step %}
 Once all records show a green verified status, your domain is verified and ready to send.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-owzi.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 DNS changes can take **15 minutes to a few hours** to propagate across the internet. In rare cases, propagation may take up to 24 hours. Mailtrap automatically re-checks DNS records every hour, but you can trigger a manual check anytime with the **Re-check DNS Records** button.

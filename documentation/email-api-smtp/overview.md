@@ -21,6 +21,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Overview
@@ -43,31 +45,9 @@ Use the method that fits your application:
 
 Both methods support Mailtrap Email Logs and analytics.
 
-### Get started
-
-{% columns %}
-{% column %}
-**Set up sending**
-
-* [Set up a sending domain](setup/sending-domain.md)
-* [Integrate with the Email Sending API](api-integration.md)
-* [Integrate with SMTP](smtp-integration.md)
-* [Warm up an IP address](deliverability/ip-warmup.md)
-{% endcolumn %}
-
-{% column %}
-**Manage email sending**
-
-* [Create email templates](email-templates/)
-* [Review analytics and reports](analytics/)
-* [Configure deliverability features](deliverability/)
-* [Read the deliverability guide](https://mailtrap.io/email-deliverability-guide/)
-{% endcolumn %}
-{% endcolumns %}
-
 ### Support and resources
 
-<a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="faqs.md" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
+<a href="https://docs.mailtrap.io/developers" class="button primary" data-icon="books">API Reference</a> <a href="/broken/pages/9lQ5YuKcxQlKDNpnu1l1" class="button primary" data-icon="messages-question">FAQs</a> <a href="troubleshooting/" class="button primary" data-icon="screwdriver-wrench">Troubleshooting</a> <a href="mailto:support@mailtrap.io" class="button primary" data-icon="envelope">Contact Support</a>
 
 ### Next steps
 
@@ -85,7 +65,7 @@ _Integrate with the Email Sending API_
 {% endstep %}
 
 {% step %}
-[email-templates](email-templates/ "mention")
+[email-templates](../email-templates/ "mention")
 
 _Create reusable email templates_
 {% endstep %}

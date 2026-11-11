@@ -5,7 +5,6 @@ description: >-
   including DNS records, email events, SMTP settings, and deliverability
   concepts.
 hidden: true
-icon: book-open
 ---
 
 # Sending Glossary

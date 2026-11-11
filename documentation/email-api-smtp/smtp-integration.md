@@ -93,7 +93,7 @@ Once you add Mailtrap SMTP to your project, try sending an email from the tool o
 
 Remember that each domain has different API tokens (or SMTP passwords). You can create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
-<a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
+<a href="/broken/pages/PMvbz81YHELFGmZaSgq1" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 

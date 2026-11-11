@@ -12,25 +12,25 @@ icon: pen
 
 Each template must have a name, subject, category, and assigned domain. The subject also supports variables.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tjlx.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tjlx.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Drag & Drop Editor
 
 The drag-and-drop editor allows you to design templates without any coding. Drag blocks such as images, buttons, videos and countdown timers from the **Content** tab. The **Audit** tab lists images without alt text or an image URL, and buttons without a link.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tlbl.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tlbl.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Code Editor
 
 Code Editor allows you to edit the HTML or Text content, depending on the emails you want to send.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tluo.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tluo.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 The editor supports Find and Replace options, and you can use Cmd+F or Win+F as a hotkey to reveal a quick search bar.
 
 If your template has an error, Handlebars cannot render it. You'll see an error message in the Preview tab, and the RAW code with an error will be highlighted in the Editor.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tmpw.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tmpw.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 You can't save a template with errors, either. Remember that we don't validate HTML.
 
@@ -64,7 +64,7 @@ Proceed to add the image to the template body under the `<img>` tag. You can pre
 
 Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tnfj.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tnfj.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 By default, as a value, we put a variable name and add the "Test\_" prefix.
 
@@ -72,7 +72,7 @@ By default, as a value, we put a variable name and add the "Test\_" prefix.
 
 If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the Send Test button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-toll.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-toll.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Important Notes:
 

@@ -9,7 +9,7 @@ You need an API Token to integrate Email Sandbox via the [API](https://docs.mail
 
 #### How to add and manage tokens manually
 
-{% include "../../.gitbook/includes/untitled (1).md" %}
+{% include ".gitbook/includes/untitled (1).md" %}
 
 {% stepper %}
 {% step %}
@@ -43,11 +43,11 @@ Click the **Save** button and preview the new token under the **API Tokens** mai
 
 Go to API Tokens, click the three-dot menu icon next to the token you want to reset, and click Reset API Token.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-rzgb.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src=".gitbook/assets/SCR-20260513-rzgb.png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm your choice by clicking on the corresponding button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-saqq.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src=".gitbook/assets/SCR-20260513-saqq.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important notes:**
@@ -60,11 +60,11 @@ Confirm your choice by clicking on the corresponding button.
 
 By default, any new API tokens you create are set to expire after 365 days. However, when creating a new one, you can set the expiration to 1, 7, 30, 90, 180, or 365 days, or even add a custom date from the drop down menu.
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 Expired tokens automatically stop working for API authentication but remain visible in the token list with their expiration date. They become eligible for automatic cleanup after 90 days.
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 To help users rotate their tokens in time and avoid unexpected authentication failures, we’ll send proactive notifications through both email and in-app notifications. Users will be notified:
@@ -76,17 +76,17 @@ To help users rotate their tokens in time and avoid unexpected authentication fa
 
 You can also set a token to never expire, but you'll need to confirm this in an additional security prompt.
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### How to delete a token
 
 To delete a token, click the three-dot menu icon and choose the **Delete token** option.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-scxh-2.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src=".gitbook/assets/SCR-20260513-scxh-2.png" alt=""><figcaption></figcaption></figure></div>
 
 Confirm the action by clicking the **Confirm** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260513-sdtw.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src=".gitbook/assets/SCR-20260513-sdtw.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 **Important:**

@@ -31,7 +31,7 @@ For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-
 
 ## Prerequisites
 
-* A [Mailtrap account](https://mailtrap.io/signup)&#x20;
+* A [Mailtrap account](https://mailtrap.io/signup)
 * A domain you own (you'll set it up in Step 3)
 * Your app's technology stack decided (language/framework)
 
@@ -76,9 +76,9 @@ You need a verified domain to send live emails. This can be done through the UI 
 
 ### Option A: UI
 
-Go to the [Sending Domains](https://mailtrap.io/domains) page → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
+Go to the [Sending Domains](https://mailtrap.io/domains) page → **Add Domain** → enter your domain → add the DNS records shown to your domain provider.
 
-Check our [Sending Domain Setup Guide](../email-api-smtp/setup/sending-domain.md) for detailed instructions on adding and verifying your domain.
+Check our [Sending Domain Setup Guide](../sending-domain/) for detailed instructions on adding and verifying your domain.
 
 ### Option B: Programmatically / with AI tools
 
@@ -622,9 +622,9 @@ Full Sandbox guide: [Getting Started with Email Sandbox](email-sandbox.md)
 
 Now that you're sending emails, explore these capabilities:
 
-* [Tracking Settings](../email-api-smtp/setup/sending-domain.md#optional-tracking-settings-ffi49) — Enable open and click tracking
-* [Webhooks](../email-api-smtp/setup/sending-domain.md#optional-webhooks-4hmes) — Get real-time delivery event notifications
-* [Suppressions](../email-api-smtp/suppressions-list.md) — Manage bounces and unsubscribes automatically
+* [Tracking Settings](../sending-domain/#optional-tracking-settings-ffi49) — Enable open and click tracking
+* [Webhooks](../sending-domain/#optional-webhooks-4hmes) — Get real-time delivery event notifications
+* [Suppressions](../suppressions-list.md) — Manage bounces and unsubscribes automatically
 * [Email Logs](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-logs.md) — Inspect delivery status for every email
 * [Email Templates](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-templates.md) — Create and manage templates
 * [Email Sandbox](email-sandbox.md) — Set up Sandbox for your staging environment

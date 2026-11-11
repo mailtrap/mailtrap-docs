@@ -17,8 +17,8 @@ Mailtrap supports up to 200 email templates per account. If you are migrating a 
 Before you start, make sure you have:
 
 * A Mailtrap account with access to [Email Templates](./)
-* A [verified sending domain](../setup/sending-domain.md) set up in Mailtrap
-* An API token with Admin access to the account or domain you use for templates. See [API Tokens](../setup/api-tokens.md)
+* A [verified sending domain](../sending-domain/) set up in Mailtrap
+* An API token with Admin access to the account or domain you use for templates. See [API Tokens](/broken/pages/PMvbz81YHELFGmZaSgq1)
 * Your existing templates exported as HTML from your current provider
 
 ### Step 1: Export your templates
@@ -407,7 +407,7 @@ When you use `template_uuid`, the subject, HTML body, and text body come from th
 
 ### Step 5: Test with Email Sandbox
 
-Before sending to real recipients, test your migrated templates in [Email Sandbox](../../email-sandbox/overview.md) to verify they render correctly.
+Before sending to real recipients, test your migrated templates in [Email Sandbox](../email-sandbox/overview.md) to verify they render correctly.
 
 1. Point your application’s SMTP or API configuration to your sandbox inbox.
 2. Trigger a send for each migrated template.

@@ -52,7 +52,7 @@ Delivered refers to the percentage of emails that were accepted by the recipient
 "**Delivered**" status doesn't mean that a message went straight into the recipient's Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
 {% endhint %}
 
-Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about [Suppressions](../suppressions-list.md).
+Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about [Suppressions](../../suppressions-list.md).
 
 On top of that, an email can be rejected on the recipient’s end for various reasons:
 

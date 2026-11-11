@@ -18,35 +18,35 @@ This guide assumes your domain uses Route 53's nameservers (e.g., `ns-123.awsdns
 {% step %}
 Go to the **AWS Management Console**, type **Route 53** in the search bar, and click on it.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.09.34.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-29 at 20.09.34.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Navigate to **Hosted Zone** settings for the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.09.52.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-29 at 20.09.52.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.10.12.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-29 at 20.10.12.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click **Create record** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.10.28.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-29 at 20.10.28.png" alt="" width="375"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Return to Mailtrap. On the Domain Verification page, you'll see the DNS records you need to add to AWS Route 53. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-otvs.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Make sure you check the type next to each record in Mailtrap and choose a relevant one in AWS Route 53. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type records** (DMARC).
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-otvs-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -56,13 +56,13 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% step %}
 Copy the **Name** and **Value** for each record one by one. You can do this by hovering and clicking each record.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ousm.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-ousm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Paste the **Name** and **Value** into AWS Route 53. The namings of the records are the same in AWS Route 53 as in Mailtrap.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.11.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-29 at 20.11.15.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Use the default value for TTL as indicated in Mailtrap. Click Add another record after adding each record in AWS Route 53.
 {% endstep %}
@@ -70,19 +70,19 @@ Use the default value for TTL as indicated in Mailtrap. Click Add another record
 {% step %}
 Repeat the process of copying and pasting for each record until you've added all the Mailtrap DNS records to AWS Route 53. Click **Create Records**.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot 2026-10-29 at 20.11.23.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-29 at 20.11.23.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ovzx.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-ovzx.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the **Status** of DNS records will change from Missing to **Verified**, and the red dots will turn green.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-owzi.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

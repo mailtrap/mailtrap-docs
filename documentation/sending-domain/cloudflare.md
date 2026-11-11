@@ -18,31 +18,31 @@ This guide assumes your domain uses Cloudflare's nameservers (e.g., `anna.ns.clo
 {% step %}
 Open the **Cloudflare dashboard** and select the domain you've added to Mailtrap.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Cloudflare 1.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click on the **DNS button** in the left navigation panel. This will open DNS records.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 2.png" alt="" width="119"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Cloudflare 2.png" alt="" width="119"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 Click on the **Add Record** button.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 3.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Cloudflare 3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 On the **Domain Verification page** in Mailtrap, you'll see the DNS records you need to add to Cloudflare. These are **Domain Verification**, **DKIM**, **DMARC**, and **Domain Tracking**. You'll need the values under **Type**, **Name**, and **Value**.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-otvs.png" alt=""><figcaption></figcaption></figure></div>
 
 Pay attention to the Type next to each record in Mailtrap and choose a relevant one in Cloudflare. There are **four CNAME type records** (Domain Verification, DKIM (2), and Custom Tracking Domain) and **one TXT type record** (DMARC).
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-otvs-2.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-otvs-2.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/cloudflare-record-type-dropdown.png" alt="DNS record type dropdown in Cloudflare" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The SPF check for your mail is covered by the domain verification record. There is no need to add a separate SPF record on your sending domain.
@@ -52,19 +52,19 @@ The SPF check for your mail is covered by the domain verification record. There 
 {% step %}
 Copy the **Name** and **Value** for each record one by one. You can do this by hovering and clicking each record.
 
-<figure><img src="../../../.gitbook/assets/SCR-20260915-ousm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SCR-20260915-ousm.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Paste the the values into Cloudflare. Remember that Cloudflare refers to the Value field as **Target** for **CNAME records** and **Content** for **TXT records**.
 
-<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/cloudflare-paste-dns-values.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/cloudflare-paste-dns-values.png" alt="" width="563"></div>
 {% endstep %}
 
 {% step %}
 If you're not using a proxy, make sure you disable it. By default, it will be enabled.
 
-<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/Cloudflare 4.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Cloudflare 4.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -76,13 +76,13 @@ Click **Save** and repeat the process for all the remaining DNS records.
 {% step %}
 Then, **return to Mailtrap**. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the **Verify DNS records** button.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-ovzx.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-ovzx.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
 If you add all the required DNS records correctly, the Status of DNS records will change from **Missing** to **Verified**, and the red dots will turn green.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/SCR-20260915-owzi.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-owzi.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 

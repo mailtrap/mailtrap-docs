@@ -37,7 +37,7 @@ IPv6 ranges are AWS-provided, not Mailtrap-owned, and they're available on reque
 
 ### How to set up webhooks
 
-{% @arcade/embed flowId="bsMCYFCdy3u6y16Ab4b5" url="https://app.arcade.software/share/bsMCYFCdy3u6y16Ab4b5" %}
+{% @arcade/embed url="https://app.arcade.software/share/bsMCYFCdy3u6y16Ab4b5" flowId="bsMCYFCdy3u6y16Ab4b5" %}
 
 {% stepper %}
 {% step %}
@@ -96,7 +96,7 @@ Choose the **Sending Stream** (Transactional or Bulk) for which you want to set 
 {% endstep %}
 
 {% step %}
-Choose the **domain** you want to receive events' data for and select one or more [event types](analytics/statuses-and-events.md) by ticking the corresponding checkbox.
+Choose the **domain** you want to receive events' data for and select one or more [event types](../email-api-smtp/analytics/statuses-and-events.md) by ticking the corresponding checkbox.
 {% endstep %}
 
 {% step %}
