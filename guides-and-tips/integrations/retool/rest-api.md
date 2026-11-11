@@ -28,7 +28,7 @@ Then, all you need to do is:
 * Enter your desired resource name
 * Add the Mailtrap root ULR, which is `https://send.api.mailtrap.io/`
   * **Note**: This URL lets you use other endpoints later on if you wish depending on your use case (i.e., create contacts). Additionally, if you plan on sending mass emails, the root URL should be `https://bulk.api.mailtrap.io/`
-* Choose **Bearer** for authentication and add your [Mailtrap API key](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens)
+* Choose **Bearer** for authentication and add your [Mailtrap API key](https://docs.mailtrap.io/api-tokens)
 
 <figure><img src="../../.gitbook/assets/retool 3.png" alt=""><figcaption></figcaption></figure>
 

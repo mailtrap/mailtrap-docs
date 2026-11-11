@@ -23,7 +23,7 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 <summary>How do I integrate Mailtrap with my application?</summary>
 
 1. [Sign up](https://mailtrap.io/register/signup/) for an account.
-2. Go to Email Sending and select [Sending Domains](https://mailtrap.io/domains).
+2. Go to Email Live Sending and select [Sending Domains](https://mailtrap.io/domains).
 3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.
 4. Navigate to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page and integrate Mailtrap with your application via API, SMTP, or your AI agent.
 
@@ -188,7 +188,7 @@ For current pricing and to choose a plan that best fits your needs, visit our [p
 
 <summary>Is it possible to export Email logs?</summary>
 
-Yes, you can export Email Logs by going to **Email API/SMTP** → **Email Logs** and clicking on **Export in CSV**. You will then receive a CSV file containing your Email Logs in your inbox.
+Yes, you can export Email Logs by going to **Email Live Sending** → **Email Logs** and clicking on **Export in CSV**. You will then receive a CSV file containing your Email Logs in your inbox.
 
 <figure><img src=".gitbook/assets/Screenshot 2026-09-23 at 11.23.42.png" alt=""><figcaption></figcaption></figure>
 
@@ -369,9 +369,9 @@ Mailtrap Email Marketing is a complete solution for creating, sending, and track
 
 <details>
 
-<summary>How is Email Marketing different from Email API/SMTP?</summary>
+<summary>How is Email Marketing different from Email Live Sending?</summary>
 
-Email Marketing is designed for bulk promotional emails with built-in campaign tools, while Email API/SMTP is for transactional emails like password resets. Email Marketing includes visual editors, contact management, and campaign analytics.
+Email Marketing is designed for bulk promotional emails with built-in campaign tools, while Email Live Sending is for transactional emails like password resets. Email Marketing includes visual editors, contact management, and campaign analytics.
 
 </details>
 

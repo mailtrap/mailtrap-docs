@@ -28,7 +28,7 @@ Lovable will then offer to enable [Lovable Cloud](https://docs.lovable.dev/integ
 
 Next, add the following two secrets:
 
-* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account.
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/api-tokens), which you can create at any time from your account.
 * `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you’ve added after creating an account.
 
 <figure><img src="../.gitbook/assets/lovable creds.png" alt="" width="375"><figcaption></figcaption></figure>

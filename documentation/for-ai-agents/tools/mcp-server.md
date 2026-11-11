@@ -4,7 +4,7 @@ Automate email workflows from AI IDEs like VS Code or send emails send emails wi
 
 Mailtrap MCP Server lets you automate email workflows from your AI IDE (e.g., VS Code, Cursor) or send emails with simple prompts from AI assistants like Claude Desktop.
 
-**Note**: Mailtrap offers a free, 4,000 email/month [Email API/SMTP plan](https://mailtrap.io/pricing/?tab=email-api).
+**Note**: Mailtrap offers a free, 4,000 email/month [Email Live Sending plan](https://mailtrap.io/pricing/?tab=email-api).
 
 The MCP server provides tools for:
 

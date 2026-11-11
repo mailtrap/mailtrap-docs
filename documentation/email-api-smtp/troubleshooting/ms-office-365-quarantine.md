@@ -1,7 +1,7 @@
 ---
 title: MS Office 365 Threat Management
 description: >-
-  How to resolve your emails sent from Mailtrap Email API/SMTP being sent to
+  How to resolve your emails sent from Mailtrap Email Live Sending being sent to
   Office 365 quarantine.
 ---
 
@@ -47,5 +47,5 @@ When signing up for Mailtrap, you have the option to use Office 365 account auth
 
 ### Related Articles
 
-* [Getting Started with Email API/SMTP](../../sending-domain/)
-* [Email API/SMTP FAQs](/broken/pages/9lQ5YuKcxQlKDNpnu1l1)
+* [Getting Started with Email Live Sending](../../sending-domain/)
+* [Email Live Sending FAQs](../../faq.md)

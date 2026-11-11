@@ -9,7 +9,7 @@ Mailtrap can be integrated with FastAPI apps and projects for email sending, fin
 Before we start, you'll need to:
 
 * [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
 
 ## Send emails using FastAPI and Mailtrap
 

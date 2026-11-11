@@ -224,7 +224,7 @@ Two notification types are available:
 
 Domain Reputation Monitoring is available on:
 
-* Business and Enterprise Email API/SMTP plans
+* Business and Enterprise Email Live Sending plans
 * Pro Email Marketing plans
 
 Each subscription includes full monitoring for up to **50 domains**.

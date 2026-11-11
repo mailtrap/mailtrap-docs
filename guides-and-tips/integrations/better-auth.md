@@ -29,7 +29,7 @@ All of them are plain async functions, so a single `sendEmail` helper can serve 
 Before you start, make sure you have:
 
 * [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
 * An existing Better Auth project
 
 ### Installation
@@ -229,4 +229,4 @@ Because nothing awaits the result, `sendEmail` has to handle its own failures. T
 
 ### Learn more
 
-For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) and the [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs).
+For additional details about the Email API, refer to the [Mailtrap Email Live Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) and the [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs).

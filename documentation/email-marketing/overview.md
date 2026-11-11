@@ -247,7 +247,7 @@ Ready-to-use designs:
 * [Campaign Guide](campaigns/)
 * [Audience Management](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 * [Analytics Guide](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-* [FAQs](/broken/pages/FiAbvmiHT5He5lKXcnRX)
+* [FAQs](../faq.md)
 * [Troubleshooting](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 
 ## Next Steps

@@ -14,14 +14,14 @@ description: >-
 **Before we start**:
 
 * Add and [verify your email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
-* Make sure your [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens) has `admin` access level to that domain.
+* Make sure your [API Token](https://docs.mailtrap.io/api-tokens) has `admin` access level to that domain.
 
 ### Step 1. Add your Mailtrap credentials
 
 Open your Bolt.new project and add your:
 
 * `MAILTRAP_FROM_EMAIL` – This is the email address with the verified Mailtrap sending domain you’ve added after creating an account.
-* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens), which you can create at any time from your account.
+* `MAILTRAP_API_TOKEN` – This is the [Mailtrap API token](https://docs.mailtrap.io/api-tokens), which you can create at any time from your account.
 
 To do this, click on **More Options** (usually located above your project) and then on **Secrets**, and add the following two values:
 

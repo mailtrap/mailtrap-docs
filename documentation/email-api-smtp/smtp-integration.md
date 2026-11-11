@@ -16,7 +16,7 @@ Learn how to integrate your application via SMTP.
 
 {% stepper %}
 {% step %}
-Go to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page under **API/SMTP** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is [verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
+Go to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page under **Live Sending** and choose the domain you want to send emails from. Remember that you'll be able to start sending emails once the domain is [verified](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain).
 {% endstep %}
 
 {% step %}
@@ -93,7 +93,7 @@ Once you add Mailtrap SMTP to your project, try sending an email from the tool o
 
 Remember that each domain has different API tokens (or SMTP passwords). You can create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
-<a href="/broken/pages/PMvbz81YHELFGmZaSgq1" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
+<a href="../api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 

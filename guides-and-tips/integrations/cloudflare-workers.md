@@ -15,7 +15,7 @@ This guide explains how to integrate Mailtrap with Cloudflare Workers to send em
 Before you start, make sure you have:
 
 * [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
 
 ## Send emails using Cloudflare Workers and Mailtrap
 
@@ -70,4 +70,4 @@ Once you copy the script, update the following fields with your information:
 
 ### Learn more
 
-For additional details about the Email API, refer to the [Mailtrap Email Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+For additional details about the Email API, refer to the [Mailtrap Email Live Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).

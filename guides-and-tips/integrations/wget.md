@@ -11,7 +11,7 @@ This guide shows you how to integrate Mailtrap with Wget and send emails using t
 Before we start, you'll need to:
 
 * [Verify your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-tokens)
+* [Create and save an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
 
 ## Send emails using Wget and Mailtrap
 
@@ -46,5 +46,5 @@ Once you copy the script, make sure to:
 * Enter your recipient's email address in the `to:` field
 
 {% hint style="info" %}
-To learn more about API integration, see [Mailtrap Email Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+To learn more about API integration, see [Mailtrap Email Live Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
 {% endhint %}

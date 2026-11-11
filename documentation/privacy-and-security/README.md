@@ -15,7 +15,7 @@ For a detailed overview, feel free to consult the official [Mailtrap Trust Cente
 
 ## Security Features
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two-Factor Authentication</strong></td><td><em>Enhance account security with two-factor authentication. Protect against unauthorized access even if passwords are compromised.</em></td><td><a href="../account-and-billing/2fa.md">2fa.md</a></td></tr><tr><td><strong>API Tokens</strong></td><td><em>Secure API access with token-based authentication. Manage tokens, set permissions, and rotate credentials regularly.</em></td><td><a href="/broken/pages/PMvbz81YHELFGmZaSgq1">Broken link</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two-Factor Authentication</strong></td><td><em>Enhance account security with two-factor authentication. Protect against unauthorized access even if passwords are compromised.</em></td><td><a href="../account-and-billing/2fa.md">2fa.md</a></td></tr><tr><td><strong>API Tokens</strong></td><td><em>Secure API access with token-based authentication. Manage tokens, set permissions, and rotate credentials regularly.</em></td><td><a href="../api-tokens.md">api-tokens.md</a></td></tr></tbody></table>
 
 ## Compliance & Certifications
 

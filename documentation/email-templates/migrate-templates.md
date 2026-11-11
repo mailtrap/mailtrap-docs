@@ -18,7 +18,7 @@ Before you start, make sure you have:
 
 * A Mailtrap account with access to [Email Templates](./)
 * A [verified sending domain](../sending-domain/) set up in Mailtrap
-* An API token with Admin access to the account or domain you use for templates. See [API Tokens](/broken/pages/PMvbz81YHELFGmZaSgq1)
+* An API token with Admin access to the account or domain you use for templates. See [API Tokens](../api-tokens.md)
 * Your existing templates exported as HTML from your current provider
 
 ### Step 1: Export your templates
@@ -275,7 +275,7 @@ Once your template HTML is ready and converted to Handlebars, create the templat
 
 #### Use the Mailtrap UI
 
-1. Navigate to **Email API/SMTP** → **Email Templates**.
+1. Navigate to **Email Live Sending** → **Email Templates**.
 2. Click **New Template**.
 3. Choose an editor:
 

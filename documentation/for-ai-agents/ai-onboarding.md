@@ -37,7 +37,7 @@ Building with AI? Mailtrap provides several resources to make your life easier:
 Before you start, keep in mind that we require a human to:
 
 * Sign up for a [free Mailtrap account](https://mailtrap.io/register/signup)
-* Create an [API Token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens)
+* Create an [API Token](https://docs.mailtrap.io/api-tokens)
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-money-check-pen">:money-check-pen:</i> <strong>Mailtrap Pricing Plans</strong></td><td><em>Discover Mailtrap's flexible plans to cover the needs of your business.</em></td><td><a href="../account-and-organization/billing/plans.md">plans.md</a></td></tr><tr><td><i class="fa-shield-check">:shield-check:</i> <strong>Mailtrap's Trust Center</strong></td><td><em>A detailed overview of Mailtrap's security and privacy practices</em></td><td><a href="https://trust.mailtrap.io/">https://trust.mailtrap.io/</a></td></tr></tbody></table>
 
@@ -131,8 +131,8 @@ npm run mcpb:sign
 {% endtab %}
 {% endtabs %}
 
-{% content-ref url="/broken/spaces/gkNigAKiqQtQub1GOdjY/pages/Zc2hzutZptTaPF3PE9rx" %}
-[Broken link](/broken/spaces/gkNigAKiqQtQub1GOdjY/pages/Zc2hzutZptTaPF3PE9rx)
+{% content-ref url="tools/mcp-server.md" %}
+[mcp-server.md](tools/mcp-server.md)
 {% endcontent-ref %}
 
 ### Mailtrap docs for agents

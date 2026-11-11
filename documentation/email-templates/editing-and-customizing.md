@@ -82,5 +82,5 @@ Important Notes:
 ### Next steps
 
 * [Handlebars Guide](handlebars.md) - Learn how to use Handlebars syntax to add dynamic content
-* [Integration](integration.md) - Integrate templates with Email API/SMTP
+* [Integration](integration.md) - Integrate templates with Email Live Sending
 * [Debugging](debugging.md) - Test templates with Email Sandbox

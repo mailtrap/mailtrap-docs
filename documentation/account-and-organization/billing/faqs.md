@@ -11,13 +11,13 @@ icon: question
 
 ### How does Mailtrap pricing work?
 
-We have separate subscription plans for our products: [Email Sandbox](https://mailtrap.io/email-sandbox/) and [Email API/SMTP](https://mailtrap.io/email-sending/).
+We have separate subscription plans for our products: [Email Sandbox](https://mailtrap.io/email-sandbox/) and [Email Live Sending](https://mailtrap.io/email-sending/).
 
-Both plans are based on the plans' limits. For example, Email Sandbox plans give you a certain amount of credits you can use for testing, whereas Email API/SMTP plans give you monthly email sending limits along with a pre-set number of allowed contacts.
+Both plans are based on the plans' limits. For example, Email Sandbox plans give you a certain amount of credits you can use for testing, whereas Email Live Sending plans give you monthly email sending limits along with a pre-set number of allowed contacts.
 
 ### What happens if I hit the email limit in my plan?
 
-When you exhaust your Email API/SMTP plan's monthly sending volume, any additional emails you send are counted as overage and billed separately.
+When you exhaust your Email Live Sending plan's monthly sending volume, any additional emails you send are counted as overage and billed separately.
 
 Overage lets you send a limited number of extra emails beyond your plan’s monthly sending limit, giving you extra flexibility. Each plan sets a maximum on these additional emails since it's not intended to be used as an extended allowance.
 
@@ -83,11 +83,11 @@ Additionally, you can get 20% off if you opt for an annual subscription.
 
 ### Do you offer educational discount?
 
-Yes, we provide the Email API/SMTP Basic 10K plan and Email Sandbox Team plan for free or 50% discount for other plans. For more details contact Support Team: <a href="mailto:support@mailtrap.io" class="button secondary" data-icon="envelope">Contact Support</a>
+Yes, we provide the Email Live Sending Basic 10K plan and Email Sandbox Team plan for free or 50% discount for other plans. For more details contact Support Team: <a href="mailto:support@mailtrap.io" class="button secondary" data-icon="envelope">Contact Support</a>
 
 ### Do you offer discounts for nonprofit open-source organizations?
 
-Yes, we provide the Email API/SMTP Basic 10K plan and Email Sandbox Team plan for free for nonprofit open-source organizations. Additionally, nonprofits can get any other plan at a 50% discount.
+Yes, we provide the Email Live Sending Basic 10K plan and Email Sandbox Team plan for free for nonprofit open-source organizations. Additionally, nonprofits can get any other plan at a 50% discount.
 
 For us to activate a non-profit plan for you, please send us a document (a W-9 form or any other legal document) verifying you are a representative of a nonprofit open-source organization to support@mailtrap.io, and let us know what Mailtrap product you need to use.
 
@@ -168,9 +168,9 @@ You can get in touch with the Mailtrap Support team using one of the following w
 
 ### How can I cancel my subscription?
 
-#### Email API/SMTP
+#### Email Live Sending
 
-Open Email API/SMTP plans under Billing. Locate the Free plan and click Select.
+Open Email Live Sending plans under Billing. Locate the Free plan and click Select.
 
 Your subscription will be switched to the free plan at the end of the billing cycle. Until then, you can keep the benefits of the current plan.
 
