@@ -75,6 +75,7 @@
 
 * [Overview](inbound-email/overview.md)
 * [Receiving Emails](inbound-email/receiving-emails.md)
+* [Inbound Auto-Forwarding rules](inbound-email/inbound-auto-forwarding-rules.md)
 * [Webhooks](inbound-email/webhooks.md)
 
 ## Email Sandbox
