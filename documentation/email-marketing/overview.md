@@ -149,6 +149,8 @@ Visual editor perfect for marketers:
 * Image galleries
 * Button styles
 * Social media icons
+* Video and countdown timer blocks
+* Audit tab for missing alt text and links
 * No coding required
 {% endtab %}
 

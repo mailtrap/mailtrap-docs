@@ -16,7 +16,7 @@ Each template must have a name, subject, category, and assigned domain. The subj
 
 ### Drag & Drop Editor
 
-The drag-and-drop editor allows you to design templates without any coding.
+The drag-and-drop editor allows you to design templates without any coding. Drag blocks such as images, buttons, videos and countdown timers from the **Content** tab. The **Audit** tab lists images without alt text or an image URL, and buttons without a link.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tlbl.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
