@@ -186,6 +186,8 @@ Full programmatic access with our official SDKs for all major languages:
 
 **Node.js SDK:**
 
+Requires the Mailtrap Node.js SDK 6.2.0 or later.
+
 ```javascript
 import { MailtrapClient } from "mailtrap";
 
