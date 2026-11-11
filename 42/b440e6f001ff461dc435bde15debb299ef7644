@@ -1,0 +1,19 @@
+documentation/email-sandbox/overview.md
+  s_4b1ecc8d2cc82b::t_dbaf019c6a8adb 189-190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "42b440e6f001ff461dc435bde15debb299ef7644",
+  "prompts": {},
+  "sessions": {
+    "s_4b1ecc8d2cc82b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "51810d5a-fc23-4687-baf1-257048241028",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
