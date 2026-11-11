@@ -78,7 +78,9 @@ curl -X GET 'https://mailtrap.io/api/inbound/inboxes/{inbox_id}/messages' \
 
 You should get the following output:&#x20;
 
-`{"id":"1866872391602282496","inbox_id":15,"from":"Ivan Djuric` [`demo.eth@gmail.com`](mailto:demo.eth@gmail.com)`","to":["demo-inbox-62fedace@inbound-mailtrap.io"],"cc":[],"bcc":[],"reply_to":null,"subject":"Hello from the other side","message_id":"`[`2C613DD4-6E5E-429C-B430-60325BA31E25@gmail.com`](mailto:2C613DD4-6E5E-429C-B430-60325BA31E25@gmail.com)`","in_reply_to":null,"references":[],"headers":{"mime-version":"1.0 (Mac OS X Mail 16.0 \(3864.600.51.1.1\))","return-path":"`[`demo.eth@gmail.com`](mailto:demo.eth@gmail.com)`"},"size":3665,"html_size":null,"text_size":24,"received_at":"2026-06-02T08:17:31.878Z","attachments":[]}`
+```json
+{"data":[{"id":"1866872391602282496","inbox_id":15,"from":"Ivan Djuric <demo.eth@gmail.com>","to":["demo-inbox-62fedace@inbound-mailtrap.io"],"cc":[],"bcc":[],"reply_to":null,"subject":"Hello from the other side","headers":{"mime-version":"1.0 (Mac OS X Mail 16.0 (3864.600.51.1.1))","return-path":"demo.eth@gmail.com"},"size":3665,"html_size":null,"text_size":24,"received_at":"2026-06-02T08:17:31.878Z","rfc_message_id":"2C613DD4-6E5E-429C-B430-60325BA31E25@gmail.com","in_reply_to":null,"references":[],"thread_id":"1866872391602282497","attachments":[],"forwards":[]}],"total_count":1,"last_id":null}
+```
 
 You can use the message ID, the `id` field, to **get a message**:
 
