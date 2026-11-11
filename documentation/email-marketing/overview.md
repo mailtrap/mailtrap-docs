@@ -9,6 +9,10 @@ description: >-
 
 Mailtrap Email Marketing is a complete solution for creating, sending, and analyzing email campaigns. Build beautiful emails with our drag-and-drop editor, manage your subscriber lists, automate campaigns, and track performance - all in one platform.
 
+{% hint style="info" %}
+To start sending campaigns with Mailtrap, you first need to verify your domain.
+{% endhint %}
+
 ## What is Email Marketing?
 
 Email Marketing by Mailtrap provides everything you need to run successful email campaigns:
@@ -149,6 +153,8 @@ Visual editor perfect for marketers:
 * Image galleries
 * Button styles
 * Social media icons
+* Video and countdown timer blocks
+* Audit tab for missing alt text and links
 * No coding required
 {% endtab %}
 
@@ -241,7 +247,7 @@ Ready-to-use designs:
 * [Campaign Guide](campaigns/)
 * [Audience Management](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 * [Analytics Guide](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-* [FAQs](faqs.md)
+* [FAQs](/broken/pages/FiAbvmiHT5He5lKXcnRX)
 * [Troubleshooting](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
 
 ## Next Steps

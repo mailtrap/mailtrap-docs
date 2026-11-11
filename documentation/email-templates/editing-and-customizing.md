@@ -1,0 +1,86 @@
+---
+title: Editing and Customizing Templates
+description: >-
+  Learn how to edit and customize email templates using Details, Drag & Drop
+  Editor, Code Editor, and test your templates.
+icon: pen
+---
+
+# Editing and Customizing
+
+### Details
+
+Each template must have a name, subject, category, and assigned domain. The subject also supports variables.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tjlx.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+### Drag & Drop Editor
+
+The drag-and-drop editor allows you to design templates without any coding. Drag blocks such as images, buttons, videos and countdown timers from the **Content** tab. The **Audit** tab lists images without alt text or an image URL, and buttons without a link.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tlbl.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+### Code Editor
+
+Code Editor allows you to edit the HTML or Text content, depending on the emails you want to send.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tluo.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+The editor supports Find and Replace options, and you can use Cmd+F or Win+F as a hotkey to reveal a quick search bar.
+
+If your template has an error, Handlebars cannot render it. You'll see an error message in the Preview tab, and the RAW code with an error will be highlighted in the Editor.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tmpw.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+You can't save a template with errors, either. Remember that we don't validate HTML.
+
+### **Uploading an image**
+
+{% @arcade/embed url="https://app.arcade.software/share/mgejv3R4azE0EEdylDVU" flowId="mgejv3R4azE0EEdylDVU" %}
+
+{% stepper %}
+{% step %}
+Click Upload image in the upper right corner of the Code Editor.
+{% endstep %}
+
+{% step %}
+Hit the Upload New button in the following menu and choose an image from your local drive (Supported formats are JPG, PNG, and GIF, and the maximum file size is 2 MB).
+{% endstep %}
+
+{% step %}
+Once the image is uploaded, you will receive a confirmation notification. If the file format is unsupported or the image is too big, you will receive the corresponding error message.
+{% endstep %}
+
+{% step %}
+Click the Copy URL button to copy the image URL to your clipboard, then click Template to return to the editing menu.
+{% endstep %}
+
+{% step %}
+Proceed to add the image to the template body under the `<img>` tag. You can preview it in the template as soon as the asset is added.
+{% endstep %}
+{% endstepper %}
+
+### **Test Data**
+
+Code Editor automatically parses your template and shows all the variables found. The Test Data tab helps you preview the object variables.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-tnfj.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+By default, as a value, we put a variable name and add the "Test\_" prefix.
+
+### Send test
+
+If you're using email templates in production, you can send a test email to the account owner's email address to run basic tests. Simply press the Send Test button.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-toll.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+Important Notes:
+
+* Your domain should be verified to send a test.
+* Each test email is billed over your quota.
+
+### Next steps
+
+* [Handlebars Guide](handlebars.md) - Learn how to use Handlebars syntax to add dynamic content
+* [Integration](integration.md) - Integrate templates with Email Live Sending
+* [Debugging](debugging.md) - Test templates with Email Sandbox

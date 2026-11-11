@@ -93,9 +93,9 @@ To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab
 
 Then, add the DNS records Mailtrap provides to your domain provider.
 
-<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-otvs (6).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-otvs.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Check our [Sending Domain Setup Guide](sending-domain.md) for detailed instructions on adding and verifying your domain.
+Check our [Sending Domain Setup Guide](../../sending-domain/) for detailed instructions on adding and verifying your domain.
 {% endstep %}
 
 {% step %}
@@ -264,9 +264,9 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 ## Related Resources
 
 * [**Email Deliverability Guide**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/setup/broken-reference/README.md) - Essential reading for bulk senders
-* [Sending Domain Setup](sending-domain.md)
-* [Email Templates](../email-templates/)
-* [Suppressions List](../suppressions-list.md)
+* [Sending Domain Setup](../../sending-domain/)
+* [Email Templates](../../email-templates/)
+* [Suppressions List](../../suppressions-list.md)
 * [Email Categories](../analytics/categories.md)
-* [IP Warmup](../deliverability/ip-warmup.md)
+* [IP Warmup](../../deliverability/ip-warmup.md)
 * [Google's Email Sender Guidelines](https://support.google.com/mail/answer/81126)

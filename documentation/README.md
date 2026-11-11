@@ -70,9 +70,9 @@ Discover the full range of features and capabilities across our email platform.
 
 * [API Integration](email-api-smtp/api-integration.md)
 * [SMTP Integration](email-api-smtp/smtp-integration.md)
-* [Email Templates](email-api-smtp/email-templates/)
+* [Email Templates](email-templates/)
 * [Email Logs](email-api-smtp/analytics/logs.md)
-* [Webhooks](email-api-smtp/webhooks.md)
+* [Webhooks](webhooks/)
 {% endcolumn %}
 
 {% column width="33%" %}
@@ -104,7 +104,7 @@ For a detailed overview of Mailtrap's security and privacy practices, consult th
 
 Learn how to integrate Mailtrap with your favorite tools and migrate from other services.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td>Third-party Tools</td><td><em>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</em></td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">Integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td>Domain Configuration</td><td><em>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</em></td><td><a href="email-api-smtp/setup/sending-domain.md">sending-domain.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-link">:link:</i> <strong>Integrations</strong></td><td>Third-party Tools</td><td><em>Connect Mailtrap with Laravel, Rails, Node.js, Python and more popular frameworks.</em></td><td><a href="https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations">Integrations</a></td></tr><tr><td><i class="fa-globe">:globe:</i> <strong>DNS Setup</strong></td><td>Domain Configuration</td><td><em>Configure SPF, DKIM, and DMARC records with guides for all major DNS providers.</em></td><td><a href="sending-domain/">sending-domain</a></td></tr></tbody></table>
 
 ## Migrations
 

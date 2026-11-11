@@ -37,7 +37,7 @@ Some mailbox providers, browsers, and extensions block invisible pixels. Users c
 
 * Navigate to the **Tracking Settings** tab (Domains → choose your domain)
 
-<figure><img src="../../.gitbook/assets/2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * Toggle the switch next to **Track Clicks** to enable or disable tracking clicks
 

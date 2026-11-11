@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting - Email Sandbox
 description: Common issues and solutions for Email Sandbox
-icon: wrench
 ---
 
 # Troubleshooting
@@ -254,9 +253,9 @@ We don't store information about the server or IP address that sent messages. As
 #### Related articles
 
 * [How to integrate Email Sandbox with your application](setup/sandbox-smtp-integration.md)
-* [Features and Limits](help/features-and-limits.md)
+* [Features and Limits](features-and-limits.md)
 * [Automatic Email Forwarding](automatic-email-forwarding.md)
-* [Email Sandbox FAQs](faqs.md)
+* [Email Sandbox FAQs](/broken/pages/B56KMhtF4MqMsP2yPuEj)
 
 #### Need more help?
 

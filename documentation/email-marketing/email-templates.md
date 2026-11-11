@@ -5,7 +5,7 @@ icon: palette
 
 # Email Templates
 
-Email Templates allow you to design, edit, and host HTML email templates.
+Email Templates allow you to design, edit, and host HTML email templates.&#x20;
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-sdkq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
@@ -17,7 +17,7 @@ You can put `{{name}}` into your template and, as your contact has a field named
 
 ## Creating a template
 
-{% @arcade/embed flowId="c9gFQdhM24VPlzXW2TSl" url="https://app.arcade.software/share/c9gFQdhM24VPlzXW2TSl" %}
+{% @arcade/embed url="https://app.arcade.software/share/c9gFQdhM24VPlzXW2TSl" flowId="c9gFQdhM24VPlzXW2TSl" %}
 
 {% stepper %}
 {% step %}
@@ -65,7 +65,7 @@ Each template must have a name, subject, category, and an assigned domain. The s
 
 {% tabs %}
 {% tab title="Drag & Drop Editor" %}
-The drag-and-drop editor allows you to design templates without any coding.
+The drag-and-drop editor allows you to design templates without any coding. Drag blocks such as images, buttons, videos and countdown timers from the **Content** tab. The **Audit** tab lists images without alt text or an image URL, and buttons without a link.
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-senk.png" alt="" width="563"></div>
 {% endtab %}
@@ -73,7 +73,7 @@ The drag-and-drop editor allows you to design templates without any coding.
 {% tab title="Code Editor" %}
 The Code Editor allows you to edit the HTML or text content, depending on the emails you want to send.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sdkq (1).png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="/broken/files/ah69KHcpe24Lg1VQDOP3" alt="" width="563"></div>
 
 The editor supports Find and Replace options, and you can use **Cmd+F** or **Win+F** as a hotkey to reveal a quick search bar.
 
@@ -91,7 +91,7 @@ You can't save a template with errors. Note that we don't validate HTML — only
 
 ### Uploading images
 
-{% @arcade/embed flowId="v0uTC2zslHSZKJNameNr" url="https://app.arcade.software/share/v0uTC2zslHSZKJNameNr" %}
+{% @arcade/embed url="https://app.arcade.software/share/v0uTC2zslHSZKJNameNr" flowId="v0uTC2zslHSZKJNameNr" %}
 
 {% stepper %}
 {% step %}

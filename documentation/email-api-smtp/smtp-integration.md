@@ -30,7 +30,7 @@ Select whether you want to send emails with the Transactional or [Bulk Stream](h
 {% endstep %}
 
 {% step %}
-Toggle the switch to **SMTP**, and you should see your Mailtrap credentials.&#x20;
+Toggle the switch to **SMTP**, and you should see your Mailtrap credentials.
 {% endstep %}
 {% endstepper %}
 
@@ -89,13 +89,13 @@ MAIL_PASSWORD=<YOUR_API_TOKEN>
 
 Once you add Mailtrap SMTP to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-sxcd (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-sxcd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Remember that each domain has different API tokens (or SMTP passwords). You can create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
-<a href="setup/api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
+<a href="/broken/pages/PMvbz81YHELFGmZaSgq1" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If you need any help with SMTP integration, please contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).

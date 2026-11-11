@@ -7,7 +7,6 @@ description: >-
 
 # Overview
 
-\
 Email Sandbox is a safe testing environment that captures all your test emails, preventing them from reaching real inboxes. Perfect for development, QA testing, and staging environments, it ensures your email functionality works flawlessly before going live.
 
 <details>
@@ -51,6 +50,10 @@ Email Sandbox acts as a **fake SMTP** server that traps all emails sent from you
 * Validate HTML rendering and responsiveness
 * Debug email issues before production
 * Share test results with your team
+
+{% hint style="info" %}
+You don't need to verify your domain to start testing emails with Sandbox.
+{% endhint %}
 
 ## Key Features
 
@@ -304,9 +307,9 @@ Pre-configured for popular frameworks:
 
 ## Support & Resources
 
-* [Features and Limits](help/features-and-limits.md)
-* [Sandbox Glossary](help/glossary.md)
-* [FAQs](faqs.md)
+* [Features and Limits](features-and-limits.md)
+* [Sandbox Glossary](glossary.md)
+* [FAQs](/broken/pages/B56KMhtF4MqMsP2yPuEj)
 * [Troubleshooting](troubleshooting.md)
 
 ## Next Steps

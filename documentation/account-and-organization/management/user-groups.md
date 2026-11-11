@@ -57,7 +57,7 @@ A user can belong to multiple groups or have no group membership. Groups can be 
 * Add any additional individual permissions they need.
 * Review the access and send the invitation.
 
-<figure><img src="../../.gitbook/assets/Add Account User (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Add Account User (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The selected group memberships are retained when the invitation is accepted. Pending invitations are included in each group’s member count.
@@ -112,8 +112,6 @@ To remove an inherited permission from a member, remove the group that grants it
 If the permission should be removed for everyone in the group, edit the group instead.
 
 <figure><img src="../../.gitbook/assets/user groups 2.png" alt=""><figcaption></figcaption></figure>
-
-
 
 #### Overlapping individual permissions
 
@@ -197,7 +195,7 @@ Group creation, updates, deletion, and membership-related changes are recorded i
 
 * Only **Account Admins** can create, edit, or delete groups and manage their membership.
 * **Project Admins** cannot assign users to groups, even if they can edit permissions for their projects.
-* An **admin** can add only permissions they are allowed to grant directly.&#x20;
+* An **admin** can add only permissions they are allowed to grant directly.
 * A group cannot grant **Account Owner** access, and an Account Owner’s own access cannot be changed through the member permissions form.
 
 ### Frequently asked questions
