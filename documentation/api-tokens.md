@@ -1,6 +1,5 @@
 ---
 description: Learn how to create, manage, and use API tokens for Email Sandbox.
-icon: key
 ---
 
 # API Tokens

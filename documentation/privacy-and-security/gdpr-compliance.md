@@ -1,10 +1,9 @@
 ---
 title: GDPR Compliance
 description: Learn about Mailtrap's GDPR compliance measures and data storage locations
-icon: clipboard-list-check
 ---
 
-# GDPR Compliance
+# GDPR compliance
 
 ### Where does Mailtrap store data?
 

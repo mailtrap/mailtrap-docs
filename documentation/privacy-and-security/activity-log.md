@@ -3,10 +3,9 @@ title: Activity Log
 description: >-
   Track user activities and actions in your Mailtrap account for security,
   transparency, and user management purposes.
-icon: clock-rotate-left
 ---
 
-# User audit Logs
+# User Audit Logs
 
 User Audit Log automatically tracks the activities and actions performed by users within your account. It's a stream of events, logging actions taken and indicating who performed them, which is used for security purposes.
 

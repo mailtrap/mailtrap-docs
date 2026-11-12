@@ -2,7 +2,6 @@
 description: >-
   Learn about Mailtrap's SOC 2 Type II report and information security
   standards.
-icon: expeditedssl
 ---
 
 # SOC 2 Type II Report

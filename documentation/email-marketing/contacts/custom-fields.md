@@ -2,10 +2,9 @@
 description: >-
   Create and manage custom fields to store additional contact information for
   personalization
-icon: table-columns
 ---
 
-# Custom Fields
+# Custom fields
 
 Custom fields allow you to store additional information about your contacts beyond their email address. Use these fields to personalize campaigns and create targeted segments.
 
@@ -43,7 +42,7 @@ Every contact in Mailtrap has these default fields:
 
 ## Creating Custom Fields
 
-{% @arcade/embed flowId="3xTNd088JN2woonpfG9A" url="https://app.arcade.software/share/3xTNd088JN2woonpfG9A" %}
+{% @arcade/embed url="https://app.arcade.software/share/3xTNd088JN2woonpfG9A" flowId="3xTNd088JN2woonpfG9A" %}
 
 {% stepper %}
 {% step %}

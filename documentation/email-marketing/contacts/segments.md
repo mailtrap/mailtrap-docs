@@ -1,6 +1,5 @@
 ---
 description: Create dynamic contact groups that automatically update based on criteria
-icon: filter
 ---
 
 # Segments
@@ -60,7 +59,7 @@ Example: A segment for "Active Users" automatically adds contacts who opened ema
 
 ## Creating Segments
 
-{% @arcade/embed flowId="257jmj935CGBvmDsZDy9" url="https://app.arcade.software/share/257jmj935CGBvmDsZDy9" %}
+{% @arcade/embed url="https://app.arcade.software/share/257jmj935CGBvmDsZDy9" flowId="257jmj935CGBvmDsZDy9" %}
 
 {% stepper %}
 {% step %}

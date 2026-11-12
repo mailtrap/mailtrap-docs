@@ -1,7 +1,3 @@
----
-icon: monitor-waveform
----
-
 # Automated Domain Reputation Monitoring
 
 Domain Reputation Monitoring is an automated feature that continuously monitors the health of your sending domains. It helps detect early warning signs that may impact your email deliverability, allowing you to address potential issues before they affect your inbox placement.

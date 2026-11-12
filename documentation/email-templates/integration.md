@@ -3,10 +3,9 @@ title: Template Integration - Email Live Sending
 description: >-
   Learn how to integrate Mailtrap email templates with Email Live Sending using
   Transactional or Bulk streams.
-icon: link
 ---
 
-# Integration
+# Integration with Live Sending
 
 ### Overview
 
@@ -14,7 +13,7 @@ Once you've created and customized your email template, you can integrate it wit
 
 ### Integration steps
 
-{% @arcade/embed flowId="o6ZYucIUk0B04K4hWaQy" url="https://app.arcade.software/share/o6ZYucIUk0B04K4hWaQy" %}
+{% @arcade/embed url="https://app.arcade.software/share/o6ZYucIUk0B04K4hWaQy" flowId="o6ZYucIUk0B04K4hWaQy" %}
 
 {% stepper %}
 {% step %}

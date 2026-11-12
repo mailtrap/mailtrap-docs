@@ -3,14 +3,13 @@ title: Auto BCC
 description: >-
   Automatically add BCC recipients to all emails sent from your domain with
   custom headers support.
-icon: note
 ---
 
 # Auto BCC
 
 ### How to set up Auto BCC
 
-{% @arcade/embed flowId="65Oi8IzcVcVpPnRC3xzr" url="https://app.arcade.software/share/65Oi8IzcVcVpPnRC3xzr" %}
+{% @arcade/embed url="https://app.arcade.software/share/65Oi8IzcVcVpPnRC3xzr" flowId="65Oi8IzcVcVpPnRC3xzr" %}
 
 {% stepper %}
 {% step %}

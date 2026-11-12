@@ -3,7 +3,6 @@ title: Bulk Stream
 description: >-
   Integrate Mailtrap Bulk Stream via API or SMTP. Get credentials, use SDKs or
   code samples, and send promotional emails with built-in compliance features.
-icon: envelopes-bulk
 ---
 
 # Bulk Stream
@@ -16,13 +15,13 @@ Bulk Stream is Mailtrap's dedicated infrastructure for sending marketing, promot
 **Important**: Mailtrap requires you to use the Bulk Stream for all marketing and promotional emails. This separation protects your transactional email reputation and ensures compliance with email provider requirements.
 {% endhint %}
 
-## Why Use Bulk Stream?
+## Why use Bulk Stream?
 
 ### Suppression list separation
 
 * **We separate suppression by a stream**. So e.g. you use one domain for both transactional and bulk emails and your recipients unsubscribed from bulk email - it won't affect your transactional email.
 
-### Deliverability Protection
+### Deliverability protection
 
 Using separate streams for transactional and bulk emails is critical for maintaining high deliverability:
 
@@ -31,22 +30,22 @@ Using separate streams for transactional and bulk emails is critical for maintai
 * **Optimized Routing**: Infrastructure optimized for bulk sending patterns
 * **Better Inbox Placement**: Proper categorization by email providers
 
-### Automatic Compliance Features
+### Automatic compliance features
 
 Mailtrap automatically adds required elements to comply with Google, Yahoo, and other major providers' bulk sending requirements:
 
-* **List-Unsubscribe Headers**: One-click unsubscribe functionality
-* **List-Unsubscribe-Post Headers**: RFC 8058 compliance
-* **Precedence Headers**: Proper bulk email identification
-* **Unsubscribe Links**: Automatic footer unsubscribe links when not present
+* **List-Unsubscribe headers**: One-click unsubscribe functionality
+* **List-Unsubscribe-Post headers**: RFC 8058 compliance
+* **Precedence headers**: Proper bulk email identification
+* **Unsubscribe links**: Automatic footer unsubscribe links when not present
 
 {% hint style="info" %}
 **Google Requirements**: Starting February 2024, Gmail requires authentication, easy unsubscribe, and low spam rates for senders of 5,000+ daily emails. Mailtrap's Bulk Stream automatically handles these requirements.
 {% endhint %}
 
-## How to Use Bulk Stream
+## How to use Bulk Stream
 
-### Key Differences from Transactional Stream
+### Key differences from Transactional Stream
 
 The main difference from a user perspective is the endpoint/host you use:
 
@@ -81,11 +80,11 @@ await bulkClient.send({
 });
 ```
 
-## Setup Instructions
+## Setup instructions
 
 {% stepper %}
 {% step %}
-**Verify Your Sending Domain**
+**Verify your sending domain**
 
 To use Bulk Stream, first verify a domain you own. Go to the Sending Domains tab and click Add Domain. Type your domain name and confirm with the Add button.
 
@@ -99,9 +98,9 @@ Check our [Sending Domain Setup Guide](../../sending-domain/) for detailed instr
 {% endstep %}
 
 {% step %}
-**Integrate Your Application**
+**Integrate your application**
 
-**For SMTP Integration**
+**For SMTP integration**
 
 To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 
@@ -113,7 +112,7 @@ To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 
 See our [SMTP Integration Guide](../smtp-integration.md) for detailed setup instructions.
 
-**For API Integration**
+**For API integration**
 
 To send via Bulk Stream API, use the bulk endpoint:
 
@@ -126,9 +125,9 @@ See our [API Integration Guide](../api-integration.md) for implementation detail
 {% endstep %}
 {% endstepper %}
 
-## Bulk Email Best Practices
+## Bulk email best practices
 
-### Content Guidelines
+### Content guidelines
 
 * Include valuable, relevant content
 * Use clear, honest subject lines
@@ -136,7 +135,7 @@ See our [API Integration Guide](../api-integration.md) for implementation detail
 * Include your physical mailing address
 * Make unsubscribe prominent and functional
 
-### List Management
+### List management
 
 * Only send to opted-in subscribers
 * Implement double opt-in for new subscribers
@@ -144,7 +143,7 @@ See our [API Integration Guide](../api-integration.md) for implementation detail
 * Honor unsubscribe requests immediately
 * Never purchase email lists
 
-### Sending Patterns
+### Sending patterns
 
 * Start with small volumes and gradually increase
 * Maintain consistent sending patterns
@@ -152,22 +151,22 @@ See our [API Integration Guide](../api-integration.md) for implementation detail
 * Send at optimal times for your audience
 * Monitor engagement metrics
 
-## Compliance Information
+## Compliance information
 
-### Google & Yahoo Requirements (2024)
+### Google & Yahoo requirements (2024)
 
 Starting February 2024, major email providers require:
 
 1. **Authentication**: SPF, DKIM, and DMARC must be properly configured
-2. **Easy Unsubscribe**: One-click unsubscribe must be supported
-3. **Low Spam Rate**: Keep spam complaints below 0.3%
-4. **Valid DNS Records**: Ensure proper forward and reverse DNS
+2. **Easy unsubscribe**: One-click unsubscribe must be supported
+3. **Low spam sate**: Keep spam complaints below 0.3%
+4. **Valid DNS records**: Ensure proper forward and reverse DNS
 
 {% hint style="success" %}
-**Automatic Compliance**: Mailtrap's Bulk Stream automatically handles authentication headers, unsubscribe mechanisms, and proper email formatting to meet these requirements.
+**Automatic compliance**: Mailtrap's Bulk Stream automatically handles authentication headers, unsubscribe mechanisms, and proper email formatting to meet these requirements.
 {% endhint %}
 
-### Who is Considered a Bulk Sender?
+### Who is considered a Bulk Sender?
 
 According to Google's guidelines:
 
@@ -175,7 +174,7 @@ According to Google's guidelines:
 * Counted across all subdomains of your primary domain
 * Once classified as bulk sender, the designation is permanent
 
-### What Mailtrap Adds Automatically
+### What Mailtrap adds automatically
 
 When using Bulk Stream, Mailtrap automatically includes:
 
@@ -193,16 +192,16 @@ Plus, if no unsubscribe link is detected in your HTML, we add a compliant footer
 </div>
 ```
 
-## Monitoring and Analytics
+## Monitoring and analytics
 
-### Track Performance
+### Track performance
 
-* **Delivery Rate**: Monitor successful deliveries
-* **Open Rate**: Track email engagement
-* **Click Rate**: Measure content effectiveness
-* **Bounce Rate**: Identify delivery issues
-* **Spam Complaints**: Stay below 0.3% threshold
-* **Unsubscribe Rate**: Monitor list health
+* **Delivery ate**: Monitor successful deliveries
+* **Open rate**: Track email engagement
+* **Click rate**: Measure content effectiveness
+* **Bounce rate**: Identify delivery issues
+* **Spam complaints**: Stay below 0.3% threshold
+* **Unsubscribe rate**: Monitor list health
 
 ### Use Email Categories
 
@@ -261,7 +260,7 @@ Limits depend on your plan. Start with gradual volume increases to build reputat
 
 </details>
 
-## Related Resources
+## Related resources
 
 * [**Email Deliverability Guide**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/setup/broken-reference/README.md) - Essential reading for bulk senders
 * [Sending Domain Setup](../../sending-domain/)

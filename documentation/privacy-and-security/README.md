@@ -5,7 +5,7 @@ description: >-
   protection policies.
 ---
 
-# Security & Privacy
+# Security & privacy
 
 Mailtrap takes security and privacy seriously. We implement industry-leading security measures to protect your data and ensure compliance with global privacy regulations.
 
@@ -13,7 +13,7 @@ Mailtrap takes security and privacy seriously. We implement industry-leading sec
 For a detailed overview, feel free to consult the official [Mailtrap Trust Center](https://trust.mailtrap.io/).
 {% endhint %}
 
-## Security Features
+## Security features
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Two-Factor Authentication</strong></td><td><em>Enhance account security with two-factor authentication. Protect against unauthorized access even if passwords are compromised.</em></td><td><a href="../account-and-billing/2fa.md">2fa.md</a></td></tr><tr><td><strong>API Tokens</strong></td><td><em>Secure API access with token-based authentication. Manage tokens, set permissions, and rotate credentials regularly.</em></td><td><a href="../api-tokens.md">api-tokens.md</a></td></tr></tbody></table>
 

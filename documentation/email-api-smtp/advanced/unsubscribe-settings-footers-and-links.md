@@ -1,8 +1,4 @@
----
-icon: ban
----
-
-# Unsubscribe settings
+# Unsubscribe settings - Footers & Links
 
 Unsubscribe links are mandatory for bulk emails as per privacy laws. If your emails don't include an unsubscribe link, Mailtrap will add an unsubscribe footer automatically. This is what it will look like:
 

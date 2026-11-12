@@ -1,7 +1,3 @@
----
-icon: envelope-open-text
----
-
 # Tracking settings - Opens and Clicks tracking
 
 By default, Mailtrap tracks email opens for each email sent, and you can also enable click tracking.

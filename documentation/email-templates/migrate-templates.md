@@ -1,7 +1,3 @@
----
-icon: mustache
----
-
 # Migrate templates
 
 Mailtrap uses Handlebars as its template engine. If your current provider also uses Handlebars (SendGrid, Mailgun, Amazon SES), most of your template markup ports directly. If your provider uses a different syntax (Brevo, Postmark, Mandrill with merge tags), you will need to convert your templates before importing them.

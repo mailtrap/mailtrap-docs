@@ -1,7 +1,6 @@
 ---
 title: Template Debugging
 description: Learn how to test and debug your email templates using Mailtrap Email Sandbox.
-icon: bug
 layout:
   width: default
   title:
@@ -20,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Debugging with Sandbox
@@ -30,7 +31,7 @@ Before sending your email templates to production, it's important to test them i
 
 ### Debugging steps
 
-{% @arcade/embed flowId="9uF1XI537kgKMP1RyZxw" url="https://app.arcade.software/share/9uF1XI537kgKMP1RyZxw" %}
+{% @arcade/embed url="https://app.arcade.software/share/9uF1XI537kgKMP1RyZxw" flowId="9uF1XI537kgKMP1RyZxw" %}
 
 {% stepper %}
 {% step %}

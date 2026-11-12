@@ -3,10 +3,9 @@ title: Email address per sandbox
 description: >-
   Use a dedicated customizable email address for each sandbox to send test
   messages without SMTP integration.
-icon: at
 ---
 
-# Email Address per Sandbox
+# Email address per Sandbox
 
 This feature offers an email address for testing, which you can customize. It supports dynamic aliases and provides you with an unlimited number of virtual email addresses. As soon as it is linked to your [sandbox](https://mailtrap.io/sandboxes), you can manage, view, and share your test results via the Mailtrap UI.
 

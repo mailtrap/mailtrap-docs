@@ -2,7 +2,6 @@
 description: >-
   Set up your domain in Mailtrap. Add DNS records, verify SPF/DKIM/DMARC, pass
   compliance, and start sending emails in minutes.
-icon: globe
 ---
 
 # Domains

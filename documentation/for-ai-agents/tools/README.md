@@ -1,7 +1,3 @@
----
-icon: gear-complex
----
-
 # Tools
 
 Learn about AI features and tools Mailtrap provides to help you easily integrate with your favorite AI tool.

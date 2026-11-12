@@ -5,9 +5,9 @@ description: >-
   Email Live Sending.
 ---
 
-# From Header Mismatch
+# From Header mismatch
 
-### Error Message
+### Error message
 
 ```
 From: Header does not match the sender's domain
@@ -15,7 +15,7 @@ From: Header does not match the sender's domain
 
 This error occurs when the `From:` header in your email doesn't match your verified domain in Mailtrap.
 
-### The Requirement
+### The requirement
 
 To send email with Mailtrap, your `From:` header **must match** your verified domain.
 
@@ -25,9 +25,9 @@ To send email with Mailtrap, your `From:` header **must match** your verified do
 If you're sending from a subdomain like `mail.acme.com`, your `From:` address must match that subdomain exactly.
 {% endhint %}
 
-### Common Causes
+### Common causes
 
-**1. Unverified Domain**
+**1. Unverified domain**
 
 Your domain hasn't been added or verified in Mailtrap yet.
 
@@ -37,7 +37,7 @@ Your domain hasn't been added or verified in Mailtrap yet.
 2. Add your domain
 3. Complete the DNS verification process
 
-**2. Envelope From vs Header From Mismatch**
+**2. Envelope From vs Header From mismatch**
 
 In some frameworks (like Laravel), the `MAIL_FROM_ADDRESS` variable is used for the envelope from address, but it's not the same as the header `From:` address.
 
@@ -45,15 +45,15 @@ In some frameworks (like Laravel), the `MAIL_FROM_ADDRESS` variable is used for 
 Make sure both the **envelope from** and the **header from** use the same domain.
 {% endhint %}
 
-**3. Subdomain Confusion**
+**3. Subdomain confusion**
 
 If you verified `example.com` but are trying to send from `mail.example.com`, you need to verify the subdomain separately.
 
-### How to Fix
+### How to fix
 
 {% stepper %}
 {% step %}
-**Verify Your Domain**
+**Verify your domain**
 
 First, check if your domain has been added to your Mailtrap account.
 
@@ -65,7 +65,7 @@ If not verified, complete the DNS setup process.
 {% endstep %}
 
 {% step %}
-**Check Your Email Configuration**
+**Check your email configuration**
 
 Ensure your email message has a `From:` header that contains an address on your verified domain.
 
@@ -82,7 +82,7 @@ Make sure `MAIL_FROM_ADDRESS` uses your verified domain.
 {% endstep %}
 
 {% step %}
-**Verify Envelope From Matches Header From**
+**Verify the envelope from matches header from**
 
 Most likely, the envelope from address is set separately from the header. Make sure they match.
 
@@ -93,7 +93,7 @@ For Laravel specifically:
 {% endstep %}
 
 {% step %}
-**Test Your Configuration**
+**Test your configuration**
 
 Send a test email and verify:
 
@@ -103,7 +103,7 @@ Send a test email and verify:
 {% endstep %}
 {% endstepper %}
 
-### Framework-Specific Examples
+### Framework-specific examples
 
 **Laravel**
 
@@ -124,7 +124,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 Ensure `MAIL_FROM_ADDRESS` uses your verified domain.
 
-**Other Frameworks**
+**Other frameworks**
 
 The principle is the same across all frameworks:
 
@@ -132,7 +132,7 @@ The principle is the same across all frameworks:
 2. Ensure both envelope and header from addresses match
 3. Verify the domain in Mailtrap before sending
 
-### Still Having Issues?
+### Still having issues?
 
 If you've verified your domain and updated your configuration but still see this error:
 
@@ -141,7 +141,7 @@ If you've verified your domain and updated your configuration but still see this
 * Review your framework's documentation for email configuration
 * Contact support at [support@mailtrap.io](mailto:support@mailtrap.io)
 
-### Related Articles
+### Related rrticles
 
 * [Sending Domain Setup](../../sending-domain/)
 * [SMTP Integration](../smtp-integration.md)

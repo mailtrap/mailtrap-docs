@@ -1,10 +1,6 @@
----
-icon: eyes
----
-
 # Recipient Tracking Opt-Outs
 
-Mailtrap's Recipient Tracking Opt-Outs feature is a per-recipient, per-domain opt-out mechanism that stops open- and click-tracking mechanisms from firing for individual email recipients without unsubscribing them.&#x20;
+Mailtrap's Recipient Tracking Opt-Outs feature is a per-recipient, per-domain opt-out mechanism that stops open- and click-tracking mechanisms from firing for individual email recipients without unsubscribing them.
 
 With it, you can stay compliant with legal requirements, such as, for example, [CNIL](https://www.cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf), which requires you to provide French recipients of your marketing emails an easy way to opt out of open-tracking pixels.
 

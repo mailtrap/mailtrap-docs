@@ -1,17 +1,17 @@
 ---
 title: Unauthorized Error (401 Code)
 description: >-
-  How to fix "Unauthorised" (401) authentication errors in Mailtrap Email
-  Live Sending.
+  How to fix "Unauthorised" (401) authentication errors in Mailtrap Email Live
+  Sending.
 ---
 
-# 401 Unauthorized Error
+# 401 Unauthorized error
 
 If you're getting an "Unauthorised" error (401 code) when trying to send emails, there are several possible causes and solutions.
 
-### Common Causes
+### Common causes
 
-**1. Sending from Unverified Domain**
+**1. Sending from unverified domain**
 
 Make sure you're sending from the domain that you've set up and verified in Mailtrap. Using any other domain will result in this error.
 
@@ -19,7 +19,7 @@ Make sure you're sending from the domain that you've set up and verified in Mail
 If you verified `example.com`, you can only send from `*@example.com` addresses. Attempting to send from `otherdomain.com` will fail with a 401 error.
 {% endhint %}
 
-**2. API Token Permissions**
+**2. API Token permissions**
 
 If you've configured a custom API token for your domain, make sure it has proper permissions to send emails.
 
@@ -29,17 +29,17 @@ Check your [API tokens](https://mailtrap.io/settings/api-tokens) and verify the 
 * Access to the correct domain
 * Valid expiration date (if applicable)
 
-**3. Incorrect Credentials**
+**3. Incorrect credentials**
 
 Make sure you're using the correct SMTP/API credentials provided in the Integration tab of your domain.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260925-ughe-2.png" alt="Integration tab showing SMTP and API credentials for both Transactional Stream and Bulk Stream in Mailtrap" width="563"><figcaption><p>SMTP and API credentials in Integration tab</p></figcaption></figure></div>
 
-### How to Fix
+### How to fix
 
 {% stepper %}
 {% step %}
-**Verify Your Domain**
+**Verify your domain**
 
 1. Go to [Sending Domains](https://mailtrap.io/domains)
 2. Ensure your domain shows the **Verified** badge
@@ -56,7 +56,7 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 {% endstep %}
 
 {% step %}
-**Verify Credentials**
+**Verify vredentials**
 
 Navigate to: **Sending Domains > Integration > Integrate** (under Transactional or Bulk Stream)
 
@@ -84,7 +84,7 @@ If the cURL test succeeds but your application fails, the issue is with your app
 {% endstep %}
 {% endstepper %}
 
-### Still Having Issues?
+### Still having issues?
 
 If you've verified all the above and still getting 401 errors:
 
@@ -95,7 +95,7 @@ If you've verified all the above and still getting 401 errors:
   * The exact error message
   * A code sample showing how you're attempting to send
 
-### Related Articles
+### Related articles
 
 * [Sending Domain Setup](../../sending-domain/)
 * [API Integration](../api-integration.md)

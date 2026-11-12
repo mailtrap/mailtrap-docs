@@ -1,7 +1,3 @@
----
-icon: stapler
----
-
 # Static IPs for sending & webhooks
 
 Mailtrap sends all outgoing traffic, both SMTP email delivery and webhook callbacks, from a fixed set of Mailtrap-owned IP ranges. Two IPv4 CIDR blocks cover everything: `45.158.83.0/24` and `5.181.200.0/24`.

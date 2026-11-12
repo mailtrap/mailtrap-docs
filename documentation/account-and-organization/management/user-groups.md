@@ -2,7 +2,6 @@
 description: >-
   Manage access for people with similar responsibilities using reusable sets of
   permissions.
-icon: user-group
 ---
 
 # User Groups

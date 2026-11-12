@@ -2,7 +2,6 @@
 description: >-
   Explore Mailtrap benefits for educational and non-profit institutions,
   including free plans, 50% discounts, and eligibility requirements.
-icon: graduation-cap
 layout:
   width: default
   title:
@@ -18,6 +17,10 @@ layout:
   metadata:
     visible: true
   tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
     visible: true
 ---
 

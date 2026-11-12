@@ -4,7 +4,6 @@ description: >-
   Learn about Mailtrap statuses and events: delivery, bounces, opens, clicks,
   and opt-outs. Understand how statuses differ from events and track
   performance.
-icon: bell
 ---
 
 # Statuses and Events
@@ -70,5 +69,3 @@ Some useful definitions:
 * **Client sending IP** — IP address of a device that was used to send an email.
 * **Mailtrap sending IP** — IP address of Mailtrap, used to send a message to the final recipient.
 * **Recipient IP** — IP address of a device or an email server where an email was opened. If a message is opened on devices using different IP addresses, multiple Recipient IPs will be recorded. If a message is not opened at all, no Recipient IP will be displayed.
-
-<a href="https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-sandbox/sandbox-glossary.md" class="button primary">Find more definitions in Sending Glossary</a>

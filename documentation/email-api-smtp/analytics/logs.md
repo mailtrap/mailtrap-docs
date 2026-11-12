@@ -4,12 +4,11 @@ description: >-
   Understand Mailtrap email logs: search and filter sent emails by status,
   events, and provider. View event history, previews, HTML source, and spam
   analysis.
-icon: file-pen
 ---
 
 # Email Logs
 
-It’s a place to view all the emails sent from your account, along with their corresponding details. These include the status of each message, its preview, event history, HTML source, and statistics.
+It’s a place to view all the emails sent from your account, along with their corresponding details. These include the status of each message, its preview, event history, HTML source, and statistics.&#x20;
 
 #### How to use filters in Email Logs
 

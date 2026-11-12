@@ -1,9 +1,8 @@
 ---
 description: Import contacts via CSV, API, or third-party integrations
-icon: upload
 ---
 
-# Import Contacts
+# Import contacts
 
 Import your contacts into Mailtrap using CSV files, API integration, or third-party tools. This guide walks you through each method step by step.
 
@@ -84,7 +83,7 @@ Import your contacts into Mailtrap using CSV files, API integration, or third-pa
 
 ## CSV Upload Process
 
-{% @arcade/embed flowId="up0dMWs7d0C6KmGeMvsu" url="https://app.arcade.software/share/up0dMWs7d0C6KmGeMvsu" %}
+{% @arcade/embed url="https://app.arcade.software/share/up0dMWs7d0C6KmGeMvsu" flowId="up0dMWs7d0C6KmGeMvsu" %}
 
 {% stepper %}
 {% step %}

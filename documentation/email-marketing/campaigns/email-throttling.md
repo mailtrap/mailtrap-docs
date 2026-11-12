@@ -1,7 +1,3 @@
----
-icon: gauge-high
----
-
 # Email throttling
 
 Spread campaign delivery over time rather than send all emails simultaneously and avoid sudden traffic spikes that can trigger ESP/IP reputation issues.
@@ -14,7 +10,7 @@ The feature applies to both [shared and dedicated IP](https://docs.mailtrap.io/e
 
 We have introduced a new step in the Campaign creation flow called Delivery.
 
-{% @arcade/embed flowId="pBFhLDhHcvY3LVHUQ336" url="https://app.arcade.software/share/pBFhLDhHcvY3LVHUQ336" %}
+{% @arcade/embed url="https://app.arcade.software/share/pBFhLDhHcvY3LVHUQ336" flowId="pBFhLDhHcvY3LVHUQ336" %}
 
 {% stepper %}
 {% step %}

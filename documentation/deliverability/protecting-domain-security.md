@@ -3,10 +3,9 @@ title: Protecting Your Domain Against Bots and Hackers
 description: >-
   Best practices to protect your sending domain from abuse, including securing
   web forms, implementing CAPTCHA, and hiding sensitive configuration files.
-icon: hands-holding-circle
 ---
 
-# Protecting Your Domain
+# Protecting your domain
 
 Adding and verifying your domain with Mailtrap is a simple process. However, in some cases, an automated security tool may flag your domain as high-risk and reject it. To prevent this, follow the best practices outlined in this article to enhance your security and ensure a smooth verification process.
 

@@ -4,14 +4,13 @@ description: >-
   Manage your Mailtrap user profile and account settings. Learn how to update
   your profile, delete your user account, create new accounts, and leave
   existing accounts.
-icon: user
 ---
 
 # User Profile
 
 Once you register with Mailtrap, we automatically create an **account** and a **user profile** for you.**Users** belong to accounts (organisations). Each user and user profile is defined by their email address and may belong to multiple accounts. You use the same credentials to access all your Mailtrap accounts.
 
-### User Profile Management
+### User profile management
 
 To manage your user profile, select your current account name or email address in the upper right corner, then click **MyProfile** in the drop-down menu.
 
@@ -19,13 +18,13 @@ There you will be able to copy or reset tokens, view, and edit OAuth providers, 
 
 And you can associate a different email address with your account manually, in case you need to transfer your Mailtrap user profile to another person.
 
-**Important Note:**
+**Important note:**
 
 The tokens under **User settings** work only with Mailtrap Email API v1 and will be deprecated in the future. [Click here](../../api-tokens.md) to learn more about Email API tokens v2 and how to manage them.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20261003-soie.png" alt="" width="563"></div>
 
-### Deleting Your User Profile
+### Deleting your User Profile
 
 Click on your account name or email address and choose **My Profile**.
 

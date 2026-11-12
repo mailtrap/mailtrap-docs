@@ -1,11 +1,10 @@
 ---
 description: Design, edit, and host HTML email templates and reference them via API.
-icon: palette
 ---
 
-# Email Templates
+# Email templates
 
-Email Templates allow you to design, edit, and host HTML email templates.&#x20;
+Email Templates allow you to design, edit, and host HTML email templates.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260929-sdkq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
@@ -73,7 +72,7 @@ The drag-and-drop editor allows you to design templates without any coding. Drag
 {% tab title="Code Editor" %}
 The Code Editor allows you to edit the HTML or text content, depending on the emails you want to send.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sdkq (1).png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../.gitbook/assets/SCR-20260929-sdkq.png" alt="" width="563"></div>
 
 The editor supports Find and Replace options, and you can use **Cmd+F** or **Win+F** as a hotkey to reveal a quick search bar.
 

@@ -5,9 +5,9 @@ description: >-
   Email Live Sending.
 ---
 
-# Domain Not Allowed
+# Domain not allowed
 
-### Error Message
+### Error message
 
 ```
 Error: Mail command failed: 550 5.7.1 Sending from domain is not allowed
@@ -15,9 +15,9 @@ Error: Mail command failed: 550 5.7.1 Sending from domain is not allowed
 
 This error occurs when you try to send an email using SMTP with a domain that doesn't match your verified domain in Mailtrap.
 
-### Common Causes
+### Common causes
 
-**1. Domain Mismatch**
+**1. Domain mismatch**
 
 You're sending an email with `FROM: {anything}@mydomain.com`, but in Mailtrap, you've verified `anotherdomain.com`.
 
@@ -27,21 +27,21 @@ You're sending an email with `FROM: {anything}@mydomain.com`, but in Mailtrap, y
 If you verified `example.com` in Mailtrap, you can only send emails from `*@example.com` addresses.
 {% endhint %}
 
-**2. Domain Not Verified or Compliance Check Failed**
+**2. Domain not verified or Compliance Check failed**
 
 Your domain might not be fully verified, or you haven't passed the Compliance Check.
 
-### How to Fix
+### How to fix
 
 {% stepper %}
 {% step %}
-**Check Your Verified Domains**
+**Check your verified domains**
 
 Go to [Sending Domains](https://mailtrap.io/domains) in your Mailtrap account.
 {% endstep %}
 
 {% step %}
-**Verify Domain Status**
+**Verify domain status**
 
 Look for the **Verified** badge next to your domain. If you don't see it:
 
@@ -51,7 +51,7 @@ Look for the **Verified** badge next to your domain. If you don't see it:
 {% endstep %}
 
 {% step %}
-**Check Compliance Status**
+**Check compliance status**
 
 Scroll down to see the **Compliance Check** status.
 
@@ -63,7 +63,7 @@ If the compliance check hasn't passed:
 {% endstep %}
 
 {% step %}
-**Update Your FROM Address**
+**Update your FROM address**
 
 Ensure your application sends emails from an address that matches your verified domain:
 
@@ -72,7 +72,7 @@ Ensure your application sends emails from an address that matches your verified 
 {% endstep %}
 {% endstepper %}
 
-### Related Articles
+### Related articles
 
 * [Sending Domain Setup](../../sending-domain/)
 * [SMTP Integration](../smtp-integration.md)
