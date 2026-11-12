@@ -1,0 +1,134 @@
+documentation/privacy-and-security/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 18
+documentation/inbound-email/inbound-auto-forwarding-rules.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-134
+documentation/account-and-organization/management/user-groups.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 60,198
+documentation/email-marketing/email-templates.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 8,20,68,76,94
+documentation/email-api-smtp/smtp-integration.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 33,92,96,98
+documentation/email-api-smtp/advanced/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 14
+documentation/email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 77
+documentation/email-templates/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-179
+documentation/SUMMARY.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 21-44,66-72,78,104-106,123-131
+documentation/sending-domain/cloudflare.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-91
+documentation/email-api-smtp/overview.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 24-25,50,68
+documentation/email-templates/migrate-templates.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-429
+documentation/email-api-smtp/api-integration.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 103
+documentation/email-sandbox/sandbox-api-integration.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 49
+documentation/email-sandbox/overview.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 54-57,310-312
+documentation/email-marketing/contacts/overview.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 141,176,200,226,256,288,338
+documentation/email-api-smtp/setup/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 31
+documentation/deliverability/automated-domain-reputation-monitoring.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-267
+documentation/deliverability/protecting-domain-security.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-120
+documentation/account-and-organization/management/user-profile.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 24
+documentation/email-api-smtp/analytics/dashboard.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 55
+documentation/email-marketing/campaigns/statistics.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 9,19
+documentation/email-marketing/overview.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 12-15,156-157,250
+documentation/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 73,75,107
+documentation/sending-domain/google-cloud-dns.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-95
+documentation/sending-domain/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-292
+documentation/email-templates/debugging.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-73
+documentation/deliverability/feedback-loops.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-58
+documentation/sending-domain/squarespace.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-102
+documentation/email-sandbox/glossary.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-33
+documentation/webhooks/static-ips-for-sending-and-webhooks.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-71
+documentation/sending-domain/aws-route-53.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-91
+documentation/deliverability/deliverability-alerts.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-78
+documentation/account-and-billing/2fa.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 105
+documentation/getting-started/email-marketing.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 8,76
+documentation/email-api-smtp/advanced/tracking-settings-opens-and-clicks-tracking.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 40
+documentation/email-templates/editing-and-customizing.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-86
+documentation/email-sandbox/troubleshooting.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 256,258
+documentation/email-api-smtp/troubleshooting/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 33
+documentation/email-api-smtp/troubleshooting/from-header-domain-mismatch.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 146
+documentation/getting-started/email-api-smtp.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 34,79,81,625-627
+documentation/webhooks/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-1000
+documentation/email-sandbox/features-and-limits.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-48
+documentation/email-sandbox/setup/README.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 12
+documentation/email-templates/handlebars.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-456
+documentation/deliverability/bounce-categorization.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-18
+documentation/api-tokens.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-96
+documentation/sending-domain/namecheap.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-89
+documentation/email-templates/integration.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-49
+documentation/suppressions-list.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-99
+documentation/email-api-smtp/troubleshooting/ms-office-365-quarantine.md
+  s_7e3b7014fcd005::t_9633cee6daeb46 50-51
+documentation/faq.md
+  s_7e3b7014fcd005::t_cecc5d24a2f2aa 26,191,372,374
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-25,27-190,192-371,373,375-607
+documentation/sending-domain/digitalocean.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-87
+documentation/email-api-smtp/glossary.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-118
+documentation/sending-domain/godaddy.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-85
+documentation/deliverability/ip-warmup.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 1-41
+documentation/email-api-smtp/setup/bulk-stream.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 96,98,267-269,271
+documentation/email-api-smtp/troubleshooting/unauthorized-401-error.md
+  s_7e3b7014fcd005::t_e326cdd3b4bbe6 100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "30986adf8aa357aad3b50be978ce339ce900aa4a",
+  "prompts": {},
+  "sessions": {
+    "s_7e3b7014fcd005": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "65432727-6175-4781-b495-4f638d750071",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}
