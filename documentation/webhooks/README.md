@@ -22,7 +22,7 @@ IPv6 ranges are AWS-provided, not Mailtrap-owned, and they're available on reque
 * **Soft bounce** - Temporary failure (will retry)
 * **Spam complaint** - Recipient reported spam
 * **Unsubscribe** - Recipient unsubscribed
-* **Topic unsubscribe** - Recipient unsubscribed from a subscription topic (Bulk Stream). Leaving the last topic also sends **Unsubscribe**
+* **Topic unsubscribe** - Recipient unsubscribed from a subscription topic (Bulk Stream). Leaving the last topic sends a global **Unsubscribe** instead
 * **Open** - Email was opened
 * **Click** - Link was clicked
 * **Suspension** - Message suspended
