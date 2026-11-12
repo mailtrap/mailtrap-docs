@@ -31,6 +31,8 @@
 * [API Tokens](api-tokens.md)
 * [Suppressions](suppressions-list.md)
 * [Webhooks](webhooks/README.md)
+  * [Campaigns webhooks](general/webhooks/campaigns-webhooks.md)
+  * [Reputation Monitor webhooks](general/webhooks/reputation-monitor-webhooks.md)
   * [Static IPs for sending & webhooks](webhooks/static-ips-for-sending-and-webhooks.md)
 * [Templates](email-templates/README.md)
   * [Editing and customizing](email-templates/editing-and-customizing.md)
