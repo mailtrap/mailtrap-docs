@@ -49,7 +49,7 @@ Mailtrap provides official SDKs for all major languages. Pick the one that match
 | Python   | `mailtrap`                         | `pip install mailtrap`                                                                                     |
 | PHP      | `railsware/mailtrap-php`           | `composer require railsware/mailtrap-php`                                                                  |
 | Ruby     | `mailtrap`                         | `gem install mailtrap`                                                                                     |
-| Go       | `github.com/railsware/mailtrap-go` | `go get github.com/railsware/mailtrap-go`                                                                  |
+| Go       | `github.com/mailtrap/mailtrap-go` | `go get github.com/mailtrap/mailtrap-go`                                                                  |
 | Java     | `com.mailtrap:mailtrap-java`       | See [Maven/Gradle setup](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/java.md) |
 | .NET     | `Mailtrap`                         | `dotnet add package Mailtrap`                                                                              |
 | Elixir   | `mailtrap`                         | `{:mailtrap, "~> 1.0"}`                                                                                    |
