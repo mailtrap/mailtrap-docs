@@ -32,7 +32,7 @@ Open or create an opencode.json file in your project root. Add the Mailtrap MCP 
         "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
         "DEFAULT_FROM_EMAIL": "your_sender@example.com",
         "MAILTRAP_ACCOUNT_ID": "your_account_id",
-        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+        "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
       },
       "enabled": true
     }
@@ -50,7 +50,7 @@ Replace the placeholder values in `opencode.json`:
 | ------------------------- | -------------------------------------------------------------------------- |
 | DEFAULT\_FROM\_EMAIL      | Required for sending; must be an address on your verified sending domain   |
 | MAILTRAP\_ACCOUNT\_ID     | Required for template management; find under Settings → Account Settings   |
-| MAILTRAP\_TEST\_INBOX\_ID | Required for sandbox operations; visible in your sandbox inbox URL         |
+| MAILTRAP\_SANDBOX\_ID     | Required for sandbox operations; visible in your Sandbox URL               |
 
 OpenCode also supports environment variable substitution via `{env:VAR_NAME}` syntax. If you’d rather keep credentials out of the config file, set them as environment variables and reference them like this:
 
@@ -64,7 +64,7 @@ OpenCode also supports environment variable substitution via `{env:VAR_NAME}` sy
         "MAILTRAP_API_TOKEN": "{env:MAILTRAP_API_TOKEN}",
         "DEFAULT_FROM_EMAIL": "{env:DEFAULT_FROM_EMAIL}",
         "MAILTRAP_ACCOUNT_ID": "{env:MAILTRAP_ACCOUNT_ID}",
-        "MAILTRAP_TEST_INBOX_ID": "{env:MAILTRAP_TEST_INBOX_ID}"
+        "MAILTRAP_SANDBOX_ID": "{env:MAILTRAP_SANDBOX_ID}"
       },
       "enabled": true
     }

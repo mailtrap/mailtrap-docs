@@ -35,7 +35,7 @@ When you're ready to move from Sandbox to live sending, the switch depends on yo
 
 — If using SMTP directly: replace the Sandbox SMTP credentials with live sending SMTP credentials, found in Sending Domains ([https://mailtrap.io/domains](https://mailtrap.io/domains)) → select your domain → Integration tab → SMTP.
 
-— If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and an inbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the inbox ID.
+— If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and a Sandbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the Sandbox ID.
 
 — If using the API directly: change the endpoint from the Sandbox API ([https://sandbox.api.mailtrap.io/api/send/{inbox\_id}](https://sandbox.api.mailtrap.io/api/send/%7Binbox_id%7D)) to the Transactional ([https://send.api.mailtrap.io/api/send](https://send.api.mailtrap.io/api/send)) or Bulk ([https://bulk.api.mailtrap.io/api/send](https://bulk.api.mailtrap.io/api/send)) sending endpoint.
 
@@ -189,16 +189,19 @@ Full programmatic access with our official SDKs for all major languages:
 
 **Node.js SDK:**
 
+Requires the Mailtrap Node.js SDK 6.2.0 or later.
+
 ```javascript
-const { MailtrapClient } = require("mailtrap");
+import { MailtrapClient } from "mailtrap";
 
 const client = new MailtrapClient({
   token: "YOUR_API_TOKEN",
-  testInboxId: INBOX_ID
+  sandbox: true,
+  sandboxId: SANDBOX_ID
 });
 
 // Send test email
-await client.testing.send({
+await client.send({
   from: { email: "test@example.com" },
   to: [{ email: "user@example.com" }],
   subject: "Test Email",
@@ -209,16 +212,15 @@ await client.testing.send({
 **PHP SDK:**
 
 ```php
+use Mailtrap\Config;
 use Mailtrap\MailtrapClient;
-use Mailtrap\Helper\ResponseHelper;
 
-$mailtrap = new MailtrapClient('YOUR_API_TOKEN');
+$mailtrap = new MailtrapClient(new Config('YOUR_API_TOKEN'));
 
 // Get sandbox messages
 $response = $mailtrap->sandbox()
-    ->inbox(INBOX_ID)
-    ->messages()
-    ->get();
+    ->messages(ACCOUNT_ID, SANDBOX_ID)
+    ->getList();
 ```
 
 **Available SDKs:**
