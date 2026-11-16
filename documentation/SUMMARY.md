@@ -7,6 +7,7 @@
 * [Email Live Sending](getting-started/email-api-smtp.md)
 * [Email Sandbox](getting-started/email-sandbox.md)
 * [Email Marketing](getting-started/email-marketing.md)
+* [Before you start sending](getting-started/before-you-start-sending.md)
 
 ## For AI agents
 
