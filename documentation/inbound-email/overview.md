@@ -47,7 +47,7 @@ The UI is coming soon.
 
 ### How it works
 
-First, you need to create an inbox via the API and get an address like **app1@inbound-mailtrap.io** (for Mailtrap-hosted inbound inboxes). From there you have two options: configure a webhook to get notified on every new message, or poll the Messages API on your own schedule. Or both.
+First, you need to create an inbox via the API and get an address like **app1-62fedace@inbound-mailtrap.io** (for Mailtrap-hosted inbound inboxes). From there you have two options: configure a webhook to get notified on every new message, or poll the Messages API on your own schedule. Or both.
 
 {% content-ref url="receiving-emails.md" %}
 [receiving-emails.md](receiving-emails.md)

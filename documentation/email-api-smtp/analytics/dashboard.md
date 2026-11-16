@@ -97,7 +97,7 @@ Emails may bounce for different reasons, most commonly:
 
 The term bounce used in Mailtrap is also known as a hard bounce. This is different from a soft bounce - another event present in Mailtrap that refers to a temporary delivery problem.
 
-If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
+If an email soft bounces, Mailtrap keeps retrying delivery for up to 24 hours (up to 11 more attempts). If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
 
 #### **Spam complaints**
 

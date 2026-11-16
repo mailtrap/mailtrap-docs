@@ -35,7 +35,7 @@ This glossary explains key terms and phrases used in Mailtrap Email Live Sending
 When an email with click tracking enabled is forwarded, all further clicks will also be included in the click count.
 {% endhint %}
 
-**Click rate** — The percentage of opened emails that got one or more clicks on their links. All clicks are recorded and can be seen under Events History in the Email Logs menu. But only the first click is calculated towards the Click Rate within a selected period.
+**Click rate** — The percentage of delivered emails that got one or more clicks on their links. All clicks are recorded and can be seen under Events History in the Email Logs menu. But only the first click is calculated towards the Click Rate within a selected period.
 
 **Client sending IP** — IP address of a device that was used to send an email.
 
@@ -89,7 +89,7 @@ Some mailbox providers, browsers, and plugins block the tracking of opens. Users
 | Setting      | Description                                                                                                                                                                                       |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Host**     | Name of Mailtrap's outgoing email sending server.                                                                                                                                                 |
-| **Port**     | Communication endpoints responsible for moving email data between servers via SMTP. Mailtrap supports 587, 2525, and 25 ports. We recommend using 587 because it's the standard secure SMTP port. |
+| **Port**     | Communication endpoints responsible for moving email data between servers via SMTP. Mailtrap supports ports 587, 465, 2525, and 25. We recommend using 587 because it's the standard secure SMTP port. |
 | **Username** | When configuring Mailtrap Sending with SMTP, the username is 'api'.                                                                                                                               |
 | **Password** | Mailtrap uses API tokens as SMTP passwords. By default, a token is generated when you add a domain.                                                                                               |
 | **Auth**     | Authentication mechanism that Mailtrap supports. We use two common mechanisms: LOGIN, PLAIN.                                                                                                      |

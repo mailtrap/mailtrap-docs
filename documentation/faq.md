@@ -23,7 +23,7 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 <summary>How do I integrate Mailtrap with my application?</summary>
 
 1. [Sign up](https://mailtrap.io/register/signup/) for an account.
-2. Go to Email Live Sending and select [Sending Domains](https://mailtrap.io/domains).
+2. Go to [Domains](https://mailtrap.io/domains) in the left menu.
 3. After you've added and verified all the DNS records, wait for the Compliance Check to be completed.
 4. Navigate to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page and integrate Mailtrap with your application via API, SMTP, or your AI agent.
 
@@ -111,7 +111,7 @@ Yes, you can. Mailtrap is an email delivery service to send transactional and pr
 
 <summary>Can I force an encrypted connection?</summary>
 
-Yes, you can enforce encrypted connections. Mailtrap SMTP server uses STARTTLS, which works for all SMTP ports. We support only TLS connections because of the POODLE vulnerability (SSLv2 and SSLv3 are disabled).
+Yes, you can enforce encrypted connections. Mailtrap SMTP uses STARTTLS on ports 25, 587, and 2525, and implicit TLS (SSL) on port 465. We support only TLS connections because of the POODLE vulnerability (SSLv2 and SSLv3 are disabled).
 
 </details>
 
@@ -119,7 +119,7 @@ Yes, you can enforce encrypted connections. Mailtrap SMTP server uses STARTTLS, 
 
 <summary>I would like to whitelist live.smtp.mailtrap.io on my firewall. What is Mailtrap's IP range?</summary>
 
-We use AWS with auto-balancing, so our IP ranges are the following: [https://ip-ranges.amazonaws.com/ip-ranges.json](https://ip-ranges.amazonaws.com/ip-ranges.json)
+Mailtrap sends from its own fixed IP ranges, published at [https://mailtrap.io/ip-ranges.json](https://mailtrap.io/ip-ranges.json). See [Static IPs for sending & webhooks](webhooks/static-ips-for-sending-and-webhooks.md).
 
 </details>
 
@@ -164,7 +164,7 @@ The maximum size of an email with attachments for Mailtrap is 10 MB. Upon reques
 
 It's the maximum number of emails you can send with Mailtrap per month. The total number of emails per month depends on the subscription plan.
 
-If you reach your monthly limit, you'll receive the SMTP protocol error: "535 5.7.0 Monthly messages limit reached". We also send out notifications for having used 80%, 90%, and 100% of the monthly limit.
+If you reach your monthly limit, sending is rejected with the error: "Your account has reached its sending limit. Please upgrade your plan." We also send out notifications for having used 80%, 90%, and 100% of the monthly limit.
 
 To continue sending when you're over the limit, please upgrade your subscription plan. Alternatively, you can wait until the next billing period starts, when the limit is reset.
 

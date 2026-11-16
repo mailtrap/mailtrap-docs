@@ -1,6 +1,6 @@
 # Mailtrap Skills
 
-Mailtrap offers official agent skills you can use to give your AI coding assistant accurate Mailtrap context for sending emails, receiving emails, testing with sandbox, using email templates, setting up a sending domain, and managing contacts.
+Mailtrap offers official agent skills you can use to give your AI coding assistant accurate Mailtrap context for sending emails, receiving emails, testing with sandbox, using and converting email templates, setting up a sending domain, managing contacts, and authorizing API requests.
 
 For more information, read the official [GitHub repository](https://github.com/mailtrap/mailtrap-skills).
 
@@ -24,6 +24,9 @@ Mailtrap skills and their purpose:
 | using-email-templates     | Use when creating, managing, and sending Mailtrap-hosted email templates.                                                                   |
 | setting-up-sending-domain | Use when adding or verifying a Mailtrap sending domain.                                                                                     |
 | managing-contacts         | Use when using Mailtrap Contacts API or UI to add, update, bulk import, list, segment marketing contacts, custom fields, or custom events.  |
+| receiving-emails          | Use when an application or AI agent needs to receive email with Mailtrap Inbound Email.                                                     |
+| authorizing-api-requests  | Use when authenticating or authorizing requests to any Mailtrap API.                                                                        |
+| converting-email-templates | Use to convert templates from SendGrid, Mailgun, Mandrill, Postmark, Brevo, and Amazon SES to Mailtrap Handlebars.                        |
 
 ### Why use Mailtrap Skills
 

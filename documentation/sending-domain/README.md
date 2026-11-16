@@ -157,7 +157,7 @@ Repeat the process of copying and pasting for each record until you've added all
 {% endstep %}
 
 {% step %}
-Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Re-check DNS Records button.
+Then, return to Mailtrap. Some records may be verified immediately, while some may take more time. Mailtrap will check the DNS records automatically every hour, but you can force a check by clicking the Verify DNS records button.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/domain 4.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}

@@ -11,7 +11,7 @@ Mailtrap Email Templates support the Handlebars templating language. It combines
 
 You can use Handlebars syntax to personalize your email templates and insert specific information for each of your recipients.
 
-For instance, you may have a client business name called "business name" under a JSON object property. Then, using `{{business name}}` Handlebars expression somewhere in the template, you can insert the property value to an email template.
+For instance, you may have a client business name stored under the JSON property "business_name". Then, using the `{{business_name}}` Handlebars expression somewhere in the template, you can insert the property value to an email template.
 
 The main benefit of using this syntax is that you don't have to update your code base. The dynamic templating happens fast and outside the code base.
 
@@ -28,7 +28,7 @@ The following sections give you examples for each of the helpers including code 
 
 The basic usage is just to render the values you pass. You can use objects and refer to variables like `{{object_name.variable}}`.
 
-If the variable is present in the data you pass, it won't be rendered.
+If the variable is not present in the data you pass, it won't be rendered.
 
 If you want to do a replacement with HTML, use triple brackets `{{{value_with_html}}}`.
 
@@ -425,7 +425,7 @@ In the quick tutorial below, we assume you've activated both Email Sandbox and E
 
 {% stepper %}
 {% step %}
-Navigate to **Email Live Sending** > **Email Templates** in the menu on the left.
+Navigate to **Email Live Sending** > **Templates** in the menu on the left.
 {% endstep %}
 
 {% step %}

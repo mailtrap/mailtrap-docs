@@ -51,8 +51,8 @@ Confirm your choice by clicking on the corresponding button.
 {% hint style="warning" %}
 **Important notes:**
 
-* After clicking the Reset credentials or Reset API Token buttons, the existing token becomes invalid after 12 hours. So, you have a 12-hour window to update all apps that use the old API token. Once the old token expires, some parts of your application will not work properly unless you've updated the token. All expired tokens get deleted from your account within 24 hours after expiration.
-* After the API token is reset and expired, a new token is created. The token ID is added to the token name the same way it's done for automatically generated tokens, e.g., mailtrap.example token 4231.
+* After clicking the Reset credentials or Reset API Token buttons, the existing token becomes invalid after 12 hours. So, you have a 12-hour window to update all apps that use the old API token. Once the old token expires, some parts of your application will not work properly unless you've updated the token. Expired tokens are deleted automatically 90 days after they expire.
+* When you reset a token, the new token is created right away, and the old one keeps working for 12 hours. The token ID is added to the token name the same way it's done for automatically generated tokens, e.g., mailtrap.example token 4231.
 {% endhint %}
 
 ### Setting an expiration date

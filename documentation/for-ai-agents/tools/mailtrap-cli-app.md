@@ -42,7 +42,7 @@ export MAILTRAP_API_TOKEN=your-token
 
 #### Using the CLI
 
-Then use any of the \~87 commands across 20 resource groups. A few examples:
+Then use any of the \~135 commands across 25 resource groups. A few examples:
 
 ```
 # Send a transactional email
@@ -163,7 +163,7 @@ mailtrap contact-lists create --name "Product Launch Waitlist"
 mailtrap contact-fields create \
   --name "Job Title" \
   --data-type text \
-  --merge-tag 'Job Title'
+  --merge-tag job_title
 ```
 {% endstep %}
 
@@ -195,12 +195,18 @@ mailtrap templates create \
 ### Launch the email campaign
 
 ```
-mailtrap send bulk \
-  --from "team@myapp.com" \
-  --to "john@acme.com" \
-  --subject 'We are live!' \
-  --html '<h1>Hello John, we just launched!</h1>' \
-  --category "product-launch"
+mailtrap email-campaigns create \
+  --name "Product Launch" \
+  --domain-id <DOMAIN_ID> \
+  --from-local-part team \
+  --subject 'We are live!'
+
+mailtrap email-campaigns update \
+  --id <CAMPAIGN_ID> \
+  --body-html '<h1>Hello {{first_name}}, we just launched!</h1><a href="__unsubscribe_url__">Unsubscribe</a>' \
+  --contact-list-ids <LIST_ID>
+
+mailtrap email-campaigns start --id <CAMPAIGN_ID>
 ```
 {% endstep %}
 {% endstepper %}

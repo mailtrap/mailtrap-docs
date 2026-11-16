@@ -84,7 +84,7 @@ Build the authenticated HTTP request in your programming language or framework a
 Alternatively, choose the programming language or framework from the menu under Code Samples and copy the sample configuration (it will already contain your credentials).
 
 {% hint style="info" %}
-For now, only Ruby, PHP (Laravel + Symfony), Node.js, and Go SDKs support Bulk Stream, but others are in development. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
+Ruby, PHP (Laravel + Symfony), Node.js, Go, Python, Java, and .NET SDKs support Bulk Stream. Request and response examples are also available [here](https://docs.mailtrap.io/developers/email-sending/transactional).
 {% endhint %}
 {% endstep %}
 {% endstepper %}
