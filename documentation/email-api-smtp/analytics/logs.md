@@ -16,7 +16,7 @@ It’s a place to view all the emails sent from your account, along with their c
 
 These filters are a quick way to find:
 
-* **Bounces** — All emails that were not accepted by the recipient’s mailbox provider (for any reason).
+* **Not Delivered** — All emails that were not accepted by the recipient’s mailbox provider (for any reason).
 * **Spam** — All emails that were reported as spam by the recipients (this does not include emails that landed in the recipients’ spam folders).
 * **Google** — All emails that were sent to free Gmail accounts.
 * **Google Workspace** — All emails sent to mailboxes using Google Workspace, the paid version of Gmail used by businesses and organizations.

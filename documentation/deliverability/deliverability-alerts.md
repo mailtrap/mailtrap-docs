@@ -38,7 +38,7 @@ Critical Alerts can cover all metrics shown in Reputation Monitoring dashboard, 
 
 <figure><img src="../.gitbook/assets/reputation alerts 6 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Critical Alerts are sent hourly (the system checks your metrics every three hours for the past 24 hours) when one or more of your critical stats are below the predetermined threshold.
+Mailtrap checks your metrics every hour and sends a Critical Alert when one or more of your critical stats are below the predetermined threshold.
 
 <div align="center" data-with-frame="true"><figure><img src="../.gitbook/assets/critical-alerts-demo.gif" alt="Animated demonstration of Critical Alerts notification appearing on mobile device" width="563"><figcaption></figcaption></figure></div>
 

@@ -50,7 +50,7 @@ Make sure you're using the correct SMTP/API credentials provided in the Integrat
 **Check API Token (if using custom tokens)**
 
 1. Go to [API Tokens](https://mailtrap.io/settings/api-tokens)
-2. Verify the token has **Send Email** permissions
+2. Verify the token has **Admin** access to the sending domain (or to the account)
 3. Ensure it's assigned to the correct domain
 4. Check that the token hasn't expired
 {% endstep %}

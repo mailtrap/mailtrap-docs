@@ -10,7 +10,7 @@ description: >-
 ### Error message
 
 ```
-Error: Mail command failed: 550 5.7.1 Sending from domain is not allowed
+Error: Mail command failed: 550 5.7.1 Sending from domain yourdomain.com is not allowed
 ```
 
 This error occurs when you try to send an email using SMTP with a domain that doesn't match your verified domain in Mailtrap.

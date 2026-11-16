@@ -47,7 +47,7 @@ Open the Integration tab.
 {% endstep %}
 
 {% step %}
-Toggle the switch to Email Testing.
+Toggle the switch to Sandbox.
 {% endstep %}
 
 {% step %}
