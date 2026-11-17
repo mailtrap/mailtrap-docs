@@ -33,17 +33,7 @@ Keep in mind that **separate permissions still apply**. If a person also has per
 
 Those users have access to the Organization panel only (unless they have been granted access to some specific accounts additionally).
 
-<br>
-
-| **Section of the Organization panel** | **Admin**                                                                        | **Viewer**                                              |
-| ------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| **Sub-accounts**                      | View the list and create sub-accounts                                            | View the list                                           |
-| **Usage & limits**                    | View usage and edit sub-account limits                                           | View usage and limits                                   |
-| **Organization details**              | View details and rename the organization                                         | View details                                            |
-| **Billing and subscriptions**         | Manage plans, payment methods, and billing settings                              | View subscriptions, payment method, and payment history |
-| **User management**                   | Manage Organization Access Only users and users whose only permission is Billing | Unavailable                                             |
-| **API Tokens**                        | Manage organization-only tokens                                                  | Unavailable                                             |
-| **Audit Log**                         | View organization events when included in the plan                               | Unavailable                                             |
+<table data-header-hidden data-search="false"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Section of the Organization panel</strong></td><td><strong>Admin</strong></td><td><strong>Viewer</strong></td></tr><tr><td><strong>Sub-accounts</strong></td><td>View the list and create sub-accounts</td><td>View the list</td></tr><tr><td><strong>Usage &#x26; limits</strong></td><td>View usage and edit sub-account limits</td><td>View usage and limits</td></tr><tr><td><strong>Organization details</strong></td><td>View details and rename the organization</td><td>View details</td></tr><tr><td><strong>Billing and subscriptions</strong></td><td>Manage plans, payment methods, and billing settings</td><td>View subscriptions, payment method, and payment history</td></tr><tr><td><strong>User management</strong></td><td>Manage Organization Access Only users and users whose only permission is Billing</td><td>Unavailable</td></tr><tr><td><strong>API Tokens</strong></td><td>Manage organization-only tokens</td><td>Unavailable</td></tr><tr><td><strong>Audit Log</strong></td><td>View organization events when included in the plan</td><td>Unavailable</td></tr></tbody></table>
 
 Neither level grants access to the settings or content inside a sub-account. Creating a sub-account does not give the creator permission to open it.
 
@@ -64,6 +54,3 @@ An Admin token can list, create or delete sub-accounts. A Viewer token can only 
 * Transferring a sub-account requires access to that sub-account and is unavailable through this role alone.
 * An Organization Access Only Admin can request deletion of a sub-account without access to its contents.&#x20;
 * An Organization Access Only Admin can turn off the Organization & Sub-accounts feature from organization settings only when exactly one sub-account remains.
-
-\
-<br>
