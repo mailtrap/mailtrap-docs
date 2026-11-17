@@ -3,9 +3,11 @@ title: Before you start sending
 description: 7 things to get right before you start sending with Mailtrap
 ---
 
+# Before you start sending
+
 These recommendations will help you avoid some of the most common setup mistakes, protect your sender reputation and build a healthier sending setup from day one.
 
-## 1. Test your email flow in Email Sandbox first
+### 1. Test your email flow in Email Sandbox first
 
 Before sending to real recipients, connect your development and staging environments to **Email Sandbox**.
 
@@ -17,7 +19,7 @@ This is one of the most common onboarding mistakes we see: users start testing w
 
 **Learn more:** [Email Sandbox overview](../email-sandbox/overview.md)
 
-## 2. Keep your API and SMTP credentials secure
+### 2. Keep your API and SMTP credentials secure
 
 Treat your Mailtrap credentials the same way you would treat a password.
 
@@ -27,7 +29,7 @@ Store secrets securely in environment variables or your preferred secrets-manage
 
 **Learn more:** [Mailtrap API documentation](https://docs.mailtrap.io/developers)
 
-## 3. Keep your sending domain aligned with your business
+### 3. Keep your sending domain aligned with your business
 
 Whenever possible, send from your company's primary domain or a related subdomain. Keeping a consistent domain identity helps you build domain reputation over time and makes your sending easier for recipients and mailbox providers to recognize.
 
@@ -35,7 +37,7 @@ Using a dedicated subdomain, such as notifications.example.com or marketing.exam
 
 If your sending domain is **not obviously connected to your company's website or brand**, make sure this relationship is clear when completing Mailtrap's compliance check. Providing this information from the start helps us verify that the domain is legitimately associated with your business and can prevent additional verification requests later.
 
-## 4. Protect forms that trigger emails
+### 4. Protect forms that trigger emails
 
 Does your website send an email when someone submits a registration, contact, password-reset, or another public form?
 
@@ -47,7 +49,7 @@ Consider implementing **CAPTCHA or another bot-protection mechanism**, along wit
 
 **Learn more:** [How to diagnose and prevent email deliverability issues](https://mailtrap.io/blog/email-deliverability-issues/)
 
-## 5. Send emails only to recipients who expect them
+### 5. Send emails only to recipients who expect them
 
 A healthy sender reputation starts with the people you're sending to.
 
@@ -59,7 +61,7 @@ This is worth checking before importing your first list rather than after a camp
 
 **Learn more:** [Email Deliverability Guide](https://mailtrap.io/blog/email-deliverability/)
 
-## 6. Keep your recipient list clean
+### 6. Keep your recipient list clean
 
 Your list changes over time. Addresses become invalid, people unsubscribe, and some recipients may no longer want your emails.
 
@@ -71,9 +73,9 @@ Mailtrap also maintains **Suppression Lists** to prevent sending to recipients w
 
 Think of the Suppression List as a safety mechanism, not a replacement for maintaining a clean recipient database on your side.
 
-**Learn more:** [Suppressions List](../suppressions-list.md)
+**Learn more:** [Suppressions List](../general/suppressions-list/)
 
-## 7. Choose the right stream for your emails
+### 7. Choose the right stream for your emails
 
 Mailtrap offers different options depending on what you're sending.
 
@@ -83,7 +85,7 @@ If you're planning to create and manage marketing campaigns directly in Mailtrap
 
 **Learn more:** [Email Live Sending](../email-api-smtp/overview.md) · [Email Marketing](../email-marketing/overview.md)
 
-## One last thing: stay in touch
+### One last thing: stay in touch
 
 If we notice something that requires your attention or could affect your sending, our team may reach out with additional recommendations.
 
