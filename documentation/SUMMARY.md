@@ -135,6 +135,7 @@
 
 * [User Management & Organizations](account-and-organization/management/README.md)
   * [Organization & Sub-Accounts](account-and-organization/management/organization-and-sub-accounts.md)
+  * [Manage your organization without accessing sub-account data](account-and-organization/management/manage-your-organization-without-accessing-sub-account-data.md)
   * [User Roles & User Management](account-and-organization/management/users.md)
   * [User Groups](account-and-organization/management/user-groups.md)
   * [User Profile](account-and-organization/management/user-profile.md)
