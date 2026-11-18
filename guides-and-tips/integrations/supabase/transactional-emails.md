@@ -17,7 +17,7 @@ Currently, this integration supports Sending Domains (Email Live Sending) only a
 #### Prerequisites:
 
 * **Admin rights** for your Mailtrap account.
-* A [**verified sending domain**](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) set up within Mailtrap.
+* A [**verified sending domain**](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/sending-domain) set up within Mailtrap.
 * An existing **Supabase account** with an active project.
 
 #### Use cases:

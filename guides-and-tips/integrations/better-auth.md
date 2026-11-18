@@ -28,8 +28,8 @@ All of them are plain async functions, so a single `sendEmail` helper can serve 
 
 Before you start, make sure you have:
 
-* [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain)
-* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
+* [Verified your sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/sending-domain)
+* [Created and saved an API key](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens)
 * An existing Better Auth project
 
 ### Installation
@@ -188,7 +188,7 @@ Once you copy the scripts, update the following:
 * Replace `Your App` with the sender name you want recipients to see
 * Replace `https://yourdomain.com` in the invitation link with your app's base URL
 
-The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/advanced/webhooks), so you can tell reset emails from verification emails at a glance.
+The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks), so you can tell reset emails from verification emails at a glance.
 
 The link-based examples send both `html` and `text`. The HTML version gives recipients a clickable link, and the plain text version is a fallback for clients that do not render HTML. The one-time code is plain text only, since there is nothing to link to.
 
@@ -196,7 +196,7 @@ Escape every user-controlled value you interpolate into an `html` body. The invi
 
 Watch for this anywhere the value is not authored by you, including display names, team and organization names, and any custom note attached to an invitation. Escaping is only needed for `html`; `text` and `subject` are not parsed as markup, which is why the examples leave them as they are.
 
-For richer, designed emails, keep the markup out of your application code and use [Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) instead. Templates need a different payload, so add a separate helper rather than reusing `sendEmail`:
+For richer, designed emails, keep the markup out of your application code and use [Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/email-templates) instead. Templates need a different payload, so add a separate helper rather than reusing `sendEmail`:
 
 {% code title="email.ts" %}
 ```typescript

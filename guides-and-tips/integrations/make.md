@@ -29,8 +29,8 @@ Before you start, you'll need:
 
 * A [Make.com account](https://www.make.com/en/register)
 * A [Mailtrap account](https://mailtrap.io/register/signup)
-* [Verified sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/sending-domain) in Mailtrap
-* [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/api-tokens)
+* [Verified sending domain](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/sending-domain) in Mailtrap
+* [Mailtrap API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens)
 
 ### Connecting Mailtrap to Make.com
 
@@ -180,4 +180,4 @@ After setting up your Make.com integration:
 1. Explore more complex scenarios with multiple steps
 2. Combine Mailtrap with other apps for powerful workflows
 3. Set up monitoring and alerts for your scenarios
-4. Review [Mailtrap Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/email-templates) for better email design
+4. Review [Mailtrap Email Templates](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/email-templates) for better email design
