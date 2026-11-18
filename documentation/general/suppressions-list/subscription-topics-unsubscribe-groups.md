@@ -108,7 +108,12 @@ You can check unsubscribes in three places:
 
 * **Unsubscribes** → **Suppressions**: See recipients who fully unsubscribed, either by choosing to unsubscribe from all marketing emails or by opting out of all topics.
 * **Contacts**: Check each contact’s status. A contact who opts out of some topics is shown as **Partially subscribed**. A contact who opted out from all topics or unsubscribes from all marketing emails is shown as **Unsubscribed**.
+
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/subscription_statuses.png" alt="" width="563"><figcaption></figcaption></figure></div>
+
 * **Sending History**: Filter unsubscribe events by topic, such as Newsletters, to see which recipients unsubscribed and which emails they used to do so.
+
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2026-11-17 at 6.15.59 PM.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### How to delete a topic
 
