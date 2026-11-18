@@ -11,6 +11,8 @@ This is especially useful for central operations, finance teams, and agencies or
 3. Select **Organization Access Only** and choose **Admin** or **Viewer**.
 4. Send the invitation.
 
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2026-11-17 at 5.38.51 PM.png" alt=""><figcaption></figcaption></figure></div>
+
 The recipient joins the organization directly and does not need a sub-account.
 
 For an existing member, edit their permissions in organization-level User Management. To restrict access to the organization, remove Organization & Sub-accounts and any separate sub-account permissions.
