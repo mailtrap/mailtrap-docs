@@ -71,8 +71,3 @@ See the Vercel Connect guide for detailed setup instructions.
 #### Getting started
 
 Both integration guides above contain step-by-step instructions, screenshots, and code examples. Choose the option that best fits your use case and follow the corresponding guide.
-
-<br>
-
-
-
