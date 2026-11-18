@@ -1,0 +1,19 @@
+documentation/getting-started/email-api-smtp.md
+  s_6e355f77da3000::t_f661ba79b9b9a3 28,625
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9dbeb9860fa15c64e4fece5565259124863b9e71",
+  "prompts": {},
+  "sessions": {
+    "s_6e355f77da3000": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "af7e0993-27a2-465e-b4f1-3e5bf0fbec32",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Volodymyr Pihol <volodymyr.pihol@railsware.com>"
+    }
+  }
+}
