@@ -8,7 +8,7 @@ description: >-
 
 Mailtrap can now be integrated with Supabase, giving you flexible options for email sending and contact automation. This integration allows you to exceed the default sending limits and sync your user base to send personalized email campaigns.
 
-## Integration Options
+## Integration options
 
 Mailtrap offers two main integration approaches with Supabase:
 
@@ -16,7 +16,7 @@ Mailtrap offers two main integration approaches with Supabase:
 
 Use Mailtrap's SMTP settings to send emails directly through your Supabase project. This approach is ideal for applications that use SMTP-based email delivery.
 
-**Key Features:**
+**Key features:**
 
 * Configure SMTP credentials in Supabase Authentication settings
 * Send emails through Supabase's built-in email system
@@ -32,7 +32,7 @@ See the Mailtrap SMTP and Supabase integration guide for detailed setup instruct
 
 Sync your Supabase user database with Mailtrap's Contacts feature to manage recipient lists and send campaigns.
 
-**Key Features:**
+**Key features:**
 
 * Manage and segment contacts from your Supabase database
 * Send personalized email campaigns to contact lists
@@ -45,7 +45,7 @@ See the Mailtrap Contacts and Supabase integration guide for detailed setup inst
 [contacts-management.md](contacts-management.md)
 {% endcontent-ref %}
 
-## Which Integration Should You Choose?
+## Which integration should you choose?
 
 **Choose SMTP + Supabase if you:**
 
@@ -62,6 +62,6 @@ See the Mailtrap Contacts and Supabase integration guide for detailed setup inst
 * Plan to automate email sequences
 * Want to sync users from Supabase to Mailtrap's contact system
 
-## Getting Started
+## Getting started
 
 Both integration guides above contain step-by-step instructions, screenshots, and code examples. Choose the option that best fits your use case and follow the corresponding guide.
