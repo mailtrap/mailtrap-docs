@@ -28,11 +28,11 @@ If you'd rather have Mailtrap credentials added to your project as environment v
 * Navigate to **Settings** → [**API Tokens**](https://mailtrap.io/settings/api-tokens).
 * Click **Add Token** and give it permissions for the domains, sandboxes, and inboxes your app uses.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/Pasted image 2026-11-18 06.15.38.png" alt=""></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-18 06.15.38.png" alt=""></div>
 
 * Copy the token since you'll need it in the next step.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/Pasted image 2026-11-18 06.16.59.png" alt="" height="256" width="624"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-18 06.16.59.png" alt="" height="256" width="624"></div>
 {% endstep %}
 
 {% step %}
@@ -40,7 +40,7 @@ If you'd rather have Mailtrap credentials added to your project as environment v
 
 * Open the [Mailtrap connector](https://vercel.com/connect/mailtrap) page or search for it on the Browse Connectors page.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/Pasted image 2026-11-18 06.17.56.png" alt="" height="243" width="624"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-18 06.17.56.png" alt="" height="243" width="624"></div>
 
 {% hint style="info" %}
 Using an AI coding agent? On the Mailtrap connector page, click **Copy Prompt** and paste it into Claude Code, Cursor, or a similar agent to have it set up the connector for you. Keep in mind that you’ll still need a Mailtrap API token from the first step.
@@ -53,11 +53,11 @@ Using an AI coding agent? On the Mailtrap connector page, click **Copy Prompt** 
   * **Key** – Paste the Mailtrap API token you created in the previous step.
   * **Expiration (optional)** – Leave as _No expiration_, or set a date to match your token rotation policy.
 
-<div align="left" data-with-frame="true"><img src="../.gitbook/assets/Pasted image 2026-11-18 06.18.45.png" alt="" width="563"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-18 06.18.45.png" alt="" width="563"></div>
 
 * Click **Create Connector**, then **Continue** on the following window.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/unnamed (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/unnamed (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 When your Mailtrap API token expires, Mailtrap API requests stop until you add a new token. To replace it, open the connector in Vercel and update the key under **Settings**.
 {% endstep %}
@@ -67,7 +67,7 @@ When your Mailtrap API token expires, Mailtrap API requests stop until you add a
 
 Once you create the connector, confirm that the Mailtrap credential is configured and the connector is active on the connector page:
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-11-17 at 16.45.43.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2026-11-17 at 16.45.43.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -75,11 +75,11 @@ Once you create the connector, confirm that the Mailtrap credential is configure
 
 * On the connector page, click **Connect Project**.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-11-17 at 17.08.21.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2026-11-17 at 17.08.21.png" alt=""><figcaption></figcaption></figure></div>
 
 * Select the project and the environments that should have access.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-11-17 at 17.08.51.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/Screenshot 2026-11-17 at 17.08.51.png" alt=""><figcaption></figcaption></figure></div>
 
 And that's it! Your project can now request Mailtrap credentials from its builds and runtime.
 

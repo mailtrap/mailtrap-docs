@@ -45,9 +45,9 @@
   * [Sync Contacts with Supabase](integrations/supabase/contacts-management.md)
 * [Wget](integrations/wget.md)
 * [Upyo](integrations/upyo.md)
-* [Vercel](integrations/vercel.md)
-* [Vercel integration](integrations/vercel-1.md)
-* [Vercel Connect](integrations/vercel-connect.md)
+* [Vercel](integrations/vercel/README.md)
+  * [Vercel integration](integrations/vercel/vercel.md)
+  * [Vercel Connect](integrations/vercel/vercel-connect.md)
 * [Zapier](integrations/zapier.md)
 
 ## AI-Powered Integrations
