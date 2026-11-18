@@ -30,8 +30,8 @@ Install the Mailtrap integration from Mailtrap’s Integrations page to automati
 
 See the native Vercel integration guide for detailed setup instructions.
 
-{% content-ref url="vercel.md" %}
-[vercel.md](vercel.md)
+{% content-ref url="integration.md" %}
+[integration.md](integration.md)
 {% endcontent-ref %}
 
 #### **Vercel Connect (runtime credentials)**
@@ -47,8 +47,8 @@ Create a Mailtrap connector in Vercel, and your apps and AI agents request Mailt
 
 See the Vercel Connect guide for detailed setup instructions.
 
-{% content-ref url="vercel-connect.md" %}
-[vercel-connect.md](vercel-connect.md)
+{% content-ref url="connect.md" %}
+[connect.md](connect.md)
 {% endcontent-ref %}
 
 #### Which integration should you choose?
