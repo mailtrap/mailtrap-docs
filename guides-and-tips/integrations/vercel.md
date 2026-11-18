@@ -1,102 +1,74 @@
 ---
-title: <i class="fa-server">:server:</i> Vercel and Mailtrap Integration
 description: >-
-  Step-by-step guide on how to integrate Mailtrap with your application hosted
-  on Vercel to enable email sending capabilities.
+  Comprehensive guide to integrate Mailtrap with Vercel for live email sending,
+  sandbox testing, and inbound email.
 ---
 
 # Vercel
 
-Mailtrap’s native integration with Vercel removes manual setup friction, minimizes configuration mistakes, and makes it easy to follow a reliable testing-to-production email workflow.
+You can integrate Mailtrap with Vercel in two ways, through:
 
-This integration automatically configures the environment variables necessary for both testing (Sandbox) and production sending in your Vercel projects.
+* Environment variables added to your project
+* Vercel Connect, which supplies Mailtrap credentials at runtime
 
-{% hint style="info" %}
-The integration adds a set of three variables (`API_KEY`, `USE_SANDBOX`, and `INBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
-{% endhint %}
+Both let your Vercel apps send emails through Mailtrap, test them in Email Sandbox, receive inbound email, and use the Mailtrap API.
 
-#### Prerequisites
+### Integration options
 
-* **Admin rights** for your Mailtrap account.
-* A [verified sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) set up within Mailtrap.
-* An existing **Vercel account** with one or more projects.
+Mailtrap offers two main integration approaches with Vercel:
 
-### Step-by-step integration guide
+#### **Native Vercel integration (environment variables)**
 
-{% stepper %}
-{% step %}
-#### Initiate the integration
+Install the Mailtrap integration from Mailtrap’s Integrations page to automatically add Mailtrap credentials to your Vercel project as environment variables. This approach is ideal for apps that read their configuration from environment variables and switch between testing and production sending.
 
-* Log in to your Mailtrap account
-* Navigate to the [**Integrations** page](https://mailtrap.io/api-smtp/integrations) from the sidebar.
-* Locate the **Vercel** card under the **AI & Development** section.
-* Click the **Integrate** button.
+**Key features**:
 
-<figure><img src="../.gitbook/assets/vercel 1.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
+* Mailtrap credentials are added to your project automatically, with no manual copying
+* Separate variables for the Development, Preview, and Production environments
+* Switch between Email Sandbox and live sending per environment
+* An API token generated at the domain level during setup
 
-{% step %}
-#### Authorize with Vercel account
+See the native Vercel integration guide for detailed setup instructions.
 
-Click the **Authorize with Vercel** account button. You will be redirected to the Mailtrap listing page.
+[vercel-1.md](vercel-1.md "mention")
 
-<figure><img src="../.gitbook/assets/vercel 2.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
+#### **Vercel Connect (runtime credentials)**
 
-{% step %}
-#### Connect your Mailtrap account
+Create a Mailtrap connector in Vercel, and your apps and AI agents request Mailtrap credentials at runtime instead of storing an API key in environment variables. This approach is ideal for AI-built apps and agents that should never see the API key.
 
-On the Vercel integration page, click on **Connect Account** and then:
+**Key features**:
 
-* Select your Vercel team.
-* Select the specific project you want the integration to apply to.
-  * **Note**: You’ll need to choose the project again on the Mailtrap side in the next step.
-* Click **Connect Account** to proceed, and a new popup will appear.
+* The Mailtrap API key never appears in your app’s code or environment variables
+* Credentials are requested at runtime through the Vercel Connect SDK
+* One shared API key on the connector, which you can update or rotate in one place
+* Works with the Email API, Email Sandbox, and the Inbound Email API
 
-<figure><img src="../.gitbook/assets/vercel 4.png" alt=""><figcaption></figcaption></figure>
+See the Vercel Connect guide for detailed setup instructions.
 
-{% hint style="warning" %}
-Currently, the integration cannot be added to all projects, only to specific ones.
-{% endhint %}
-{% endstep %}
+[vercel-connect.md](vercel-connect.md "mention")
 
-{% step %}
-#### Select a Vercel project in Mailtrap
+#### Which integration should you choose?
 
-Select the specific Vercel project you want to configure from the dropdown menu.
+**Choose the native integration if you**:
 
-<figure><img src="../.gitbook/assets/vercel 5.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
+* Want the quickest setup with no code changes to how your app reads credentials
+* Already use environment variables for your app’s configuration
+* Want separate testing and production settings for each Vercel environment
+* Only need to send emails, in testing or production
 
-{% step %}
-#### Create an API Token
+**Choose Vercel Connect if you**:
 
-Choose the domain from which you intend to send emails and click **Create Token**. The token will be generated at the domain level.
+* Don’t want the API key stored in environment variables
+* Are building an AI agent that sends or reads emails without the model seeing the API key
+* Built your app with v0 or the AI SDK
+* Need the Inbound Email API, for example to give an agent its own email address
+* Want to rotate the API key in one place without redeploying
 
-<figure><img src="../.gitbook/assets/vercel 6.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
+#### Getting started
 
-{% step %}
-#### Add environment variables and complete the installation
+Both integration guides above contain step-by-step instructions, screenshots, and code examples. Choose the option that best fits your use case and follow the corresponding guide.
 
-The following variables will be added to your Vercel project:
+<br>
 
-* `MAILTRAP_API_KEY` – Required for both testing and sending.
-* `MAILTRAP_USE_SANDBOX` – Set to **True** to use Mailtrap's Sandbox for testing, or **False** for production sending.
-* `MAILTRAP_INBOX_ID` – Required if using the Sandbox. Select the desired Inbox from the dropdown.
 
-Once you’re done reviewing the variables, click **Set Environment Variables**. This will finalize the integration and close the setup window.
 
-<figure><img src="../.gitbook/assets/vercel 7.png" alt=""><figcaption></figcaption></figure>
-
-#### Verifying the integration in Vercel
-
-Once the setup is complete, you can verify the environment variables in your Vercel account:
-
-1. Go to your Vercel project settings.
-2. Navigate to the **Environment Variables** section.
-3. You should see nine Mailtrap environment variables. A set of three variables (`API_KEY`, `USE_SANDBOX`, and `INBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
-
-<figure><img src="../.gitbook/assets/vercel 8.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-{% endstepper %}
