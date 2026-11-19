@@ -1,8 +1,8 @@
 ---
 title: Setup & Configuration
 description: >-
-  Set up and configure Mailtrap email API and SMTP service and start sending
-  emails in minutes.
+  Set up and configure Mailtrap Email Live Sending and start sending emails in
+  minutes.
 ---
 
 # Setup & Configuration

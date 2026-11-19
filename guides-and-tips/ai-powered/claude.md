@@ -16,7 +16,7 @@ In this guide, you’ll learn how to integrate it with the Mailtrap MCP, which a
 * [Fetch, validate, and edit email templates](claude.md#template-validation)
 * [Forward email templates to your teammates](claude.md#integrating-mailtrap-into-your-project)
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 **Prerequisites**:
 

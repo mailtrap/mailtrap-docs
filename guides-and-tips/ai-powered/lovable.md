@@ -9,7 +9,7 @@ description: >-
 
 [Lovable](https://lovable.dev/) is a platform that lets you build apps and websites by chatting with AI. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 **Before we start**:
 

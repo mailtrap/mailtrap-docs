@@ -17,7 +17,7 @@ In this guide, you’ll learn how to:
 
 _Click on any of the links above to jump ahead to the detailed step-by-step section._
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 ### Integrate Mailtrap with your Cursor project
 

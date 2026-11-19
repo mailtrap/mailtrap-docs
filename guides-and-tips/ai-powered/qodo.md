@@ -4,7 +4,7 @@
 
 And keep in mind that, you can use your AI agent to help you integrate Mailtrap or even migrate from another email service provider.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 ### Prerequisites
 

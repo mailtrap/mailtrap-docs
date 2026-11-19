@@ -14,7 +14,7 @@ This page covers frequently asked questions about Mailtrap's products. For techn
 
 <summary>What is Mailtrap?</summary>
 
-Mailtrap is an email delivery service to send transactional and promotional emails. Popular among developer and product teams for its Email API and SMTP solutions.
+Mailtrap is an email delivery service to send transactional and promotional emails. Popular among developer and product teams for Email Live Sending.
 
 </details>
 
@@ -103,7 +103,7 @@ Yes, you can. Mailtrap offers the Inbound Email API, which allows you to create 
 
 <summary>Can I send emails to end-users with Mailtrap?</summary>
 
-Yes, you can. Mailtrap is an email delivery service to send transactional and promotional emails. Popular among developer and product teams for its Email API and SMTP solutions.
+Yes, you can. Mailtrap is an email delivery service to send transactional and promotional emails. Popular among developer and product teams for Email Live Sending.
 
 </details>
 

@@ -9,7 +9,7 @@ description: >-
 
 [Bolt.new](https://bolt.new/) is an AI-powered builder that lets you generate and scale high-performing websites and apps using prompts. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 **Before we start**:
 

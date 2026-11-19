@@ -4,7 +4,7 @@ Codex is OpenAI’s open-source AI coding agent, available as a CLI tool, deskto
 
 Once configured, Codex can help you with email sending operations, including email logs, statistics, email templates, and sending domain management. Also, you can use sandbox operations - all through natural language prompts.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 ### Prerequisites
 

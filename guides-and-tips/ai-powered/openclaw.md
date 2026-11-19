@@ -14,7 +14,7 @@ This guide shows you how to integrate [Email Sandbox](https://mailtrap.io/email-
 * **Inspect via UI or API**: Review emails in Mailtrap's web interface or fetch them programmatically before you move to production.
 * **Zero risk to real recipients**: No matter what the agent does, emails stay contained within the Sandbox.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 ### Why use Email Sandbox with OpenClaw?
 

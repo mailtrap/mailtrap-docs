@@ -6,7 +6,7 @@ With Mailtrap's MCP server connected to Augment Code, you can create and test em
 
 In this guide, you'll learn how to set up the integration and create a template in three steps.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 #### Prerequisites
 

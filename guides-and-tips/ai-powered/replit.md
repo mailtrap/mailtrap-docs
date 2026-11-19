@@ -8,7 +8,7 @@ description: >-
 
 [Replit](https://replit.com/) is a tool that lets you build and deploy software using AI without any coding whatsoever. In this article, you’ll learn how to connect it to Mailtrap and add email-sending functionality to your projects.
 
-**Note**: Mailtrap offers a free, 4000 email/month Email API and SMTP plan.
+**Note**: Mailtrap offers a free, 4000 email/month Email Live Sending plan.
 
 **Prerequisites**:
 
