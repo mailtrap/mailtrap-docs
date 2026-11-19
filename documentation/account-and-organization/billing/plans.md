@@ -35,7 +35,7 @@ More details on billing plans [here](https://mailtrap.io/pricing/).
 
 | Product                                                   | Free tier                     | Starting paid price    | Priced by                          |
 | --------------------------------------------------------- | ----------------------------- | ---------------------- | ---------------------------------- |
-| [Email Live Sending](plans.md#email-live-sending-pricing) | 4,000 emails/mo               | $15/mo (12/mo annual)  | Emails sent and received per month |
+| [Email Live Sending](plans.md#email-live-sending-pricing) | 4,000 emails/mo               | $15/mo ($12/mo annual) | Emails sent and received per month |
 | [Email Sandbox](plans.md#email-sandbox-pricing)           | 50 test emails/mo             | $17/mo ($14/mo annual) | Test emails per month              |
 | [Email Marketing](plans.md#email-marketing-pricing)       | 500 contacts, 1,500 emails/mo | $15/mo ($12/mo annual) | Contacts stored                    |
 
