@@ -112,9 +112,13 @@ Every tier includes email templates, the drag-and-drop and code editors, contact
 
 Paid tiers add, in order:
 
-* **Essential:** scheduling, automations, click tracking, HTTPS link branding, up to 3 users and 3 domains, IP whitelisting
+* **Essential:** scheduling, click tracking, HTTPS link branding, up to 3 users and 3 domains, IP whitelisting
 * **Pro:** dedicated IP with auto warm-up, SSO, sub-accounts, audit logs, deliverability expert consultations, 24/7 live chat and priority support, up to 100 users and 100 domains
 * **Custom:** custom contracts, enterprise billing, unlimited users and domains
+
+{% hint style="info" %}
+Automations are available on all plans, including Free.
+{% endhint %}
 
 ### Annual vs. monthly billing
 
