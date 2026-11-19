@@ -112,7 +112,7 @@ gem install mailtrap
 <dependency>
     <groupId>io.mailtrap</groupId>
     <artifactId>mailtrap-java</artifactId>
-    <version>1.11.0</version>
+    <version>1.11.1</version>
 </dependency>
 ```
 {% endtab %}
