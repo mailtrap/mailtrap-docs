@@ -20,7 +20,7 @@ The API documentation is organized into the following sections:
 
 {% columns %}
 {% column width="33.33333333333333%" %}
-**Email API/SMTP**
+**Email Live Sending**
 
 Endpoints to send transactional and [bulk](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream) (promotional) emails, as well as manage sending domains, suppressions, and delivery statistics.
 {% endcolumn %}
@@ -29,7 +29,7 @@ Endpoints to send transactional and [bulk](https://docs.mailtrap.io/email-api-sm
 **Email Sandbox**
 
 Endpoints for testing and inspecting emails in a safe environment.\
-**Note**: Email Sending and Email Sandbox use different base URLs.
+**Note**: Email Live Sending and Email Sandbox use different base URLs.
 {% endcolumn %}
 
 {% column %}

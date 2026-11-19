@@ -2,7 +2,6 @@
 description: >-
   Explore Mailtrap benefits for educational and non-profit institutions,
   including free plans, 50% discounts, and eligibility requirements.
-icon: graduation-cap
 layout:
   width: default
   title:
@@ -19,6 +18,10 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Educational institutions
@@ -26,7 +29,7 @@ layout:
 For the educational institutions that act without profit-making intentions, such as institutions of primary education, secondary education I / II, chairs at universities, public courses or public libraries, we offer the following benefits:
 
 * **Email Sandbox** – Free access to the Team plan
-* **Email API / SMTP** – Free access to the Basic 10K plan
+* **Email Live Sending** – Free access to the Basic 10K plan
 * **Discounted Billing** – All other paid plans are available at a 50% discount
 
 To activate a non-profit plan, please email us at **support@mailtrap.io** with the following:

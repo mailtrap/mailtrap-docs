@@ -1,8 +1,8 @@
 ---
 description: >-
-  Learn about and compare Mailtrap's pricing for Email API/SMTP, Email Sandbox,
-  and Email Marketing: free tiers, paid plan rates, overage costs, and bundle
-  discounts explained.
+  Learn about and compare Mailtrap's pricing for Email Live Sending, Email
+  Sandbox, and Email Marketing: free tiers, paid plan rates, overage costs, and
+  bundle discounts explained.
 layout:
   width: default
   title:
@@ -27,17 +27,17 @@ layout:
 
 # Pricing Plans
 
-Mailtrap prices Email API/SMTP, Email Sandbox, and Email Marketing separately. Each product offers a free tier.
+Mailtrap prices Email Live Sending, Email Sandbox, and Email Marketing separately. Each product offers a free tier.
 
 More details on billing plans [here](https://mailtrap.io/pricing/).
 
 ### Pricing summary
 
-| Product                                             | Free tier                     | Starting paid price    | Priced by                          |
-| --------------------------------------------------- | ----------------------------- | ---------------------- | ---------------------------------- |
-| [Email API/SMTP](plans.md#email-api-smtp-pricing)   | 4,000 emails/mo               | $15/mo                 | Emails sent and received per month |
-| [Email Sandbox](plans.md#email-sandbox-pricing)     | 50 test emails/mo             | $17/mo ($14/mo annual) | Test emails per month              |
-| [Email Marketing](plans.md#email-marketing-pricing) | 500 contacts, 1,500 emails/mo | $15/mo ($12/mo annual) | Contacts stored                    |
+| Product                                                   | Free tier                     | Starting paid price    | Priced by                          |
+| --------------------------------------------------------- | ----------------------------- | ---------------------- | ---------------------------------- |
+| [Email Live Sending](plans.md#email-live-sending-pricing) | 4,000 emails/mo               | $15/mo ($12/mo annual) | Emails sent and received per month |
+| [Email Sandbox](plans.md#email-sandbox-pricing)           | 50 test emails/mo             | $17/mo ($14/mo annual) | Test emails per month              |
+| [Email Marketing](plans.md#email-marketing-pricing)       | 500 contacts, 1,500 emails/mo | $15/mo ($12/mo annual) | Contacts stored                    |
 
 All plans, including Free, come with GDPR, ISO 27001, SOC 2 Type II compliance, and two-factor authentication.
 
@@ -45,19 +45,19 @@ All plans, including Free, come with GDPR, ISO 27001, SOC 2 Type II compliance, 
 
 Every product has a free forever tier — no credit card required:
 
-* **4,000 emails/mo** for Email API/SMTP (150/day cap)
+* **4,000 emails/mo** for Email Live Sending (150/day cap)
 * **50 test emails/mo** for Email Sandbox
 * **500 contacts & 1,500 emails/mo** for Email Marketing
 
 Enough to fully test an integration, prototype an AI workflow, or run a small project before upgrading.
 
-### Email API/SMTP pricing
+### Email Live Sending pricing
 
-Send transactional emails — welcome emails, password resets, order confirmations. Receive inbound email in the same plan. See the [Email API/SMTP overview](../../email-api-smtp/overview.md) for the full feature rundown.
+Send transactional emails — welcome emails, password resets, order confirmations. Receive inbound email in the same plan. See the [Email Live Sending overview](../../email-api-smtp/overview.md) for the full feature rundown.
 
-<table data-search="false"><thead><tr><th>Plan</th><th>Price/mo</th><th>Emails/mo</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>4,000</td></tr><tr><td>Basic</td><td>$15</td><td>10,000</td></tr><tr><td>Basic</td><td>$20</td><td>50,000</td></tr><tr><td>Basic</td><td>$30</td><td>100,000</td></tr><tr><td>Business</td><td>$85</td><td>100,000</td></tr><tr><td>Business</td><td>$200</td><td>250,000</td></tr><tr><td>Business</td><td>$300</td><td>500,000</td></tr><tr><td>Business</td><td>$450</td><td>750,000</td></tr><tr><td>Enterprise</td><td>$750</td><td>1,500,000</td></tr><tr><td>Enterprise</td><td>$1,250</td><td>2,500,000</td></tr><tr><td>Enterprise</td><td>Custom</td><td>5,000,000+</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th>Plan</th><th>Monthly</th><th>Annual</th><th>Emails/mo</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>$0</td><td>4,000</td></tr><tr><td>Basic</td><td>$15</td><td>$12</td><td>10,000</td></tr><tr><td>Basic</td><td>$20</td><td>$16</td><td>50,000</td></tr><tr><td>Basic</td><td>$30</td><td>$24</td><td>100,000</td></tr><tr><td>Business</td><td>$85</td><td>$68</td><td>100,000</td></tr><tr><td>Business</td><td>$200</td><td>$160</td><td>250,000</td></tr><tr><td>Business</td><td>$300</td><td>$240</td><td>500,000</td></tr><tr><td>Business</td><td>$450</td><td>$360</td><td>750,000</td></tr><tr><td>Enterprise</td><td>$750</td><td>$600</td><td>1,500,000</td></tr><tr><td>Enterprise</td><td>$1,250</td><td>$1,000</td><td>2,500,000</td></tr><tr><td>Enterprise</td><td>Custom</td><td>Custom</td><td>2,500,000+</td></tr></tbody></table>
 
-Every tier includes API/SMTP relay, webhooks, email templates, the Bulk Stream, auto BCC, SDKs, SPF/DKIM/DMARC, suppression management, bounce categorization, open tracking, and inbound email receiving.&#x20;
+Every tier includes API/SMTP relay, webhooks, email templates, the Bulk Stream, auto BCC, SDKs, SPF/DKIM/DMARC, suppression management, bounce categorization, open tracking, and inbound email receiving.
 
 A few specifics on the table above:
 
@@ -73,7 +73,7 @@ Paid tiers add, in order:
 
 **Migration assistance:** available upon request for customers migrating to Mailtrap with expected sending volumes exceeding 200K emails per month. Our team can provide guidance on the migration process and technical deliverability considerations.
 
-Sending more than 5 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
+Sending more than 2.5 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
 
 #### Inbound email
 
@@ -104,27 +104,31 @@ Paid tiers add, in order:
 
 ### Email Marketing pricing
 
-Design, schedule, and track campaigns to a contact list — newsletters, announcements, drip sequences. See the [Email Marketing overview](../../email-marketing/overview.md).
+Design, schedule, and track campaigns to a contact list – newsletters, announcements, drip sequences. See the [Email Marketing overview](../../email-marketing/overview.md).
 
 <table data-search="false"><thead><tr><th>Plan</th><th>Monthly</th><th>Annual</th><th>Contacts</th><th>Emails/mo</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>$0</td><td>500</td><td>1,500</td></tr><tr><td>Essential</td><td>$15</td><td>$12</td><td>10,000</td><td>30,000</td></tr><tr><td>Essential</td><td>$29</td><td>$23</td><td>25,000</td><td>75,000</td></tr><tr><td>Pro</td><td>$59</td><td>$47</td><td>25,000</td><td>125,000</td></tr><tr><td>Pro</td><td>$109</td><td>$87</td><td>50,000</td><td>250,000</td></tr><tr><td>Pro</td><td>$214</td><td>$171</td><td>100,000</td><td>500,000</td></tr><tr><td>Pro</td><td>$499</td><td>$399</td><td>250,000</td><td>1,250,000</td></tr><tr><td>Custom</td><td>Custom</td><td>Custom</td><td>250,000+</td><td>1,250,000+</td></tr></tbody></table>
 
-Every tier includes email templates, the drag-and-drop and code editors, contact lists and segments, webhooks, API access, and open tracking. **Free plan limits:** 1 user · 1 domain · no scheduling · no automations.
+Every tier includes email templates, the drag-and-drop and code editors, contact lists and segments, webhooks, API access, and open tracking. **Free plan limits:** 1 user · 1 domain · no scheduling
 
 Paid tiers add, in order:
 
-* **Essential:** scheduling, automations, click tracking, HTTPS link branding, up to 3 users and 3 domains, IP whitelisting
+* **Essential:** scheduling, click tracking, HTTPS link branding, up to 3 users and 3 domains, IP whitelisting
 * **Pro:** dedicated IP with auto warm-up, SSO, sub-accounts, audit logs, deliverability expert consultations, 24/7 live chat and priority support, up to 100 users and 100 domains
 * **Custom:** custom contracts, enterprise billing, unlimited users and domains
 
+{% hint style="info" %}
+Automations are available on all plans, including Free.
+{% endhint %}
+
 ### Annual vs. monthly billing
 
-Email Sandbox and Email Marketing offer annual billing at up to **20% off** monthly (see the tables above). Email API/SMTP annual billing is available only via [request to sales team](https://mailtrap.io/talk-to-sales/).&#x20;
+All plans offer annual billing at up to **20% off** monthly (see the tables above).
 
 See [Billing Setup](setup.md) for payment details.
 
 ### Overage charges
 
-On Email API/SMTP or Email Marketing, emails over your monthly limit are billed as overage rather than blocked, up to a per-plan cap — you're notified at 80%, 90%, and 100% of it. Full mechanics, including recalculation on upgrade, are in the [Payment and Billing FAQs](faqs.md).
+On Email Live Sending or Email Marketing, emails over your monthly limit are billed as overage rather than blocked, up to a per-plan cap — you're notified at 80%, 90%, and 100% of it. Full mechanics, including recalculation on upgrade, are in the [Payment and Billing FAQs](faqs.md).
 
 ### Bundle discounts
 
@@ -137,8 +141,8 @@ Using more than one Mailtrap product? You can request a discount:
 
 ### Which plan do I need?
 
-* **Sending transactional or bulk email from your app or backend** → Email API/SMTP
-* **Receiving inbound email in your app or AI agent** → Email API/SMTP
+* **Sending transactional or bulk email from your app or backend** → Email Live Sending
+* **Receiving inbound email in your app or AI agent** → Email Live Sending
 * **Testing or debugging emails before they reach users** → Email Sandbox
 * **Sending newsletters or campaigns to a contact list** → Email Marketing
 
@@ -152,11 +156,11 @@ Not sure which tier? Start on Free & upgrade anytime from your account; changes 
 
 <summary>Does Mailtrap have a free plan?</summary>
 
-Yes — free forever, not a trial. Each product has its own free tier:&#x20;
+Yes — free forever, not a trial. Each product has its own free tier:
 
-* 4,000 emails/mo (Email API/SMTP),&#x20;
-* 50 test emails/mo (Email Sandbox),&#x20;
-* 500 contacts / 1,500 emails/mo (Email Marketing).&#x20;
+* 4,000 emails/mo (Email Live Sending),
+* 50 test emails/mo (Email Sandbox),
+* 500 contacts / 1,500 emails/mo (Email Marketing).
 
 No credit card required.
 
@@ -166,7 +170,7 @@ No credit card required.
 
 <summary>Does Mailtrap charge per user seat?</summary>
 
-No. Each plan includes a set number of seats, for example, Email API/SMTP Basic includes 3 users, Business includes 100 at no extra cost per teammate under that cap. See the plan tables above for exact counts.
+No. Each plan includes a set number of seats, for example, Email Live Sending Basic includes 3 users, Business includes 100 at no extra cost per teammate under that cap. See the plan tables above for exact counts.
 
 </details>
 
@@ -174,7 +178,7 @@ No. Each plan includes a set number of seats, for example, Email API/SMTP Basic 
 
 <summary>Can I use more than one Mailtrap product on the same account?</summary>
 
-Yes. Email API/SMTP, Email Sandbox, and Email Marketing are priced and billed separately, so you can mix plans however you need — for example, all three on Free; Email API/SMTP on a paid plan with Email Sandbox and Email Marketing on Free; or all three on paid plans.
+Yes. Email Live Sending, Email Sandbox, and Email Marketing are priced and billed separately, so you can mix plans however you need — for example, all three on Free; Email Live Sending on a paid plan with Email Sandbox and Email Marketing on Free; or all three on paid plans.
 
 If you'd like a bundle discount, get in touch with sales team: 20% off the cheaper plan for two products, or 20% off the two cheaper plans (with the priciest at full price) for three. See [Bundle discounts](plans.md#bundle-discounts) above.
 
@@ -184,7 +188,7 @@ If you'd like a bundle discount, get in touch with sales team: 20% off the cheap
 
 <summary>Is annual billing available for every product?</summary>
 
-Email Sandbox and Email Marketing offer annual billing at up to 20% off. Email API/SMTP is monthly by default; annual pricing is available by request.
+Yes, all plans offer annual billing at up to 20% off.
 
 </details>
 
@@ -192,9 +196,9 @@ Email Sandbox and Email Marketing offer annual billing at up to 20% off. Email A
 
 <details>
 
-<summary>What's the difference between Email API/SMTP and Email Sandbox pricing?</summary>
+<summary>What's the difference between Email Live Sending and Email Sandbox pricing?</summary>
 
-Email API/SMTP scales with production emails delivered to real recipients. Email Sandbox scales with test emails captured during development or QA — they never reach a real inbox. Separate products, separate plans: testing volume never counts against your sending limit, or vice versa.
+Email Live Sending scales with production emails delivered to real recipients. Email Sandbox scales with test emails captured during development or QA — they never reach a real inbox. Separate products, separate plans: testing volume never counts against your sending limit, or vice versa.
 
 </details>
 
@@ -210,7 +214,7 @@ By contacts stored, not emails sent. Each contact tier includes a monthly email 
 
 <summary>What if I need more volume than the largest listed plan?</summary>
 
-Above 5,000,000 emails/mo (Email API/SMTP) or 250,000 contacts (Email Marketing), [talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing.
+Above 2,500,000 emails/mo (Email Live Sending) or 250,000 contacts (Email Marketing), [talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing.
 
 </details>
 
@@ -220,7 +224,7 @@ Above 5,000,000 emails/mo (Email API/SMTP) or 250,000 contacts (Email Marketing)
 
 <summary>What happens if I go over my plan's limit?</summary>
 
-On Email API/SMTP and Email Marketing, extra emails are billed as overage rather than blocked, up to a per-plan cap — you're notified at 80%, 90%, and 100% of it. Full details are in the [Payment and Billing FAQs](faqs.md).
+On Email Live Sending and Email Marketing, extra emails are billed as overage rather than blocked, up to a per-plan cap — you're notified at 80%, 90%, and 100% of it. Full details are in the [Payment and Billing FAQs](faqs.md).
 
 </details>
 

@@ -1,12 +1,11 @@
 ---
-title: Troubleshooting - Email API/SMTP
-description: Common issues and solutions for Mailtrap Email API/SMTP.
-icon: wrench
+title: Troubleshooting - Email Live Sending
+description: Common issues and solutions for Mailtrap Email Live Sending.
 ---
 
 # Troubleshooting
 
-This section covers common issues you might encounter when using Mailtrap Email API/SMTP and their solutions.
+This section covers common issues you might encounter when using Mailtrap Email Live Sending and their solutions.
 
 ### Common Issues
 
@@ -31,7 +30,7 @@ This section covers common issues you might encounter when using Mailtrap Email 
 
 If you don't find the solution to your problem here:
 
-1. Check our [FAQs](../faqs.md) for general questions
+1. Check our [FAQs](../../faq.md) for general questions
 2. Contact support at [support@mailtrap.io](mailto:support@mailtrap.io)
 3. Visit the API documentation for technical details
 4. Feel free to ask over at [Mailtrap Community](https://community.mailtrap.io/)

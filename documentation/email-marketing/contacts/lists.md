@@ -1,6 +1,5 @@
 ---
 description: Organize contacts into targeted groups for effective email campaigns
-icon: list
 ---
 
 # Lists
@@ -18,7 +17,7 @@ Use lists for stable groups (e.g., "Newsletter Subscribers") and segments for cr
 
 ## Creating Lists
 
-{% @arcade/embed flowId="8mXgigva4cR4QvDM0zZk" url="https://app.arcade.software/share/8mXgigva4cR4QvDM0zZk" %}
+{% @arcade/embed url="https://app.arcade.software/share/8mXgigva4cR4QvDM0zZk" flowId="8mXgigva4cR4QvDM0zZk" %}
 
 ### Quick create
 

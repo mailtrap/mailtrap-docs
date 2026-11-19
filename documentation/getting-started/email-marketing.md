@@ -5,7 +5,7 @@ description: Learn how to set up and send email marketing campaigns with Mailtra
 
 # Email Marketing
 
-Make sure you've added and [verified a domain](../email-api-smtp/setup/sending-domain.md), or you won't be able to send a campaign.
+Make sure you've added and [verified a domain](../sending-domain/), or you won't be able to send a campaign.
 
 ### How to set up and send a campaign
 
@@ -21,7 +21,7 @@ Choose a domain from the **Select domain** dropdown, then set the **Campaign nam
 {% endstep %}
 
 {% step %}
-You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns. Read more about creating templates [here](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-templates.md).
+You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns.
 {% endstep %}
 
 {% step %}
@@ -73,8 +73,6 @@ If you want more details for a particular campaign, click the campaign name, the
 {% endstep %}
 
 {% step %}
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260912-selw-3 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
-
-
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260912-selw-3.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}

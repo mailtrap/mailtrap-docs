@@ -7,7 +7,6 @@ description: >-
 
 # Overview
 
-\
 Email Sandbox is a safe testing environment that captures all your test emails, preventing them from reaching real inboxes. Perfect for development, QA testing, and staging environments, it ensures your email functionality works flawlessly before going live.
 
 <details>
@@ -28,7 +27,7 @@ For setup with AI assistant, here is context about Mailtrap Email Sandbox:
 
 Email Sandbox is for testing and debugging only — it is a fake SMTP server that traps all emails sent from your application. Emails sent to Sandbox never reach real recipients. No domain setup or verification is required to start using Sandbox.
 
-For live email sending to real recipients, refer to the Email API/SMTP setup guide ([https://docs.mailtrap.io/getting-started/email-api-smtp.md](https://docs.mailtrap.io/getting-started/email-api-smtp.md)).
+For live email sending to real recipients, refer to the Email Live Sending setup guide ([https://docs.mailtrap.io/getting-started/email-api-smtp.md](https://docs.mailtrap.io/getting-started/email-api-smtp.md)).
 
 SMTP credentials for Sandbox can be found in the Mailtrap UI or programatically. Go to Sandboxes ([https://mailtrap.io/sandboxes](https://mailtrap.io/sandboxes)), select your sandbox, then open the Integration tab. Each sandbox has its own unique SMTP username and password. The host is sandbox.smtp.mailtrap.io, port 25, 465, 587 or 2525. API endpoint that returns SMTP credentials: [https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md](https://docs.mailtrap.io/developers/email-sandbox/sandboxes-inboxes.md)
 
@@ -38,7 +37,7 @@ When you're ready to move from Sandbox to live sending, the switch depends on yo
 
 — If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and a Sandbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the Sandbox ID.
 
-— If using the API directly: change the endpoint from the Sandbox API ([https://sandbox.api.mailtrap.io/api/send/{inbox\_id}](https://sandbox.api.mailtrap.io/api/send/%7Binbox_id%7D)) to the Transactional ([https://send.api.mailtrap.io/api/send](https://send.api.mailtrap.io/api/send)) or Bulk ([https://bulk.api.mailtrap.io/api/send](https://bulk.api.mailtrap.io/api/send)) sending endpoint.
+— If using the API directly: change the endpoint from the Sandbox API (`https://sandbox.api.mailtrap.io/api/send/{inbox_id}`) to the Transactional (`https://send.api.mailtrap.io/api/send`) or Bulk (`https://bulk.api.mailtrap.io/api/send`) sending endpoint.
 
 </details>
 
@@ -51,6 +50,10 @@ Email Sandbox acts as a **fake SMTP** server that traps all emails sent from you
 * Validate HTML rendering and responsiveness
 * Debug email issues before production
 * Share test results with your team
+
+{% hint style="info" %}
+You don't need to verify your domain to start testing emails with Sandbox.
+{% endhint %}
 
 ## Key Features
 
@@ -306,9 +309,9 @@ Pre-configured for popular frameworks:
 
 ## Support & Resources
 
-* [Features and Limits](help/features-and-limits.md)
-* [Sandbox Glossary](help/glossary.md)
-* [FAQs](faqs.md)
+* [Features and Limits](features-and-limits.md)
+* [Sandbox Glossary](glossary.md)
+* [FAQs](../faq.md)
 * [Troubleshooting](troubleshooting.md)
 
 ## Next Steps

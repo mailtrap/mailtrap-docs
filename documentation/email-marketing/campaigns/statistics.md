@@ -1,12 +1,11 @@
 ---
 title: Statistics
 description: View and analyze email campaign performance metrics and analytics
-icon: chart-simple
 ---
 
 # Stats
 
-Mailtrap provides statistics for you to track the most important email marketing metrics.
+Mailtrap provides statistics for you to track the most important email marketing metrics.&#x20;
 
 In your campaign dashboard, you can find:
 
@@ -16,7 +15,7 @@ In your campaign dashboard, you can find:
 * [Mailbox provider stats](statistics.md#mailbox-providers-stats)
 
 {% hint style="info" %}
-Feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream)
+Feature applies to UI-launched campaigns only, not emails sent using the transactional or [bulk stream](https://docs.mailtrap.io/email-api-smtp/setup/bulk-stream).
 {% endhint %}
 
 ### Campaign Stats

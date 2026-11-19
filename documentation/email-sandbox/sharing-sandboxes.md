@@ -1,7 +1,6 @@
 ---
 title: Sharing sandboxes
 description: Share individual sandboxes with team members for collaborative email testing.
-icon: box-ballot
 ---
 
 # Sharing Sandboxes

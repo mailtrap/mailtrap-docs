@@ -3,7 +3,6 @@ title: Bounce Emulator
 description: >-
   Learn how to test your SMTP client's behavior when the server responds with an
   error
-icon: arrow-turn-down-left
 ---
 
 # Bounce Emulator
@@ -16,7 +15,7 @@ If you send to `bounce@inbox.mailtrap.io` without a custom response, you'll get 
 
 To create it, use [https://www.urlencoder.org](https://www.urlencoder.org/) or any other URL encoding solution.
 
-Tip: Write the address in lowercase. For example, `Bounce+...` won't trigger the emulator. To get capital letters in the response text, use URL encoding:  `bounce+550+%4Eo+such+user+here@inbox.mailtrap.io` returns `550 No such user here`.
+Tip: Write the address in lowercase. For example, `Bounce+...` won't trigger the emulator. To get capital letters in the response text, use URL encoding: `bounce+550+%4Eo+such+user+here@inbox.mailtrap.io` returns `550 No such user here`.
 
 ## Using Bounce Emulator with an email client
 

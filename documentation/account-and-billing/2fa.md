@@ -3,7 +3,6 @@ title: 2FA
 description: >-
   Set up two-factor authentication (2FA) for your Mailtrap account to enhance
   security. Learn how to enable, disable, and recover your account with 2FA.
-icon: fingerprint
 ---
 
 # Two-Factor Authentication
@@ -102,7 +101,7 @@ Navigate to **Settings** → **Account Settings** → **Two-Factor Authenticatio
 {% step %}
 Tick the **Require 2FA for all users on this account** box.
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261003-ufuf-2 (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20261003-ufuf-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

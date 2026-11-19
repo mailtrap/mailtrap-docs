@@ -2,7 +2,6 @@
 description: >-
   Check email content, validate HTML code, and verify text versions of your
   message.
-icon: magnifying-glass-waveform
 ---
 
 # Email Template Inspector

@@ -16,7 +16,7 @@ In case you have an AI agent that you want to onboard to Mailtrap, please use [t
 
 ### How to use AI prompts&#x20;
 
-First, navigate to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page under **API/SMTP** and choose one of the three available prompt types:
+First, navigate to the [**Sending Setup**](https://mailtrap.io/api-smtp/sending-setup) page under **Live Sending** and choose one of the three available prompt types:
 
 1. **API** – Focuses on integrating via the Mailtrap Email API
 2. **SMTP** – Focuses on configuring SMTP sending

@@ -1,9 +1,8 @@
 ---
 description: Schedule your email campaigns up to two weeks in advance
-icon: clock
 ---
 
-# Campaign Scheduling
+# Campaign scheduling
 
 Once you have an email campaign ready for launch, you can schedule it by clicking on Schedule Campaign → Schedule Campaign.
 

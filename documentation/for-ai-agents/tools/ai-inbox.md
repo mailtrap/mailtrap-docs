@@ -17,7 +17,7 @@ In summary, an agent inbox:
 * **Notifies your agent in real time** – A webhook fires the moment mail arrives, carrying the event ID and key metadata; your agent fetches the full parsed message from the Messages API. No polling.
 * **Threads conversations automatically** – Replies are grouped into a single conversation, so your agent pulls the whole back-and-forth instead of stitching messages together itself.
 * **Keeps attachments out of your context window** – Files arrive as URLs on the parsed message, so your agent fetches only what it actually needs.
-* **Replies in-thread with one API call** – Mailtrap handles the headers and sender address; your agent just sends the body.
+* **Replies in-thread with one API call** – Mailtrap handles the threading headers and, for hosted inboxes, the sender address. On a custom-domain inbox, your agent sets `from` to an address on that domain.
 
 ### Quick setup
 
@@ -40,34 +40,51 @@ Start on a hosted address to prototype immediately. When you're ready for produc
 
 ```json
 {
-  "id": "msg_01HZX...",
-  "inbox": "support-bot",
-  "from": { "name": "Sarah Chen", "email": "sarah@acme.co" },
-  "to":   [{ "email": "support-bot@inboundly.dev" }],
+  "id": "1866872391602282496",
+  "inbox_id": 15,
+  "from": "Sarah Chen <sarah@acme.co>",
+  "to": ["support-bot-62fedace@inbound-mailtrap.io"],
+  "cc": [],
+  "bcc": [],
+  "reply_to": null,
   "subject": "Need help with our last invoice",
+  "headers": { "mime-version": "1.0" },
+  "size": 190000,
+  "html_size": 512,
+  "text_size": 120,
   "received_at": "2026-05-27T10:42:11Z",
-  "text": "Hey team, we were charged twice...",
-  "html": "<p>Hey team,</p>...",
+  "rfc_message_id": "CAF2xY8kq3@mail.acme.co",
+  "in_reply_to": null,
+  "references": [],
+  "thread_id": "1866872391602282497",
   "attachments": [
-    { "filename": "invoice-4821.png",
+    {
+      "attachment_id": "a1b2c3d4",
       "size": 188416,
+      "filename": "invoice-4821.png",
       "content_type": "image/png",
-      "url": "https://cdn.inboundly.dev/..." }
+      "content_disposition": "attachment",
+      "content_id": null,
+      "download_url": "https://...",
+      "download_url_expires_at": "2026-05-27T11:42:11Z"
+    }
   ],
-  "spam_score": 0.04,
-  "spf": "pass",
-  "dkim": "pass",
-  "thread_id": "thr_8Pz..."
+  "forwards": [],
+  "raw_message_url": "https://...",
+  "raw_message_expires_at": "2026-05-27T11:42:11Z",
+  "html_body": "<p>Hey team,</p>...",
+  "text_body": "Hey team, we were charged twice..."
 }
 ```
 
 #### Endpoints
 
-| `GET /inbound/folders`               | Group inboxes by agent, project, or workflow |
-| ------------------------------------ | -------------------------------------------- |
-| `POST /inbound/folders/{id}/inboxes` | Create a hosted or custom-domain inbox       |
-| `GET /inbound/inboxes/{id}/messages` | List, search, and fetch parsed messages      |
-| `POST /api/webhooks`                 | Register a webhook; reply in-thread          |
+| `GET /api/inbound/folders`                                  | Group inboxes by agent, project, or workflow |
+| ----------------------------------------------------------- | -------------------------------------------- |
+| `POST /api/inbound/folders/{folder_id}/inboxes`             | Create a hosted or custom-domain inbox       |
+| `GET /api/inbound/inboxes/{inbox_id}/messages`              | List and fetch parsed messages               |
+| `POST /api/webhooks`                                        | Register an `inbound_receiving` webhook      |
+| `POST /api/inbound/inboxes/{inbox_id}/messages/{id}/reply`  | Reply in-thread                              |
 
 ### Use cases
 

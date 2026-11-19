@@ -2,10 +2,9 @@
 description: >-
   Learn about Mailtrap's ISO/IEC 27001:2022 certification and information
   security standards
-icon: file-certificate
 ---
 
-# ISO Certification
+# ISO certification
 
 Mailtrap is proud to be ISO/IEC 27001:2022 certified, demonstrating our commitment to the highest standards of information security.
 

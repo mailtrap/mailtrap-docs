@@ -3,7 +3,6 @@ description: >-
   Analyze email performance by mailbox providers like Gmail, Outlook, and Yahoo.
   Filter by domain and category, track metrics, and identify deliverability
   issues.
-icon: mailbox
 ---
 
 # Mailbox Providers
@@ -16,7 +15,7 @@ It’s important because the deliverability towards a specific provider can sudd
 
 </details>
 
-The following sections detail how to take advantage of **Mailbox Providers** feature within **Mailtrap API/SMTP**.
+The following sections detail how to take advantage of **Mailbox Providers** feature within **Mailtrap Email Live Sending**.
 
 #### Mailbox Providers filters <a href="#mailbox" id="mailbox"></a>
 

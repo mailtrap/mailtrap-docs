@@ -10,7 +10,7 @@ There are several ways to send authenticated HTTP requests:
 - Send a HTTP header `Api-Token: {api_token}`, where `{api_token}` is your API token
 - Send a HTTP header `Authorization: Bearer {api_token}`, where `{api_token}` is your API token (more info: [Token Access Authentication](https://datatracker.ietf.org/doc/html/rfc6750))
 
-You can manage your API token on the [API Tokens](https://mailtrap.io/settings/api-tokens) page. API token does not have an expiration date, you may reset it manually.
+You can manage your API token on the [API Tokens](https://mailtrap.io/settings/api-tokens) page. By default, a new or reset API token expires after 1 year. When you create or reset a token you can pick a different expiration (up to 5 years) or choose **Never expire**.
 
 {% hint style="info" %}
 All requests must be sent over HTTPS protocol.

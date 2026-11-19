@@ -3,10 +3,9 @@ title: How to integrate Email Sandbox with your application
 description: >-
   Learn how to integrate sandbox with your application using SMTP credentials or
   code samples
-icon: gears
 ---
 
-# Sandbox SMTP Integration
+# Sandbox SMTP integration
 
 ## Copy SMTP credentials
 

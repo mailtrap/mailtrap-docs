@@ -4,10 +4,9 @@ description: >-
   Understand Mailtrap stats dashboard: delivery, open, click, bounce, and spam
   rates. Learn about domain filtering, warning thresholds, and metric
   calculations.
-icon: chart-line-up
 ---
 
-# Stats Dashboard
+# Stats dashboard
 
 Mailtrap provides analytics for all the emails you send.
 
@@ -52,7 +51,7 @@ Delivered refers to the percentage of emails that were accepted by the recipient
 "**Delivered**" status doesn't mean that a message went straight into the recipient's Primary folder. It may have still gone into Promotions and Updates, or it might have been automatically put into a Spam folder.
 {% endhint %}
 
-Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about [Suppressions](../suppressions-list.md).
+Mailtrap will reject an email if a recipient is on a suppression list for a given domain. Read more about [Suppressions](../../general/suppressions-list/).
 
 On top of that, an email can be rejected on the recipient’s end for various reasons:
 
@@ -98,7 +97,7 @@ Emails may bounce for different reasons, most commonly:
 
 The term bounce used in Mailtrap is also known as a hard bounce. This is different from a soft bounce - another event present in Mailtrap that refers to a temporary delivery problem.
 
-If an email soft bounces, Mailtrap will try to deliver it 10 more times. If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
+If an email soft bounces, Mailtrap keeps retrying delivery for up to 24 hours (up to 11 more attempts). If there’s no positive outcome, an email will (hard) bounce and get counted towards the bounce rate.
 
 #### **Spam complaints**
 

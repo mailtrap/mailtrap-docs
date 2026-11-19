@@ -12,7 +12,7 @@ description: >-
 
 Mailtrap can be integrated with .NET apps and projects for email sending.
 
-### Email API/SMTP for .NET
+### Email Live Sending for .NET
 
 #### SDK integration
 

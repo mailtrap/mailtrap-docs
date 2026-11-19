@@ -40,7 +40,7 @@ curl -X POST https://mailtrap.io/api/inbound/folders \
   -d '{ "name": "Support" }'
 ```
 
-**Note**: Make sure to replace `YOUR_API_KEY` with your actual [Mailtrap API token](https://docs.mailtrap.io/email-api-smtp/setup/api-tokens).
+**Note**: Make sure to replace `YOUR_API_KEY` with your actual [Mailtrap API token](https://docs.mailtrap.io/api-tokens).
 
 The command should give you the following output: `{"id":10,"name":"Support"}%`
 
@@ -55,9 +55,9 @@ curl -X POST https://mailtrap.io/api/inbound/folders/{folder_id}/inboxes \
   -d '{ "name": "Support tickets" }'
 ```
 
-The terminal should send you a following message: `{"id":15,"name":"Support tickets","address":"demo-inbox-62fedace@inbound-mailtrap.io"}%`
+The terminal should send you a following message: `{"id":15,"name":"Support tickets","address":"support-tickets-62fedace@inbound-mailtrap.io","domain_id":894}`
 
-Your inbound inbox in this case would be: **demo-inbox-62fedace@inbound-mailtrap.io** and you could start sending emails to this address.
+Your inbound inbox in this case would be: **support-tickets-62fedace@inbound-mailtrap.io** and you could start sending emails to this address.
 
 {% hint style="info" %}
 If you want your email address to be under your **custom sending domain**, please see [this section](https://docs.mailtrap.io/inbound-email/receiving-emails#creating-a-custom-domain-catch-all-inbox).
@@ -78,7 +78,9 @@ curl -X GET 'https://mailtrap.io/api/inbound/inboxes/{inbox_id}/messages' \
 
 You should get the following output:&#x20;
 
-`{"id":"1866872391602282496","inbox_id":15,"from":"Ivan Djuric` [`demo.eth@gmail.com`](mailto:demo.eth@gmail.com)`","to":["demo-inbox-62fedace@inbound-mailtrap.io"],"cc":[],"bcc":[],"reply_to":null,"subject":"Hello from the other side","message_id":"`[`2C613DD4-6E5E-429C-B430-60325BA31E25@gmail.com`](mailto:2C613DD4-6E5E-429C-B430-60325BA31E25@gmail.com)`","in_reply_to":null,"references":[],"headers":{"mime-version":"1.0 (Mac OS X Mail 16.0 \(3864.600.51.1.1\))","return-path":"`[`demo.eth@gmail.com`](mailto:demo.eth@gmail.com)`"},"size":3665,"html_size":null,"text_size":24,"received_at":"2026-06-02T08:17:31.878Z","attachments":[]}`
+```json
+{"data":[{"id":"1866872391602282496","inbox_id":15,"from":"Ivan Djuric <demo.eth@gmail.com>","to":["support-tickets-62fedace@inbound-mailtrap.io"],"cc":[],"bcc":[],"reply_to":null,"subject":"Hello from the other side","headers":{"mime-version":"1.0 (Mac OS X Mail 16.0 (3864.600.51.1.1))","return-path":"demo.eth@gmail.com"},"size":3665,"html_size":null,"text_size":24,"received_at":"2026-06-02T08:17:31.878Z","rfc_message_id":"2C613DD4-6E5E-429C-B430-60325BA31E25@gmail.com","in_reply_to":null,"references":[],"thread_id":"1866872391602282497","attachments":[],"forwards":[]}],"total_count":1,"last_id":null}
+```
 
 You can use the message ID, the `id` field, to **get a message**:
 

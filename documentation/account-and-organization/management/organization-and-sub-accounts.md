@@ -4,7 +4,6 @@ description: >-
   Manage complex setups with Mailtrap Organization & Sub‑Accounts. Learn about
   centralized billing, isolated workspaces, permissions, and how to create and
   migrate sub-accounts.
-icon: sitemap
 ---
 
 # Organization & Sub-Accounts
@@ -18,7 +17,7 @@ Each **sub-account** functions as a fully isolated workspace with its own set of
 At the same time, your **Organization** acts as the central hub:
 
 * **Centralized billing** lets you keep all sub‑accounts under one subscription plan and one invoice.
-* **Shared quota pools** apply across all sub‑accounts using Email API/SMTP, Email Campaigns or Email Sandbox, making it easy to allocate resources flexibly.
+* **Shared quota pools** apply across all sub‑accounts using Email Live Sending, Email Campaigns or Email Sandbox, making it easy to allocate resources flexibly.
 * **Org-level permissions** give users access to all current and future sub‑accounts by default - ideal for admins or managers.
 * **Sub-account-level permissions** can be assigned when you need to restrict access to just selected environments or clients.
 * **Clear separation of data**. Projects, templates, stats, and domains stay neatly separated between sub‑accounts.
@@ -27,7 +26,7 @@ At the same time, your **Organization** acts as the central hub:
 
 This structure is ideal whether you're working with:
 
-* **API/SMTP**
+* **Email Live Sending**
 * **Email Campaigns**
 * **Email Sandbox**
 
@@ -36,7 +35,7 @@ No matter the product, sub‑accounts remain consistently isolated and manageabl
 Additionally, if your teams or clients shift over time, you can **transfer sub‑accounts between Organizations** without losing historical data, settings, or domain authentications. Our support team can guide you through this process to make it smooth and safe.
 
 {% hint style="info" %}
-The Organization & Sub‑Accounts feature is available only on **Business** and **Enterprise** Email Sending or Sandbox plans. If you don't see this option in your user panel, you may need to upgrade your plan to access it.
+The Organization & Sub‑Accounts feature is available only on **Business** and **Enterprise** Email Live Sending or Email Sandbox plans. If you don't see this option in your user panel, you may need to upgrade your plan to access it.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -182,7 +181,7 @@ API tokens in Mailtrap are account–level. That means each sub‑account has it
 * **Scoped access**: API tokens grant access only to the specific data and resources within the sub‑account they were created in, helping maintain strict separation between teams or environments.
 * **Management via UI**: Tokens can currently be created, viewed, and revoked via the API Tokens section inside each sub‑account.
 
-### Usage & Limits&#x20;
+### Usage & Limits
 
 Your organization has a single shared plan allowance (for example, monthly email volume and the number of sandboxes). Under the Usage & Limits tab, you can view your plan allowance, your organization's overall usage, and the usage of each individual sub-account. Since all sub-accounts share the same plan allowance, this makes it easy to understand how it is being consumed across your organization.
 
