@@ -1,0 +1,23 @@
+documentation/webhooks/README.md
+  s_f5d3b81a828e70::t_57ace64101967d 25,177,578
+documentation/general/suppressions-list/subscription-topics-unsubscribe-groups.md
+  s_f5d3b81a828e70::t_57ace64101967d 22,99
+documentation/general/webhooks/campaigns-webhooks.md
+  s_f5d3b81a828e70::t_57ace64101967d 11,13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3a4da3600e279373760c2f61df682ab9508bd975",
+  "prompts": {},
+  "sessions": {
+    "s_f5d3b81a828e70": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb655293-17cc-4d73-93ea-77126ea9cc37",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
