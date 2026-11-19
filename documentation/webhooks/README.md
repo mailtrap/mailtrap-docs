@@ -98,7 +98,7 @@ Choose the **Sending Stream** (Transactional or Bulk) for which you want to set 
 {% step %}
 Choose the **domain** you want to receive events' data for and select one or more [event types](../email-api-smtp/analytics/statuses-and-events.md) by ticking the corresponding checkbox.
 
-The **Subscription preferences update** event type is available for the Bulk Stream only.
+The **Subscription preferences update** event type is available for the Bulk Stream only. When you create or update a webhook [through the API](https://docs.mailtrap.io/developers/email-sending/webhooks), add `subscription_preferences_update` to its `event_types`.
 {% endstep %}
 
 {% step %}
