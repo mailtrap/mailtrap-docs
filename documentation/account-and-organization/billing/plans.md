@@ -73,7 +73,7 @@ Paid tiers add, in order:
 
 **Migration assistance:** available upon request for customers migrating to Mailtrap with expected sending volumes exceeding 200K emails per month. Our team can provide guidance on the migration process and technical deliverability considerations.
 
-Sending more than 5 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
+Sending more than 2,500,000 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
 
 #### Inbound email
 
@@ -118,7 +118,7 @@ Paid tiers add, in order:
 
 ### Annual vs. monthly billing
 
-Email Sandbox and Email Marketing offer annual billing at up to **20% off** monthly (see the tables above).
+All plans offer annual billing at up to **20% off** monthly (see the tables above).
 
 See [Billing Setup](setup.md) for payment details.
 
@@ -184,7 +184,7 @@ If you'd like a bundle discount, get in touch with sales team: 20% off the cheap
 
 <summary>Is annual billing available for every product?</summary>
 
-Email Sandbox and Email Marketing offer annual billing at up to 20% off. Email Live Sending is monthly by default; annual pricing is available by request.
+Yes, all plans offer annual billing at up to 20% off.
 
 </details>
 
