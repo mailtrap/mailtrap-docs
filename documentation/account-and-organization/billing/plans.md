@@ -35,7 +35,7 @@ More details on billing plans [here](https://mailtrap.io/pricing/).
 
 | Product                                                   | Free tier                     | Starting paid price    | Priced by                          |
 | --------------------------------------------------------- | ----------------------------- | ---------------------- | ---------------------------------- |
-| [Email Live Sending](plans.md#email-live-sending-pricing) | 4,000 emails/mo               | $15/mo                 | Emails sent and received per month |
+| [Email Live Sending](plans.md#email-live-sending-pricing) | 4,000 emails/mo               | $15/mo (12/mo annual)  | Emails sent and received per month |
 | [Email Sandbox](plans.md#email-sandbox-pricing)           | 50 test emails/mo             | $17/mo ($14/mo annual) | Test emails per month              |
 | [Email Marketing](plans.md#email-marketing-pricing)       | 500 contacts, 1,500 emails/mo | $15/mo ($12/mo annual) | Contacts stored                    |
 
@@ -73,7 +73,7 @@ Paid tiers add, in order:
 
 **Migration assistance:** available upon request for customers migrating to Mailtrap with expected sending volumes exceeding 200K emails per month. Our team can provide guidance on the migration process and technical deliverability considerations.
 
-Sending more than 2,500,000 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
+Sending more than 2.5 million emails a month? [Talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing, contract terms, a DPA, unlimited seats, and a dedicated deliverability manager.
 
 #### Inbound email
 
@@ -210,7 +210,7 @@ By contacts stored, not emails sent. Each contact tier includes a monthly email 
 
 <summary>What if I need more volume than the largest listed plan?</summary>
 
-Above 5,000,000 emails/mo (Email Live Sending) or 250,000 contacts (Email Marketing), [talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing.
+Above 2,500,000 emails/mo (Email Live Sending) or 250,000 contacts (Email Marketing), [talk to Sales](https://mailtrap.io/talk-to-sales/) for custom pricing.
 
 </details>
 
