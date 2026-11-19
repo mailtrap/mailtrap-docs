@@ -19,7 +19,7 @@ You create topics that match the types of emails you send.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-17 13.48.46.png" alt="" height="175" width="534"></div>
 
-When a recipient unsubscribes from a topic, they stop receiving future campaigns and automation emails assigned to that topic. Their preferences for other topics remain unchanged.
+When a recipient unsubscribes from a topic, they stop receiving future campaigns and automation emails assigned to that topic from the same sending domain. Their preferences for other topics, and for that topic on your other domains, remain unchanged.
 
 For example, a recipient who unsubscribes from **Promotions** can still receive emails assigned to **Product updates**.
 
@@ -96,7 +96,7 @@ The Manage subscriptions page displays topic names and descriptions. Recipients 
 
 Mailtrap checks unsubscribe preferences at send time, including for previously scheduled campaigns.
 
-Topic preferences apply across campaigns and automation emails. For example, opting out of Promotions excludes the recipient from future campaigns and automation emails assigned to that topic.
+Topic preferences apply across campaigns and automation emails, and belong to the sending domain. For example, opting out of Promotions through an email from one domain excludes the recipient from future campaigns and automation emails assigned to that topic and sent from that domain. Emails of that topic from your other domains still reach them.
 
 {% hint style="info" %}
 Default Mailtrap email templates now include the **Manage subscriptions** link. However, campaigns and automations created using earlier template versions, and your own templates are not updated automatically. To add the link, manually edit their content and select **Manage** **subscriptions** from the editor’s link options. In HTML, use **\_\_manage\_subscriptions\_url\_\_** as the link destination.
