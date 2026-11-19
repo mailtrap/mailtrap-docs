@@ -252,7 +252,7 @@ response = requests.put(
 {% endtab %}
 {% endtabs %}
 
-For complete API documentation, see [Contacts API Reference](https://github.com/mailtrap/mailtrap-docs/blob/main/api-docs/contacts-api.md).
+For complete API documentation, see [Contacts API Reference](https://docs.mailtrap.io/api-docs/email-marketing/contacts).
 
 ## Third-party Integrations
 

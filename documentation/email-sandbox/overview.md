@@ -37,7 +37,7 @@ When you're ready to move from Sandbox to live sending, the switch depends on yo
 
 — If using a Mailtrap SDK: all official SDKs use the same pattern — a sandbox boolean flag and an inbox ID in the client constructor. To switch to live sending, set sandbox to false and drop the inbox ID.
 
-— If using the API directly: change the endpoint from the Sandbox API ([https://sandbox.api.mailtrap.io/api/send/{inbox\_id}](https://sandbox.api.mailtrap.io/api/send/%7Binbox_id%7D)) to the Transactional ([https://send.api.mailtrap.io/api/send](https://send.api.mailtrap.io/api/send)) or Bulk ([https://bulk.api.mailtrap.io/api/send](https://bulk.api.mailtrap.io/api/send)) sending endpoint.
+— If using the API directly: change the endpoint from the Sandbox API (`https://sandbox.api.mailtrap.io/api/send/{inbox_id}`) to the Transactional (`https://send.api.mailtrap.io/api/send`) or Bulk (`https://bulk.api.mailtrap.io/api/send`) sending endpoint.
 
 </details>
 

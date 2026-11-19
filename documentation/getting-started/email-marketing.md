@@ -21,7 +21,7 @@ Choose a domain from the **Select domain** dropdown, then set the **Campaign nam
 {% endstep %}
 
 {% step %}
-You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns. Read more about creating templates [here](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-templates.md).
+You'll be taken to the Design step, where you can choose between Drag & Drop and HTML editors. If you have templates stored, you'll see them here. You can use them in your campaigns.
 {% endstep %}
 
 {% step %}
