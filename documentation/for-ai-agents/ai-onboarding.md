@@ -189,7 +189,7 @@ mailtrap send transactional \
 mailtrap messages spam-score --sandbox-id 12345 --id 67890
 
 # Pull sending stats by mailbox provider
-mailtrap stats by-esp --domain-id 111 --period 30
+mailtrap stats by-esp --start-date "2026-05-01" --end-date "2026-05-31" --domain-ids 111
 
 # Bulk import contacts from JSON
 mailtrap contacts import --file contacts.json

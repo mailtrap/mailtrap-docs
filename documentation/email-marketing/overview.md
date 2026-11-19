@@ -179,80 +179,17 @@ Ready-to-use designs:
 {% endtab %}
 {% endtabs %}
 
-## Compliance & Deliverability
+## Compliance & deliverability
 
-### Built-in Compliance
+### Built-in compliance
 
-* **GDPR Ready**: Data portability and privacy controls
-* **CAN-SPAM Compliant**: Unsubscribe links, physical address
-* **CASL Support**: Canadian anti-spam compliance
-* **Footer Management**: Automatic compliance footers
+* **GDPR ready**: Data portability and privacy controls
+* **CAN-SPAM compliant**: Unsubscribe links, physical address
+* **CASL support**: Canadian anti-spam compliance
+* **Footer management**: Automatic compliance footers
 
-### Deliverability Features
+### Deliverability features
 
-* **Domain Authentication**: SPF, DKIM, DMARC
-* **List Cleaning**: Remove invalid emails
-* **Engagement Tracking**: Identify inactive subscribers
-
-## Best Practices
-
-### List Building
-
-* Use double opt-in
-* Offer valuable incentives
-* Clear value proposition
-* Easy signup process
-* Regular list cleaning
-
-### Campaign Design
-
-* Mobile-first approach
-* Clear CTAs
-* Concise content
-* Personalization
-* Accessible design
-
-### Sending Strategy
-
-* Consistent schedule
-* Optimal timing
-* Segment audiences
-* Test subject lines
-* Monitor engagement
-
-## Getting Started
-
-{% columns %}
-{% column %}
-**Setup & Configuration**
-
-* [Campaign Creation](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md)
-* [Campaign Scheduling](campaign-management/scheduling.md)
-* [Email Templates](email-templates.md)
-* [Automations](automations.md)
-{% endcolumn %}
-
-{% column %}
-**Audience & Analytics**
-
-* [Contact Management](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/contacts.md)
-* [List Segmentation](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-* [Campaign Statistics](campaigns/statistics.md)
-* [Reports & Analytics](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-{% endcolumn %}
-{% endcolumns %}
-
-## Support & Resources
-
-* [Campaign Guide](campaigns/)
-* [Audience Management](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-* [Analytics Guide](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-* [FAQs](../faq.md)
-* [Troubleshooting](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/broken-reference/README.md)
-
-## Next Steps
-
-1. [**Verify your domain**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md) - Set up authentication
-2. [**Import contacts**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/contacts.md) - Build your subscriber list
-3. [**Create first campaign**](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-marketing/copy-of-email-marketing.md) - Design and send
-4. [**Track performance**](campaigns/statistics.md) - Monitor results
+* **Domain authentication**: SPF, DKIM, DMARC
+* **List cleaning**: Remove invalid emails
+* **Engagement tracking**: Identify inactive subscribers

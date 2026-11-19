@@ -21,7 +21,7 @@ Browse all SDK integration guides in the navigation menu for additional language
 
 Step-by-step integration guides for connecting Mailtrap with popular platforms and services:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Webhooks</td><td><a href="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/webhooks">Webhooks</a></td><td></td></tr><tr><td>Supabase</td><td><a href="integrations/supabase/">supabase</a></td><td></td></tr><tr><td>N8N</td><td><a href="integrations/n8n.md">n8n.md</a></td><td></td></tr><tr><td>Zapier</td><td><a href="integrations/zapier.md">zapier.md</a></td><td></td></tr><tr><td>FastAPI</td><td><a href="integrations/fastapi.md">fastapi.md</a></td><td></td></tr><tr><td>AWS Lambda</td><td><a href="integrations/aws-lambda.md">aws-lambda.md</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Webhooks</td><td><a href="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks">Webhooks</a></td><td></td></tr><tr><td>Supabase</td><td><a href="guides/supabase/">supabase</a></td><td></td></tr><tr><td>N8N</td><td><a href="guides/n8n.md">n8n.md</a></td><td></td></tr><tr><td>Zapier</td><td><a href="guides/zapier.md">zapier.md</a></td><td></td></tr><tr><td>FastAPI</td><td><a href="guides/fastapi.md">fastapi.md</a></td><td></td></tr><tr><td>AWS Lambda</td><td><a href="guides/aws-lambda.md">aws-lambda.md</a></td><td></td></tr></tbody></table>
 
 Browse all integration guides in the navigation menu for additional platforms including Astro, Cloudflare Workers, Remix, Nuxt, and more.
 
@@ -29,7 +29,7 @@ Browse all integration guides in the navigation menu for additional platforms in
 
 Guides for integrating Mailtrap with AI-powered development tools and platforms:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Cursor</td><td><a href="ai-powered-integrations/cursor.md">cursor.md</a></td></tr><tr><td>V0</td><td><a href="ai-powered-integrations/v0.md">v0.md</a></td></tr><tr><td>Bolt.new</td><td><a href="ai-powered-integrations/bolt-new.md">bolt-new.md</a></td></tr><tr><td>Lovable</td><td><a href="ai-powered-integrations/lovable.md">lovable.md</a></td></tr><tr><td>Vercel</td><td><a href="integrations/vercel.md">vercel.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Cursor</td><td><a href="ai-powered/cursor.md">cursor.md</a></td></tr><tr><td>V0</td><td><a href="ai-powered/v0.md">v0.md</a></td></tr><tr><td>Bolt.new</td><td><a href="ai-powered/bolt-new.md">bolt-new.md</a></td></tr><tr><td>Lovable</td><td><a href="ai-powered/lovable.md">lovable.md</a></td></tr><tr><td>Vercel</td><td><a href="guides/vercel/integration.md">integration.md</a></td></tr></tbody></table>
 
 Browse all AI integration guides in the navigation menu for additional tools including VS Code, Windsurf, and more.
 

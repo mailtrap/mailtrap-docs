@@ -8,9 +8,13 @@ Mailtrap MCP Server lets you automate email workflows from your AI IDE (e.g., VS
 
 The MCP server provides tools for:
 
-* **Sending emails** – Send transactional emails through Mailtrap Email API.
+* **Sending emails** – Send transactional, bulk, and batch emails.
 * **Sandbox testing** – Send test emails to your sandbox, retrieve and view messages.
 * **Template management** – Create, list, update, and delete email templates.
+* **Domains, stats, and logs** – Manage sending domains, read sending stats and email logs, and manage suppressions, tracking opt-outs, and webhooks.
+* **Email Marketing** – Manage contacts, contact lists, fields, imports and exports, and email campaigns, and read campaign stats.
+* **Inbound Email** – Manage inbound folders and inboxes, and read, reply to, and forward received messages and threads.
+* **Account management** – Manage API tokens, permissions, accounts, sub-accounts, organizations, company info, and billing usage.
 
 {% embed url="https://www.youtube.com/watch?v=casBpY6nAmw" %}
 

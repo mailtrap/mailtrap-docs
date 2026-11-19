@@ -30,7 +30,7 @@ In this article, you'll learn how to configure Mailtrap webhooks to get notified
 
 ### How it works
 
-When a new email arrives, Mailtrap POSTs a JSON payload to your webhook URL. The payload includes an `events` array where each object contains the event (`inbound.message_received`), a unique event ID, a Unix timestamp, the inbox ID, the Mailtrap message ID, and the sender name.
+When a new email arrives, Mailtrap POSTs a JSON payload to your webhook URL. The payload includes an `events` array where each object contains the event (`inbound.message_received`), a unique event ID, a Unix timestamp, the inbox ID, the Mailtrap message ID, and the sender (`from`, for example `John Doe <sender@example.com>`).
 
 Payloads are signed with HMAC-SHA256 via the `mailtrap-signature` header so you can verify they came from Mailtrap.
 

@@ -8,7 +8,7 @@ description: >-
 
 # Email Logs
 
-It’s a place to view all the emails sent from your account, along with their corresponding details. These include the status of each message, its preview, event history, HTML source, and statistics.&#x20;
+It’s a place to view all the emails sent from your account, along with their corresponding details. These include the status of each message, its preview, event history, HTML source, and statistics.
 
 #### How to use filters in Email Logs
 
@@ -16,7 +16,7 @@ It’s a place to view all the emails sent from your account, along with their c
 
 These filters are a quick way to find:
 
-* **Bounces** — All emails that were not accepted by the recipient’s mailbox provider (for any reason).
+* **Not Delivered** — All emails that were not accepted by the recipient’s mailbox provider (for any reason).
 * **Spam** — All emails that were reported as spam by the recipients (this does not include emails that landed in the recipients’ spam folders).
 * **Google** — All emails that were sent to free Gmail accounts.
 * **Google Workspace** — All emails sent to mailboxes using Google Workspace, the paid version of Gmail used by businesses and organizations.
@@ -52,7 +52,7 @@ Email Logs store emails sent from all your domains. If you wish to filter only f
 
 Email Logs provide much more information about each sent message. To access this, click on any of the messages.
 
-The **Email info** tab provides the basic details of a message, including the timestamps, status, from/to addresses, or the IPs. If you’re confused about any of these terms, check our [Sending Glossary](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-sandbox/sandbox-glossary.md).
+The **Email info** tab provides the basic details of a message, including the timestamps, status, from/to addresses, or the IPs. If you’re confused about any of these terms, check our [Sending Glossary](https://docs.mailtrap.io/email-api-smtp/glossary).
 
 <figure><img src="../../.gitbook/assets/SCR-20260919-txuq.png" alt=""><figcaption></figcaption></figure>
 

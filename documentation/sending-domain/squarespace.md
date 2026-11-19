@@ -94,7 +94,7 @@ Once all records show a green verified status, your domain is verified and ready
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-owzi.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-DNS changes can take **15 minutes to a few hours** to propagate across the internet. In rare cases, propagation may take up to 24 hours. Mailtrap automatically re-checks DNS records every hour, but you can trigger a manual check anytime with the **Re-check DNS Records** button.
+DNS changes can take **15 minutes to a few hours** to propagate across the internet. In rare cases, propagation may take up to 24 hours. Mailtrap automatically re-checks DNS records every hour, but you can trigger a manual check anytime with the **Verify DNS records** button.
 {% endhint %}
 {% endstep %}
 {% endstepper %}

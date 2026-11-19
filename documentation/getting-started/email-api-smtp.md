@@ -25,7 +25,7 @@ Page URL for context: `https://docs.mailtrap.io/getting-started/email-api-smtp.m
 8. ⏸️ **Create a Mailtrap-hosted email template?** Generate the HTML for your use case, create it via the API, and wire up sending code that references it by UUID
 9. Set up Sandbox for your staging/CI environment
 
-For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
+For complete API details: [API Reference](https://docs.mailtrap.io/developers) | [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-full.txt](https://docs.mailtrap.io/llms-full.txt)
 
 </details>
 
@@ -43,18 +43,18 @@ For complete API details: [llms.txt](https://docs.mailtrap.io/llms.txt) | [llms-
 
 Mailtrap provides official SDKs for all major languages. Pick the one that matches your stack:
 
-| Language | Package                            | Install                                                                                                    |
-| -------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Node.js  | `mailtrap`                         | `npm install mailtrap`                                                                                     |
-| Python   | `mailtrap`                         | `pip install mailtrap`                                                                                     |
-| PHP      | `railsware/mailtrap-php`           | `composer require railsware/mailtrap-php`                                                                  |
-| Ruby     | `mailtrap`                         | `gem install mailtrap`                                                                                     |
-| Go       | `github.com/railsware/mailtrap-go` | `go get github.com/railsware/mailtrap-go`                                                                  |
-| Java     | `com.mailtrap:mailtrap-java`       | See [Maven/Gradle setup](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/java.md) |
-| .NET     | `Mailtrap`                         | `dotnet add package Mailtrap`                                                                              |
-| Elixir   | `mailtrap`                         | `{:mailtrap, "~> 1.0"}`                                                                                    |
+| Language | Package                           | Install                                                             |
+| -------- | --------------------------------- | ------------------------------------------------------------------- |
+| Node.js  | `mailtrap`                        | `npm install mailtrap`                                              |
+| Python   | `mailtrap`                        | `pip install mailtrap`                                              |
+| PHP      | `railsware/mailtrap-php`          | `composer require railsware/mailtrap-php`                           |
+| Ruby     | `mailtrap`                        | `gem install mailtrap`                                              |
+| Go       | `github.com/mailtrap/mailtrap-go` | `go get github.com/mailtrap/mailtrap-go`                            |
+| Java     | `com.mailtrap:mailtrap-java`      | See [Maven/Gradle setup](https://github.com/mailtrap/mailtrap-java) |
+| .NET     | `Mailtrap`                        | `dotnet add package Mailtrap`                                       |
+| Elixir   | `mailtrap`                        | `{:mailtrap, "~> 1.0"}`                                             |
 
-Full SDK documentation: [Node.js](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/nodejs.md) | [Python](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/python.md) | [PHP](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/php.md) | [Ruby](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/ruby.md) | [Go](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/go.md) | [Java](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/java.md) | [.NET](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/dotnet.md) | [Elixir](https://github.com/mailtrap/mailtrap-docs/blob/main/guides-and-tips/sdks/elixir.md)
+Full SDK documentation: [Node.js](https://github.com/mailtrap/mailtrap-nodejs) | [Python](https://github.com/mailtrap/mailtrap-python) | [PHP](https://github.com/mailtrap/mailtrap-php) | [Ruby](https://github.com/mailtrap/mailtrap-ruby) | [Go](https://github.com/mailtrap/mailtrap-go) | [Java](https://github.com/mailtrap/mailtrap-java) | [.NET](https://github.com/mailtrap/mailtrap-dotnet) | [Elixir](https://github.com/mailtrap/mailtrap-elixir)
 
 {% hint style="info" %}
 **No SDK for your stack?** Use the [REST API directly](https://github.com/mailtrap/mailtrap-docs/blob/main/api-docs/README.md) with any HTTP client.
@@ -622,11 +622,12 @@ Full Sandbox guide: [Getting Started with Email Sandbox](email-sandbox.md)
 
 Now that you're sending emails, explore these capabilities:
 
+* [API Reference](https://docs.mailtrap.io/developers) — Full reference for all Mailtrap API endpoints
 * [Tracking Settings](../sending-domain/#optional-tracking-settings-ffi49) — Enable open and click tracking
 * [Webhooks](../sending-domain/#optional-webhooks-4hmes) — Get real-time delivery event notifications
-* [Suppressions](../suppressions-list.md) — Manage bounces and unsubscribes automatically
-* [Email Logs](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-logs.md) — Inspect delivery status for every email
-* [Email Templates](https://github.com/mailtrap/mailtrap-docs/blob/main/documentation/email-api-smtp/email-templates.md) — Create and manage templates
+* [Suppressions](../general/suppressions-list/) — Manage bounces and unsubscribes automatically
+* [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs) — Inspect delivery status for every email
+* [Email Templates](https://docs.mailtrap.io/general/email-templates) — Create and manage templates
 * [Email Sandbox](email-sandbox.md) — Set up Sandbox for your staging environment
 
 {% hint style="info" %}

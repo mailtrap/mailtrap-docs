@@ -81,7 +81,7 @@ The main Templates menu features all your saved templates. To quickly access a s
 
 <summary>Limitations</summary>
 
-Each account can have up to 200 email templates.
+The number of email templates depends on your plan, and the limit applies to your whole organization (all accounts combined).
 
 </details>
 

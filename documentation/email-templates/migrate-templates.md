@@ -5,7 +5,7 @@ Mailtrap uses Handlebars as its template engine. If your current provider also u
 This guide walks you through the full migration process: exporting templates from your current provider, converting syntax where needed, creating templates in Mailtrap, and updating your send calls.
 
 {% hint style="info" %}
-Mailtrap supports up to 200 email templates per account. If you are migrating a larger template library, prioritize your highest-traffic templates first.
+The number of email templates depends on your plan and is counted across your organization. If you are migrating a larger template library, prioritize your highest-traffic templates first.
 {% endhint %}
 
 ### Prerequisites
