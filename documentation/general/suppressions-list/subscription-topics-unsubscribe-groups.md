@@ -153,7 +153,7 @@ Disabled automations are excluded from this automatic assignment. Choose topics 
 
 Eligible account users receive an in-app notification and an email titled “Review your new subscription topic assignments”, with links to Campaigns and Automations.
 
-Review the assignments and either rename **General** or create more specific topics. A recipient who unsubscribes from **General** stops receiving every marketing email still assigned to it.
+Review the assignments and either rename **General** or create more specific topics. A recipient who unsubscribes from **General** through an email from one domain stops receiving every marketing email still assigned to it and sent from that domain.
 
 ### Use cases
 
