@@ -22,6 +22,7 @@ IPv6 ranges are AWS-provided, not Mailtrap-owned, and they're available on reque
 * **Soft bounce** - Temporary failure (will retry)
 * **Spam complaint** - Recipient reported spam
 * **Unsubscribe** - Recipient unsubscribed
+* **Subscription preferences update** - Recipient changed their [subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) preferences on the Manage subscriptions page (Bulk Stream and Campaigns). Unsubscribing from all there also sends **Unsubscribe**
 * **Open** - Email was opened
 * **Click** - Link was clicked
 * **Suspension** - Message suspended
@@ -96,6 +97,8 @@ Choose the **Sending Stream** (Transactional or Bulk) for which you want to set 
 
 {% step %}
 Choose the **domain** you want to receive events' data for and select one or more [event types](../email-live-sending/analytics/statuses-and-events.md) by ticking the corresponding checkbox.
+
+The **Subscription preferences update** event type is available for the Bulk Stream only. When you create or update a webhook [through the API](https://docs.mailtrap.io/developers/email-sending/webhooks), add `subscription_preferences_update` to its `event_types`.
 {% endstep %}
 
 {% step %}
@@ -114,6 +117,8 @@ To edit, pause, or delete an active webhook, go back to the Webhooks tab and sel
 {% endhint %}
 {% endstep %}
 {% endstepper %}
+
+**If you choose Campaigns**, you will receive events of the emails your [campaigns](../email-marketing/campaigns/README.md) send, with their `campaign_id`. Their **Unsubscribe** events also reach the Bulk Stream webhooks of Email Live Sending. Events of [automation](../email-marketing/automations.md) emails go to Bulk Stream webhooks, not to Campaigns ones.
 
 {% hint style="warning" %}
 Mailtrap webhooks are delivered only on ports 443 (for HTTPS) or 80 (for HTTP). Please be sure to use these ports only.
@@ -142,7 +147,7 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 <summary><mark style="color:$info;">object · SendingWebhookEvent</mark> <mark style="color:blue;">optional</mark><br><mark style="color:$info;">Email lifecycle webhook event</mark></summary>
 
 **event** <mark style="color:$info;">string · enum</mark> <mark style="color:$warning;">required</mark>\
-<mark style="color:$info;">Event type</mark>\ <mark style="color:$info;">Possible values</mark>: `delivery` `open` `click` `unsubscribe` `spam` `soft bounce` `bounce` `suspension` `reject`
+<mark style="color:$info;">Event type</mark>\ <mark style="color:$info;">Possible values</mark>: `delivery` `open` `click` `unsubscribe` `subscription preferences update` `spam` `soft bounce` `bounce` `suspension` `reject`
 
 **message\_id** <mark style="color:$info;">string</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Unique message ID</mark>
@@ -165,11 +170,17 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 
 * **Other properties** <mark style="color:$info;">string | number | boolean</mark> <mark style="color:$primary;">optional</mark>
 
+**campaign\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">Campaign ID (for events of campaign emails)</mark>
+
+**subscription\_topic\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">[Subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) ID of the email (for campaign and automation emails that have a topic). On</mark> `unsubscribe` <mark style="color:$info;">events, only when the recipient unsubscribed on the Manage subscriptions page</mark>
+
 **timestamp** <mark style="color:$info;">integer</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Unix epoch timestamp</mark>
 
 **event\_id** <mark style="color:$info;">string</mark> <mark style="color:$warning;">required</mark>\
-<mark style="color:$info;">Unique event ID (use for idempotency)</mark>
+<mark style="color:$info;">Unique event ID (use for idempotency). An event that reaches more than one webhook, such as a campaign email's</mark> `unsubscribe`<mark style="color:$info;">, has the same ID on each</mark>
 
 **reason** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">Reason (for</mark> `suspension` <mark style="color:$info;">and</mark> `reject` <mark style="color:$info;">events)</mark>
@@ -191,6 +202,20 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 
 **url** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">Clicked URL</mark> <mark style="color:$info;">(for</mark> `click` <mark style="color:$info;">events)</mark>
+
+**domain\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">Sending domain ID (for</mark> `subscription preferences update` <mark style="color:$info;">events)</mark>
+
+**unsubscribed** <mark style="color:$info;">boolean</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">Whether the recipient is unsubscribed from all (for</mark> `subscription preferences update` <mark style="color:$info;">events).</mark> `true` <mark style="color:$info;">overrides the statuses in</mark> `subscription_topics`
+
+**subscription\_topics** <mark style="color:$info;">object\[]</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">The recipient's status for each topic on the Manage subscriptions page (for</mark> `subscription preferences update` <mark style="color:$info;">events). Topic preferences belong to the sending domain: these statuses apply to the domain in</mark> `domain_id` <mark style="color:$info;">only</mark>
+
+* **subscription\_topic\_id** <mark style="color:$info;">integer</mark> <mark style="color:$warning;">required</mark>\
+  <mark style="color:$info;">Subscription topic ID</mark>
+* **status** <mark style="color:$info;">string · enum</mark> <mark style="color:$warning;">required</mark>\
+  <mark style="color:$info;">Topic status</mark>\ <mark style="color:$info;">Possible values:</mark> `subscribed` `unsubscribed`
 
 </details>
 
@@ -422,6 +447,38 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 ```
 {% endtab %}
 
+{% tab title="Subscription Preferences Update" %}
+```json
+{
+  "events": [
+    {
+      "event": "subscription preferences update",
+      "timestamp": 1728670000,
+      "sending_stream": "bulk",
+      "campaign_id": 1234,
+      "message_id": "1df37d17-0286-4d8b-8edf-bc4ec5be86e6",
+      "email": "receiver@example.com",
+      "event_id": "4c2e8a91-6f3d-4b7e-9a15-d8c03b6e2f47",
+      "subscription_topic_id": 12,
+      "sending_domain_name": "examplesender.com",
+      "domain_id": 3,
+      "unsubscribed": false,
+      "subscription_topics": [
+        {
+          "subscription_topic_id": 12,
+          "status": "unsubscribed"
+        },
+        {
+          "subscription_topic_id": 15,
+          "status": "subscribed"
+        }
+      ]
+    }
+  ]
+}
+```
+{% endtab %}
+
 {% tab title="Audit Log User Login" %}
 ```json
 {
@@ -491,7 +548,7 @@ Each line is a separate JSON object. Parse line by line.
 <summary><mark style="color:$info;">object · SendingWebhookEvent</mark> <mark style="color:blue;">optional</mark><br><mark style="color:$info;">Email lifecycle webhook event</mark></summary>
 
 **event** <mark style="color:$info;">string · enum</mark> <mark style="color:$warning;">required</mark>\
-<mark style="color:$info;">Event type</mark>\ <mark style="color:$info;">Possible values</mark>: `delivery` `open` `click` `unsubscribe` `spam` `soft bounce` `bounce` `suspension` `reject`
+<mark style="color:$info;">Event type</mark>\ <mark style="color:$info;">Possible values</mark>: `delivery` `open` `click` `unsubscribe` `subscription preferences update` `spam` `soft bounce` `bounce` `suspension` `reject`
 
 **message\_id** <mark style="color:$info;">string</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Unique message ID</mark>
@@ -514,11 +571,17 @@ Each line is a separate JSON object. Parse line by line.
 
 * **Other properties** <mark style="color:$info;">string | number | boolean</mark> <mark style="color:$primary;">optional</mark>
 
+**campaign\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">Campaign ID (for events of campaign emails)</mark>
+
+**subscription\_topic\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">[Subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) ID of the email (for campaign and automation emails that have a topic). On</mark> `unsubscribe` <mark style="color:$info;">events, only when the recipient unsubscribed on the Manage subscriptions page</mark>
+
 **timestamp** <mark style="color:$info;">integer</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Unix epoch timestamp</mark>
 
 **event\_id** <mark style="color:$info;">string</mark> <mark style="color:$warning;">required</mark>\
-<mark style="color:$info;">Unique event ID (use for idempotency)</mark>
+<mark style="color:$info;">Unique event ID (use for idempotency). An event that reaches more than one webhook, such as a campaign email's</mark> `unsubscribe`<mark style="color:$info;">, has the same ID on each</mark>
 
 **reason** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">Reason (for</mark> `suspension` <mark style="color:$info;">and</mark> `reject` <mark style="color:$info;">events)</mark>
@@ -540,6 +603,20 @@ Each line is a separate JSON object. Parse line by line.
 
 **url** <mark style="color:$info;">string</mark> <mark style="color:$primary;">optional</mark>\
 <mark style="color:$info;">Clicked URL</mark> <mark style="color:$info;">(for</mark> `click` <mark style="color:$info;">events)</mark>
+
+**domain\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">Sending domain ID (for</mark> `subscription preferences update` <mark style="color:$info;">events)</mark>
+
+**unsubscribed** <mark style="color:$info;">boolean</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">Whether the recipient is unsubscribed from all (for</mark> `subscription preferences update` <mark style="color:$info;">events).</mark> `true` <mark style="color:$info;">overrides the statuses in</mark> `subscription_topics`
+
+**subscription\_topics** <mark style="color:$info;">object\[]</mark> <mark style="color:$primary;">optional</mark>\
+<mark style="color:$info;">The recipient's status for each topic on the Manage subscriptions page (for</mark> `subscription preferences update` <mark style="color:$info;">events). Topic preferences belong to the sending domain: these statuses apply to the domain in</mark> `domain_id` <mark style="color:$info;">only</mark>
+
+* **subscription\_topic\_id** <mark style="color:$info;">integer</mark> <mark style="color:$warning;">required</mark>\
+  <mark style="color:$info;">Subscription topic ID</mark>
+* **status** <mark style="color:$info;">string · enum</mark> <mark style="color:$warning;">required</mark>\
+  <mark style="color:$info;">Topic status</mark>\ <mark style="color:$info;">Possible values:</mark> `subscribed` `unsubscribed`
 
 </details>
 
@@ -610,6 +687,16 @@ Each line is a separate JSON object. Parse line by line.
 {"event":"delivery","timestamp":1728669927,"message_id":"abc-123","email":"user1@example.com","event_id":"evt-1","sending_stream":"transactional","sending_domain_name":"example.com"}
 {"event":"open","timestamp":1728669930,"message_id":"abc-123","email":"user1@example.com","event_id":"evt-2","sending_stream":"transactional","ip":"192.168.1.1","sending_domain_name":"example.com"}
 {"event":"click","timestamp":1728669935,"message_id":"abc-123","email":"user1@example.com","event_id":"evt-3","sending_stream":"transactional","url":"https://example.com","sending_domain_name":"example.com"}
+```
+{% endtab %}
+
+{% tab title="Subscription preferences update events" %}
+```jsonl
+{"event":"delivery","timestamp":1728669927,"sending_stream":"bulk","campaign_id":1234,"message_id":"1df37d17-0286-4d8b-8edf-bc4ec5be86e6","email":"receiver@example.com","event_id":"bede7236-2284-43d6-a953-1fdcafd0fdbc","subscription_topic_id":12,"sending_domain_name":"examplesender.com"}
+{"event":"subscription preferences update","timestamp":1728670227,"sending_stream":"bulk","campaign_id":1234,"message_id":"1df37d17-0286-4d8b-8edf-bc4ec5be86e6","email":"receiver@example.com","event_id":"4c2e8a91-6f3d-4b7e-9a15-d8c03b6e2f47","subscription_topic_id":12,"sending_domain_name":"examplesender.com","domain_id":3,"unsubscribed":false,"subscription_topics":[{"subscription_topic_id":12,"status":"unsubscribed"},{"subscription_topic_id":15,"status":"subscribed"}]}
+{"event":"reject","timestamp":1728670527,"sending_stream":"bulk","campaign_id":1240,"message_id":"b5d17e3c-0a92-4f68-8c4b-71e2f9a3d056","email":"receiver@example.com","event_id":"3f1c2b8e-9d4a-4e6f-8b7c-2a5d9e0f1c34","reason":"Recipient in suppression list. Reason: topic unsubscription","subscription_topic_id":12,"sending_domain_name":"examplesender.com"}
+{"event":"unsubscribe","timestamp":1728670827,"sending_stream":"bulk","campaign_id":1234,"message_id":"7e1a9c3b-52d4-4f8e-a6b0-3c9d2e8f1a47","email":"another@example.com","event_id":"9d4f1c2e-7a8b-4e5f-9c0d-1a2b3c4d5e6f","subscription_topic_id":12,"sending_domain_name":"examplesender.com"}
+{"event":"subscription preferences update","timestamp":1728670827,"sending_stream":"bulk","campaign_id":1234,"message_id":"7e1a9c3b-52d4-4f8e-a6b0-3c9d2e8f1a47","email":"another@example.com","event_id":"3b8e6f2a-1c9d-4a7b-8e5f-0d2c4b6a8e91","subscription_topic_id":12,"sending_domain_name":"examplesender.com","domain_id":3,"unsubscribed":true,"subscription_topics":[{"subscription_topic_id":12,"status":"subscribed"},{"subscription_topic_id":15,"status":"subscribed"}]}
 ```
 {% endtab %}
 {% endtabs %}
