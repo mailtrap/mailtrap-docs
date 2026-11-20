@@ -1,0 +1,26 @@
+documentation/general/suppressions-list/subscription-topics-unsubscribe-groups.md
+  s_f1e59957e08159::t_bfc00a430ab8f1 81,83
+documentation/email-live-sending/advanced/unsubscribe-settings-footers-and-links.md
+  s_f1e59957e08159::t_936288bc109907 11
+  s_f1e59957e08159::t_54aced4b24cf96 31,33
+  s_f1e59957e08159::t_800f8150bac0e1 26-30,32,34
+  s_f1e59957e08159::t_82576ae0b415bc 7-8
+  s_f1e59957e08159::t_c0670f2ae2683d 35
+  s_f1e59957e08159::t_ff617c4fe75450 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "aea3d480929f0ef518bd33f0403fce5ab0e6ed38",
+  "prompts": {},
+  "sessions": {
+    "s_f1e59957e08159": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "525bcaac-66b6-4b0a-beea-4509dd655a14",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
