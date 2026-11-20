@@ -98,6 +98,6 @@ If you've verified all the above and still getting 401 errors:
 ### Related articles
 
 * [Sending Domain Setup](../../sending-domain/)
-* [API Integration](../api-integration.md)
-* [SMTP Integration](../smtp-integration.md)
+* [API Integration](../setup/api-integration.md)
+* [SMTP Integration](../setup/smtp-integration.md)
 * [Sending from Domain Not Allowed](sending-from-domain-not-allowed.md)

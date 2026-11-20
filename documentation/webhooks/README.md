@@ -95,7 +95,7 @@ Choose the **Sending Stream** (Transactional or Bulk) for which you want to set 
 {% endstep %}
 
 {% step %}
-Choose the **domain** you want to receive events' data for and select one or more [event types](../email-api-smtp/analytics/statuses-and-events.md) by ticking the corresponding checkbox.
+Choose the **domain** you want to receive events' data for and select one or more [event types](../email-live-sending/analytics/statuses-and-events.md) by ticking the corresponding checkbox.
 {% endstep %}
 
 {% step %}
