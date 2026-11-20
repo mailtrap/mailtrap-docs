@@ -1,0 +1,19 @@
+documentation/general/suppressions-list/subscription-topics-unsubscribe-groups.md
+  s_bbce54ec049dac::t_d17afa398f0576 156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bc89e5173280e1edd41c961d0f71c7c832350cc9",
+  "prompts": {},
+  "sessions": {
+    "s_bbce54ec049dac": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aa069161-a12b-41af-8f52-d2c52ce67b26",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
