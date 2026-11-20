@@ -4,7 +4,7 @@ Unsubscribe links are mandatory for bulk emails as per privacy laws. If your ema
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-09-10 at 17.11.37.png" alt="" width="375"><figcaption></figcaption></figure>
 
-In campaigns and automation emails, the footer reads **Manage subscriptions | Unsubscribe** when at least two [Subscription Topics](../../general/suppressions-list/subscription-topics-unsubscribe-groups.md) are available for the email's sending domain. Otherwise, it has only **Unsubscribe**, as shown above. A Manage subscriptions link in your template doesn't count as an unsubscribe link: Mailtrap still adds the footer, with **Unsubscribe** only.
+In campaigns and automation emails, the footer reads **Manage subscriptions | Unsubscribe** when at least two [Subscription Topics](../../general/suppressions-list/subscription-topics-unsubscribe-groups.md) are available for the email's sending domain. Otherwise, it has only **Unsubscribe**, as shown above. A Manage subscriptions link in your template doesn't count as an unsubscribe link: if your template has one but no unsubscribe link, Mailtrap still adds the footer, with **Unsubscribe** only.
 
 To add an unsubscribe link anywhere in your template, include this tag in your HTML template: `<a href="__unsubscribe_url__">unsubscribe</a>` . Mailtrap will render a clickable link in your email.
 
@@ -12,7 +12,7 @@ In campaigns and automation emails, you can also link the recipient's preference
 
 Unsubscribe footer and links are optional for transactional emails and are switched off by default.
 
-However, if you want to, you can still add an unsubscribe footer to your transactional emails by toggling the switch On under **Transactional stream email footer** or adding an HTML tag mentioned above.
+However, if you want to, you can still add an unsubscribe footer to your transactional emails by toggling the switch On under **Transactional stream email footer** or adding the `__unsubscribe_url__` tag mentioned above.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-09-10 at 17.13.36.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,8 +28,8 @@ For that reason, it's worth having different domains or subdomains for different
 
 In campaigns and automation emails, you can link the recipient's **Manage subscriptions** page, where they choose which [Subscription Topics](../../general/suppressions-list/subscription-topics-unsubscribe-groups.md) they want to receive. Include this tag in your HTML template: `<a href="__manage_subscriptions_url__">Manage subscriptions</a>`, or select **Manage subscriptions** from the drag & drop editor's link options. Default Mailtrap email templates include both links as **Manage subscriptions | Unsubscribe**.
 
-Mailtrap keeps the link only when at least two Subscription Topics are available for the email's sending domain, including topics assigned to All domains. Otherwise, it removes the link from the email, together with one separator next to it (such as `|`), so **Manage subscriptions | Unsubscribe** becomes **Unsubscribe**. Live Sending emails have no Subscription Topic, so the link is always removed from them. In the plain-text version of an email, where the link can't be removed, it opens the unsubscribe page instead.
+Mailtrap keeps the link only when at least two Subscription Topics are available for the email's sending domain, including topics assigned to All domains. Otherwise, it removes the link from the email, together with one separator next to it (such as `|`), so **Manage subscriptions | Unsubscribe** becomes **Unsubscribe**. Live Sending emails have no Subscription Topic, so the link is always removed from them. In the plain-text version, where links can't be removed, a removed link opens the unsubscribe page instead.
 
-Opening the Manage subscriptions page changes nothing until the recipient clicks **Save**. The saved preferences apply to emails from the sending domain of the email the link was in.
+Opening the Manage subscriptions page changes nothing until the recipient clicks **Save**. A saved topic preference applies to every sending domain the topic is available for.
 
-The unsubscribe links work differently: `__unsubscribe_url__`, the footer's **Unsubscribe**, and the `List-Unsubscribe` header unsubscribe the recipient from all marketing emails from the domain, whatever the email's Subscription Topic.
+Unlike topic preferences, the unsubscribe links in campaigns and automation emails (`__unsubscribe_url__`, the footer's **Unsubscribe**, and the `List-Unsubscribe` header) unsubscribe the recipient from all marketing emails from the domain, whatever the email's Subscription Topic.
