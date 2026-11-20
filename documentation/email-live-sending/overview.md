@@ -1,8 +1,8 @@
 ---
 title: Email Live Sending Overview
 description: >-
-  Overview of Mailtrap Email Live Sending: key features, use cases, and
-  target audience.
+  Overview of Mailtrap Email Live Sending: key features, use cases, and target
+  audience.
 layout:
   width: default
   title:
@@ -40,8 +40,8 @@ Choose a stream based on the email type:
 
 Use the method that fits your application:
 
-* [**Email Live Sending API**](api-integration.md) sends emails through authenticated HTTP requests and supported SDKs.
-* [**SMTP**](smtp-integration.md) works with existing email clients and libraries.
+* [**Email Live Sending API**](setup/api-integration.md) sends emails through authenticated HTTP requests and supported SDKs.
+* [**SMTP**](setup/smtp-integration.md) works with existing email clients and libraries.
 
 Both methods support Mailtrap Email Logs and analytics.
 
@@ -59,7 +59,7 @@ _Set up your sending domain_
 {% endstep %}
 
 {% step %}
-[api-integration.md](api-integration.md "mention")
+[api-integration.md](setup/api-integration.md "mention")
 
 _Integrate with the Email Live Sending API_
 {% endstep %}

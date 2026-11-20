@@ -110,7 +110,7 @@ To send emails via Bulk Stream SMTP, use the bulk-specific credentials:
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tfco.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-See our [SMTP Integration Guide](../smtp-integration.md) for detailed setup instructions.
+See our [SMTP Integration Guide](smtp-integration.md) for detailed setup instructions.
 
 **For API integration**
 
@@ -121,7 +121,7 @@ To send via Bulk Stream API, use the bulk endpoint:
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-tgfv-2.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-See our [API Integration Guide](../api-integration.md) for implementation details.
+See our [API Integration Guide](api-integration.md) for implementation details.
 {% endstep %}
 {% endstepper %}
 

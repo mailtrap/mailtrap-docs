@@ -83,7 +83,7 @@ If you're sending **application-generated emails** through SMTP or API, use **Em
 
 If you're planning to create and manage marketing campaigns directly in Mailtrap, check out **Email Marketing**, which provides tools for managing contacts and building and sending campaigns without implementing the entire campaign flow through SMTP or API.
 
-**Learn more:** [Email Live Sending](../email-api-smtp/overview.md) · [Email Marketing](../email-marketing/overview.md)
+**Learn more:** [Email Live Sending](../email-live-sending/overview.md) · [Email Marketing](../email-marketing/overview.md)
 
 ### One last thing: stay in touch
 

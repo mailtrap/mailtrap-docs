@@ -41,13 +41,13 @@ If you're using a tool like WordPress or Salesforce, you can simply copy/paste c
 {% tab title="WordPress" %}
 If you want to send emails from WordPress, you can use one of the many plugins (e.g., WP Mail SMTP or Post SMTP). For example, if you are using WP Mail SMTP, you can just navigate to the settings page and insert the Mailtrap credentials there.
 
-<figure><img src="../.gitbook/assets/wordpress smtp.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/wordpress smtp.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Salesforce" %}
 To send emails from Salesforce, simply add your Mailtrap credentials to your Email Relay configuration, just like so:
 
-<figure><img src="../.gitbook/assets/smtp salesforce.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/smtp salesforce.png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -88,13 +88,13 @@ MAIL_PASSWORD=<YOUR_API_TOKEN>
 
 Once you add Mailtrap SMTP to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you indicated in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-sxcd.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-sxcd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Remember that each domain has different API tokens (or SMTP passwords). You can create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
-<a href="../api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
+<a href="../../api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If you need any help with SMTP integration, please contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).
