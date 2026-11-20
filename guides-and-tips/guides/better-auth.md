@@ -188,7 +188,7 @@ Once you copy the scripts, update the following:
 * Replace `Your App` with the sender name you want recipients to see
 * Replace `https://yourdomain.com` in the invitation link with your app's base URL
 
-The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks), so you can tell reset emails from verification emails at a glance.
+The `category` field is optional. Setting it per email type lets you filter authentication emails in [Email Logs](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/analytics/logs) and see the category on delivery [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks), so you can tell reset emails from verification emails at a glance.
 
 The link-based examples send both `html` and `text`. The HTML version gives recipients a clickable link, and the plain text version is a fallback for clients that do not render HTML. The one-time code is plain text only, since there is nothing to link to.
 
@@ -229,4 +229,4 @@ Because nothing awaits the result, `sendEmail` has to handle its own failures. T
 
 ### Learn more
 
-For additional details about the Email API, refer to the [Mailtrap Email Live Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration) and the [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs).
+For additional details about the Email API, refer to the [Mailtrap Email Live Sending API Integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration) and the [Mailtrap Node.js SDK](https://github.com/mailtrap/mailtrap-nodejs).

@@ -23,7 +23,7 @@ To integrate Mailtrap via SMTP, go to the **Integration** tab and copy/paste eit
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-curl-integration-1.png" alt="" width="563"></div>
 
-You can get more information on SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+You can get more information on SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/smtp-integration).
 
 #### API integration
 
@@ -33,7 +33,7 @@ To integrate Mailtrap and send emails via cURL, use the configuration available 
 
 Once you copy the script, make sure to insert your Mailtrap API token in the `Authorization` field as `Bearer` and enter your and your recipient's emails in the `--mail-from` and `--mail-rcpt` fields.
 
-**Note**: To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+**Note**: To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
 
 ## Next steps
 

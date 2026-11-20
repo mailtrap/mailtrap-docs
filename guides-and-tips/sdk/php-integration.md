@@ -84,7 +84,7 @@ SMTP integration is compatible with any PHP framework or library that sends emai
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-php-smtp-integration.png" alt="" width="563"></div>
 
-Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/smtp-integration).
 
 #### RESTful API integration
 
@@ -94,4 +94,4 @@ API integration can be used with any PHP framework or library that supports HTTP
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-php-api-integration.png" alt="" width="563"></div>
 
-Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).

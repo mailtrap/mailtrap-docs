@@ -22,7 +22,7 @@ You'll have to use Play-Mailer configuration, as Scala doesn't have built-in sup
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-scala-integration-smtp.png" alt="" width="563"></div>
 
-Read more about SMTP integration in our [dedicated guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+Read more about SMTP integration in our [dedicated guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/smtp-integration).
 
 ### RESTful integration
 
@@ -30,4 +30,4 @@ To integrate Mailtrap using RESTful API, simply copy/paste the API endpoint and 
 
 For more details, refer to the [API documentation](https://api-docs.mailtrap.io/docs/mailtrap-api-docs/5tjdeg9545058-mailtrap-api).
 
-Read more about API integration in the [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+Read more about API integration in the [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
