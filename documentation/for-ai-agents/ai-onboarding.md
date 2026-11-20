@@ -20,8 +20,8 @@ Building with AI? Mailtrap provides several resources to make your life easier:
 * [Mailtrap docs LLMS.txt](https://docs.mailtrap.io/llms.txt)
 {% endhint %}
 
-{% content-ref url="../getting-started/email-api-smtp.md" %}
-[email-api-smtp.md](../getting-started/email-api-smtp.md)
+{% content-ref url="../getting-started/email-live-sending.md" %}
+[email-live-sending.md](../getting-started/email-live-sending.md)
 {% endcontent-ref %}
 
 {% content-ref url="https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-sandbox" %}

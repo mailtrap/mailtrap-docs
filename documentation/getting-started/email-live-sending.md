@@ -283,14 +283,14 @@ After DNS verification, newly added domains undergo a compliance check. Your dom
 {% endhint %}
 
 {% hint style="info" %}
-**Want to test before your domain is verified?** Skip ahead to [Optional: Test with Email Sandbox](email-api-smtp.md#optional-test-with-email-sandbox) — no domain needed.
+**Want to test before your domain is verified?** Skip ahead to [Optional: Test with Email Sandbox](email-live-sending.md#optional-test-with-email-sandbox) — no domain needed.
 {% endhint %}
 
 ## Step 4: Send your first email
 
 With your SDK installed, API token set, and domain verified, you're ready to send your first email.
 
-The examples below use inline HTML for simplicity. For real applications, use [Mailtrap-hosted templates](email-api-smtp.md#step-5-use-email-templates-recommended) instead (see Step 5).
+The examples below use inline HTML for simplicity. For real applications, use [Mailtrap-hosted templates](email-live-sending.md#step-5-use-email-templates-recommended) instead (see Step 5).
 
 {% tabs %}
 {% tab title="Node.js" %}
