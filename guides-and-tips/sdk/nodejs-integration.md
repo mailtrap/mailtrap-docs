@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Node.js applications using SDK, SMTP, or
   RESTful API for email sending.
+cover: ../.gitbook/assets/nodejs-cover.png
+coverY: 0
 ---
 
 # Node.js

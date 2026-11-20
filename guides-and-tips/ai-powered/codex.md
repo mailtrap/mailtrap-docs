@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/codex-cover.png
+coverY: 0
+---
+
 # Codex
 
 Codex is OpenAI’s open-source AI coding agent, available as a CLI tool, desktop app, IDE extension, and cloud agent at chatgpt.com/codex. This guide shows how to connect it to Mailtrap using the [Mailtrap MCP server](https://docs.mailtrap.io/guides/ai-powered-integrations/mcp-server).

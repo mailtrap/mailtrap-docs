@@ -3,6 +3,8 @@ title: <i class="fa-code">:code:</i> Cursor and Mailtrap Integration
 description: >-
   Integrate Mailtrap with the Cursor code editor to send transactional and
   promotional emails directly from your AI-powered development environment.
+cover: ../.gitbook/assets/cursor-cover.png
+coverY: 0
 ---
 
 # Cursor

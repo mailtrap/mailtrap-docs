@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/salesforce-email-sandbox-cover.png
+coverY: 0
+---
+
 # Salesforce
 
 [Salesforce](https://www.salesforce.com/ap/) is a cloud-based CRM platform used by businesses to manage customer relationships, sales, and marketing.
@@ -34,13 +39,13 @@ The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform 
 
 ## Step 1. Install the Email Sandbox add-on
 
-{% @arcade/embed flowId="pBqMHghFzHxD8ixTY5hT" url="https://app.arcade.software/share/pBqMHghFzHxD8ixTY5hT" %}
+{% @arcade/embed url="https://app.arcade.software/share/pBqMHghFzHxD8ixTY5hT" flowId="pBqMHghFzHxD8ixTY5hT" %}
 
 * Open the official [Mailtrap Email Sandbox AgentExchange listing](https://appexchange.salesforce.com/appxListingDetail?listingId=4f6cce1b-4943-4b23-94d7-d01df5249b03), click **Get It Now**, and log in via Trailblazer.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.33.29.png" alt=""><figcaption></figcaption></figure></div>
 
-* Choose where to install the package&#x20;
+* Choose where to install the package
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.37.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -48,7 +53,7 @@ The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform 
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.35.20 (1).png" alt=""><figcaption></figcaption></figure></div>
 
-* Choose a Salesforce username (i.e., **user123456@agentforce.com**)&#x20;
+* Choose a Salesforce username (i.e., **user123456@agentforce.com**)
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.36.59.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
@@ -56,11 +61,11 @@ The add-on works with Sales Cloud, Service Cloud, Experience Cloud and platform 
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.36.41.png" alt=""><figcaption></figcaption></figure></div>
 
-* Approve third-party access and click **Continue**.&#x20;
+* Approve third-party access and click **Continue**.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.37.22.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-If the installation takes longer, Salesforce will email you a confirmation.&#x20;
+If the installation takes longer, Salesforce will email you a confirmation.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-09-29 at 15.49.28.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -82,7 +87,7 @@ Email Sandbox for Salesforce requires a [Named Credential](https://help.salesfor
 
 ### Assign permission set
 
-{% @arcade/embed flowId="hzXq7EtgAGGHVI0cJknW" url="https://app.arcade.software/share/hzXq7EtgAGGHVI0cJknW" %}
+{% @arcade/embed url="https://app.arcade.software/share/hzXq7EtgAGGHVI0cJknW" flowId="hzXq7EtgAGGHVI0cJknW" %}
 
 First, you need to assign Mailtrap Admin permission set to User who will configure the app.
 
@@ -102,7 +107,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 #### Step 1. Create an External Client App
 
-{% @arcade/embed flowId="MZsHAOSVkEVG0zUuJ3zA" url="https://app.arcade.software/share/MZsHAOSVkEVG0zUuJ3zA" %}
+{% @arcade/embed url="https://app.arcade.software/share/MZsHAOSVkEVG0zUuJ3zA" flowId="MZsHAOSVkEVG0zUuJ3zA" %}
 
 * Navigate to **Setup** → **Apps** → **External Client Apps** → **External Client App Manager** and click on **New External Client App**.
 
@@ -141,7 +146,7 @@ First, you need to assign Mailtrap Admin permission set to User who will configu
 
 #### Step 2. Create Auth Provider
 
-{% @arcade/embed flowId="R2peujh8cGq038DFp5uP" url="https://app.arcade.software/share/R2peujh8cGq038DFp5uP" %}
+{% @arcade/embed url="https://app.arcade.software/share/R2peujh8cGq038DFp5uP" flowId="R2peujh8cGq038DFp5uP" %}
 
 {% hint style="info" %}
 **Useful links**:
@@ -177,7 +182,7 @@ Domain URL can be found under Company Settings → My Domain.
 
 #### Step 3. Named Credentials to Salesforce
 
-{% @arcade/embed flowId="JRDIhh5xmjdiE2iQGnGJ" url="https://app.arcade.software/share/JRDIhh5xmjdiE2iQGnGJ" %}
+{% @arcade/embed url="https://app.arcade.software/share/JRDIhh5xmjdiE2iQGnGJ" flowId="JRDIhh5xmjdiE2iQGnGJ" %}
 
 {% hint style="info" %}
 **Useful links**:
@@ -239,8 +244,6 @@ Name should specifically be **MailTrap\_To\_SF**, no other can be used for MailT
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Screenshot 2026-10-07 at 17.33.09.png" alt="" width="250"><figcaption></figcaption></figure></div>
 
-
-
 * Login to the Salesforce organization, **Allow** access, and confirm.
 
 <div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/11.png" alt="" width="362"><figcaption></figcaption></figure></div>
@@ -261,7 +264,7 @@ And that’s it, your application is ready!
 
 ## Step 3. Activate Email Sandbox for Salesforce
 
-{% @arcade/embed flowId="F7ti6g7iNkm6fhVAACeM" url="https://app.arcade.software/share/F7ti6g7iNkm6fhVAACeM" %}
+{% @arcade/embed url="https://app.arcade.software/share/F7ti6g7iNkm6fhVAACeM" flowId="F7ti6g7iNkm6fhVAACeM" %}
 
 To enable the Email Sandbox for Salesforce, you need to connect your Mailtrap account by adding a [Mailtrap API Token](https://docs.mailtrap.io/api-tokens). To do this:
 

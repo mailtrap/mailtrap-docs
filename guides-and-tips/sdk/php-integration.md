@@ -2,6 +2,8 @@
 description: >-
   Integrate Mailtrap with PHP applications using SDK, SMTP, or RESTful API for
   reliable email sending
+cover: ../.gitbook/assets/php-cover.png
+coverY: 0
 ---
 
 # PHP

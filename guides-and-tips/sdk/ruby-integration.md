@@ -2,6 +2,8 @@
 description: >-
   Integrate Mailtrap with Ruby apps and projects for email sending using SDK,
   SMTP, or RESTful API
+cover: ../.gitbook/assets/ruby-cover.png
+coverY: 0
 ---
 
 # Ruby

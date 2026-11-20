@@ -3,6 +3,8 @@ title: <i class="fa-robot">:robot:</i> Claude and Mailtrap Integration
 description: >-
   Integrate Mailtrap with Claude Desktop to send transactional and promotional
   emails directly from Claude using Model Context Protocol.
+cover: ../.gitbook/assets/claude-code-cover.png
+coverY: 0
 ---
 
 # Claude

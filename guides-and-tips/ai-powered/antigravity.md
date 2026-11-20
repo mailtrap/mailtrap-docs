@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/antigravity-cover.png
+coverY: 0
+---
+
 # Antigravity
 
 [Antigravity](https://antigravity.google/) is Google’s development platform powered by Gemini 3 that gives you an AI-powered IDE experience with autonomous agents that can plan, execute, and verify complex software tasks across your editor.
