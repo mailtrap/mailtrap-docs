@@ -93,22 +93,22 @@ Ruby, PHP (Laravel + Symfony), Node.js, Go, Python, Java, and .NET SDKs support 
 
 Once you add Mailtrap Email API to your project, try sending an email from the tool of your choice or the project you're working on. If you did everything correctly, you should find the sent email in the inbox of the email address you specified in the script. The email will also appear in the [Mailtrap Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs).
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-sxcd.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-sxcd.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### API tokens
 
 Remember that each domain has different API tokens. You can also create additional API tokens by going to **Settings** → **API Tokens** and clicking **Add Token**.
 
-<a href="../api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
+<a href="../../api-tokens.md" class="button primary" data-icon="magnifying-glass">Learn more about API Tokens</a>
 
-<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/SCR-20260915-syjq.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Mailtrap Email Live Sending API supports:
 
 * attachments
 * [email templates](https://docs.mailtrap.io/email-api-smtp/email-templates)
-* [custom variables](custom-variables.md)
-* [email categories](analytics/categories.md)
+* [custom variables](../advanced/custom-variables.md)
+* [email categories](../analytics/categories.md)
 
 {% hint style="info" %}
 If you need any help with API integration, please, contact our support team at [support@mailtrap.io](mailto:support@mailtrap.io).

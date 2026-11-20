@@ -53,7 +53,7 @@ Enough to fully test an integration, prototype an AI workflow, or run a small pr
 
 ### Email Live Sending pricing
 
-Send transactional emails — welcome emails, password resets, order confirmations. Receive inbound email in the same plan. See the [Email Live Sending overview](../../email-api-smtp/overview.md) for the full feature rundown.
+Send transactional emails — welcome emails, password resets, order confirmations. Receive inbound email in the same plan. See the [Email Live Sending overview](../../email-live-sending/overview.md) for the full feature rundown.
 
 <table data-search="false"><thead><tr><th>Plan</th><th>Monthly</th><th>Annual</th><th>Emails/mo</th></tr></thead><tbody><tr><td>Free</td><td>$0</td><td>$0</td><td>4,000</td></tr><tr><td>Basic</td><td>$15</td><td>$12</td><td>10,000</td></tr><tr><td>Basic</td><td>$20</td><td>$16</td><td>50,000</td></tr><tr><td>Basic</td><td>$30</td><td>$24</td><td>100,000</td></tr><tr><td>Business</td><td>$85</td><td>$68</td><td>100,000</td></tr><tr><td>Business</td><td>$200</td><td>$160</td><td>250,000</td></tr><tr><td>Business</td><td>$300</td><td>$240</td><td>500,000</td></tr><tr><td>Business</td><td>$450</td><td>$360</td><td>750,000</td></tr><tr><td>Enterprise</td><td>$750</td><td>$600</td><td>1,500,000</td></tr><tr><td>Enterprise</td><td>$1,250</td><td>$1,000</td><td>2,500,000</td></tr><tr><td>Enterprise</td><td>Custom</td><td>Custom</td><td>2,500,000+</td></tr></tbody></table>
 

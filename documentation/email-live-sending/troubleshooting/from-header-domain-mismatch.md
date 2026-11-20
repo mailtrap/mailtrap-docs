@@ -144,6 +144,6 @@ If you've verified your domain and updated your configuration but still see this
 ### Related rrticles
 
 * [Sending Domain Setup](../../sending-domain/)
-* [SMTP Integration](../smtp-integration.md)
+* [SMTP Integration](../setup/smtp-integration.md)
 * [Sending from Domain Not Allowed](sending-from-domain-not-allowed.md)
 * [Unauthorized Error (401 Code)](unauthorized-401-error.md)

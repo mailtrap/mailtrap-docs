@@ -13,7 +13,7 @@ Set up triggers, actions, and rules to automate your email sending.
 
 ## Use cases
 
-Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/make), [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/zapier), or [N8N](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/integrations/n8n).
+Use integrations to add contacts into Mailtrap using API, SDKs, [Make.com](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/guides/make), [Zapier](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/guides/zapier), or [N8N](https://app.gitbook.com/s/gkNigAKiqQtQub1GOdjY/guides/n8n).
 
 {% tabs %}
 {% tab title="Welcome Series" %}
@@ -129,7 +129,7 @@ curl -X POST https://api.mailtrap.io/contacts/{contact_id}/events \
 
 ## Creating your first automation
 
-{% @arcade/embed flowId="Dx8ZHy2PftErqy6vL4aA" url="https://app.arcade.software/share/Dx8ZHy2PftErqy6vL4aA" %}
+{% @arcade/embed url="https://app.arcade.software/share/Dx8ZHy2PftErqy6vL4aA" flowId="Dx8ZHy2PftErqy6vL4aA" %}
 
 To get started, navigate to the tab in your Mailtrap account or go to [https://mailtrap.io/marketing/automations](https://mailtrap.io/marketing/automations).
 
@@ -249,4 +249,4 @@ You can track the performance of your automation by clicking on the Reports tab 
 
 * Each contact can go through the same automation once in 24 hours.
 * Each account can have up to 30 Automations.
-* The maximum amount of automation runs for each plan is 250,000 per month.&#x20;
+* The maximum amount of automation runs for each plan is 250,000 per month.

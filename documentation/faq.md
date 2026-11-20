@@ -4,7 +4,7 @@ icon: question
 
 # FAQ
 
-This page covers frequently asked questions about Mailtrap's products. For technical issues and error troubleshooting, see the [Troubleshooting section](email-api-smtp/troubleshooting/).
+This page covers frequently asked questions about Mailtrap's products. For technical issues and error troubleshooting, see the [Troubleshooting section](email-live-sending/troubleshooting/).
 
 ### Live Sending
 
@@ -29,8 +29,8 @@ Mailtrap is an email delivery service to send transactional and promotional emai
 
 Learn more:
 
-* [API Integration](email-api-smtp/api-integration.md)
-* [SMTP Integration](email-api-smtp/smtp-integration.md)
+* [API Integration](email-live-sending/setup/api-integration.md)
+* [SMTP Integration](email-live-sending/setup/smtp-integration.md)
 * [Sending Domain Setup](sending-domain/)
 
 If you have any questions, contact us at [support@mailtrap.io](mailto:support@mailtrap.io).
@@ -168,7 +168,7 @@ If you reach your monthly limit, sending is rejected with the error: "Your accou
 
 To continue sending when you're over the limit, please upgrade your subscription plan. Alternatively, you can wait until the next billing period starts, when the limit is reset.
 
-For more details, check the [Sending Limits](email-api-smtp/setup/sending-limits.md) and [Pricing page](https://mailtrap.io/pricing/?tab=api).
+For more details, check the [Sending Limits](email-live-sending/setup/sending-limits.md) and [Pricing page](https://mailtrap.io/pricing/?tab=api).
 
 </details>
 

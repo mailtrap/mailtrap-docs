@@ -495,140 +495,17 @@ curl -X POST "https://send.api.mailtrap.io/api/send" \
 **AI tip:** Your AI assistant should proactively create a template for your use case at this point — generating the HTML, creating it via the API, and wiring up the sending code that references the template UUID.
 {% endhint %}
 
-## Optional: Test with Email Sandbox
-
-Before sending to real users, test your integration with Email Sandbox. Emails go to a virtual inbox instead of real recipients — no domain verification needed. This is useful while waiting for DNS propagation, or as a permanent Sandbox setup for staging/CI.
-
-### Why use the Sandbox?
-
-* Inspect rendered HTML and check responsive design
-* Run spam score analysis
-* Validate email headers
-* Test your integration without risking real deliveries
-
-### Find your Sandbox inbox
-
-Every Mailtrap account comes with a Sandbox inbox. Find your inbox ID:
-
-* **In the UI:** Go to [Sandboxes](https://mailtrap.io/sandboxes) — your inbox ID is shown next to each inbox.
-* **Via API:** List your inboxes:
-
-```bash
-curl "https://mailtrap.io/api/accounts/{account_id}/inboxes" \
-  -H "Authorization: Bearer $MAILTRAP_API_KEY"
-```
-
-### Use the API for Sandbox (recommended)
-
-The API makes it explicit when you're in Sandbox mode vs. live — reducing the risk of accidentally sending test emails to real users or live emails to your Sandbox.
-
-{% tabs %}
-{% tab title="Node.js" %}
-```typescript
-const client = new MailtrapClient({
-  token: process.env.MAILTRAP_API_KEY!,
-  sandbox: true,
-  testInboxId: Number(process.env.MAILTRAP_INBOX_ID),
-});
-
-// Same .send() call — emails land in your Sandbox inbox
-await client.send({
-  from: { email: "hello@yourdomain.com", name: "Your App" },
-  to: [{ email: "user@example.com" }],
-  subject: "Test email",
-  text: "This will go to the Sandbox, not real recipients.",
-});
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```python
-client = mt.MailtrapClient(
-    token=os.environ["MAILTRAP_API_KEY"],
-    sandbox=True,
-    test_inbox_id=int(os.environ["MAILTRAP_INBOX_ID"]),
-)
-
-# Same send call — emails land in Sandbox
-client.send(mail)
-```
-{% endtab %}
-
-{% tab title="cURL" %}
-```bash
-# Sandbox uses a different base URL
-curl -X POST "https://sandbox.api.mailtrap.io/api/send/{inbox_id}" \
-  -H "Authorization: Bearer $MAILTRAP_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "from": {"email": "hello@yourdomain.com", "name": "Your App"},
-    "to": [{"email": "user@example.com"}],
-    "subject": "Test email",
-    "text": "This will go to the Sandbox."
-  }'
-```
-{% endtab %}
-{% endtabs %}
-
-### View your test emails
-
-* **In the UI:** Go to [Sandboxes](https://mailtrap.io/sandboxes) → click your Sandbox → see all received emails with HTML preview, spam analysis, and headers.
-* **Via API:** List messages in your Sandbox:
-
-```bash
-curl "https://mailtrap.io/api/accounts/{account_id}/inboxes/{inbox_id}/messages" \
-  -H "Authorization: Bearer $MAILTRAP_API_KEY"
-```
-
-### Safe environment switching
-
-Use an environment variable to control Sandbox vs. live mode. This prevents hardcoding `sandbox: true` in your codebase.
-
-```typescript
-// Node.js — environment-based switching
-const isSandbox = process.env.MAILTRAP_USE_SANDBOX === "true";
-
-const client = new MailtrapClient({
-  token: process.env.MAILTRAP_API_KEY!,
-  sandbox: isSandbox,
-  testInboxId: isSandbox
-    ? Number(process.env.MAILTRAP_INBOX_ID)
-    : undefined,
-});
-```
-
-```bash
-# .env.development
-MAILTRAP_USE_SANDBOX=true
-MAILTRAP_INBOX_ID=12345
-
-# .env.live
-MAILTRAP_USE_SANDBOX=false
-```
-
-{% hint style="warning" %}
-**Avoid common mistakes:**
-
-* Use the **API** (not SMTP) for Sandbox testing — the API uses a distinct base URL (`sandbox.api.mailtrap.io` vs. `send.api.mailtrap.io`) making the environment explicit. With SMTP, you'd need to swap credentials entirely, which is error-prone.
-* **Never hardcode** `sandbox: true` in live code. Use environment variables.
-* The Sandbox inbox ID is visible in the Mailtrap UI under **Email Sandbox**.
-{% endhint %}
-
-{% hint style="info" %}
-Full Sandbox guide: [Getting Started with Email Sandbox](email-sandbox.md)
-{% endhint %}
-
-## What's Next?
+## What's next?
 
 Now that you're sending emails, explore these capabilities:
 
-* [API Reference](https://docs.mailtrap.io/developers) — Full reference for all Mailtrap API endpoints
-* [Tracking Settings](../sending-domain/#optional-tracking-settings-ffi49) — Enable open and click tracking
-* [Webhooks](../sending-domain/#optional-webhooks-4hmes) — Get real-time delivery event notifications
-* [Suppressions](../general/suppressions-list/) — Manage bounces and unsubscribes automatically
-* [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs) — Inspect delivery status for every email
-* [Email Templates](https://docs.mailtrap.io/general/email-templates) — Create and manage templates
-* [Email Sandbox](email-sandbox.md) — Set up Sandbox for your staging environment
+* [API Reference](https://docs.mailtrap.io/developers) – Full reference for all Mailtrap API endpoints
+* [Tracking Settings](../sending-domain/#optional-tracking-settings-ffi49) – Enable open and click tracking
+* [Webhooks](../sending-domain/#optional-webhooks-4hmes) – Get real-time delivery event notifications
+* [Suppressions](../general/suppressions-list/) – Manage bounces and unsubscribes automatically
+* [Email Logs](https://docs.mailtrap.io/email-api-smtp/analytics/logs) – Inspect delivery status for every email
+* [Email Templates](https://docs.mailtrap.io/general/email-templates) – Create and manage templates
+* [Email Sandbox](email-sandbox.md) – Set up Sandbox for your staging environment
 
 {% hint style="info" %}
 **Migrating from another provider?** See our migration guides for [SendGrid](https://mailtrap.io/sendgrid-migration/), [Mailchimp](https://mailtrap.io/mandrill-migration/), and [Mailgun](https://mailtrap.io/mailgun-migration/).
