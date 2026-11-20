@@ -212,7 +212,7 @@ And here is the same email in the [Mailtrap Email Logs](https://docs.mailtrap.io
 
 **Note**: Before you start, make sure to install the [latest Node.js version](https://nodejs.org/en) since [Mailtrap MCP](https://www.npmjs.com/package/mcp-mailtrap) is implemented as a Node.js command line utility.
 
-To add Mailtrap MCP to Cursor, simply [click here](https://cursor.com/en-US/install-mcp?name=mailtrap\&config=eyJlbnYiOnsiTUFJTFRSQVBfQVBJX1RPS0VOIjoieW91cl9tYWlsdHJhcF9hcGlfdG9rZW4iLCJERUZBVUxUX0ZST01fRU1BSUwiOiJ5b3VyX3NlbmRlckBleGFtcGxlLmNvbSIsIk1BSUxUUkFQX0FDQ09VTlRfSUQiOiJ5b3VyX2FjY291bnRfaWQiLCJNQUlMVFJBUF9URVNUX0lOQk9YX0lEIjoieW91cl90ZXN0X2luYm94X2lkIn0sImNvbW1hbmQiOiJucHggLXkgbWNwLW1haWx0cmFwIn0%3D) or press the quick install button on the official Mailtrap MCP page:
+To add Mailtrap MCP to Cursor, simply [click here](https://cursor.com/en-US/install-mcp?name=mailtrap\&config=eyJlbnYiOnsiTUFJTFRSQVBfQVBJX1RPS0VOIjoieW91cl9tYWlsdHJhcF9hcGlfdG9rZW4iLCJERUZBVUxUX0ZST01fRU1BSUwiOiJ5b3VyX3NlbmRlckBleGFtcGxlLmNvbSIsIk1BSUxUUkFQX0FDQ09VTlRfSUQiOiJ5b3VyX2FjY291bnRfaWQiLCJNQUlMVFJBUF9TQU5EQk9YX0lEIjoieW91cl9zYW5kYm94X2lkIn0sImNvbW1hbmQiOiJucHggLXkgbWNwLW1haWx0cmFwIn0%3D) or press the quick install button on the official Mailtrap MCP page:
 
 <figure><img src="../.gitbook/assets/cursor install.png" alt=""><figcaption></figcaption></figure>
 
@@ -226,7 +226,7 @@ You will then be taken to the following Cursor settings page, where you will hav
 You can find these credentials in your Mailtrap account by navigating to **Sending Domains** → **Integration** → **API**.
 
 * `MAILTRAP_ACCOUNT_ID` – This is required for template management purposes. You can find the account ID under **Settings** → **Account Settings**.
-* `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
+* `MAILTRAP_SANDBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
 Once you insert your Mailtrap credentials, make sure to hit the **Install** button, and you should see Mailtrap MCP installed, along with a list of available tools it comes with. Currently, Mailtrap MCP supports:
 

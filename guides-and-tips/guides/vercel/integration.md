@@ -12,7 +12,7 @@ Mailtrap’s native integration with Vercel removes manual setup friction, minim
 This integration automatically configures the environment variables necessary for both testing (Sandbox) and production sending in your Vercel projects.
 
 {% hint style="info" %}
-The integration adds a set of three variables (`API_KEY`, `USE_SANDBOX`, and `INBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
+The integration adds a set of three variables (`API_KEY`, `USE_SANDBOX`, and `SANDBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
 {% endhint %}
 
 #### Prerequisites
@@ -83,7 +83,7 @@ The following variables will be added to your Vercel project:
 
 * `MAILTRAP_API_KEY` – Required for both testing and sending.
 * `MAILTRAP_USE_SANDBOX` – Set to **True** to use Mailtrap's Sandbox for testing, or **False** for production sending.
-* `MAILTRAP_INBOX_ID` – Required if using the Sandbox. Select the desired Inbox from the dropdown.
+* `MAILTRAP_SANDBOX_ID` – Required if using the Sandbox. Select the desired Sandbox from the dropdown.
 
 Once you’re done reviewing the variables, click **Set Environment Variables**. This will finalize the integration and close the setup window.
 
@@ -95,7 +95,7 @@ Once the setup is complete, you can verify the environment variables in your Ver
 
 1. Go to your Vercel project settings.
 2. Navigate to the **Environment Variables** section.
-3. You should see nine Mailtrap environment variables. A set of three variables (`API_KEY`, `USE_SANDBOX`, and `INBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
+3. You should see nine Mailtrap environment variables. A set of three variables (`API_KEY`, `USE_SANDBOX`, and `SANDBOX_ID`) for each of the three Vercel environments: **Development**, **Preview**, and **Production**.
 
 <figure><img src="../../.gitbook/assets/vercel 8.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}

@@ -44,7 +44,7 @@ In the **mcp\_config.json** file, simply copy/paste the following code snippet:
         "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
         "DEFAULT_FROM_EMAIL": "your_sender@example.com",
         "MAILTRAP_ACCOUNT_ID": "your_account_id",
-        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+        "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
       }
     }
   }
@@ -66,7 +66,7 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.13.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
+* `MAILTRAP_SANDBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.34.png" alt=""><figcaption></figcaption></figure>
 
