@@ -107,6 +107,17 @@ To avoid this, simply email our support team and request verification for these 
 
 **Note**: This process does not require SPF or DKIM changes, does not affect the customer’s email infrastructure, and does not allow the verified domain to send emails. It simply provides a reliable, auditable proof of ownership.
 
+#### Subdomains
+
+The allowlist also covers subdomains. A recipient is allowed if their root domain matches an entry on the list. For example, with `example.com` on the allowlist:
+
+* `user@example.com` – allowed
+* `user@mail.example.com` – allowed
+* `user@eu.mail.example.com` – allowed
+* `user@example2.com` – blocked
+
+If your account also has an IP allowlist, the two restrictions are separate checks, and every email has to pass both. Sending from an allowlisted IP doesn't let you send to recipients outside the allowed domains.
+
 ### Additional security measures
 
 The methods outlined in this article are not exhaustive. While securing your web forms and hiding your .env files are fundamental security measures, they should be considered just the first line of defense.
