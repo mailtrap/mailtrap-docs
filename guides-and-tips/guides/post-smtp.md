@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/post-smtp-cover (1).png
+coverY: 0
+---
+
 # Post SMTP
 
 Integrate Mailtrap with your WordPress site using the Post SMTP plugin to send and test emails through the Mailtrap API or SMTP.

@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/anymail-cover (1).png
+coverY: 0
+---
+
 # Anymail
 
 Integrate Mailtrap with Django apps using Anymail or SMTP to send and test emails.

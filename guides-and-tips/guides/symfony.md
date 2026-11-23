@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/symfony-cover (1).png
+coverY: 0
+---
+
 # Symfony
 
 Integrate Mailtrap with Symfony apps and projects to send and test emails using the Mailtrap SDK, Symfony's Mailtrap bridge, or SMTP.

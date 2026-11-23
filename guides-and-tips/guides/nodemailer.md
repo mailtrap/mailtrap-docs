@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/nodemailer-cover (1).png
+coverY: 0
+---
+
 # Nodemailer
 
 Integrate Mailtrap with Nodemailer to send and test emails from Node.js apps using the Mailtrap transport or SMTP.
