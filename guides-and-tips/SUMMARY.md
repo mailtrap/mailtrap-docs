@@ -29,6 +29,7 @@
 * [FastAPI](guides/fastapi.md)
 * [Firebase](guides/firebase.md)
 * [Hono](guides/hono.md)
+* [Laravel](guides/laravel.md)
 * [Make.com](guides/make.md)
 * [N8N](guides/n8n.md)
 * [Nuxt](guides/nuxt.md)
