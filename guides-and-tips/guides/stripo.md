@@ -7,8 +7,6 @@ coverY: 0
 
 Export Stripo email templates to Mailtrap and send emails with those templates.
 
-<a href="https://support.stripo.email/en/articles/11431744-how-to-export-an-email-template-to-mailtrap" class="button primary">Stripo documentation</a>
-
 ### Overview
 
 Create mobile-responsive emails with Stripo's drag-and-drop builder. When your template is ready, export it to Mailtrap and send it through the Mailtrap Email API, whether it's a campaign, a transactional email, or a bulk update.

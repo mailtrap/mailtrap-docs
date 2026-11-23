@@ -7,8 +7,6 @@ coverY: 0
 
 Integrate Mailtrap with Django apps using Anymail or SMTP to send and test emails.
 
-<a href="https://github.com/anymail/django-anymail" class="button primary">Anymail on GitHub</a>
-
 ### Overview
 
 Mailtrap can be integrated with Django apps for email sending and testing. You can connect it in two ways:

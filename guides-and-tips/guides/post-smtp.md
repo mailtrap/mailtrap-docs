@@ -7,8 +7,6 @@ coverY: 0
 
 Integrate Mailtrap with your WordPress site using the Post SMTP plugin to send and test emails through the Mailtrap API or SMTP.
 
-<a href="https://wordpress.org/plugins/post-smtp/" class="button primary">Post SMTP on WordPress.org</a>
-
 ### Overview
 
 Post SMTP is a WordPress plugin that sends your site's emails through an email provider instead of the default WordPress mail function. You can connect it to Mailtrap in two ways:
