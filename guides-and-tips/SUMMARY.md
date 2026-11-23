@@ -23,8 +23,8 @@
 * [AWS Lambda](guides/aws-lambda.md)
 * [Better Auth](guides/better-auth.md)
 * [Cloudflare Workers](guides/cloudflare-workers.md)
-* [cPanel SMTP Relay](guides/cpanel.md)
 * [Composio](guides/composio.md)
+* [cPanel SMTP Relay](guides/cpanel.md)
 * [cURL](guides/curl.md)
 * [Deno](guides/deno.md)
 * [FastAPI](guides/fastapi.md)
@@ -48,11 +48,11 @@
   * [Supabase Transactional Emails Integration](guides/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](guides/supabase/contacts-management.md)
 * [Symfony](guides/symfony.md)
-* [Wget](guides/wget.md)
 * [Upyo](guides/upyo.md)
 * [Vercel](guides/vercel/README.md)
   * [Mailtrap Vercel Integration](guides/vercel/integration.md)
   * [Vercel Connect](guides/vercel/connect.md)
+* [Wget](guides/wget.md)
 * [Zapier](guides/zapier.md)
 
 ## AI-Powered
