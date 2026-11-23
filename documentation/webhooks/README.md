@@ -21,7 +21,7 @@ IPv6 ranges are AWS-provided, not Mailtrap-owned, and they're available on reque
 * **Bounce** - Permanent delivery failure
 * **Soft bounce** - Temporary failure (will retry)
 * **Spam complaint** - Recipient reported spam
-* **Unsubscribe** - Recipient unsubscribed
+* **Unsubscribe** - Recipient unsubscribed from all emails of the sending domain, regardless of the email's subscription topic
 * **Subscription preferences update** - Recipient changed their [subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) preferences on the Manage subscriptions page (Bulk Stream and Campaigns). Unsubscribing from all there also sends **Unsubscribe**
 * **Open** - Email was opened
 * **Click** - Link was clicked
@@ -174,7 +174,7 @@ Mailtrap sends a `POST` request to your webhook URL with events as a JSON object
 <mark style="color:$info;">Campaign ID (for events of campaign emails)</mark>
 
 **subscription\_topic\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
-<mark style="color:$info;">[Subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) ID of the email (for campaign and automation emails that have a topic). On</mark> `unsubscribe` <mark style="color:$info;">events, only when the recipient unsubscribed on the Manage subscriptions page</mark>
+<mark style="color:$info;">[Subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) ID of the email (for campaign and automation emails that have a topic). On</mark> `unsubscribe` <mark style="color:$info;">events, only when the recipient unsubscribed on the Manage subscriptions page. It doesn't show which topics the recipient left or rejoined:</mark> `unsubscribe` <mark style="color:$info;">always covers all emails of the sending domain, and topic changes come in the</mark> `subscription_topics` <mark style="color:$info;">of</mark> `subscription preferences update` <mark style="color:$info;">events</mark>
 
 **timestamp** <mark style="color:$info;">integer</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Unix epoch timestamp</mark>
@@ -575,7 +575,7 @@ Each line is a separate JSON object. Parse line by line.
 <mark style="color:$info;">Campaign ID (for events of campaign emails)</mark>
 
 **subscription\_topic\_id** <mark style="color:$info;">integer</mark> <mark style="color:$primary;">optional</mark>\
-<mark style="color:$info;">[Subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) ID of the email (for campaign and automation emails that have a topic). On</mark> `unsubscribe` <mark style="color:$info;">events, only when the recipient unsubscribed on the Manage subscriptions page</mark>
+<mark style="color:$info;">[Subscription topic](../general/suppressions-list/subscription-topics-unsubscribe-groups.md) ID of the email (for campaign and automation emails that have a topic). On</mark> `unsubscribe` <mark style="color:$info;">events, only when the recipient unsubscribed on the Manage subscriptions page. It doesn't show which topics the recipient left or rejoined:</mark> `unsubscribe` <mark style="color:$info;">always covers all emails of the sending domain, and topic changes come in the</mark> `subscription_topics` <mark style="color:$info;">of</mark> `subscription preferences update` <mark style="color:$info;">events</mark>
 
 **timestamp** <mark style="color:$info;">integer</mark> <mark style="color:$warning;">required</mark>\
 <mark style="color:$info;">Unix epoch timestamp</mark>
