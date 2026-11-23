@@ -99,14 +99,6 @@ So, in case your credentials are stolen, attackers cannot use them to send spam 
 
 **Note**: You can add up to 20 allowlisted recipient domains.
 
-### Verify ownership of your company or brands domains
-
-If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.
-
-To avoid this, simply email our support team and request verification for these additional domains (referred to as a company domain). You can add multiple company domains to a single account. Those domains do not count against the “Domains” limit in your subscription plan and can be added even if you are on a free plan.
-
-**Note**: This process does not require SPF or DKIM changes, does not affect the customer’s email infrastructure, and does not allow the verified domain to send emails. It simply provides a reliable, auditable proof of ownership.
-
 #### Subdomains
 
 The allowlist also covers subdomains. A recipient is allowed if their root domain matches an entry on the list. For example, with `example.com` on the allowlist:
@@ -117,6 +109,14 @@ The allowlist also covers subdomains. A recipient is allowed if their root domai
 * `user@example2.com` – blocked
 
 If your account also has an IP allowlist, the two restrictions are separate checks, and every email has to pass both. Sending from an allowlisted IP doesn't let you send to recipients outside the allowed domains.
+
+### Verify ownership of your company or brands domains
+
+If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.
+
+To avoid this, simply email our support team and request verification for these additional domains (referred to as a company domain). You can add multiple company domains to a single account. Those domains do not count against the “Domains” limit in your subscription plan and can be added even if you are on a free plan.
+
+**Note**: This process does not require SPF or DKIM changes, does not affect the customer’s email infrastructure, and does not allow the verified domain to send emails. It simply provides a reliable, auditable proof of ownership.
 
 ### Additional security measures
 
