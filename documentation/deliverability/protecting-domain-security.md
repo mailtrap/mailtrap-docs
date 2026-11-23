@@ -99,8 +99,6 @@ So, in case your credentials are stolen, attackers cannot use them to send spam 
 
 **Note**: You can add up to 20 allowlisted recipient domains.
 
-#### Subdomains
-
 The allowlist also covers subdomains. A recipient is allowed if their root domain matches an entry on the list. For example, with `example.com` on the allowlist:
 
 * `user@example.com` – allowed
