@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/qodo-cover.png
+coverY: 0
+---
+
 # Qodo
 
 [Qodo](https://qodo.ai/) is an AI code review platform that gives engineering teams deep codebase context to move faster without sacrificing code quality. In this guide, you’ll learn how to integrate it with Mailtrap MCP.
