@@ -4,7 +4,7 @@ Unsubscribe links are mandatory for bulk emails as per privacy laws. If your ema
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-09-10 at 17.11.37.png" alt="" width="375"><figcaption></figcaption></figure>
 
-In campaigns and automation emails, the footer reads **Manage subscriptions | Unsubscribe** when at least two [Subscription Topics](../../general/suppressions-list/subscription-topics-unsubscribe-groups.md) are available for the email's sending domain. Otherwise, it has only **Unsubscribe**, as shown above. A Manage subscriptions link in your template doesn't count as an unsubscribe link: if your template has one but no unsubscribe link, Mailtrap still adds the footer, with **Unsubscribe** only.
+In campaigns and automation emails, the footer includes **Manage subscriptions | Unsubscribe** when at least two [Subscription Topics](../../general/suppressions-list/subscription-topics-unsubscribe-groups.md) are available for the email's sending domain. Otherwise, it has no Manage subscriptions link, as shown above. A Manage subscriptions link in your template doesn't count as an unsubscribe link: if your template has one but no unsubscribe link, Mailtrap still adds the footer, without **Manage subscriptions**.
 
 To add an unsubscribe link anywhere in your template, include this tag in your HTML template: `<a href="__unsubscribe_url__">unsubscribe</a>` . Mailtrap will render a clickable link in your email.
 
@@ -30,6 +30,6 @@ In campaigns and automation emails, you can link the recipient's **Manage subscr
 
 Mailtrap keeps the link only when at least two Subscription Topics are available for the email's sending domain, including topics assigned to All domains. Otherwise, it removes the link from the email, together with one separator next to it (such as `|`), so **Manage subscriptions | Unsubscribe** becomes **Unsubscribe**. Live Sending emails have no Subscription Topic, so the link is always removed from them. In the plain-text version, where links can't be removed, a removed link opens the unsubscribe page instead.
 
-Opening the Manage subscriptions page changes nothing until the recipient clicks **Save**. A saved topic preference applies to every sending domain the topic is available for.
+Opening the Manage subscriptions page changes nothing until the recipient clicks **Save**. The saved preferences apply to the sending domain of the email that contained the link.
 
 Unlike topic preferences, the unsubscribe links in campaigns and automation emails (`__unsubscribe_url__`, the footer's **Unsubscribe**, and the `List-Unsubscribe` header) unsubscribe the recipient from all marketing emails from the domain, whatever the email's Subscription Topic.
