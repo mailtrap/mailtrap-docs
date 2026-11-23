@@ -28,6 +28,10 @@ The [Mailtrap Python SDK](https://github.com/mailtrap/mailtrap-python) is a Pyth
 * Account management
 * Type hints for better IDE support
 
+{% hint style="info" %}
+Using Django? See the [Anymail guide](../guides/anymail.md) to send through Mailtrap with Django's built-in email functions.
+{% endhint %}
+
 ### Installation
 
 Install the SDK using pip:

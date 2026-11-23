@@ -77,7 +77,7 @@ Get your API token from your Mailtrap account under **Settings → API Tokens**.
 To integrate SMTP with your Node.js app, navigate to the **Integration** tab under Sending Domains and copy/paste the ready-made code snippet or credentials.
 
 {% hint style="info" %}
-You'll have to use Nodemailer, as Node.js doesn't have built-in support for SMTP sending.
+You'll have to use Nodemailer, as Node.js doesn't have built-in support for SMTP sending. For the full setup, including the Mailtrap transport for Nodemailer, see the [Nodemailer guide](../guides/nodemailer.md).
 {% endhint %}
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-nodejs-smtp-integration.png" alt=""></div>

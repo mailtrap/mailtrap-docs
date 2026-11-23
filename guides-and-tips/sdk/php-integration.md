@@ -22,7 +22,7 @@ The [Mailtrap PHP SDK](https://github.com/mailtrap/mailtrap-php) is a modern, ty
 
 * Transactional email sending
 * Batch email sending
-* Dedicated <i class="fa-laravel">:laravel:</i> [**Laravel**](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Laravel) and <i class="fa-symfony">:symfony:</i> [**Symfony**](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Symfony) bridges
+* Dedicated <i class="fa-laravel">:laravel:</i> [**Laravel**](../guides/laravel.md) and <i class="fa-symfony">:symfony:</i> [**Symfony**](../guides/symfony.md) bridges (source on GitHub: [Laravel bridge](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Laravel), [Symfony bridge](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Symfony))
 * Template management
 * Contact management
 * Sandbox testing
