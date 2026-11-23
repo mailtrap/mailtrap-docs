@@ -7,7 +7,7 @@ coverY: 0
 
 Integrate Mailtrap with Laravel apps and projects to send and test emails using the Mailtrap SDK, SMTP, or RESTful API.
 
-<a class="button primary">Mailtrap Laravel bridge on GitHub</a><br>
+<a href="https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Laravel" class="button primary">Mailtrap Laravel bridge on GitHub</a><br>
 
 ### Overview
 
