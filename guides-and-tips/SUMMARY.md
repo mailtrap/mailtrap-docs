@@ -17,6 +17,7 @@
 
 ## Guides
 
+* [Anymail](guides/anymail.md)
 * [Apache Airflow](guides/apache-airflow.md)
 * [Astro](guides/astro.md)
 * [AWS Lambda](guides/aws-lambda.md)
@@ -32,8 +33,10 @@
 * [Laravel](guides/laravel.md)
 * [Make.com](guides/make.md)
 * [N8N](guides/n8n.md)
+* [Nodemailer](guides/nodemailer.md)
 * [Nuxt](guides/nuxt.md)
 * [Phoenix](guides/phoenix.md)
+* [Post SMTP](guides/post-smtp.md)
 * [Redwood](guides/redwood.md)
 * [Remix](guides/remix.md)
 * [Retool](guides/retool/README.md)
@@ -44,6 +47,7 @@
 * [Supabase](guides/supabase/README.md)
   * [Supabase Transactional Emails Integration](guides/supabase/transactional-emails.md)
   * [Sync Contacts with Supabase](guides/supabase/contacts-management.md)
+* [Symfony](guides/symfony.md)
 * [Wget](guides/wget.md)
 * [Upyo](guides/upyo.md)
 * [Vercel](guides/vercel/README.md)
