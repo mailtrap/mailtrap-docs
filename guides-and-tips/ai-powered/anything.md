@@ -3,6 +3,8 @@ title: Anything and Mailtrap Integration
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your Anything application
   to send emails.
+cover: ../.gitbook/assets/anything-cover.png
+coverY: 0
 ---
 
 # Anything
@@ -15,8 +17,6 @@ description: >-
 
 * Add and [verify your email sending domain](https://docs.mailtrap.io/email-api-smtp/setup/sending-domain) since Mailtrap allows you to send emails only from a verified domain.
 * Make sure your [API Token](https://docs.mailtrap.io/api-tokens) has admin access level to that domain.
-
-
 
 ### Step 1. Add your Mailtrap credentials
 

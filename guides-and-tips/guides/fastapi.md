@@ -1,5 +1,7 @@
 ---
 description: Learn how to integrate Mailtrap with FastAPI to send emails via Email API.
+cover: ../.gitbook/assets/fastapi-cover.png
+coverY: 0
 ---
 
 # FastAPI

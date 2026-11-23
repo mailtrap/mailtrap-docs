@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Scala apps and projects for email sending
   using SMTP and RESTful API methods.
+cover: ../.gitbook/assets/scala-cover.png
+coverY: 0
 ---
 
 # Scala

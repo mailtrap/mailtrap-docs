@@ -1,5 +1,7 @@
 ---
 description: Learn how to send emails in Nuxt applications using Mailtrap's Email API.
+cover: ../.gitbook/assets/nuxt-cover.png
+coverY: 0
 ---
 
 # Nuxt

@@ -1,5 +1,7 @@
 ---
 description: Learn how to integrate Mailtrap with Phoenix applications to send emails.
+cover: ../.gitbook/assets/phoenix-cover.png
+coverY: 0
 ---
 
 # Phoenix

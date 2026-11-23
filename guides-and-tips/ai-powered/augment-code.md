@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/augment-code-cover.png
+coverY: 0
+---
+
 # Augment Code
 
 [Augment Code](https://www.augmentcode.com/) is an AI coding assistant that runs as an extension on top of your existing editor including VS Code and JetBrains IDEs. It enhances the editors with an intelligent Agent that can understand your codebase, run tasks autonomously, and integrate external tools via Model Context Protocol (MCP).

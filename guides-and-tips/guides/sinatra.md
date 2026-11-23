@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Sinatra applications to send emails using
   the Email API.
+cover: ../.gitbook/assets/sinatra-cover.png
+coverY: 0
 ---
 
 # Sinatra

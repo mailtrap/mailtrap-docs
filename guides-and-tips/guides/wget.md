@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Wget to send emails via the command line
   using the Email API.
+cover: ../.gitbook/assets/wget-cover.png
+coverY: 0
 ---
 
 # Wget

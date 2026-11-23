@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Upyo, a cross-runtime TypeScript email
   library, to send transactional or sandbox emails using the Mailtrap transport.
+cover: ../.gitbook/assets/upyo-cover.png
+coverY: 0
 ---
 
 # Upyo

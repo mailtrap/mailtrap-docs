@@ -2,6 +2,8 @@
 description: >-
   Set up production email sending in a Replit project using the Mailtrap Email
   API with official SDKs (Node.js or Python).
+cover: ../.gitbook/assets/replit-cover.png
+coverY: 0
 ---
 
 # Replit

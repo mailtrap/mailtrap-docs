@@ -1,5 +1,7 @@
 ---
 description: Learn how to send emails in Redwood applications using Mailtrap's Email API.
+cover: ../.gitbook/assets/redwood-cover.png
+coverY: 0
 ---
 
 # Redwood
