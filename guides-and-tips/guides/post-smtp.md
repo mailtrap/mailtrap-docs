@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/post-smtp-cover (1).png
+cover: ../.gitbook/assets/post-smtp-cover.png
 coverY: 0
 ---
 

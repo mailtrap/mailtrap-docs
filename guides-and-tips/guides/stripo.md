@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/stripo-cover (1).png
+coverY: 0
+---
+
 # Stripo
 
 Export Stripo email templates to Mailtrap and send emails with those templates.

@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/emailelement-cover (1).png
+coverY: 0
+---
+
 # EmailElement
 
 Use Mailtrap as an email service provider in EmailElement to send your campaigns.

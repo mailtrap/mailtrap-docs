@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/tabular-cover (1).png
+coverY: 0
+---
+
 # Tabular
 
 Upload Tabular email templates to Mailtrap and use them for email sending.

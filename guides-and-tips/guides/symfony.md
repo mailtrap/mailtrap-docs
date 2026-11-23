@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/symfony-cover (1).png
+cover: ../.gitbook/assets/symfony-cover.png
 coverY: 0
 ---
 

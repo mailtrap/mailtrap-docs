@@ -6,7 +6,7 @@ description: >-
 
 # Vercel Connect
 
-Vercel Connect lets your Vercel apps and AI agents request Mailtrap credentials at runtime instead of storing an API key in environment variables.&#x20;
+Vercel Connect lets your Vercel apps and AI agents request Mailtrap credentials at runtime instead of storing an API key in environment variables.
 
 {% hint style="info" %}
 If you'd rather have Mailtrap credentials added to your project as environment variables, use the [native Vercel integration](https://docs.mailtrap.io/guides/integrations/vercel) instead.
@@ -32,7 +32,7 @@ If you'd rather have Mailtrap credentials added to your project as environment v
 
 * Copy the token since you'll need it in the next step.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-18 06.16.59.png" alt="" height="256" width="624"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-18 06.16.41.png" alt="" height="256" width="624"></div>
 {% endstep %}
 
 {% step %}
@@ -92,7 +92,7 @@ To use the connector during local development, run `vercel link` and `vercel env
 To confirm the connector works before building it into your app, you can run a quick check from your project folder.
 
 {% hint style="info" %}
-For this test to work, you'll need to&#x20;
+For this test to work, you'll need to
 
 * Install Vercel CLI (`npm i -g vercel`)
 * Log in (`vercel login`)

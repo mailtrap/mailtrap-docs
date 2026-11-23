@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/heroku-cover (1).png
+coverY: 0
+---
+
 # Heroku
 
 Add the official Mailtrap add-on to your Heroku app to test emails in Email Sandbox.

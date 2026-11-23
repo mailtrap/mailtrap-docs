@@ -1,6 +1,6 @@
 ---
 description: Learn how to integrate Mailtrap with Composio.
-cover: ../.gitbook/assets/composio-cover (1).png
+cover: ../.gitbook/assets/composio-cover.png
 coverY: 0
 ---
 

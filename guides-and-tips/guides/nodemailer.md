@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/nodemailer-cover (1).png
+cover: ../.gitbook/assets/nodemailer-cover.png
 coverY: 0
 ---
 

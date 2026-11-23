@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/anymail-cover (1).png
+cover: ../.gitbook/assets/anymail-cover.png
 coverY: 0
 ---
 
