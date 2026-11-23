@@ -2,6 +2,8 @@
 description: >-
   Send emails using cURL with Mailtrap through SMTP integration or API endpoints
   with code samples and configuration options.
+cover: ../.gitbook/assets/curl-cover.png
+coverY: 0
 ---
 
 # cURL

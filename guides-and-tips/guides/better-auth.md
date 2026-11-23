@@ -2,6 +2,8 @@
 description: >-
   Learn how to send Better Auth verification and password reset emails using
   Mailtrap's Email API.
+cover: ../.gitbook/assets/aws-lambda-cover (1).png
+coverY: 0
 ---
 
 # Better Auth

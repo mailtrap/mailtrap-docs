@@ -1,5 +1,7 @@
 ---
 description: Learn how to send emails in Astro using Mailtrap's Email API.
+cover: ../.gitbook/assets/astro-cover.png
+coverY: 0
 ---
 
 # Astro

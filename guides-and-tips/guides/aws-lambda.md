@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with AWS Lambda functions to send emails using
   the Mailtrap Email API.
+cover: ../.gitbook/assets/aws-lambda-cover.png
+coverY: 0
 ---
 
 # AWS Lambda
