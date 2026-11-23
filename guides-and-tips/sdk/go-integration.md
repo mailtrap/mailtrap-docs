@@ -2,6 +2,7 @@
 description: >-
   Integrate Mailtrap with Go apps and projects for email sending using SDK,
   SMTP, or RESTful API
+cover: ../.gitbook/assets/go-cover.png
 coverY: 0
 ---
 

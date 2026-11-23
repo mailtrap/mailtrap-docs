@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/github-copilot-cover.png
+coverY: 0
+---
+
 # GitHub Copilot
 
 [GitHub Copilot](https://github.com/features/copilot) is an AI coding assistant that works inside VS Code, JetBrains IDEs, Eclipse, Xcode, and Visual Studio. In this guide, you’ll learn how to connect it with the Mailtrap MCP server, which allows you to, amongst other things, perform the following actions:

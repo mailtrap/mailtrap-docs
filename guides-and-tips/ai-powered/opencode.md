@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/opencode-cover.png
+coverY: 0
+---
+
 # OpenCode
 
 OpenCode Integration with Mailtrap

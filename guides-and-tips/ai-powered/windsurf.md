@@ -3,6 +3,8 @@ title: <i class="fa-wind">:wind:</i> Windsurf and Mailtrap Integration
 description: >-
   Learn how to integrate Mailtrap with Devin to send emails directly from the
   editor using Cascade and the Mailtrap MCP server.
+cover: ../.gitbook/assets/devin-ai-cover.png
+coverY: 0
 ---
 
 # Devin AI (ex Windsurf)
