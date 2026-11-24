@@ -8,11 +8,12 @@ The stats for Email Marketing are separate from stats for Live Sending.
 
 On the stats dashboard, you can see the following metrics:
 
-* Delivered emails
-* Unique open rate
-* Click rate
-* Bounce rate
-* Spam complaints
+* [Sent emails](stats-overview.md#sent)
+* [Delivered emails](stats-overview.md#delivered)
+* [Unique open rate](stats-overview.md#unique-open-rate)
+* [Click rate](stats-overview.md#click-rate)
+* [Bounce rate](stats-overview.md#bounce-rate)
+* [Spam complaints](stats-overview.md#spam-complaints)
 
 ### Navigating around the stats dashboard
 
