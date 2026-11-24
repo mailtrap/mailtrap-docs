@@ -1,5 +1,7 @@
 ---
 description: Learn how to integrate Mailtrap with Hono to send emails using the Email API.
+cover: ../.gitbook/assets/hono-cover.png
+coverY: 0
 ---
 
 # Hono
@@ -50,5 +52,5 @@ export default app;
 Once you copy the script, make sure to insert your Mailtrap API token in the `token` field and enter your and your recipient's emails in the `from` and `to` fields.
 
 {% hint style="info" %}
-To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
 {% endhint %}

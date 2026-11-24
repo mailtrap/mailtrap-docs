@@ -1,5 +1,7 @@
 ---
 description: Learn how to integrate Mailtrap with Phoenix applications to send emails.
+cover: ../.gitbook/assets/phoenix-cover.png
+coverY: 0
 ---
 
 # Phoenix
@@ -32,5 +34,5 @@ end
 Once you copy the script, make sure to insert your Mailtrap API token instead of the `my-api-key` value.
 
 {% hint style="info" %}
-To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
 {% endhint %}

@@ -3,6 +3,8 @@ title: Reflex Build and Mailtrap Integration
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your Reflex Build
   application to send emails.
+cover: ../.gitbook/assets/reflex-build-cover.png
+coverY: 0
 ---
 
 # Reflex Build

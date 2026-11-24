@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/apache-airflow-cover.png
+coverY: 0
+---
+
 # Apache Airflow
 
 [Apache Airflow](https://airflow.apache.org/) is an open-source platform that allows you to programmatically author, schedule, and monitor workflows. In this guide, you’ll learn how to connect it to Mailtrap, so you can send transactional emails (e.g., notifications, reports, alerts, and other workflow-triggered messages) directly from your Airflow DAGs.
@@ -44,7 +49,7 @@ The **Extra** field is optional. You can use it to set a default sender address.
 
 Now, you need to add a Mailtrap operator to your DAG. An operator is like a function call that declares a step: you define what it should do, and Airflow executes it when the workflow runs.
 
-Mailtrap uses the `MailtrapSendEmailOperator` operator.&#x20;
+Mailtrap uses the `MailtrapSendEmailOperator` operator.
 
 Then, in your DAG source code, copy/paste the Mailtrap operator with the parameters based on your use case:
 
@@ -159,21 +164,4 @@ For more use cases, code examples, and extras, please visit the official [GitHub
 * Use [Mailtrap Templates](https://docs.mailtrap.io/email-marketing/campaigns/email-templates) to send branded emails with variables.
 * Track open and click rates with [Mailtrap Analytics](https://mailtrap.io/actionable-analytics/).
 
-
-
-
-
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-

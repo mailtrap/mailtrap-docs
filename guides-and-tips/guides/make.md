@@ -2,6 +2,8 @@
 description: >-
   Automate email workflows by connecting Mailtrap to thousands of applications
   using Make.com (formerly Integromat) without writing any code.
+cover: ../.gitbook/assets/make-cover.png
+coverY: 0
 ---
 
 # Make.com

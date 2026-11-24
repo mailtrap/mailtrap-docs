@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with .NET apps and projects for email sending
   using SDK, SMTP, or RESTful API.
+cover: ../.gitbook/assets/dotnet-cover.png
+coverY: 0
 ---
 
 # .NET
@@ -77,7 +79,7 @@ SMTP integration is compatible with any .NET programming language or library tha
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-csharp-smtp-integration.png" alt=""></div>
 
-Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/smtp-integration).
 
 #### RESTful API integration
 
@@ -87,4 +89,4 @@ API integration can be used with any .NET programming language or library that s
 
 <div data-with-frame="true"><img src="../.gitbook/assets/mailtrap-csharp-api-integration.png" alt=""></div>
 
-Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).

@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/github-copilot-cover.png
+coverY: 0
+---
+
 # GitHub Copilot
 
 [GitHub Copilot](https://github.com/features/copilot) is an AI coding assistant that works inside VS Code, JetBrains IDEs, Eclipse, Xcode, and Visual Studio. In this guide, you’ll learn how to connect it with the Mailtrap MCP server, which allows you to, amongst other things, perform the following actions:
@@ -45,7 +50,7 @@ Once you open **settings.json**, insert the following code snippet into the file
         "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
         "DEFAULT_FROM_EMAIL": "your_sender@example.com",
         "MAILTRAP_ACCOUNT_ID": "your_account_id",
-        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+        "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
       }
     }
   }
@@ -67,7 +72,7 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_TEST_INBOX_ID` — If you need sandbox email functionality, you can find this ID in your Sandbox.
+* `MAILTRAP_SANDBOX_ID` — If you need sandbox email functionality, you can find this ID in your Sandbox.
 
 <figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 

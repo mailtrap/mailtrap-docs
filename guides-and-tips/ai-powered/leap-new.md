@@ -3,6 +3,8 @@ title: Leap.new and Mailtrap Integration
 description: >-
   Step-by-step guide on how to integrate Mailtrap with your Leap.new application
   to send emails.
+cover: ../.gitbook/assets/leap-new-cover.png
+coverY: 0
 ---
 
 # Leap.new

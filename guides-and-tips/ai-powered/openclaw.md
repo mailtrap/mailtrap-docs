@@ -1,5 +1,7 @@
 ---
 description: Email Sandbox Automation for OpenClaw
+cover: ../.gitbook/assets/openclaw-cover.png
+coverY: 0
 ---
 
 # OpenClaw

@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Perl apps and projects for email sending
   using SMTP and RESTful API.
+cover: ../.gitbook/assets/perl-cover.png
+coverY: 0
 ---
 
 # Perl
@@ -22,7 +24,7 @@ SMTP integration is compatible with any Perl framework or library that sends ema
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-perl-smtp-integration.png" alt="" width="563"></div>
 
-Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+Read more about SMTP integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/smtp-integration).
 
 ### RESTful API Integration
 
@@ -32,4 +34,4 @@ For more details, refer to the [API documentation](https://api-docs.mailtrap.io/
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-perl-api-integration.png" alt="" width="563"></div>
 
-Read more about API integration in the [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+Read more about API integration in the [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).

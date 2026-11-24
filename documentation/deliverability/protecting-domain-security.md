@@ -99,6 +99,15 @@ So, in case your credentials are stolen, attackers cannot use them to send spam 
 
 **Note**: You can add up to 20 allowlisted recipient domains.
 
+The allowlist also covers subdomains. A recipient is allowed if their root domain matches an entry on the list. For example, with `example.com` on the allowlist:
+
+* `user@example.com` – allowed
+* `user@mail.example.com` – allowed
+* `user@eu.mail.example.com` – allowed
+* `user@example2.com` – blocked
+
+If your account also has an IP allowlist, the two restrictions are separate checks, and every email has to pass both. Sending from an allowlisted IP doesn't let you send to recipients outside the allowed domains.
+
 ### Verify ownership of your company or brands domains
 
 If your email content references a domain or brand different from your sending domain (common for agencies, umbrella brands, or white-label platforms) Mailtrap's automated checks may flag it as suspicious even when it's legitimate.

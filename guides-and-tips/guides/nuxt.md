@@ -1,5 +1,7 @@
 ---
 description: Learn how to send emails in Nuxt applications using Mailtrap's Email API.
+cover: ../.gitbook/assets/nuxt-cover.png
+coverY: 0
 ---
 
 # Nuxt
@@ -46,5 +48,5 @@ export default defineEventHandler(async () => {
 Once you copy the script, make sure to insert your Mailtrap API token in the `token:` field and enter your and your recipient's emails in the `from:` and `to:` fields.
 
 {% hint style="info" %}
-To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+To learn more about API integration, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
 {% endhint %}

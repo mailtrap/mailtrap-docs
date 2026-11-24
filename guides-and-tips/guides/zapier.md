@@ -2,6 +2,8 @@
 description: >-
   Automate email sending by connecting Mailtrap to over 7,000 applications using
   Zapier without writing any code.
+cover: ../.gitbook/assets/zapier-cover.png
+coverY: 0
 ---
 
 # Zapier
@@ -38,7 +40,7 @@ Type _Mailtrap_ in the **App name** search bar.
 {% endstep %}
 
 {% step %}
-Enter your Mailtrap API key to allow Zapier to access your account.&#x20;
+Enter your Mailtrap API key to allow Zapier to access your account.
 
 **Note**: This should be the token for the domain you've added and verified in Mailtrap. You'll find it in the **Settings** → **API Tokens** menu.
 

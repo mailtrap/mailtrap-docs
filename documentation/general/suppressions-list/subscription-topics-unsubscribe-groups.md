@@ -17,7 +17,7 @@ Each campaign and automation email has one **Subscription Topic**, such as:
 
 You create topics that match the types of emails you send.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-17 13.48.46.png" alt="" height="175" width="534"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-17 13.41.52.png" alt="" height="175" width="534"></div>
 
 When a recipient unsubscribes from a topic, they stop receiving future campaigns and automation emails assigned to that topic. Their preferences for other topics remain unchanged.
 
@@ -117,7 +117,7 @@ You can check unsubscribes in three places:
 
 ### How to delete a topic
 
-To delete a Subscription Topic, navigate to Unsubscribes → Subscription Topics and click a bin icon near the selected topic.&#x20;
+To delete a Subscription Topic, navigate to Unsubscribes → Subscription Topics and click a bin icon near the selected topic.
 
 Please note, a topic still being in use by campaign or automation that can still send cannot be deleted. This includes:
 

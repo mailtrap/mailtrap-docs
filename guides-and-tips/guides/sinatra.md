@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Sinatra applications to send emails using
   the Email API.
+cover: ../.gitbook/assets/sinatra-cover.png
+coverY: 0
 ---
 
 # Sinatra
@@ -50,5 +52,5 @@ Once you copy the script, make sure to:
 * Enter your recipient's email address in the `to:` field
 
 {% hint style="info" %}
-To learn more about API integration, see [Mailtrap Email Live Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+To learn more about API integration, see [Mailtrap Email Live Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
 {% endhint %}

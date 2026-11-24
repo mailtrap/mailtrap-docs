@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/buildai-cover.png
+coverY: 0
+---
+
 # BuildAI
 
 [BuildAI.Space](https://www.buildai.space/) is a no-code platform for building AI-powered apps and Digital Employees.
@@ -62,7 +67,7 @@ To help you complete the process, here are the defaults:
 * Send a welcome email when my users fill out a form (or add your specific use case)
 * (select answers verbatim) I have an API key
 * (select answers verbatim) I have some API documentation
-* Documentation can be found at: (use link)> [Mailtrap API docs](https://docs.mailtrap.io/developers?_gl=1*3ei5qp*_gcl_au*NzA4MzIzODUyLjE3NzkxODMwMDA.)&#x20;
+* Documentation can be found at: (use link)> [Mailtrap API docs](https://docs.mailtrap.io/developers?_gl=1*3ei5qp*_gcl_au*NzA4MzIzODUyLjE3NzkxODMwMDA.)
 
 Once done, hit ‘**Create App with**…’ button to proceed.
 
@@ -86,7 +91,7 @@ Once BuildAI completes Mailtrap integration, it asks you to navigate to **Settin
 
 <figure><img src="../.gitbook/assets/buildai 7.png" alt=""><figcaption></figcaption></figure>
 
-Click **Save Secrets**, and move on to the next step.&#x20;
+Click **Save Secrets**, and move on to the next step.
 
 #### Step 7. Test the integration
 
@@ -109,8 +114,8 @@ If the request fails, check the API response code in BuildAI’s integration log
 
 **Troubleshooting tips**:
 
-* When you encounter bugs, use BuildAI’s button Resolve with AI. Note that it may take a couple of runs before the system figures out the fixes (particularly with 500 errors).&#x20;
-* When you use Connect to Any API feature, you might need to add the Secrets a few times; even if you followed all the steps and saved the secrets. This depends on your app logic and the trigger flow (handled but BuildAI itself). But after a bit of back and forth, the system figures out how to securely call .env variables.&#x20;
+* When you encounter bugs, use BuildAI’s button Resolve with AI. Note that it may take a couple of runs before the system figures out the fixes (particularly with 500 errors).
+* When you use Connect to Any API feature, you might need to add the Secrets a few times; even if you followed all the steps and saved the secrets. This depends on your app logic and the trigger flow (handled but BuildAI itself). But after a bit of back and forth, the system figures out how to securely call .env variables.
 
 #### Use cases
 

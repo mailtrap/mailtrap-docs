@@ -2,6 +2,8 @@
 description: >-
   Learn how to integrate Mailtrap with Remix to send emails from your
   application using the Email API.
+cover: ../.gitbook/assets/remix-cover.png
+coverY: 0
 ---
 
 # Remix
@@ -53,5 +55,5 @@ Once you copy the script, make sure to:
 * Enter your recipient's email address in the `to:` field
 
 {% hint style="info" %}
-To learn more about API integration, see [Mailtrap Email Live Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+To learn more about API integration, see [Mailtrap Email Live Sending API Integration](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).
 {% endhint %}

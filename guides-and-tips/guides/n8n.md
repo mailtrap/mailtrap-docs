@@ -2,6 +2,8 @@
 description: >-
   Seamlessly integrate Mailtrap into your N8N workflows to automate email
   sending and contact management tasks without coding.
+cover: ../.gitbook/assets/n8n-cover.png
+coverY: 0
 ---
 
 # N8N

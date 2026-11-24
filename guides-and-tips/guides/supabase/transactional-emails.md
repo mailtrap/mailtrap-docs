@@ -139,10 +139,10 @@ Once you send emails from your Supabase project, they should arrive in both your
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/supabase-and-mailtrap-integration-9.png" alt="" width="563"></div>
 
-You can read more about **Mailtrap Email Logs** in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/logs).
+You can read more about **Mailtrap Email Logs** in our [dedicated article](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/analytics/logs).
 
 Additionally, you'll be able to see all important stats regarding your sent emails, such as opens, clicks, bounces, and more.
 
-For more information on **Mailtrap Analytics**, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/analytics/dashboard).
+For more information on **Mailtrap Analytics**, [click here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/analytics/dashboard).
 {% endstep %}
 {% endstepper %}

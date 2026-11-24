@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/base44-cover.png
+coverY: 0
+---
+
 # Base44
 
 Base44 is an AI-powered platform that lets you turn any idea into a fully-functional custom app, without the need for any coding experience. In this guide, you’ll learn how to integrate it with Mailtrap and add email-sending capabilities to your Base44 projects.

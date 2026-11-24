@@ -2,6 +2,8 @@
 description: >-
   Comprehensive guide to integrate Mailtrap with Vercel for live email sending,
   sandbox testing, and inbound email.
+cover: ../../.gitbook/assets/vercel-cover.png
+coverY: 0
 ---
 
 # Vercel

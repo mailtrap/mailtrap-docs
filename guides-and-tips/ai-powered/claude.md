@@ -3,6 +3,8 @@ title: <i class="fa-robot">:robot:</i> Claude and Mailtrap Integration
 description: >-
   Integrate Mailtrap with Claude Desktop to send transactional and promotional
   emails directly from Claude using Model Context Protocol.
+cover: ../.gitbook/assets/claude-code-cover.png
+coverY: 0
 ---
 
 # Claude
@@ -52,7 +54,7 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
+* `MAILTRAP_SANDBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
 <figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 

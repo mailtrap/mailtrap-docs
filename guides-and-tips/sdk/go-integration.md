@@ -2,6 +2,8 @@
 description: >-
   Integrate Mailtrap with Go apps and projects for email sending using SDK,
   SMTP, or RESTful API
+cover: ../.gitbook/assets/go-cover.png
+coverY: 0
 ---
 
 # Go
@@ -122,7 +124,7 @@ func main() {
 ```
 {% endcode %}
 
-Read more in the [SMTP integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/smtp-integration).
+Read more in the [SMTP integration guide](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/smtp-integration).
 
 #### RESTful API integration
 
@@ -132,4 +134,4 @@ API integration can be used with any Go framework or library that supports HTTP 
 
 <div align="left" data-with-frame="true"><img src="../.gitbook/assets/mailtrap-go-api-integration.png" alt="" width="563"></div>
 
-Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-api-smtp/setup/api-integration).
+Read more about API integration [here](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/api-integration).

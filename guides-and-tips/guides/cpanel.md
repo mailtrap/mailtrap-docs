@@ -1,7 +1,9 @@
 ---
 description: >-
-  Configure Mailtrap Email Live Sending as an SMTP relay (Smarthost) in cPanel using
-  Exim mail server configuration.
+  Configure Mailtrap Email Live Sending as an SMTP relay (Smarthost) in cPanel
+  using Exim mail server configuration.
+cover: ../.gitbook/assets/cpanel-smtp-relay-cover.png
+coverY: 0
 ---
 
 # cPanel SMTP Relay

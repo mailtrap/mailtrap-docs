@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/retool-cover.png
+coverY: 0
+---
+
 # Retool
 
 Mailtrap can be integrated with Retool, giving you flexible options for email sending and contact management. This integration allows you to send transactional and bulk emails, manage contacts, and maintain suppression lists — all within Retool's resource environment.
@@ -53,4 +58,3 @@ See the Retool and Mailtrap OpenAPI integration guide for detailed setup instruc
 ### Getting started
 
 Both integration guides above contain step-by-step instructions, screenshots, and code examples. Choose the option that best fits your use case and follow the corresponding guide.
-

@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/viasocket-cover.png
+coverY: 0
+---
+
 # viaSocket
 
 This article walks you through connecting [Mailtrap to viaSocket](https://viasocket.com/integrations/mailtrap?utm_source=mailtrap\&utm_medium=marketplace\&utm_campaign=mailtrap_listing) and building two working flows:
@@ -67,7 +72,7 @@ viaSocket stores a copy of the token rather than refreshing it. When you rotate 
 
 ### Step 3. Send an email from a flow
 
-Add a step, then search the app picker for **Mailtrap**. Select it, then **Send Transactional Email** under the **SEND** group.&#x20;
+Add a step, then search the app picker for **Mailtrap**. Select it, then **Send Transactional Email** under the **SEND** group.
 
 <figure><img src="../.gitbook/assets/viaSocket 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -80,7 +85,7 @@ Set **Content Mode** to **Write Content** and fill in the fields:
 | **Subject**    | The subject line                                             |
 | **Text Body**  | The plain text body                                          |
 
-**From Name**, **To Name** and **HTML Body** are optional. **Additional Fields** carries the remaining Email API parameters.&#x20;
+**From Name**, **To Name** and **HTML Body** are optional. **Additional Fields** carries the remaining Email API parameters.
 
 <figure><img src="../.gitbook/assets/viaSocket 4 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -93,7 +98,7 @@ Click **TEST**. A successful send returns the Email API response:
 }
 ```
 
-This action sends through Email Live Sending. It has no inbox selector because it does not target an Email Sandbox inbox.&#x20;
+This action sends through Email Live Sending. It has no inbox selector because it does not target an Email Sandbox inbox.
 
 <figure><img src="../.gitbook/assets/viaSocket 5.png" alt=""><figcaption></figcaption></figure>
 
@@ -106,7 +111,7 @@ To test the same flow without sending real mail, use **Send Sandbox Email** unde
 }
 ```
 
-The message lands in the inbox you picked and nothing leaves Mailtrap. Build and test the flow against **Send Sandbox Email**, then swap the step for **Send Transactional Email** when you are ready to reach real recipients. The From address on the Sandbox action does not need a verified domain.&#x20;
+The message lands in the inbox you picked and nothing leaves Mailtrap. Build and test the flow against **Send Sandbox Email**, then swap the step for **Send Transactional Email** when you are ready to reach real recipients. The From address on the Sandbox action does not need a verified domain.
 
 <figure><img src="../.gitbook/assets/viaSocket 6.png" alt=""><figcaption></figcaption></figure>
 
@@ -139,7 +144,7 @@ curl -X POST https://mailtrap.io/api/inbound/folders/your-folder-id/inboxes \
 
 Replace `your-api-token`, `your-folder-name`, `your-folder-id` and `your-inbox-name` with your own values. The second response contains the inbox id and the hosted address, which looks like **your-inbox-a1b2c3d4@inbound-mailtrap.io**.
 
-Keep the address handy. You will send to it once the receiving flow is published.&#x20;
+Keep the address handy. You will send to it once the receiving flow is published.
 
 ### Step 5. Trigger a flow when email arrives
 
@@ -147,11 +152,11 @@ Create a new flow. Under **Connected Triggers**, select **New Email Received** f
 
 <figure><img src="../.gitbook/assets/viaSocket 7.png" alt=""><figcaption></figcaption></figure>
 
-Click **Test**.&#x20;
+Click **Test**.
 
-The trigger returns a sample message so you can build the later steps against real field names. It is a fixture, not a message from your inbox: the real payload appears in the Log only after you publish the flow and send to the address.&#x20;
+The trigger returns a sample message so you can build the later steps against real field names. It is a fixture, not a message from your inbox: the real payload appears in the Log only after you publish the flow and send to the address.
 
-Here is what happens on a real delivery. Mailtrap's inbound webhook posts a short event notification: the event type, the inbox id, the message id and the sender address.&#x20;
+Here is what happens on a real delivery. Mailtrap's inbound webhook posts a short event notification: the event type, the inbox id, the message id and the sender address.
 
 The viaSocket trigger receives that notification, verifies its signature, fetches the full message from the Inbound Email API through the connection you picked, and hands the message to your flow. Your flow never handles the API token and never calls the API to get the message.\
 \
@@ -189,7 +194,7 @@ What arrives in the flow looks like this:
 Two things to read off this payload before you build anything on top of it.
 
 1. `text_body` and `html_body` are both present. The trigger hands you the whole message, so you do not need a second call to fetch the content. `html_body` is null for a plain-text message.
-2. The message nests under a top-level body key. Your references are `body.subject`, `body.text_body`, `body.from`, and so on. The request also carries a headers key, but it holds viaSocket's own routing headers, not the Mailtrap signature.&#x20;
+2. The message nests under a top-level body key. Your references are `body.subject`, `body.text_body`, `body.from`, and so on. The request also carries a headers key, but it holds viaSocket's own routing headers, not the Mailtrap signature.
 
 The signature is checked before the flow runs; see the [Technical notes](https://docs.mailtrap.io/guides/integrations/viasocket#technical-notes).
 
@@ -214,7 +219,7 @@ else { out.email = raw; out.displayName = ""; }
 return out;
 ```
 
-The step returns two fields. Later steps reference them as `JS_Code.email` and `JS_Code.displayName`.&#x20;
+The step returns two fields. Later steps reference them as `JS_Code.email` and `JS_Code.displayName`.
 
 The fallback branch matters: a bare address with no display name is common from automated senders, and the regular expression does not match it.
 
@@ -230,8 +235,8 @@ Then add a **Multiple Paths** step to branch on the result.
 
 **Notes**:
 
-* The condition needs care. In Pipedrive, Search Person returns an array of matches on a hit, and an object containing a message key on a miss.&#x20;
-* A condition that tests the result length never fires on a miss, because there is no array to measure. Test for the field that appears on a miss instead.&#x20;
+* The condition needs care. In Pipedrive, Search Person returns an array of matches on a hit, and an object containing a message key on a miss.
+* A condition that tests the result length never fires on a miss, because there is no array to measure. Test for the field that appears on a miss instead.
 * An error response from the CRM also carries a message key, so a flow that only checks for it will treat every failed lookup as "no match" and try to create the contact. Check status as well if your CRM returns one.
 * Put the contact creation step on the not-found path, binding its name to `JS_Code.displayName` and its email to `JS_Code.email`.
 
@@ -253,7 +258,7 @@ This binding is the easiest thing in the whole build to get wrong, so check it b
 
 Click **Publish**, then send a message to your inbound address.
 
-Open **Log** and inspect each step. Expect the flow to run within seconds of the message arriving. In our runs it was usually under fifteen seconds, and once a little over a minute.&#x20;
+Open **Log** and inspect each step. Expect the flow to run within seconds of the message arriving. In our runs it was usually under fifteen seconds, and once a little over a minute.
 
 <figure><img src="../.gitbook/assets/viaSocket 11.png" alt=""><figcaption></figcaption></figure>
 

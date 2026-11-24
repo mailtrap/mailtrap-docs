@@ -2,6 +2,8 @@
 description: >-
   Comprehensive guide to integrate Mailtrap with Supabase for email sending and
   contact management with flexible email options.
+cover: ../../.gitbook/assets/supabase-cover.png
+coverY: 0
 ---
 
 # Supabase

@@ -3,6 +3,8 @@ title: <i class="fa-bolt">:bolt:</i> Bolt.new and Mailtrap Integration
 description: >-
   Step-by-step guide to integrate Mailtrap with Bolt.new to send transactional
   emails and manage contacts using AI-powered development.
+cover: ../.gitbook/assets/bolt-cover.png
+coverY: 0
 ---
 
 # Bolt.new

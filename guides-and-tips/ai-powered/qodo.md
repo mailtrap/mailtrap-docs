@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/qodo-cover.png
+coverY: 0
+---
+
 # Qodo
 
 [Qodo](https://qodo.ai/) is an AI code review platform that gives engineering teams deep codebase context to move faster without sacrificing code quality. In this guide, you’ll learn how to integrate it with Mailtrap MCP.
@@ -38,7 +43,7 @@ Once the following window appears after you click on **Add new MCP**, copy/paste
         "MAILTRAP_API_TOKEN": "your_mailtrap_api_token",
         "DEFAULT_FROM_EMAIL": "your_sender@example.com",
         "MAILTRAP_ACCOUNT_ID": "your_account_id",
-        "MAILTRAP_TEST_INBOX_ID": "your_test_inbox_id"
+        "MAILTRAP_SANDBOX_ID": "your_sandbox_id"
       }
     }
   }
@@ -60,7 +65,7 @@ You can find these credentials in your Mailtrap account by navigating to **Sendi
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.13.png" alt=""><figcaption></figcaption></figure>
 
-* `MAILTRAP_TEST_INBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
+* `MAILTRAP_SANDBOX_ID` – If you need sandbox email functionality, you can find this ID in your Sandbox.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-03-10 at 17.07.34.png" alt=""><figcaption></figcaption></figure>
 
