@@ -69,7 +69,7 @@ Click **Email Marketing** in the left navigation panel, and you'll have a quick 
 {% endstep %}
 
 {% step %}
-If you want more details for a particular campaign, click the campaign name, then select the **Reports** tab, where you'll see the full [Statistics report](../email-marketing/campaigns/statistics.md).
+If you want more details for a particular campaign, click the campaign name, then select the **Reports** tab, where you'll see the full [Statistics report](../email-marketing/analytics-and-repirts/statistics.md).
 {% endstep %}
 
 {% step %}

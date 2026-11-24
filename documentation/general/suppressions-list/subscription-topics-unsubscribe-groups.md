@@ -17,7 +17,7 @@ Each campaign and automation email has one **Subscription Topic**, such as:
 
 You create topics that match the types of emails you send.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-17 13.48.46.png" alt="" height="175" width="534"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Pasted image 2026-11-17 13.41.52.png" alt="" height="175" width="534"></div>
 
 When a recipient unsubscribes from a topic, they stop receiving future campaigns and automation emails assigned to that topic. Their preferences for other topics remain unchanged.
 
@@ -80,7 +80,7 @@ The **Automations** page shows the topics used by each automation in a separate 
 
 The Unsubscribe link in a marketing email opts the recipient out of all marketing emails from the domain, regardless of the email’s Subscription Topic. To change individual topic preferences, recipients use Manage subscriptions.
 
-When at least two topics are available for the email’s sending domain, the footer can also include a **Manage subscriptions** link. This opens a page where recipients can choose which topics they want to receive and click Save to confirm their preferences.&#x20;
+When at least two topics are available for the email’s sending domain, the footer can also include a **Manage subscriptions** link. This opens a page where recipients can choose which topics they want to receive and click Save to confirm their preferences.
 
 The Manage subscriptions page displays topic names and descriptions. Recipients can:
 
@@ -117,7 +117,7 @@ You can check unsubscribes in three places:
 
 ### How to delete a topic
 
-To delete a Subscription Topic, navigate to Unsubscribes → Subscription Topics and click a bin icon near the selected topic.&#x20;
+To delete a Subscription Topic, navigate to Unsubscribes → Subscription Topics and click a bin icon near the selected topic.
 
 Please note, a topic still being in use by campaign or automation that can still send cannot be deleted. This includes:
 
