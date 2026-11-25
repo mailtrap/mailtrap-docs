@@ -26,6 +26,82 @@ Before we start, you'll need to:
 
 ### Email Live Sending for Symfony
 
+#### Symfony Mailtrap Mailer
+
+Symfony maintains its own Mailtrap bridge for Symfony 7.2 and later. It doesn't need a service registration and can send through the API or SMTP. Install it:
+
+```bash
+composer require symfony/mailtrap-mailer
+```
+
+Then set `MAILER_DSN` in your `.env` file:
+
+```bash
+# API
+MAILER_DSN=mailtrap+api://YOUR_API_TOKEN@default
+
+# SMTP
+MAILER_DSN=mailtrap+smtp://YOUR_API_TOKEN@default
+```
+
+Both DSNs send through the Transactional Stream. To add a category and custom variables, use Symfony's `TagHeader` and `MetadataHeader`:
+
+```php
+use Symfony\Component\Mailer\Header\MetadataHeader;
+use Symfony\Component\Mailer\Header\TagHeader;
+
+$email->getHeaders()->add(new TagHeader('Welcome email'));
+$email->getHeaders()->add(new MetadataHeader('user_id', '45982'));
+```
+
+Mailtrap allows one tag per email. Read more in the [Symfony Mailer documentation](https://symfony.com/doc/current/mailer.html).
+
+#### Minimal example
+
+To check the setup, send a test email from the console. The sender address must use your verified sending domain:
+
+```bash
+php bin/console mailer:test recipient@example.com --from=hello@yourdomain.com
+```
+
+The `mailer:test` command is available in Symfony 6.2 and later. To send from your app, inject `MailerInterface`, for example in a controller:
+
+```php
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
+use Symfony\Component\Routing\Attribute\Route;
+
+class MailerController extends AbstractController
+{
+    #[Route('/email')]
+    public function sendEmail(MailerInterface $mailer): Response
+    {
+        $email = (new Email())
+            ->from('hello@yourdomain.com')
+            ->to('recipient@example.com')
+            ->subject('Welcome to our app')
+            ->text('Hi Jon, welcome aboard!')
+            ->html('<p>Hi Jon, welcome aboard!</p>');
+
+        $mailer->send($email);
+
+        return new Response('Email sent');
+    }
+}
+```
+
+The email appears in your [Email Logs](https://docs.mailtrap.io/email-live-sending/analytics/logs) as soon as it's sent.
+
+{% hint style="info" %}
+If your app uses Symfony Messenger, Mailer sends emails asynchronously by default. Run a worker with `php bin/console messenger:consume` to send them. The `mailer:test` command skips Messenger.
+{% endhint %}
+
 #### SDK integration
 
 The [Mailtrap Symfony bridge](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Symfony) is part of the official Mailtrap PHP SDK and plugs into Symfony Mailer. You can switch between the Transactional Stream, the Bulk Stream, and Email Sandbox by changing the `MAILER_DSN` variable. The SDK supports:
@@ -77,52 +153,6 @@ framework:
     mailer:
         dsn: '%env(MAILER_DSN)%'
 ```
-
-#### Minimal example
-
-To check the setup, send a test email from the console. The sender address must use your verified sending domain:
-
-```bash
-php bin/console mailer:test recipient@example.com --from=hello@yourdomain.com
-```
-
-The `mailer:test` command is available in Symfony 6.2 and later. To send from your app, inject `MailerInterface`, for example in a controller:
-
-```php
-<?php
-
-namespace App\Controller;
-
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Mailer\MailerInterface;
-use Symfony\Component\Mime\Email;
-use Symfony\Component\Routing\Attribute\Route;
-
-class MailerController extends AbstractController
-{
-    #[Route('/email')]
-    public function sendEmail(MailerInterface $mailer): Response
-    {
-        $email = (new Email())
-            ->from('hello@yourdomain.com')
-            ->to('recipient@example.com')
-            ->subject('Welcome to our app')
-            ->text('Hi Jon, welcome aboard!')
-            ->html('<p>Hi Jon, welcome aboard!</p>');
-
-        $mailer->send($email);
-
-        return new Response('Email sent');
-    }
-}
-```
-
-The email appears in your [Email Logs](https://docs.mailtrap.io/email-live-sending/analytics/logs) as soon as it's sent.
-
-{% hint style="info" %}
-If your app uses Symfony Messenger, Mailer sends emails asynchronously by default. Run a worker with `php bin/console messenger:consume` to send them. The `mailer:test` command skips Messenger.
-{% endhint %}
 
 #### Categories and custom variables
 
@@ -232,36 +262,6 @@ The base email can't include `to`, `cc`, or `bcc` addresses. The batch API accep
 
 For more examples, see the [Symfony bridge README](https://github.com/mailtrap/mailtrap-php/tree/main/src/Bridge/Symfony) on GitHub.
 
-#### Symfony Mailtrap Mailer
-
-Symfony maintains its own Mailtrap bridge for Symfony 7.2 and later. It doesn't need a service registration and can send through the API or SMTP. Install it:
-
-```bash
-composer require symfony/mailtrap-mailer
-```
-
-Then set `MAILER_DSN` in your `.env` file:
-
-```bash
-# API
-MAILER_DSN=mailtrap+api://YOUR_API_TOKEN@default
-
-# SMTP
-MAILER_DSN=mailtrap+smtp://YOUR_API_TOKEN@default
-```
-
-Both DSNs send through the Transactional Stream. To add a category and custom variables, use Symfony's `TagHeader` and `MetadataHeader`:
-
-```php
-use Symfony\Component\Mailer\Header\MetadataHeader;
-use Symfony\Component\Mailer\Header\TagHeader;
-
-$email->getHeaders()->add(new TagHeader('Welcome email'));
-$email->getHeaders()->add(new MetadataHeader('user_id', '45982'));
-```
-
-Mailtrap allows one tag per email. Read more in the [Symfony Mailer documentation](https://symfony.com/doc/current/mailer.html).
-
 #### SMTP integration
 
 You can also send with Symfony Mailer's built-in SMTP transport. To get your credentials:
@@ -296,6 +296,14 @@ Read more in the [SMTP integration guide](https://docs.mailtrap.io/email-live-se
 
 [Email Sandbox](https://docs.mailtrap.io/getting-started/email-sandbox) catches every email your Symfony app sends, so you can inspect it without reaching real recipients. You don't need a verified domain to use it.
 
+#### Symfony Mailtrap Mailer
+
+In Symfony 7.4 and later, Symfony's Mailtrap bridge can also send to Email Sandbox. It uses the `inboxId` option for the sandbox ID:
+
+```bash
+MAILER_DSN=mailtrap+sandbox://YOUR_API_TOKEN@default?inboxId=YOUR_SANDBOX_ID
+```
+
 #### SDK integration
 
 If you use the Mailtrap Symfony bridge, point `MAILER_DSN` to the Sandbox API and add your sandbox ID:
@@ -309,14 +317,6 @@ You'll find the sandbox ID in your sandbox's URL.
 {% hint style="info" %}
 The older `inboxId` option still works but is deprecated. Replace `?inboxId=` with `?sandboxId=` in your DSN.
 {% endhint %}
-
-#### Symfony Mailtrap Mailer
-
-In Symfony 7.4 and later, Symfony's Mailtrap bridge can also send to Email Sandbox. It uses the `inboxId` option for the sandbox ID:
-
-```bash
-MAILER_DSN=mailtrap+sandbox://YOUR_API_TOKEN@default?inboxId=YOUR_SANDBOX_ID
-```
 
 #### SMTP integration
 
@@ -332,8 +332,8 @@ Each sandbox has its own username and password. Read more in the [Sandbox SMTP i
 
 When you're ready to send to real recipients, update `MAILER_DSN`:
 
-* **SDK**: change the host to `default` (or `bulk.api.mailtrap.io`) and remove `sandboxId`.
 * **Symfony Mailtrap Mailer**: change `mailtrap+sandbox` to `mailtrap+api` and remove `inboxId`.
+* **SDK**: change the host to `default` (or `bulk.api.mailtrap.io`) and remove `sandboxId`.
 * **SMTP**: replace the Sandbox credentials with your Email Live Sending SMTP credentials.
 
 Set `MAILER_DSN` per environment, so your development and staging servers send to Sandbox and production sends to real recipients.
