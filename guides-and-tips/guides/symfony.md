@@ -19,8 +19,8 @@ Integrate Mailtrap with Symfony apps and projects to send and test emails using 
 Mailtrap can be integrated with Symfony apps and projects for email sending and testing. You can connect it in three ways:
 
 * **Symfony Mailtrap Mailer (recommended)**: Symfony's own `symfony/mailtrap-mailer` bridge, available in Symfony 7.2 and later. It needs no service registration, maps Symfony's standard tag and metadata headers to Mailtrap categories and custom variables, and includes a webhook parser.
-* **SDK integration**: the Symfony bridge in the [Mailtrap PHP SDK](https://github.com/mailtrap/mailtrap-php) adds a `mailtrap+sdk` transport to Symfony Mailer. Use it on Symfony versions before 7.2, or when your app also needs the Mailtrap API client for templates, batch sending, or contacts.
-* **SMTP integration**: Symfony Mailer's built-in SMTP transport with your Mailtrap SMTP credentials. It needs no extra package.
+* **SDK integration**: the Symfony bridge in the [Mailtrap PHP SDK](https://github.com/mailtrap/mailtrap-php) adds a `mailtrap+sdk` transport to Symfony Mailer. Use it on Symfony 6.0 to 7.1, or when your app also needs the Mailtrap API client for templates, batch sending, or contacts.
+* **SMTP integration**: Symfony Mailer's built-in SMTP transport with your Mailtrap SMTP credentials. It needs no extra package and is the option for Symfony versions before 6.0.
 
 #### Which integration to use
 
@@ -176,7 +176,7 @@ framework:
   * **Webhook URL**: `https://yoursite.example.com/webhook/mailtrap`
   * **Payload format**: JSON. The parser doesn't accept JSON Lines.
   * **Select area**: **Live Sending**, then the stream, your domain, and the events you need
-* Save the webhook, open it, and add its **Signing Secret** to your `.env` file:
+* Save the webhook, open it, and add its **Signing Secret** to your `.env.local` file, or set it as an environment variable, so it stays out of version control:
 
 ```bash
 MAILTRAP_WEBHOOK_SECRET=YOUR_SIGNING_SECRET
@@ -231,7 +231,7 @@ To check the setup, open the saved webhook in Mailtrap and click **Run Test**. A
 Each webhook covers one stream and has its own signing secret. To receive events from both streams, create a second webhook and a routing entry for it, for example `mailtrap_bulk` with that webhook's secret, the URL `https://yoursite.example.com/webhook/mailtrap_bulk`, and a consumer with `#[AsRemoteEventConsumer('mailtrap_bulk')]`.
 
 {% hint style="info" %}
-Symfony passes each event to your consumer through Symfony Messenger. If your app routes messages to an async transport, run a worker with `php bin/console messenger:consume`.
+Symfony passes each event to your consumer through Symfony Messenger. If your app routes messages to an async transport, run a worker for it, for example `php bin/console messenger:consume async`, where `async` is your transport's name.
 {% endhint %}
 
 #### Bulk Stream
