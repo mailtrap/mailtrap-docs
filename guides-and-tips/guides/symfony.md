@@ -39,7 +39,7 @@ Mailtrap can be integrated with Symfony apps and projects for email sending and 
 | Batch sending                 | No                                                  | With the SDK client      | No                      |
 | Webhook parser                | Yes                                                 | No                       | No                      |
 
-The webhook parser comes with `symfony/mailtrap-mailer`, but it handles events for your emails whichever integration sends them. On Symfony 7.2 or later with PHP 8.2 or later, you can install the package for webhooks alone.
+The webhook parser comes with `symfony/mailtrap-mailer`, but it handles events for your emails whichever integration sends them. On Symfony 7.4, or 8.1 and later, you can install the package for webhooks alone.
 
 #### Prerequisites
 
@@ -134,9 +134,20 @@ If your app uses Symfony Messenger, Mailer sends emails asynchronously by defaul
 
 #### Webhooks
 
-Symfony Mailtrap Mailer includes a parser for Mailtrap [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks). It turns Mailtrap events into Symfony's mailer events and, in the versions named below, verifies the signature of each request. To set it up:
+Symfony Mailtrap Mailer includes a parser for Mailtrap [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks). It verifies the signature of each request and turns Mailtrap events into Symfony's mailer events.
 
-* Install the Webhook component:
+{% hint style="warning" %}
+Only these versions always check the signature:
+
+* Symfony 7.4: `symfony/mailtrap-mailer` 7.4.19 or later
+* Symfony 8.1 and later: `symfony/mailtrap-mailer` 8.1.7 or later
+
+Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser.
+{% endhint %}
+
+To set it up:
+
+* Install the Webhook component. If you send with the SDK or SMTP, also install `symfony/mailtrap-mailer`, which provides the parser:
 
 ```bash
 composer require symfony/webhook
@@ -215,13 +226,9 @@ Symfony maps Mailtrap events like this:
 
 The email's category is available as `$event->getTags()` and its custom variables as `$event->getMetadata()`. To tell a soft bounce from a bounce, read `$event->getPayload()['event']`.
 
-To check the setup, open the saved webhook in Mailtrap and click **Run Test**. Run the test from the saved webhook: on the **Create New Webhook** form, the test request has no signature yet, so the parser rejects it.
+To check the setup, open the saved webhook in Mailtrap and click **Run Test**. A test sent from the **Create New Webhook** form has no signature yet, so the parser rejects it.
 
-Each webhook covers one stream and has its own signing secret. To receive events from both streams, create a second webhook and give it its own routing entry, for example `mailtrap_bulk` with its own secret, the URL `https://yoursite.example.com/webhook/mailtrap_bulk`, and a consumer with `#[AsRemoteEventConsumer('mailtrap_bulk')]`.
-
-{% hint style="warning" %}
-Use `symfony/mailtrap-mailer` 7.4.19 or later on Symfony 7.4, or 8.1.7 or later on Symfony 8.1, so the parser always checks the signature. Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser.
-{% endhint %}
+Each webhook covers one stream and has its own signing secret. To receive events from both streams, create a second webhook and a routing entry for it, for example `mailtrap_bulk` with that webhook's secret, the URL `https://yoursite.example.com/webhook/mailtrap_bulk`, and a consumer with `#[AsRemoteEventConsumer('mailtrap_bulk')]`.
 
 {% hint style="info" %}
 Symfony passes each event to your consumer through Symfony Messenger. If your app routes messages to an async transport, run a worker with `php bin/console messenger:consume`.
@@ -399,7 +406,7 @@ For more examples, see the [Symfony bridge README](https://github.com/mailtrap/m
 
 #### SMTP integration
 
-You can also send with Symfony Mailer's built-in SMTP transport. It works with any Symfony version that has Symfony Mailer and needs no package besides `symfony/mailer`. To get your credentials:
+You can also send with Symfony Mailer's built-in SMTP transport, which works with any Symfony version that has Symfony Mailer. To get your credentials:
 
 1. Go to the [Sending Setup](https://mailtrap.io/api-smtp/sending-setup) page under **Live Sending** and choose your domain.
 2. Select the Transactional or Bulk Stream.
@@ -422,14 +429,14 @@ $email->getHeaders()
 ```
 
 {% hint style="info" %}
-SMTP integration doesn't need the Mailtrap SDK. It uses Symfony Mailer's standard `smtp` transport.
+SMTP integration needs no package besides `symfony/mailer`. It uses Symfony Mailer's standard `smtp` transport.
 {% endhint %}
 
 Read more in the [SMTP integration guide](https://docs.mailtrap.io/email-live-sending/setup/smtp-integration).
 
 ### Email Sandbox for Symfony
 
-[Email Sandbox](https://docs.mailtrap.io/getting-started/email-sandbox) catches every email your Symfony app sends, so you can inspect it without reaching real recipients. You don't need a verified domain to use it.
+[Email Sandbox](https://docs.mailtrap.io/getting-started/email-sandbox) catches every email your Symfony app sends, so you can inspect it without reaching real recipients. You don't need a verified domain to use it. You'll find the sandbox ID in your sandbox's URL.
 
 #### Symfony Mailtrap Mailer
 
@@ -447,10 +454,8 @@ If you use the Mailtrap Symfony bridge, point `MAILER_DSN` to the Sandbox API an
 MAILER_DSN=mailtrap+sdk://YOUR_API_TOKEN@sandbox.api.mailtrap.io?sandboxId=YOUR_SANDBOX_ID
 ```
 
-You'll find the sandbox ID in your sandbox's URL.
-
 {% hint style="info" %}
-The older `inboxId` option still works but is deprecated. Replace `?inboxId=` with `?sandboxId=` in your DSN.
+In the SDK, the older `inboxId` option still works but is deprecated. Replace `?inboxId=` with `?sandboxId=` in your DSN.
 {% endhint %}
 
 #### SMTP integration
