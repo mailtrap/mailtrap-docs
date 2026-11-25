@@ -76,6 +76,7 @@
 ## Inbound Email
 
 * [Overview](inbound-email/overview.md)
+* [Managing Inbound Emails in the UI](inbound-email/managing-inbound-emails-in-the-ui.md)
 * [Receiving emails](inbound-email/receiving-emails.md)
 * [Inbound Auto-Forwarding rules](inbound-email/inbound-auto-forwarding-rules.md)
 * [Webhooks](inbound-email/webhooks.md)
