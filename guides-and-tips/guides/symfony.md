@@ -20,7 +20,7 @@ Mailtrap can be integrated with Symfony apps and projects for email sending and 
 
 * **Symfony Mailtrap Mailer (recommended)**: Symfony's own `symfony/mailtrap-mailer` bridge, available in Symfony 7.2 and later. It needs no service registration, maps Symfony's standard tag and metadata headers to Mailtrap categories and custom variables, and includes a webhook parser.
 * **SDK integration**: the Symfony bridge in the [Mailtrap PHP SDK](https://github.com/mailtrap/mailtrap-php) adds a `mailtrap+sdk` transport to Symfony Mailer. Use it on Symfony 6.0 to 7.1, or when your app also needs the Mailtrap API client for templates, batch sending, or contacts.
-* **SMTP integration**: Symfony Mailer's built-in SMTP transport with your Mailtrap SMTP credentials. It needs no extra package and is the option for Symfony versions before 6.0.
+* **SMTP integration**: Symfony Mailer's built-in SMTP transport with your Mailtrap SMTP credentials. It needs no extra package and works on any Symfony version, including those before 6.0.
 
 #### Which integration to use
 
