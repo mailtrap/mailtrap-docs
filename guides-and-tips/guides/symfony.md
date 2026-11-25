@@ -39,7 +39,7 @@ Mailtrap can be integrated with Symfony apps and projects for email sending and 
 | Batch sending                 | No                                                  | With the SDK client      | No                      |
 | Webhook parser                | Yes                                                 | No                       | No                      |
 
-The webhook parser comes with `symfony/mailtrap-mailer`, but it handles events for your emails whichever integration sends them, so you can install the package for webhooks alone.
+The webhook parser comes with `symfony/mailtrap-mailer`, but it handles events for your emails whichever integration sends them. On Symfony 7.2 or later with PHP 8.2 or later, you can install the package for webhooks alone.
 
 #### Prerequisites
 
@@ -134,7 +134,7 @@ If your app uses Symfony Messenger, Mailer sends emails asynchronously by defaul
 
 #### Webhooks
 
-Symfony Mailtrap Mailer includes a parser for Mailtrap [webhooks](https://docs.mailtrap.io/general/webhooks). It verifies the signature of each request and turns Mailtrap events into Symfony's mailer events. To set it up:
+Symfony Mailtrap Mailer includes a parser for Mailtrap [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks). It turns Mailtrap events into Symfony's mailer events and, in the versions named below, verifies the signature of each request. To set it up:
 
 * Install the Webhook component:
 
@@ -220,7 +220,7 @@ To check the setup, open the saved webhook in Mailtrap and click **Run Test**. R
 Each webhook covers one stream and has its own signing secret. To receive events from both streams, create a second webhook and give it its own routing entry, for example `mailtrap_bulk` with its own secret, the URL `https://yoursite.example.com/webhook/mailtrap_bulk`, and a consumer with `#[AsRemoteEventConsumer('mailtrap_bulk')]`.
 
 {% hint style="warning" %}
-Use `symfony/mailtrap-mailer` 7.4.19 or later on Symfony 7.4, and 8.1.7 or later on Symfony 8.1. Earlier versions don't check the signature, or skip the check when the secret is empty.
+Use `symfony/mailtrap-mailer` 7.4.19 or later on Symfony 7.4, or 8.1.7 or later on Symfony 8.1, so the parser always checks the signature. Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser.
 {% endhint %}
 
 {% hint style="info" %}
@@ -229,7 +229,7 @@ Symfony passes each event to your consumer through Symfony Messenger. If your ap
 
 #### Bulk Stream
 
-To send through the [Bulk Stream](https://docs.mailtrap.io/email-live-sending/setup/bulk-stream) with Symfony Mailtrap Mailer, use the `mailtrap+api` scheme with the bulk host:
+To send through the [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/bulk-stream) with Symfony Mailtrap Mailer, use the `mailtrap+api` scheme with the bulk host:
 
 ```bash
 MAILER_DSN=mailtrap+api://YOUR_API_TOKEN@bulk.api.mailtrap.io
