@@ -35,7 +35,7 @@ Mailtrap can be integrated with Symfony apps and projects for email sending and 
 | Bulk Stream                   | Yes, with `mailtrap+api`                            | Yes                      | Yes                     |
 | Email Sandbox                 | Yes, Symfony 7.4 or later                           | Yes                      | Yes                     |
 | Category and custom variables | `TagHeader`, `MetadataHeader`                       | `MailtrapEmail` methods  | `X-MT-*` headers        |
-| Email templates               | No                                                  | With the SDK client      | No                      |
+| Email templates               | Symfony 8.2 or later                                | With the SDK client      | No                      |
 | Batch sending                 | No                                                  | With the SDK client      | No                      |
 | Webhook parser                | Yes                                                 | No                       | No                      |
 
@@ -339,6 +339,10 @@ In Symfony 7.4 and later, Symfony's Mailtrap bridge can also send to Email Sandb
 MAILER_DSN=mailtrap+sandbox://YOUR_API_TOKEN@default?inboxId=YOUR_SANDBOX_ID
 ```
 
+{% hint style="warning" %}
+The `inboxId` option is required. If it's missing or named differently, for example `sandboxId` as in the SDK, the bridge doesn't fail. It sends the email through the live API to real recipients.
+{% endhint %}
+
 #### SDK integration
 
 If you use the Mailtrap Symfony bridge, point `MAILER_DSN` to the Sandbox API and add your sandbox ID:
@@ -381,7 +385,7 @@ Only these versions always check the signature:
 * Symfony 7.4: `symfony/mailtrap-mailer` 7.4.19 or later
 * Symfony 8.1 and later: `symfony/mailtrap-mailer` 8.1.7 or later
 
-Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser.
+Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser. Until then, or on earlier Symfony versions, check the `Mailtrap-Signature` header in your own controller with the PHP SDK's `WebhookSignature::verify()` (SDK 3.12.1 or later), as in [this example](https://github.com/mailtrap/mailtrap-php/blob/main/examples/webhooks/verify_signature.php).
 {% endhint %}
 
 To set it up:
@@ -422,6 +426,8 @@ framework:
 ```bash
 MAILTRAP_WEBHOOK_SECRET=YOUR_SIGNING_SECRET
 ```
+
+If you reset the Signing Secret in Mailtrap, update `MAILTRAP_WEBHOOK_SECRET` at the same time, or the parser rejects every request.
 
 * Handle the events in a consumer, for example in `src/Webhook/MailtrapWebhookConsumer.php`:
 
@@ -465,7 +471,7 @@ Symfony maps Mailtrap events like this:
 | `unsubscribe`           | `MailerEngagementEvent` | `unsubscribe` |
 | `spam`                  | `MailerEngagementEvent` | `spam`        |
 
-The email's category is available as `$event->getTags()` and its custom variables as `$event->getMetadata()`. To tell a soft bounce from a bounce, read `$event->getPayload()['event']`.
+The email's category is available as `$event->getTags()` and its custom variables as `$event->getMetadata()`. For emails without a category, `getTags()` returns `['']`, not an empty array. To tell a soft bounce from a bounce, read `$event->getPayload()['event']`.
 
 To check the setup, open the saved webhook in Mailtrap and click **Run Test**. A test sent from the **Create New Webhook** form has no signature yet, so the parser rejects it.
 
@@ -478,10 +484,10 @@ Symfony passes each event to your consumer through Symfony Messenger. If your ap
 ### Known limits
 
 * The `mailtrap+smtp` scheme always connects to `live.smtp.mailtrap.io` and ignores the host in the DSN, so it can't send through the Bulk Stream. Use `mailtrap+api` with the bulk host, or the `smtp` scheme with `bulk.smtp.mailtrap.io`, instead.
-* Symfony Mailtrap Mailer can't send Mailtrap email templates, and the `mailtrap+sdk` transport requires an HTML or text body. To send a template, use the SDK client.
+* Before Symfony 8.2, Symfony Mailtrap Mailer can't send Mailtrap email templates. Neither can the `mailtrap+sdk` transport, which requires an HTML or text body. Use the SDK client instead.
 * Batch sending isn't available through Symfony Mailer. Use the SDK client's `batchSend()`.
 * An email can have one category. Symfony Mailtrap Mailer throws an error if you add a second `TagHeader`.
-* The webhook parser accepts only the JSON payload format and the Mailtrap events listed in the Webhooks for Symfony section. If a request contains an event it doesn't know, it rejects the whole request.
+* The webhook parser accepts only the JSON payload format and the Mailtrap events listed in the Webhooks for Symfony section. If a request contains an event it doesn't know, it rejects the whole request, and Mailtrap ends up pausing the webhook, as described in [Troubleshooting](#troubleshooting).
 * Neither bridge receives inbound email.
 
 ### Troubleshooting
@@ -505,5 +511,9 @@ If your app uses Symfony Messenger, emails wait in a queue until a worker sends 
 * **"Sending from domain is not allowed" error**
 
 The sender address doesn't use a verified sending domain. Make sure every `from` address in your emails uses your verified domain. See [Domain not allowed](https://docs.mailtrap.io/email-live-sending/troubleshooting/sending-from-domain-not-allowed) for more fixes.
+
+* **Mailtrap paused your webhook**
+
+Mailtrap [retries](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/webhooks#retry-schedule) every batch the parser rejects. If all retries fail, it pauses the webhook and notifies you by email. The parser rejects a batch when its signature doesn't match `MAILTRAP_WEBHOOK_SECRET`, for example after you reset the Signing Secret in Mailtrap, or when it contains an event the parser doesn't know. Fix the cause, then resume the webhook in Mailtrap.
 
 If you need help with your Symfony integration, contact our support team at **support@mailtrap.io**.
