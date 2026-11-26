@@ -36,10 +36,10 @@ Before we start, you'll need:
 ### Keep real SMTP settings out of preview environments
 
 {% hint style="danger" %}
-Upsun deploys a new preview environment before the script can give it a sandbox. A project variable applies to every environment, and an environment variable is inherited by child environments by default. A pull request environment is a child of the pull request's [target branch](https://developer.upsun.com/docs/integrations/source/github#environment-parent-and-status), which isn't always production. If `MAILER_DSN` is a project variable, or an inheritable variable of production or of another environment such as staging, a new preview environment can send real emails with those settings until the script replaces them. Upsun turns off its own email proxy outside production, but ports 465 and 587 to external SMTP servers stay open.
+Upsun deploys a new preview environment before the script can give it a sandbox. A project variable applies to every environment, and an environment variable is inherited by child environments by default. A pull request environment is a child of the pull request's [target branch](https://developer.upsun.com/docs/integrations/source/github#environment-parent-and-status), which isn't always production. If `MAILER_DSN` is a project variable, or an inheritable variable of a parent environment such as production or staging, a new preview environment can send real emails with those settings until the script replaces them. Upsun turns off its own email proxy outside production, but ports 465 and 587 to external SMTP servers stay open.
 {% endhint %}
 
-Set production's `MAILER_DSN` as an environment variable that other environments don't inherit:
+Set `MAILER_DSN` as an environment variable that other environments don't inherit, on production and on every other environment with a `MAILER_DSN` of its own, such as staging. For production:
 
 ```bash
 upsun variable:create --environment main --level environment \
@@ -47,11 +47,9 @@ upsun variable:create --environment main --level environment \
   --inheritable false --sensitive true --visible-build false
 ```
 
-If production has the variable already, run `upsun variable:update env:MAILER_DSN --environment main --level environment --inheritable false` instead.
+If production has the variable already, run `upsun variable:update env:MAILER_DSN --environment main --level environment --inheritable false` instead. For another environment, run the same command with its ID in place of `main`.
 
-Do the same, with that environment's ID in place of `main`, for every other environment with a `MAILER_DSN` of its own, such as a staging environment that sends through a real relay. A pull request into that environment creates a child of it, which would otherwise inherit its `MAILER_DSN`.
-
-Then check that `upsun variable:list --level project` doesn't list `env:MAILER_DSN`. If it does, delete the project variable once production has its own, so that production keeps a value: `upsun variable:delete env:MAILER_DSN --level project`.
+Then check that `upsun variable:list --level project` doesn't list `env:MAILER_DSN`. If it does, delete the project variable once production and every other environment that sends real emails have their own, so that they keep a value: `upsun variable:delete env:MAILER_DSN --level project`.
 
 ### Set up
 
