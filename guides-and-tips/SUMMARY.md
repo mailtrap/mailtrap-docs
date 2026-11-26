@@ -52,6 +52,7 @@
   * [Sync Contacts with Supabase](guides/supabase/contacts-management.md)
 * [Symfony](guides/symfony.md)
 * [Tabular](guides/tabular.md)
+* [Upsun](guides/upsun.md)
 * [Upyo](guides/upyo.md)
 * [Vercel](guides/vercel/README.md)
   * [Mailtrap Vercel Integration](guides/vercel/integration.md)
