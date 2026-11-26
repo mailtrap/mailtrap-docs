@@ -24,20 +24,20 @@ Mailtrap can be integrated with Symfony apps and projects for email sending and 
 
 #### Which integration to use
 
-|                               | Symfony Mailtrap Mailer                             | SDK integration          | SMTP integration        |
-| ----------------------------- | --------------------------------------------------- | ------------------------ | ----------------------- |
-| Package                       | `symfony/mailtrap-mailer`                           | `railsware/mailtrap-php` | None                    |
-| DSN scheme                    | `mailtrap+api`, `mailtrap+smtp`, `mailtrap+sandbox` | `mailtrap+sdk`           | `smtp`                  |
-| Symfony                       | 7.2 or later                                        | 6.0 or later             | Any with Symfony Mailer |
-| PHP                           | 8.2 or later (8.4 or later on Symfony 8)            | 8.0 or later             | As Symfony requires     |
-| Service registration          | Not needed                                          | Needed                   | Not needed              |
-| Transactional Stream          | Yes                                                 | Yes                      | Yes                     |
-| Bulk Stream                   | Yes, with `mailtrap+api`                            | Yes                      | Yes                     |
-| Email Sandbox                 | Yes, Symfony 7.4 or later                           | Yes                      | Yes                     |
-| Category and custom variables | `TagHeader`, `MetadataHeader`                       | `MailtrapEmail` methods  | `X-MT-*` headers        |
-| Email templates               | No                                                  | With the SDK client      | No                      |
-| Batch sending                 | No                                                  | With the SDK client      | No                      |
-| Webhook parser                | Yes                                                 | No                       | No                      |
+|                               | Symfony Mailtrap Mailer                                           | SDK integration          | SMTP integration        |
+| ----------------------------- | ----------------------------------------------------------------- | ------------------------ | ----------------------- |
+| Package                       | `symfony/mailtrap-mailer`                                         | `railsware/mailtrap-php` | None                    |
+| DSN scheme                    | `mailtrap+api`, `mailtrap+smtp`, `mailtrap+sandbox`               | `mailtrap+sdk`           | `smtp`                  |
+| Symfony                       | 7.2 or later                                                      | 6.0 or later             | Any with Symfony Mailer |
+| PHP                           | 8.2 or later (8.4 or later on Symfony 8.0, 8.4.1 or later on 8.1) | 8.0 or later             | As Symfony requires     |
+| Service registration          | Not needed                                                        | Needed                   | Not needed              |
+| Transactional Stream          | Yes                                                               | Yes                      | Yes                     |
+| Bulk Stream                   | Yes, with `mailtrap+api`                                          | Yes                      | Yes                     |
+| Email Sandbox                 | Yes, Symfony 7.4 or later                                         | Yes                      | Yes                     |
+| Category and custom variables | `TagHeader`, `MetadataHeader`                                     | `MailtrapEmail` methods  | `X-MT-*` headers        |
+| Email templates               | No                                                                | With the SDK client      | No                      |
+| Batch sending                 | No                                                                | With the SDK client      | No                      |
+| Webhook parser                | Yes                                                               | No                       | No                      |
 
 The webhook parser comes with `symfony/mailtrap-mailer`, but it handles events for your emails whichever integration sends them. On Symfony 7.4, or 8.1 and later, you can install the package for webhooks alone.
 
@@ -67,14 +67,19 @@ composer require symfony/mailtrap-mailer symfony/http-client
 Then set `MAILER_DSN` in your `.env` file:
 
 ```bash
-# API
+# API, Transactional Stream
 MAILER_DSN=mailtrap+api://YOUR_API_TOKEN@default
 
-# SMTP
+# API, Bulk Stream
+MAILER_DSN=mailtrap+api://YOUR_API_TOKEN@bulk.api.mailtrap.io
+
+# SMTP, Transactional Stream
 MAILER_DSN=mailtrap+smtp://YOUR_API_TOKEN@default
 ```
 
-With the `default` host, both DSNs send through the Transactional Stream. To add a category and custom variables, use Symfony's `TagHeader` and `MetadataHeader`:
+To send through the [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/bulk-stream), use the `mailtrap+api` scheme with the bulk host. The `mailtrap+smtp` scheme always connects to the Transactional Stream.
+
+To add a category and custom variables, use Symfony's `TagHeader` and `MetadataHeader`:
 
 ```php
 use Symfony\Component\Mailer\Header\MetadataHeader;
@@ -84,7 +89,7 @@ $email->getHeaders()->add(new TagHeader('Welcome email'));
 $email->getHeaders()->add(new MetadataHeader('user_id', '45982'));
 ```
 
-Mailtrap allows one tag per email. Read more in the [Symfony Mailer documentation](https://symfony.com/doc/current/mailer.html).
+Mailtrap allows one category per email, so add only one `TagHeader`. Read more in the [Symfony Mailer documentation](https://symfony.com/doc/current/mailer.html).
 
 #### Minimal example
 
@@ -131,118 +136,6 @@ The email appears in your [Email Logs](https://docs.mailtrap.io/email-live-sendi
 {% hint style="info" %}
 If your app uses Symfony Messenger, Mailer sends emails asynchronously by default. Run a worker with `php bin/console messenger:consume` to send them. The `mailer:test` command skips Messenger.
 {% endhint %}
-
-#### Webhooks
-
-Symfony Mailtrap Mailer includes a parser for Mailtrap [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/webhooks). It verifies the signature of each request and turns Mailtrap events into Symfony's mailer events.
-
-{% hint style="warning" %}
-Only these versions always check the signature:
-
-* Symfony 7.4: `symfony/mailtrap-mailer` 7.4.19 or later
-* Symfony 8.1 and later: `symfony/mailtrap-mailer` 8.1.7 or later
-
-Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser.
-{% endhint %}
-
-To set it up:
-
-* Install the Webhook component. If you send with the SDK or SMTP, also install `symfony/mailtrap-mailer`, which provides the parser:
-
-```bash
-composer require symfony/webhook
-```
-
-Symfony Flex adds the `/webhook/{type}` route in `config/routes/webhook.yaml`. If your app doesn't use Flex, create the file yourself:
-
-```yaml
-webhook:
-    resource: '@FrameworkBundle/Resources/config/routing/webhook.php'
-    prefix: /webhook
-```
-
-* Route the `mailtrap` webhook to the parser in `config/packages/webhook.yaml`:
-
-```yaml
-framework:
-    webhook:
-        routing:
-            mailtrap:
-                service: 'mailer.webhook.request_parser.mailtrap'
-                secret: '%env(MAILTRAP_WEBHOOK_SECRET)%'
-```
-
-* In Mailtrap, go to **Webhooks**, click **Create New Webhook**, and set:
-  * **Webhook URL**: `https://yoursite.example.com/webhook/mailtrap`
-  * **Payload format**: JSON. The parser doesn't accept JSON Lines.
-  * **Select area**: **Live Sending**, then the stream, your domain, and the events you need
-* Save the webhook, open it, and add its **Signing Secret** to your `.env.local` file, or set it as an environment variable, so it stays out of version control:
-
-```bash
-MAILTRAP_WEBHOOK_SECRET=YOUR_SIGNING_SECRET
-```
-
-* Handle the events in a consumer, for example in `src/Webhook/MailtrapWebhookConsumer.php`:
-
-```php
-<?php
-
-namespace App\Webhook;
-
-use Symfony\Component\RemoteEvent\Attribute\AsRemoteEventConsumer;
-use Symfony\Component\RemoteEvent\Consumer\ConsumerInterface;
-use Symfony\Component\RemoteEvent\Event\Mailer\MailerDeliveryEvent;
-use Symfony\Component\RemoteEvent\Event\Mailer\MailerEngagementEvent;
-use Symfony\Component\RemoteEvent\RemoteEvent;
-
-#[AsRemoteEventConsumer('mailtrap')]
-final class MailtrapWebhookConsumer implements ConsumerInterface
-{
-    public function consume(RemoteEvent $event): void
-    {
-        if ($event instanceof MailerDeliveryEvent) {
-            // $event->getName() is "delivered", "bounce", or "dropped"
-            // $event->getRecipientEmail(), $event->getReason()
-        } elseif ($event instanceof MailerEngagementEvent) {
-            // $event->getName() is "open", "click", "unsubscribe", or "spam"
-        }
-
-        // $event->getId() is the message ID, $event->getPayload() is the full Mailtrap event
-    }
-}
-```
-
-Symfony maps Mailtrap events like this:
-
-| Mailtrap event          | Symfony event           | Name          |
-| ----------------------- | ----------------------- | ------------- |
-| `delivery`              | `MailerDeliveryEvent`   | `delivered`   |
-| `bounce`, `soft bounce` | `MailerDeliveryEvent`   | `bounce`      |
-| `suspension`, `reject`  | `MailerDeliveryEvent`   | `dropped`     |
-| `open`                  | `MailerEngagementEvent` | `open`        |
-| `click`                 | `MailerEngagementEvent` | `click`       |
-| `unsubscribe`           | `MailerEngagementEvent` | `unsubscribe` |
-| `spam`                  | `MailerEngagementEvent` | `spam`        |
-
-The email's category is available as `$event->getTags()` and its custom variables as `$event->getMetadata()`. To tell a soft bounce from a bounce, read `$event->getPayload()['event']`.
-
-To check the setup, open the saved webhook in Mailtrap and click **Run Test**. A test sent from the **Create New Webhook** form has no signature yet, so the parser rejects it.
-
-Each webhook covers one stream and has its own signing secret. To receive events from both streams, create a second webhook and a routing entry for it, for example `mailtrap_bulk` with that webhook's secret, the URL `https://yoursite.example.com/webhook/mailtrap_bulk`, and a consumer with `#[AsRemoteEventConsumer('mailtrap_bulk')]`.
-
-{% hint style="info" %}
-Symfony passes each event to your consumer through Symfony Messenger. If your app routes messages to an async transport, run a worker for it, for example `php bin/console messenger:consume async`, where `async` is your transport's name.
-{% endhint %}
-
-#### Bulk Stream
-
-To send through the [Bulk Stream](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/email-live-sending/setup/bulk-stream) with Symfony Mailtrap Mailer, use the `mailtrap+api` scheme with the bulk host:
-
-```bash
-MAILER_DSN=mailtrap+api://YOUR_API_TOKEN@bulk.api.mailtrap.io
-```
-
-The `mailtrap+smtp` scheme always connects to the Transactional Stream.
 
 #### SDK integration
 
@@ -478,15 +371,118 @@ When you're ready to send to real recipients, update `MAILER_DSN`:
 
 Set `MAILER_DSN` per environment, so your development and staging servers send to Sandbox and production sends to real recipients.
 
+### Webhooks for Symfony
+
+Symfony Mailtrap Mailer includes a parser for Mailtrap [webhooks](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/webhooks). It handles events for your emails whichever integration sends them, verifies the signature of each request, and turns Mailtrap events into Symfony's mailer events.
+
+{% hint style="warning" %}
+Only these versions always check the signature:
+
+* Symfony 7.4: `symfony/mailtrap-mailer` 7.4.19 or later
+* Symfony 8.1 and later: `symfony/mailtrap-mailer` 8.1.7 or later
+
+Earlier versions either don't check it at all (Symfony 7.2 and 7.3, and `symfony/mailtrap-mailer` before 7.4.12 or 8.0.12) or skip the check when the secret is empty. On Symfony 7.2, 7.3, and 8.0, upgrade before you use the parser.
+{% endhint %}
+
+To set it up:
+
+* Install the Webhook component. If you send with the SDK or SMTP, also install `symfony/mailtrap-mailer`, which provides the parser:
+
+```bash
+composer require symfony/webhook
+# If you send with the SDK or SMTP:
+composer require symfony/mailtrap-mailer
+```
+
+Symfony Flex adds the `/webhook/{type}` route in `config/routes/webhook.yaml`. If your app doesn't use Flex, create the file yourself:
+
+```yaml
+webhook:
+    resource: '@FrameworkBundle/Resources/config/routing/webhook.php'
+    prefix: /webhook
+```
+
+* Route the `mailtrap` webhook to the parser in `config/packages/webhook.yaml`:
+
+```yaml
+framework:
+    webhook:
+        routing:
+            mailtrap:
+                service: 'mailer.webhook.request_parser.mailtrap'
+                secret: '%env(MAILTRAP_WEBHOOK_SECRET)%'
+```
+
+* In Mailtrap, go to **Webhooks**, click **Create New Webhook**, and set:
+  * **Webhook URL**: `https://yoursite.example.com/webhook/mailtrap`
+  * **Payload format**: JSON. The parser doesn't accept JSON Lines.
+  * **Select area**: **Live Sending**, then the stream, your domain, and the events you need
+* Save the webhook, open it, and add its **Signing Secret** to your `.env.local` file, or set it as an environment variable, so it stays out of version control:
+
+```bash
+MAILTRAP_WEBHOOK_SECRET=YOUR_SIGNING_SECRET
+```
+
+* Handle the events in a consumer, for example in `src/Webhook/MailtrapWebhookConsumer.php`:
+
+```php
+<?php
+
+namespace App\Webhook;
+
+use Symfony\Component\RemoteEvent\Attribute\AsRemoteEventConsumer;
+use Symfony\Component\RemoteEvent\Consumer\ConsumerInterface;
+use Symfony\Component\RemoteEvent\Event\Mailer\MailerDeliveryEvent;
+use Symfony\Component\RemoteEvent\Event\Mailer\MailerEngagementEvent;
+use Symfony\Component\RemoteEvent\RemoteEvent;
+
+#[AsRemoteEventConsumer('mailtrap')]
+final class MailtrapWebhookConsumer implements ConsumerInterface
+{
+    public function consume(RemoteEvent $event): void
+    {
+        if ($event instanceof MailerDeliveryEvent) {
+            // $event->getName() is "delivered", "bounce", or "dropped"
+            // $event->getRecipientEmail(), $event->getReason()
+        } elseif ($event instanceof MailerEngagementEvent) {
+            // $event->getName() is "open", "click", "unsubscribe", or "spam"
+        }
+
+        // $event->getId() is the message ID, $event->getPayload() is the full Mailtrap event
+    }
+}
+```
+
+Symfony maps Mailtrap events like this:
+
+| Mailtrap event          | Symfony event           | Name          |
+| ----------------------- | ----------------------- | ------------- |
+| `delivery`              | `MailerDeliveryEvent`   | `delivered`   |
+| `bounce`, `soft bounce` | `MailerDeliveryEvent`   | `bounce`      |
+| `suspension`, `reject`  | `MailerDeliveryEvent`   | `dropped`     |
+| `open`                  | `MailerEngagementEvent` | `open`        |
+| `click`                 | `MailerEngagementEvent` | `click`       |
+| `unsubscribe`           | `MailerEngagementEvent` | `unsubscribe` |
+| `spam`                  | `MailerEngagementEvent` | `spam`        |
+
+The email's category is available as `$event->getTags()` and its custom variables as `$event->getMetadata()`. To tell a soft bounce from a bounce, read `$event->getPayload()['event']`.
+
+To check the setup, open the saved webhook in Mailtrap and click **Run Test**. A test sent from the **Create New Webhook** form has no signature yet, so the parser rejects it.
+
+Each webhook covers one stream and has its own signing secret. To receive events from both streams, create a second webhook and a routing entry for it, for example `mailtrap_bulk` with that webhook's secret, the URL `https://yoursite.example.com/webhook/mailtrap_bulk`, and a consumer with `#[AsRemoteEventConsumer('mailtrap_bulk')]`.
+
+{% hint style="info" %}
+Symfony passes each event to your consumer through Symfony Messenger. If your app routes messages to an async transport, run a worker for it, for example `php bin/console messenger:consume async`, where `async` is your transport's name.
+{% endhint %}
+
 #### Known limits
 
 * The `mailtrap+smtp` scheme always connects to `live.smtp.mailtrap.io` and ignores the host in the DSN, so it can't send through the Bulk Stream. Use `mailtrap+api` with the bulk host, or the `smtp` scheme with `bulk.smtp.mailtrap.io`, instead.
 * Symfony Mailtrap Mailer can't send Mailtrap email templates, and the `mailtrap+sdk` transport requires an HTML or text body. To send a template, use the SDK client.
 * Batch sending isn't available through Symfony Mailer. Use the SDK client's `batchSend()`.
 * An email can have one category. Symfony Mailtrap Mailer throws an error if you add a second `TagHeader`.
-* The webhook parser accepts only the JSON payload format and the Mailtrap events listed in the Webhooks section. If a request contains an event it doesn't know, it rejects the whole request.
+* The webhook parser accepts only the JSON payload format and the Mailtrap events listed in Webhooks for Symfony. If a request contains an event it doesn't know, it rejects the whole request.
 * Neither bridge receives inbound email.
-* Sending to Email Sandbox with Symfony Mailtrap Mailer requires Symfony 7.4 or later.
 
 #### Troubleshooting
 
