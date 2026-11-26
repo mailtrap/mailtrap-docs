@@ -429,8 +429,4 @@ upsun integration:delete INTEGRATION_ID
 
 The preview environments keep their `MAILER_DSN` variables. Remove one with `upsun variable:delete env:MAILER_DSN --environment pr-1 --level environment`.
 
-### Tested with
-
-Upsun CLI 5.18.0, an Upsun Cloud project with the GitHub integration, and Symfony 8.1, in November 2026.
-
 If you need help with this setup, contact our support team at **support@mailtrap.io**.
