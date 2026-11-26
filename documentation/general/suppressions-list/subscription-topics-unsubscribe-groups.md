@@ -78,9 +78,9 @@ The **Automations** page shows the topics used by each automation in a separate 
 
 ### How recipients manage their preferences
 
-The Unsubscribe link in a marketing email opts the recipient out of all marketing emails from the domain, regardless of the email’s Subscription Topic. To change individual topic preferences, recipients use Manage subscriptions.
+The Unsubscribe link in a marketing email opts the recipient out of all marketing emails from the domain, regardless of the email’s Subscription Topic. This applies to your template’s `__unsubscribe_url__` link, the automatic footer’s Unsubscribe, and the unsubscribe option in mail clients such as Gmail (the List-Unsubscribe header).
 
-When at least two topics are available for the email’s sending domain, the footer can also include a **Manage subscriptions** link. This opens a page where recipients can choose which topics they want to receive and click Save to confirm their preferences.
+To change individual topic preferences, recipients use the **Manage subscriptions** link, in your template or in the automatic footer as **Manage subscriptions | Unsubscribe**. Mailtrap keeps the link only when at least two topics are available for the email’s sending domain, including topics assigned to All domains. Opening the page changes nothing until they click Save. See [Manage subscriptions link](../../email-live-sending/advanced/unsubscribe-settings-footers-and-links.md#manage-subscriptions-link) for how Mailtrap adds and removes the link.
 
 The Manage subscriptions page displays topic names and descriptions. Recipients can:
 
