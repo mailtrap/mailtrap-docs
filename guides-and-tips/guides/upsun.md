@@ -17,7 +17,7 @@ An Upsun [activity script](https://developer.upsun.com/docs/integrations/activit
 
 * When a pull request environment is created or a branch environment is activated, the script creates a sandbox in a Mailtrap project and sets the environment's `MAILER_DSN` variable to that sandbox's SMTP credentials. Upsun redeploys the environment to apply it.
 * When an environment is deactivated, paused, or deleted, for example because its pull request was merged or closed, the script deletes its sandbox.
-* The script never changes the production environment.
+* The script never changes production, or an environment with a `MAILER_DSN` of its own that the script didn't set, such as a staging environment that sends through a real relay.
 
 Each run compares all the environments of the Upsun project with the sandboxes in the Mailtrap project, so a run that fails or comes late is repaired by the next one.
 
@@ -36,10 +36,10 @@ Before we start, you'll need:
 ### Keep production's settings out of preview environments
 
 {% hint style="danger" %}
-Upsun deploys a new preview environment before the script can give it a sandbox, and variables are inherited by child environments by default. If production's `MAILER_DSN` is inheritable, a new preview environment can send real emails with production's settings until the script replaces it. Upsun turns off its own email proxy outside production, but ports 465 and 587 to external SMTP servers stay open.
+Upsun deploys a new preview environment before the script can give it a sandbox. A project variable applies to every environment, and an environment variable is inherited by child environments by default. If production's `MAILER_DSN` is either, a new preview environment can send real emails with production's settings until the script replaces it. Upsun turns off its own email proxy outside production, but ports 465 and 587 to external SMTP servers stay open.
 {% endhint %}
 
-Set production's `MAILER_DSN` so that other environments don't inherit it:
+Set production's `MAILER_DSN` as an environment variable that other environments don't inherit:
 
 ```bash
 upsun variable:create --environment main --level environment \
@@ -47,7 +47,9 @@ upsun variable:create --environment main --level environment \
   --inheritable false --sensitive true --visible-build false
 ```
 
-If the variable exists already, run `upsun variable:update env:MAILER_DSN --environment main --level environment --inheritable false` instead.
+If production has the variable already, run `upsun variable:update env:MAILER_DSN --environment main --level environment --inheritable false` instead.
+
+Then check that `upsun variable:list --level project` doesn't list `env:MAILER_DSN`. If it does, delete the project variable once production has its own, so that production keeps a value: `upsun variable:delete env:MAILER_DSN --level project`.
 
 ### Set up
 
@@ -142,6 +144,7 @@ A run that created a sandbox logs `Created sandbox upsun-<project ID>-pr-1 (<san
 | An environment is activated | Creates the sandbox and sets `MAILER_DSN` |
 | An environment is deactivated or paused | Deletes the sandbox. The environment keeps its `MAILER_DSN` variable, and on activation the script creates a new sandbox and replaces it |
 | A commit is pushed to production | Nothing |
+| A running environment has a `MAILER_DSN` of its own that the script didn't set | Nothing: it logs `Skipped <environment>: its env:MAILER_DSN was not set by this script`. To hand the environment over to the script, delete its variable |
 
 {% hint style="info" %}
 In our tests, Upsun started scripts for `environment.push` on pull request environments up to 30 minutes after the push. The `integration.github.fetch` event comes at once, which is why the script listens to it and checks every environment on each run.
@@ -171,6 +174,8 @@ To replace a script variable, delete it with `upsun api:curl "$URL/MAILTRAP_API_
 
 If your app reads its SMTP settings from another variable, change `DSN_VARIABLE`, and change `dsn()` to return the format your framework expects. The sandbox object it receives has `username`, `password`, `domain`, and `smtp_ports`.
 
+The script recognizes the variables it wrote by the `mailtrap_sandbox_id` attribute it stores on them, which Upsun shows even for a sensitive variable. Keep that attribute if you change `writeDsn()`.
+
 ### The script
 
 {% code title="mailtrap-sandbox.js" lineNumbers="true" %}
@@ -183,6 +188,7 @@ If your app reads its SMTP settings from another variable, change `DSN_VARIABLE`
 // and sets MAILER_DSN for each running non-production environment that lacks one.
 // It never reads which environment the activity was about: Upsun can run a script many
 // minutes after the activity, when that environment may already be gone.
+// An environment with a MAILER_DSN of its own that this script didn't write is left alone.
 //
 // Script variables: MAILTRAP_API_TOKEN, MAILTRAP_PROJECT_ID, UPSUN_API_TOKEN.
 
@@ -292,26 +298,37 @@ function dsn(sandbox) {
     encodeURIComponent(sandbox.password) + '@' + sandbox.domain + ':' + SMTP_PORT;
 }
 
-// Sets MAILER_DSN on the environment when it is missing or inherited, or when overwrite is
-// true. Every write redeploys the environment, so it writes only when it has to.
-function setDsn(environmentId, sandbox, overwrite) {
-  var path = '/environments/' + encodeURIComponent(environmentId) + '/variables';
-  var variablePath = path + '/' + encodeURIComponent(DSN_VARIABLE);
-  var current = upsun('GET', variablePath);
-  if (!current.ok && current.status !== 404) fail('Reading ' + DSN_VARIABLE + ' on ' + environmentId, current);
-  if (current.ok && !overwrite && !current.json().inherited) return;
+function variablePath(environmentId) {
+  return '/environments/' + encodeURIComponent(environmentId) + '/variables';
+}
 
+// The variable this script writes carries the sandbox ID in its attributes, which Upsun
+// returns even for a sensitive variable. Returns 'missing', 'inherited', 'foreign' (the
+// environment's own, not written by this script), or the sandbox ID this script set.
+function dsnState(environmentId) {
+  var response = upsun('GET', variablePath(environmentId) + '/' + encodeURIComponent(DSN_VARIABLE));
+  if (response.status === 404) return 'missing';
+  if (!response.ok) fail('Reading ' + DSN_VARIABLE + ' on ' + environmentId, response);
+  var variable = response.json();
+  if (variable.inherited) return 'inherited';
+  return (variable.attributes || {}).mailtrap_sandbox_id || 'foreign';
+}
+
+// Every write redeploys the environment, so this is called only when the value must change.
+function writeDsn(environmentId, sandbox, state) {
+  var path = variablePath(environmentId);
   var attributes = {
     value: dsn(sandbox),
     is_sensitive: true,
     is_inheritable: false,
     visible_build: false, // a build-visible variable would also trigger a rebuild
     visible_runtime: true,
+    attributes: { mailtrap_sandbox_id: String(sandbox.id) },
   };
   // PATCH also turns an inherited variable into the environment's own.
-  var response = current.ok
-    ? upsun('PATCH', variablePath, attributes)
-    : upsun('POST', path, Object.assign({ name: DSN_VARIABLE }, attributes));
+  var response = state === 'missing'
+    ? upsun('POST', path, Object.assign({ name: DSN_VARIABLE }, attributes))
+    : upsun('PATCH', path + '/' + encodeURIComponent(DSN_VARIABLE), attributes);
   if (!response.ok) fail('Setting ' + DSN_VARIABLE + ' on ' + environmentId, response);
   console.log('Set ' + DSN_VARIABLE + ' on ' + environmentId + ' to sandbox ' + sandbox.id);
 }
@@ -320,14 +337,30 @@ function reconcile() {
   ['MAILTRAP_API_TOKEN', 'MAILTRAP_PROJECT_ID', 'UPSUN_API_TOKEN'].forEach(function (name) {
     if (!variables[name]) throw new Error('Script variable ' + name + ' is not set');
   });
-  var previews = previewEnvironments();
-  var sandboxes = sandboxesByEnvironment();
   var errors = [];
+  var managed = {}; // environment ID -> state of its MAILER_DSN
+  var unknown = {}; // environments whose MAILER_DSN couldn't be read: change nothing there
+
+  Object.keys(previewEnvironments()).forEach(function (environmentId) {
+    try {
+      var state = dsnState(environmentId);
+      if (state === 'foreign') {
+        console.log('Skipped ' + environmentId + ': its ' + DSN_VARIABLE + ' was not set by this script');
+      } else {
+        managed[environmentId] = state;
+      }
+    } catch (error) {
+      unknown[environmentId] = true;
+      errors.push(environmentId + ': ' + error.message);
+    }
+  });
+  var sandboxes = sandboxesByEnvironment();
 
   // Deleting first frees sandbox quota for the environments that need one.
   Object.keys(sandboxes).forEach(function (environmentId) {
-    var extra = previews[environmentId] ? sandboxes[environmentId].slice(1) : sandboxes[environmentId];
-    extra.forEach(function (sandbox) {
+    if (unknown[environmentId]) return;
+    var keep = environmentId in managed ? 1 : 0;
+    sandboxes[environmentId].slice(keep).forEach(function (sandbox) {
       try {
         deleteSandbox(sandbox);
       } catch (error) {
@@ -336,17 +369,15 @@ function reconcile() {
     });
   });
 
-  Object.keys(previews).forEach(function (environmentId) {
+  Object.keys(managed).forEach(function (environmentId) {
     try {
-      var existing = sandboxes[environmentId] || [];
-      if (existing.length === 0) {
-        var sandbox = createSandbox(environmentId);
+      var sandbox = (sandboxes[environmentId] || [])[0];
+      if (!sandbox) {
+        sandbox = createSandbox(environmentId);
         console.log('Created sandbox ' + sandbox.name + ' (' + sandbox.id + ')');
-        setDsn(environmentId, sandbox, true);
-      } else {
-        // After deleting duplicates, the variable may point at one of them: rewrite it.
-        setDsn(environmentId, existing[0], existing.length > 1);
       }
+      var state = managed[environmentId];
+      if (state !== String(sandbox.id)) writeDsn(environmentId, sandbox, state);
     } catch (error) {
       errors.push(environmentId + ': ' + error.message);
     }
@@ -371,7 +402,9 @@ This Bash script lists the sandboxes named `upsun-<project ID>-...` that belong 
 # Lists the Mailtrap sandboxes that belong to no running environment of the Upsun project.
 # DELETE=1 also deletes them. Needs UPSUN_PROJECT_ID, MAILTRAP_API_TOKEN and an authenticated upsun CLI.
 PREFIX="upsun-$UPSUN_PROJECT_ID-"
-RUNNING=$(upsun environment:list --project "$UPSUN_PROJECT_ID" --no-inactive --pipe)
+RUNNING=$(upsun environment:list --project "$UPSUN_PROJECT_ID" --no-inactive --pipe) || exit 1
+# Production is always listed: an empty list means the call failed, and deleting would remove every sandbox.
+[ -n "$RUNNING" ] || { echo "No environments listed for $UPSUN_PROJECT_ID, stopping." >&2; exit 1; }
 
 curl -s -H "Authorization: Bearer $MAILTRAP_API_TOKEN" https://mailtrap.io/api/sandboxes |
   jq -r --arg prefix "$PREFIX" '.[] | select(.name | startswith($prefix)) | "\(.id) \(.name)"' |
