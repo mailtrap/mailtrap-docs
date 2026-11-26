@@ -7,7 +7,7 @@ description: >-
 
 # Upsun
 
-Give every [Upsun](https://upsun.com/) preview environment its own Email Sandbox, so the emails your pull request and branch environments send are caught instead of reaching real recipients.
+Give every [Upsun](https://upsun.com/) preview environment its own [Email Sandbox](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/getting-started/email-sandbox), so the emails your pull request and branch environments send are caught instead of reaching real recipients.
 
 <a href="https://developer.upsun.com/docs/integrations/activity" class="button primary">Upsun activity scripts</a>
 
@@ -27,11 +27,11 @@ The environment gets only the sandbox's SMTP credentials, which can deliver into
 
 Before we start, you'll need:
 
-* A Mailtrap plan with a free sandbox for each preview environment you run at the same time. The sandbox limit on the [pricing page](https://mailtrap.io/pricing/) counts all sandboxes in your organization, not only the ones the script creates.
-* A Mailtrap project for these sandboxes and an [API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens) with **Admin** access to that project only. New tokens expire after 365 days by default, and once the token expires, the script stops creating sandboxes.
+* A Mailtrap plan with a free sandbox for each preview environment you run at the same time. The [sandbox limit of your plan](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/billing/plans#email-sandbox-pricing) counts all sandboxes in your organization, not only the ones the script creates.
+* A Mailtrap project for these sandboxes and an [API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens) with **Admin** access to that project only. Once the token [expires](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens#setting-an-expiration-date), the script stops creating sandboxes.
 * An Upsun project connected to a [GitHub repository](https://developer.upsun.com/docs/integrations/source/github), and the [Upsun CLI](https://developer.upsun.com/docs/administration/cli).
 * An [Upsun API token](https://developer.upsun.com/cli/api-tokens) of a user who can change variables on your preview environments. We tested with a project admin. Upsun recommends a separate machine user for automated tasks.
-* An app that reads its SMTP settings from `MAILER_DSN`, such as one using [Symfony Mailer](symfony.md). For other variables, see [Adapt the script](upsun.md#adapt-the-script).
+* An app that reads its SMTP settings from `MAILER_DSN`, such as one using [Symfony Mailer](symfony.md#email-sandbox-for-symfony). For other variables, see [Adapt the script](upsun.md#adapt-the-script).
 
 ### Keep production's settings out of preview environments
 
@@ -67,15 +67,9 @@ curl -s -H "Authorization: Bearer YOUR_MAILTRAP_API_TOKEN" https://mailtrap.io/a
 {% endstep %}
 
 {% step %}
-### Save the script
-
-Save the script from [The script](upsun.md#the-script) as `mailtrap-sandbox.js` in a folder outside your repository.
-{% endstep %}
-
-{% step %}
 ### Add the activity script
 
-From your Upsun project's folder, add the script as an integration:
+Save the script from [The script](upsun.md#the-script) as `mailtrap-sandbox.js` outside your repository. Then, from your Upsun project's folder, add it as an integration:
 
 ```bash
 upsun integration:add --type script --file ./mailtrap-sandbox.js \
@@ -164,7 +158,7 @@ A failed run shows the error in `upsun integration:activity:log`. The script sti
 | ----- | ------- | -------------------- | ----------- |
 | `422`, "You've reached the sandboxes limit" | Your organization has no free sandbox, or its trial has ended | Sets no `MAILER_DSN` on that environment | Free a sandbox or upgrade your plan, then push again |
 | `409`, "Another action in progress" | Another sandbox is being created in your Mailtrap account | Retries up to 5 times | Nothing, or push again if it still fails |
-| `429`, "Throttled" | More than 150 requests in 10 seconds with the token | Fails | Push again |
+| `429`, "Throttled" | The token went over the [API rate limit](https://app.gitbook.com/s/bUK33X2o81D3048ultKu/rate-limits) | Fails | Push again |
 | `401` or `403` | The Mailtrap token has expired or has no Admin access to the project | Fails | Replace the `MAILTRAP_API_TOKEN` script variable |
 | `context canceled` | Upsun stopped the run | Nothing more in that run | Nothing: the next run finishes the work |
 
@@ -180,7 +174,6 @@ The script recognizes the variables it wrote by the `mailtrap_sandbox_id` attrib
 
 {% code title="mailtrap-sandbox.js" lineNumbers="true" %}
 ```javascript
-// mailtrap-sandbox.js
 // Upsun activity script: gives every running preview environment its own Mailtrap Sandbox.
 //
 // Each run compares the project's environments with the sandboxes in one Mailtrap project.
@@ -242,15 +235,13 @@ function isRunning(environment) {
   return environment.status === 'dirty' && (environment.has_deployment || environment.is_pr);
 }
 
-// Running non-production environments, by id.
+// IDs of the running non-production environments.
 function previewEnvironments() {
   var response = upsun('GET', '/environments');
   if (!response.ok) fail('Listing Upsun environments', response);
-  var previews = {};
-  response.json().forEach(function (environment) {
-    if (environment.type !== 'production' && isRunning(environment)) previews[environment.id] = true;
-  });
-  return previews;
+  return response.json()
+    .filter(function (environment) { return environment.type !== 'production' && isRunning(environment); })
+    .map(function (environment) { return environment.id; });
 }
 
 // This project's sandboxes in the Mailtrap project, by environment id, oldest first.
@@ -258,14 +249,11 @@ function sandboxesByEnvironment() {
   var response = mailtrap('GET', '/sandboxes');
   if (!response.ok) fail('Listing Mailtrap sandboxes', response);
   var sandboxes = {};
-  response.json().forEach(function (sandbox) {
+  response.json().sort(function (a, b) { return a.id - b.id; }).forEach(function (sandbox) {
     if (String(sandbox.project_id) !== String(variables.MAILTRAP_PROJECT_ID)) return;
     if (sandbox.name.indexOf(NAME_PREFIX) !== 0) return;
     var environmentId = sandbox.name.slice(NAME_PREFIX.length);
     (sandboxes[environmentId] = sandboxes[environmentId] || []).push(sandbox);
-  });
-  Object.keys(sandboxes).forEach(function (environmentId) {
-    sandboxes[environmentId].sort(function (a, b) { return a.id - b.id; });
   });
   return sandboxes;
 }
@@ -298,15 +286,19 @@ function dsn(sandbox) {
     encodeURIComponent(sandbox.password) + '@' + sandbox.domain + ':' + SMTP_PORT;
 }
 
-function variablePath(environmentId) {
+function variablesPath(environmentId) {
   return '/environments/' + encodeURIComponent(environmentId) + '/variables';
+}
+
+function dsnPath(environmentId) {
+  return variablesPath(environmentId) + '/' + encodeURIComponent(DSN_VARIABLE);
 }
 
 // The variable this script writes carries the sandbox ID in its attributes, which Upsun
 // returns even for a sensitive variable. Returns 'missing', 'inherited', 'foreign' (the
 // environment's own, not written by this script), or the sandbox ID this script set.
 function dsnState(environmentId) {
-  var response = upsun('GET', variablePath(environmentId) + '/' + encodeURIComponent(DSN_VARIABLE));
+  var response = upsun('GET', dsnPath(environmentId));
   if (response.status === 404) return 'missing';
   if (!response.ok) fail('Reading ' + DSN_VARIABLE + ' on ' + environmentId, response);
   var variable = response.json();
@@ -316,8 +308,7 @@ function dsnState(environmentId) {
 
 // Every write redeploys the environment, so this is called only when the value must change.
 function writeDsn(environmentId, sandbox, state) {
-  var path = variablePath(environmentId);
-  var attributes = {
+  var body = {
     value: dsn(sandbox),
     is_sensitive: true,
     is_inheritable: false,
@@ -327,8 +318,8 @@ function writeDsn(environmentId, sandbox, state) {
   };
   // PATCH also turns an inherited variable into the environment's own.
   var response = state === 'missing'
-    ? upsun('POST', path, Object.assign({ name: DSN_VARIABLE }, attributes))
-    : upsun('PATCH', path + '/' + encodeURIComponent(DSN_VARIABLE), attributes);
+    ? upsun('POST', variablesPath(environmentId), Object.assign({ name: DSN_VARIABLE }, body))
+    : upsun('PATCH', dsnPath(environmentId), body);
   if (!response.ok) fail('Setting ' + DSN_VARIABLE + ' on ' + environmentId, response);
   console.log('Set ' + DSN_VARIABLE + ' on ' + environmentId + ' to sandbox ' + sandbox.id);
 }
@@ -341,7 +332,7 @@ function reconcile() {
   var managed = {}; // environment ID -> state of its MAILER_DSN
   var unknown = {}; // environments whose MAILER_DSN couldn't be read: change nothing there
 
-  Object.keys(previewEnvironments()).forEach(function (environmentId) {
+  previewEnvironments().forEach(function (environmentId) {
     try {
       var state = dsnState(environmentId);
       if (state === 'foreign') {
@@ -423,8 +414,9 @@ curl -s -H "Authorization: Bearer $MAILTRAP_API_TOKEN" https://mailtrap.io/api/s
 Run it to list the orphans, then with `DELETE=1` to delete them. Deleting a sandbox deletes its emails too.
 
 ```bash
-UPSUN_PROJECT_ID=YOUR_UPSUN_PROJECT_ID MAILTRAP_API_TOKEN=YOUR_MAILTRAP_API_TOKEN bash mailtrap-sandbox-orphans.sh
-DELETE=1 UPSUN_PROJECT_ID=YOUR_UPSUN_PROJECT_ID MAILTRAP_API_TOKEN=YOUR_MAILTRAP_API_TOKEN bash mailtrap-sandbox-orphans.sh
+export UPSUN_PROJECT_ID=YOUR_UPSUN_PROJECT_ID MAILTRAP_API_TOKEN=YOUR_MAILTRAP_API_TOKEN
+bash mailtrap-sandbox-orphans.sh
+DELETE=1 bash mailtrap-sandbox-orphans.sh
 ```
 
 ### Remove the integration
