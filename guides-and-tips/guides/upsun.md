@@ -29,14 +29,14 @@ Before we start, you'll need:
 
 * A Mailtrap plan with a free sandbox for each preview environment you run at the same time. The [sandbox limit of your plan](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/account-and-organization/billing/plans#email-sandbox-pricing) counts all sandboxes in your organization, not only the ones the script creates.
 * A Mailtrap project for these sandboxes and an [API token](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens) with **Admin** access to that project only. Once the token [expires](https://app.gitbook.com/s/S3xyr7ba7aGO19rc8dSK/general/api-tokens#setting-an-expiration-date), the script stops creating sandboxes.
-* An Upsun project connected to a [GitHub repository](https://developer.upsun.com/docs/integrations/source/github), and the [Upsun CLI](https://developer.upsun.com/docs/administration/cli).
+* An Upsun project connected to a [GitHub repository](https://developer.upsun.com/docs/integrations/source/github), and the [Upsun CLI](https://developer.upsun.com/cli).
 * An [Upsun API token](https://developer.upsun.com/cli/api-tokens) of a user who can change variables on your preview environments. We tested with a project admin. Upsun recommends a separate machine user for automated tasks.
 * An app that reads its SMTP settings from `MAILER_DSN`, such as one using [Symfony Mailer](symfony.md#email-sandbox-for-symfony). For other variables, see [Adapt the script](upsun.md#adapt-the-script).
 
-### Keep production's settings out of preview environments
+### Keep real SMTP settings out of preview environments
 
 {% hint style="danger" %}
-Upsun deploys a new preview environment before the script can give it a sandbox. A project variable applies to every environment, and an environment variable is inherited by child environments by default. If production's `MAILER_DSN` is either, a new preview environment can send real emails with production's settings until the script replaces it. Upsun turns off its own email proxy outside production, but ports 465 and 587 to external SMTP servers stay open.
+Upsun deploys a new preview environment before the script can give it a sandbox. A project variable applies to every environment, and an environment variable is inherited by child environments by default. A pull request environment is a child of the pull request's [target branch](https://developer.upsun.com/docs/integrations/source/github#environment-parent-and-status), which isn't always production. If `MAILER_DSN` is a project variable, or an inheritable variable of production or of another environment such as staging, a new preview environment can send real emails with those settings until the script replaces them. Upsun turns off its own email proxy outside production, but ports 465 and 587 to external SMTP servers stay open.
 {% endhint %}
 
 Set production's `MAILER_DSN` as an environment variable that other environments don't inherit:
@@ -48,6 +48,8 @@ upsun variable:create --environment main --level environment \
 ```
 
 If production has the variable already, run `upsun variable:update env:MAILER_DSN --environment main --level environment --inheritable false` instead.
+
+Do the same, with that environment's ID in place of `main`, for every other environment with a `MAILER_DSN` of its own, such as a staging environment that sends through a real relay. A pull request into that environment creates a child of it, which would otherwise inherit its `MAILER_DSN`.
 
 Then check that `upsun variable:list --level project` doesn't list `env:MAILER_DSN`. If it does, delete the project variable once production has its own, so that production keeps a value: `upsun variable:delete env:MAILER_DSN --level project`.
 
@@ -393,7 +395,8 @@ This Bash script lists the sandboxes named `upsun-<project ID>-...` that belong 
 # Lists the Mailtrap sandboxes that belong to no running environment of the Upsun project.
 # DELETE=1 also deletes them. Needs UPSUN_PROJECT_ID, MAILTRAP_API_TOKEN and an authenticated upsun CLI.
 PREFIX="upsun-$UPSUN_PROJECT_ID-"
-RUNNING=$(upsun environment:list --project "$UPSUN_PROJECT_ID" --no-inactive --pipe) || exit 1
+# As in the activity script, paused and deleting environments count as gone.
+RUNNING=$(upsun environment:list --project "$UPSUN_PROJECT_ID" --status active,dirty --pipe) || exit 1
 # Production is always listed: an empty list means the call failed, and deleting would remove every sandbox.
 [ -n "$RUNNING" ] || { echo "No environments listed for $UPSUN_PROJECT_ID, stopping." >&2; exit 1; }
 
