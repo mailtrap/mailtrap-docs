@@ -8,9 +8,9 @@ hidden: true
 What the customer can choose
 
 * **Domain**: one sending domain or all domains
-* **Events**: Delivery, Soft Bounce, Bounce, Suspension, Unsubscribe, Open, Spam Complaint, Click, Reject
+* **Events**: Delivery, Soft Bounce, Bounce, Suspension, Unsubscribe, Open, Spam Complaint, Click, Reject, Subscription Preferences Update
 
-What each event contains: event type, message ID, recipient email, event ID, timestamp, sending domain, campaign ID, and sending stream.
+What each event contains: event type, message ID, recipient email, event ID, timestamp, sending domain, campaign ID, subscription topic ID, and sending stream.
 
 <div align="left" data-with-frame="true"><figure><img src="../../.gitbook/assets/campaign webhooks.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
