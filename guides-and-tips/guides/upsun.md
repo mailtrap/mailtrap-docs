@@ -148,7 +148,7 @@ In our tests, Upsun started scripts for `environment.push` on pull request envir
 
 Upsun redeploys an environment whenever one of its variables changes. A new pull request environment therefore deploys twice: its first deploy, then a redeploy that applies `MAILER_DSN` and starts right after the first one. Until the redeploy finishes, the environment has no `MAILER_DSN` of its own. On Upsun, Symfony apps use `null://localhost` then, which discards emails.
 
-Later commits to the pull request don't cost an extra deploy, because the script writes the variable only when it's missing. Activating a branch environment, or activating it again after a deactivation, costs one extra deploy.
+Later commits to the pull request don't cost an extra deploy, because the script writes the variable only when it's missing. Activating a branch environment, or activating it again after a deactivation, costs one extra deploy. When an environment is activated again or resumed, its first deploy still has the credentials of the deleted sandbox, so sending fails with an authentication error until the redeploy finishes.
 
 ### Limits and errors
 
