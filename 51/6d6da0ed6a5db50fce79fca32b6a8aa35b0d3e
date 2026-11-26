@@ -1,0 +1,29 @@
+guides-and-tips/guides/better-auth.md
+  s_52b4ea42fcf488::t_5a3556f658bfd2 193
+guides-and-tips/guides/symfony.md
+  s_52b4ea42fcf488::t_ad7f1b730a7ccc 393-394
+  s_52b4ea42fcf488::t_52b765405e8303 484
+  s_52b4ea42fcf488::t_a0b7b0e8c410ef 374-375,377-392,395-476
+  s_52b4ea42fcf488::t_bfa69c259834c3 32
+  s_52b4ea42fcf488::t_ebe06becad8cd4 92
+  s_52b4ea42fcf488::t_5c5f15e094a4b7 27-31,33-40
+  s_52b4ea42fcf488::t_156f225a876a08 70,73-76,80-82
+  s_52b4ea42fcf488::t_5a3556f658bfd2 376
+  s_52b4ea42fcf488::t_499023c755e612 477
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "516d6da0ed6a5db50fce79fca32b6a8aa35b0d3e",
+  "prompts": {},
+  "sessions": {
+    "s_52b4ea42fcf488": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e2860e7f-40d6-4631-8f56-66a69af2fbb9",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
