@@ -1,0 +1,339 @@
+CLAUDE.md
+  s_bf21f93ac04a33::t_47f0d521feac6d 177-182
+api-docs/README.md
+  s_bf21f93ac04a33::t_825fe48b108a34 23,32
+api-docs/SUMMARY.md
+  s_bf21f93ac04a33::t_a5f09413589639 8
+api-docs/authentication.md
+  s_bf21f93ac04a33::t_9946e43d560746 13
+documentation/README.md
+  s_bf21f93ac04a33::t_de10d47cdf3207 61,69,73,75,107,118
+documentation/SUMMARY.md
+  s_bf21f93ac04a33::t_9df399ccc77740 7,10,22-47,50-52,55-56,61-63,68-74,79-80,87-90,98-101,106-108,113,115-116,119,121-122,125-133,139,151-152,154-156,158,160,162-164,166
+documentation/account-and-billing/2fa.md
+  s_bf21f93ac04a33::t_a08774444c950b 104
+documentation/account-and-organization/billing/edu.md
+  s_bf21f93ac04a33::t_0458c56425fe3d 21-24,32
+documentation/account-and-organization/billing/faqs.md
+  s_bf21f93ac04a33::t_f14d75265cbdc3 9,13,15,19,85,89,170,172
+documentation/account-and-organization/billing/non-profit-and-open-source.md
+  s_bf21f93ac04a33::t_96510bd56e420a 9,14
+documentation/account-and-organization/billing/payment-issues.md
+  s_bf21f93ac04a33::t_2b078f6f3e6315 8
+documentation/account-and-organization/billing/plans.md
+  s_bf21f93ac04a33::t_7a855f4a97dbd5 3-5,30,36-40,48,54,56,58,60,76,107,111,115,119-122,125,131,144-145,159,161-163,173,181,191,199,201,217,227
+documentation/account-and-organization/billing/setup.md
+  s_bf21f93ac04a33::t_8a284c0e36f8ff 9
+documentation/account-and-organization/management/manage-your-organization-without-accessing-sub-account-data.md
+  s_bf21f93ac04a33::t_5147d8912f1ed0 1,3,5,7,9-12,14,16,18,20,22,24-28,30,32,34,36,38,40,42,44,46,48,50,52,54,56-58
+documentation/account-and-organization/management/organization-and-sub-accounts.md
+  s_bf21f93ac04a33::t_d16cfbb623e069 20,29,38,184
+documentation/account-and-organization/management/sso/jumpcloud.md
+  s_bf21f93ac04a33::t_b2db22edd47eed 78
+documentation/account-and-organization/management/user-groups.md
+  s_bf21f93ac04a33::t_fc2b94ef1c45a0 59,197
+documentation/account-and-organization/management/user-profile.md
+  s_bf21f93ac04a33::t_e8b1cb70802b0d 13,21,23,27
+documentation/account-and-organization/notification-center.md
+  s_bf21f93ac04a33::t_4e50456ad9fbdd 66,75
+documentation/api-tokens.md
+  s_bf21f93ac04a33::t_84cda2e8b70e78 11,45,49,54-55,60,62,66,78,84,88,91,93
+documentation/deliverability/automated-domain-reputation-monitoring.md
+  s_bf21f93ac04a33::t_c7adc33e45f32a 8,37,66,94,106,131,213,217,223
+documentation/deliverability/bounce-categorization.md
+  s_bf21f93ac04a33::t_2831633f43684b 9,11
+documentation/deliverability/deliverability-alerts.md
+  s_bf21f93ac04a33::t_13bcbdd776f96c 25,31,39,41,43,59,65,71
+documentation/deliverability/feedback-loops.md
+  s_bf21f93ac04a33::t_e9a7a10b3ef7fd 55
+documentation/deliverability/ip-warmup.md
+  s_bf21f93ac04a33::t_0853901bfb2b27 21,32
+documentation/deliverability/protecting-domain-security.md
+  s_bf21f93ac04a33::t_058638c24b4067 8,12,47,104
+documentation/email-api-smtp/advanced/README.md
+  s_bf21f93ac04a33::t_2bdc7239db3dc5 4-5,8,12,14
+documentation/email-api-smtp/advanced/auto-bcc.md
+  s_bf21f93ac04a33::t_90adc65e78aa20 12
+documentation/email-api-smtp/advanced/recipient-tracking-opt-outs.md
+  s_bf21f93ac04a33::t_e23e397ec7075a 3
+documentation/email-api-smtp/advanced/tracking-settings-opens-and-clicks-tracking.md
+  s_bf21f93ac04a33::t_9717ab88fd7462 36
+documentation/email-api-smtp/advanced/unsubscribe-settings-footers-and-links.md
+  s_bf21f93ac04a33::t_83240e72d13177 1
+documentation/email-api-smtp/analytics/dashboard.md
+  s_bf21f93ac04a33::t_569d8fa2344603 9,54,100
+documentation/email-api-smtp/analytics/logs.md
+  s_bf21f93ac04a33::t_853ce5a1b1472a 19,55
+documentation/email-api-smtp/analytics/mailbox-providers.md
+  s_bf21f93ac04a33::t_dd3878db3d4e4a 18
+documentation/email-api-smtp/analytics/statuses-and-events.md
+  s_bf21f93ac04a33::t_2a9d4f162dd02b 31,59
+documentation/email-api-smtp/api-integration.md
+  s_bf21f93ac04a33::t_d39edcb90384d2 8,39,41,63,87,102,106
+documentation/email-api-smtp/custom-variables.md
+  s_bf21f93ac04a33::t_283c17df733b24 8
+documentation/email-api-smtp/excluding-specific-links-from-tracking.md
+  s_bf21f93ac04a33::t_a946c8ddc88b98 8
+documentation/email-api-smtp/glossary.md
+  s_bf21f93ac04a33::t_72548c9213d8ad 4,7,12,38,92
+documentation/email-api-smtp/overview.md
+  s_bf21f93ac04a33::t_e9ba0c5fa2fc23 2,4,24-25,30,43,50,64,68
+documentation/email-api-smtp/setup/README.md
+  s_bf21f93ac04a33::t_fbd9dc253fda06 10,31
+documentation/email-api-smtp/setup/bulk-stream.md
+  s_bf21f93ac04a33::t_bb7ce277fcdd44 18,24,33,37-40,46,48,83,87,95,97,101,103,115,128,130,138,146,154,156,161-163,166,169,177,182,195,197,199-204,263,265-268,270
+documentation/email-api-smtp/smtp-integration.md
+  s_bf21f93ac04a33::t_43554708fe6483 8,18,32,91,95,97
+documentation/email-api-smtp/troubleshooting/README.md
+  s_bf21f93ac04a33::t_9a2705e96f3e28 2-3,8,33
+documentation/email-api-smtp/troubleshooting/from-header-domain-mismatch.md
+  s_bf21f93ac04a33::t_43b589c00d26cf 5,8,10,18,28,30,40,48,52,56,68,85,96,106,127,135,144,146
+documentation/email-api-smtp/troubleshooting/ms-office-365-quarantine.md
+  s_bf21f93ac04a33::t_b0f805eea6aff9 4,50-51
+documentation/email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md
+  s_bf21f93ac04a33::t_cfbe53890e037e 5,8,10,13,18,20,30,34,38,44,54,66,75,77
+documentation/email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md
+  s_bf21f93ac04a33::t_a0619ee078c4b9 6
+documentation/email-api-smtp/troubleshooting/unauthorized-401-error.md
+  s_bf21f93ac04a33::t_b12109f9d6393d 4-5,8,12,14,22,32,38,42,53,59,87,98,100
+documentation/email-marketing/campaign-management/scheduling.md
+  s_bf21f93ac04a33::t_eb9d7b2d1fe002 5
+documentation/email-marketing/campaigns/README.md
+  s_bf21f93ac04a33::t_f42acf152d135b 5,9
+documentation/email-marketing/campaigns/email-throttling.md
+  s_bf21f93ac04a33::t_cc71876bfed6bf 13
+documentation/email-marketing/campaigns/statistics.md
+  s_bf21f93ac04a33::t_bba8860d243081 8,18
+documentation/email-marketing/contacts/custom-fields.md
+  s_bf21f93ac04a33::t_7cd2534ed31918 7,45
+documentation/email-marketing/contacts/import-contacts.md
+  s_bf21f93ac04a33::t_68a10bec8695a6 5,86,255
+documentation/email-marketing/contacts/lists.md
+  s_bf21f93ac04a33::t_f72f1ef42010c6 20
+documentation/email-marketing/contacts/overview.md
+  s_bf21f93ac04a33::t_b40c7ce529865b 140,175,199,225,255,287,337
+documentation/email-marketing/contacts/segments.md
+  s_bf21f93ac04a33::t_56b0ec89794af3 62
+documentation/email-marketing/email-templates.md
+  s_bf21f93ac04a33::t_95e5e7902a371d 5,19,67,75,93
+documentation/email-marketing/overview.md
+  s_bf21f93ac04a33::t_14a81551802ff1 12-15,156-157,182,184,186-189,191,193-195
+documentation/email-sandbox/automatic-email-forwarding.md
+  s_bf21f93ac04a33::t_6858cb8a2c4c49 8
+documentation/email-sandbox/collaboration/README.md
+  s_bf21f93ac04a33::t_6a106cfc5b4963 10
+documentation/email-sandbox/email-address-per-sandbox.md
+  s_bf21f93ac04a33::t_c227e8e10ccd20 8
+documentation/email-sandbox/features-and-limits.md
+  s_bf21f93ac04a33::t_33258bd2b9562d 28
+documentation/email-sandbox/glossary.md
+  s_bf21f93ac04a33::t_adec75125ebe83 4,7,9,11,13,15,17,19,23,25,27,29,31,33
+documentation/email-sandbox/management/README.md
+  s_bf21f93ac04a33::t_0815bd07cfdcdd 6,10
+documentation/email-sandbox/manual-email-forwarding.md
+  s_bf21f93ac04a33::t_efe32e17c8125f 8
+documentation/email-sandbox/overview.md
+  s_bf21f93ac04a33::t_3ca4277d155a6f 30,40,54-57,312-314
+documentation/email-sandbox/sandbox-api-integration.md
+  s_bf21f93ac04a33::t_872340de23b391 8,48
+documentation/email-sandbox/searching-messages.md
+  s_bf21f93ac04a33::t_535011eb1477b5 8
+documentation/email-sandbox/setup/README.md
+  s_bf21f93ac04a33::t_db36afa45e88d5 12
+documentation/email-sandbox/setup/sandbox-smtp-integration.md
+  s_bf21f93ac04a33::t_17cbe609d6cbcb 8
+documentation/email-sandbox/testing/README.md
+  s_bf21f93ac04a33::t_0bba1423782e41 6,10
+documentation/email-sandbox/testing/bounce-rate.md
+  s_bf21f93ac04a33::t_cab698871c5d6a 18
+documentation/email-sandbox/troubleshooting.md
+  s_bf21f93ac04a33::t_a4b863b50fe464 256,258
+documentation/email-templates/README.md
+  s_bf21f93ac04a33::t_83705fd4fc68ae 8,16,40,42,46,48,50,52,64,74-76,84,88-94,96,98-110,113-117,120-122,124-178
+documentation/email-templates/debugging.md
+  s_bf21f93ac04a33::t_91779f2fff8c93 22-23,34,50
+documentation/email-templates/editing-and-customizing.md
+  s_bf21f93ac04a33::t_bb57cf91be2d75 8,14,18,20,26,32,66,74,84
+documentation/email-templates/handlebars.md
+  s_bf21f93ac04a33::t_63a75eb2b9121a 8,14,31,424,428,440,446
+documentation/email-templates/integration.md
+  s_bf21f93ac04a33::t_1b8c65c15067dc 2,4,8,16,32,46
+documentation/email-templates/migrate-templates.md
+  s_bf21f93ac04a33::t_7dcc381e84b0e6 8,16-17,274,406
+documentation/faq.md
+  s_bf21f93ac04a33::t_a74531c82338d3 5,7-9,25-26,32-34,70,86,114,122,167,171,191,193,219-604
+documentation/for-ai-agents/ai-onboarding.md
+  s_bf21f93ac04a33::t_212fc429096e58 40,134-135,192
+documentation/for-ai-agents/tools/ai-inbox.md
+  s_bf21f93ac04a33::t_959740fedae815 20,43-49,51-54,56-59,61-62,64,66-70,72-76,82-87
+documentation/for-ai-agents/tools/mailtrap-cli-app.md
+  s_bf21f93ac04a33::t_040378371f43e4 45,166,198-209
+documentation/for-ai-agents/tools/mcp-server.md
+  s_bf21f93ac04a33::t_93629a75c32bbd 7,11,14-17
+documentation/for-ai-agents/tools/prompts.md
+  s_bf21f93ac04a33::t_54a81c292b97d6 19
+documentation/for-ai-agents/tools/skills.md
+  s_bf21f93ac04a33::t_6fd402121be05c 3,27-29
+documentation/general/suppressions-list/README.md
+  s_bf21f93ac04a33::t_0aea3bf1d989f5 9,15,21,27,42,52,56,62,92
+documentation/general/suppressions-list/subscription-topics-unsubscribe-groups.md
+  s_bf21f93ac04a33::t_52e85078077656 1-175
+documentation/general/webhooks/campaigns-webhooks.md
+  s_bf21f93ac04a33::t_4a8cb1a7a0122f 1-22
+documentation/general/webhooks/reputation-monitor-webhooks.md
+  s_bf21f93ac04a33::t_ed85b5f0747b88 1-25
+documentation/getting-started/before-you-start-sending.md
+  s_bf21f93ac04a33::t_7a590bdc727e9d 2-3,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92
+documentation/getting-started/email-api-smtp.md
+  s_bf21f93ac04a33::t_35f41948aca830 6,28,34,46-55,57,79,81,435,458,631-636
+documentation/getting-started/email-marketing.md
+  s_bf21f93ac04a33::t_c84a8b4bc93688 8,24,76
+documentation/inbound-email/inbound-auto-forwarding-rules.md
+  s_bf21f93ac04a33::t_ab0410e8665049 1-134
+documentation/inbound-email/overview.md
+  s_bf21f93ac04a33::t_40819d78b62cb8 35,46
+documentation/inbound-email/receiving-emails.md
+  s_bf21f93ac04a33::t_6ccc7f273246de 43,58,60,81-83
+documentation/inbound-email/webhooks.md
+  s_bf21f93ac04a33::t_0e606ff8d60674 33
+documentation/privacy-and-security/README.md
+  s_bf21f93ac04a33::t_18e9401ebbd145 8,16,18
+documentation/privacy-and-security/activity-log.md
+  s_bf21f93ac04a33::t_2d2985957bbda3 8
+documentation/privacy-and-security/gdpr-compliance.md
+  s_bf21f93ac04a33::t_cbe88fb25985bc 6
+documentation/privacy-and-security/iso-certification.md
+  s_bf21f93ac04a33::t_afe517008ffa2d 7
+documentation/privacy-and-security/legal-policies.md
+  s_bf21f93ac04a33::t_83d58172e8dac2 8
+documentation/sending-domain/README.md
+  s_bf21f93ac04a33::t_37fa80bf4a3c80 7,41,104,118,124,130,134,140,146,156,160,162,168,207,214,283,287,291
+documentation/sending-domain/aws-route-53.md
+  s_bf21f93ac04a33::t_f96697f33ee87d 21,27,33,39,45,49,59,65,73,77,79,85
+documentation/sending-domain/cloudflare.md
+  s_bf21f93ac04a33::t_4ce729e23cb4fc 21,27,33,39,43,45,55,61,67,79,85
+documentation/sending-domain/digitalocean.md
+  s_bf21f93ac04a33::t_08b161434667ea 21,25,31,37,39,49,55,57,69,75,81
+documentation/sending-domain/godaddy.md
+  s_bf21f93ac04a33::t_d0a9e3101ab3ad 21,27,33,37,39,49,55,67,73,79
+documentation/sending-domain/google-cloud-dns.md
+  s_bf21f93ac04a33::t_218b3739f3c517 21,27,33,39,43,53,59,61,71,77,83,89
+documentation/sending-domain/namecheap.md
+  s_bf21f93ac04a33::t_7f1928def02e81 21,27,33,39,43,53,59,65,71,77,83
+documentation/sending-domain/squarespace.md
+  s_bf21f93ac04a33::t_55a4be4ed28038 19,29,43,94,97
+documentation/webhooks/README.md
+  s_bf21f93ac04a33::t_13fddfc0b73aad 39,80,86,98
+guides-and-tips/README.md
+  s_bf21f93ac04a33::t_596979f7b9e39f 24,32
+guides-and-tips/SUMMARY.md
+  s_bf21f93ac04a33::t_c53049ac4fe13c 18,20-51,53,55-75
+guides-and-tips/ai-powered/anything.md
+  s_bf21f93ac04a33::t_16d6416a5f3440 17,31
+guides-and-tips/ai-powered/base44.md
+  s_bf21f93ac04a33::t_2885323ea8daa4 26
+guides-and-tips/ai-powered/bolt-new.md
+  s_bf21f93ac04a33::t_957a354d146b7e 17,24
+guides-and-tips/ai-powered/leap-new.md
+  s_bf21f93ac04a33::t_2fad4513e615a0 27
+guides-and-tips/ai-powered/lovable.md
+  s_bf21f93ac04a33::t_421fa6c195e3aa 31
+guides-and-tips/ai-powered/openclaw.md
+  s_bf21f93ac04a33::t_1f996197859b89 53
+guides-and-tips/ai-powered/replit.md
+  s_bf21f93ac04a33::t_3c0fad90aa4cea 16,22
+guides-and-tips/ai-powered/v0.md
+  s_bf21f93ac04a33::t_19f5993cc406d0 19
+guides-and-tips/ai-powered/viasocket.md
+  s_bf21f93ac04a33::t_f4fb88832c7067 5,18,30,96,283
+guides-and-tips/guides/apache-airflow.md
+  s_bf21f93ac04a33::t_7f7def3020bcb6 10
+guides-and-tips/guides/astro.md
+  s_bf21f93ac04a33::t_1e2cb30b83eeb3 15-16,69
+guides-and-tips/guides/aws-lambda.md
+  s_bf21f93ac04a33::t_d3a06d06456178 17-18,89
+guides-and-tips/guides/better-auth.md
+  s_bf21f93ac04a33::t_b04e9f7c009518 31-32,191,199,232
+guides-and-tips/guides/cloudflare-workers.md
+  s_bf21f93ac04a33::t_4625736f65d606 17-18,73
+guides-and-tips/guides/cpanel.md
+  s_bf21f93ac04a33::t_d4571617d09631 3,9
+guides-and-tips/guides/curl.md
+  s_bf21f93ac04a33::t_fa54924f32cbd9 15-16
+guides-and-tips/guides/deno.md
+  s_bf21f93ac04a33::t_4c646ce2ece1c9 11-12
+guides-and-tips/guides/fastapi.md
+  s_bf21f93ac04a33::t_e4de8d229a9509 7,11-12
+guides-and-tips/guides/firebase.md
+  s_bf21f93ac04a33::t_3e31f1b8a4d66e 14
+guides-and-tips/guides/hono.md
+  s_bf21f93ac04a33::t_aa8fc7f4056745 11-12
+guides-and-tips/guides/make.md
+  s_bf21f93ac04a33::t_273cef2b9b5020 32-33,183
+guides-and-tips/guides/nuxt.md
+  s_bf21f93ac04a33::t_2feca48fc4ec4b 11-12
+guides-and-tips/guides/phoenix.md
+  s_bf21f93ac04a33::t_fe92f87f7c9d83 11-12
+guides-and-tips/guides/redwood.md
+  s_bf21f93ac04a33::t_e5958599275041 11-12
+guides-and-tips/guides/remix.md
+  s_bf21f93ac04a33::t_d69a7fc78fc9e4 13-14,56
+guides-and-tips/guides/retool/rest-api.md
+  s_bf21f93ac04a33::t_fdadc6827e98dd 31
+guides-and-tips/guides/salesforce.md
+  s_bf21f93ac04a33::t_3f70cbf9a34989 266
+guides-and-tips/guides/sinatra.md
+  s_bf21f93ac04a33::t_bdc244981a52a2 13-14,53
+guides-and-tips/guides/supabase/README.md
+  s_bf21f93ac04a33::t_4f6424683fdd16 11,19,35,48,65
+guides-and-tips/guides/supabase/contacts-management.md
+  s_bf21f93ac04a33::t_9c2d2430ac9385 24
+guides-and-tips/guides/supabase/transactional-emails.md
+  s_bf21f93ac04a33::t_34d0c9e5c1cd17 14,20
+guides-and-tips/guides/upyo.md
+  s_bf21f93ac04a33::t_748c9bbd485ffb 18
+guides-and-tips/guides/vercel/README.md
+  s_bf21f93ac04a33::t_e0837768855f35 3-4,7,9,11-12,14,16,18,20,22,24-73
+guides-and-tips/guides/vercel/connect.md
+  s_bf21f93ac04a33::t_9019ff0d6e3985 2-4,7,9,11-13,15,17-19,21,23-25,27-29,31,33,35-36,39,41,43,45-54,56-62,66-70,74-86,90,92,95,97-101,103,105-107,109,111-113,115,117,119,121-123,125,127-130,132,134,136,138-140,142,144-149,151,153-155,157,159-160,163-165,167-169,171,173-174,176-177,179,181-186,188-189,191-199
+guides-and-tips/guides/vercel/integration.md
+  s_bf21f93ac04a33::t_53e295511b623a 8,35,43,56,68,76,90,100
+guides-and-tips/guides/wget.md
+  s_bf21f93ac04a33::t_b9ce9bc4bdc7ac 13-14,49
+guides-and-tips/sdk/dotnet-integration.md
+  s_bf21f93ac04a33::t_6f394a3c313bd3 15
+guides-and-tips/sdk/elixir-integration.md
+  s_bf21f93ac04a33::t_288aa7b91a3e8f 15
+guides-and-tips/sdk/go-integration.md
+  s_bf21f93ac04a33::t_17afdc8556a31a 15
+guides-and-tips/sdk/java-integration.md
+  s_bf21f93ac04a33::t_da3abf8114d654 15
+guides-and-tips/sdk/nodejs-integration.md
+  s_bf21f93ac04a33::t_04e10ed079038a 15,83,93
+guides-and-tips/sdk/perl-integration.md
+  s_bf21f93ac04a33::t_028d5192a4e81d 13
+guides-and-tips/sdk/php-integration.md
+  s_bf21f93ac04a33::t_9ea160a01d0c87 15
+guides-and-tips/sdk/python-integration.md
+  s_bf21f93ac04a33::t_3b36440ba83d46 15
+guides-and-tips/sdk/ruby-integration.md
+  s_bf21f93ac04a33::t_f19728dfefe6fb 15,110,120
+guides-and-tips/sdk/scala-integration.md
+  s_bf21f93ac04a33::t_78c859deb7738c 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "982da93f43def23cd8dc20875e3e95a1b8b774c6",
+  "prompts": {},
+  "sessions": {
+    "s_bf21f93ac04a33": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fa766943-277a-4997-9087-6d6984c3de1e",
+        "model": "unknown"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}

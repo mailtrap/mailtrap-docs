@@ -1,0 +1,19 @@
+guides-and-tips/guides/symfony.md
+  s_523f07ebd541d5::t_1a3f5ef44d52f2 42,137,139-150,229,231,409,432,439,458
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0ff23e1b8f393cc3f026195909e16a955d41f93f",
+  "prompts": {},
+  "sessions": {
+    "s_523f07ebd541d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ff9119a2-d5ed-4866-837f-161a710509e2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}

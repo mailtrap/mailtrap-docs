@@ -1,0 +1,20 @@
+documentation/webhooks/README.md
+  s_e043eeb5c5373d::t_0559833bd17ba8 177,578
+  s_e043eeb5c5373d::t_145e419e8543b7 24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e41a3cd8221c13fe26b9cd1a1a73c3e6636b141e",
+  "prompts": {},
+  "sessions": {
+    "s_e043eeb5c5373d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5091aed7-7c01-4773-8846-dd2dae9f2d11",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}

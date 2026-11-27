@@ -1,0 +1,91 @@
+documentation/email-live-sending/analytics/mailbox-providers.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-82
+documentation/email-live-sending/advanced/excluding-specific-links-from-tracking.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-29
+documentation/email-live-sending/analytics/dashboard.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-104
+documentation/email-live-sending/setup/bulk-stream.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-271
+documentation/email-live-sending/setup/api-integration.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-115
+documentation/email-live-sending/advanced/unsubscribe-settings-footers-and-links.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-21
+documentation/email-marketing/automations.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 16,132,252
+documentation/email-live-sending/setup/sending-limits.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-51
+documentation/getting-started/before-you-start-sending.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 86
+documentation/email-live-sending/advanced/recipient-tracking-opt-outs.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-27
+documentation/SUMMARY.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 7,47,49-74
+documentation/for-ai-agents/ai-onboarding.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 23-24,48
+documentation/email-live-sending/advanced/auto-bcc.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-50
+documentation/email-live-sending/setup/smtp-integration.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-101
+documentation/email-live-sending/troubleshooting/sending-from-domain-not-allowed.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-79
+documentation/email-live-sending/overview.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-78
+documentation/email-live-sending/setup/README.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-83
+documentation/email-live-sending/troubleshooting/unauthorized-401-error.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-103
+documentation/email-live-sending/troubleshooting/README.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-36
+documentation/email-live-sending/glossary.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-118
+documentation/email-live-sending/troubleshooting/ssl-cipher-overlap-error.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-146
+documentation/deliverability/bounce-categorization.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 11
+documentation/email-live-sending/advanced/README.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-14
+documentation/email-live-sending/advanced/custom-variables.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-64
+documentation/webhooks/README.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 98
+documentation/email-live-sending/analytics/categories.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-54
+documentation/README.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 27,61,71-72,74,107,118
+documentation/account-and-organization/billing/plans.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 56
+documentation/email-live-sending/troubleshooting/ms-office-365-quarantine.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-51
+documentation/email-live-sending/troubleshooting/from-header-domain-mismatch.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-149
+documentation/email-live-sending/analytics/statuses-and-events.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-71
+documentation/faq.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 7,32-33,171
+documentation/email-live-sending/advanced/tracking-settings-opens-and-clicks-tracking.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-44
+documentation/getting-started/email-live-sending.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-512
+documentation/deliverability/feedback-loops.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 55
+documentation/email-live-sending/analytics/README.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-9
+documentation/email-live-sending/analytics/logs.md
+  s_30be04e20280cb::t_a2ee2c0c65e936 1-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2e4cee29bafc9fee0c0d5395a09d46ea45c612ef",
+  "prompts": {},
+  "sessions": {
+    "s_30be04e20280cb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7502b0b-c86d-4bb1-9954-0c189325f9c6",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}

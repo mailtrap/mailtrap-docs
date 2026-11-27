@@ -1,0 +1,375 @@
+documentation/email-marketing/campaigns/email-throttling.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 13
+documentation/getting-started/email-api-smtp.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 6,28,34,46-55,57,79,81,435,458,631-636
+documentation/account-and-billing/2fa.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 104
+documentation/email-sandbox/overview.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 30,40,54-57,312-314
+documentation/email-sandbox/setup/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 12
+guides-and-tips/guides/vercel/connect.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-199
+guides-and-tips/guides/vercel/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-73
+guides-and-tips/sdk/ruby-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15,110,120
+documentation/email-api-smtp/advanced/auto-bcc.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 12
+documentation/email-marketing/campaign-management/scheduling.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 5
+documentation/account-and-organization/management/organization-and-sub-accounts.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 20,29,38,184
+guides-and-tips/guides/make.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-183
+api-docs/SUMMARY.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/webhooks/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-999
+documentation/email-sandbox/automatic-email-forwarding.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/webhooks/static-ips-for-sending-and-webhooks.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-67
+guides-and-tips/ai-powered/antigravity.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-115
+guides-and-tips/guides/salesforce.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-306
+guides-and-tips/guides/supabase/contacts-management.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-391
+documentation/email-sandbox/glossary.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-33
+documentation/account-and-organization/notification-center.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 66,75
+documentation/email-marketing/contacts/lists.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 20
+guides-and-tips/ai-powered/bolt-new.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-53
+guides-and-tips/guides/aws-lambda.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-89
+guides-and-tips/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 24,32
+documentation/sending-domain/digitalocean.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-87
+guides-and-tips/sdk/go-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15
+documentation/email-api-smtp/troubleshooting/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 2-3,8,33
+documentation/email-sandbox/email-address-per-sandbox.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/email-api-smtp/troubleshooting/from-header-domain-mismatch.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 5,8,10,18,28,30,40,48,52,56,68,85,96,106,127,135,144,146
+documentation/privacy-and-security/activity-log.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+guides-and-tips/guides/astro.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-69
+CLAUDE.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 177-182
+documentation/email-sandbox/searching-messages.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/inbound-email/webhooks.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 33
+guides-and-tips/ai-powered/claude.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-107
+documentation/general/webhooks/campaigns-webhooks.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-22
+documentation/email-api-smtp/analytics/logs.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 19,55
+documentation/privacy-and-security/legal-policies.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/email-api-smtp/advanced/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 4-5,8,12,14
+documentation/account-and-organization/billing/faqs.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 9,13,15,19,85,89,170,172
+documentation/sending-domain/godaddy.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-85
+documentation/email-sandbox/management/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 6,10
+documentation/sending-domain/aws-route-53.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-91
+guides-and-tips/ai-powered/buildai.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-129
+guides-and-tips/guides/redwood.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-63
+documentation/deliverability/protecting-domain-security.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-119
+documentation/email-sandbox/testing/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 6,10
+guides-and-tips/ai-powered/qodo.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-111
+guides-and-tips/guides/cpanel.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-71
+documentation/deliverability/bounce-categorization.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-17
+documentation/email-api-smtp/analytics/dashboard.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 9,54,100
+documentation/account-and-organization/billing/plans.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 3-5,30,36-40,48,54,56,58,60,76,107,111,115,119-122,125,131,144-145,159,161-163,173,181,191,199,201,217,227
+documentation/sending-domain/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-291
+guides-and-tips/guides/retool/rest-api.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-87
+documentation/getting-started/email-marketing.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8,24,76
+guides-and-tips/sdk/dotnet-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15
+guides-and-tips/guides/better-auth.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-232
+documentation/email-templates/editing-and-customizing.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-85
+documentation/email-api-smtp/analytics/statuses-and-events.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 31,59
+documentation/email-marketing/email-templates.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 5,19,67,75,93
+documentation/email-api-smtp/custom-variables.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/email-templates/migrate-templates.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-425
+guides-and-tips/ai-powered/windsurf.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-130
+documentation/email-marketing/contacts/segments.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 62
+guides-and-tips/sdk/nodejs-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15,83,93
+documentation/email-sandbox/setup/sandbox-smtp-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+guides-and-tips/ai-powered/replit.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-52
+documentation/account-and-organization/management/manage-your-organization-without-accessing-sub-account-data.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-58
+documentation/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 61,69,73,75,107,118
+documentation/email-marketing/campaigns/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 5,9
+documentation/email-sandbox/troubleshooting.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 256,258
+documentation/email-sandbox/features-and-limits.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-48
+documentation/account-and-organization/management/sso/jumpcloud.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 78
+documentation/account-and-organization/billing/edu.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 21-24,32
+documentation/sending-domain/google-cloud-dns.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-95
+documentation/email-templates/integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-48
+documentation/sending-domain/squarespace.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-102
+guides-and-tips/ai-powered/anything.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-68
+guides-and-tips/ai-powered/v0.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-67
+documentation/for-ai-agents/tools/mailtrap-cli-app.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 45,166,198-209
+guides-and-tips/ai-powered/cursor.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-247
+guides-and-tips/guides/cloudflare-workers.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-73
+guides-and-tips/guides/vercel/integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-102
+guides-and-tips/guides/retool/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-56
+documentation/email-api-smtp/setup/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 10,31
+documentation/for-ai-agents/ai-onboarding.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 40,134-135,192
+documentation/email-sandbox/manual-email-forwarding.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/inbound-email/inbound-auto-forwarding-rules.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-134
+guides-and-tips/ai-powered/openclaw.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-156
+guides-and-tips/ai-powered/augment-code.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-118
+api-docs/authentication.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 13
+documentation/general/suppressions-list/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-98
+api-docs/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 23,32
+documentation/api-tokens.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-95
+guides-and-tips/guides/apache-airflow.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-179
+guides-and-tips/guides/upyo.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-213
+documentation/email-api-smtp/troubleshooting/ms-office-365-quarantine.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 4,50-51
+guides-and-tips/sdk/python-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15
+guides-and-tips/SUMMARY.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 18,20-51,53,55-75
+documentation/deliverability/feedback-loops.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-57
+documentation/email-sandbox/collaboration/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 10
+guides-and-tips/guides/sinatra.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-54
+documentation/email-api-smtp/advanced/tracking-settings-opens-and-clicks-tracking.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 36
+documentation/email-marketing/contacts/overview.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 140,175,199,225,255,287,337
+documentation/email-api-smtp/api-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8,39,41,63,87,102,106
+documentation/email-marketing/contacts/custom-fields.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 7,45
+documentation/email-api-smtp/analytics/mailbox-providers.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 18
+documentation/privacy-and-security/gdpr-compliance.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 6
+documentation/account-and-organization/management/user-groups.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 59,197
+documentation/deliverability/automated-domain-reputation-monitoring.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-263
+documentation/email-templates/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-178
+documentation/email-marketing/campaigns/statistics.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8,18
+documentation/faq.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-607
+documentation/email-sandbox/sandbox-api-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8,48
+guides-and-tips/guides/deno.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-66
+documentation/sending-domain/namecheap.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-89
+documentation/email-api-smtp/advanced/unsubscribe-settings-footers-and-links.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1
+documentation/email-sandbox/testing/bounce-rate.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 18
+documentation/for-ai-agents/tools/skills.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 3,27-29
+guides-and-tips/guides/curl.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-40
+documentation/account-and-organization/billing/non-profit-and-open-source.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 9,14
+guides-and-tips/guides/supabase/transactional-emails.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-148
+documentation/email-api-smtp/advanced/recipient-tracking-opt-outs.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 3
+guides-and-tips/sdk/php-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15
+documentation/getting-started/before-you-start-sending.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-92
+documentation/inbound-email/overview.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 35,46
+documentation/inbound-email/receiving-emails.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 43,58,60,81-83
+documentation/account-and-organization/billing/setup.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 9
+documentation/email-templates/handlebars.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-455
+documentation/SUMMARY.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 7,10,22-47,50-52,55-56,61-63,68-74,79-80,87-90,98-101,106-108,113,115-116,119,121-122,125-133,139,151-152,154-156,158,160,162-164,166
+guides-and-tips/ai-powered/github-copilot.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-142
+documentation/privacy-and-security/iso-certification.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 7
+guides-and-tips/ai-powered/lovable.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-56
+guides-and-tips/guides/remix.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-57
+guides-and-tips/guides/supabase/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-67
+documentation/deliverability/ip-warmup.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-40
+guides-and-tips/sdk/java-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15
+guides-and-tips/guides/fastapi.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-46
+documentation/for-ai-agents/tools/ai-inbox.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 20,43-49,51-54,56-59,61-62,64,66-70,72-76,82-87
+guides-and-tips/guides/nuxt.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-50
+guides-and-tips/ai-powered/reflex-build.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-55
+documentation/email-api-smtp/troubleshooting/unauthorized-401-error.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 4-5,8,12,14,22,32,38,42,53,59,87,98,100
+documentation/privacy-and-security/README.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8,16,18
+guides-and-tips/sdk/elixir-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 15
+guides-and-tips/sdk/perl-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 13
+documentation/email-templates/debugging.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-74
+guides-and-tips/guides/retool/openapi.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-174
+guides-and-tips/ai-powered/opencode.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-206
+documentation/general/webhooks/reputation-monitor-webhooks.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-25
+documentation/email-api-smtp/setup/bulk-stream.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 18,24,33,37-40,46,48,83,87,95,97,101,103,115,128,130,138,146,154,156,161-163,166,169,177,182,195,197,199-204,263,265-268,270
+documentation/email-marketing/contacts/import-contacts.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 5,86,255
+guides-and-tips/guides/phoenix.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-36
+guides-and-tips/ai-powered/leap-new.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-48
+guides-and-tips/sdk/scala-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 13
+guides-and-tips/guides/hono.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-54
+documentation/account-and-organization/billing/payment-issues.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/deliverability/deliverability-alerts.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-77
+documentation/for-ai-agents/tools/prompts.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 19
+documentation/general/suppressions-list/subscription-topics-unsubscribe-groups.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-175
+guides-and-tips/ai-powered/codex.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-146
+documentation/email-api-smtp/smtp-integration.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8,18,32,91,95,97
+documentation/sending-domain/cloudflare.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-91
+guides-and-tips/guides/zapier.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-151
+guides-and-tips/guides/wget.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-50
+guides-and-tips/guides/composio.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-133
+documentation/email-api-smtp/excluding-specific-links-from-tracking.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 8
+documentation/email-api-smtp/overview.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 2,4,24-25,30,43,50,64,68
+documentation/email-api-smtp/glossary.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-118
+documentation/account-and-organization/management/user-profile.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 13,21,23,27
+guides-and-tips/ai-powered/vs-code.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-125
+guides-and-tips/guides/n8n.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-127
+guides-and-tips/guides/firebase.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-192
+documentation/email-api-smtp/troubleshooting/sending-from-domain-not-allowed.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 5,8,10,13,18,20,30,34,38,44,54,66,75,77
+documentation/email-api-smtp/troubleshooting/ssl-cipher-overlap-error.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 6
+documentation/for-ai-agents/tools/mcp-server.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 7,11,14-17
+guides-and-tips/ai-powered/base44.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-43
+guides-and-tips/ai-powered/viasocket.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 1-284
+documentation/email-marketing/overview.md
+  s_bf21f93ac04a33::t_785b4187d0a3b4 12-15,156-157,182,184,186-189,191,193-195
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "70c82faac6dd05855ada53d43c513f31bd2b81b4",
+  "prompts": {},
+  "sessions": {
+    "s_bf21f93ac04a33": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fa766943-277a-4997-9087-6d6984c3de1e",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}

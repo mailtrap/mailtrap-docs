@@ -1,0 +1,24 @@
+guides-and-tips/README.md
+  s_d81a872e61ac71::t_bfd4f88cee186b 22
+guides-and-tips/guides/upsun.md
+  s_d81a872e61ac71::t_105e85a6edf715 178-358,370-386
+  s_d81a872e61ac71::t_2da0cfd58d14ff 1-177,359-369,387-411
+guides-and-tips/SUMMARY.md
+  s_d81a872e61ac71::t_bfd4f88cee186b 55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c54ca3a9387c5ed03f2f71dc5687a65dffca462e",
+  "prompts": {},
+  "sessions": {
+    "s_d81a872e61ac71": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d3cccb52-ef42-4024-a85e-8b4bb18924db",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}

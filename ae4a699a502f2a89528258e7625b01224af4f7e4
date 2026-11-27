@@ -1,0 +1,19 @@
+guides-and-tips/guides/upsun.md
+  s_e58094d3401aec::t_bdbc8abc476a4c 151
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ae4a699a502f2a89528258e7625b01224af4f7e4",
+  "prompts": {},
+  "sessions": {
+    "s_e58094d3401aec": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d8504363-c617-4b0a-ae2b-2b8798411845",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Maciej Walusiak <maciej.walusiak@railsware.com>"
+    }
+  }
+}
