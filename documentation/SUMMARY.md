@@ -113,6 +113,7 @@
 * [Overview](email-marketing/overview.md)
 * [Campaign management](email-marketing/campaigns/README.md)
   * [Email throttling](email-marketing/campaigns/email-throttling.md)
+  * [Campaign attachments](email-marketing/campaigns/attachments.md)
   * [Campaign scheduling](email-marketing/campaign-management/scheduling.md)
   * [Email templates](email-marketing/email-templates.md)
 * [Analytics & reports](email-marketing/analytics-and-reports/README.md)
