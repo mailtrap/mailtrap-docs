@@ -43,7 +43,7 @@ To remove a file, click the **×** on it.
 {% endstep %}
 {% endstepper %}
 
-You can add or remove files only while the campaign is a draft. After you schedule or send the campaign, its files cannot change.
+You can add or remove files only while the campaign is a draft. To change the files of a scheduled campaign, click **Cancel Scheduling** first. After the campaign starts sending, its files cannot change.
 
 ## Test the files
 
