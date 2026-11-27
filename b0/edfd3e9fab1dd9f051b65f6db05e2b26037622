@@ -1,0 +1,23 @@
+documentation/email-marketing/campaigns/attachments.md
+  s_03316471f1fb05::t_c7dcf396857f46 1-59
+documentation/SUMMARY.md
+  s_03316471f1fb05::t_7ee256dd50c862 116
+documentation/email-marketing/campaigns/README.md
+  s_03316471f1fb05::t_0f5394f537d6fe 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b0edfd3e9fab1dd9f051b65f6db05e2b26037622",
+  "prompts": {},
+  "sessions": {
+    "s_03316471f1fb05": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "abbac77f-71ac-436c-b525-a2fa26d7a62b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "IzikAJ <izikaj@gmail.com>"
+    }
+  }
+}
